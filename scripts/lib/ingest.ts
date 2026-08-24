@@ -1,5 +1,6 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Database, Json } from '@/db/database.types'
+import causeAreaMap from '@/data/cause-area-map.json'
 import causeTagsFile from '@/data/cause-tags.json'
 import overridesFile from '@/data/overrides.json'
 import { withAncestors } from './causes'
@@ -18,6 +19,11 @@ const OVERRIDES: Record<string, Partial<GrantInsert>> = (
 const MANUAL_TAGS: Record<string, string[]> = (
   causeTagsFile as never as { tags: Record<string, string[]> }
 ).tags
+const RECIPIENT_TAGS: Record<string, string[]> = Object.fromEntries(
+  Object.entries(
+    (causeAreaMap as never as { recipients: Record<string, string[] | string> }).recipients
+  ).filter(([slug]) => !slug.startsWith('_'))
+) as Record<string, string[]>
 
 const CHUNK = 500
 
@@ -117,6 +123,14 @@ export async function runIngest(
   const startedAt = new Date().toISOString()
   const resolver = await OrgResolver.load(db)
   const causeIds = await loadCauseIds(db)
+  // Recipient-based cause defaults (data/cause-area-map.json "recipients"):
+  // resolve the mapped slugs to org ids so grants to them can be tagged.
+  const recipientTagsByOrgId = new Map<string, string[]>()
+  {
+    const slugs = Object.keys(RECIPIENT_TAGS)
+    const { data } = await db.from('orgs').select('id, slug').in('slug', slugs).throwOnError()
+    for (const org of data ?? []) recipientTagsByOrgId.set(org.id, RECIPIENT_TAGS[org.slug])
+  }
   const existing = await loadExistingRecords(db, sourceId)
   const grantLinks = await loadGrantLinks(db, sourceId)
 
@@ -255,8 +269,13 @@ export async function runIngest(
     // prefix, so one entry can cover every donor to a project.
     const manualTags =
       MANUAL_TAGS[`${sourceId}:${p.key}`] ?? MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
+    // Recipient-based default: for orgs whose work is single-cause, the
+    // recipient determines the tag better than the grant text does.
+    const recipientTags = base.recipient_org_id
+      ? recipientTagsByOrgId.get(base.recipient_org_id)
+      : undefined
     // Always close tags over ancestors so filtering works at any level.
-    grantCauses.set(grantId, withAncestors(manualTags ?? p.parsed.causeSlugs))
+    grantCauses.set(grantId, withAncestors(manualTags ?? recipientTags ?? p.parsed.causeSlugs))
 
     const viaIds: string[] = []
     for (const viaName of viaNamesOverride ?? p.parsed.viaNames ?? []) {

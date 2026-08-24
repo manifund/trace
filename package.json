@@ -17,7 +17,8 @@
     "ingest:coefficient": "bun run scripts/ingest-coefficient.ts",
     "dedup": "bun run scripts/dedup.ts",
     "report-unmatched": "bun run scripts/report-unmatched.ts",
-    "verify": "bun run scripts/verify-totals.ts"
+    "verify": "bun run scripts/verify-totals.ts",
+    "report-untagged": "bun run scripts/report-untagged.ts"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
