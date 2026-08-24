@@ -1047,6 +1047,12 @@
     "jaan_online:f1c660c12ee747e7f6e1babd6cb841a51896ca39f383eb179cf4b46ded49bb46 || sff:9dd4fd366ee469a9de0d1b91d458cc278e3a65db449321b3a22d16adf39a83e2": "merged",
     "acx_grants:4982d0a7f61b9fff84fa3159260a26159b74c02b7589e150c9a93a48c10b9d99 || manifund:00e42405-930e-48e3-bf5f-20e6fe7ea959:acx-grants": "merged",
     "acx_grants:869c801754e079c4d76369bc2404a23b1a61b4dd8f6c1353d0c36450ced2b81d || manifund:ae5dcf32-3897-40d8-af89-6cc018f092f3:acx-grants": "merged",
-    "ftx_future_fund:e5cc9eb3e0a07ab4077bf2b91b009d5a1f7b969dcee818a0e2f089fc82b9a18a || org_reported:5bcdd6fe08fb87d057591d48587c39e8c878f6d2f8c6d38f78ae299e002efb5f": "merged"
+    "ftx_future_fund:e5cc9eb3e0a07ab4077bf2b91b009d5a1f7b969dcee818a0e2f089fc82b9a18a || org_reported:5bcdd6fe08fb87d057591d48587c39e8c878f6d2f8c6d38f78ae299e002efb5f": "merged",
+    "coefficient_giving:2893 || vipul_donations:7d16573a1dc9475b0554bcf59097bb91063990eac32380c1c335c09bcadb725c": "merged",
+    "jaan_online:381b673f60d6b99e61adcab4fcb7c130c1f3b51101aeb2a8e1f69496e2de08f0 || sff:1819ba807557aec8e0a402b88a15533ee6f50a3559a263e290e086db93e9f6df": "merged",
+    "jaan_online:1beb8c5cf7861065eb418354bf59ca837076ae96a4236c252981575d974d6fa6 || sff:bee8a224fe41793efd45d4ea9243bf5883e2bb87da4c2de7b0f0cfcfc2e0eae1": "merged",
+    "jaan_online:15a52d58c6b7471795b4223d65ecc134a6220e6bdfa6a5f8836ad2adf5feeee1 || sff:86db7e0c78484b87087101080ed4e73f75cd2ed3d0b2e40aa235614e064e5061": "merged",
+    "coefficient_giving:14429 || vipul_donations:620c95fdf2730131eddd5c2247079c90da2dbca741ddb7d68286af6412aad8b6": "merged",
+    "coefficient_giving:11122 || vipul_donations:989b80cbabbefe8e9f5cb6fbe84adb7d9394ef695397adc736f8e6eeb8a88edb": "merged"
   }
 }
