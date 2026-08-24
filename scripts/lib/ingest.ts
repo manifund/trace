@@ -207,6 +207,7 @@ export async function runIngest(
       note: _note,
       recipient_name: recipientNameOverride,
       fiscal_sponsor_name: sponsorNameOverride,
+      via_names: viaNamesOverride,
       ...fieldOverrides
     } = (OVERRIDES[`${sourceId}:${p.key}`] ??
       // Project-level fallback, mirroring MANUAL_TAGS: applies to every
@@ -216,6 +217,7 @@ export async function runIngest(
       note?: string
       recipient_name?: string
       fiscal_sponsor_name?: string
+      via_names?: string[]
     }
     const base: GrantInsert = {
       funder_org_id: await resolver.resolve(p.parsed.funderName, p.parsed.funderType),
@@ -257,7 +259,7 @@ export async function runIngest(
     grantCauses.set(grantId, withAncestors(manualTags ?? p.parsed.causeSlugs))
 
     const viaIds: string[] = []
-    for (const viaName of p.parsed.viaNames ?? []) {
+    for (const viaName of viaNamesOverride ?? p.parsed.viaNames ?? []) {
       viaIds.push(await resolver.resolve(viaName, 'fund'))
     }
     grantVias.set(grantId, Array.from(new Set(viaIds)))
