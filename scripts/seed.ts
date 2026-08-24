@@ -5,6 +5,7 @@
 // provisional org's grants are repointed and the org is deleted.
 import aliasesFile from '@/data/aliases.json'
 import orgsSeed from '@/data/orgs-seed.json'
+import reviewedFile from '@/data/reviewed-orgs.json'
 import { createAdminClient } from '@/db/supabase-admin'
 import { CAUSE_TREE } from '@/utils/cause-tree'
 import { normalizeName } from './lib/normalize'
@@ -253,6 +254,17 @@ async function main() {
       continue
     }
     await claimName(normalizeName(raw), raw, target.id, 'alias')
+  }
+
+  // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
+  // and correctly named; clears the needs_review flag without seeding them.
+  const reviewed = (reviewedFile as never as { slugs: string[] }).slugs
+  for (let from = 0; from < reviewed.length; from += 200) {
+    await db
+      .from('orgs')
+      .update({ needs_review: false })
+      .in('slug', reviewed.slice(from, from + 200))
+      .throwOnError()
   }
 
   console.log(

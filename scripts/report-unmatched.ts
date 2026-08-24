@@ -8,9 +8,18 @@ const db = createAdminClient()
 const STOPWORDS = new Set(['the', 'of', 'for', 'and', 'fund', 'foundation', 'institute', 'inc'])
 
 async function main() {
-  const { data: orgs } = await db.from('orgs').select('id, slug, name, needs_review').throwOnError()
-  const curated = (orgs ?? []).filter((org) => !org.needs_review)
-  const review = (orgs ?? []).filter((org) => org.needs_review)
+  const orgs: { id: string; slug: string; name: string; needs_review: boolean }[] = []
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('orgs')
+      .select('id, slug, name, needs_review')
+      .range(from, from + 999)
+      .throwOnError()
+    orgs.push(...(data ?? []))
+    if (!data || data.length < 1000) break
+  }
+  const curated = orgs.filter((org) => !org.needs_review)
+  const review = orgs.filter((org) => org.needs_review)
 
   const totals = new Map<string, { count: number; usd: number }>()
   for (let from = 0; ; from += 1000) {
