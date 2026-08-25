@@ -390,6 +390,17 @@
           "note": "spun out of ARC, renamed Dec 2023"
         }
       ]
+    },
+    {
+      "slug": "mit-fund",
+      "name": "MIT Fund",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Mit Fund",
+          "kind": "alias"
+        }
+      ]
     }
   ]
 }
