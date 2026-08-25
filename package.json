@@ -18,7 +18,8 @@
     "dedup": "bun run scripts/dedup.ts",
     "report-unmatched": "bun run scripts/report-unmatched.ts",
     "verify": "bun run scripts/verify-totals.ts",
-    "report-untagged": "bun run scripts/report-untagged.ts"
+    "report-untagged": "bun run scripts/report-untagged.ts",
+    "report-tranches": "bun run scripts/report-tranches.ts"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
