@@ -14,6 +14,20 @@ import type { GrantRow } from '@/db/grant'
 import { CAUSE_OPTIONS, CAUSE_PARENTS, CAUSE_TREE } from '@/utils/cause-tree'
 
 const NAMES = new Map(CAUSE_TREE.map((node) => [node.slug, node.name]))
+const MONTH_NAMES = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+]
 const TOP_LEVEL = CAUSE_TREE.filter((node) => !node.parent).map((node) => node.slug)
 const AIS_SUBCAUSES = CAUSE_TREE.filter((node) => node.parent === 'ai-safety').map((n) => n.slug)
 
@@ -162,41 +176,55 @@ export function ChartsView(props: { grants: GrantRow[] }) {
     const rows = props.grants.filter(
       (g) => inCause(g, cause) && (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
     )
+    // Monthly resolution: month index = year*12 + (month-1). Year-precision
+    // grants are amortized evenly across the year's 12 months.
     const totals = new Map<string, number>()
-    const perYear = new Map<string, Map<number, number>>()
-    let minYear = Infinity
-    let maxYear = -Infinity
+    const perMonth = new Map<string, Map<number, number>>()
+    let minMonth = Infinity
+    let maxMonth = -Infinity
     for (const grant of rows) {
       if (!grant.date || grant.amountUsd === null) continue
       const keys = groupKeys(grant, lineGroup)
       if (!keys) continue
       const year = Number(grant.date.slice(0, 4))
-      minYear = Math.min(minYear, year)
-      maxYear = Math.max(maxYear, year)
+      const parts: [number, number][] =
+        grant.datePrecision === 'year'
+          ? Array.from({ length: 12 }, (_, m) => [year * 12 + m, grant.amountUsd! / 12])
+          : [[year * 12 + Number(grant.date.slice(5, 7)) - 1, grant.amountUsd]]
+      for (const [month] of parts) {
+        minMonth = Math.min(minMonth, month)
+        maxMonth = Math.max(maxMonth, month)
+      }
       for (const key of keys) {
         totals.set(key, (totals.get(key) ?? 0) + grant.amountUsd)
-        const m = perYear.get(key) ?? new Map<number, number>()
-        m.set(year, (m.get(year) ?? 0) + grant.amountUsd)
-        perYear.set(key, m)
+        const m = perMonth.get(key) ?? new Map<number, number>()
+        for (const [month, value] of parts) m.set(month, (m.get(month) ?? 0) + value)
+        perMonth.set(key, m)
       }
     }
     const top = Array.from(totals.entries())
       .sort((a, b) => b[1] - a[1])
       .slice(0, lineCount)
       .map(([name]) => name)
-    const years: number[] = []
-    if (minYear !== Infinity) for (let y = minYear; y <= maxYear; y++) years.push(y)
+    const months: number[] = []
+    if (minMonth !== Infinity) for (let m = minMonth; m <= maxMonth; m++) months.push(m)
     const series = top.map((name, i) => {
       const points = new Map<number, number>()
       let running = 0
-      for (const year of years) {
-        const value = perYear.get(name)?.get(year) ?? 0
+      for (const month of months) {
+        const value = perMonth.get(name)?.get(month) ?? 0
         running += value
-        points.set(year, lineCumulative ? running : value)
+        points.set(month, lineCumulative ? running : value)
       }
       return { name, color: SERIES[i % SERIES.length], points }
     })
-    return { series, years }
+    // Tick on Januaries, thinned to at most ~16 labels.
+    const jans = months.filter((m) => m % 12 === 0)
+    const step = Math.max(1, Math.ceil(jans.length / 16))
+    const xTicks = jans
+      .filter((_, i) => i % step === 0)
+      .map((m) => ({ value: m, label: `${Math.floor(m / 12)}` }))
+    return { series, months, xTicks }
   }, [props.grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount, lineCumulative])
 
   // Chart 3: donut
@@ -312,7 +340,12 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             <option value="cumulative">Cumulative</option>
           </select>
         </div>
-        <YearLineChart series={lineData.series} years={lineData.years} />
+        <YearLineChart
+          series={lineData.series}
+          years={lineData.months}
+          xTicks={lineData.xTicks}
+          fmtX={(m) => `${MONTH_NAMES[m % 12]} ${Math.floor(m / 12)}`}
+        />
       </section>
 
       <section>

@@ -9,7 +9,7 @@ import { createAdminClient } from '@/db/supabase-admin'
 
 const db = createAdminClient()
 
-type Bucket = 'ai' | 'animal' | 'other'
+type Bucket = 'ai' | 'animal' | 'bio' | 'xrisk' | 'other'
 type Estimate = {
   funderSlug: string | null // null = org may not exist yet; no subtraction possible
   funderName: string
@@ -43,14 +43,17 @@ for (const [year, [ai, other]] of Object.entries(longview)) {
     totalUsd: ai,
     note: yearNote('Longview Philanthropy', year),
   })
-  ESTIMATES.push({
-    funderSlug: 'longview-philanthropy',
-    funderName: 'Longview Philanthropy',
-    date: year,
-    bucket: 'other',
-    totalUsd: other,
-    note: yearNote('Longview Philanthropy', year),
-  })
+  // Non-AI giving split evenly between biosecurity and other existential risk.
+  for (const bucket of ['bio', 'xrisk'] as Bucket[]) {
+    ESTIMATES.push({
+      funderSlug: 'longview-philanthropy',
+      funderName: 'Longview Philanthropy',
+      date: year,
+      bucket,
+      totalUsd: other / 2,
+      note: `${yearNote('Longview Philanthropy', year)} Non-AI giving is split evenly between biosecurity and other existential risk.`,
+    })
+  }
 }
 const macroscopic: Record<string, number> = {
   '2026': 70e6,
@@ -110,10 +113,19 @@ async function main() {
   const { data: causeRows } = await db
     .from('cause_areas')
     .select('id, slug')
-    .in('slug', ['ai-safety', 'animal-welfare'])
+    .in('slug', ['ai-safety', 'animal-welfare', 'biosecurity', 'x-risk-other'])
     .throwOnError()
-  const aiCauseId = causeRows!.find((c) => c.slug === 'ai-safety')!.id
-  const animalCauseId = causeRows!.find((c) => c.slug === 'animal-welfare')!.id
+  const causeId = (slug: string) => causeRows!.find((c) => c.slug === slug)!.id
+  const bucketOf = (tagIds: Set<string>): Bucket =>
+    tagIds.has(causeId('ai-safety'))
+      ? 'ai'
+      : tagIds.has(causeId('animal-welfare'))
+        ? 'animal'
+        : tagIds.has(causeId('biosecurity'))
+          ? 'bio'
+          : tagIds.has(causeId('x-risk-other'))
+            ? 'xrisk'
+            : 'other'
 
   // Recorded per funder-year-bucket totals, excluding this source's own rows.
   const recorded = new Map<string, number>()
@@ -142,29 +154,40 @@ async function main() {
       const year = (grant.grant_date ?? '').slice(0, 4)
       if (!year) continue
       const tags = grant.grant_cause_areas as never as { cause_area_id: string }[]
-      const bucket: Bucket = tags.some((t) => t.cause_area_id === aiCauseId)
-        ? 'ai'
-        : tags.some((t) => t.cause_area_id === animalCauseId)
-          ? 'animal'
-          : 'other'
+      const bucket = bucketOf(new Set(tags.map((t) => t.cause_area_id)))
       const key = `${slug}|${year}|${bucket}`
       recorded.set(key, (recorded.get(key) ?? 0) + (grant.amount_usd ?? 0))
     }
   }
 
-  // Funders without a dedicated animal-welfare estimate fold recorded
-  // animal-tagged grants into their 'other' bucket instead.
-  const hasAnimalEstimate = new Set(
-    ESTIMATES.filter((e) => e.bucket === 'animal').map((e) => e.funderSlug)
-  )
+  // Recorded grants in buckets a funder has no estimate for fold into its
+  // catch-all bucket (first of other > xrisk > ai with an estimate row).
+  const ALL_BUCKETS: Bucket[] = ['ai', 'animal', 'bio', 'xrisk', 'other']
+  const estimatedBuckets = new Map<string, Set<Bucket>>()
+  for (const est of ESTIMATES) {
+    if (!est.funderSlug) continue
+    const set = estimatedBuckets.get(est.funderSlug) ?? new Set<Bucket>()
+    set.add(est.bucket)
+    estimatedBuckets.set(est.funderSlug, set)
+  }
+  const catchAll = (slug: string): Bucket => {
+    const set = estimatedBuckets.get(slug) ?? new Set<Bucket>()
+    for (const bucket of ['other', 'xrisk', 'ai'] as Bucket[]) if (set.has(bucket)) return bucket
+    return 'other'
+  }
   const rows = []
   for (const est of ESTIMATES) {
     const year = est.date.slice(0, 4)
     let subtracted = est.funderSlug
       ? (recorded.get(`${est.funderSlug}|${year}|${est.bucket}`) ?? 0)
       : 0
-    if (est.bucket === 'other' && est.funderSlug && !hasAnimalEstimate.has(est.funderSlug))
-      subtracted += recorded.get(`${est.funderSlug}|${year}|animal`) ?? 0
+    if (est.funderSlug && est.bucket === catchAll(est.funderSlug)) {
+      const set = estimatedBuckets.get(est.funderSlug) ?? new Set<Bucket>()
+      for (const other of ALL_BUCKETS) {
+        if (other === est.bucket || set.has(other)) continue
+        subtracted += recorded.get(`${est.funderSlug}|${year}|${other}`) ?? 0
+      }
+    }
     const remainder = Math.round(est.totalUsd - subtracted)
     if (remainder <= 0) {
       console.log(`SKIP ${est.funderName} ${est.date} ${est.bucket}: recorded exceeds estimate`)
@@ -177,12 +200,13 @@ async function main() {
       currency: 'USD',
       date: est.date,
       description: null,
-      program:
-        est.bucket === 'ai'
-          ? 'Aggregate estimate — AI safety'
-          : est.bucket === 'animal'
-            ? 'Aggregate estimate — animal welfare'
-            : 'Aggregate estimate — other causes',
+      program: {
+        ai: 'Aggregate estimate — AI safety',
+        animal: 'Aggregate estimate — animal welfare',
+        bio: 'Aggregate estimate — biosecurity',
+        xrisk: 'Aggregate estimate — other existential risk',
+        other: 'Aggregate estimate — other causes',
+      }[est.bucket],
       sourceUrl: null,
       amountEstimated: true,
       estimateNote: est.note,

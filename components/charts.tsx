@@ -128,9 +128,13 @@ export function YearBarChart(props: {
 }
 
 // --------------------------------------------------------------- line chart
+// x values are arbitrary integers (years, or month indexes year*12+m); pass
+// xTicks for axis labels and fmtX for tooltip headers when not plain years.
 export function YearLineChart(props: {
   series: { name: string; color: string; points: Map<number, number> }[]
   years: number[]
+  xTicks?: { value: number; label: string }[]
+  fmtX?: (x: number) => string
   height?: number
 }) {
   const [tip, setTip] = useState<Tip>(null)
@@ -165,7 +169,7 @@ export function YearLineChart(props: {
     )
     setHoverYear(year)
     const lines = [
-      `${year}`,
+      props.fmtX ? props.fmtX(year) : `${year}`,
       ...props.series
         .map((s) => ({ s, v: s.points.get(year) }))
         .filter((e2) => e2.v !== undefined)
@@ -197,20 +201,23 @@ export function YearLineChart(props: {
             </text>
           </g>
         ))}
-        {years
-          .filter((yr, i) => years.length <= 16 || i % Math.ceil(years.length / 16) === 0)
-          .map((yr) => (
-            <text
-              key={yr}
-              x={x(yr)}
-              y={H - 6}
-              textAnchor="middle"
-              fontSize="10"
-              fill="var(--ink-muted)"
-            >
-              {yr}
-            </text>
-          ))}
+        {(
+          props.xTicks ??
+          years
+            .filter((yr, i) => years.length <= 16 || i % Math.ceil(years.length / 16) === 0)
+            .map((yr) => ({ value: yr, label: `${yr}` }))
+        ).map((tick) => (
+          <text
+            key={tick.value}
+            x={x(tick.value)}
+            y={H - 6}
+            textAnchor="middle"
+            fontSize="10"
+            fill="var(--ink-muted)"
+          >
+            {tick.label}
+          </text>
+        ))}
         {hoverYear !== null && (
           <line
             x1={x(hoverYear)}

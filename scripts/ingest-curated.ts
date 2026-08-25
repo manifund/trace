@@ -132,6 +132,8 @@ const SOURCES: CuratedSource[] = [
       if (/coefficient giving/i.test(program)) return ['other']
       if (/ai safety/i.test(program)) return ['ai-safety']
       if (/animal welfare/i.test(program)) return ['animal-welfare']
+      if (/biosecurity/i.test(program)) return ['biosecurity']
+      if (/existential risk/i.test(program)) return ['x-risk-other']
       if (/other causes/i.test(program)) return ['other']
       return null
     },

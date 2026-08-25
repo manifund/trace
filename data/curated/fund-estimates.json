@@ -16,14 +16,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 2000000,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2018",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2018; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2018; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 1000000,
+      "currency": "USD",
+      "date": "2018",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2018; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -40,14 +52,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 7000000,
+      "amount": 3500000,
       "currency": "USD",
       "date": "2019",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2019; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2019; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 3500000,
+      "currency": "USD",
+      "date": "2019",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2019; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -64,14 +88,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 7000000,
+      "amount": 3500000,
       "currency": "USD",
       "date": "2020",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2020; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2020; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 3500000,
+      "currency": "USD",
+      "date": "2020",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2020; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -88,14 +124,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 7000000,
+      "amount": 3500000,
       "currency": "USD",
       "date": "2021",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2021; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2021; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 3500000,
+      "currency": "USD",
+      "date": "2021",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2021; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -112,14 +160,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 7895000,
+      "amount": 3940000,
       "currency": "USD",
       "date": "2022",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2022; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2022; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 3955000,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2022; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -136,14 +196,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 10698000,
+      "amount": 5270000,
       "currency": "USD",
       "date": "2023",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2023; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2023; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 5428000,
+      "currency": "USD",
+      "date": "2023",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2023; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -160,14 +232,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 10907286,
+      "amount": 6000000,
       "currency": "USD",
       "date": "2024",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2024; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2024; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 4907286,
+      "currency": "USD",
+      "date": "2024",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2024; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -184,14 +268,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 54600000,
+      "amount": 30000000,
       "currency": "USD",
       "date": "2025",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2025; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2025; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 24600000,
+      "currency": "USD",
+      "date": "2025",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2025; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -208,14 +304,26 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 200000000,
+      "amount": 100000000,
       "currency": "USD",
       "date": "2026",
       "description": null,
-      "program": "Aggregate estimate — other causes",
+      "program": "Aggregate estimate — biosecurity",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2026; grants recorded individually in this database are subtracted from the total."
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2026; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Longview Philanthropy",
+      "amount": 100000000,
+      "currency": "USD",
+      "date": "2026",
+      "description": null,
+      "program": "Aggregate estimate — other existential risk",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given out by Longview Philanthropy in 2026; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
     },
     {
       "recipient": "Various Recipients",
@@ -520,7 +628,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "AI Safety Tactical Opportunities Fund",
-      "amount": 4987000,
+      "amount": 4984000,
       "currency": "USD",
       "date": "2024",
       "description": null,
@@ -532,7 +640,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "AI Safety Tactical Opportunities Fund",
-      "amount": 13706358,
+      "amount": 13515196,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -544,7 +652,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "AI Safety Tactical Opportunities Fund",
-      "amount": 23289904,
+      "amount": 22739904,
       "currency": "USD",
       "date": "2026",
       "description": null,
