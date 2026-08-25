@@ -2115,6 +2115,40 @@
       "sourceUrl": "https://www.lesswrong.com/posts/5n2ZQcbc7r4R8mvqc/lightcone-infrastructure-fundraiser",
       "amountEstimated": true,
       "estimateNote": "Lightcone Infrastructure reported raising over $2.1m when its 2024–25 LessWrong + Lighthaven fundraiser closed on 19 January 2025; the $187,212 of fundraiser donations recorded individually in this database is subtracted from that total."
+    },
+    {
+      "recipient": "Lightcone Infrastructure",
+      "funder": "Various Donors",
+      "amount": 1855000,
+      "currency": "USD",
+      "date": "2025-12-13",
+      "datePrecision": "day",
+      "description": "Donations to the fundraiser launched in December 2025 that are not itemized individually",
+      "sourceUrl": "https://www.lesswrong.com/posts/eKGdCNdKjvTBG9i6y/toss-a-bitcoin-to-your-lightcone-lw-lighthaven-s-2026",
+      "amountEstimated": true,
+      "estimateNote": "Lightcone Infrastructure said it needed about $2m for the year in the fundraiser it launched on 13 December 2025; no closing total was posted, so the round is estimated at $2m and the $145,000 of donations recorded individually in this database is subtracted."
+    },
+    {
+      "recipient": "Transluce",
+      "funder": "Various Donors",
+      "amount": 6880000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Donations not itemized individually",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total donations to Transluce of $6,900,000 in 2024; the $20,000 recorded individually in this database is subtracted."
+    },
+    {
+      "recipient": "Transluce",
+      "funder": "Various Donors",
+      "amount": 10000000,
+      "currency": "USD",
+      "date": "2025",
+      "description": "Donations not itemized individually",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total donations to Transluce of $10,000,000 in 2025; no donations for that year are recorded individually in this database."
     }
   ]
 }
