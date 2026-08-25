@@ -87,8 +87,7 @@ jobs:
         run: |
           PENDING=$( (grep -o '"pending":[0-9]*' /tmp/dedup.txt || true) | tail -1 | cut -d: -f2)
           FLAGGED=$( (grep -o '^[0-9]*' <<< "$(head -1 /tmp/unmatched.txt)") || true)
-          # 2 permanently held-back orgs are expected; more means new arrivals.
-          if [ "${PENDING:-0}" -gt 0 ] || [ "${FLAGGED:-0}" -gt 2 ]; then
+          if [ "${PENDING:-0}" -gt 0 ] || [ "${FLAGGED:-0}" -gt 0 ]; then
             TITLE="Weekly ingest: curation needed ($(date +%Y-%m-%d))"
             {
               echo "From the [workflow run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID): $PENDING pending dedup candidate(s), $FLAGGED flagged org(s)."

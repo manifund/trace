@@ -74,18 +74,6 @@
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Matthias Hein",
-      "amount": 370000,
-      "currency": "USD",
-      "date": "2025-02-11",
-      "datePrecision": "day",
-      "description": "Project: Long-Term Safety Behavior of Agents. Name abbreviated on project page ('M. Hein'); full name confirmed in Schmidt Sciences awardee directory. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
-      "amountEstimated": true,
-      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
-    },
-    {
       "recipient": "Zhijing Jin",
       "amount": 370000,
       "currency": "USD",
@@ -158,12 +146,12 @@
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "A. Leshinskaya (rendered 'Aleshinskaya' on source page)",
+      "recipient": "Anna Leshinskaya",
       "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
-      "description": "Project: Mechanistic Cognitive Alignment for Morally Guided Decision-Making. PI name rendered ambiguously on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
+      "description": "Project: Mechanistic Cognitive Alignment for Morally Guided Decision-Making. PI name rendered ambiguously on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed. PI identified by Caroline.",
       "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
       "amountEstimated": true,
@@ -230,12 +218,12 @@
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Raghunathan (first name not shown on source page)",
+      "recipient": "Aditi Raghunathan",
       "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
-      "description": "Project: Multi-Agent AI Safety via Dynamic Games. PI surname only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
+      "description": "Project: Multi-Agent AI Safety via Dynamic Games. PI identified by Caroline.",
       "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
       "amountEstimated": true,
@@ -254,24 +242,24 @@
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "D. Song (first name not fully shown on source page)",
+      "recipient": "Dawn Song",
       "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
-      "description": "Project: Exploring AI Safety in Free-Form, Evolutionary Multi-Agent Systems. PI initial only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
+      "description": "Project: Exploring AI Safety in Free-Form, Evolutionary Multi-Agent Systems. PI initial only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed. PI identified by Caroline.",
       "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
       "amountEstimated": true,
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Xiao (first name not shown on source page)",
+      "recipient": "Zhiqiang Lin",
       "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
-      "description": "Project: Evaluating and Defending Multimodal Computer-Use Agents under Adversarial Attacks with a Realistic Online Environment. PI surname only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
+      "description": "Project: Evaluating and Defending Multimodal Computer-Use Agents under Adversarial Attacks with a Realistic Online Environment. PI identified by Caroline.",
       "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
       "amountEstimated": true,
@@ -578,87 +566,7 @@
       "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Maksym Andriushchenko",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Taylor Berg-Kirkpatrick",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
       "recipient": "Thomas Costello",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Francesco Croce",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Chris Cundy",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Loris D'Antoni",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Benjamin Van Durme",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Sebastian Elbaum",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Lu Feng",
       "amount": null,
       "currency": "USD",
       "date": "2025",
@@ -678,77 +586,7 @@
       "sourceUrl": "https://www.schmidtsciences.org/awardees/"
     },
     {
-      "recipient": "Zsolt Kira",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Sachin Kumar",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Zhiqiang Lin",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Sijia Liu",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Anqi Liu",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
       "recipient": "Graham Neubig",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Chan Young Park",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Listed in Schmidt Sciences awardee directory under Science of Trustworthy AI; specific project/round not shown (possibly co-PI or inference-time cohort PI).",
-      "program": "Science of Trustworthy AI",
-      "sourceUrl": "https://www.schmidtsciences.org/awardees/"
-    },
-    {
-      "recipient": "Kellin Pelrine",
       "amount": null,
       "currency": "USD",
       "date": "2025",
