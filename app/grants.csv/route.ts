@@ -58,7 +58,7 @@ export async function GET(request: Request) {
   return new Response(lines.join('\n'), {
     headers: {
       'content-type': 'text/csv; charset=utf-8',
-      'content-disposition': 'attachment; filename="grantbook.csv"',
+      'content-disposition': 'attachment; filename="trace.csv"',
     },
   })
 }

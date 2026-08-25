@@ -2,7 +2,7 @@
 // MySQL INSERT files under sql/donations/ from raw GitHub, pinned to a commit
 // SHA for reproducibility. The full corpus spans all cause areas (~207K rows,
 // $72B); v1 keeps the x-risk / EA cluster and leaves global health & similar
-// out — widen KEEP if grantbook broadens.
+// out — widen KEEP if Trace broadens.
 // Amounts: the `amount` column is already USD-converted upstream; the original
 // currency amount stays in raw.
 import { classifyCauses } from './lib/causes'
@@ -23,7 +23,7 @@ const PRECISION: Record<string, 'day' | 'month' | 'year'> = {
 }
 
 async function githubJson(url: string): Promise<unknown> {
-  const res = await fetch(url, { headers: { 'user-agent': 'grantbook-ingest' } })
+  const res = await fetch(url, { headers: { 'user-agent': 'trace-ingest' } })
   if (!res.ok) throw new Error(`GitHub API ${res.status}: ${url}`)
   return res.json()
 }

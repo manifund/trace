@@ -1,5 +1,5 @@
 {
-  "_comment": "Maps source-side cause labels to grantbook cause slugs. `funds` are per-funder defaults applied when a source has no per-grant cause data; `labels` are exact source cause strings (Vipul cause areas, Manifund cause slugs); `keywords` drive the fallback classifier over grant descriptions (first matching group wins, checked in order).",
+  "_comment": "Maps source-side cause labels to Trace cause slugs. `funds` are per-funder defaults applied when a source has no per-grant cause data; `labels` are exact source cause strings (Vipul cause areas, Manifund cause slugs); `keywords` drive the fallback classifier over grant descriptions (first matching group wins, checked in order).",
   "funds": {
     "Long-Term Future Fund": "keyword",
     "Transformative AI Fund": "ai-safety",

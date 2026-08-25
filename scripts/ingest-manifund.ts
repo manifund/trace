@@ -79,7 +79,7 @@ async function fetchDirect(): Promise<Project[]> {
   return all
 }
 
-// Normalized names of every org already known to grantbook (org_names rows
+// Normalized names of every org already known to Trace (org_names rows
 // plus alias keys). Used to detect org-run projects by their title.
 const PROJECT_ORGS: Record<string, string> = Object.fromEntries(
   Object.entries(

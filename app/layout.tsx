@@ -17,7 +17,7 @@ const plexCondensed = IBM_Plex_Sans_Condensed({
 })
 
 export const metadata: Metadata = {
-  title: 'Grantbook',
+  title: 'Trace',
   description: 'A database of AI safety grants, aggregated from public sources.',
 }
 
@@ -27,7 +27,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
       <body className="mx-auto max-w-7xl px-4 py-6">
         <header className="mb-6 flex items-baseline gap-6 border-b border-rule pb-3">
           <Link href="/" className="font-serif text-xl font-bold !text-ink hover:!no-underline">
-            Grantbook
+            Trace
           </Link>
           <nav className="flex gap-4 text-sm">
             <Link href="/">Grants</Link>

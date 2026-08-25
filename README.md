@@ -1,6 +1,6 @@
-# Grantbook
+# Trace
 
-Database of AI safety grants — [grantbook.vercel.app](https://grantbook.vercel.app). See `CLAUDE.md` for architecture and commands.
+Database of AI safety grants — [trace.manifund.org](https://trace.manifund.org). See `CLAUDE.md` for architecture and commands.
 
 ## Run the site locally (read-only, against the live database)
 

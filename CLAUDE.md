@@ -1,4 +1,4 @@
-# Grantbook
+# Trace
 
 Database of AI safety grants aggregated from public sources. Next.js + Supabase, read-only site; all writes happen through ingestion scripts.
 
