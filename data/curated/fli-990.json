@@ -1,0 +1,45 @@
+{
+  "_comment": "Grants disclosed in the Future of Life Institute's Form 990 filings (Schedule I and Schedule F), read from the IRS e-file XML in the Giving Tuesday data lake. Separate from fli.json (their website's grant programs) so the monthly agent refresh never touches these rows.",
+  "grants": [
+    {
+      "recipient": "Future of Life Institute",
+      "funder": "Vitalik Buterin",
+      "amount": 549531672,
+      "currency": "USD",
+      "date": "2021",
+      "description": "Donation of SHIB tokens; FLI’s Form 990 reports $549,531,672 of revenue for the 2021 tax year",
+      "program": "Form 990 (2021)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full"
+    },
+    {
+      "recipient": "Lightcone Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 50006500,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Grant to establish the Lightcone Foundation",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "Future of Life Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 25025000,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Grant to establish and fund the Future of Life Foundation",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "Future of Life Institute Europe",
+      "funder": "Future of Life Institute",
+      "amount": 180297079,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Establishing and funding Europe-based affiliate (Schedule F, Europe)",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    }
+  ]
+}

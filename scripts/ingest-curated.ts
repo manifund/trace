@@ -107,6 +107,13 @@ const SOURCES: CuratedSource[] = [
     },
   },
   {
+    sourceId: 'fli_990',
+    file: 'fli-990.json',
+    defaultFunder: 'Future of Life Institute',
+    funderType: 'organization',
+    programCauses: () => ['ai-safety'],
+  },
+  {
     sourceId: 'macroscopic',
     file: 'macroscopic.json',
     defaultFunder: 'Macroscopic Ventures',

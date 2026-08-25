@@ -93,6 +93,12 @@ const SOURCES = [
     tier: 3,
   },
   {
+    id: 'fli_990',
+    name: 'FLI Form 990',
+    url: 'https://projects.propublica.org/nonprofits/organizations/471052538',
+    tier: 2,
+  },
+  {
     id: 'macroscopic',
     name: 'Macroscopic Ventures grants page',
     url: 'https://macroscopic.org/grants',
