@@ -129,6 +129,7 @@ const SOURCES: CuratedSource[] = [
     defaultFunder: 'Undisclosed',
     funderType: 'fund',
     programCauses: (program) => {
+      if (/coefficient giving/i.test(program)) return ['other']
       if (/ai safety/i.test(program)) return ['ai-safety']
       if (/animal welfare/i.test(program)) return ['animal-welfare']
       if (/other causes/i.test(program)) return ['other']
