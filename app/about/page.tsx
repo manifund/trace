@@ -8,7 +8,7 @@ export default async function Page() {
     <div className="max-w-3xl">
       <p className="mb-4">
         Trace compiles data on donations from a variety of sources. The code is open-source and
-        can be seen at <a href="https://github.com/manifund/grantbook">GitHub</a>. The compilation
+        can be seen at <a href="https://github.com/manifund/trace">GitHub</a>. The compilation
         is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>;
         underlying records come from the listed sources.
       </p>
