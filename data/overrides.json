@@ -2145,6 +2145,10 @@
         "University of California, Santa Cruz"
       ]
     },
+    "jaan_online:00a87389057507f95b2322ec5199761aa32b94ca111c3eccde7aa83825ab3120": {
+      "recipient_name": "Orthogonal",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:039d3bcd8645c76d9716761f984f12e94c53248a06d27ad00dd9fb818b52fba0": {
       "recipient_name": "Roman Yampolskiy",
       "via_names": [
@@ -2159,12 +2163,24 @@
         "University of Louisville"
       ]
     },
+    "jaan_online:0b5cc5ab5ed6948801113ea4103fb6c6f194a58bba2639d554829df667701730": {
+      "recipient_name": "Orthogonal",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:0be35e0fa2ed914ce3a11d63a46af2d6c0cbf4f7eb2688f399fbee3e54ffb365": {
+      "recipient_name": "Decode Research",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:1056367f01659561496c748a302dc36c4e54cb0a80eff5ecedd9f2224535a821": {
       "recipient_name": "Allen Discovery Center",
       "via_names": [
         "Survival and Flourishing Fund",
         "Tufts University"
       ]
+    },
+    "jaan_online:130a024ade91f847399cb45fa81b054cb6ce89734a78ac96e60518865cffb795": {
+      "recipient_name": "Apart Research",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:1592081b38d81748120ca482058ec8288f62b7d5d1cdf62c46fae9ad011b736d": {
       "recipient_name": "Alabama Law AI Initiative",
@@ -2224,11 +2240,23 @@
         "University of Oxford"
       ]
     },
+    "jaan_online:2ffd9c7d2dc13c695d25c47e0650b233c17b946b194f7fe8c21a634102449286": {
+      "recipient_name": "Decode Research",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:3190c540662e4d5271eb8e86ebc4955dd154b4ebb9aa5e8968ccba8efa83a1ef": {
+      "recipient_name": "Learning Theoretic Employment and Resources Project",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:35f40e681f87c91143232dc32fca3f69b6be3fa38d4b0f3e5d583ab7f8cd8d00": {
       "recipient_name": "Future of Humanity Institute",
       "via_names": [
         "University of Oxford"
       ]
+    },
+    "jaan_online:3665aa4ca94dff791d5ca59f5139691d64278db0d9cfabc5f2b49c4e3e9dc13f": {
+      "recipient_name": "Timaeus",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:37306df8384088596b0292b7eab1622f284d0ea2ec4a1d210dc63f9c56a78de4": {
       "recipient_name": "Roman Yampolskiy",
@@ -2236,6 +2264,10 @@
         "Survival and Flourishing Fund",
         "University of Louisville"
       ]
+    },
+    "jaan_online:376f64bb4c5e776cd6b6e7f3dd83fd79f09f8ae84dbbb619bec619270fcef97b": {
+      "recipient_name": "AI Safety Info",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:37d072d4ccfd1c8df38297bf18e37b7cbae69d3aaddde018e52c4d43c9364855": {
       "note": "Paid to Center for Applied Rationality; the grant was for Lightcone Infrastructure (BERI-era regrant)",
@@ -2249,12 +2281,20 @@
         "Carnegie Mellon University"
       ]
     },
+    "jaan_online:3908f2b43db6b868e5d6a9eacfab3664f9584eb59cbd8a592fe5ed1a11b6ea66": {
+      "recipient_name": "Agent Foundations Field Network",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:3d2a28437aaad0bc6ac32b4fff471fad1a2eee204a9243d6d7620c2b855fd71f": {
       "recipient_name": "Jelena Luketina",
       "via_names": [
         "Solenum Foundation",
         "University of Oxford"
       ]
+    },
+    "jaan_online:3df356df0b74234e3c113fb4e9897d1874d5002f03a4fb15155693dccc0e23dd": {
+      "recipient_name": "Agent Foundations Field Network",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:432dc270e0203238bc57ab1ce399a101a74bac3db177cefcc22d9c4c5222fc5d": {
       "recipient_name": "Stanford Existential Risks Initiative",
@@ -2349,6 +2389,18 @@
       "recipient_name": "80,000 Hours",
       "fiscal_sponsor_name": "Centre for Effective Altruism"
     },
+    "jaan_online:70042ec2e09b97b273d06d3a415b699a2d0ee508bbcfe64bbfea17d93817d3f4": {
+      "recipient_name": "Catalyze Impact",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:72b123714c9c568eb7a4bac31b49d05b40f989ba08a1beb5b5fa59a085160345": {
+      "recipient_name": "AI Safety Camp",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:7660d98ef251df41bdd18746feb32c3cf912b43f704559caf04944d5bae9da20": {
+      "recipient_name": "AI Safety Camp",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:7b38abca6aed1428a45f0a18dab9561814e9c91e79ed406d14e5780548950cbb": {
       "recipient_name": "Foundations of Cooperative AI Lab",
       "via_names": [
@@ -2376,6 +2428,10 @@
         "University of Oxford"
       ]
     },
+    "jaan_online:8270cca5e6dc6fd289ffb56e23f9036836579807f410931e17b133024df4a18c": {
+      "recipient_name": "Apart Research",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:82acad335a5f899c589391874c937538d12081556d51e6b9eb7e103688b4a476": {
       "recipient_name": "AI: Futures and Responsibility Programme",
       "via_names": [
@@ -2390,11 +2446,19 @@
         "University of Cambridge"
       ]
     },
+    "jaan_online:8e808af2f3eb62762d23cf5212434b0614e2da7659c92610056d3c2d5958147c": {
+      "recipient_name": "Association for Long-Term Existence and Resilience",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:9154bee575b67dcd98aef74cfa873080814d981536fdf2f6c307a49a35b76d78": {
       "recipient_name": "Centre for the Study of Existential Risk",
       "via_names": [
         "University of Cambridge"
       ]
+    },
+    "jaan_online:940b820cd155a6d51161a8b354ceccf481d652c1f7a89fe06219c246f8a0172c": {
+      "recipient_name": "AI Safety Info",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:944cbf8346280203f3af8deec006c9d435438a1f948332be056df418e0226956": {
       "recipient_name": "Erik Brynjolfsson",
@@ -2409,6 +2473,10 @@
         "Lightspeed Grants",
         "ETH Zürich"
       ]
+    },
+    "jaan_online:a1ebc1249cc0bc30fd96b223ada18dd25ffbbef58c07cac9ae5f332ed0594b7a": {
+      "recipient_name": "Orthogonal",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:a2c03820ccd31b69e5496c2efafb72d35f50de6302b075c7f34a47ef8843321c": {
       "recipient_name": "Future of Humanity Institute",
@@ -2459,6 +2527,10 @@
         "University of Toronto"
       ]
     },
+    "jaan_online:bccb4d08ff47b9d4be1818c0e85d5685dd4a10b63c303911e598ba03bbdd9d87": {
+      "recipient_name": "Jeremy Gillen",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:cae50014b2dc48c08ef7a1d58b09247a0e45ab9a8c7eba650c149bf169a3832d": {
       "recipient_name": "Future of Humanity Institute",
       "via_names": [
@@ -2480,6 +2552,10 @@
         "University of Oxford"
       ]
     },
+    "jaan_online:d3de24959fac30786e5742fbb11ba15c99fecf459464449809c986a5d8c625fe": {
+      "recipient_name": "AI Safety Info",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:d69c11691bdf3eb2e65cf754f723da56f6f6cb6c4d1cf15ed3ea9a0bbdfdcc9d": {
       "recipient_name": "Jelena Luketina",
       "via_names": [
@@ -2500,6 +2576,10 @@
         "Solenum Foundation",
         "University of Cambridge"
       ]
+    },
+    "jaan_online:dd334003a1d89ba350064f41c0aa524ccd03d86e85b502b7a936d5d62fe3ab6c": {
+      "recipient_name": "AI Safety Info",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:deee56ce3e1df74b74a820e63e53c524b0212dfc57887f00b6a0592c10f19cb6": {
       "recipient_name": "Centre for the Study of Existential Risk",
@@ -2528,6 +2608,10 @@
         "University of Oxford"
       ]
     },
+    "jaan_online:ec0404b7e53e16a77a7a023ccceecd9c7d60d4295a6328a516adac09b9606c6a": {
+      "recipient_name": "Timaeus",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:ec6c123b5215780569a88fb12ee7df72b1fd01c00236bd54ae7bd94d2d0d0483": {
       "recipient_name": "Claudia Shi",
       "via_names": [
@@ -2535,11 +2619,19 @@
         "Columbia University"
       ]
     },
+    "jaan_online:ecbdc498c769d20e34764869229cc2be3726b75d9bce4a5380c4f272c8f85466": {
+      "recipient_name": "AI Safety Info",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "jaan_online:ed2df430017b4f056a6cb9be1d3516cd386831e1867a0198d3d01d0b8ab1267b": {
       "recipient_name": "Future of Humanity Institute",
       "via_names": [
         "University of Oxford"
       ]
+    },
+    "jaan_online:f1db4deb6b6c1e1caac41b0f9216845d2169b27d5aabf6ed1ca7e0dfe80965e8": {
+      "recipient_name": "Human Agency Bench",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "jaan_online:f85daa8b6562f06ecf8b9638f8768c61fb5dbeaa4adcfb02d073274e7988e9a1": {
       "recipient_name": "Centre for the Study of Existential Risk",
@@ -2868,6 +2960,10 @@
         "University of Nottingham"
       ]
     },
+    "uk_aisi:d5f514d0efc2a5eb21ea20e5104d2417ce8de966afdd0ad6d2221a1e31c52b70": {
+      "recipient_name": "Max Duchi",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "uk_aisi:d6024aeff7d8bfc183090b6259bcab7600f0e750a94dbfc1682e52f45f917cb8": {
       "recipient_name": "Risi Kondor",
       "via_names": [
@@ -2929,12 +3025,20 @@
         "Massachusetts Institute of Technology"
       ]
     },
+    "uk_aisi:ee7a8912bf6c7f3a637956b712cef5250e67cb6165139ec7aa83f5dafa63e96a": {
+      "recipient_name": "Fernando Rosas",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
     "uk_aisi:fa756358a59ba120012456d0a3f63f8df6aa7496be09291a8f115abf34bfa93e": {
       "recipient_name": "Farhana Ferdousi Liza",
       "via_names": [
         "University of East Anglia",
         "University of Sussex"
       ]
+    },
+    "uk_aisi:fd614098c1b0ff2a58819159813b64e9f891f145faa0343735dd0f2bb5dabdc6": {
+      "recipient_name": "Alexander Gietelink Oldenziel",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     },
     "vipul_donations:1a69cd9d67e35bb064fd4521a9d6b01487322199e2d40849c478c67df86754bc": {
       "recipient_name": "Deborah Cao",
