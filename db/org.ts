@@ -90,3 +90,33 @@ export async function listOrgAggregates(
   }
   return Array.from(byOrg.values()).sort((a, b) => b.totalUsd - a.totalUsd)
 }
+
+// Slugs of the orgs with the most grants, for prebuilding their pages: a
+// cold render of a big funder costs seconds, and these are the ones people
+// actually click.
+export async function listBusiestOrgSlugs(limit = 150): Promise<string[]> {
+  if (!dbConfigured()) return []
+  const supabase = createPublicSupabaseClient()
+  const counts = new Map<string, number>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await supabase
+      .from('grants')
+      .select('funder_org_id, recipient_org_id')
+      .eq('status', 'approved')
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) {
+      for (const id of [row.funder_org_id, row.recipient_org_id]) {
+        if (id) counts.set(id, (counts.get(id) ?? 0) + 1)
+      }
+    }
+    if (!data || data.length < 1000) break
+  }
+  const top = Array.from(counts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([id]) => id)
+  if (top.length === 0) return []
+  const { data: orgs } = await supabase.from('orgs').select('slug').in('id', top).throwOnError()
+  return (orgs ?? []).map((org) => org.slug)
+}

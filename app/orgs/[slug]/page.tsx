@@ -2,10 +2,17 @@ import { notFound } from 'next/navigation'
 import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgYearChart } from '@/components/org-year-chart'
 import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
-import { getOrgBySlug } from '@/db/org'
+import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
 import { countsTowardCoverage, ESTIMATE_SYMBOLS, formatCoverage, formatMoney } from '@/utils/format'
 
 export const revalidate = 600
+
+// Prebuild the pages people actually click; the rest render on demand and
+// are cached by the same ISR window.
+export async function generateStaticParams() {
+  const slugs = await listBusiestOrgSlugs()
+  return slugs.map((slug) => ({ slug }))
+}
 
 function GrantList(props: {
   title: string

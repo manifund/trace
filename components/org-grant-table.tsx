@@ -9,6 +9,8 @@ import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
 
 type SortKey = 'date' | 'amount'
 
+const PAGE = 250
+
 export function OrgGrantTable(props: {
   grants: GrantRow[]
   side: 'made' | 'received' | 'via'
@@ -17,6 +19,9 @@ export function OrgGrantTable(props: {
 }) {
   const [sortKey, setSortKey] = useState<SortKey>('date')
   const [desc, setDesc] = useState(true)
+  // Big funders have thousands of grants; rendering them all makes the page
+  // slow to send and slow to paint. Show a window and let the reader extend it.
+  const [limit, setLimit] = useState(PAGE)
 
   const sorted = useMemo(() => {
     const rows = [...props.grants]
@@ -82,7 +87,7 @@ export function OrgGrantTable(props: {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((grant) => {
+          {sorted.slice(0, limit).map((grant) => {
             const other =
               props.side === 'made'
                 ? { slug: grant.recipientSlug, name: grant.recipientName }
@@ -145,6 +150,18 @@ export function OrgGrantTable(props: {
           })}
         </tbody>
       </table>
+      {sorted.length > limit && (
+        <p className="mt-2 text-sm text-ink-muted">
+          Showing {limit.toLocaleString()} of {sorted.length.toLocaleString()}.{' '}
+          <button className="underline" onClick={() => setLimit(limit + 4 * PAGE)}>
+            Show more
+          </button>{' '}
+          ·{' '}
+          <button className="underline" onClick={() => setLimit(sorted.length)}>
+            Show all
+          </button>
+        </p>
+      )}
     </div>
   )
 }

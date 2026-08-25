@@ -141,29 +141,50 @@ export async function getGrantById(id: string): Promise<GrantRow | null> {
   return data ? mapGrantRow(data as never as Record<string, unknown>) : null
 }
 
+// Fetch every 1000-row page of a query. Pages go out in small parallel
+// batches: sequential round-trips dominate the wait for a big funder, while
+// full parallelism trips Postgres statement timeouts.
+async function collectPages(
+  count: number,
+  fetchPage: (page: number) => PromiseLike<{ data: unknown[] | null }>
+): Promise<GrantRow[]> {
+  const rows: GrantRow[] = []
+  const pages = Math.max(1, Math.ceil(count / 1000))
+  for (let start = 0; start < pages; start += 3) {
+    const chunk = await Promise.all(
+      Array.from({ length: Math.min(3, pages - start) }, (_, i) => fetchPage(start + i))
+    )
+    for (const { data } of chunk) {
+      for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
+        rows.push(mapGrantRow(grant))
+      }
+    }
+  }
+  return rows
+}
+
 // Approved grants that flowed through the given vehicle org.
 export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()
-  const rows: GrantRow[] = []
-  for (let from = 0; ; from += 1000) {
-    const { data } = await supabase
+  const select = `${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug)), via_filter:grant_vias!inner(via_org_id)`
+  const { count } = await supabase
+    .from('grants')
+    .select('id, via_filter:grant_vias!inner(via_org_id)', { count: 'exact', head: true })
+    .eq('status', 'approved')
+    .eq('via_filter.via_org_id', orgId)
+    .throwOnError()
+  const fetchPage = (page: number) =>
+    supabase
       .from('grants')
-      .select(
-        `${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug)), via_filter:grant_vias!inner(via_org_id)`
-      )
+      .select(select)
       .eq('status', 'approved')
       .eq('via_filter.via_org_id', orgId)
       .order('grant_date', { ascending: false, nullsFirst: false })
       .order('id')
-      .range(from, from + 999)
+      .range(page * 1000, page * 1000 + 999)
       .throwOnError()
-    for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
-      rows.push(mapGrantRow(grant))
-    }
-    if (!data || data.length < 1000) break
-  }
-  return rows
+  return collectPages(count ?? 0, fetchPage)
 }
 
 // Approved grants where the org appears on the given side.
@@ -173,23 +194,23 @@ export async function listGrantsByOrg(
 ): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()
-  const rows: GrantRow[] = []
-  for (let from = 0; ; from += 1000) {
-    const { data } = await supabase
+  const { count } = await supabase
+    .from('grants')
+    .select('id', { count: 'exact', head: true })
+    .eq('status', 'approved')
+    .eq(column, orgId)
+    .throwOnError()
+  const fetchPage = (page: number) =>
+    supabase
       .from('grants')
       .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
       .eq('status', 'approved')
       .eq(column, orgId)
       .order('grant_date', { ascending: false, nullsFirst: false })
       .order('id')
-      .range(from, from + 999)
+      .range(page * 1000, page * 1000 + 999)
       .throwOnError()
-    for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
-      rows.push(mapGrantRow(grant))
-    }
-    if (!data || data.length < 1000) break
-  }
-  return rows
+  return collectPages(count ?? 0, fetchPage)
 }
 
 export type SourceInfo = {
