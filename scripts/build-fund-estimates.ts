@@ -147,30 +147,36 @@ async function main() {
     if (!slug) continue
     const { data: org } = await db.from('orgs').select('id').eq('slug', slug).maybeSingle()
     if (!org) continue
-    const { data: grants } = await db
-      .from('grants')
-      .select(
-        'amount_usd, grant_date, grant_cause_areas(cause_area_id), grant_sources!inner(is_primary, source_records!inner(source_id))'
-      )
-      .eq('status', 'approved')
-      .eq('funder_org_id', org.id)
-      .throwOnError()
     type GrantRow = {
       amount_usd: number | null
       grant_date: string | null
       grant_cause_areas: { cause_area_id: string }[]
       grant_sources: { is_primary: boolean; source_records: { source_id: string } }[]
     }
-    for (const grant of (grants ?? []) as never as GrantRow[]) {
-      const sources = grant.grant_sources
-      if (sources.some((s) => s.is_primary && s.source_records.source_id === 'fund_estimates'))
-        continue
-      const year = (grant.grant_date ?? '').slice(0, 4)
-      if (!year) continue
-      const tags = grant.grant_cause_areas as never as { cause_area_id: string }[]
-      const bucket = bucketOf(new Set(tags.map((t) => t.cause_area_id)))
-      const key = `${slug}|${year}|${bucket}`
-      recorded.set(key, (recorded.get(key) ?? 0) + (grant.amount_usd ?? 0))
+    // Paginate: a funder with thousands of grants would otherwise stop at the
+    // 1,000-row default and every remainder would come out too large.
+    for (let from = 0; ; from += 1000) {
+      const { data: grants } = await db
+        .from('grants')
+        .select(
+          'amount_usd, grant_date, grant_cause_areas(cause_area_id), grant_sources!inner(is_primary, source_records!inner(source_id))'
+        )
+        .eq('status', 'approved')
+        .eq('funder_org_id', org.id)
+        .range(from, from + 999)
+        .throwOnError()
+      for (const grant of (grants ?? []) as never as GrantRow[]) {
+        const sources = grant.grant_sources
+        if (sources.some((s) => s.is_primary && s.source_records.source_id === 'fund_estimates'))
+          continue
+        const year = (grant.grant_date ?? '').slice(0, 4)
+        if (!year) continue
+        const tags = grant.grant_cause_areas as never as { cause_area_id: string }[]
+        const bucket = bucketOf(new Set(tags.map((t) => t.cause_area_id)))
+        const key = `${slug}|${year}|${bucket}`
+        recorded.set(key, (recorded.get(key) ?? 0) + (grant.amount_usd ?? 0))
+      }
+      if (!grants || grants.length < 1000) break
     }
   }
 
@@ -250,23 +256,46 @@ async function main() {
     for (let from = 0; ; from += 1000) {
       const { data } = await db
         .from('grants')
-        .select('amount_usd, grant_date')
+        .select(
+          'amount_usd, grant_date, grant_sources!inner(is_primary, source_records!inner(source_id))'
+        )
         .eq('status', 'approved')
         .eq('funder_org_id', cg!.id)
         .range(from, from + 999)
         .throwOnError()
-      for (const grant of data ?? []) {
+      type CgRow = {
+        amount_usd: number | null
+        grant_date: string | null
+        grant_sources: { is_primary: boolean; source_records: { source_id: string } }[]
+      }
+      for (const grant of (data ?? []) as never as CgRow[]) {
+        // Skip this source's rows from a previous run; the equivalents
+        // generated in THIS run are added below, so the total is
+        // self-consistent rather than a generation behind.
+        if (
+          grant.grant_sources.some(
+            (s) => s.is_primary && s.source_records.source_id === 'fund_estimates'
+          )
+        )
+          continue
         const year = (grant.grant_date ?? '').slice(0, 4)
         if (year) spend.set(year, (spend.get(year) ?? 0) + (grant.amount_usd ?? 0))
       }
       if (!data || data.length < 1000) break
+    }
+    // Good Ventures funds all of CG's grantmaking, so CG's own estimated
+    // giving counts toward the total too.
+    for (const row of rows) {
+      if (row.funder !== 'Coefficient Giving') continue
+      const year = String(row.date).slice(0, 4)
+      spend.set(year, (spend.get(year) ?? 0) + row.amount)
     }
     for (const [year, total] of Array.from(spend).sort()) {
       const yearNum = Number(year)
       const variousCap = yearNum >= 2025 ? 200e6 : yearNum === 2024 ? 100e6 : 0
       const various = Math.round(Math.min(variousCap, total))
       const gv = Math.round(total - various)
-      const shared = `Coefficient Giving (then Open Philanthropy) granted $${Math.round(total).toLocaleString()} in ${year} per this database.`
+      const shared = `Coefficient Giving (then Open Philanthropy) granted $${Math.round(total).toLocaleString()} in ${year} per this database, including estimated giving.`
       if (gv > 0)
         rows.push({
           recipient: 'Coefficient Giving',
