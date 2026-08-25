@@ -3,7 +3,9 @@
 // still lives in their public Algolia search index
 // (coefficientgiving_grants_award_date_desc, app wbc743wf65), which powers
 // the per-fund "Featured Grants" widgets. Their site is Cloudflare-gated to
-// non-browser clients, so the export runs in a real browser session and the
+// non-browser clients, but the Algolia API itself is open: refresh the
+// export with `bun run scripts/fetch-coefficient.ts` (no browser needed).
+// Historical note: the original export ran in a real browser session and the
 // result is checked in as data/coefficient-grants.json (2,889 grants,
 // 2012 through 2026 at last export).
 //

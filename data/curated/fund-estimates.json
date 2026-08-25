@@ -868,14 +868,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 170338721,
+      "amount": 395122791,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $370,338,721 in 2026 per this database. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $595,122,791 in 2026 per this database. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -887,7 +887,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $370,338,721 in 2026 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $595,122,791 in 2026 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
     }
   ]
 }

@@ -1,0 +1,58 @@
+# Monthly refresh of the curated sources: a deterministic Coefficient fetch
+# plus a Claude agent pass over the research-extracted sources. Output is a
+# PULL REQUEST — nothing reaches the database until a human merges it
+# (ingest-on-merge.yml then ingests). This workflow has no Supabase secrets,
+# so the agent cannot touch the DB even in principle.
+# Requires secret CLAUDE_CODE_OAUTH_TOKEN (from `claude setup-token`).
+name: refresh-monthly
+on:
+  schedule:
+    - cron: '13 9 3 * *' # 09:13 UTC on the 3rd
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Refresh Coefficient from Algolia
+        run: bun run scripts/fetch-coefficient.ts
+      - name: Agent pass over curated sources
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: Follow the instructions in .github/prompts/monthly-refresh.md
+          claude_args: '--allowedTools "Bash,Read,Edit,Write,Glob,Grep,WebFetch,WebSearch"'
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No changes found this month."
+            exit 0
+          fi
+          BRANCH="refresh/$(date +%Y-%m)"
+          git config user.name 'trace-refresh[bot]'
+          git config user.email 'noreply@manifund.org'
+          git checkout -b "$BRANCH"
+          git add data/
+          git commit -m "Monthly source refresh $(date +%Y-%m)"
+          git push -f origin "$BRANCH"
+          if [ ! -f /tmp/refresh-summary.md ]; then
+            { echo 'Deterministic Coefficient refresh (agent summary missing):'
+              echo '```'
+              git show --stat HEAD | tail -20
+              echo '```'
+            } > /tmp/refresh-summary.md
+          fi
+          { echo; echo '---'; echo 'Merging this PR is the approval: ingest-on-merge will load the new rows into the database.'; } >> /tmp/refresh-summary.md
+          gh pr create --title "Monthly source refresh $(date +%Y-%m)" \
+            --body-file /tmp/refresh-summary.md --base main --head "$BRANCH" \
+            || gh pr edit "$BRANCH" --body-file /tmp/refresh-summary.md

@@ -1,0 +1,65 @@
+# Ingests curated-source changes after they land on main (i.e., after a
+# refresh PR is approved and merged, or a manual data edit is pushed).
+name: ingest-on-merge
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/curated/**'
+      - 'data/coefficient-grants.json'
+
+concurrency: ingest
+
+env:
+  NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Ingest changed sources
+        run: |
+          CHANGED=$(git diff --name-only HEAD^ HEAD -- data/curated data/coefficient-grants.json)
+          echo "Changed: $CHANGED"
+          {
+            echo '## Ingested'
+            echo '```'
+            if grep -q 'coefficient-grants.json' <<< "$CHANGED"; then
+              bun run scripts/ingest-coefficient.ts --force 2>&1 | tail -2
+            fi
+            for f in $CHANGED; do
+              case "$(basename "$f")" in
+                fli.json) S=fli ;;
+                schmidt-sciences.json) S=schmidt_sciences ;;
+                foresight.json) S=foresight ;;
+                longview.json) S=longview ;;
+                acx-grants.json) S=acx_grants ;;
+                org-reported.json) S=org_reported ;;
+                jefftk.json) S=jefftk ;;
+                uk-aisi.json) S=uk_aisi ;;
+                macroscopic.json) S=macroscopic ;;
+                fund-estimates.json) S=fund_estimates ;;
+                *) continue ;;
+              esac
+              bun run scripts/ingest-curated.ts "$S" --force 2>&1 | tail -2
+            done
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Dedup report
+        run: |
+          {
+            echo '## Dedup'
+            echo '```'
+            bun run scripts/dedup.ts 2>&1 | tail -8
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Verify totals
+        run: bun run scripts/verify-totals.ts 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
