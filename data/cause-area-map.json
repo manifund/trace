@@ -563,6 +563,9 @@
     ],
     "timaeus": [
       "interp"
+    ],
+    "model-evaluation-and-threat-research": [
+      "evals"
     ]
   }
 }

@@ -1935,6 +1935,174 @@
       "sourceUrl": "https://cset.georgetown.edu/publication/2025-annual-report/",
       "amountEstimated": true,
       "estimateNote": "The source reports this donation in the $1,000–$14,999 tier; recorded at the geometric mean."
+    },
+    {
+      "recipient": "METR",
+      "funder": "The Audacious Project",
+      "amount": 8500000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Support through the Audacious Project",
+      "sourceUrl": "https://metr.org/blog/2024-10-09-new-support-through-the-audacious-project/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "The Audacious Project",
+      "amount": 8500000,
+      "currency": "USD",
+      "date": "2025",
+      "description": "Support through the Audacious Project",
+      "sourceUrl": "https://metr.org/blog/2024-10-09-new-support-through-the-audacious-project/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Sijbrandij Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "The Pew Charitable Trusts",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Schmidt Sciences",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Packard Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "LaCentra-Sumerlin Foundation Frontier Fund",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Astralis Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Expa",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "AI Security Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Effektiv Spenden",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "David Farhi",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Geoff Ralston",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Dylan Field",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Steve Newman",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Listed as a supporter in METR’s August 2026 funding update; amount not disclosed.",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/"
+    },
+    {
+      "recipient": "METR",
+      "funder": "Various Donors",
+      "amount": 4692000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Donations not individually identified",
+      "sourceUrl": "https://metr.org/blog/2024-10-09-new-support-through-the-audacious-project/",
+      "amountEstimated": true,
+      "estimateNote": "METR's 2024 Form 990 reports $13.6m of total donations; the Audacious Project's $8.5m and donations recorded individually in this database are subtracted."
+    },
+    {
+      "recipient": "METR",
+      "funder": "Various Donors",
+      "amount": 20952000,
+      "currency": "USD",
+      "date": "2025",
+      "description": "Donations not individually identified",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated total donations to METR of $30m in 2025; the Audacious Project's $8.5m and donations recorded individually in this database are subtracted."
+    },
+    {
+      "recipient": "METR",
+      "funder": "Various Donors",
+      "amount": 71000000,
+      "currency": "USD",
+      "date": "2026",
+      "description": "Commitments raised February–August 2026, per METR’s funding update",
+      "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/",
+      "amountEstimated": true,
+      "estimateNote": "METR reported raising around $71m in commitments in the six months before August 2026; grant-level amounts were not disclosed."
     }
   ]
 }
