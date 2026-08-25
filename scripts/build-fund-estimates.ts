@@ -201,7 +201,20 @@ async function main() {
     for (const bucket of ['other', 'xrisk', 'ai'] as Bucket[]) if (set.has(bucket)) return bucket
     return 'other'
   }
-  const rows: Record<string, unknown>[] = []
+  type EstimateRow = {
+    recipient: string
+    funder: string
+    amount: number
+    currency: string
+    date: string
+    description: string | null
+    program: string
+    sourceUrl: string | null
+    amountEstimated: boolean
+    estimateNote: string
+    causes?: string[]
+  }
+  const rows: EstimateRow[] = []
   for (const est of ESTIMATES) {
     const year = est.date.slice(0, 4)
     let subtracted = est.funderSlug
