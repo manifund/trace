@@ -13,6 +13,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
   id-token: write
 
 jobs:
@@ -55,6 +56,13 @@ jobs:
             } > /tmp/refresh-summary.md
           fi
           { echo; echo '---'; echo 'Merging this PR is the approval: ingest-on-merge will load the new rows into the database.'; } >> /tmp/refresh-summary.md
-          gh pr create --title "Monthly source refresh $(date +%Y-%m)" \
-            --body-file /tmp/refresh-summary.md --base main --head "$BRANCH" \
-            || gh pr edit "$BRANCH" --body-file /tmp/refresh-summary.md
+          if ! gh pr create --title "Monthly source refresh $(date +%Y-%m)" \
+            --body-file /tmp/refresh-summary.md --base main --head "$BRANCH"; then
+            gh pr edit "$BRANCH" --body-file /tmp/refresh-summary.md || {
+              # Org policy may forbid Actions from creating PRs; fall back to
+              # an issue holding the summary and a compare link.
+              { echo "Branch [\`$BRANCH\`](https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH) is ready — open the PR from that link (org policy blocks Actions from creating PRs)."
+                echo; cat /tmp/refresh-summary.md; } > /tmp/issue.md
+              gh issue create --title "Monthly source refresh $(date +%Y-%m) — PR needs opening" --body-file /tmp/issue.md
+            }
+          fi

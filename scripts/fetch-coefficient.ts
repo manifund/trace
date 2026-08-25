@@ -6,7 +6,7 @@
 // so this needs no browser session. Long grant pages are split into -0/-1/-2
 // records; we keep one row per post. Run, then
 // `bun run scripts/ingest-coefficient.ts --force`.
-import { writeFileSync } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 
 const APP_ID = 'WBC743WF65'
 const SEARCH_KEY = 'da168b7a254a1f18a8fd0e6b65d7e0e2'
@@ -82,13 +82,21 @@ async function main() {
       amount: typeof hit.grant_amount === 'number' ? hit.grant_amount : null,
     }))
 
+  // Keep exported_at stable when nothing changed so automated runs produce
+  // no diff (and therefore no PR) on quiet months.
+  const path = 'data/coefficient-grants.json'
+  const prior = JSON.parse(readFileSync(path, 'utf8')) as { exported_at: string; grants: unknown }
+  if (JSON.stringify(prior.grants) === JSON.stringify(grants)) {
+    console.log(`no changes (${grants.length} grants)`)
+    return
+  }
   const doc = {
     _comment:
       'Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.',
     exported_at: new Date().toISOString(),
     grants,
   }
-  writeFileSync('data/coefficient-grants.json', JSON.stringify(doc, null, 1) + '\n')
+  writeFileSync(path, JSON.stringify(doc, null, 1) + '\n')
   console.log(`wrote ${grants.length} grants (deduped from split records)`)
 }
 
