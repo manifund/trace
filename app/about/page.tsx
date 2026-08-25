@@ -16,6 +16,14 @@ export default async function Page() {
         Programmatic access: <a href="/api/v0">API</a> · MCP endpoint at <code>/api/mcp</code> ·{' '}
         <a href="/grants.csv">CSV</a>
       </p>
+      <p className="mb-4">
+        Cause area tags are mostly done by AI and may be inaccurate. Aggregate fund estimates are
+        our best guesses for funders that don&apos;t report donations, in the spirit of{' '}
+        <a href="https://slatestarcodex.com/2013/05/02/if-its-worth-doing-its-worth-doing-with-made-up-statistics/">
+          If It&apos;s Worth Doing, It&apos;s Worth Doing With Made-Up Statistics
+        </a>
+        .
+      </p>
       <p className="mb-6">
         Thanks to Vipul Naik for creating{' '}
         <a href="https://donations.vipulnaik.com/">donations.vipulnaik.com</a>, a spiritual
