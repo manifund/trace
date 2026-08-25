@@ -2162,6 +2162,81 @@
       "causes": [
         "technical-ai-safety"
       ]
+    },
+    {
+      "recipient": "LawZero",
+      "funder": "Future of Life Institute",
+      "amount": 5000000,
+      "currency": "USD",
+      "date": "2025-06-03",
+      "datePrecision": "day",
+      "description": "Launch funding for LawZero",
+      "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
+      "amountEstimated": true,
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "LawZero",
+      "funder": "Jaan Tallinn",
+      "amount": 5000000,
+      "currency": "USD",
+      "date": "2025-06-03",
+      "datePrecision": "day",
+      "description": "Launch funding for LawZero",
+      "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
+      "amountEstimated": true,
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "LawZero",
+      "funder": "Coefficient Giving",
+      "amount": 5000000,
+      "currency": "USD",
+      "date": "2025-06-03",
+      "datePrecision": "day",
+      "description": "Launch funding for LawZero",
+      "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
+      "amountEstimated": true,
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "LawZero",
+      "funder": "Schmidt Sciences",
+      "amount": 5000000,
+      "currency": "USD",
+      "date": "2025-06-03",
+      "datePrecision": "day",
+      "description": "Launch funding for LawZero",
+      "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
+      "amountEstimated": true,
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "LawZero",
+      "funder": "Gates Foundation",
+      "amount": 5000000,
+      "currency": "USD",
+      "date": "2025-08-25",
+      "datePrecision": "day",
+      "description": "AI safety benchmarks and algorithms, supporting the Scientist AI approach to trustworthy AI for scientific research and drug discovery",
+      "sourceUrl": "https://lawzero.org/en/news/lawzero-receives-grant-develop-safe-design-ai-systems-can-improve-scientific-discovery",
+      "amountEstimated": true,
+      "estimateNote": "LawZero announced a Gates Foundation grant in August 2025 without stating an amount; estimated at $5m.",
+      "causes": [
+        "technical-ai-safety"
+      ]
     }
   ]
 }

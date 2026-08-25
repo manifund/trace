@@ -20,7 +20,9 @@ const SFF_VEHICLES = [
 ]
 // Recipients where more than one grouping fits the arithmetic, so no
 // grouping can be trusted without knowing which payment settles which
-// round. Left for a human to resolve by hand in dedup-resolutions.json.
+// round. Resolved by hand in dedup-resolutions.json instead — for CAIS
+// Action Fund, Caroline confirmed the $720k/$400k/$501k payments complete
+// the $1.621m SFF-2024 grant.
 const AMBIGUOUS_RECIPIENTS = ['Center for AI Safety Action Fund, Inc.']
 const WINDOW_BEFORE_DAYS = 210
 const WINDOW_AFTER_DAYS = 180
