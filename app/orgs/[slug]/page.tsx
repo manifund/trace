@@ -4,7 +4,7 @@ import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
 import { displayCauses } from '@/utils/cause-tree'
 import {
-  COVERAGE_EXCLUDED_SLUGS,
+  countsTowardCoverage,
   ESTIMATE_SYMBOLS,
   formatCoverage,
   formatGrantDate,
@@ -25,7 +25,7 @@ function GrantList(props: {
   const coveredUsd =
     props.side === 'made'
       ? priced
-          .filter((grant) => !COVERAGE_EXCLUDED_SLUGS.includes(grant.recipientSlug))
+          .filter((grant) => countsTowardCoverage(grant.recipientName))
           .reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
       : total
   const showCoverage = props.side === 'made' && coveredUsd < total

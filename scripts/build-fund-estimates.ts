@@ -130,6 +130,8 @@ async function main() {
     .in('slug', ['ai-safety', 'animal-welfare', 'biosecurity', 'x-risk-other'])
     .throwOnError()
   const causeId = (slug: string) => causeRows!.find((c) => c.slug === slug)!.id
+  const { data: allCauses } = await db.from('cause_areas').select('id, slug').throwOnError()
+  const slugById = new Map((allCauses ?? []).map((c) => [c.id, c.slug]))
   const bucketOf = (tagIds: Set<string>): Bucket =>
     tagIds.has(causeId('ai-safety'))
       ? 'ai'
@@ -199,7 +201,7 @@ async function main() {
     for (const bucket of ['other', 'xrisk', 'ai'] as Bucket[]) if (set.has(bucket)) return bucket
     return 'other'
   }
-  const rows = []
+  const rows: Record<string, unknown>[] = []
   for (const est of ESTIMATES) {
     const year = est.date.slice(0, 4)
     let subtracted = est.funderSlug
@@ -398,6 +400,146 @@ async function main() {
         amountEstimated: true,
         estimateNote: `${filer.name}'s Form 990 reports $${paid.toLocaleString()} of grants paid in ${year}; grants itemized in this database are subtracted from the total.`,
       })
+    }
+  }
+
+  // FTX Future Fund: their own published totals by cause-area label, mapped
+  // onto this database's causes and net of what we already record. Labels on
+  // combined rows split the amount evenly. A cause we already record above
+  // the published figure gets no row (logged as SKIP) — our tagging and
+  // theirs disagree at the margins, so the total can overshoot slightly.
+  {
+    const FTX_TOTALS: [string, number][] = [
+      ['Artificial Intelligence', 61_810_238],
+      ['Effective Altruism', 54_787_717],
+      ['Biorisk and Recovery from Catastrophe', 40_242_711],
+      ['Epistemic Institutions', 21_743_478],
+      ['Other, Great Power Relations', 15_000_000],
+      ['Empowering Exceptional People', 10_856_520],
+      ['Other', 8_972_903],
+      ['Values and Reflective Processes', 8_108_847],
+      ['Economic Growth', 4_616_500],
+      ['Research That Can Help Us Improve', 3_052_143],
+      ['Great Power Relations', 2_438_700],
+      ['Values and Reflective Processes, Effective Altruism', 1_174_529],
+      ['Artificial Intelligence, Research That Can Help Us Improve', 1_000_000],
+      ['Empowering Exceptional People, Effective Altruism', 1_000_000],
+      ['Effective Altruism, Empowering Exceptional People', 824_000],
+      ['Artificial Intelligence, Biorisk and Recovery from Catastrophe', 790_000],
+      ['(blank)', 686_800],
+      [
+        'Biorisk and Recovery from Catastrophe, Economic Growth, Empowering Exceptional People',
+        480_000,
+      ],
+      ['Artificial Intelligence, Values and Reflective Processes', 400_000],
+      ['Epistemic Institutions, Great Power Relations', 366_000],
+      ['Space Governance', 356_000],
+      ['Epistemic Institutions, Values and Reflective Processes', 339_555],
+      ['Values and Reflective Processes, Epistemic Institutions', 256_250],
+      ['Effective Altruism, Great Power Relations', 255_600],
+      ['Research that can help us improve', 243_400],
+      ['Great power relations', 225_000],
+      ['Economic Growth, Empowering Exceptional People', 150_000],
+      ['Effective Altruism, Values and Reflective Processes', 136_426],
+      ['Artificial Intelligence, Effective Altruism', 23_480],
+      ['Epistemic Institutions, Effective Altruism', 20_000],
+      ['Effective Altruism, Research That Can Help Us Improve', 17_502],
+      ['Biorisk and Recovery from Catastrophe, Effective Altruism', 12_800],
+      ['Effective Altruism, Biorisk and Recovery from Catastrophe', 0],
+    ]
+    // Label -> cause slug, chosen to match how this database actually tags
+    // FTX grants carrying that label.
+    const LABEL_SLUG: Record<string, string> = {
+      'artificial intelligence': 'ai-safety',
+      'biorisk and recovery from catastrophe': 'biosecurity',
+      'effective altruism': 'ea-infrastructure',
+      'empowering exceptional people': 'ea-infrastructure',
+      'epistemic institutions': 'other',
+      'values and reflective processes': 'other',
+      'research that can help us improve': 'other',
+      'economic growth': 'other',
+      other: 'other',
+      'great power relations': 'x-risk-other',
+      'space governance': 'x-risk-other',
+      '(blank)': 'x-risk-other',
+    }
+    const CAUSE_NAMES: Record<string, string> = {
+      'ai-safety': 'AI safety',
+      biosecurity: 'biosecurity',
+      'ea-infrastructure': 'EA infrastructure',
+      'x-risk-other': 'other existential risk',
+      other: 'other causes',
+    }
+    const published = new Map<string, number>()
+    for (const [label, amount] of FTX_TOTALS) {
+      const parts =
+        label === '(blank)' ? ['(blank)'] : label.split(',').map((p) => p.trim().toLowerCase())
+      const slugs = parts.map((p) => LABEL_SLUG[p]).filter(Boolean)
+      for (const slug of slugs)
+        published.set(slug, (published.get(slug) ?? 0) + amount / slugs.length)
+    }
+    const { data: org } = await db
+      .from('orgs')
+      .select('id')
+      .eq('slug', 'ftx-future-fund')
+      .maybeSingle()
+    if (org) {
+      const PRIORITY = ['ai-safety', 'biosecurity', 'ea-infrastructure', 'x-risk-other']
+      const known = new Map<string, number>()
+      for (let from = 0; ; from += 1000) {
+        const { data } = await db
+          .from('grants')
+          .select(
+            'amount_usd, grant_cause_areas(cause_area_id), grant_sources!inner(is_primary, source_records!inner(source_id))'
+          )
+          .eq('status', 'approved')
+          .eq('funder_org_id', org.id)
+          .range(from, from + 999)
+          .throwOnError()
+        type Row = {
+          amount_usd: number | null
+          grant_cause_areas: { cause_area_id: string }[]
+          grant_sources: { is_primary: boolean; source_records: { source_id: string } }[]
+        }
+        for (const grant of (data ?? []) as never as Row[]) {
+          if (
+            grant.grant_sources.some(
+              (s) => s.is_primary && s.source_records.source_id === 'fund_estimates'
+            )
+          )
+            continue
+          const tags = new Set(grant.grant_cause_areas.map((t) => slugById.get(t.cause_area_id)))
+          const slug = PRIORITY.find((s) => tags.has(s)) ?? 'other'
+          known.set(slug, (known.get(slug) ?? 0) + (grant.amount_usd ?? 0))
+        }
+        if (!data || data.length < 1000) break
+      }
+      for (const [slug, total] of Array.from(published).sort((a, b) => b[1] - a[1])) {
+        const recordedUsd = Math.round(known.get(slug) ?? 0)
+        const gap = Math.round(total - recordedUsd)
+        if (gap <= 0) {
+          console.log(
+            `SKIP FTX Future Fund ${slug}: recorded $${recordedUsd.toLocaleString()} >= published $${Math.round(total).toLocaleString()}`
+          )
+          continue
+        }
+        console.log(
+          `FTX Future Fund ${slug}: $${Math.round(total).toLocaleString()} published - $${recordedUsd.toLocaleString()} recorded = $${gap.toLocaleString()}`
+        )
+        rows.push({
+          recipient: 'Various Recipients',
+          funder: 'FTX Future Fund',
+          amount: gap,
+          currency: 'USD',
+          date: '2022',
+          description: null,
+          program: `Aggregate estimate — ${CAUSE_NAMES[slug] ?? slug}`,
+          sourceUrl: null,
+          amountEstimated: true,
+          causes: [slug],
+          estimateNote: `The FTX Future Fund reported $${Math.round(total).toLocaleString()} awarded for ${CAUSE_NAMES[slug] ?? slug}; grants recorded individually in this database are subtracted from the total.`,
+        })
+      }
     }
   }
 

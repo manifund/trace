@@ -23,6 +23,8 @@ type CuratedRow = {
   sourceUrl?: string | null
   // Intermediary vehicle(s): the money reached the recipient through these.
   via?: string | string[] | null
+  // Explicit cause slugs; bypasses programCauses and the keyword classifier.
+  causes?: string[] | null
 }
 
 type CuratedSource = {
@@ -229,13 +231,15 @@ async function ingestSource(source: CuratedSource) {
         round: program || null,
         url: row.sourceUrl ?? null,
         viaNames: row.via ? (Array.isArray(row.via) ? row.via : [row.via]) : undefined,
-        causeSlugs: hinted
-          ? classifyCauses({ labels: [], text }).includes('other')
-            ? hinted
-            : Array.from(new Set([...hinted, ...classifyCauses({ labels: [], text })])).filter(
-                (slug) => slug !== 'other'
-              )
-          : classifyCauses({ fund: source.sourceId, text }),
+        causeSlugs: row.causes?.length
+          ? row.causes
+          : hinted
+            ? classifyCauses({ labels: [], text }).includes('other')
+              ? hinted
+              : Array.from(new Set([...hinted, ...classifyCauses({ labels: [], text })])).filter(
+                  (slug) => slug !== 'other'
+                )
+            : classifyCauses({ fund: source.sourceId, text }),
       },
     })
   }

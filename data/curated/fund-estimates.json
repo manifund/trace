@@ -936,6 +936,66 @@
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538",
       "amountEstimated": true,
       "estimateNote": "Future of Life Institute's Form 990 reports $372,863,899 of grants paid in 2022; grants itemized in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "FTX Future Fund",
+      "amount": 11702585,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — EA infrastructure",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "causes": [
+        "ea-infrastructure"
+      ],
+      "estimateNote": "The FTX Future Fund reported $68,523,406 awarded for EA infrastructure; grants recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "FTX Future Fund",
+      "amount": 29984448,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — AI safety",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "causes": [
+        "ai-safety"
+      ],
+      "estimateNote": "The FTX Future Fund reported $62,916,978 awarded for AI safety; grants recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "FTX Future Fund",
+      "amount": 32446320,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — other causes",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "causes": [
+        "other"
+      ],
+      "estimateNote": "The FTX Future Fund reported $56,625,305 awarded for other causes; grants recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "FTX Future Fund",
+      "amount": 13962103,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — biosecurity",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "causes": [
+        "biosecurity"
+      ],
+      "estimateNote": "The FTX Future Fund reported $40,804,111 awarded for biosecurity; grants recorded individually in this database are subtracted from the total."
     }
   ]
 }
