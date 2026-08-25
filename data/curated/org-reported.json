@@ -647,8 +647,8 @@
       "funder": "drethelin",
       "amount": 150000,
       "currency": "USD",
-      "date": "2024",
-      "datePrecision": "year",
+      "date": "2024-11-30",
+      "datePrecision": "day",
       "description": "opening our fundraiser with a $150,000 donation",
       "sourceUrl": "https://www.lesswrong.com/posts/5n2ZQcbc7r4R8mvqc/the-lightcone-is-nothing-without-its-people-lw-lighthaven-s-5"
     },
@@ -2103,6 +2103,18 @@
       "sourceUrl": "https://metr.org/blog/2026-08-14-funding-update/",
       "amountEstimated": true,
       "estimateNote": "METR reported raising around $71m in commitments in the six months before August 2026; grant-level amounts were not disclosed."
+    },
+    {
+      "recipient": "Lightcone Infrastructure",
+      "funder": "Various Donors",
+      "amount": 1912788,
+      "currency": "USD",
+      "date": "2025-01-19",
+      "datePrecision": "day",
+      "description": "Donations to the 2024–25 LessWrong + Lighthaven fundraiser that are not itemized individually",
+      "sourceUrl": "https://www.lesswrong.com/posts/5n2ZQcbc7r4R8mvqc/lightcone-infrastructure-fundraiser",
+      "amountEstimated": true,
+      "estimateNote": "Lightcone Infrastructure reported raising over $2.1m when its 2024–25 LessWrong + Lighthaven fundraiser closed on 19 January 2025; the $187,212 of fundraiser donations recorded individually in this database is subtracted from that total."
     }
   ]
 }
