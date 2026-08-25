@@ -1,5 +1,5 @@
-# Monthly refresh of the curated sources: a deterministic Coefficient fetch
-# plus a Claude agent pass over the research-extracted sources. Output is a
+# Monthly agent pass over the research-extracted curated sources
+# (Coefficient is refreshed weekly by ingest-weekly.yml, deterministically). Output is a
 # PULL REQUEST — nothing reaches the database until a human merges it
 # (ingest-on-merge.yml then ingests). This workflow has no Supabase secrets,
 # so the agent cannot touch the DB even in principle.
@@ -24,8 +24,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
-      - name: Refresh Coefficient from Algolia
-        run: bun run scripts/fetch-coefficient.ts
       - name: Agent pass over curated sources
         uses: anthropics/claude-code-action@v1
         with:

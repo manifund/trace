@@ -48,5 +48,5 @@ ingestion happens after merge.
   (see /api/v0 for usage). Money that came via an intermediary counts as
   covered if the via matches.
 
-Coefficient Giving is refreshed by a deterministic script in the same
-workflow — do not handle it.
+Coefficient Giving is refreshed weekly by a deterministic script — do
+not handle it.

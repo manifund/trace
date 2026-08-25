@@ -40,6 +40,19 @@ jobs:
             bun run scripts/ingest-manifund.ts --direct 2>&1 | tail -3
             echo '```'
           } | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Refresh Coefficient from Algolia
+        run: |
+          bun run scripts/fetch-coefficient.ts
+          {
+            echo '## Coefficient'
+            echo '```'
+            if git diff --quiet data/coefficient-grants.json; then
+              echo 'no changes'
+            else
+              bun run scripts/ingest-coefficient.ts --force 2>&1 | tail -2
+            fi
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Regenerate fund estimates
         run: |
           {
@@ -49,13 +62,13 @@ jobs:
             bun run scripts/ingest-curated.ts fund_estimates --force 2>&1 | tail -2
             echo '```'
           } | tee -a "$GITHUB_STEP_SUMMARY"
-      - name: Commit regenerated estimates
+      - name: Commit refreshed data files
         run: |
-          if ! git diff --quiet data/curated/fund-estimates.json; then
+          if ! git diff --quiet data/curated/fund-estimates.json data/coefficient-grants.json; then
             git config user.name 'trace-ingest[bot]'
             git config user.email 'noreply@manifund.org'
-            git add data/curated/fund-estimates.json
-            git commit -m 'Regenerate fund estimates (weekly ingest)'
+            git add data/curated/fund-estimates.json data/coefficient-grants.json
+            git commit -m 'Weekly ingest: refresh Coefficient export / fund estimates'
             git push
           fi
       - name: Dedup report
