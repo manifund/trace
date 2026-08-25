@@ -175,6 +175,7 @@ export function GrantsTable(props: {
               <th>Cause</th>
               <th>Source</th>
               <th>Purpose</th>
+              <th />
             </tr>
           </thead>
           <tbody>
@@ -222,6 +223,11 @@ export function GrantsTable(props: {
                 </td>
                 <td className="max-w-md">
                   <span className="line-clamp-2">{row.description}</span>
+                </td>
+                <td className="whitespace-nowrap text-xs">
+                  <a href={`/suggest?grant=${row.id}`} title="Suggest an edit to this grant">
+                    edit
+                  </a>
                 </td>
               </tr>
             ))}

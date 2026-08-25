@@ -1879,13 +1879,6 @@
       "recipient_name": "Apart Research",
       "fiscal_sponsor_name": "Ashgro, Inc."
     },
-    "ea_funds:recXtCpjz60rsR52y": {
-      "recipient_name": "Animal Law Centre",
-      "via_names": [
-        "EA Funds",
-        "NALSAR University of Law"
-      ]
-    },
     "ea_funds:recfqSRLeRYtOU2zy": {
       "recipient_name": "Aris Richardson",
       "via_names": [
@@ -1909,6 +1902,13 @@
       "via_names": [
         "EA Funds",
         "University of St Andrews"
+      ]
+    },
+    "ea_funds:recXtCpjz60rsR52y": {
+      "recipient_name": "Animal Law Centre",
+      "via_names": [
+        "EA Funds",
+        "NALSAR University of Law"
       ]
     },
     "fli:2b5e74173c691e7dfe7239e7ed649d0e59c09c556466aaca47b37f06b6987a3c": {

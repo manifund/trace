@@ -215,10 +215,11 @@ export async function runIngest(
     const year = p.parsed.date ? Number(p.parsed.date.slice(0, 4)) : null
     const currency = p.parsed.currency ?? 'USD'
     // Overrides may carry non-column fields: `note` (documentation) and
-    // `recipient_name`/`fiscal_sponsor_name` (resolved like any source name,
-    // so they survive rebuilds).
+    // `funder_name`/`recipient_name`/`fiscal_sponsor_name` (resolved like any
+    // source name, so they survive rebuilds).
     const {
       note: _note,
+      funder_name: funderNameOverride,
       recipient_name: recipientNameOverride,
       fiscal_sponsor_name: sponsorNameOverride,
       via_names: viaNamesOverride,
@@ -229,12 +230,16 @@ export async function runIngest(
       OVERRIDES[`${sourceId}:${p.key.split(':')[0]}`] ??
       {}) as Partial<GrantInsert> & {
       note?: string
+      funder_name?: string
       recipient_name?: string
       fiscal_sponsor_name?: string
       via_names?: string[]
     }
     const base: GrantInsert = {
-      funder_org_id: await resolver.resolve(p.parsed.funderName, p.parsed.funderType),
+      funder_org_id: await resolver.resolve(
+        funderNameOverride ?? p.parsed.funderName,
+        funderNameOverride ? 'organization' : p.parsed.funderType
+      ),
       recipient_org_id: await resolver.resolve(
         recipientNameOverride ?? p.parsed.recipientName,
         recipientNameOverride ? 'organization' : p.parsed.recipientType

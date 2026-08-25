@@ -128,6 +128,19 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
   return rows
 }
 
+// One approved grant by id, for the suggestion form.
+export async function getGrantById(id: string): Promise<GrantRow | null> {
+  const supabase = createPublicSupabaseClient()
+  const { data } = await supabase
+    .from('grants')
+    .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
+    .eq('status', 'approved')
+    .eq('id', id)
+    .maybeSingle()
+    .throwOnError()
+  return data ? mapGrantRow(data as never as Record<string, unknown>) : null
+}
+
 // Approved grants that flowed through the given vehicle org.
 export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
   if (!dbConfigured()) return []

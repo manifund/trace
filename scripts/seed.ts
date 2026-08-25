@@ -93,6 +93,12 @@ const SOURCES = [
     tier: 3,
   },
   {
+    id: 'community',
+    name: 'Community suggestions',
+    url: null,
+    tier: 3,
+  },
+  {
     id: 'fli_990',
     name: 'FLI Form 990',
     url: 'https://projects.propublica.org/nonprofits/organizations/471052538',

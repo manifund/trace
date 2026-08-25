@@ -25,6 +25,10 @@ type CuratedRow = {
   via?: string | string[] | null
   // Explicit cause slugs; bypasses programCauses and the keyword classifier.
   causes?: string[] | null
+  // Explicit source-record key. Used by exported community suggestions so a
+  // re-ingest updates the row the app already inserted instead of adding a
+  // second copy; everything else derives its key from the row's contents.
+  key?: string | null
 }
 
 type CuratedSource = {
@@ -109,6 +113,13 @@ const SOURCES: CuratedSource[] = [
       if (/effective altruism/i.test(program)) return ['ea-infrastructure']
       return null
     },
+  },
+  {
+    sourceId: 'community',
+    file: 'community.json',
+    defaultFunder: 'Undisclosed',
+    funderType: 'organization',
+    programCauses: () => null,
   },
   {
     sourceId: 'fli_990',
@@ -211,11 +222,12 @@ async function ingestSource(source: CuratedSource) {
     )
     const n = (keyCounts.get(baseKey) ?? 0) + 1
     keyCounts.set(baseKey, n)
+    const explicitKey = row.key?.trim()
 
     const hinted = program ? source.programCauses?.(program) : null
     const text = `${recipient} ${row.description ?? ''} ${program}`
     records.push({
-      key: n === 1 ? baseKey : `${baseKey}#${n}`,
+      key: explicitKey || (n === 1 ? baseKey : `${baseKey}#${n}`),
       raw: row as never,
       parsed: {
         funderName: row.funder?.trim() || source.defaultFunder,

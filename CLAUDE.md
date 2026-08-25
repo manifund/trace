@@ -55,6 +55,18 @@ Same as manifund: oxfmt (no semicolons, single quotes, 2-space), kebab-case file
 
 Keep on-site text minimal — data tables, not prose. No generated descriptions or filler; Caroline writes any copy herself.
 
+## Community suggestions
+
+Signed-in users propose new grants or edits at `/suggest`; admins review at
+`/suggestions`. Auth is Supabase Google OAuth (enable the provider in the
+Supabase dashboard); admins are the emails in `ADMIN_EMAILS`.
+
+Accepting writes the change to the database immediately, then
+`bun run export-suggestions` mirrors accepted suggestions into the checked-in
+files — added grants into `data/curated/community.json` (keys match the
+records the app wrote, so re-ingesting updates rather than duplicates), edits
+into `data/overrides.json`. Commit those and the rebuild reproduces them.
+
 ## Database Migrations
 
 Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no local Docker flow), then `bun run gen-types`. RLS policies are checked into the migrations — keep it that way. `db/database.types.ts` was hand-written to match the initial migration; regenerate once the project exists.
