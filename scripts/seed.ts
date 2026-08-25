@@ -87,6 +87,12 @@ const SOURCES = [
     tier: 3,
   },
   {
+    id: 'fund_estimates',
+    name: 'Aggregate fund estimates',
+    url: null,
+    tier: 3,
+  },
+  {
     id: 'jaan_online',
     name: 'Jaan Tallinn donations',
     url: 'https://jaan.online/philanthropy/donations.html',
@@ -148,6 +154,22 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
   console.log(`Merged provisional org "${name}" into ${toId}`)
 }
 
+// Steady-state seed runs re-claim hundreds of names that are already settled;
+// prefetch the crosswalk once so those claims are free instead of two
+// round-trips each.
+const settledNames = new Map<string, string>() // normalized -> org_id
+async function loadSettledNames() {
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('org_names')
+      .select('normalized, org_id')
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) settledNames.set(row.normalized, row.org_id)
+    if (!data || data.length < 1000) break
+  }
+}
+
 // Point `normalized` at org `toId`; merge away a provisional org holding it.
 async function claimName(
   normalized: string,
@@ -156,6 +178,7 @@ async function claimName(
   kind: string,
   extra: { valid_from?: string; valid_to?: string; note?: string } = {}
 ) {
+  if (settledNames.get(normalized) === toId) return
   const { data } = await db
     .from('org_names')
     .select('org_id, orgs!inner(needs_review, name)')
@@ -193,11 +216,13 @@ async function claimName(
       { onConflict: 'org_id,normalized' }
     )
     .throwOnError()
+  settledNames.set(normalized, toId)
 }
 
 async function main() {
   await seedCauseAreas()
   await db.from('sources').upsert(SOURCES, { onConflict: 'id' }).throwOnError()
+  await loadSettledNames()
 
   const orgs = (orgsSeed as never as { orgs: SeedOrg[] }).orgs
   for (const seed of orgs) {

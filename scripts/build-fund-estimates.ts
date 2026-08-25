@@ -1,0 +1,182 @@
+// Regenerates data/curated/fund-estimates.json: aggregate per-year giving
+// estimates for funds that don't publish grant-level data (figures from
+// Caroline, 2026-08). Each row is the year's estimated total minus grants
+// from that funder already recorded individually in the database, so the
+// aggregate never double-counts. Re-run after major ingests, then
+// `bun run scripts/ingest-curated.ts fund_estimates --force`.
+import { writeFileSync } from 'fs'
+import { createAdminClient } from '@/db/supabase-admin'
+
+const db = createAdminClient()
+
+type Bucket = 'ai' | 'other'
+type Estimate = {
+  funderSlug: string | null // null = org may not exist yet; no subtraction possible
+  funderName: string
+  date: string // 'YYYY' or 'YYYY-MM'
+  bucket: Bucket
+  totalUsd: number
+  note: string
+}
+
+const yearNote = (funder: string, year: string) =>
+  `Estimated total given out by ${funder} in ${year}; grants recorded individually in this database are subtracted from the total.`
+
+const ESTIMATES: Estimate[] = []
+const longview: Record<string, [number, number]> = {
+  '2026': [200e6, 200e6],
+  '2025': [60e6, 60e6],
+  '2024': [16e6, 12e6],
+  '2023': [11e6, 11e6],
+  '2022': [7e6, 8e6],
+  '2021': [5e6, 7e6],
+  '2020': [3e6, 7e6],
+  '2019': [2e6, 7e6],
+  '2018': [1e6, 2e6],
+}
+for (const [year, [ai, other]] of Object.entries(longview)) {
+  ESTIMATES.push({
+    funderSlug: 'longview-philanthropy',
+    funderName: 'Longview Philanthropy',
+    date: year,
+    bucket: 'ai',
+    totalUsd: ai,
+    note: yearNote('Longview Philanthropy', year),
+  })
+  ESTIMATES.push({
+    funderSlug: 'longview-philanthropy',
+    funderName: 'Longview Philanthropy',
+    date: year,
+    bucket: 'other',
+    totalUsd: other,
+    note: yearNote('Longview Philanthropy', year),
+  })
+}
+const macroscopic: Record<string, number> = {
+  '2026': 70e6,
+  '2025': 30e6,
+  '2024': 10e6,
+  '2023': 8e6,
+  '2022': 6e6,
+  '2021': 5e6,
+  '2020': 2e6,
+  '2019': 1e6,
+}
+for (const [year, total] of Object.entries(macroscopic)) {
+  ESTIMATES.push({
+    funderSlug: 'macroscopic',
+    funderName: 'Macroscopic Ventures',
+    date: year,
+    bucket: 'ai',
+    totalUsd: total,
+    note: yearNote('Macroscopic Ventures', year),
+  })
+}
+const aistof: Record<string, number> = {
+  '2026': 25e6,
+  '2025': 15e6,
+  '2024': 5e6,
+  '2023': 2e6,
+}
+for (const [year, total] of Object.entries(aistof)) {
+  ESTIMATES.push({
+    funderSlug: 'aistof',
+    funderName: 'AI Safety Tactical Opportunities Fund',
+    date: year,
+    bucket: 'ai',
+    totalUsd: total,
+    note: yearNote('the AI Safety Tactical Opportunities Fund', year),
+  })
+}
+ESTIMATES.push({
+  funderSlug: 'openai',
+  funderName: 'OpenAI',
+  date: '2024-02',
+  bucket: 'ai',
+  totalUsd: 10e6,
+  note: 'OpenAI announced $10m of Superalignment Fast Grants in February 2024; grants recorded individually in this database are subtracted from the total.',
+})
+
+async function main() {
+  const { data: aiCause } = await db
+    .from('cause_areas')
+    .select('id')
+    .eq('slug', 'ai-safety')
+    .single()
+    .throwOnError()
+
+  // Recorded per funder-year-bucket totals, excluding this source's own rows.
+  const recorded = new Map<string, number>()
+  for (const slug of new Set(ESTIMATES.map((e) => e.funderSlug))) {
+    if (!slug) continue
+    const { data: org } = await db.from('orgs').select('id').eq('slug', slug).maybeSingle()
+    if (!org) continue
+    const { data: grants } = await db
+      .from('grants')
+      .select(
+        'amount_usd, grant_date, grant_cause_areas(cause_area_id), grant_sources!inner(is_primary, source_records!inner(source_id))'
+      )
+      .eq('status', 'approved')
+      .eq('funder_org_id', org.id)
+      .throwOnError()
+    type GrantRow = {
+      amount_usd: number | null
+      grant_date: string | null
+      grant_cause_areas: { cause_area_id: string }[]
+      grant_sources: { is_primary: boolean; source_records: { source_id: string } }[]
+    }
+    for (const grant of (grants ?? []) as never as GrantRow[]) {
+      const sources = grant.grant_sources
+      if (sources.some((s) => s.is_primary && s.source_records.source_id === 'fund_estimates'))
+        continue
+      const year = (grant.grant_date ?? '').slice(0, 4)
+      if (!year) continue
+      const tags = grant.grant_cause_areas as never as { cause_area_id: string }[]
+      const bucket: Bucket = tags.some((t) => t.cause_area_id === aiCause!.id) ? 'ai' : 'other'
+      const key = `${slug}|${year}|${bucket}`
+      recorded.set(key, (recorded.get(key) ?? 0) + (grant.amount_usd ?? 0))
+    }
+  }
+
+  const rows = []
+  for (const est of ESTIMATES) {
+    const year = est.date.slice(0, 4)
+    const subtracted = est.funderSlug
+      ? (recorded.get(`${est.funderSlug}|${year}|${est.bucket}`) ?? 0)
+      : 0
+    const remainder = Math.round(est.totalUsd - subtracted)
+    if (remainder <= 0) {
+      console.log(`SKIP ${est.funderName} ${est.date} ${est.bucket}: recorded exceeds estimate`)
+      continue
+    }
+    rows.push({
+      recipient: 'Various Recipients',
+      funder: est.funderName,
+      amount: remainder,
+      currency: 'USD',
+      date: est.date,
+      description: null,
+      program:
+        est.bucket === 'ai'
+          ? 'Aggregate estimate — AI safety'
+          : 'Aggregate estimate — other causes',
+      sourceUrl: null,
+      amountEstimated: true,
+      estimateNote: est.note,
+    })
+    if (subtracted > 0)
+      console.log(
+        `${est.funderName} ${est.date} ${est.bucket}: $${est.totalUsd.toLocaleString()} - $${Math.round(subtracted).toLocaleString()} recorded = $${remainder.toLocaleString()}`
+      )
+  }
+
+  const doc = {
+    _comment:
+      'GENERATED by scripts/build-fund-estimates.ts — edit the totals there, not here. Aggregate per-year giving estimates net of individually recorded grants.',
+    grants: rows,
+  }
+  writeFileSync('data/curated/fund-estimates.json', JSON.stringify(doc, null, 2) + '\n')
+  console.log(`wrote ${rows.length} rows to data/curated/fund-estimates.json`)
+}
+
+await main()

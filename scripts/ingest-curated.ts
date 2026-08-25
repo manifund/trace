@@ -107,6 +107,17 @@ const SOURCES: CuratedSource[] = [
     },
   },
   {
+    sourceId: 'fund_estimates',
+    file: 'fund-estimates.json',
+    defaultFunder: 'Undisclosed',
+    funderType: 'fund',
+    programCauses: (program) => {
+      if (/ai safety/i.test(program)) return ['ai-safety']
+      if (/other causes/i.test(program)) return ['other']
+      return null
+    },
+  },
+  {
     sourceId: 'jefftk',
     file: 'jefftk.json',
     defaultFunder: 'Julia Wise and Jeff Kaufman',

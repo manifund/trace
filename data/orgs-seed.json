@@ -158,10 +158,28 @@
     },
     {
       "slug": "macroscopic",
-      "name": "Macroscopic",
+      "name": "Macroscopic Ventures",
       "org_type": "foundation",
       "website": "https://macroscopic.org/",
-      "aliases": []
+      "aliases": [
+        {
+          "name": "Macroscopic",
+          "kind": "alias"
+        },
+        {
+          "name": "Polaris Ventures",
+          "kind": "former_name",
+          "note": "renamed to Macroscopic Ventures"
+        },
+        {
+          "name": "Center for Emerging Risk Research",
+          "kind": "former_name"
+        },
+        {
+          "name": "CERR",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "schmidt-sciences",
