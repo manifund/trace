@@ -12,14 +12,15 @@
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full"
     },
     {
-      "recipient": "Silicon Valley Community Foundation",
+      "recipient": "Various Recipients",
       "funder": "Future of Life Institute",
       "amount": 10000000,
       "currency": "USD",
       "date": "2021",
-      "description": "Charitable work in support of fli's mission",
+      "description": "Granted to a donor-advised fund at the Silicon Valley Community Foundation — charitable work in support of fli's mission",
       "program": "Form 990 (2021)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full"
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full",
+      "via": "Silicon Valley Community Foundation"
     },
     {
       "recipient": "Future of Life Foundation",
@@ -152,14 +153,15 @@
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
     },
     {
-      "recipient": "Silicon Valley Community Foundation",
+      "recipient": "Various Recipients",
       "funder": "Future of Life Institute",
       "amount": 2470096,
       "currency": "USD",
       "date": "2024",
-      "description": "Support sponsored projects encode, tarbell, the elders, the collective intelligence project, and university research into the consequences of nuclear war",
+      "description": "Granted to a donor-advised fund at the Silicon Valley Community Foundation — support sponsored projects encode, tarbell, the elders, the collective intelligence project, and university research into the consequences of nuclear war",
       "program": "Form 990 (2024)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full",
+      "via": "Silicon Valley Community Foundation"
     },
     {
       "recipient": "Wise Ancestors",

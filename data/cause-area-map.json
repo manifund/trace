@@ -566,6 +566,15 @@
     ],
     "model-evaluation-and-threat-research": [
       "evals"
+    ],
+    "improve-the-news-foundation": [
+      "other"
+    ],
+    "fli": [
+      "ai-safety"
+    ],
+    "beneficial-ai-foundation": [
+      "technical-ai-safety"
     ]
   }
 }

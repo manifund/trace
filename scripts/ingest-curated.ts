@@ -21,6 +21,8 @@ type CuratedRow = {
   description?: string | null
   program?: string | null
   sourceUrl?: string | null
+  // Intermediary vehicle(s): the money reached the recipient through these.
+  via?: string | string[] | null
 }
 
 type CuratedSource = {
@@ -112,6 +114,13 @@ const SOURCES: CuratedSource[] = [
     defaultFunder: 'Future of Life Institute',
     funderType: 'organization',
     programCauses: () => ['ai-safety'],
+  },
+  {
+    sourceId: 'lightcone_990',
+    file: 'lightcone-990.json',
+    defaultFunder: 'Lightcone Foundation',
+    funderType: 'foundation',
+    programCauses: () => null,
   },
   {
     sourceId: 'macroscopic',
@@ -219,6 +228,7 @@ async function ingestSource(source: CuratedSource) {
         description: [row.description, program].filter(Boolean).join(' — ') || null,
         round: program || null,
         url: row.sourceUrl ?? null,
+        viaNames: row.via ? (Array.isArray(row.via) ? row.via : [row.via]) : undefined,
         causeSlugs: hinted
           ? classifyCauses({ labels: [], text }).includes('other')
             ? hinted

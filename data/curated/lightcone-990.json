@@ -1,0 +1,108 @@
+{
+  "_comment": "Grants disclosed in the Lightcone Foundation's Form 990 filings (EIN 92-0636259), read from the IRS e-file XML in the Giving Tuesday data lake; 2024 figures supplied by Caroline (that filing is not yet mirrored). Donor-advised-fund grants are recorded as reaching Various Recipients via the Silicon Valley Community Foundation.",
+  "grants": [
+    {
+      "recipient": "Various Recipients",
+      "funder": "Lightcone Foundation",
+      "amount": 10000000,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Granted to a donor-advised fund at the Silicon Valley Community Foundation; onward recipients not itemized",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202520429349301552/full",
+      "via": "Silicon Valley Community Foundation"
+    },
+    {
+      "recipient": "Future of Life Institute",
+      "funder": "Lightcone Foundation",
+      "amount": 4250000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Charitable work in support of the Future of Life Foundation",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202621259349303312/full"
+    },
+    {
+      "recipient": "Improve the News Foundation",
+      "funder": "Lightcone Foundation",
+      "amount": 3845000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Charitable work in support of the Future of Life Foundation",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202621259349303312/full"
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Lightcone Foundation",
+      "amount": 2250000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Granted to a donor-advised fund at the Silicon Valley Community Foundation; onward recipients not itemized",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202621259349303312/full",
+      "via": "Silicon Valley Community Foundation"
+    },
+    {
+      "recipient": "Beneficial AI Foundation",
+      "funder": "Lightcone Foundation",
+      "amount": 1765000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Charitable work in support of the Future of Life Foundation",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202621259349303312/full"
+    },
+    {
+      "recipient": "Civil Liberties Foundation",
+      "funder": "Lightcone Foundation",
+      "amount": 40000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Charitable work in support of the Future of Life Foundation",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202621259349303312/full"
+    },
+    {
+      "recipient": "Future of Life Institute",
+      "funder": "Lightcone Foundation",
+      "amount": 21050000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Grant reported in Lightcone Foundation’s 2024 Form 990",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202631259349302628/full"
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Lightcone Foundation",
+      "amount": 8500000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Granted to a donor-advised fund at the Silicon Valley Community Foundation; onward recipients not itemized",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202631259349302628/full",
+      "via": "Silicon Valley Community Foundation"
+    },
+    {
+      "recipient": "Improve the News Foundation",
+      "funder": "Lightcone Foundation",
+      "amount": 4158000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Grant reported in Lightcone Foundation’s 2024 Form 990",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202631259349302628/full"
+    },
+    {
+      "recipient": "Beneficial AI Foundation",
+      "funder": "Lightcone Foundation",
+      "amount": 125000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Grant reported in Lightcone Foundation’s 2024 Form 990",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/920636259/202631259349302628/full"
+    }
+  ]
+}

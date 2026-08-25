@@ -100,6 +100,20 @@ for (const [year, total] of Object.entries(aistof)) {
     note: yearNote('the AI Safety Tactical Opportunities Fund', year),
   })
 }
+// Coefficient Giving: only their AI-safety giving is estimated, so the
+// catch-all fold below must not pull their (much larger) other-cause
+// grantmaking into this bucket — see PARTIAL_FUNDERS.
+const coefficientAi: Record<string, number> = { '2026': 500e6, '2025': 450e6 }
+for (const [year, total] of Object.entries(coefficientAi)) {
+  ESTIMATES.push({
+    funderSlug: 'coefficient-giving',
+    funderName: 'Coefficient Giving',
+    date: year,
+    bucket: 'ai',
+    totalUsd: total,
+    note: `Estimated total given to AI safety by Coefficient Giving in ${year}${year === '2026' ? ' so far' : ''}; AI-safety grants recorded individually in this database are subtracted from the total.`,
+  })
+}
 ESTIMATES.push({
   funderSlug: 'openai',
   funderName: 'OpenAI',
@@ -170,7 +184,11 @@ async function main() {
     set.add(est.bucket)
     estimatedBuckets.set(est.funderSlug, set)
   }
+  // Funders whose estimates deliberately cover only some causes: never fold
+  // recorded grants from other buckets into their estimate.
+  const PARTIAL_FUNDERS = new Set(['coefficient-giving'])
   const catchAll = (slug: string): Bucket => {
+    if (PARTIAL_FUNDERS.has(slug)) return 'none' as Bucket
     const set = estimatedBuckets.get(slug) ?? new Set<Bucket>()
     for (const bucket of ['other', 'xrisk', 'ai'] as Bucket[]) if (set.has(bucket)) return bucket
     return 'other'
@@ -275,6 +293,82 @@ async function main() {
           amountEstimated: true,
           estimateNote: `${shared} Funding beyond Good Ventures' assumed share is attributed to various donors.`,
         })
+    }
+  }
+
+  // Form 990 gaps: a filer's reported total grants paid for a year, minus the
+  // grants from that filer we have itemized, becomes a 'Various Recipients'
+  // estimate row. Cause is left as 'other' — the remainder is unattributed by
+  // definition, so tagging it would inflate a cause's totals.
+  const FILINGS: { slug: string; name: string; url: string; paid: Record<string, number> }[] = [
+    {
+      slug: 'fli',
+      name: 'Future of Life Institute',
+      url: 'https://projects.propublica.org/nonprofits/organizations/471052538',
+      paid: { '2021': 13_521_246, '2022': 372_863_899, '2023': 9_449_231, '2024': 7_457_618 },
+    },
+    {
+      slug: 'lightcone-foundation',
+      name: 'Lightcone Foundation',
+      url: 'https://projects.propublica.org/nonprofits/organizations/920636259',
+      paid: { '2022': 10_000_000, '2023': 12_150_000 },
+    },
+  ]
+  for (const filer of FILINGS) {
+    const { data: org } = await db.from('orgs').select('id').eq('slug', filer.slug).maybeSingle()
+    if (!org) continue
+    const itemized = new Map<string, number>()
+    for (let from = 0; ; from += 1000) {
+      const { data } = await db
+        .from('grants')
+        .select(
+          'amount_usd, grant_date, grant_sources!inner(is_primary, source_records!inner(source_id))'
+        )
+        .eq('status', 'approved')
+        .eq('funder_org_id', org.id)
+        .range(from, from + 999)
+        .throwOnError()
+      type Row = {
+        amount_usd: number | null
+        grant_date: string | null
+        grant_sources: { is_primary: boolean; source_records: { source_id: string } }[]
+      }
+      for (const grant of (data ?? []) as never as Row[]) {
+        if (
+          grant.grant_sources.some(
+            (s) => s.is_primary && s.source_records.source_id === 'fund_estimates'
+          )
+        )
+          continue
+        const year = (grant.grant_date ?? '').slice(0, 4)
+        if (year) itemized.set(year, (itemized.get(year) ?? 0) + (grant.amount_usd ?? 0))
+      }
+      if (!data || data.length < 1000) break
+    }
+    for (const [year, paid] of Object.entries(filer.paid)) {
+      const known = Math.round(itemized.get(year) ?? 0)
+      const gap = Math.round(paid - known)
+      if (gap <= 0) {
+        console.log(
+          `SKIP ${filer.name} ${year} 990 gap: itemized $${known.toLocaleString()} >= $${paid.toLocaleString()}`
+        )
+        continue
+      }
+      console.log(
+        `${filer.name} ${year} 990 gap: $${paid.toLocaleString()} paid - $${known.toLocaleString()} itemized = $${gap.toLocaleString()}`
+      )
+      rows.push({
+        recipient: 'Various Recipients',
+        funder: filer.name,
+        amount: gap,
+        currency: 'USD',
+        date: year,
+        description: null,
+        program: 'Aggregate estimate — other causes',
+        sourceUrl: filer.url,
+        amountEstimated: true,
+        estimateNote: `${filer.name}'s Form 990 reports $${paid.toLocaleString()} of grants paid in ${year}; grants itemized in this database are subtracted from the total.`,
+      })
     }
   }
 

@@ -99,6 +99,12 @@ const SOURCES = [
     tier: 2,
   },
   {
+    id: 'lightcone_990',
+    name: 'Lightcone Foundation Form 990',
+    url: 'https://projects.propublica.org/nonprofits/organizations/920636259',
+    tier: 2,
+  },
+  {
     id: 'macroscopic',
     name: 'Macroscopic Ventures grants page',
     url: 'https://macroscopic.org/grants',

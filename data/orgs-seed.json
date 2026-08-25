@@ -401,6 +401,13 @@
           "kind": "alias"
         }
       ]
+    },
+    {
+      "slug": "lightcone-foundation",
+      "name": "Lightcone Foundation",
+      "org_type": "foundation",
+      "website": "https://projects.propublica.org/nonprofits/organizations/920636259",
+      "aliases": []
     }
   ]
 }

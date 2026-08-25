@@ -663,6 +663,30 @@
     },
     {
       "recipient": "Various Recipients",
+      "funder": "Coefficient Giving",
+      "amount": 298060748,
+      "currency": "USD",
+      "date": "2025",
+      "description": null,
+      "program": "Aggregate estimate — AI safety",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given to AI safety by Coefficient Giving in 2025; AI-safety grants recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Coefficient Giving",
+      "amount": 431910888,
+      "currency": "USD",
+      "date": "2026",
+      "description": null,
+      "program": "Aggregate estimate — AI safety",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "Estimated total given to AI safety by Coefficient Giving in 2026 so far; AI-safety grants recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
       "funder": "OpenAI",
       "amount": 10000000,
       "currency": "USD",
@@ -844,14 +868,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 614050469,
+      "amount": 912111217,
       "currency": "USD",
       "date": "2025",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $814,050,469 in 2025 per this database. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,112,111,217 in 2025 per this database. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -863,19 +887,19 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $814,050,469 in 2025 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,112,111,217 in 2025 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 395122791,
+      "amount": 827033679,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $595,122,791 in 2026 per this database. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,027,033,679 in 2026 per this database. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -887,7 +911,31 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $595,122,791 in 2026 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,027,033,679 in 2026 per this database. Funding beyond Good Ventures' assumed share is attributed to various donors."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Future of Life Institute",
+      "amount": 45246,
+      "currency": "USD",
+      "date": "2021",
+      "description": null,
+      "program": "Aggregate estimate — other causes",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538",
+      "amountEstimated": true,
+      "estimateNote": "Future of Life Institute's Form 990 reports $13,521,246 of grants paid in 2021; grants itemized in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
+      "funder": "Future of Life Institute",
+      "amount": 110689770,
+      "currency": "USD",
+      "date": "2022",
+      "description": null,
+      "program": "Aggregate estimate — other causes",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538",
+      "amountEstimated": true,
+      "estimateNote": "Future of Life Institute's Form 990 reports $372,863,899 of grants paid in 2022; grants itemized in this database are subtracted from the total."
     }
   ]
 }
