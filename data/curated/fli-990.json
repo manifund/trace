@@ -12,14 +12,14 @@
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full"
     },
     {
-      "recipient": "Lightcone Foundation",
+      "recipient": "Silicon Valley Community Foundation",
       "funder": "Future of Life Institute",
-      "amount": 50006500,
+      "amount": 10000000,
       "currency": "USD",
-      "date": "2022",
-      "description": "Grant to establish the Lightcone Foundation",
-      "program": "Form 990 (2022)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+      "date": "2021",
+      "description": "Charitable work in support of fli's mission",
+      "program": "Form 990 (2021)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202400669349300240/full"
     },
     {
       "recipient": "Future of Life Foundation",
@@ -40,6 +40,136 @@
       "description": "Establishing and funding Europe-based affiliate (Schedule F, Europe)",
       "program": "Form 990 (2022)",
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "Good Ventures Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 161865,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Support for ai fellowship program supporting promising machine learning researchers",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "Improve the News Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 2950000,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Grant to support ITN’s efforts to improve the informational ecosystem",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "Lightcone Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 50006500,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Grant to establish the Lightcone Foundation",
+      "program": "Form 990 (2022)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202510309349301606/full"
+    },
+    {
+      "recipient": "CAF America",
+      "funder": "Future of Life Institute",
+      "amount": 292264,
+      "currency": "USD",
+      "date": "2023",
+      "description": "To support sponsored projects teeside university, uqam foundation and international institute for applied systems analysis",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202521139349301937/full"
+    },
+    {
+      "recipient": "Improve the News Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 2100000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Grant to support ITN’s efforts to improve the informational ecosystem",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202521139349301937/full"
+    },
+    {
+      "recipient": "Lightcone Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 6511558,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Grant to fund lightcone foundation",
+      "program": "Form 990 (2023)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202521139349301937/full"
+    },
+    {
+      "recipient": "CAF America",
+      "funder": "Future of Life Institute",
+      "amount": 619861,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Support for university research into the consequences of nuclear war",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Future Coalition",
+      "funder": "Future of Life Institute",
+      "amount": 25000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Advocacy for a future with human-centered artificial intelligence",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Institute for Law & AI",
+      "funder": "Future of Life Institute",
+      "amount": 15000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Research into global governance institution design",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Longview Philanthropy",
+      "funder": "Future of Life Institute",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Finding solutions to collective action problems",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Metagov",
+      "funder": "Future of Life Institute",
+      "amount": 15000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Research into global governance institution design",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Silicon Valley Community Foundation",
+      "funder": "Future of Life Institute",
+      "amount": 2470096,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Support sponsored projects encode, tarbell, the elders, the collective intelligence project, and university research into the consequences of nuclear war",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
+    },
+    {
+      "recipient": "Wise Ancestors",
+      "funder": "Future of Life Institute",
+      "amount": 169000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Conservation of Earth’s biodiversity for the benefit of all",
+      "program": "Form 990 (2024)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/471052538/202523119349303667/full"
     }
   ]
 }
