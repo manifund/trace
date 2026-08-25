@@ -3,9 +3,11 @@
 // Client-side index for /funders and /recipients: the page ships one compact
 // tuple per grant and every filter recomputes the aggregates instantly.
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { CAUSE_OPTIONS } from '@/utils/cause-tree'
 import { formatCoverage, formatMoney } from '@/utils/format'
+
+type SortKey = 'name' | 'grants' | 'total' | 'coverage' | 'years'
 
 // [org slug, org name, year, amount USD, cause slugs, counts toward coverage]
 export type OrgIndexRow = [string, string, number | null, number | null, string[], boolean?]
@@ -15,6 +17,8 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const cause = searchParams.get('cause') || 'ai-safety'
+  const [sortKey, setSortKey] = useState<SortKey>('total')
+  const [sortDesc, setSortDesc] = useState(true)
   const yearMin = Number(searchParams.get('yearMin')) || null
   const yearMax = Number(searchParams.get('yearMax')) || null
 
@@ -64,12 +68,42 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
       }
       byOrg.set(slug, entry)
     }
-    return Array.from(byOrg.entries())
-      .map(([slug, entry]) => ({ slug, ...entry }))
-      .sort((a, b) => b.totalUsd - a.totalUsd)
+    return Array.from(byOrg.entries()).map(([slug, entry]) => ({ slug, ...entry }))
   }, [props.rows, cause, yearMin, yearMax])
 
+  const sorted = useMemo(() => {
+    const rows = [...aggregates]
+    const dir = sortDesc ? 1 : -1
+    rows.sort((a, b) => {
+      switch (sortKey) {
+        case 'name':
+          return a.name.localeCompare(b.name) * -dir
+        case 'grants':
+          return (b.grantCount - a.grantCount) * dir
+        case 'coverage': {
+          const share = (row: (typeof rows)[number]) =>
+            row.totalUsd > 0 ? row.coveredUsd / row.totalUsd : -1
+          return (share(b) - share(a)) * dir
+        }
+        case 'years':
+          return ((b.lastYear ?? -Infinity) - (a.lastYear ?? -Infinity)) * dir
+        default:
+          return (b.totalUsd - a.totalUsd) * dir
+      }
+    })
+    return rows
+  }, [aggregates, sortKey, sortDesc])
+
   const totalUsd = aggregates.reduce((sum, row) => sum + row.totalUsd, 0)
+  const toggle = (key: SortKey) => {
+    if (key === sortKey) setSortDesc(!sortDesc)
+    else {
+      setSortKey(key)
+      setSortDesc(true)
+    }
+  }
+  const arrow = (key: SortKey) => (key === sortKey ? (sortDesc ? ' \u2193' : ' \u2191') : '')
+  const sortable = 'cursor-pointer select-none hover:text-ink'
   const selectClass = 'rounded border border-rule bg-paper-alt px-2 py-1'
 
   return (
@@ -121,22 +155,32 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
         <table className="gb-table">
           <thead>
             <tr>
-              <th>{props.side === 'funder' ? 'Funder' : 'Recipient'}</th>
-              <th className="gb-num">Grants</th>
-              <th className="gb-num">Total</th>
+              <th className={sortable} onClick={() => toggle('name')}>
+                {props.side === 'funder' ? 'Funder' : 'Recipient'}
+                {arrow('name')}
+              </th>
+              <th className={`gb-num ${sortable}`} onClick={() => toggle('grants')}>
+                Grants{arrow('grants')}
+              </th>
+              <th className={`gb-num ${sortable}`} onClick={() => toggle('total')}>
+                Total{arrow('total')}
+              </th>
               {props.side === 'funder' && (
                 <th
-                  className="gb-num"
+                  className={`gb-num ${sortable}`}
+                  onClick={() => toggle('coverage')}
                   title="Share of the total itemized as individual grants; aggregate and anonymous rows excluded"
                 >
-                  Coverage
+                  Coverage{arrow('coverage')}
                 </th>
               )}
-              <th className="gb-num">Years</th>
+              <th className={`gb-num ${sortable}`} onClick={() => toggle('years')}>
+                Years{arrow('years')}
+              </th>
             </tr>
           </thead>
           <tbody>
-            {aggregates.map((row) => (
+            {sorted.map((row) => (
               <tr key={row.slug}>
                 <td>
                   <a href={`/orgs/${row.slug}`}>{row.name}</a>

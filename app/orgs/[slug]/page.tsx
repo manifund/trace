@@ -1,15 +1,9 @@
 import { notFound } from 'next/navigation'
+import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgYearChart } from '@/components/org-year-chart'
 import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
-import { displayCauses } from '@/utils/cause-tree'
-import {
-  countsTowardCoverage,
-  ESTIMATE_SYMBOLS,
-  formatCoverage,
-  formatGrantDate,
-  formatMoney,
-} from '@/utils/format'
+import { countsTowardCoverage, ESTIMATE_SYMBOLS, formatCoverage, formatMoney } from '@/utils/format'
 
 export const revalidate = 600
 
@@ -61,91 +55,12 @@ function GrantList(props: {
           )}
         </span>
       </h2>
-      <div className="overflow-x-auto">
-        <table className="gb-table">
-          <thead>
-            <tr>
-              <th>Date</th>
-              {props.side === 'via' ? (
-                <>
-                  <th>Funder</th>
-                  <th>Recipient</th>
-                </>
-              ) : (
-                <th>{props.side === 'made' ? 'Recipient' : 'Funder'}</th>
-              )}
-              <th>Via</th>
-              <th className="gb-num">Amount</th>
-              <th>Cause</th>
-              <th>Source</th>
-              <th>Purpose</th>
-            </tr>
-          </thead>
-          <tbody>
-            {props.grants.map((grant) => {
-              const other =
-                props.side === 'made'
-                  ? { slug: grant.recipientSlug, name: grant.recipientName }
-                  : { slug: grant.funderSlug, name: grant.funderName }
-              return (
-                <tr key={grant.id}>
-                  <td className="whitespace-nowrap">
-                    {formatGrantDate(grant.date, grant.datePrecision)}
-                  </td>
-                  {props.side === 'via' ? (
-                    <>
-                      <td>
-                        <a href={`/orgs/${grant.funderSlug}`}>{grant.funderName}</a>
-                      </td>
-                      <td>
-                        <a href={`/orgs/${grant.recipientSlug}`}>{grant.recipientName}</a>
-                      </td>
-                    </>
-                  ) : (
-                    <td>
-                      <a href={`/orgs/${other.slug}`}>{other.name}</a>
-                    </td>
-                  )}
-                  <td>
-                    {grant.vias
-                      .filter((via) => via.slug !== grant.funderSlug)
-                      .map((via, i) => (
-                        <span key={via.slug}>
-                          {i > 0 && ', '}
-                          <a href={`/orgs/${via.slug}`}>{via.name}</a>
-                        </span>
-                      ))}
-                  </td>
-                  <td className="gb-num whitespace-nowrap">
-                    {grant.amountEstimated && '~'}
-                    {formatMoney(grant.amountUsd)}
-                    {grant.amountEstimated && (
-                      <a
-                        href={`#${noteId}`}
-                        title={grant.estimateNote ?? undefined}
-                        className="text-accent"
-                      >
-                        {ESTIMATE_SYMBOLS[
-                          Math.max(estimateNotes.indexOf(grant.estimateNote ?? ''), 0)
-                        ] ?? '*'}
-                      </a>
-                    )}
-                  </td>
-                  <td className="max-w-44 text-xs text-ink-muted">
-                    {displayCauses(grant.causes).join(', ')}
-                  </td>
-                  <td className="whitespace-nowrap">
-                    {grant.url ? <a href={grant.url}>{grant.sourceId}</a> : grant.sourceId}
-                  </td>
-                  <td className="max-w-md">
-                    <span className="line-clamp-2">{grant.description}</span>
-                  </td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      </div>
+      <OrgGrantTable
+        grants={props.grants}
+        side={props.side}
+        noteId={noteId}
+        estimateNotes={estimateNotes}
+      />
       {estimateNotes.length > 0 && (
         <div id={noteId} className="mt-1 text-xs text-ink-muted">
           {estimateNotes.map((note, i) => (
