@@ -169,7 +169,6 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const [lineCause, setLineCause] = useState('ai-safety')
   const [lineFunders, setLineFunders] = useState<string[]>([])
   const [lineCount, setLineCount] = useState(5)
-  const [lineCumulative, setLineCumulative] = useState(false)
   const [lineBranch, setLineBranch] = useState('ai-safety')
   const lineData = useMemo(() => {
     const cause = effectiveCause(lineGroup, lineCause, lineBranch)
@@ -212,9 +211,8 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       const points = new Map<number, number>()
       let running = 0
       for (const month of months) {
-        const value = perMonth.get(name)?.get(month) ?? 0
-        running += value
-        points.set(month, lineCumulative ? running : value)
+        running += perMonth.get(name)?.get(month) ?? 0
+        points.set(month, running)
       }
       return { name, color: SERIES[i % SERIES.length], points }
     })
@@ -225,7 +223,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       .filter((_, i) => i % step === 0)
       .map((m) => ({ value: m, label: `${Math.floor(m / 12)}` }))
     return { series, months, xTicks }
-  }, [props.grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount, lineCumulative])
+  }, [props.grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount])
 
   // Chart 3: donut
   const [pieGroup, setPieGroup] = useState<Exclude<GroupMode, 'funder'> | 'funder'>('cause')
@@ -298,7 +296,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       </section>
 
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Funding by year, compared</h2>
+        <h2 className="mb-1 font-serif text-lg font-bold">Cumulative funding, compared</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <select
             value={lineGroup}
@@ -330,14 +328,6 @@ export function ChartsView(props: { grants: GrantRow[] }) {
                 Top {n}
               </option>
             ))}
-          </select>
-          <select
-            value={lineCumulative ? 'cumulative' : 'annual'}
-            onChange={(e) => setLineCumulative(e.target.value === 'cumulative')}
-            className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
-          >
-            <option value="annual">Annual</option>
-            <option value="cumulative">Cumulative</option>
           </select>
         </div>
         <YearLineChart
