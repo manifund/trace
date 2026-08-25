@@ -2149,6 +2149,19 @@
       "sourceUrl": null,
       "amountEstimated": true,
       "estimateNote": "Estimated total donations to Transluce of $10,000,000 in 2025; no donations for that year are recorded individually in this database."
+    },
+    {
+      "recipient": "Resolution",
+      "funder": "Coefficient Giving",
+      "amount": 160000000,
+      "currency": "USD",
+      "date": "2026-07-07",
+      "datePrecision": "day",
+      "description": "Alignment research, including semiautomated alignment theory and empirics; structured as a $108m base plus $52m conditional on hiring success and compute needs. Coefficient Giving is Resolution’s sole funder to start.",
+      "sourceUrl": "https://resolution.org/post/funding",
+      "causes": [
+        "technical-ai-safety"
+      ]
     }
   ]
 }
