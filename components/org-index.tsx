@@ -5,10 +5,10 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useMemo } from 'react'
 import { CAUSE_OPTIONS } from '@/utils/cause-tree'
-import { formatMoney } from '@/utils/format'
+import { formatCoverage, formatMoney } from '@/utils/format'
 
-// [org slug, org name, year, amount USD, cause slugs]
-export type OrgIndexRow = [string, string, number | null, number | null, string[]]
+// [org slug, org name, year, amount USD, cause slugs, counts toward coverage]
+export type OrgIndexRow = [string, string, number | null, number | null, string[], boolean?]
 
 export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRow[] }) {
   const router = useRouter()
@@ -38,11 +38,12 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
         name: string
         grantCount: number
         totalUsd: number
+        coveredUsd: number
         firstYear: number | null
         lastYear: number | null
       }
     >()
-    for (const [slug, name, year, amountUsd, causes] of props.rows) {
+    for (const [slug, name, year, amountUsd, causes, covered] of props.rows) {
       if (cause !== 'all' && !causes.includes(cause)) continue
       if (yearMin !== null && (year === null || year < yearMin)) continue
       if (yearMax !== null && (year === null || year > yearMax)) continue
@@ -50,11 +51,13 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
         name,
         grantCount: 0,
         totalUsd: 0,
+        coveredUsd: 0,
         firstYear: null,
         lastYear: null,
       }
       entry.grantCount++
       entry.totalUsd += amountUsd ?? 0
+      if (covered !== false) entry.coveredUsd += amountUsd ?? 0
       if (year !== null) {
         entry.firstYear = entry.firstYear === null ? year : Math.min(entry.firstYear, year)
         entry.lastYear = entry.lastYear === null ? year : Math.max(entry.lastYear, year)
@@ -121,6 +124,14 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
               <th>{props.side === 'funder' ? 'Funder' : 'Recipient'}</th>
               <th className="gb-num">Grants</th>
               <th className="gb-num">Total</th>
+              {props.side === 'funder' && (
+                <th
+                  className="gb-num"
+                  title="Share of the total itemized as individual grants; aggregate and anonymous rows excluded"
+                >
+                  Coverage
+                </th>
+              )}
               <th className="gb-num">Years</th>
             </tr>
           </thead>
@@ -132,6 +143,9 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
                 </td>
                 <td className="gb-num">{row.grantCount.toLocaleString()}</td>
                 <td className="gb-num">{formatMoney(row.totalUsd)}</td>
+                {props.side === 'funder' && (
+                  <td className="gb-num">{formatCoverage(row.coveredUsd, row.totalUsd)}</td>
+                )}
                 <td className="gb-num whitespace-nowrap">
                   {row.firstYear === null
                     ? '—'

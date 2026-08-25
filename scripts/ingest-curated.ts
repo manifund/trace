@@ -107,12 +107,30 @@ const SOURCES: CuratedSource[] = [
     },
   },
   {
+    sourceId: 'macroscopic',
+    file: 'macroscopic.json',
+    defaultFunder: 'Macroscopic Ventures',
+    funderType: 'foundation',
+    programCauses: (program) => {
+      if (/cooperative ai/i.test(program)) return ['ai-safety']
+      if (/welfare & sentience/i.test(program)) return ['digital-minds']
+      if (/s-risk/i.test(program)) return ['s-risk']
+      if (/technical ai governance/i.test(program)) return ['technical-governance']
+      if (/international/i.test(program)) return ['international-policy']
+      if (/^ai governance$/i.test(program)) return ['ai-policy']
+      if (/animal welfare/i.test(program)) return ['animal-welfare']
+      if (/ai safety research/i.test(program)) return ['technical-ai-safety']
+      return null
+    },
+  },
+  {
     sourceId: 'fund_estimates',
     file: 'fund-estimates.json',
     defaultFunder: 'Undisclosed',
     funderType: 'fund',
     programCauses: (program) => {
       if (/ai safety/i.test(program)) return ['ai-safety']
+      if (/animal welfare/i.test(program)) return ['animal-welfare']
       if (/other causes/i.test(program)) return ['other']
       return null
     },

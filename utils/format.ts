@@ -20,3 +20,14 @@ export function formatGrantDate(date: string | null, precision: 'day' | 'month' 
 
 // Footnote markers for estimated amounts, in table order.
 export const ESTIMATE_SYMBOLS = ['*', '\u2020', '\u2021', '\u00a7', '\u00b6']
+
+// Placeholder recipients that don't count as itemized grants when computing
+// a funder's coverage (share of its dollar total with a real recipient).
+export const COVERAGE_EXCLUDED_SLUGS = ['various-recipients', 'various-individuals', 'anonymous']
+
+export function formatCoverage(coveredUsd: number, totalUsd: number): string {
+  if (totalUsd <= 0) return '\u2014'
+  const pct = (coveredUsd / totalUsd) * 100
+  if (pct > 0 && pct < 1) return '<1%'
+  return `${Math.round(pct)}%`
+}

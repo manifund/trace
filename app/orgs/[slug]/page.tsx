@@ -3,7 +3,13 @@ import { OrgYearChart } from '@/components/org-year-chart'
 import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
 import { displayCauses } from '@/utils/cause-tree'
-import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
+import {
+  COVERAGE_EXCLUDED_SLUGS,
+  ESTIMATE_SYMBOLS,
+  formatCoverage,
+  formatGrantDate,
+  formatMoney,
+} from '@/utils/format'
 
 export const revalidate = 600
 
@@ -16,6 +22,13 @@ function GrantList(props: {
   const priced = props.grants.filter((grant) => grant.amountUsd !== null)
   const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
   const avg = priced.length > 0 ? total / priced.length : null
+  const coveredUsd =
+    props.side === 'made'
+      ? priced
+          .filter((grant) => !COVERAGE_EXCLUDED_SLUGS.includes(grant.recipientSlug))
+          .reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
+      : total
+  const showCoverage = props.side === 'made' && coveredUsd < total
   const estimateNotes = Array.from(
     new Set(
       props.grants
@@ -37,6 +50,15 @@ function GrantList(props: {
           )}
           {formatMoney(total)}
           {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
+          {showCoverage && (
+            <>
+              {' '}
+              ·{' '}
+              <span title="Share of the total itemized as individual grants; aggregate and anonymous rows excluded">
+                {formatCoverage(coveredUsd, total)} coverage
+              </span>
+            </>
+          )}
         </span>
       </h2>
       <div className="overflow-x-auto">

@@ -93,6 +93,12 @@ const SOURCES = [
     tier: 3,
   },
   {
+    id: 'macroscopic',
+    name: 'Macroscopic Ventures grants page',
+    url: 'https://macroscopic.org/grants',
+    tier: 3,
+  },
+  {
     id: 'jaan_online',
     name: 'Jaan Tallinn donations',
     url: 'https://jaan.online/philanthropy/donations.html',

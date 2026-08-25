@@ -1,0 +1,219 @@
+{
+  "_comment": "Grants by Macroscopic Ventures (formerly Polaris Ventures / CERR), from macroscopic.org/grants (an undated selection; amounts disclosed only for CAIF and FOCAL, spread per Caroline 2026-08). GovAI relaunch and IAPS support are already recorded via org_reported.",
+  "grants": [
+    {
+      "recipient": "Cooperative AI Foundation",
+      "amount": 3000000,
+      "currency": "USD",
+      "date": "2021",
+      "description": "Seed commitment to establish the Cooperative AI Foundation",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $15m seed commitment to establish the Cooperative AI Foundation; spread evenly over five years (2021-2025)."
+    },
+    {
+      "recipient": "Cooperative AI Foundation",
+      "amount": 3000000,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Seed commitment to establish the Cooperative AI Foundation",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $15m seed commitment to establish the Cooperative AI Foundation; spread evenly over five years (2021-2025)."
+    },
+    {
+      "recipient": "Cooperative AI Foundation",
+      "amount": 3000000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Seed commitment to establish the Cooperative AI Foundation",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $15m seed commitment to establish the Cooperative AI Foundation; spread evenly over five years (2021-2025)."
+    },
+    {
+      "recipient": "Cooperative AI Foundation",
+      "amount": 3000000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Seed commitment to establish the Cooperative AI Foundation",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $15m seed commitment to establish the Cooperative AI Foundation; spread evenly over five years (2021-2025)."
+    },
+    {
+      "recipient": "Cooperative AI Foundation",
+      "amount": 3000000,
+      "currency": "USD",
+      "date": "2025",
+      "description": "Seed commitment to establish the Cooperative AI Foundation",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $15m seed commitment to establish the Cooperative AI Foundation; spread evenly over five years (2021-2025)."
+    },
+    {
+      "recipient": "Foundations of Cooperative AI Lab",
+      "amount": 1000000,
+      "currency": "USD",
+      "date": "2022",
+      "description": "Commitment to establish the Foundations of Cooperative AI Lab (FOCAL) at Carnegie Mellon University, headed by Vincent Conitzer",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $3m commitment to establish FOCAL; spread evenly over three years (2022-2024)."
+    },
+    {
+      "recipient": "Foundations of Cooperative AI Lab",
+      "amount": 1000000,
+      "currency": "USD",
+      "date": "2023",
+      "description": "Commitment to establish the Foundations of Cooperative AI Lab (FOCAL) at Carnegie Mellon University, headed by Vincent Conitzer",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $3m commitment to establish FOCAL; spread evenly over three years (2022-2024)."
+    },
+    {
+      "recipient": "Foundations of Cooperative AI Lab",
+      "amount": 1000000,
+      "currency": "USD",
+      "date": "2024",
+      "description": "Commitment to establish the Foundations of Cooperative AI Lab (FOCAL) at Carnegie Mellon University, headed by Vincent Conitzer",
+      "program": "Cooperative AI",
+      "sourceUrl": "https://macroscopic.org/grants",
+      "amountEstimated": true,
+      "estimateNote": "Macroscopic Ventures reported a $3m commitment to establish FOCAL; spread evenly over three years (2022-2024)."
+    },
+    {
+      "recipient": "NYU Center for Mind, Ethics, and Policy",
+      "amount": 1000000,
+      "currency": "USD",
+      "date": "2024-05",
+      "description": "Gift (as Polaris Ventures) toward the $6m CMEP Endowment Fund; research on consciousness, sentience, and the moral status of nonhumans including AI systems",
+      "program": "AI welfare & sentience",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/eu5ykCAKLtPTyb8eM/announcing-a-usd6-000-000-endowment-for-nyu-mind-ethics-and"
+    },
+    {
+      "recipient": "NYU Center for Mind, Brain, and Consciousness",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Support for work on AI consciousness and welfare",
+      "program": "AI welfare & sentience",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Center on Long-Term Risk",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Research on ensuring emerging technologies such as AI do not cause suffering on an unprecedented scale",
+      "program": "S-risk research",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Longview Philanthropy",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Support for the Consortium for Digital Sentience Research and Applied Work",
+      "program": "AI welfare & sentience",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Longview Philanthropy",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Support for the hardware-enabled mechanisms request for proposals",
+      "program": "Technical AI governance",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Arq Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Preparing Europe for transformative AI, including the Europe 2031 scenario project",
+      "program": "AI governance",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Delta Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "AI governance work at a Dutch think tank",
+      "program": "AI governance",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Eleos AI",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Research on potential sentience and wellbeing of AI systems",
+      "program": "AI welfare & sentience",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "ETH AI Center",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "AI fellowship program for doctoral and postdoctoral researchers, via the ETH Zurich Foundation",
+      "program": "General",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Myrias",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Incubating interventions against large neglected sources of animal suffering",
+      "program": "Animal welfare",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Redwood Research",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "AI safety and security research on risks from powerful AI systems acting against developers’ interests",
+      "program": "AI safety research",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Rethink Priorities",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Cross-cause research including animal welfare, global catastrophic risks, and AI",
+      "program": "General",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Rhine AI Lab",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Research on agentic AI systems, sequential decision making, and generative AI at the University of Basel and UCL",
+      "program": "General",
+      "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Simon Institute for Longterm Governance",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "International governance of frontier AI",
+      "program": "International AI governance",
+      "sourceUrl": "https://macroscopic.org/grants"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ import { createAdminClient } from '@/db/supabase-admin'
 
 const db = createAdminClient()
 
-type Bucket = 'ai' | 'other'
+type Bucket = 'ai' | 'animal' | 'other'
 type Estimate = {
   funderSlug: string | null // null = org may not exist yet; no subtraction possible
   funderName: string
@@ -62,15 +62,24 @@ const macroscopic: Record<string, number> = {
   '2020': 2e6,
   '2019': 1e6,
 }
+// Macroscopic's portfolio split: 70% AI safety, 15% animal welfare, 15% other.
 for (const [year, total] of Object.entries(macroscopic)) {
-  ESTIMATES.push({
-    funderSlug: 'macroscopic',
-    funderName: 'Macroscopic Ventures',
-    date: year,
-    bucket: 'ai',
-    totalUsd: total,
-    note: yearNote('Macroscopic Ventures', year),
-  })
+  const note = `${yearNote('Macroscopic Ventures', year)} Split 70% AI safety / 15% animal welfare / 15% other.`
+  const shares: [Bucket, number][] = [
+    ['ai', 0.7],
+    ['animal', 0.15],
+    ['other', 0.15],
+  ]
+  for (const [bucket, share] of shares) {
+    ESTIMATES.push({
+      funderSlug: 'macroscopic',
+      funderName: 'Macroscopic Ventures',
+      date: year,
+      bucket,
+      totalUsd: total * share,
+      note,
+    })
+  }
 }
 const aistof: Record<string, number> = {
   '2026': 25e6,
@@ -98,12 +107,13 @@ ESTIMATES.push({
 })
 
 async function main() {
-  const { data: aiCause } = await db
+  const { data: causeRows } = await db
     .from('cause_areas')
-    .select('id')
-    .eq('slug', 'ai-safety')
-    .single()
+    .select('id, slug')
+    .in('slug', ['ai-safety', 'animal-welfare'])
     .throwOnError()
+  const aiCauseId = causeRows!.find((c) => c.slug === 'ai-safety')!.id
+  const animalCauseId = causeRows!.find((c) => c.slug === 'animal-welfare')!.id
 
   // Recorded per funder-year-bucket totals, excluding this source's own rows.
   const recorded = new Map<string, number>()
@@ -132,18 +142,29 @@ async function main() {
       const year = (grant.grant_date ?? '').slice(0, 4)
       if (!year) continue
       const tags = grant.grant_cause_areas as never as { cause_area_id: string }[]
-      const bucket: Bucket = tags.some((t) => t.cause_area_id === aiCause!.id) ? 'ai' : 'other'
+      const bucket: Bucket = tags.some((t) => t.cause_area_id === aiCauseId)
+        ? 'ai'
+        : tags.some((t) => t.cause_area_id === animalCauseId)
+          ? 'animal'
+          : 'other'
       const key = `${slug}|${year}|${bucket}`
       recorded.set(key, (recorded.get(key) ?? 0) + (grant.amount_usd ?? 0))
     }
   }
 
+  // Funders without a dedicated animal-welfare estimate fold recorded
+  // animal-tagged grants into their 'other' bucket instead.
+  const hasAnimalEstimate = new Set(
+    ESTIMATES.filter((e) => e.bucket === 'animal').map((e) => e.funderSlug)
+  )
   const rows = []
   for (const est of ESTIMATES) {
     const year = est.date.slice(0, 4)
-    const subtracted = est.funderSlug
+    let subtracted = est.funderSlug
       ? (recorded.get(`${est.funderSlug}|${year}|${est.bucket}`) ?? 0)
       : 0
+    if (est.bucket === 'other' && est.funderSlug && !hasAnimalEstimate.has(est.funderSlug))
+      subtracted += recorded.get(`${est.funderSlug}|${year}|animal`) ?? 0
     const remainder = Math.round(est.totalUsd - subtracted)
     if (remainder <= 0) {
       console.log(`SKIP ${est.funderName} ${est.date} ${est.bucket}: recorded exceeds estimate`)
@@ -159,7 +180,9 @@ async function main() {
       program:
         est.bucket === 'ai'
           ? 'Aggregate estimate — AI safety'
-          : 'Aggregate estimate — other causes',
+          : est.bucket === 'animal'
+            ? 'Aggregate estimate — animal welfare'
+            : 'Aggregate estimate — other causes',
       sourceUrl: null,
       amountEstimated: true,
       estimateNote: est.note,
