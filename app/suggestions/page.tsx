@@ -29,7 +29,11 @@ export default async function Page() {
     .limit(200)
   const rows = data ?? []
   const pending = rows.filter((r) => r.status === 'pending')
-  const reviewed = rows.filter((r) => r.status !== 'pending')
+  // Rejected suggestions stay off the page: the only people they are useful to
+  // are whoever wrote one (who should see why) and the admins reviewing them.
+  const reviewed = rows.filter(
+    (r) => r.status === 'accepted' || (r.status === 'rejected' && (admin || r.user_id === user?.id))
+  )
 
   const grantIds = rows.map((r) => r.grant_id).filter(Boolean) as string[]
   const grants = new Map<string, { funder: string; recipient: string; amount: number | null }>()
@@ -116,7 +120,7 @@ export default async function Page() {
 
       {reviewed.length > 0 && (
         <>
-          <h2 className="mt-6 mb-2 font-serif text-lg font-bold">Reviewed</h2>
+          <h2 className="mt-6 mb-2 font-serif text-lg font-bold">Accepted</h2>
           {reviewed.map((row) => (
             <Card key={row.id} row={row} />
           ))}

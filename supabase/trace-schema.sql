@@ -269,8 +269,9 @@ CREATE POLICY "authors read own" ON suggestions
   USING (user_id = auth.uid());
 
 DROP POLICY IF EXISTS "public read reviewed" ON suggestions;
-CREATE POLICY "public read reviewed" ON suggestions
-  FOR SELECT USING (status <> 'pending');
+DROP POLICY IF EXISTS "public read accepted" ON suggestions;
+CREATE POLICY "public read accepted" ON suggestions
+  FOR SELECT USING (status = 'accepted');
 
 
 -- ===== API role grants =====
