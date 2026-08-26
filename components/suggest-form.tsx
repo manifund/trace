@@ -5,7 +5,7 @@
 // requires user_id = auth.uid()), so no server action is needed.
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { createClientSupabase } from '@/db/supabase-browser'
+import { submitSuggestion } from '@/app/suggest/actions'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
 export type ExistingGrant = {
@@ -82,27 +82,16 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
       return
     }
     setBusy(true)
-    const supabase = createClientSupabase()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    if (!user) {
-      setBusy(false)
-      setError('Your session expired — sign in again.')
-      return
-    }
-    const { error: insertError } = await supabase.from('suggestions').insert({
-      user_id: user.id,
-      user_email: user.email ?? null,
+    const { error: submitError } = await submitSuggestion({
       kind,
-      grant_id: props.grant?.id ?? null,
+      grantId: props.grant?.id ?? null,
       payload,
-      source_url: sourceUrl.trim() || null,
+      sourceUrl: sourceUrl.trim() || null,
       comment: comment.trim() || null,
     })
     setBusy(false)
-    if (insertError) {
-      setError(insertError.message)
+    if (submitError) {
+      setError(submitError)
       return
     }
     setDone(true)
