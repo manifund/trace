@@ -101,7 +101,6 @@ export default async function Page() {
       </div>
       <p className="mb-4 text-ink-muted">
         Anyone signed in can <a href="/suggest">suggest a grant</a> or an edit to an existing one.
-        Nothing here changes the database until an admin accepts it.
       </p>
 
       <h2 className="mb-2 font-serif text-lg font-bold">
