@@ -30,7 +30,8 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             Trace
           </Link>
           <nav className="flex gap-4 text-sm">
-            <Link href="/">Grants</Link>
+            <Link href="/">Overview</Link>
+            <Link href="/grants">Grants</Link>
             <Link href="/funders">Funders</Link>
             <Link href="/recipients">Recipients</Link>
             <Link href="/charts">Charts</Link>
