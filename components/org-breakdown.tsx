@@ -31,11 +31,6 @@ export function OrgBreakdown(props: { title: string; rows: BreakdownRow[]; limit
           ))}
         </tbody>
       </table>
-      {props.rows.length > limit && (
-        <p className="mt-1 text-xs text-ink-muted">
-          and {(props.rows.length - limit).toLocaleString()} more
-        </p>
-      )}
     </section>
   )
 }
