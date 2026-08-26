@@ -71,6 +71,24 @@ into `data/overrides.json`. Commit those and the rebuild reproduces them.
 
 Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no local Docker flow), then `bun run gen-types`. RLS policies are checked into the migrations — keep it that way. `db/database.types.ts` was hand-written to match the initial migration; regenerate once the project exists.
 
+## Hosting inside the Manifund project
+
+Trace's tables are moving into a `trace` schema in Manifund's Supabase
+project, so Manifund logins work with RLS natively (`auth.uid()` resolves).
+Manifund's `public` schema is never touched — it has its own `orgs` table, so
+a shared schema was never an option.
+
+- `supabase/trace-schema.sql` replays every migration into `trace`
+  (`SET search_path`, one connection). Apply with `apply-migration.ts`.
+- `scripts/copy-database.ts` copies table-by-table between projects in
+  dependency order; `--verify-only` compares row counts, `--wipe` clears the
+  target first. Within one project, `INSERT INTO trace.x SELECT * FROM
+  public.x` is faster.
+- `NEXT_PUBLIC_TRACE_DB_SCHEMA=trace` switches the app and scripts over; every
+  client reads it, so the cutover is configuration, not code.
+- The target project must expose `trace` under Settings -> API -> Exposed
+  schemas, or PostgREST answers "Invalid schema".
+
 ## Environment
 
 `.env.local` (see `.env.example`): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (scripts only), optional `MANIFUND_SUPABASE_URL`/`MANIFUND_SUPABASE_ANON_KEY` for `ingest-manifund --direct`.

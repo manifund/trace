@@ -4,13 +4,14 @@ import { createServerClient } from '@supabase/ssr'
 import type { SupabaseClient } from '@supabase/supabase-js'
 import { cookies } from 'next/headers'
 import type { Database } from './database.types'
-import { SUPABASE_ANON_KEY, SUPABASE_URL } from './env'
+import { DB_SCHEMA, SUPABASE_ANON_KEY, SUPABASE_URL } from './env'
 
 // Request-scoped client that carries the signed-in user's session, so RLS
 // applies as that user. Use createPublicSupabaseClient for anonymous reads.
 export async function createUserSupabaseClient(): Promise<SupabaseClient<Database>> {
   const store = await cookies()
   return createServerClient(SUPABASE_URL!, SUPABASE_ANON_KEY!, {
+    db: { schema: DB_SCHEMA },
     cookies: {
       getAll: () => store.getAll(),
       setAll: (list: { name: string; value: string; options?: Record<string, unknown> }[]) => {

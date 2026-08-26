@@ -3,7 +3,7 @@
 import { createBrowserClient } from '@supabase/ssr'
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Database } from './database.types'
-import { SUPABASE_ANON_KEY, SUPABASE_URL } from './env'
+import { DB_SCHEMA, SUPABASE_ANON_KEY, SUPABASE_URL } from './env'
 
 // Browser client: keeps the auth session in cookies so server components and
 // RLS see the same user. @supabase/ssr's own generics resolve the schema to

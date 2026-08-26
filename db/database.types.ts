@@ -1,16 +1,10 @@
-export type Json =
-  | string
-  | number
-  | boolean
-  | null
-  | { [key: string]: Json | undefined }
-  | Json[]
+export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[]
 
 export type Database = {
   // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
-    PostgrestVersion: "14.15"
+    PostgrestVersion: '14.15'
   }
   public: {
     Tables: {
@@ -35,11 +29,11 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "cause_areas_parent_id_fkey"
-            columns: ["parent_id"]
+            foreignKeyName: 'cause_areas_parent_id_fkey'
+            columns: ['parent_id']
             isOneToOne: false
-            referencedRelation: "cause_areas"
-            referencedColumns: ["id"]
+            referencedRelation: 'cause_areas'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -73,18 +67,18 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "dedup_candidates_grant_id_a_fkey"
-            columns: ["grant_id_a"]
+            foreignKeyName: 'dedup_candidates_grant_id_a_fkey'
+            columns: ['grant_id_a']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "dedup_candidates_grant_id_b_fkey"
-            columns: ["grant_id_b"]
+            foreignKeyName: 'dedup_candidates_grant_id_b_fkey'
+            columns: ['grant_id_b']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -103,18 +97,18 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "grant_cause_areas_cause_area_id_fkey"
-            columns: ["cause_area_id"]
+            foreignKeyName: 'grant_cause_areas_cause_area_id_fkey'
+            columns: ['cause_area_id']
             isOneToOne: false
-            referencedRelation: "cause_areas"
-            referencedColumns: ["id"]
+            referencedRelation: 'cause_areas'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grant_cause_areas_grant_id_fkey"
-            columns: ["grant_id"]
+            foreignKeyName: 'grant_cause_areas_grant_id_fkey'
+            columns: ['grant_id']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -136,18 +130,18 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "grant_sources_grant_id_fkey"
-            columns: ["grant_id"]
+            foreignKeyName: 'grant_sources_grant_id_fkey'
+            columns: ['grant_id']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grant_sources_source_record_id_fkey"
-            columns: ["source_record_id"]
+            foreignKeyName: 'grant_sources_source_record_id_fkey'
+            columns: ['source_record_id']
             isOneToOne: false
-            referencedRelation: "source_records"
-            referencedColumns: ["id"]
+            referencedRelation: 'source_records'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -166,18 +160,18 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "grant_vias_grant_id_fkey"
-            columns: ["grant_id"]
+            foreignKeyName: 'grant_vias_grant_id_fkey'
+            columns: ['grant_id']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grant_vias_via_org_id_fkey"
-            columns: ["via_org_id"]
+            foreignKeyName: 'grant_vias_via_org_id_fkey'
+            columns: ['via_org_id']
             isOneToOne: false
-            referencedRelation: "orgs"
-            referencedColumns: ["id"]
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -244,32 +238,32 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "grants_fiscal_sponsor_org_id_fkey"
-            columns: ["fiscal_sponsor_org_id"]
+            foreignKeyName: 'grants_fiscal_sponsor_org_id_fkey'
+            columns: ['fiscal_sponsor_org_id']
             isOneToOne: false
-            referencedRelation: "orgs"
-            referencedColumns: ["id"]
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grants_funder_org_id_fkey"
-            columns: ["funder_org_id"]
+            foreignKeyName: 'grants_funder_org_id_fkey'
+            columns: ['funder_org_id']
             isOneToOne: false
-            referencedRelation: "orgs"
-            referencedColumns: ["id"]
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grants_recipient_org_id_fkey"
-            columns: ["recipient_org_id"]
+            foreignKeyName: 'grants_recipient_org_id_fkey'
+            columns: ['recipient_org_id']
             isOneToOne: false
-            referencedRelation: "orgs"
-            referencedColumns: ["id"]
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
           },
           {
-            foreignKeyName: "grants_superseded_by_fkey"
-            columns: ["superseded_by"]
+            foreignKeyName: 'grants_superseded_by_fkey'
+            columns: ['superseded_by']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -306,11 +300,11 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "org_names_org_id_fkey"
-            columns: ["org_id"]
+            foreignKeyName: 'org_names_org_id_fkey'
+            columns: ['org_id']
             isOneToOne: false
-            referencedRelation: "orgs"
-            referencedColumns: ["id"]
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -383,11 +377,11 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "source_records_source_id_fkey"
-            columns: ["source_id"]
+            foreignKeyName: 'source_records_source_id_fkey'
+            columns: ['source_id']
             isOneToOne: false
-            referencedRelation: "sources"
-            referencedColumns: ["id"]
+            referencedRelation: 'sources'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -472,11 +466,11 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "suggestions_grant_id_fkey"
-            columns: ["grant_id"]
+            foreignKeyName: 'suggestions_grant_id_fkey'
+            columns: ['grant_id']
             isOneToOne: false
-            referencedRelation: "grants"
-            referencedColumns: ["id"]
+            referencedRelation: 'grants'
+            referencedColumns: ['id']
           },
         ]
       }
@@ -496,33 +490,31 @@ export type Database = {
   }
 }
 
-type DatabaseWithoutInternals = Omit<Database, "__InternalSupabase">
+type DatabaseWithoutInternals = Omit<Database, '__InternalSupabase'>
 
-type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
+type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, 'public'>]
 
 export type Tables<
   DefaultSchemaTableNameOrOptions extends
-    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | keyof (DefaultSchema['Tables'] & DefaultSchema['Views'])
     | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables'] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Views'])
     : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
-  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables'] &
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Views'])[TableName] extends {
       Row: infer R
     }
     ? R
     : never
-  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
-        DefaultSchema["Views"])
-    ? (DefaultSchema["Tables"] &
-        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema['Tables'] & DefaultSchema['Views'])
+    ? (DefaultSchema['Tables'] & DefaultSchema['Views'])[DefaultSchemaTableNameOrOptions] extends {
         Row: infer R
       }
       ? R
@@ -531,23 +523,23 @@ export type Tables<
 
 export type TablesInsert<
   DefaultSchemaTableNameOrOptions extends
-    | keyof DefaultSchema["Tables"]
+    | keyof DefaultSchema['Tables']
     | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables']
     : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
-  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables'][TableName] extends {
       Insert: infer I
     }
     ? I
     : never
-  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema['Tables']
+    ? DefaultSchema['Tables'][DefaultSchemaTableNameOrOptions] extends {
         Insert: infer I
       }
       ? I
@@ -556,23 +548,23 @@ export type TablesInsert<
 
 export type TablesUpdate<
   DefaultSchemaTableNameOrOptions extends
-    | keyof DefaultSchema["Tables"]
+    | keyof DefaultSchema['Tables']
     | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables']
     : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
-  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions['schema']]['Tables'][TableName] extends {
       Update: infer U
     }
     ? U
     : never
-  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema['Tables']
+    ? DefaultSchema['Tables'][DefaultSchemaTableNameOrOptions] extends {
         Update: infer U
       }
       ? U
@@ -581,36 +573,36 @@ export type TablesUpdate<
 
 export type Enums<
   DefaultSchemaEnumNameOrOptions extends
-    | keyof DefaultSchema["Enums"]
+    | keyof DefaultSchema['Enums']
     | { schema: keyof DatabaseWithoutInternals },
   EnumName extends DefaultSchemaEnumNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions['schema']]['Enums']
     : never = never,
 > = DefaultSchemaEnumNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
-  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
-  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
-    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions['schema']]['Enums'][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema['Enums']
+    ? DefaultSchema['Enums'][DefaultSchemaEnumNameOrOptions]
     : never
 
 export type CompositeTypes<
   PublicCompositeTypeNameOrOptions extends
-    | keyof DefaultSchema["CompositeTypes"]
+    | keyof DefaultSchema['CompositeTypes']
     | { schema: keyof DatabaseWithoutInternals },
   CompositeTypeName extends PublicCompositeTypeNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions['schema']]['CompositeTypes']
     : never = never,
 > = PublicCompositeTypeNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
-  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
-  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
-    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions['schema']]['CompositeTypes'][CompositeTypeName]
+  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema['CompositeTypes']
+    ? DefaultSchema['CompositeTypes'][PublicCompositeTypeNameOrOptions]
     : never
 
 export const Constants = {
