@@ -133,7 +133,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
 
   const stackDimension = primary.role === 'recipient' ? 'funder' : 'cause'
   const chartGrants = primary.grants
-  // Aggregate estimate rows ("Various Recipients", "Various Donors") are real
+  // Aggregate estimate rows ("Unknown Recipients", "Unknown Donors") are real
   // money but not real counterparties, so they would top a "biggest" list
   // without naming anyone. They stay in the chart, where the stacks have to add
   // up to the bar.
