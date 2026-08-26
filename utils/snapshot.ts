@@ -30,10 +30,11 @@ export type GrantTuple = [
 export type Snapshot = {
   version: string // content hash; the client URL is keyed on it
   builtAt: string
-  orgs: [slug: string, name: string][]
-  // Aliases and former names: [name, org index]. Canonical names are already
-  // in `orgs`, so the header search index is the union of the two.
-  names: [name: string, org: number][]
+  orgs: [slug: string, name: string, orgType: string, website: string | null][]
+  // Aliases and former names: [name, org index, kind, valid_from, valid_to].
+  // Canonical names are already in `orgs`, so the header search index is the
+  // union of the two.
+  names: [name: string, org: number, kind: string, from: string | null, to: string | null][]
   causes: string[]
   sources: SourceInfo[]
   grants: GrantTuple[]
@@ -78,4 +79,20 @@ export function expandNameIndex(snapshot: Snapshot): [string, string, string][] 
     if (name !== canonical) rows.push([name, slug, canonical])
   }
   return rows
+}
+
+export type SnapshotOrg = {
+  slug: string
+  name: string
+  org_type: string
+  website: string | null
+  names: { name: string; kind: string; valid_from: string | null; valid_to: string | null }[]
+}
+
+export function expandOrg(snapshot: Snapshot, index: number): SnapshotOrg {
+  const [slug, name, org_type, website] = snapshot.orgs[index]
+  const names = snapshot.names
+    .filter((n) => n[1] === index)
+    .map(([alias, , kind, valid_from, valid_to]) => ({ name: alias, kind, valid_from, valid_to }))
+  return { slug, name, org_type, website, names }
 }

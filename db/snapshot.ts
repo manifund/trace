@@ -100,8 +100,17 @@ export async function buildSnapshot(): Promise<Snapshot> {
             .throwOnError(),
         () => approved().throwOnError()
       ),
-      all<{ id: string; slug: string; name: string }>('orgs', 'id, slug, name'),
-      all<{ name: string; org_id: string; kind: string }>('org_names', 'name, org_id, kind'),
+      all<{ id: string; slug: string; name: string; org_type: string; website: string | null }>(
+        'orgs',
+        'id, slug, name, org_type, website'
+      ),
+      all<{
+        name: string
+        org_id: string
+        kind: string
+        valid_from: string | null
+        valid_to: string | null
+      }>('org_names', 'name, org_id, kind, valid_from, valid_to'),
       all<{ id: string; slug: string }>('cause_areas', 'id, slug'),
       all<{ grant_id: string; cause_area_id: string }>(
         'grant_cause_areas',
@@ -185,11 +194,12 @@ export async function buildSnapshot(): Promise<Snapshot> {
   const names: Snapshot['names'] = []
   for (const n of orgNames) {
     const i = orgIdx.get(n.org_id)
-    if (i !== undefined && n.kind !== 'canonical') names.push([n.name, i])
+    if (i !== undefined && n.kind !== 'canonical')
+      names.push([n.name, i, n.kind, n.valid_from, n.valid_to])
   }
 
   const body = {
-    orgs: usedOrgs.map((o): [string, string] => [o.slug, o.name]),
+    orgs: usedOrgs.map((o): Snapshot['orgs'][number] => [o.slug, o.name, o.org_type, o.website]),
     names,
     causes: causeList,
     sources,

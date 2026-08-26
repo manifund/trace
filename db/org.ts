@@ -2,7 +2,8 @@ import 'server-only'
 
 import { USE_SNAPSHOT } from './flags'
 import { dbConfigured } from './grant'
-import { getSnapshotGrants } from './snapshot'
+import { getSnapshot, getSnapshotGrants } from './snapshot'
+import { expandOrg } from '@/utils/snapshot'
 import { createPublicSupabaseClient } from './supabase-server'
 
 export type OrgDetail = {
@@ -14,8 +15,15 @@ export type OrgDetail = {
   names: { name: string; kind: string; valid_from: string | null; valid_to: string | null }[]
 }
 
+// With the snapshot on, `id` is empty: the snapshot keys orgs by slug, and
+// every reader under the flag filters by slug.
 export async function getOrgBySlug(slug: string): Promise<OrgDetail | null> {
   if (!dbConfigured()) return null
+  if (USE_SNAPSHOT) {
+    const snapshot = await getSnapshot()
+    const index = snapshot.orgs.findIndex((org) => org[0] === slug)
+    return index === -1 ? null : { id: '', ...expandOrg(snapshot, index) }
+  }
   const supabase = createPublicSupabaseClient()
   const { data } = await supabase
     .from('orgs')

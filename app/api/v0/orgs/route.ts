@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server'
 import { CORS_HEADERS } from '@/db/api'
+import { USE_SNAPSHOT } from '@/db/flags'
 import { dbConfigured } from '@/db/grant'
+import { getSnapshot } from '@/db/snapshot'
 import { createPublicSupabaseClient } from '@/db/supabase-server'
 
 export async function GET(request: Request) {
@@ -9,6 +11,17 @@ export async function GET(request: Request) {
   const q = searchParams.get('q')?.trim() ?? ''
   const limit = Math.min(Math.max(Number(searchParams.get('limit')) || 100, 1), 1000)
   const offset = Math.max(Number(searchParams.get('offset')) || 0, 0)
+  if (USE_SNAPSHOT) {
+    const needle = q.toLowerCase()
+    const orgs = (await getSnapshot()).orgs
+      .filter(([, name]) => !needle || name.toLowerCase().includes(needle))
+      .map(([slug, name, org_type, website]) => ({ slug, name, org_type, website }))
+      .sort((a, b) => a.name.localeCompare(b.name))
+    return NextResponse.json(
+      { total: orgs.length, limit, offset, orgs: orgs.slice(offset, offset + limit) },
+      { headers: CORS_HEADERS }
+    )
+  }
   const supabase = createPublicSupabaseClient()
   let query = supabase
     .from('orgs')
