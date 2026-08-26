@@ -1,33 +1,12 @@
 'use client'
 
-// Shared control strip for the two front-page candidates: which view, which
-// cause, which years.
-import Link from 'next/link'
+// Control strip for the front page: which cause, which years.
 import { CAUSE_OPTIONS } from '@/utils/cause-tree'
 import type { Filters } from '@/utils/flow'
 
 const CAUSES = CAUSE_OPTIONS.filter((option) => option.depth <= 1)
 
-export function ViewToggle(props: { active: 'sankey' | 'treemap' }) {
-  const tab = (href: string, key: 'sankey' | 'treemap', label: string) => (
-    <Link
-      href={href}
-      className={`border-r border-rule px-2.5 py-1 last:border-r-0 !text-ink hover:!no-underline ${
-        props.active === key ? 'bg-paper-alt font-semibold' : 'text-ink-muted'
-      }`}
-    >
-      {label}
-    </Link>
-  )
-  return (
-    <div className="flex overflow-hidden rounded border border-rule font-sans text-xs">
-      {tab('/mock/sankey', 'sankey', 'Flow')}
-      {tab('/mock/treemap', 'treemap', 'Treemap')}
-    </div>
-  )
-}
-
-export function FlowControls(props: {
+export function OverviewControls(props: {
   filters: Filters
   span: [number, number]
   onChange: (filters: Filters) => void

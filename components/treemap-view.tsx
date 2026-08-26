@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { FlowControls, StatStrip, ViewToggle } from '@/components/flow-controls'
+import { OverviewControls, StatStrip } from '@/components/overview-controls'
 import { TreemapChart } from '@/components/treemap-chart'
 import { analyzeStructure, applyFilters, buildTree } from '@/utils/flow'
 import type { FlowRow, Nesting } from '@/utils/flow'
@@ -13,7 +13,11 @@ const NESTINGS: { value: Nesting; label: string }[] = [
   { value: 'funder-cause', label: 'funder › cause' },
 ]
 
-export function TreemapView(props: { rows: FlowRow[]; span: [number, number] }) {
+export function TreemapView(props: {
+  rows: FlowRow[]
+  span: [number, number]
+  vehicles: string[]
+}) {
   const [filters, setFilters] = useState({
     cause: 'ai-safety',
     from: props.span[0],
@@ -22,8 +26,8 @@ export function TreemapView(props: { rows: FlowRow[]; span: [number, number] }) 
   const [nesting, setNesting] = useState<Nesting>('funder-recipient')
 
   const structure = useMemo(() => analyzeStructure(props.rows), [props.rows])
-  // Same view of the money as the flow chart: a grant into a regranting fund
-  // is left out, because the fund's own grants already carry those dollars.
+  // A grant into a regranting fund is left out: the fund's own grants
+  // already carry those dollars, so counting both would double up.
   const filtered = useMemo(
     () =>
       applyFilters(props.rows, filters, props.span).filter(
@@ -31,7 +35,11 @@ export function TreemapView(props: { rows: FlowRow[]; span: [number, number] }) 
       ),
     [props.rows, filters, props.span, structure]
   )
-  const branches = useMemo(() => buildTree(filtered, nesting), [filtered, nesting])
+  const vehicles = useMemo(() => new Set(props.vehicles), [props.vehicles])
+  const branches = useMemo(
+    () => buildTree(filtered, nesting, vehicles),
+    [filtered, nesting, vehicles]
+  )
   const total = useMemo(() => filtered.reduce((sum, row) => sum + row.a, 0), [filtered])
 
   return (
@@ -47,7 +55,7 @@ export function TreemapView(props: { rows: FlowRow[]; span: [number, number] }) 
           },
         ]}
       />
-      <FlowControls filters={filters} span={props.span} onChange={setFilters}>
+      <OverviewControls filters={filters} span={props.span} onChange={setFilters}>
         <select
           aria-label="Nesting"
           className="rounded border border-rule bg-paper px-2 py-1 text-xs"
@@ -60,10 +68,7 @@ export function TreemapView(props: { rows: FlowRow[]; span: [number, number] }) 
             </option>
           ))}
         </select>
-        <div className="ml-auto">
-          <ViewToggle active="treemap" />
-        </div>
-      </FlowControls>
+      </OverviewControls>
       <TreemapChart branches={branches} total={total} />
     </div>
   )

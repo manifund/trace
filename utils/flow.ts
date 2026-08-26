@@ -1,6 +1,5 @@
-// Aggregation behind the two front-page candidates: a donors -> funders ->
-// recipients Sankey and a nested treemap. Both start from the same compact
-// row and the same view of the money, so their totals agree.
+// Aggregation behind the front page: grants reduced to a compact row, then
+// nested into the treemap's blocks.
 import type { GrantRow } from '@/db/grant'
 import { CAUSE_TREE } from '@/utils/cause-tree'
 
@@ -12,6 +11,7 @@ export type FlowRow = {
   a: number
   y: number | null
   c: string[]
+  v: { slug: string; name: string }[]
 }
 
 export function toFlowRows(grants: GrantRow[]): FlowRow[] {
@@ -25,7 +25,28 @@ export function toFlowRows(grants: GrantRow[]): FlowRow[] {
       a: g.amountUsd as number,
       y: g.date ? Number(g.date.slice(0, 4)) : null,
       c: g.causes,
+      v: g.vias,
     }))
+}
+
+// ------------------------------------------------------------- grantmakers
+
+// A grant names the donor as funder and the vehicle it was granted through
+// as a via: Jaan Tallinn funds SFF rounds, ACX regrantors work through
+// Manifund. The vehicle picked the recipient, so it's the grantmaker and the
+// funder is the donor standing behind it.
+const NOT_A_GRANTMAKER = new Set([
+  // The umbrella brand. Its constituent funds — LTFF, EAIF, the Animal
+  // Welfare Fund — are already named as the funder, and they're the ones
+  // choosing grantees.
+  'ea-funds',
+])
+
+export function grantmakerOf(row: FlowRow, vehicles: Set<string>): { slug: string; name: string } {
+  const vehicle = row.v.find(
+    (via) => via.slug !== row.f && vehicles.has(via.slug) && !NOT_A_GRANTMAKER.has(via.slug)
+  )
+  return vehicle ?? { slug: row.f, name: row.fn }
 }
 
 // ---------------------------------------------------------------- structure
@@ -139,107 +160,6 @@ export function applyFilters(rows: FlowRow[], filters: Filters, span: [number, n
   })
 }
 
-// -------------------------------------------------------------------- sankey
-
-export type SankeyNode = {
-  key: string
-  slug: string
-  name: string
-  column: 0 | 1 | 2
-  value: number
-}
-export type SankeyLink = { source: string; target: string; funderKey: string; value: number }
-export type SankeyData = {
-  nodes: SankeyNode[]
-  links: SankeyLink[]
-  total: number
-  grants: number
-  funders: number
-  recipients: number
-}
-
-const OTHER_DONORS = 'Other donors'
-const OTHER_FUNDERS = 'Other funders'
-const OTHER_RECIPIENTS = 'All other recipients'
-
-function topKeys(totals: Map<string, number>, keep: number): Set<string> {
-  return new Set(
-    Array.from(totals.entries())
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, keep)
-      .map(([slug]) => slug)
-  )
-}
-
-// Grants into a regranting fund are left out: that money is already on the
-// chart as the fund's own grants, credited to whoever gave it.
-export function buildSankey(
-  all: FlowRow[],
-  rows: FlowRow[],
-  structure: FlowStructure,
-  keep = { donors: 6, funders: 5, recipients: 10 }
-): SankeyData {
-  const terminal = rows.filter((row) => !structure.regrantor.has(row.r))
-
-  const funderTotals = new Map<string, number>()
-  const recipientTotals = new Map<string, number>()
-  const donorTotals = new Map<string, number>()
-  for (const row of terminal) {
-    funderTotals.set(row.f, (funderTotals.get(row.f) ?? 0) + row.a)
-    recipientTotals.set(row.r, (recipientTotals.get(row.r) ?? 0) + row.a)
-    for (const [origin, share] of structure.originsOf(row.f)) {
-      donorTotals.set(origin, (donorTotals.get(origin) ?? 0) + row.a * share)
-    }
-  }
-  const topFunders = topKeys(funderTotals, keep.funders)
-  const topRecipients = topKeys(recipientTotals, keep.recipients)
-  const topDonors = topKeys(donorTotals, keep.donors)
-
-  const nodes = new Map<string, SankeyNode>()
-  const node = (column: 0 | 1 | 2, slug: string, name: string, value: number) => {
-    const key = `${column}:${slug}`
-    const existing = nodes.get(key)
-    if (existing) existing.value += value
-    else nodes.set(key, { key, slug, name, column, value })
-    return key
-  }
-
-  const links = new Map<string, SankeyLink>()
-  const link = (source: string, target: string, funderKey: string, value: number) => {
-    const key = `${source}>${target}`
-    const existing = links.get(key)
-    if (existing) existing.value += value
-    else links.set(key, { source, target, funderKey, value })
-  }
-
-  let total = 0
-  for (const row of terminal) {
-    total += row.a
-    const funderKey = topFunders.has(row.f)
-      ? node(1, row.f, row.fn, row.a)
-      : node(1, '~other', OTHER_FUNDERS, row.a)
-    const recipientKey = topRecipients.has(row.r)
-      ? node(2, row.r, row.rn, row.a)
-      : node(2, '~other', OTHER_RECIPIENTS, row.a)
-    link(funderKey, recipientKey, funderKey, row.a)
-    for (const [origin, share] of structure.originsOf(row.f)) {
-      const donorKey = topDonors.has(origin)
-        ? node(0, origin, structure.nameOf(origin), row.a * share)
-        : node(0, '~other', OTHER_DONORS, row.a * share)
-      link(donorKey, funderKey, funderKey, row.a * share)
-    }
-  }
-
-  return {
-    nodes: Array.from(nodes.values()),
-    links: Array.from(links.values()),
-    total,
-    grants: terminal.length,
-    funders: funderTotals.size,
-    recipients: recipientTotals.size,
-  }
-}
-
 // ------------------------------------------------------------------ treemap
 
 export type Nesting = 'funder-recipient' | 'cause-recipient' | 'funder-cause'
@@ -287,9 +207,13 @@ function accumulate(
 // still add up to the total.
 function splitBy(
   row: FlowRow,
-  level: 'funder' | 'recipient' | 'cause'
+  level: 'funder' | 'recipient' | 'cause',
+  vehicles: Set<string>
 ): { key: string; name: string; slug: string | null; amount: number }[] {
-  if (level === 'funder') return [{ key: row.f, name: row.fn, slug: row.f, amount: row.a }]
+  if (level === 'funder') {
+    const maker = grantmakerOf(row, vehicles)
+    return [{ key: maker.slug, name: maker.name, slug: maker.slug, amount: row.a }]
+  }
   if (level === 'recipient') return [{ key: row.r, name: row.rn, slug: row.r, amount: row.a }]
   const buckets = causeBuckets(row.c)
   return buckets.map((name) => ({
@@ -303,6 +227,7 @@ function splitBy(
 export function buildTree(
   rows: FlowRow[],
   nesting: Nesting,
+  vehicles: Set<string>,
   keep = { parents: 7, children: 14 }
 ): TreeBranch[] {
   const [outer, inner] = (
@@ -316,11 +241,11 @@ export function buildTree(
   const parents = new Map<string, TreeLeaf>()
   const childrenOf = new Map<string, Map<string, TreeLeaf>>()
   for (const row of rows) {
-    for (const parent of splitBy(row, outer)) {
+    for (const parent of splitBy(row, outer, vehicles)) {
       accumulate(parents, parent.key, parent.name, parent.slug, row, parent.amount)
       const kids = childrenOf.get(parent.key) ?? new Map<string, TreeLeaf>()
       // Both levels may split the same grant; the shares multiply out.
-      const inners = splitBy(row, inner)
+      const inners = splitBy(row, inner, vehicles)
       for (const child of inners) {
         accumulate(
           kids,
