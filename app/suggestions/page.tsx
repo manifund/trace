@@ -29,8 +29,8 @@ export default async function Page() {
     .limit(200)
   const rows = data ?? []
   const pending = rows.filter((r) => r.status === 'pending')
-  // Rejected suggestions stay off the page: the only people they are useful to
-  // are whoever wrote one (who should see why) and the admins reviewing them.
+  // Rejected suggestions stay off the page — they only clutter it. They remain
+  // readable through the API; this is a display choice, not a privacy one.
   const reviewed = rows.filter(
     (r) => r.status === 'accepted' || (r.status === 'rejected' && (admin || r.user_id === user?.id))
   )
