@@ -30,6 +30,9 @@ function GrantList(props: {
   title: string
   grants: GrantRow[]
   side: 'made' | 'received' | 'via'
+  // The section matching the org's main role repeats the stats at the top of
+  // the page, so it leaves them off.
+  showSummary?: boolean
 }) {
   if (props.grants.length === 0) return null
   const priced = props.grants.filter((grant) => grant.amountUsd !== null)
@@ -54,7 +57,9 @@ function GrantList(props: {
     <section className="mb-8">
       <h2 className="mb-2 font-serif text-lg font-bold">
         {props.title}{' '}
-        <span className="text-sm font-normal text-ink-muted">
+        <span
+          className={`text-sm font-normal text-ink-muted${props.showSummary === false ? ' hidden' : ''}`}
+        >
           {props.grants.length.toLocaleString()} ·{' '}
           {props.grants.some((grant) => grant.amountEstimated) && (
             <a href={`#${noteId}`} title="Includes estimated amounts" className="text-accent">
@@ -137,15 +142,33 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const breakdowns =
     primary.role === 'funder'
       ? [
-          { title: 'Biggest cause areas', rows: byCause(made) },
-          { title: 'Biggest recipients', rows: named(byOrg(made, 'recipient')) },
+          { title: 'Biggest cause areas', rows: byCause(made), total: money(made) },
+          {
+            title: 'Biggest recipients',
+            rows: named(byOrg(made, 'recipient')),
+            total: money(made),
+          },
         ]
       : primary.role === 'via'
         ? [
-            { title: 'Biggest funders', rows: named(byOrg(viaOnly, 'funder')) },
-            { title: 'Biggest recipients', rows: named(byOrg(viaOnly, 'recipient')) },
+            {
+              title: 'Biggest funders',
+              rows: named(byOrg(viaOnly, 'funder')),
+              total: money(viaOnly),
+            },
+            {
+              title: 'Biggest recipients',
+              rows: named(byOrg(viaOnly, 'recipient')),
+              total: money(viaOnly),
+            },
           ]
-        : [{ title: 'Biggest funders', rows: named(byOrg(received, 'funder')) }]
+        : [
+            {
+              title: 'Biggest funders',
+              rows: named(byOrg(received, 'funder')),
+              total: money(received),
+            },
+          ]
 
   // Cause chips lead a recipient's page: what they work on, in their own data.
   const causeChips = primary.role === 'recipient' ? byCause(received).slice(0, 5) : []
@@ -194,12 +217,32 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
       />
       <div className="flex flex-wrap gap-x-10">
         {breakdowns.map((breakdown) => (
-          <OrgBreakdown key={breakdown.title} title={breakdown.title} rows={breakdown.rows} />
+          <OrgBreakdown
+            key={breakdown.title}
+            title={breakdown.title}
+            rows={breakdown.rows}
+            total={breakdown.total}
+          />
         ))}
       </div>
-      <GrantList title="Grants received" grants={received} side="received" />
-      <GrantList title="Grants made" grants={made} side="made" />
-      <GrantList title="Grants via" grants={viaOnly} side="via" />
+      <GrantList
+        title="Grants received"
+        grants={received}
+        side="received"
+        showSummary={primary.role !== 'recipient'}
+      />
+      <GrantList
+        title="Grants made"
+        grants={made}
+        side="made"
+        showSummary={primary.role !== 'funder'}
+      />
+      <GrantList
+        title="Grants via"
+        grants={viaOnly}
+        side="via"
+        showSummary={primary.role !== 'via'}
+      />
       <GrantList title="As fiscal sponsor" grants={sponsored} side="via" />
     </div>
   )

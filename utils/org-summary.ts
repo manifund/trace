@@ -50,7 +50,7 @@ export function causeBuckets(grant: GrantRow): string[] {
     const subs = AIS_SUBCAUSES.filter((node) => grant.causes.includes(node.slug)).map(
       (node) => AIS_NAMES.get(node.slug) as string
     )
-    return subs.length > 0 ? subs : ['AI safety (unclassified)']
+    return subs.length > 0 ? subs : ['AI safety']
   }
   const tops = TOP_LEVEL.filter(
     (node) => node.slug !== 'ai-safety' && grant.causes.includes(node.slug)

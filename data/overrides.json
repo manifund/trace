@@ -1959,6 +1959,9 @@
         "University of California, Berkeley"
       ]
     },
+    "fli:f0971c8bf755dc3970c8d5e16ddab425ba3c71c01d5662f7085cef1dab99db98": {
+      "recipient_name": "METR"
+    },
     "foresight:05eb59341233a543fde1ffe1e583322b8e2dc5eaa596f8b01d09bfb06f2cd9c4": {
       "recipient_name": "Roman Bauer",
       "via_names": [
@@ -2676,6 +2679,9 @@
     "jaan_online:ecbdc498c769d20e34764869229cc2be3726b75d9bce4a5380c4f272c8f85466": {
       "recipient_name": "AI Safety Info",
       "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:ecf90e7194cb115b2147e976db188ab5db4800df1d67807e34941ce63f9bbc07": {
+      "recipient_name": "METR"
     },
     "jaan_online:ed2df430017b4f056a6cb9be1d3516cd386831e1867a0198d3d01d0b8ab1267b": {
       "recipient_name": "Future of Humanity Institute",

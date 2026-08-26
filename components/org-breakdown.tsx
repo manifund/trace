@@ -5,9 +5,17 @@ import { formatMoney } from '@/utils/format'
 
 export type BreakdownRow = { name: string; slug?: string; amount: number; count: number }
 
-export function OrgBreakdown(props: { title: string; rows: BreakdownRow[]; limit?: number }) {
+// `total` is the org's whole total for this role, so a share reads as a share
+// of everything they gave — not of the handful of rows shown, which would
+// overstate each one and ignore anything filtered out or past the cut.
+export function OrgBreakdown(props: {
+  title: string
+  rows: BreakdownRow[]
+  total: number
+  limit?: number
+}) {
   const limit = props.limit ?? 8
-  const total = props.rows.reduce((sum, row) => sum + row.amount, 0)
+  const total = props.total
   if (props.rows.length === 0 || total <= 0) return null
   const shown = props.rows.slice(0, limit)
   return (
