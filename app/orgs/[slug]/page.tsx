@@ -168,6 +168,17 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
               rows: named(byOrg(received, 'funder')),
               total: money(received),
             },
+            // Plenty of charities regrant some of what they raise; show both
+            // sides rather than only the money coming in.
+            ...(money(made) > 0
+              ? [
+                  {
+                    title: 'Biggest recipients',
+                    rows: named(byOrg(made, 'recipient')),
+                    total: money(made),
+                  },
+                ]
+              : []),
           ]
 
   // Cause chips lead a recipient's page: what they work on, in their own data.
