@@ -311,6 +311,49 @@ async function main() {
     await claimName(normalizeName(raw), raw, target.id, 'alias')
   }
 
+  // aliases.json byRole: side-specific folds. The resolver applies these to
+  // anything ingested from now on, but rows already in the table were matched
+  // under the old rule and are repointed here. Idempotent — after the first
+  // run there is nothing left on that side to move.
+  const byRole = (aliasesFile as never as { byRole?: Record<string, Record<string, string>> })
+    .byRole
+  for (const [role, map] of Object.entries(byRole ?? {})) {
+    const column = role === 'funder' ? 'funder_org_id' : 'recipient_org_id'
+    for (const [raw, slug] of Object.entries(map)) {
+      const { data: target } = await db
+        .from('orgs')
+        .select('id')
+        .eq('slug', slug)
+        .maybeSingle()
+        .throwOnError()
+      if (!target) {
+        console.warn(`aliases.json byRole: unknown slug "${slug}" for "${raw}"`)
+        continue
+      }
+      const { data: holder } = await db
+        .from('org_names')
+        .select('org_id')
+        .eq('normalized', normalizeName(raw))
+        .maybeSingle()
+        .throwOnError()
+      if (!holder || holder.org_id === target.id) continue
+      const { count } = await db
+        .from('grants')
+        .select('id', { count: 'exact', head: true })
+        .eq(column, holder.org_id)
+        .throwOnError()
+      if (!count) continue
+      await db
+        .from('grants')
+        .update(
+          role === 'funder' ? { funder_org_id: target.id } : { recipient_org_id: target.id }
+        )
+        .eq(column, holder.org_id)
+        .throwOnError()
+      console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)
+    }
+  }
+
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
   // and correctly named; clears the needs_review flag without seeding them.
   const reviewed = (reviewedFile as never as { slugs: string[] }).slugs
