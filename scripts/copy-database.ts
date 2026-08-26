@@ -30,6 +30,13 @@ const TABLES = [
 const CONFLICT_KEYS: Partial<Record<(typeof TABLES)[number], string>> = {
   grant_cause_areas: 'grant_id,cause_area_id',
   grant_vias: 'grant_id,via_org_id',
+  grant_sources: 'grant_id,source_record_id',
+}
+
+// Self-referencing columns can point at a row that a later page will insert,
+// so they are nulled on the way in and set once every row exists.
+const SELF_REFS: Partial<Record<(typeof TABLES)[number], string>> = {
+  grants: 'superseded_by',
 }
 
 const PAGE = 500
@@ -77,22 +84,15 @@ async function main() {
 
   if (wipe) {
     for (const table of [...TABLES].reverse()) {
-      // Delete everything without needing to know each table's key shape.
-      const { error } = await target.from(table).delete().not('id', 'is', null)
-      if (error && !/column .* does not exist/.test(error.message)) {
-        throw new Error(`wipe ${table}: ${error.message}`)
-      }
-      if (error) {
-        const { error: fallback } = await target
-          .from(table)
-          .delete()
-          .gte('grant_id', '00000000-0000-0000-0000-000000000000')
-        if (fallback) throw new Error(`wipe ${table}: ${fallback.message}`)
-      }
+      // Join tables key on grant_id rather than a synthetic id.
+      const keyColumn = (CONFLICT_KEYS[table] ?? 'id').split(',')[0]
+      const { error } = await target.from(table).delete().not(keyColumn, 'is', null)
+      if (error) throw new Error(`wipe ${table}: ${error.message}`)
     }
     console.log('target cleared')
   }
 
+  const deferred: { table: string; id: string; column: string; value: unknown }[] = []
   for (const table of TABLES) {
     const total = await count(source, table)
     let copied = 0
@@ -103,13 +103,47 @@ async function main() {
         .range(from, from + PAGE - 1)
       if (error) throw new Error(`read ${table}: ${error.message}`)
       if (!data || data.length === 0) break
+      const selfRef = SELF_REFS[table]
+      const rows = selfRef
+        ? data.map((row) => {
+            const value = (row as Record<string, unknown>)[selfRef]
+            if (value)
+              deferred.push({ table, id: (row as { id: string }).id, column: selfRef, value })
+            return { ...(row as Record<string, unknown>), [selfRef]: null }
+          })
+        : data
       const { error: writeError } = await target
         .from(table)
-        .upsert(data, { onConflict: CONFLICT_KEYS[table] ?? 'id' })
+        .upsert(rows, { onConflict: CONFLICT_KEYS[table] ?? 'id' })
       if (writeError) throw new Error(`write ${table}: ${writeError.message}`)
       copied += data.length
     }
     console.log(`${table.padEnd(18)} ${copied}/${total}`)
+  }
+
+  // Second pass: restore the self-references now that every row is present.
+  if (deferred.length > 0) {
+    const byValue = new Map<string, { table: string; column: string; ids: string[] }>()
+    for (const row of deferred) {
+      const key = `${row.table}|${row.column}|${String(row.value)}`
+      const entry = byValue.get(key) ?? { table: row.table, column: row.column, ids: [] }
+      entry.ids.push(row.id)
+      byValue.set(key, entry)
+    }
+    const jobs = Array.from(byValue.entries())
+    for (let i = 0; i < jobs.length; i += 20) {
+      await Promise.all(
+        jobs.slice(i, i + 20).map(async ([key, entry]) => {
+          const value = key.split('|')[2]
+          const { error } = await target
+            .from(entry.table)
+            .update({ [entry.column]: value })
+            .in('id', entry.ids)
+          if (error) throw new Error(`link ${entry.table}.${entry.column}: ${error.message}`)
+        })
+      )
+    }
+    console.log(`linked ${deferred.length} self-references`)
   }
   console.log('\ndone — run with --verify-only to compare row counts')
 }

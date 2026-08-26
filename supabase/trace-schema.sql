@@ -261,3 +261,16 @@ CREATE POLICY "authors read own" ON suggestions
 DROP POLICY IF EXISTS "public read reviewed" ON suggestions;
 CREATE POLICY "public read reviewed" ON suggestions
   FOR SELECT USING (status <> 'pending');
+
+
+-- ===== API role grants =====
+-- Supabase grants these automatically for `public` only; a new schema needs
+-- them spelled out. RLS still governs what anon/authenticated can see —
+-- these grants just let PostgREST reach the schema at all.
+GRANT USAGE ON SCHEMA trace TO anon, authenticated, service_role;
+GRANT SELECT ON ALL TABLES IN SCHEMA trace TO anon, authenticated;
+GRANT ALL ON ALL TABLES IN SCHEMA trace TO service_role;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA trace TO service_role;
+GRANT INSERT ON trace.suggestions TO authenticated;
+ALTER DEFAULT PRIVILEGES IN SCHEMA trace GRANT SELECT ON TABLES TO anon, authenticated;
+ALTER DEFAULT PRIVILEGES IN SCHEMA trace GRANT ALL ON TABLES TO service_role;
