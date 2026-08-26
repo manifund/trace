@@ -2173,22 +2173,7 @@
       "description": "Launch funding for LawZero",
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
-      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
-      "causes": [
-        "technical-ai-safety"
-      ]
-    },
-    {
-      "recipient": "LawZero",
-      "funder": "Jaan Tallinn",
-      "amount": 5000000,
-      "currency": "USD",
-      "date": "2025-06-03",
-      "datePrecision": "day",
-      "description": "Launch funding for LawZero",
-      "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
-      "amountEstimated": true,
-      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split; $15m of its roughly $30m of launch funding is attributed here, divided evenly between the three. Jaan Tallinn's share is recorded as his grant to Safe AI for Humanity via Mila, and the remainder arrived through Mila, which incubated LawZero.",
       "causes": [
         "technical-ai-safety"
       ]
@@ -2203,7 +2188,7 @@
       "description": "Launch funding for LawZero",
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
-      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split; $15m of its roughly $30m of launch funding is attributed here, divided evenly between the three. Jaan Tallinn's share is recorded as his grant to Safe AI for Humanity via Mila, and the remainder arrived through Mila, which incubated LawZero.",
       "causes": [
         "technical-ai-safety"
       ]
@@ -2218,7 +2203,7 @@
       "description": "Launch funding for LawZero",
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
-      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
+      "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split; $15m of its roughly $30m of launch funding is attributed here, divided evenly between the three. Jaan Tallinn's share is recorded as his grant to Safe AI for Humanity via Mila, and the remainder arrived through Mila, which incubated LawZero.",
       "causes": [
         "technical-ai-safety"
       ]

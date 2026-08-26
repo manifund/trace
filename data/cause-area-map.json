@@ -575,6 +575,18 @@
     ],
     "beneficial-ai-foundation": [
       "technical-ai-safety"
+    ],
+    "cooperative-ai-foundation": [
+      "ai-safety"
+    ],
+    "secure-future-research": [
+      "international-policy"
+    ],
+    "ai-futures-project": [
+      "ai-strategy"
+    ],
+    "center-for-human-compatible-ai": [
+      "technical-ai-safety"
     ]
   }
 }
