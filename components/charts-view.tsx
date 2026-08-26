@@ -272,7 +272,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   return (
     <div className="flex flex-col gap-10">
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Funding by year</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Funding by year</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <CauseSelect value={barCause} onChange={setBarCause} />
           <MultiSelect
@@ -296,7 +296,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       </section>
 
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Cumulative funding, compared</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Cumulative funding, compared</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <select
             value={lineGroup}
@@ -339,7 +339,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       </section>
 
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Funding share</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Funding share</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <select
             value={pieGroup}

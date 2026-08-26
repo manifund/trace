@@ -359,13 +359,7 @@
         "salary bridge",
         "career exploration"
       ],
-      "ais-events": [
-        "conference",
-        "workshop",
-        "retreat",
-        "hackathon",
-        "event"
-      ],
+      "ais-events": ["conference", "workshop", "retreat", "hackathon", "event"],
       "research-hubs": [
         "constellation",
         "lisa",
@@ -427,24 +421,11 @@
         "blog",
         "epistemic"
       ],
-      "org-incubation": [
-        "incubat",
-        "ops support",
-        "operations",
-        "founding",
-        "fiscal sponsorship"
-      ]
+      "org-incubation": ["incubat", "ops support", "operations", "founding", "fiscal sponsorship"]
     },
     "ai-adjacent": {
-      "ai-bio": [
-        "biosecurity",
-        "biorisk",
-        "pandemic",
-        "biological"
-      ],
-      "ai-cyber": [
-        "cyber"
-      ],
+      "ai-bio": ["biosecurity", "biorisk", "pandemic", "biological"],
+      "ai-cyber": ["cyber"],
       "digital-minds": [
         "digital minds",
         "ai welfare",
@@ -452,16 +433,8 @@
         "moral patient",
         "consciousness"
       ],
-      "s-risk": [
-        "s-risk",
-        "suffering risk"
-      ],
-      "gradual-disempowerment": [
-        "disempowerment",
-        "labor market",
-        "economic disruption",
-        "wage"
-      ]
+      "s-risk": ["s-risk", "suffering risk"],
+      "gradual-disempowerment": ["disempowerment", "labor market", "economic disruption", "wage"]
     }
   },
   "keywords": {
@@ -516,65 +489,25 @@
   },
   "recipients": {
     "_comment": "Recipient-org defaults, keyed by org slug. Used when a grant has no entry in cause-tags.json: the recipient's cause replaces the keyword classifier's output. For orgs whose work is single-cause (donations to CSET are domestic policy work no matter who gave).",
-    "center-for-security-and-emerging-technology": [
-      "domestic-policy"
-    ],
-    "forecasting-research-institute": [
-      "ai-strategy"
-    ],
-    "epoch-ai": [
-      "ai-strategy"
-    ],
-    "centre-for-the-governance-of-ai": [
-      "ai-policy"
-    ],
-    "machine-intelligence-research-institute": [
-      "ai-theory"
-    ],
-    "openmined": [
-      "technical-ai-safety"
-    ],
-    "alignment-research-center": [
-      "technical-ai-safety"
-    ],
-    "institute-for-law-ai": [
-      "ai-law"
-    ],
-    "center-for-ai-safety": [
-      "technical-ai-safety"
-    ],
-    "80-000-hours": [
-      "ea-infrastructure"
-    ],
-    "effective-ventures-foundation": [
-      "ea-infrastructure"
-    ],
-    "lightcone-infrastructure": [
-      "epistemic-infrastructure"
-    ],
-    "mats-research": [
-      "training-pipelines"
-    ],
-    "institute-for-ai-policy-and-strategy": [
-      "ai-policy"
-    ],
-    "far-ai": [
-      "technical-ai-safety"
-    ],
-    "timaeus": [
-      "interp"
-    ],
-    "model-evaluation-and-threat-research": [
-      "evals"
-    ],
-    "improve-the-news-foundation": [
-      "other"
-    ],
-    "fli": [
-      "ai-safety"
-    ],
-    "beneficial-ai-foundation": [
-      "technical-ai-safety"
-    ]
+    "center-for-security-and-emerging-technology": ["domestic-policy"],
+    "forecasting-research-institute": ["ai-strategy"],
+    "epoch-ai": ["ai-strategy"],
+    "centre-for-the-governance-of-ai": ["ai-policy"],
+    "machine-intelligence-research-institute": ["ai-theory"],
+    "openmined": ["technical-ai-safety"],
+    "alignment-research-center": ["technical-ai-safety"],
+    "institute-for-law-ai": ["ai-law"],
+    "center-for-ai-safety": ["technical-ai-safety"],
+    "80-000-hours": ["ea-infrastructure"],
+    "effective-ventures-foundation": ["ea-infrastructure"],
+    "lightcone-infrastructure": ["epistemic-infrastructure"],
+    "mats-research": ["training-pipelines"],
+    "institute-for-ai-policy-and-strategy": ["ai-policy"],
+    "far-ai": ["technical-ai-safety"],
+    "timaeus": ["interp"],
+    "model-evaluation-and-threat-research": ["evals"],
+    "improve-the-news-foundation": ["other"],
+    "fli": ["ai-safety"],
+    "beneficial-ai-foundation": ["technical-ai-safety"]
   }
 }

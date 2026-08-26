@@ -1,9 +1,46 @@
 'use client'
 
+import {
+  ChevronDownIcon,
+  ChevronUpIcon,
+  MinusIcon,
+  PencilIcon,
+  PlusIcon,
+} from '@heroicons/react/16/solid'
+import {
+  columnVisibilityFeature,
+  createColumnHelper,
+  rowExpandingFeature,
+  rowSortingFeature,
+  tableFeatures,
+  useTable,
+  type ColumnVisibilityState,
+  type SortingState,
+  type Updater,
+} from '@tanstack/react-table'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import { useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import { MultiSelect } from '@/components/multi-select'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import type { GrantRow } from '@/db/grant'
+import { cn } from '@/lib/utils'
 import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
 import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import {
@@ -14,6 +51,61 @@ import {
 } from '@/utils/grant-filters'
 
 const PAGE = 200
+const COLUMNS_KEY = 'trace:grant-columns'
+
+// Columns hidden until the "+" in the header row reveals them.
+const EXTRA_COLUMNS = ['recipient', 'cause'] as const
+const DEFAULT_VISIBILITY: ColumnVisibilityState = { recipient: false, cause: false }
+
+// Short source labels so the Source column stays one word wide.
+const SOURCE_SHORT: Record<string, string> = {
+  ea_funds: 'EA Funds',
+  sff: 'SFF',
+  manifund: 'Manifund',
+  vipul_donations: 'Vipul',
+  coefficient_giving: 'Coefficient',
+  acx_grants: 'ACX',
+  fli: 'FLI',
+  lightcone_commons: 'Lightcone',
+  foresight: 'Foresight',
+  schmidt_sciences: 'Schmidt',
+  longview: 'Longview',
+  jefftk: 'jefftk',
+}
+
+const features = tableFeatures({
+  rowSortingFeature,
+  columnVisibilityFeature,
+  rowExpandingFeature,
+})
+const helper = createColumnHelper<typeof features, GrantRow>()
+
+const NUMERIC_COLUMNS = new Set(['amount'])
+// Fixed layout: the Purpose column absorbs the slack; others get set widths.
+const COLUMN_WIDTHS: Record<string, string> = {
+  date: 'w-28',
+  funder: 'w-44',
+  amount: 'w-28',
+  source: 'w-40',
+  recipient: 'w-44',
+  cause: 'w-36',
+  actions: 'w-8',
+}
+
+const SORT_KEYS: GrantFilters['sort'][] = ['date', 'amount', 'funder', 'recipient']
+const isSortKey = (id: string): id is GrantFilters['sort'] => (SORT_KEYS as string[]).includes(id)
+
+function OrgLink(props: { slug: string; name: string; className?: string }) {
+  return (
+    <a
+      href={`/orgs/${props.slug}`}
+      className={cn('block truncate text-ink hover:text-navy', props.className)}
+      title={props.name}
+    >
+      {props.name}
+    </a>
+  )
+}
 
 export function GrantsTable(props: {
   grants: GrantRow[]
@@ -27,6 +119,26 @@ export function GrantsTable(props: {
     filtersFromParams(new URLSearchParams(searchParams.toString()))
   )
   const [limit, setLimit] = useState(PAGE)
+  const [columnVisibility, setColumnVisibility] =
+    useState<ColumnVisibilityState>(DEFAULT_VISIBILITY)
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({})
+
+  // Column choice is a per-browser convenience, not part of the shareable URL.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(COLUMNS_KEY)
+      if (saved) setColumnVisibility(JSON.parse(saved))
+    } catch {}
+  }, [])
+  const updateVisibility = (next: ColumnVisibilityState) => {
+    setColumnVisibility(next)
+    try {
+      localStorage.setItem(COLUMNS_KEY, JSON.stringify(next))
+    } catch {}
+  }
+  const extrasShown = EXTRA_COLUMNS.every((id) => columnVisibility[id] !== false)
+  const toggleExtras = () =>
+    updateVisibility(Object.fromEntries(EXTRA_COLUMNS.map((id) => [id, !extrasShown])))
 
   // Cause narrowing happens here, not on the server: the page is static.
   const causeRows = useMemo(
@@ -39,14 +151,16 @@ export function GrantsTable(props: {
     const next = { ...filters, ...partial }
     setFilters(next)
     setLimit(PAGE)
-    const params = filtersToParams(next, cause)
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false })
+    setExpanded({})
+    router.replace(`${pathname}?${filtersToParams(next, cause).toString()}`, { scroll: false })
   }
 
   const setCause = (nextCause: string) => {
     setLimit(PAGE)
-    const params = filtersToParams(filters, nextCause)
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false })
+    setExpanded({})
+    router.replace(`${pathname}?${filtersToParams(filters, nextCause).toString()}`, {
+      scroll: false,
+    })
   }
 
   const funderOptions = useMemo(() => {
@@ -57,6 +171,10 @@ export function GrantsTable(props: {
       .sort((a, b) => a.label.localeCompare(b.label))
   }, [causeRows])
 
+  const sourceNames = useMemo(
+    () => new Map(props.sources.map((source) => [source.id, source.name])),
+    [props.sources]
+  )
   const sourceOptions = props.sources.map((source) => ({ value: source.id, label: source.name }))
 
   const years = useMemo(() => {
@@ -67,7 +185,10 @@ export function GrantsTable(props: {
     return Array.from(set).sort((a, b) => b - a)
   }, [causeRows])
 
+  // Filtering and sorting stay in grant-filters so the CSV route matches
+  // exactly; the table runs with manualSorting and only owns the header UI.
   const rows = useMemo(() => applyFilters(causeRows, filters), [causeRows, filters])
+  const pageRows = useMemo(() => rows.slice(0, limit), [rows, limit])
   const estimateNotes = useMemo(
     () =>
       Array.from(
@@ -81,33 +202,193 @@ export function GrantsTable(props: {
   )
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
-  const sortHeader = (key: GrantFilters['sort'], label: string, numeric = false) => (
-    <th
-      className={numeric ? 'gb-num cursor-pointer' : 'cursor-pointer'}
-      onClick={() =>
-        update(
-          filters.sort === key
-            ? { dir: filters.dir === 'asc' ? 'desc' : 'asc' }
-            : { sort: key, dir: key === 'date' || key === 'amount' ? 'desc' : 'asc' }
-        )
-      }
-    >
-      {label}
-      {filters.sort === key ? (filters.dir === 'asc' ? ' ▲' : ' ▼') : ''}
-    </th>
+  const columns = useMemo(
+    () =>
+      helper.columns([
+        helper.accessor('date', {
+          header: 'Date',
+          cell: ({ row }) => (
+            <span className="whitespace-nowrap tabular-nums">
+              {formatGrantDate(row.original.date, row.original.datePrecision)}
+            </span>
+          ),
+        }),
+        helper.accessor('description', {
+          id: 'purpose',
+          header: 'Purpose',
+          enableSorting: false,
+          cell: ({ row }) =>
+            row.original.description ? (
+              <span className="block truncate">{row.original.description}</span>
+            ) : (
+              <span className="block truncate text-muted-foreground">
+                Grant to {row.original.recipientName}
+              </span>
+            ),
+        }),
+        helper.accessor('funderName', {
+          id: 'funder',
+          header: 'Funder',
+          cell: ({ row }) => (
+            <OrgLink slug={row.original.funderSlug} name={row.original.funderName} />
+          ),
+        }),
+        helper.accessor('amountUsd', {
+          id: 'amount',
+          header: 'Amount',
+          cell: ({ row }) => {
+            const grant = row.original
+            const symbol = grant.amountEstimated
+              ? (ESTIMATE_SYMBOLS[Math.max(estimateNotes.indexOf(grant.estimateNote ?? ''), 0)] ??
+                '*')
+              : null
+            return (
+              <span className="whitespace-nowrap font-semibold text-navy tabular-nums">
+                {grant.amountEstimated && '~'}
+                {formatMoney(grant.amountUsd)}
+                {symbol && (
+                  <a href="#amount-notes" title={grant.estimateNote ?? undefined}>
+                    {symbol}
+                  </a>
+                )}
+              </span>
+            )
+          },
+        }),
+        helper.accessor('sourceId', {
+          id: 'source',
+          header: 'Source',
+          enableSorting: false,
+          cell: ({ row }) => {
+            const grant = row.original
+            const label = grant.sourceId
+              ? (SOURCE_SHORT[grant.sourceId] ?? sourceNames.get(grant.sourceId) ?? grant.sourceId)
+              : '—'
+            // The via is only news when it isn't the funder or the source itself.
+            const sourceName = sourceNames.get(grant.sourceId ?? '')
+            const vias = grant.vias.filter(
+              (via) =>
+                via.slug !== grant.funderSlug && via.name !== sourceName && via.name !== label
+            )
+            return (
+              <span className="flex items-center gap-1 whitespace-nowrap text-xs">
+                {grant.url ? (
+                  <a href={grant.url} title={sourceNames.get(grant.sourceId ?? '')}>
+                    {label}
+                  </a>
+                ) : (
+                  <span title={sourceNames.get(grant.sourceId ?? '')}>{label}</span>
+                )}
+                {vias.length > 0 && (
+                  <>
+                    <span className="text-muted-foreground">·</span>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <a
+                          href={`/orgs/${vias[0].slug}`}
+                          className="max-w-24 truncate text-muted-foreground"
+                        >
+                          via {vias[0].name}
+                        </a>
+                      </TooltipTrigger>
+                      <TooltipContent>Via {vias.map((via) => via.name).join(', ')}</TooltipContent>
+                    </Tooltip>
+                  </>
+                )}
+              </span>
+            )
+          },
+        }),
+        helper.accessor('recipientName', {
+          id: 'recipient',
+          header: 'Recipient',
+          cell: ({ row }) => (
+            <OrgLink slug={row.original.recipientSlug} name={row.original.recipientName} />
+          ),
+        }),
+        helper.accessor('causes', {
+          id: 'cause',
+          header: 'Cause',
+          enableSorting: false,
+          cell: ({ row }) => (
+            <span className="block truncate text-xs text-muted-foreground">
+              {displayCauses(row.original.causes).join(', ')}
+            </span>
+          ),
+        }),
+        helper.display({
+          id: 'actions',
+          header: () => (
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon-xs"
+                  onClick={toggleExtras}
+                  aria-label={extrasShown ? 'Hide extra columns' : 'Show more columns'}
+                >
+                  {extrasShown ? <MinusIcon /> : <PlusIcon />}
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent>{extrasShown ? 'Fewer columns' : 'More columns'}</TooltipContent>
+            </Tooltip>
+          ),
+          cell: ({ row }) => (
+            <a
+              href={`/suggest?grant=${row.original.id}`}
+              className="flex size-6 items-center justify-center rounded-sm text-muted-foreground opacity-0 group-hover:opacity-100 hover:bg-accent hover:text-navy focus-visible:opacity-100"
+              aria-label="Suggest an edit to this grant"
+              title="Suggest an edit"
+            >
+              <PencilIcon className="size-3.5" />
+            </a>
+          ),
+        }),
+      ]),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [estimateNotes, sourceNames, extrasShown]
   )
 
+  const sorting: SortingState = [{ id: filters.sort, desc: filters.dir === 'desc' }]
+  const onSortingChange = (updater: Updater<SortingState>) => {
+    const next = typeof updater === 'function' ? updater(sorting) : updater
+    const first = next[0]
+    if (!first || !isSortKey(first.id)) return
+    update({ sort: first.id, dir: first.desc ? 'desc' : 'asc' })
+  }
+
+  const table = useTable({
+    features,
+    columns,
+    data: pageRows,
+    getRowId: (row) => row.id,
+    manualSorting: true,
+    enableSortingRemoval: false,
+    enableMultiSort: false,
+    getRowCanExpand: () => true,
+    state: { sorting, columnVisibility, expanded },
+    onSortingChange,
+    onColumnVisibilityChange: (updater) =>
+      updateVisibility(typeof updater === 'function' ? updater(columnVisibility) : updater),
+    onExpandedChange: (updater) =>
+      setExpanded((prev) => {
+        const next = typeof updater === 'function' ? updater(prev) : updater
+        return next === true ? {} : next
+      }),
+  })
+
+  const visibleCount = table.getVisibleLeafColumns().length
   const csvHref = `/grants.csv?${filtersToParams(filters, cause).toString()}`
 
   return (
     <div>
       <div className="mb-3 flex flex-wrap items-center gap-2">
-        <input
+        <Input
           type="search"
-          placeholder="Search"
+          placeholder="Search grants"
           value={filters.q}
           onChange={(e) => update({ q: e.target.value })}
-          className="w-56 rounded-sm border border-rule bg-paper px-2 py-1 text-sm"
+          className="h-7 w-52 bg-card text-[0.8rem]"
         />
         <MultiSelect
           label="Funder"
@@ -121,122 +402,144 @@ export function GrantsTable(props: {
           selected={filters.sources}
           onChange={(sources) => update({ sources })}
         />
-        <select
-          value={cause}
-          onChange={(e) => setCause(e.target.value)}
-          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
+        <Select value={cause} onValueChange={setCause}>
+          <SelectTrigger size="sm" className="bg-card">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All causes</SelectItem>
+            {CAUSE_OPTIONS.map((option) => (
+              <SelectItem key={option.slug} value={option.slug}>
+                <span style={{ paddingLeft: option.depth * 10 }}>{option.name}</span>
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+        <Select
+          value={filters.yearMin ? String(filters.yearMin) : 'start'}
+          onValueChange={(v) => update({ yearMin: v === 'start' ? null : Number(v) })}
         >
-          <option value="all">All causes</option>
-          {CAUSE_OPTIONS.map((cause) => (
-            <option key={cause.slug} value={cause.slug}>
-              {' '.repeat(cause.depth)}
-              {cause.name}
-            </option>
-          ))}
-        </select>
-        <select
-          value={filters.yearMin ?? ''}
-          onChange={(e) => update({ yearMin: e.target.value ? Number(e.target.value) : null })}
-          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
+          <SelectTrigger size="sm" className="bg-card">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="start">From start</SelectItem>
+            {years.map((year) => (
+              <SelectItem key={year} value={String(year)}>
+                From {year}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+        <Select
+          value={filters.yearMax ? String(filters.yearMax) : 'present'}
+          onValueChange={(v) => update({ yearMax: v === 'present' ? null : Number(v) })}
         >
-          <option value="">From: start</option>
-          {years.map((year) => (
-            <option key={year} value={year}>
-              From {year}
-            </option>
-          ))}
-        </select>
-        <select
-          value={filters.yearMax ?? ''}
-          onChange={(e) => update({ yearMax: e.target.value ? Number(e.target.value) : null })}
-          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
-        >
-          <option value="">To: present</option>
-          {years.map((year) => (
-            <option key={year} value={year}>
-              To {year}
-            </option>
-          ))}
-        </select>
-        <a href={csvHref} className="ml-auto text-sm">
+          <SelectTrigger size="sm" className="bg-card">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="present">To present</SelectItem>
+            {years.map((year) => (
+              <SelectItem key={year} value={String(year)}>
+                To {year}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+        <a href={csvHref} className="caps-label ml-auto hover:text-navy!">
           CSV
         </a>
       </div>
 
-      <div className="overflow-x-auto">
-        <table className="gb-table">
-          <thead>
-            <tr>
-              {sortHeader('date', 'Date')}
-              {sortHeader('funder', 'Funder')}
-              <th>Via</th>
-              {sortHeader('recipient', 'Recipient')}
-              {sortHeader('amount', 'Amount', true)}
-              <th>Cause</th>
-              <th>Source</th>
-              <th>Purpose</th>
-              <th />
-            </tr>
-          </thead>
-          <tbody>
-            {rows.slice(0, limit).map((row) => (
-              <tr key={row.id}>
-                <td className="whitespace-nowrap">
-                  {formatGrantDate(row.date, row.datePrecision)}
-                </td>
-                <td>
-                  <a href={`/orgs/${row.funderSlug}`}>{row.funderName}</a>
-                </td>
-                <td>
-                  {row.vias
-                    .filter((via) => via.slug !== row.funderSlug)
-                    .map((via, i) => (
-                      <span key={via.slug}>
-                        {i > 0 && ', '}
-                        <a href={`/orgs/${via.slug}`}>{via.name}</a>
-                      </span>
-                    ))}
-                </td>
-                <td>
-                  <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
-                </td>
-                <td className="gb-num whitespace-nowrap">
-                  {row.amountEstimated && '~'}
-                  {formatMoney(row.amountUsd)}
-                  {row.amountEstimated && (
-                    <a
-                      href="#amount-notes"
-                      title={row.estimateNote ?? undefined}
-                      className="text-accent"
+      <Table className="table-fixed border-y text-[13px]">
+        <TableHeader>
+          {table.getHeaderGroups().map((group) => (
+            <TableRow key={group.id} className="hover:bg-transparent">
+              {group.headers.map((header) => {
+                const numeric = NUMERIC_COLUMNS.has(header.column.id)
+                const sortable = header.column.getCanSort()
+                const sorted = header.column.getIsSorted()
+                return (
+                  <TableHead
+                    key={header.id}
+                    className={cn(
+                      'caps-label h-8 border-l bg-paper-alt px-2.5 first:border-l-0',
+                      numeric && 'text-right',
+                      COLUMN_WIDTHS[header.column.id],
+                      header.column.id === 'actions' && 'px-1 text-center',
+                      sortable && 'cursor-pointer select-none hover:text-ink'
+                    )}
+                    aria-sort={sorted ? (sorted === 'asc' ? 'ascending' : 'descending') : undefined}
+                    onClick={sortable ? header.column.getToggleSortingHandler() : undefined}
+                  >
+                    <span
+                      className={cn(
+                        'inline-flex items-center gap-0.5',
+                        numeric && 'flex-row-reverse'
+                      )}
                     >
-                      {ESTIMATE_SYMBOLS[
-                        Math.max(estimateNotes.indexOf(row.estimateNote ?? ''), 0)
-                      ] ?? '*'}
-                    </a>
+                      <table.FlexRender header={header} />
+                      {sorted === 'asc' && <ChevronUpIcon className="size-3.5 text-navy" />}
+                      {sorted === 'desc' && <ChevronDownIcon className="size-3.5 text-navy" />}
+                    </span>
+                  </TableHead>
+                )
+              })}
+            </TableRow>
+          ))}
+        </TableHeader>
+        <TableBody>
+          {table.getRowModel().rows.map((row) => {
+            const grant = row.original
+            const open = row.getIsExpanded()
+            return (
+              <Fragment key={row.id}>
+                <TableRow
+                  className={cn(
+                    'group h-7 cursor-pointer',
+                    open ? 'border-b-0 bg-card' : 'hover:bg-card'
                   )}
-                </td>
-                <td className="max-w-44 text-xs text-ink-muted">
-                  {displayCauses(row.causes).join(', ')}
-                </td>
-                <td className="whitespace-nowrap">
-                  {row.url ? <a href={row.url}>{row.sourceId}</a> : row.sourceId}
-                </td>
-                <td className="max-w-md">
-                  <span className="line-clamp-2">{row.description}</span>
-                </td>
-                <td className="whitespace-nowrap text-xs">
-                  <a href={`/suggest?grant=${row.id}`} title="Suggest an edit to this grant">
-                    edit
-                  </a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+                  onClick={(e) => {
+                    if ((e.target as HTMLElement).closest('a, button')) return
+                    row.toggleExpanded()
+                  }}
+                  aria-expanded={open}
+                >
+                  {row.getVisibleCells().map((cell) => {
+                    const numeric = NUMERIC_COLUMNS.has(cell.column.id)
+                    return (
+                      <TableCell
+                        key={cell.id}
+                        className={cn(
+                          'border-l px-2.5 py-1 first:border-l-0',
+                          numeric && 'text-right',
+                          cell.column.id === 'actions' && 'px-1'
+                        )}
+                      >
+                        <table.FlexRender cell={cell} />
+                      </TableCell>
+                    )
+                  })}
+                </TableRow>
+                {open && (
+                  <TableRow className="bg-card hover:bg-card">
+                    <TableCell colSpan={visibleCount} className="px-2.5 pt-0 pb-2.5">
+                      <GrantDetail
+                        grant={grant}
+                        sourceName={sourceNames.get(grant.sourceId ?? '')}
+                      />
+                    </TableCell>
+                  </TableRow>
+                )}
+              </Fragment>
+            )
+          })}
+        </TableBody>
+      </Table>
 
       {estimateNotes.length > 0 && (
-        <div id="amount-notes" className="mt-1 text-xs text-ink-muted">
+        <div id="amount-notes" className="mt-1 text-xs text-muted-foreground">
           {estimateNotes.map((note, i) => (
             <p key={note}>
               {ESTIMATE_SYMBOLS[i] ?? '*'} {note}
@@ -244,22 +547,79 @@ export function GrantsTable(props: {
           ))}
         </div>
       )}
-      <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
-        <span>
+      <div className="mt-2 flex items-baseline gap-4 text-sm text-muted-foreground">
+        <span className="tabular-nums">
           {rows.length.toLocaleString()} grants ·{' '}
           {rows.some((row) => row.amountEstimated) && (
-            <a href="#amount-notes" title="Includes estimated amounts" className="text-accent">
+            <a href="#amount-notes" title="Includes estimated amounts">
               ~
             </a>
           )}
           {formatMoney(totalUsd)}
         </span>
         {limit < rows.length && (
-          <button className="text-accent" onClick={() => setLimit(limit + PAGE)}>
-            Show more
-          </button>
+          <Button variant="link" size="sm" className="px-0" onClick={() => setLimit(limit + PAGE)}>
+            Show {Math.min(PAGE, rows.length - limit).toLocaleString()} more
+          </Button>
         )}
       </div>
+    </div>
+  )
+}
+
+function GrantDetail(props: { grant: GrantRow; sourceName?: string }) {
+  const { grant, sourceName } = props
+  const vias = grant.vias.filter((via) => via.slug !== grant.funderSlug)
+  type Fact = [string, React.ReactNode]
+  const facts: Fact[] = []
+  facts.push([
+    'Recipient',
+    <OrgLink slug={grant.recipientSlug} name={grant.recipientName} className="inline" />,
+  ])
+  if (vias.length > 0) {
+    facts.push([
+      'Via',
+      vias.map((via, i) => (
+        <span key={via.slug}>
+          {i > 0 && ', '}
+          <OrgLink slug={via.slug} name={via.name} className="inline" />
+        </span>
+      )),
+    ])
+  }
+  if (grant.sponsorSlug && grant.sponsorName) {
+    facts.push([
+      'Fiscal sponsor',
+      <OrgLink slug={grant.sponsorSlug} name={grant.sponsorName} className="inline" />,
+    ])
+  }
+  if (grant.round) facts.push(['Round', grant.round])
+  if (grant.causes.length > 0) facts.push(['Cause', displayCauses(grant.causes).join(', ')])
+  if (grant.amount !== null && grant.currency !== 'USD') {
+    facts.push(['Original', formatMoney(grant.amount, grant.currency)])
+  }
+  if (grant.estimateNote) facts.push(['Estimate', grant.estimateNote])
+  facts.push([
+    'Source',
+    grant.url ? (
+      <a href={grant.url}>{sourceName ?? grant.sourceId}</a>
+    ) : (
+      (sourceName ?? grant.sourceId ?? '—')
+    ),
+  ])
+  return (
+    <div className="grid gap-x-6 gap-y-1.5 md:grid-cols-[minmax(0,1fr)_minmax(0,20rem)]">
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        {grant.description ?? <span className="text-muted-foreground">No description.</span>}
+      </p>
+      <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-0.5 text-xs">
+        {facts.map(([label, value]) => (
+          <div key={label} className="contents">
+            <dt className="caps-label pt-0.5 text-[10px]">{label}</dt>
+            <dd className="truncate">{value}</dd>
+          </div>
+        ))}
+      </dl>
     </div>
   )
 }

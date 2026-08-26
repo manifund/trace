@@ -96,14 +96,14 @@ export default async function Page() {
   return (
     <div className="max-w-3xl">
       <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="font-serif text-2xl font-bold">Suggestions</h1>
+        <h1 className="font-display text-2xl font-bold">Suggestions</h1>
         <AuthButton email={user?.email ?? null} />
       </div>
       <p className="mb-4 text-ink-muted">
         Anyone signed in can <a href="/suggest">suggest a grant</a> or an edit to an existing one.
       </p>
 
-      <h2 className="mb-2 font-serif text-lg font-bold">
+      <h2 className="mb-2 font-display text-lg font-bold">
         Pending {pending.length > 0 && `(${pending.length})`}
       </h2>
       {pending.length === 0 ? (
@@ -116,7 +116,7 @@ export default async function Page() {
 
       {reviewed.length > 0 && (
         <>
-          <h2 className="mt-6 mb-2 font-serif text-lg font-bold">Reviewed</h2>
+          <h2 className="mt-6 mb-2 font-display text-lg font-bold">Reviewed</h2>
           {reviewed.map((row) => (
             <Card key={row.id} row={row} />
           ))}

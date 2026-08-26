@@ -40,12 +40,12 @@ function GrantList(props: {
   const noteId = `amount-notes-${props.title.toLowerCase().replace(/\W+/g, '-')}`
   return (
     <section className="mb-8">
-      <h2 className="mb-2 font-serif text-lg font-bold">
+      <h2 className="mb-2 font-display text-lg font-bold">
         {props.title}{' '}
         <span className="text-sm font-normal text-ink-muted">
           {props.grants.length.toLocaleString()} ·{' '}
           {props.grants.some((grant) => grant.amountEstimated) && (
-            <a href={`#${noteId}`} title="Includes estimated amounts" className="text-accent">
+            <a href={`#${noteId}`} title="Includes estimated amounts" className="text-navy">
               ~
             </a>
           )}
@@ -113,7 +113,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
 
   return (
     <div>
-      <h1 className="font-serif text-2xl font-bold">{org.name}</h1>
+      <h1 className="font-display text-2xl font-bold">{org.name}</h1>
       <p className="mb-6 text-sm text-ink-muted">
         {org.website && (
           <>

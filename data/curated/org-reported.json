@@ -2159,9 +2159,7 @@
       "datePrecision": "day",
       "description": "Alignment research, including semiautomated alignment theory and empirics; structured as a $108m base plus $52m conditional on hiring success and compute needs. Coefficient Giving is Resolution’s sole funder to start.",
       "sourceUrl": "https://resolution.org/post/funding",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     },
     {
       "recipient": "LawZero",
@@ -2174,9 +2172,7 @@
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
       "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     },
     {
       "recipient": "LawZero",
@@ -2189,9 +2185,7 @@
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
       "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     },
     {
       "recipient": "LawZero",
@@ -2204,9 +2198,7 @@
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
       "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     },
     {
       "recipient": "LawZero",
@@ -2219,9 +2211,7 @@
       "sourceUrl": "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
       "amountEstimated": true,
       "estimateNote": "LawZero launched in June 2025 naming the Future of Life Institute, Jaan Tallinn, Coefficient Giving (then Open Philanthropy) and Schmidt Sciences among its backers without a split. About $20m of its roughly $30m of launch funding is attributed here, divided evenly between the four; the remainder arrived through Mila, which incubated LawZero, and is already recorded as donations to Mila.",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     },
     {
       "recipient": "LawZero",
@@ -2234,9 +2224,7 @@
       "sourceUrl": "https://lawzero.org/en/news/lawzero-receives-grant-develop-safe-design-ai-systems-can-improve-scientific-discovery",
       "amountEstimated": true,
       "estimateNote": "LawZero announced a Gates Foundation grant in August 2025 without stating an amount; estimated at $5m.",
-      "causes": [
-        "technical-ai-safety"
-      ]
+      "causes": ["technical-ai-safety"]
     }
   ]
 }

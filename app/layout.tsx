@@ -1,19 +1,20 @@
 import './globals.css'
 import Link from 'next/link'
-import { IBM_Plex_Sans_Condensed, IBM_Plex_Serif } from 'next/font/google'
+import { IBM_Plex_Sans, IBM_Plex_Sans_Condensed } from 'next/font/google'
 import type { Metadata } from 'next'
+import { NavLinks } from '@/components/nav-links'
 import { OrgSearch } from '@/components/org-search'
+import { TooltipProvider } from '@/components/ui/tooltip'
 
-const plexSerif = IBM_Plex_Serif({
+const plexSans = IBM_Plex_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-serif',
+  variable: '--font-plex-sans',
 })
 const plexCondensed = IBM_Plex_Sans_Condensed({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-sans',
+  weight: ['500', '600'],
+  variable: '--font-plex-condensed',
 })
 
 export const metadata: Metadata = {
@@ -23,23 +24,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${plexSerif.variable} ${plexCondensed.variable}`}>
-      <body className="mx-auto max-w-7xl px-4 py-6">
-        <header className="mb-6 flex items-baseline gap-6 border-b border-rule pb-3">
-          <Link href="/" className="font-serif text-xl font-bold text-ink! hover:no-underline!">
-            Trace
-          </Link>
-          <nav className="flex gap-4 text-sm">
-            <Link href="/">Grants</Link>
-            <Link href="/funders">Funders</Link>
-            <Link href="/recipients">Recipients</Link>
-            <Link href="/charts">Charts</Link>
-            <Link href="/suggestions">Suggestions</Link>
-            <Link href="/about">About</Link>
-          </nav>
-          <OrgSearch />
-        </header>
-        {props.children}
+    <html lang="en" className={`${plexSans.variable} ${plexCondensed.variable}`}>
+      <body className="mx-auto max-w-7xl px-4 py-5">
+        <TooltipProvider>
+          <header className="mb-5 flex items-baseline gap-6 border-b border-rule pb-2">
+            <Link
+              href="/"
+              className="font-display text-lg font-semibold tracking-[0.12em] text-ink! uppercase hover:no-underline!"
+            >
+              Trace
+            </Link>
+            <NavLinks />
+            <OrgSearch />
+          </header>
+          {props.children}
+        </TooltipProvider>
       </body>
     </html>
   )

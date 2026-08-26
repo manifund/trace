@@ -83,7 +83,7 @@ a shared schema was never an option.
 - `scripts/copy-database.ts` copies table-by-table between projects in
   dependency order; `--verify-only` compares row counts, `--wipe` clears the
   target first. Within one project, `INSERT INTO trace.x SELECT * FROM
-  public.x` is faster.
+public.x` is faster.
 - `NEXT_PUBLIC_TRACE_DB_SCHEMA=trace` switches the app and scripts over; every
   client reads it, so the cutover is configuration, not code.
 - The target project must expose `trace` under Settings -> API -> Exposed
