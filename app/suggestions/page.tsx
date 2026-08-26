@@ -52,9 +52,9 @@ export default async function Page() {
     const payload = (row.payload ?? {}) as Record<string, string>
     const target = row.grant_id ? grants.get(row.grant_id) : null
     return (
-      <div className="mb-3 rounded border border-rule p-3">
+      <div className="mb-3 rounded-sm border border-rule p-3">
         <div className="mb-1 flex flex-wrap items-baseline gap-2">
-          <span className="rounded bg-paper-alt px-2 py-0.5 font-sans text-xs uppercase text-ink-muted">
+          <span className="rounded-sm bg-paper-alt px-2 py-0.5 font-sans text-xs uppercase text-ink-muted">
             {row.kind === 'new' ? 'Suggested grant' : 'Suggested edit'}
           </span>
           {row.status !== 'pending' && (

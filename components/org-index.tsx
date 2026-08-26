@@ -104,7 +104,7 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
   }
   const arrow = (key: SortKey) => (key === sortKey ? (sortDesc ? ' \u2193' : ' \u2191') : '')
   const sortable = 'cursor-pointer select-none hover:text-ink'
-  const selectClass = 'rounded border border-rule bg-paper-alt px-2 py-1'
+  const selectClass = 'rounded-sm border border-rule bg-paper-alt px-2 py-1'
 
   return (
     <div>

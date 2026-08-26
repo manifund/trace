@@ -107,7 +107,7 @@ export function GrantsTable(props: {
           placeholder="Search"
           value={filters.q}
           onChange={(e) => update({ q: e.target.value })}
-          className="w-56 rounded border border-rule bg-paper px-2 py-1 text-sm"
+          className="w-56 rounded-sm border border-rule bg-paper px-2 py-1 text-sm"
         />
         <MultiSelect
           label="Funder"
@@ -124,7 +124,7 @@ export function GrantsTable(props: {
         <select
           value={cause}
           onChange={(e) => setCause(e.target.value)}
-          className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
         >
           <option value="all">All causes</option>
           {CAUSE_OPTIONS.map((cause) => (
@@ -137,7 +137,7 @@ export function GrantsTable(props: {
         <select
           value={filters.yearMin ?? ''}
           onChange={(e) => update({ yearMin: e.target.value ? Number(e.target.value) : null })}
-          className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
         >
           <option value="">From: start</option>
           {years.map((year) => (
@@ -149,7 +149,7 @@ export function GrantsTable(props: {
         <select
           value={filters.yearMax ?? ''}
           onChange={(e) => update({ yearMax: e.target.value ? Number(e.target.value) : null })}
-          className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+          className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
         >
           <option value="">To: present</option>
           {years.map((year) => (

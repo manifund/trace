@@ -19,12 +19,12 @@ export function MultiSelect(props: {
   const shown = matches.slice(0, MAX_SHOWN)
   return (
     <Popover className="relative">
-      <Popover.Button className="flex items-center gap-1 rounded border border-rule bg-paper-alt px-2 py-1 text-sm">
+      <Popover.Button className="flex items-center gap-1 rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm">
         {label}
         {selected.length > 0 && <span className="text-accent">({selected.length})</span>}
         <ChevronDownIcon className="h-4 w-4 text-ink-muted" />
       </Popover.Button>
-      <Popover.Panel className="absolute z-10 mt-1 max-h-72 w-64 overflow-y-auto rounded border border-rule bg-paper p-2 shadow-none">
+      <Popover.Panel className="absolute z-10 mt-1 max-h-72 w-64 overflow-y-auto rounded-sm border border-rule bg-paper p-2 shadow-none">
         <div className="mb-1 flex items-center gap-2">
           <input
             type="search"
@@ -32,7 +32,7 @@ export function MultiSelect(props: {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search"
             autoFocus
-            className="w-full rounded border border-rule bg-paper-alt px-2 py-0.5 text-sm"
+            className="w-full rounded-sm border border-rule bg-paper-alt px-2 py-0.5 text-sm"
           />
           {selected.length > 0 && (
             <button className="text-xs text-accent" onClick={() => onChange([])}>

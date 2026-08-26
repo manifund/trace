@@ -101,7 +101,7 @@ export function OrgYearChart(props: { series: Series[] }) {
           {series.map((s) => (
             <span key={s.name} className="inline-flex items-center gap-1.5">
               <span
-                className="inline-block h-2.5 w-2.5 rounded-sm"
+                className="inline-block h-2.5 w-2.5 rounded-xs"
                 style={{ background: s.color }}
               />
               {s.name}
@@ -111,7 +111,7 @@ export function OrgYearChart(props: { series: Series[] }) {
       )}
       {tip && (
         <div
-          className="pointer-events-none absolute z-10 rounded border border-rule bg-paper px-2 py-1 text-xs"
+          className="pointer-events-none absolute z-10 rounded-sm border border-rule bg-paper px-2 py-1 text-xs"
           style={{ left: tip.x + 12, top: tip.y - 8 }}
         >
           {tip.lines.map((line, i) => (
