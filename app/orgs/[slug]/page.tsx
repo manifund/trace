@@ -87,10 +87,10 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   if (!org) notFound()
 
   const [made, received, sponsored, via] = await Promise.all([
-    listGrantsByOrg('funder_org_id', org.id),
-    listGrantsByOrg('recipient_org_id', org.id),
-    listGrantsByOrg('fiscal_sponsor_org_id', org.id),
-    listGrantsByVia(org.id),
+    listGrantsByOrg('funder_org_id', org),
+    listGrantsByOrg('recipient_org_id', org),
+    listGrantsByOrg('fiscal_sponsor_org_id', org),
+    listGrantsByVia(org),
   ])
   const formerNames = org.names.filter((name) => name.kind !== 'canonical')
 

@@ -86,9 +86,9 @@ const handler = createMcpHandler((server) => {
       const org = await getOrgBySlug(slug)
       if (!org) return json({ error: `No organization matching "${name}"` })
       const [made, received, via] = await Promise.all([
-        listGrantsByOrg('funder_org_id', org.id),
-        listGrantsByOrg('recipient_org_id', org.id),
-        listGrantsByVia(org.id),
+        listGrantsByOrg('funder_org_id', org),
+        listGrantsByOrg('recipient_org_id', org),
+        listGrantsByVia(org),
       ])
       const viaOnly = via.filter((g) => g.funderSlug !== org.slug)
       const top = (rows: GrantRow[]) =>

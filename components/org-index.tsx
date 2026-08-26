@@ -4,15 +4,26 @@
 // tuple per grant and every filter recomputes the aggregates instantly.
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useMemo, useState } from 'react'
+import { useSnapshot } from '@/components/use-snapshot'
 import { CAUSE_OPTIONS } from '@/utils/cause-tree'
 import { formatCoverage, formatMoney } from '@/utils/format'
+import { toOrgIndexRows, type OrgIndexRow } from '@/utils/org-index-rows'
 
 type SortKey = 'name' | 'grants' | 'total' | 'coverage' | 'years'
 
-// [org slug, org name, year, amount USD, cause slugs, counts toward coverage]
-export type OrgIndexRow = [string, string, number | null, number | null, string[], boolean?]
+export type { OrgIndexRow }
 
-export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRow[] }) {
+export function OrgIndex(props: {
+  side: 'funder' | 'recipient'
+  rows: OrgIndexRow[] // empty when a version is given; derived from the snapshot instead
+  version: string | null
+}) {
+  const snapshot = useSnapshot(props.version)
+  const rows = useMemo(
+    () => (snapshot ? toOrgIndexRows(props.side, snapshot.grants) : props.rows),
+    [snapshot, props.side, props.rows]
+  )
+  const loading = props.version !== null && snapshot === null
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -31,9 +42,9 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
 
   const years = useMemo(() => {
     const set = new Set<number>()
-    for (const [, , year] of props.rows) if (year !== null) set.add(year)
+    for (const [, , year] of rows) if (year !== null) set.add(year)
     return Array.from(set).sort((a, b) => b - a)
-  }, [props.rows])
+  }, [rows])
 
   const aggregates = useMemo(() => {
     const byOrg = new Map<
@@ -47,7 +58,7 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
         lastYear: number | null
       }
     >()
-    for (const [slug, name, year, amountUsd, causes, covered] of props.rows) {
+    for (const [slug, name, year, amountUsd, causes, covered] of rows) {
       if (cause !== 'all' && !causes.includes(cause)) continue
       if (yearMin !== null && (year === null || year < yearMin)) continue
       if (yearMax !== null && (year === null || year > yearMax)) continue
@@ -69,7 +80,7 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
       byOrg.set(slug, entry)
     }
     return Array.from(byOrg.entries()).map(([slug, entry]) => ({ slug, ...entry }))
-  }, [props.rows, cause, yearMin, yearMax])
+  }, [rows, cause, yearMin, yearMax])
 
   const sorted = useMemo(() => {
     const rows = [...aggregates]
@@ -109,6 +120,7 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
   return (
     <div>
       <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+        {loading && <span className="text-ink-muted">Loading all grants…</span>}
         <select
           value={cause}
           onChange={(e) => setParam('cause', e.target.value === 'ai-safety' ? '' : e.target.value)}

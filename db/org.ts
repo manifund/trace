@@ -1,6 +1,8 @@
 import 'server-only'
 
+import { USE_SNAPSHOT } from './flags'
 import { dbConfigured } from './grant'
+import { getSnapshotGrants } from './snapshot'
 import { createPublicSupabaseClient } from './supabase-server'
 
 export type OrgDetail = {
@@ -96,6 +98,18 @@ export async function listOrgAggregates(
 // actually click.
 export async function listBusiestOrgSlugs(limit = 150): Promise<string[]> {
   if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) {
+    const counts = new Map<string, number>()
+    for (const row of await getSnapshotGrants()) {
+      for (const slug of [row.funderSlug, row.recipientSlug]) {
+        counts.set(slug, (counts.get(slug) ?? 0) + 1)
+      }
+    }
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, limit)
+      .map(([slug]) => slug)
+  }
   const supabase = createPublicSupabaseClient()
   const counts = new Map<string, number>()
   for (let from = 0; ; from += 1000) {

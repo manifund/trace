@@ -47,6 +47,19 @@ utils/            # format, parse, grant-filters (shared by table + CSV route)
 - **Grant status:** public pages only see `approved`. `pending` is reserved for future community submissions.
 - Field fixes go in `data/overrides.json` (keyed `source:record_key`), never by editing the DB by hand.
 
+## Data snapshot (fast reads)
+
+Public pages don't query Postgres per render. `db/snapshot.ts` builds the whole
+approved dataset as one compact structure (`utils/snapshot.ts`, ~400KB brotli),
+cached with `unstable_cache` under the `snapshot` tag for 10 minutes. Server
+components filter it in memory; the browser fetches the same bytes once from
+`/snapshot/<version>` (immutable, version = content hash) via `useSnapshot()`
+and reuses them across pages. Grant ids in the snapshot are 8-hex UUID
+prefixes; `getGrantById` resolves prefixes, full UUIDs stay in SQL.
+`invalidateSnapshot()` runs on suggestion accept and via `POST /api/revalidate`
+(bearer `REVALIDATE_SECRET`, called by `ingest-all` when `REVALIDATE_URL` is
+set). `USE_SNAPSHOT` in `db/flags.ts` falls back to the per-page PostgREST path.
+
 ## Code Style
 
 Same as manifund: oxfmt (no semicolons, single quotes, 2-space), kebab-case files, PascalCase components, `@/` alias.

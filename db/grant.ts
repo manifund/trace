@@ -1,6 +1,8 @@
 import 'server-only'
 
 import { SUPABASE_URL } from './env'
+import { USE_SNAPSHOT } from './flags'
+import { getSnapshot, getSnapshotGrants } from './snapshot'
 import { createPublicSupabaseClient } from './supabase-server'
 
 // Allows building without a configured Supabase project (CI, fresh clones).
@@ -80,6 +82,10 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
 // PostgREST 1000-row cap. cause === 'all' skips the cause filter.
 export async function listGrants(cause?: string): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) {
+    const rows = await getSnapshotGrants()
+    return cause && cause !== 'all' ? rows.filter((row) => row.causes.includes(cause)) : rows
+  }
   const supabase = createPublicSupabaseClient()
   const rows: GrantRow[] = []
   const causeFilter = cause && cause !== 'all'
@@ -128,17 +134,26 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
   return rows
 }
 
-// One approved grant by id, for the suggestion form.
+// One approved grant by id, for the suggestion form. Accepts a full UUID or
+// the short hex prefix the snapshot uses; the row returned always carries the
+// full UUID, which is what suggestions store. Ambiguous prefixes match nothing.
 export async function getGrantById(id: string): Promise<GrantRow | null> {
+  const hex = id.replace(/-/g, '').toLowerCase()
+  if (!/^[0-9a-f]{8,32}$/.test(hex)) return null
   const supabase = createPublicSupabaseClient()
-  const { data } = await supabase
+  let query = supabase
     .from('grants')
     .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
     .eq('status', 'approved')
-    .eq('id', id)
-    .maybeSingle()
-    .throwOnError()
-  return data ? mapGrantRow(data as never as Record<string, unknown>) : null
+  // uuid columns compare as 128-bit values, so a prefix is a range.
+  const dashed = (h: string) =>
+    `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20)}`
+  query =
+    hex.length === 32
+      ? query.eq('id', dashed(hex))
+      : query.gte('id', dashed(hex.padEnd(32, '0'))).lte('id', dashed(hex.padEnd(32, 'f')))
+  const { data } = await query.limit(2).throwOnError()
+  return data?.length === 1 ? mapGrantRow(data[0] as never as Record<string, unknown>) : null
 }
 
 // Fetch every 1000-row page of a query. Pages go out in small parallel
@@ -163,9 +178,16 @@ async function collectPages(
   return rows
 }
 
+export type OrgRef = { id: string; slug: string }
+
 // Approved grants that flowed through the given vehicle org.
-export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
+export async function listGrantsByVia(org: OrgRef): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) {
+    const rows = await getSnapshotGrants()
+    return rows.filter((row) => row.vias.some((via) => via.slug === org.slug))
+  }
+  const orgId = org.id
   const supabase = createPublicSupabaseClient()
   const select = `${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug)), via_filter:grant_vias!inner(via_org_id)`
   const { count } = await supabase
@@ -188,11 +210,22 @@ export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
 }
 
 // Approved grants where the org appears on the given side.
+const SIDE_SLUG = {
+  funder_org_id: 'funderSlug',
+  recipient_org_id: 'recipientSlug',
+  fiscal_sponsor_org_id: 'sponsorSlug',
+} as const
+
 export async function listGrantsByOrg(
-  column: 'funder_org_id' | 'recipient_org_id' | 'fiscal_sponsor_org_id',
-  orgId: string
+  column: keyof typeof SIDE_SLUG,
+  org: OrgRef
 ): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) {
+    const rows = await getSnapshotGrants()
+    return rows.filter((row) => row[SIDE_SLUG[column]] === org.slug)
+  }
+  const orgId = org.id
   const supabase = createPublicSupabaseClient()
   const { count } = await supabase
     .from('grants')
@@ -224,6 +257,7 @@ export type SourceInfo = {
 
 export async function listSources(): Promise<SourceInfo[]> {
   if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) return (await getSnapshot()).sources
   const supabase = createPublicSupabaseClient()
   const { data } = await supabase
     .from('sources')

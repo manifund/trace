@@ -1,6 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import { useSnapshot } from '@/components/use-snapshot'
 import {
   DonutChart,
   SERIES,
@@ -146,23 +147,28 @@ function groupKeys(grant: GrantRow, mode: GroupMode): string[] | null {
   return subs.size > 0 ? Array.from(subs) : ['AI safety (unclassified)']
 }
 
-export function ChartsView(props: { grants: GrantRow[] }) {
-  const funderOptions = useOrgOptions(props.grants, 'funder')
-  const recipientOptions = useOrgOptions(props.grants, 'recipient')
+const NONE: GrantRow[] = []
+
+export function ChartsView(props: { grants?: GrantRow[]; version?: string }) {
+  const snapshot = useSnapshot(props.version ?? null)
+  const grants = snapshot?.grants ?? props.grants ?? NONE
+  const loading = props.version !== undefined && snapshot === null
+  const funderOptions = useOrgOptions(grants, 'funder')
+  const recipientOptions = useOrgOptions(grants, 'recipient')
 
   // Chart 1: funding by year
   const [barCause, setBarCause] = useState('ai-safety')
   const [barFunders, setBarFunders] = useState<string[]>([])
   const [barRecipients, setBarRecipients] = useState<string[]>([])
   const barData = useMemo(() => {
-    const rows = props.grants.filter(
+    const rows = grants.filter(
       (g) =>
         inCause(g, barCause) &&
         (barFunders.length === 0 || barFunders.includes(g.funderSlug)) &&
         (barRecipients.length === 0 || barRecipients.includes(g.recipientSlug))
     )
     return byYear(rows)
-  }, [props.grants, barCause, barFunders, barRecipients])
+  }, [grants, barCause, barFunders, barRecipients])
 
   // Chart 2: lines by year
   const [lineGroup, setLineGroup] = useState<GroupMode>('funder')
@@ -172,7 +178,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const [lineBranch, setLineBranch] = useState('ai-safety')
   const lineData = useMemo(() => {
     const cause = effectiveCause(lineGroup, lineCause, lineBranch)
-    const rows = props.grants.filter(
+    const rows = grants.filter(
       (g) => inCause(g, cause) && (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
     )
     // Monthly resolution: month index = year*12 + (month-1). Year-precision
@@ -223,7 +229,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       .filter((_, i) => i % step === 0)
       .map((m) => ({ value: m, label: `${Math.floor(m / 12)}` }))
     return { series, months, xTicks }
-  }, [props.grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount])
+  }, [grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount])
 
   // Chart 3: donut
   const [pieGroup, setPieGroup] = useState<Exclude<GroupMode, 'funder'> | 'funder'>('cause')
@@ -233,7 +239,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const [pieBranch, setPieBranch] = useState('ai-safety')
   const pieData = useMemo(() => {
     const cause = effectiveCause(pieGroup, pieCause, pieBranch)
-    const rows = props.grants.filter(
+    const rows = grants.filter(
       (g) =>
         inCause(g, cause) &&
         (pieFunders.length === 0 || pieFunders.includes(g.funderSlug)) &&
@@ -254,20 +260,22 @@ export function ChartsView(props: { grants: GrantRow[] }) {
     const slices = head.map(([name, value], i) => ({ name, value, color: SERIES[i] }))
     if (rest > 0) slices.push({ name: 'All others', value: rest, color: SERIES_OTHER })
     return slices
-  }, [props.grants, pieGroup, pieCause, pieBranch, pieFunders, pieRecipients])
+  }, [grants, pieGroup, pieCause, pieBranch, pieFunders, pieRecipients])
 
   const barTotal = barData.reduce((sum, d) => sum + d.value, 0)
   const barHasEstimates = useMemo(
     () =>
-      props.grants.some(
+      grants.some(
         (g) =>
           g.amountEstimated &&
           inCause(g, barCause) &&
           (barFunders.length === 0 || barFunders.includes(g.funderSlug)) &&
           (barRecipients.length === 0 || barRecipients.includes(g.recipientSlug))
       ),
-    [props.grants, barCause, barFunders, barRecipients]
+    [grants, barCause, barFunders, barRecipients]
   )
+
+  if (loading) return <p className="text-sm text-ink-muted">Loading all grants…</p>
 
   return (
     <div className="flex flex-col gap-10">

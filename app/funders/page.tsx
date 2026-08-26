@@ -1,23 +1,18 @@
 import { Suspense } from 'react'
-import { OrgIndex, type OrgIndexRow } from '@/components/org-index'
+import { OrgIndex } from '@/components/org-index'
+import { USE_SNAPSHOT } from '@/db/flags'
 import { listGrants } from '@/db/grant'
-import { countsTowardCoverage } from '@/utils/format'
+import { getSnapshot } from '@/db/snapshot'
+import { toOrgIndexRows } from '@/utils/org-index-rows'
 
 export const revalidate = 600
 
 export default async function Page() {
-  const grants = await listGrants('all')
-  const rows: OrgIndexRow[] = grants.map((grant) => [
-    grant.funderSlug,
-    grant.funderName,
-    grant.date ? Number(grant.date.slice(0, 4)) : null,
-    grant.amountUsd,
-    grant.causes,
-    countsTowardCoverage(grant.recipientName),
-  ])
+  const version = USE_SNAPSHOT ? (await getSnapshot()).version : null
+  const rows = version ? [] : toOrgIndexRows('funder', await listGrants('all'))
   return (
     <Suspense>
-      <OrgIndex side="funder" rows={rows} />
+      <OrgIndex side="funder" rows={rows} version={version} />
     </Suspense>
   )
 }

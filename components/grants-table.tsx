@@ -3,6 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useMemo, useState } from 'react'
 import { MultiSelect } from '@/components/multi-select'
+import { useSnapshot } from '@/components/use-snapshot'
 import type { GrantRow } from '@/db/grant'
 import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
 import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
@@ -16,9 +17,15 @@ import {
 const PAGE = 200
 
 export function GrantsTable(props: {
+  // With a version, `grants` is only the first screen; the full set streams
+  // in from the snapshot and replaces it.
   grants: GrantRow[]
+  version: string | null
   sources: { id: string; name: string }[]
 }) {
+  const snapshot = useSnapshot(props.version)
+  const grants = snapshot?.grants ?? props.grants
+  const loading = props.version !== null && snapshot === null
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -30,9 +37,8 @@ export function GrantsTable(props: {
 
   // Cause narrowing happens here, not on the server: the page is static.
   const causeRows = useMemo(
-    () =>
-      cause === 'all' ? props.grants : props.grants.filter((row) => row.causes.includes(cause)),
-    [props.grants, cause]
+    () => (cause === 'all' ? grants : grants.filter((row) => row.causes.includes(cause))),
+    [grants, cause]
   )
 
   const update = (partial: Partial<GrantFilters>) => {
@@ -246,7 +252,7 @@ export function GrantsTable(props: {
       )}
       <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
         <span>
-          {rows.length.toLocaleString()} grants ·{' '}
+          {loading ? 'Loading all grants… ' : `${rows.length.toLocaleString()} grants · `}
           {rows.some((row) => row.amountEstimated) && (
             <a href="#amount-notes" title="Includes estimated amounts" className="text-accent">
               ~
