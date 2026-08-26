@@ -25,7 +25,9 @@ export const ESTIMATE_SYMBOLS = ['*', '\u2020', '\u2021', '\u00a7', '\u00b6']
 // a funder's coverage (share of its dollar total with a real recipient):
 // aggregate estimate rows, anonymous donors, and sources' own "undisclosed"
 // lines (Jaan Tallinn's undisclosed donations, 990 Schedule F redactions).
-const COVERAGE_EXCLUDED_NAME = /^\(?\s*(various|undisclosed|anonymous)\b/i
+// "various" stays alongside "unknown": the seeded placeholders were renamed,
+// but source data still writes names like "Various Individuals".
+const COVERAGE_EXCLUDED_NAME = /^\(?\s*(unknown|various|undisclosed|anonymous)\b/i
 
 export function countsTowardCoverage(recipientName: string): boolean {
   return !COVERAGE_EXCLUDED_NAME.test(recipientName.trim())

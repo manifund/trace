@@ -181,15 +181,21 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
 // Steady-state seed runs re-claim hundreds of names that are already settled;
 // prefetch the crosswalk once so those claims are free instead of two
 // round-trips each.
-const settledNames = new Map<string, string>() // normalized -> org_id
+// normalized -> "org_id|kind". Kind is part of the key so that renaming a
+// seeded org demotes its old name to former_name instead of leaving two rows
+// both claiming to be canonical.
+const settledNames = new Map<string, string>()
+const settled = (orgId: string, kind: string) => `${orgId}|${kind}`
 async function loadSettledNames() {
   for (let from = 0; ; from += 1000) {
     const { data } = await db
       .from('org_names')
-      .select('normalized, org_id')
+      .select('normalized, org_id, kind')
       .range(from, from + 999)
       .throwOnError()
-    for (const row of data ?? []) settledNames.set(row.normalized, row.org_id)
+    for (const row of data ?? []) {
+      settledNames.set(row.normalized, settled(row.org_id, row.kind))
+    }
     if (!data || data.length < 1000) break
   }
 }
@@ -202,7 +208,7 @@ async function claimName(
   kind: string,
   extra: { valid_from?: string; valid_to?: string; note?: string } = {}
 ) {
-  if (settledNames.get(normalized) === toId) return
+  if (settledNames.get(normalized) === settled(toId, kind)) return
   const { data } = await db
     .from('org_names')
     .select('org_id, orgs!inner(needs_review, name)')
@@ -240,7 +246,7 @@ async function claimName(
       { onConflict: 'org_id,normalized' }
     )
     .throwOnError()
-  settledNames.set(normalized, toId)
+  settledNames.set(normalized, settled(toId, kind))
 }
 
 async function main() {
