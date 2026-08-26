@@ -38,7 +38,7 @@ export default async function Page(props: { searchParams: Promise<{ grant?: stri
       </p>
       {!user ? (
         <div className="flex flex-col items-start gap-2">
-          <p>Sign in to suggest a change.</p>
+          <p>Sign in with your Manifund account to suggest a change.</p>
           <AuthButton email={null} />
         </div>
       ) : (

@@ -1,29 +1,24 @@
 'use client'
 
-// Google sign-in / sign-out. Sessions live in cookies so server components
-// and RLS see the same user.
+// Sign-in goes through Manifund: its /sso route hands this site the session of
+// whoever is already signed in there, so a Manifund user is one redirect away
+// from being signed in here — and nobody needs a second account, since both
+// sites share a Supabase project.
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { createClientSupabase } from '@/db/supabase-browser'
+
+const MANIFUND_SSO = 'https://manifund.org/sso'
 
 export function AuthButton(props: { email: string | null; next?: string }) {
   const router = useRouter()
   const [busy, setBusy] = useState(false)
 
-  async function signIn() {
+  function signIn() {
     setBusy(true)
-    const supabase = createClientSupabase()
     const next = props.next ?? window.location.pathname + window.location.search
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
-      },
-    })
-    if (error) {
-      setBusy(false)
-      alert(`Sign-in failed: ${error.message}`)
-    }
+    const back = `${window.location.origin}/auth/handoff`
+    window.location.href = `${MANIFUND_SSO}?next=${encodeURIComponent(back)}&then=${encodeURIComponent(next)}`
   }
 
   async function signOut() {
@@ -48,7 +43,7 @@ export function AuthButton(props: { email: string | null; next?: string }) {
       disabled={busy}
       className="rounded border border-rule bg-paper-alt px-3 py-1 text-sm"
     >
-      {busy ? 'Redirecting…' : 'Sign in with Google'}
+      {busy ? 'Redirecting…' : 'Sign in with Manifund'}
     </button>
   )
 }
