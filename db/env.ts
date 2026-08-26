@@ -7,10 +7,13 @@ export const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
 // read from the environment because client bundles inline this at build time —
 // a missing variable silently sent browser queries to `public`. Override only
 // when pointing at a database that keeps these tables somewhere else.
-export const DB_SCHEMA = process.env.NEXT_PUBLIC_TRACE_DB_SCHEMA ?? 'trace'
+// `||`, not `??`: Next inlines an unset NEXT_PUBLIC_ variable as an empty
+// string in client bundles, and '' is not nullish — which silently sent every
+// browser query to `public`.
+export const DB_SCHEMA = process.env.NEXT_PUBLIC_TRACE_DB_SCHEMA || 'trace'
 
 // Set to `.manifund.org` so the Supabase auth cookie is shared with
 // manifund.org: signing in on either site signs you into both. Only safe once
 // Manifund sets the same domain — two cookies of the same name (one host-only,
 // one domain-wide) would otherwise fight. Unset locally.
-export const AUTH_COOKIE_DOMAIN = process.env.NEXT_PUBLIC_AUTH_COOKIE_DOMAIN
+export const AUTH_COOKIE_DOMAIN = process.env.NEXT_PUBLIC_AUTH_COOKIE_DOMAIN || undefined
