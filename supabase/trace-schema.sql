@@ -159,14 +159,23 @@ ALTER TABLE grant_cause_areas ENABLE ROW LEVEL SECURITY;
 ALTER TABLE grant_sources ENABLE ROW LEVEL SECURITY;
 ALTER TABLE dedup_candidates ENABLE ROW LEVEL SECURITY;
 
+DROP POLICY IF EXISTS "public read" ON orgs;
 CREATE POLICY "public read" ON orgs FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON org_names;
 CREATE POLICY "public read" ON org_names FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON sources;
 CREATE POLICY "public read" ON sources FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON source_records;
 CREATE POLICY "public read" ON source_records FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON cause_areas;
 CREATE POLICY "public read" ON cause_areas FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read approved" ON grants;
 CREATE POLICY "public read approved" ON grants FOR SELECT USING (status = 'approved');
+DROP POLICY IF EXISTS "public read" ON grant_cause_areas;
 CREATE POLICY "public read" ON grant_cause_areas FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON grant_sources;
 CREATE POLICY "public read" ON grant_sources FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public read" ON dedup_candidates;
 CREATE POLICY "public read" ON dedup_candidates FOR SELECT USING (true);
 
 -- ===== from 20260819120000_add_via_org.sql =====
@@ -191,6 +200,7 @@ CREATE TABLE IF NOT EXISTS grant_vias (
 CREATE INDEX IF NOT EXISTS grant_vias_org_idx ON grant_vias (via_org_id);
 
 ALTER TABLE grant_vias ENABLE ROW LEVEL SECURITY;
+DROP POLICY IF EXISTS "public read" ON grant_vias;
 CREATE POLICY "public read" ON grant_vias FOR SELECT USING (true);
 
 INSERT INTO grant_vias (grant_id, via_org_id)
