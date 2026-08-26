@@ -107,11 +107,13 @@
   [role='button']:not(:disabled) {
     cursor: pointer;
   }
-  a {
-    color: var(--navy);
-  }
   a:hover {
     text-decoration: underline;
+  }
+  /* Keep the scrollbar gutter reserved so Radix's scroll lock doesn't
+     shift the centered layout when a Select opens. */
+  html {
+    scrollbar-gutter: stable;
   }
 }
 

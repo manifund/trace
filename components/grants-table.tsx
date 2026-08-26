@@ -41,7 +41,7 @@ import {
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import type { GrantRow } from '@/db/grant'
 import { cn } from '@/lib/utils'
-import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
+import { formatGrantDate, formatMoney } from '@/utils/format'
 import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import {
   applyFilters,
@@ -99,7 +99,7 @@ function OrgLink(props: { slug: string; name: string; className?: string }) {
   return (
     <a
       href={`/orgs/${props.slug}`}
-      className={cn('block truncate text-ink hover:text-navy', props.className)}
+      className={cn('block truncate', props.className)}
       title={props.name}
     >
       {props.name}
@@ -189,17 +189,6 @@ export function GrantsTable(props: {
   // exactly; the table runs with manualSorting and only owns the header UI.
   const rows = useMemo(() => applyFilters(causeRows, filters), [causeRows, filters])
   const pageRows = useMemo(() => rows.slice(0, limit), [rows, limit])
-  const estimateNotes = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          rows
-            .filter((r) => r.amountEstimated && r.estimateNote)
-            .map((r) => r.estimateNote as string)
-        )
-      ),
-    [rows]
-  )
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
   const columns = useMemo(
@@ -238,19 +227,13 @@ export function GrantsTable(props: {
           header: 'Amount',
           cell: ({ row }) => {
             const grant = row.original
-            const symbol = grant.amountEstimated
-              ? (ESTIMATE_SYMBOLS[Math.max(estimateNotes.indexOf(grant.estimateNote ?? ''), 0)] ??
-                '*')
-              : null
             return (
-              <span className="whitespace-nowrap font-semibold text-navy tabular-nums">
+              <span
+                className="whitespace-nowrap font-semibold text-navy tabular-nums"
+                title={grant.amountEstimated ? (grant.estimateNote ?? 'Estimated') : undefined}
+              >
                 {grant.amountEstimated && '~'}
                 {formatMoney(grant.amountUsd)}
-                {symbol && (
-                  <a href="#amount-notes" title={grant.estimateNote ?? undefined}>
-                    {symbol}
-                  </a>
-                )}
               </span>
             )
           },
@@ -336,7 +319,7 @@ export function GrantsTable(props: {
           cell: ({ row }) => (
             <a
               href={`/suggest?grant=${row.original.id}`}
-              className="flex size-6 items-center justify-center rounded-sm text-muted-foreground opacity-0 group-hover:opacity-100 hover:bg-accent hover:text-navy focus-visible:opacity-100"
+              className="flex size-6 items-center justify-center rounded-sm text-muted-foreground opacity-0 group-hover:opacity-100 hover:bg-accent hover:text-ink focus-visible:opacity-100"
               aria-label="Suggest an edit to this grant"
               title="Suggest an edit"
             >
@@ -346,7 +329,7 @@ export function GrantsTable(props: {
         }),
       ]),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [estimateNotes, sourceNames, extrasShown]
+    [sourceNames, extrasShown]
   )
 
   const sorting: SortingState = [{ id: filters.sort, desc: filters.dir === 'desc' }]
@@ -388,7 +371,7 @@ export function GrantsTable(props: {
           placeholder="Search grants"
           value={filters.q}
           onChange={(e) => update({ q: e.target.value })}
-          className="h-7 w-52 bg-card text-[0.8rem]"
+          className="h-7 w-52 text-[0.8rem]"
         />
         <MultiSelect
           label="Funder"
@@ -403,8 +386,12 @@ export function GrantsTable(props: {
           onChange={(sources) => update({ sources })}
         />
         <Select value={cause} onValueChange={setCause}>
-          <SelectTrigger size="sm" className="bg-card">
-            <SelectValue />
+          <SelectTrigger size="sm">
+            <SelectValue>
+              {cause === 'all'
+                ? 'All causes'
+                : (CAUSE_OPTIONS.find((o) => o.slug === cause)?.name ?? cause)}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">All causes</SelectItem>
@@ -419,8 +406,8 @@ export function GrantsTable(props: {
           value={filters.yearMin ? String(filters.yearMin) : 'start'}
           onValueChange={(v) => update({ yearMin: v === 'start' ? null : Number(v) })}
         >
-          <SelectTrigger size="sm" className="bg-card">
-            <SelectValue />
+          <SelectTrigger size="sm">
+            <SelectValue>{filters.yearMin ? `From ${filters.yearMin}` : 'From start'}</SelectValue>
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="start">From start</SelectItem>
@@ -435,8 +422,8 @@ export function GrantsTable(props: {
           value={filters.yearMax ? String(filters.yearMax) : 'present'}
           onValueChange={(v) => update({ yearMax: v === 'present' ? null : Number(v) })}
         >
-          <SelectTrigger size="sm" className="bg-card">
-            <SelectValue />
+          <SelectTrigger size="sm">
+            <SelectValue>{filters.yearMax ? `To ${filters.yearMax}` : 'To present'}</SelectValue>
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="present">To present</SelectItem>
@@ -447,7 +434,7 @@ export function GrantsTable(props: {
             ))}
           </SelectContent>
         </Select>
-        <a href={csvHref} className="caps-label ml-auto hover:text-navy!">
+        <a href={csvHref} className="caps-label ml-auto">
           CSV
         </a>
       </div>
@@ -538,23 +525,9 @@ export function GrantsTable(props: {
         </TableBody>
       </Table>
 
-      {estimateNotes.length > 0 && (
-        <div id="amount-notes" className="mt-1 text-xs text-muted-foreground">
-          {estimateNotes.map((note, i) => (
-            <p key={note}>
-              {ESTIMATE_SYMBOLS[i] ?? '*'} {note}
-            </p>
-          ))}
-        </div>
-      )}
       <div className="mt-2 flex items-baseline gap-4 text-sm text-muted-foreground">
         <span className="tabular-nums">
-          {rows.length.toLocaleString()} grants ·{' '}
-          {rows.some((row) => row.amountEstimated) && (
-            <a href="#amount-notes" title="Includes estimated amounts">
-              ~
-            </a>
-          )}
+          {rows.length.toLocaleString()} grants · {rows.some((row) => row.amountEstimated) && '~'}
           {formatMoney(totalUsd)}
         </span>
         {limit < rows.length && (
@@ -598,7 +571,6 @@ function GrantDetail(props: { grant: GrantRow; sourceName?: string }) {
   if (grant.amount !== null && grant.currency !== 'USD') {
     facts.push(['Original', formatMoney(grant.amount, grant.currency)])
   }
-  if (grant.estimateNote) facts.push(['Estimate', grant.estimateNote])
   facts.push([
     'Source',
     grant.url ? (
@@ -608,14 +580,22 @@ function GrantDetail(props: { grant: GrantRow; sourceName?: string }) {
     ),
   ])
   return (
-    <div className="grid gap-x-6 gap-y-1.5 md:grid-cols-[minmax(0,1fr)_minmax(0,20rem)]">
-      <p className="text-sm leading-relaxed whitespace-pre-line">
-        {grant.description ?? <span className="text-muted-foreground">No description.</span>}
-      </p>
-      <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-0.5 text-xs">
+    <div className="flex flex-col gap-4 border-l-2 border-navy py-2 pl-4 md:flex-row md:gap-10">
+      <div className="min-w-0 flex-1">
+        <div className="caps-label mb-1 text-[10px]">Purpose</div>
+        <p className="max-w-prose text-sm leading-relaxed whitespace-pre-line">
+          {grant.description ?? <span className="text-muted-foreground">No description.</span>}
+        </p>
+        {grant.estimateNote && (
+          <p className="mt-2 max-w-prose text-xs leading-relaxed text-muted-foreground">
+            <span className="font-semibold text-navy">~</span> {grant.estimateNote}
+          </p>
+        )}
+      </div>
+      <dl className="grid shrink-0 grid-cols-2 gap-x-8 gap-y-2.5 self-start text-[13px] md:w-96">
         {facts.map(([label, value]) => (
-          <div key={label} className="contents">
-            <dt className="caps-label pt-0.5 text-[10px]">{label}</dt>
+          <div key={label} className="min-w-0">
+            <dt className="caps-label text-[10px]">{label}</dt>
             <dd className="truncate">{value}</dd>
           </div>
         ))}

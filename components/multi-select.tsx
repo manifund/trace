@@ -1,6 +1,7 @@
 'use client'
 
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
+import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import {
   Command,
@@ -12,6 +13,9 @@ import {
 import { Checkbox } from '@/components/ui/checkbox'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 
+// Rendering every funder makes the popover sluggish; show the first few matches.
+const MAX_SHOWN = 40
+
 export function MultiSelect(props: {
   label: string
   options: { value: string; label: string }[]
@@ -19,6 +23,10 @@ export function MultiSelect(props: {
   onChange: (next: string[]) => void
 }) {
   const { label, options, selected, onChange } = props
+  const [query, setQuery] = useState('')
+  const q = query.trim().toLowerCase()
+  const matches = q ? options.filter((o) => o.label.toLowerCase().includes(q)) : options
+  const shown = matches.slice(0, MAX_SHOWN)
   const toggle = (value: string) =>
     onChange(selected.includes(value) ? selected.filter((v) => v !== value) : [...selected, value])
   return (
@@ -31,11 +39,15 @@ export function MultiSelect(props: {
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="w-64 p-0">
-        <Command>
-          <CommandInput placeholder={`Search ${label.toLowerCase()}s`} />
+        <Command shouldFilter={false}>
+          <CommandInput
+            placeholder={`Search ${label.toLowerCase()}s`}
+            value={query}
+            onValueChange={setQuery}
+          />
           <CommandList>
             <CommandEmpty>No matches.</CommandEmpty>
-            {options.map((option) => (
+            {shown.map((option) => (
               <CommandItem
                 key={option.value}
                 value={option.label}
@@ -45,6 +57,11 @@ export function MultiSelect(props: {
                 <span className="truncate">{option.label}</span>
               </CommandItem>
             ))}
+            {matches.length > MAX_SHOWN && (
+              <p className="px-2 py-1.5 text-xs text-muted-foreground">
+                +{matches.length - MAX_SHOWN} more — keep typing
+              </p>
+            )}
           </CommandList>
           {selected.length > 0 && (
             <div className="border-t p-1">
