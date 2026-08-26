@@ -100,34 +100,49 @@ export function OrgBarChart(props: {
               const h = Math.max(0, y(0) - y(total))
               return (
                 <g key={year} onMouseMove={(e) => move(e, year)} onMouseLeave={() => setTip(null)}>
-                  <rect x={x(i)} y={y(total)} width={bw} height={h} fill="var(--s1)" rx="4" />
-                  {h > 4 && <rect x={x(i)} y={y(0) - 4} width={bw} height={4} fill="var(--s1)" />}
+                  <rect x={x(i)} y={y(total)} width={bw} height={h} fill="var(--s1)" />
                 </g>
               )
             }
             let cursor = 0
+            const segments: { name: string; color: string; top: number; height: number }[] = []
+            for (const stack of colored) {
+              const value = stack.byYear[year] ?? 0
+              if (value <= 0) continue
+              const bottom = y(cursor)
+              cursor += value
+              const topY = y(cursor)
+              segments.push({
+                name: stack.name,
+                color: stack.color,
+                top: topY,
+                height: Math.max(1, bottom - topY),
+              })
+            }
             return (
               <g key={year} onMouseMove={(e) => move(e, year)} onMouseLeave={() => setTip(null)}>
-                {colored.map((stack) => {
-                  const value = stack.byYear[year] ?? 0
-                  if (value <= 0) return null
-                  const bottom = y(cursor)
-                  cursor += value
-                  const topY = y(cursor)
-                  // 2px of surface between segments, never eating the whole bar
-                  const h = Math.max(1, bottom - topY - 2)
-                  return (
-                    <rect
-                      key={stack.name}
-                      x={x(i)}
-                      y={topY}
-                      width={bw}
-                      height={h}
-                      fill={stack.color}
-                      rx="2"
-                    />
-                  )
-                })}
+                {segments.map((segment) => (
+                  <rect
+                    key={segment.name}
+                    x={x(i)}
+                    y={segment.top}
+                    width={bw}
+                    height={segment.height}
+                    fill={segment.color}
+                  />
+                ))}
+                {/* A hairline where segments meet, rather than a gap through the bar. */}
+                {segments.slice(0, -1).map((segment) => (
+                  <line
+                    key={`rule-${segment.name}`}
+                    x1={x(i)}
+                    x2={x(i) + bw}
+                    y1={segment.top}
+                    y2={segment.top}
+                    stroke="var(--rule)"
+                    strokeWidth="1"
+                  />
+                ))}
               </g>
             )
           })}
@@ -142,7 +157,7 @@ export function OrgBarChart(props: {
                 fontSize="10"
                 fill="var(--ink-muted)"
               >
-                {String(year).slice(2)}
+                {year}
               </text>
             ))}
         </svg>

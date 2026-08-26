@@ -128,18 +128,24 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
 
   const stackDimension = primary.role === 'recipient' ? 'funder' : 'cause'
   const chartGrants = primary.grants
+  // Aggregate estimate rows ("Various Recipients", "Various Donors") are real
+  // money but not real counterparties, so they would top a "biggest" list
+  // without naming anyone. They stay in the chart, where the stacks have to add
+  // up to the bar.
+  const named = (rows: ReturnType<typeof byOrg>) =>
+    rows.filter((row) => countsTowardCoverage(row.name))
   const breakdowns =
     primary.role === 'funder'
       ? [
           { title: 'Biggest cause areas', rows: byCause(made) },
-          { title: 'Biggest recipients', rows: byOrg(made, 'recipient') },
+          { title: 'Biggest recipients', rows: named(byOrg(made, 'recipient')) },
         ]
       : primary.role === 'via'
         ? [
-            { title: 'Biggest funders', rows: byOrg(viaOnly, 'funder') },
-            { title: 'Biggest recipients', rows: byOrg(viaOnly, 'recipient') },
+            { title: 'Biggest funders', rows: named(byOrg(viaOnly, 'funder')) },
+            { title: 'Biggest recipients', rows: named(byOrg(viaOnly, 'recipient')) },
           ]
-        : [{ title: 'Biggest funders', rows: byOrg(received, 'funder') }]
+        : [{ title: 'Biggest funders', rows: named(byOrg(received, 'funder')) }]
 
   // Cause chips lead a recipient's page: what they work on, in their own data.
   const causeChips = primary.role === 'recipient' ? byCause(received).slice(0, 5) : []
