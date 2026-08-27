@@ -137,6 +137,18 @@ const SOURCES = [
     tier: 2,
   },
   { id: 'uk_aisi', name: 'UK AISI', url: 'https://www.aisi.gov.uk/', tier: 3 },
+  {
+    id: 'openai_foundation',
+    name: 'OpenAI Foundation',
+    url: 'https://openaifoundation.org/',
+    tier: 2,
+  },
+  {
+    id: 'bluedot',
+    name: 'BlueDot Impact grants',
+    url: 'https://bluedot.org/grants',
+    tier: 2,
+  },
 ]
 
 type SeedOrg = {
@@ -345,9 +357,7 @@ async function main() {
       if (!count) continue
       await db
         .from('grants')
-        .update(
-          role === 'funder' ? { funder_org_id: target.id } : { recipient_org_id: target.id }
-        )
+        .update(role === 'funder' ? { funder_org_id: target.id } : { recipient_org_id: target.id })
         .eq(column, holder.org_id)
         .throwOnError()
       console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)

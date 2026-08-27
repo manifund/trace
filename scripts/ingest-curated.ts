@@ -186,6 +186,12 @@ const SOURCES: CuratedSource[] = [
       return null
     },
   },
+  {
+    sourceId: 'openai_foundation',
+    file: 'openai-foundation.json',
+    defaultFunder: 'OpenAI Foundation',
+    funderType: 'foundation',
+  },
 ]
 
 function parseDate(row: CuratedRow): {
