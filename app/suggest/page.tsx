@@ -27,15 +27,12 @@ export default async function Page(props: { searchParams: Promise<{ grant?: stri
       <h1 className="mb-2 font-serif text-2xl font-bold">
         {grant ? 'Suggest an edit' : 'Suggest a grant'}
       </h1>
-      <p className="mb-4 max-w-2xl text-ink-muted">
-        Suggestions are reviewed before they change the database.{' '}
-        {!grant && (
-          <>
-            To correct an existing grant instead, use the “suggest an edit” link on any row of the{' '}
-            <a href="/grants">grants table</a>.
-          </>
-        )}
-      </p>
+      {!grant && (
+        <p className="mb-4 max-w-2xl text-ink-muted">
+          To correct an existing grant instead, use the “suggest an edit” link on any row of the{' '}
+          <a href="/grants">grants table</a>.
+        </p>
+      )}
       {!user ? (
         <div className="flex flex-col items-start gap-2">
           <p>Sign in with your Manifund account to suggest a change.</p>
