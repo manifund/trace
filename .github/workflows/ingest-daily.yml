@@ -1,9 +1,17 @@
-# Daily Manifund ingest. Idempotent: unchanged rows are skipped by content
-# hash. Fails (-> GitHub failure email) on script errors or verify drift.
+# Manifund ingest, every six hours. Idempotent: unchanged rows are skipped by
+# content hash, so a run that finds nothing new costs ~25 seconds.
+#
+# It runs four times a day to get updates in once a day. GitHub's scheduled
+# workflows are best-effort and are dropped under load — this one skipped
+# 2026-08-27 entirely, silently, in its second day of life. Four slots mean a
+# dropped one costs hours instead of a day. ingest-weekly cross-checks that
+# something actually ran.
+#
+# Fails (-> GitHub failure email) on script errors or verify drift.
 name: ingest-daily
 on:
   schedule:
-    - cron: '17 9 * * *' # 09:17 UTC daily
+    - cron: '17 */6 * * *' # 09:17 UTC and every six hours after
   workflow_dispatch:
 
 concurrency: ingest

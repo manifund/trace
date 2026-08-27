@@ -121,3 +121,5 @@ jobs:
           fi
       - name: Verify totals
         run: bun run scripts/verify-totals.ts 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Check the frequent ingests are actually running
+        run: bun run scripts/check-freshness.ts 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
