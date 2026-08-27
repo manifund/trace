@@ -119,6 +119,28 @@ export function stacksFor(
 
 export type Stat = { label: string; value: string; detail?: string }
 
+// An average over only the grants that disclose an amount, sat next to a much
+// larger grant count, reads as if it applied to all of them — the OpenAI
+// Foundation names 208 grantees and publishes 2 figures. Say what the average
+// covers, but only once enough amounts are missing to mislead: a funder with
+// one undisclosed grant in three thousand needs no caveat.
+const DISCLOSURE_CAVEAT_BELOW = 0.9
+
+function averageStat(grants: GrantRow[]): Stat {
+  const withAmount = priced(grants)
+  if (withAmount.length === 0) return { label: 'Average size', value: '—' }
+  const mean = Math.round(sum(withAmount) / withAmount.length)
+  const disclosed = withAmount.length / grants.length
+  return {
+    label: 'Average size',
+    value: formatMoney(mean),
+    detail:
+      disclosed < DISCLOSURE_CAVEAT_BELOW
+        ? `of ${withAmount.length.toLocaleString()} with a disclosed amount`
+        : undefined,
+  }
+}
+
 export function funderStats(made: GrantRow[]): Stat[] {
   const withAmount = priced(made)
   const total = sum(withAmount)
@@ -128,10 +150,7 @@ export function funderStats(made: GrantRow[]): Stat[] {
   return [
     { label: 'Total granted', value: formatMoney(total) },
     { label: 'Grants', value: made.length.toLocaleString() },
-    {
-      label: 'Average size',
-      value: withAmount.length ? formatMoney(Math.round(total / withAmount.length)) : '—',
-    },
+    averageStat(made),
     {
       label: 'Coverage',
       value: formatCoverage(covered, total),
@@ -147,10 +166,7 @@ export function viaStats(via: GrantRow[]): Stat[] {
   return [
     { label: 'Total routed', value: formatMoney(total) },
     { label: 'Grants', value: via.length.toLocaleString() },
-    {
-      label: 'Average size',
-      value: withAmount.length ? formatMoney(Math.round(total / withAmount.length)) : '—',
-    },
+    averageStat(via),
     { label: 'Years active', value: yearsActive(via) },
   ]
 }
