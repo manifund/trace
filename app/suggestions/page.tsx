@@ -20,7 +20,19 @@ const FIELD_LABELS: Record<string, string> = {
 
 export default async function Page() {
   const user = await getUser()
-  const admin = isAdminEmail(user?.email)
+
+  // Signed out, the only thing on offer is signing in. Queues of other
+  // people's suggestions just compete with the one action available.
+  if (!user)
+    return (
+      <div className="max-w-3xl">
+        <h1 className="mb-4 font-serif text-2xl font-bold">Edit</h1>
+        <p className="mb-3">Sign in to add a grant or edit an existing one.</p>
+        <AuthButton email={null} />
+      </div>
+    )
+
+  const admin = isAdminEmail(user.email)
   // Admins review everything; everyone else sees reviewed suggestions plus
   // their own pending ones (RLS enforces the latter).
   const supabase = admin ? createAdminClient() : createPublicSupabaseClient()
@@ -34,7 +46,7 @@ export default async function Page() {
   // Rejected suggestions stay off the page — they only clutter it. They remain
   // readable through the API; this is a display choice, not a privacy one.
   const reviewed = rows.filter(
-    (r) => r.status === 'accepted' || (r.status === 'rejected' && (admin || r.user_id === user?.id))
+    (r) => r.status === 'accepted' || (r.status === 'rejected' && (admin || r.user_id === user.id))
   )
 
   const grantIds = rows.map((r) => r.grant_id).filter(Boolean) as string[]
@@ -102,20 +114,19 @@ export default async function Page() {
   return (
     <div className="max-w-3xl">
       <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="font-serif text-2xl font-bold">Suggestions</h1>
-        <AuthButton email={user?.email ?? null} />
+        <h1 className="font-serif text-2xl font-bold">Edit</h1>
+        <AuthButton email={user.email ?? null} />
       </div>
       <p className="mb-4 text-ink-muted">
-        Anyone signed in can <a href="/suggest">suggest a grant</a> or an edit to an existing one.
+        <a href="/suggest">Add a grant</a>, or use the “suggest an edit” link on any row of the{' '}
+        <a href="/grants">grants table</a>.
       </p>
 
       <h2 className="mb-2 font-serif text-lg font-bold">
         Pending {pending.length > 0 && `(${pending.length})`}
       </h2>
       {pending.length === 0 ? (
-        <p className="mb-6 text-ink-muted">
-          {user ? 'Nothing pending.' : 'Sign in to see your own pending suggestions.'}
-        </p>
+        <p className="mb-6 text-ink-muted">Nothing pending.</p>
       ) : (
         pending.map((row) => <Card key={row.id} row={row} />)
       )}

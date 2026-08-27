@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { submitSuggestion } from '@/app/suggest/actions'
 import { MultiSelect } from '@/components/multi-select'
-import { CAUSE_OPTIONS } from '@/utils/cause-tree'
+import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
 export type ExistingGrant = {
@@ -46,7 +46,7 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
   const router = useRouter()
   const kind = props.grant ? 'edit' : 'new'
   const [values, setValues] = useState<Record<string, string>>({})
-  const [causes, setCauses] = useState<string[]>([])
+  const [causes, setCauses] = useState<string[]>(props.grant?.causes ?? [])
   const [sourceUrl, setSourceUrl] = useState(props.grant?.url ?? '')
   const [comment, setComment] = useState('')
   const [busy, setBusy] = useState(false)
@@ -91,8 +91,12 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
     if (link && !(kind === 'edit' && link === (props.grant?.url ?? '').trim())) {
       payload.url = link
     }
-    if (causes.length > 0 && causes.join(',') !== (props.grant?.causes ?? []).join(',')) {
-      payload.causes = causes.join(',')
+    // The picker starts from the grant's current tags, so an edit sends
+    // whenever the set differs — including down to none, which is how a
+    // wrongly-tagged grant gets cleared.
+    const causeKey = causes.join(',')
+    if (kind === 'edit' ? causeKey !== (props.grant?.causes ?? []).join(',') : causes.length > 0) {
+      payload.causes = causeKey
     }
     if (Object.keys(payload).length === 0) {
       setError(kind === 'edit' ? 'Change at least one field.' : 'Fill in at least one field.')
@@ -123,7 +127,7 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
     return (
       <p className="rounded border border-rule bg-paper-alt p-3">
         Thanks — your suggestion is queued for review. See it on the{' '}
-        <a href="/suggestions">suggestions page</a>.
+        <a href="/suggestions">edit page</a>.
       </p>
     )
 
@@ -158,7 +162,9 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
         <span className={label}>
           Cause areas
           {props.grant && props.grant.causes.length > 0 && (
-            <span className="ml-2 text-xs">now: {props.grant.causes.length} selected</span>
+            <span className="ml-2 text-xs">
+              now: {displayCauses(props.grant.causes).join(', ')}
+            </span>
           )}
         </span>
         <div className="mt-1">
