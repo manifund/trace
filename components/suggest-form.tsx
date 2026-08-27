@@ -127,7 +127,7 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
     return (
       <p className="rounded border border-rule bg-paper-alt p-3">
         Thanks — your suggestion is queued for review. See it on the{' '}
-        <a href="/suggestions">edit page</a>.
+        <a href="/edit">edit page</a>.
       </p>
     )
 

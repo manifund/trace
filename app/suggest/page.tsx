@@ -31,7 +31,7 @@ export default async function Page(props: { searchParams: Promise<{ grant?: stri
       </h1>
       {!grant && (
         <p className="mb-4 max-w-2xl text-ink-muted">
-          To correct an existing grant instead, use the “suggest an edit” link on any row of the{' '}
+          To correct an existing grant instead, use the “edit” link on any row of the{' '}
           <a href="/grants">grants table</a>.
         </p>
       )}

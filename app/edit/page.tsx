@@ -33,8 +33,8 @@ export default async function Page() {
     )
 
   const admin = isAdminEmail(user.email)
-  // Admins review everything; everyone else sees reviewed suggestions plus
-  // their own pending ones (RLS enforces the latter).
+  // Admins see every pending suggestion; everyone else sees their own, which
+  // RLS enforces rather than this query.
   const supabase = admin ? createAdminClient() : createPublicSupabaseClient()
   const { data } = await supabase
     .from('suggestions')
@@ -43,11 +43,10 @@ export default async function Page() {
     .limit(200)
   const rows = data ?? []
   const pending = rows.filter((r) => r.status === 'pending')
-  // Rejected suggestions stay off the page — they only clutter it. They remain
-  // readable through the API; this is a display choice, not a privacy one.
-  const reviewed = rows.filter(
-    (r) => r.status === 'accepted' || (r.status === 'rejected' && (admin || r.user_id === user.id))
-  )
+  // Rejected suggestions stay off the page — they only clutter it, and they
+  // were appearing under an "Accepted" heading, which is worse than absent.
+  // They remain readable through the API; a display choice, not a privacy one.
+  const accepted = rows.filter((r) => r.status === 'accepted')
 
   const grantIds = rows.map((r) => r.grant_id).filter(Boolean) as string[]
   const grants = new Map<string, { funder: string; recipient: string; amount: number | null }>()
@@ -118,7 +117,7 @@ export default async function Page() {
         <AuthButton email={user.email ?? null} />
       </div>
       <p className="mb-4 text-ink-muted">
-        <a href="/suggest">Add a grant</a>, or use the “suggest an edit” link on any row of the{' '}
+        <a href="/suggest">Add a grant</a>, or use the “edit” link on any row of the{' '}
         <a href="/grants">grants table</a>.
       </p>
 
@@ -131,10 +130,10 @@ export default async function Page() {
         pending.map((row) => <Card key={row.id} row={row} />)
       )}
 
-      {reviewed.length > 0 && (
+      {accepted.length > 0 && (
         <>
           <h2 className="mt-6 mb-2 font-serif text-lg font-bold">Accepted</h2>
-          {reviewed.map((row) => (
+          {accepted.map((row) => (
             <Card key={row.id} row={row} />
           ))}
         </>

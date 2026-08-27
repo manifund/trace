@@ -225,7 +225,7 @@ export function GrantsTable(props: {
                   <span className="line-clamp-2">{row.description}</span>
                 </td>
                 <td className="whitespace-nowrap text-xs">
-                  <a href={`/suggest?grant=${row.id}`} title="Suggest an edit to this grant">
+                  <a href={`/suggest?grant=${row.id}`} title="Edit this grant">
                     edit
                   </a>
                 </td>

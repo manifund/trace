@@ -23,7 +23,13 @@ export function AuthButton(props: { email: string | null; next?: string }) {
 
   async function signOut() {
     setBusy(true)
-    await createClientSupabase().auth.signOut()
+    // Local scope: drop this site's session only. The default is 'global',
+    // which revokes every refresh token the account has — and since Manifund
+    // signs in against the same Supabase project, signing out of Trace was
+    // signing you out of Manifund too. The next "Sign in with Manifund" then
+    // found nobody to hand over and dropped you on Manifund's login instead
+    // of coming back here.
+    await createClientSupabase().auth.signOut({ scope: 'local' })
     setBusy(false)
     router.refresh()
   }

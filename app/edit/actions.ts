@@ -181,7 +181,7 @@ export async function acceptSuggestion(id: string, note: string) {
     })
     .eq('id', id)
     .throwOnError()
-  revalidatePath('/suggestions')
+  revalidatePath('/edit')
   revalidatePath('/')
 }
 
@@ -199,5 +199,5 @@ export async function rejectSuggestion(id: string, note: string) {
     .eq('id', id)
     .eq('status', 'pending')
     .throwOnError()
-  revalidatePath('/suggestions')
+  revalidatePath('/edit')
 }

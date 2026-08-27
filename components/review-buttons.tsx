@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useTransition } from 'react'
-import { acceptSuggestion, rejectSuggestion } from '@/app/suggestions/actions'
+import { acceptSuggestion, rejectSuggestion } from '@/app/edit/actions'
 
 export function ReviewButtons(props: { id: string }) {
   const [note, setNote] = useState('')
