@@ -19,6 +19,8 @@ export default async function Page(props: { searchParams: Promise<{ grant?: stri
         datePrecision: row.datePrecision,
         description: row.description,
         url: row.url,
+        viaNames: row.vias.map((via) => via.name),
+        causes: row.causes,
       }
     : null
 

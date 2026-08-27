@@ -13,7 +13,9 @@ const FIELD_LABELS: Record<string, string> = {
   amount_usd: 'Amount',
   grant_date: 'Date',
   description: 'Purpose',
-  url: 'Grant page',
+  via_names: 'Via',
+  causes: 'Cause areas',
+  url: 'Source link',
 }
 
 export default async function Page() {
