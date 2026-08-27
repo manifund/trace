@@ -1,8 +1,14 @@
-# Monthly agent pass over the research-extracted curated sources
-# (Coefficient is refreshed weekly by ingest-weekly.yml, deterministically). Output is a
-# PULL REQUEST — nothing reaches the database until a human merges it
-# (ingest-on-merge.yml then ingests). This workflow has no Supabase secrets,
-# so the agent cannot touch the DB even in principle.
+# Monthly agent pass over the research-extracted curated sources, plus the
+# sweep of the curation backlog (Coefficient is refreshed weekly by
+# ingest-weekly.yml, deterministically). Output is a PULL REQUEST — nothing
+# reaches the database until a human merges it (ingest-on-merge.yml then
+# ingests).
+#
+# Two jobs on purpose. `queue` holds the Supabase secrets and only reads,
+# producing the backlog as a text artifact. `refresh` runs the agent and has
+# no Supabase secrets at all, so the agent cannot reach the database even in
+# principle — it reads the artifact instead. Keep that split.
+#
 # Requires secret CLAUDE_CODE_OAUTH_TOKEN (from `claude setup-token`).
 name: refresh-monthly
 on:
@@ -17,13 +23,43 @@ permissions:
   id-token: write
 
 jobs:
+  # Read-only, and the only job that can see the database.
+  queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      NEXT_PUBLIC_TRACE_DB_SCHEMA: ${{ secrets.NEXT_PUBLIC_TRACE_DB_SCHEMA }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Collect the curation backlog
+        run: |
+          mkdir -p /tmp/queue
+          bun run scripts/report-unmatched.ts 60 > /tmp/queue/unmatched.txt 2>&1
+          bun run scripts/report-untagged.ts 40 > /tmp/queue/untagged.txt 2>&1
+          bun run scripts/dedup.ts > /tmp/queue/dedup.txt 2>&1
+          head -20 /tmp/queue/unmatched.txt >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: curation-queue
+          path: /tmp/queue
+
   refresh:
+    needs: queue
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with:
+          name: curation-queue
+          path: /tmp/queue
       - name: Agent pass over curated sources
         uses: anthropics/claude-code-action@v1
         with:
@@ -57,9 +93,9 @@ jobs:
           if ! gh pr create --title "Monthly source refresh $(date +%Y-%m)" \
             --body-file /tmp/refresh-summary.md --base main --head "$BRANCH"; then
             gh pr edit "$BRANCH" --body-file /tmp/refresh-summary.md || {
-              # Org policy may forbid Actions from creating PRs; fall back to
-              # an issue holding the summary and a compare link.
-              { echo "Branch [\`$BRANCH\`](https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH) is ready — open the PR from that link (org policy blocks Actions from creating PRs)."
+              # Actions are allowed to open PRs as of 2026-08; this stays as a
+              # fallback in case that setting is turned back off.
+              { echo "Branch [\`$BRANCH\`](https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH) is ready — open the PR from that link (Actions could not create it)."
                 echo; cat /tmp/refresh-summary.md; } > /tmp/issue.md
               gh issue create --title "Monthly source refresh $(date +%Y-%m) — PR needs opening" --body-file /tmp/issue.md
             }

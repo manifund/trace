@@ -1,7 +1,14 @@
 # Weekly refresh of the live-fetch sources plus regenerated fund estimates.
-# Summary goes to the run page; hard failures email via GitHub; items that
-# need human curation (pending dedup candidates, newly flagged orgs) open a
-# GitHub issue. dedup --apply and alias merges stay manual on purpose.
+# Summary goes to the run page and hard failures email via GitHub.
+#
+# Curation is NOT reported here. Every ingest creates orgs that nobody has
+# checked yet, so the queue never reaches zero — filing an issue whenever it
+# is non-empty means filing one every week forever, which is how this
+# workflow buried a real $1.17m entry under a $100 name collision. The queue
+# is a standing backlog, so it is swept once a month in refresh-monthly.yml,
+# where a human is already reviewing a pull request.
+#
+# dedup --apply and alias merges stay manual on purpose.
 name: ingest-weekly
 on:
   schedule:
@@ -12,7 +19,6 @@ concurrency: ingest
 
 permissions:
   contents: write
-  issues: write
 
 env:
   NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
@@ -95,30 +101,6 @@ jobs:
             head -20 /tmp/untagged.txt
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-      - name: Open issue if curation needed
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          PENDING=$( (grep -o '"pending":[0-9]*' /tmp/dedup.txt || true) | tail -1 | cut -d: -f2)
-          FLAGGED=$( (grep -o '^[0-9]*' <<< "$(head -1 /tmp/unmatched.txt)") || true)
-          if [ "${PENDING:-0}" -gt 0 ] || [ "${FLAGGED:-0}" -gt 0 ]; then
-            TITLE="Weekly ingest: curation needed ($(date +%Y-%m-%d))"
-            {
-              echo "From the [workflow run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID): $PENDING pending dedup candidate(s), $FLAGGED flagged org(s)."
-              echo
-              echo '### Dedup candidates'
-              echo '```'
-              tail -20 /tmp/dedup.txt
-              echo '```'
-              echo '### Flagged orgs'
-              echo '```'
-              head -16 /tmp/unmatched.txt
-              echo '```'
-              echo
-              echo 'Resolve via data/dedup-resolutions.json + `bun run dedup --apply`, and data/aliases.json or data/reviewed-orgs.json + `bun run seed`.'
-            } > /tmp/issue.md
-            gh issue create --title "$TITLE" --body-file /tmp/issue.md --repo "$GITHUB_REPOSITORY"
-          fi
       - name: Verify totals
         run: bun run scripts/verify-totals.ts 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Check the frequent ingests are actually running
