@@ -166,7 +166,7 @@ type SeedOrg = {
   aliases: { name: string; kind?: string; valid_from?: string; valid_to?: string; note?: string }[]
 }
 
-async function mergeOrg(fromId: string, toId: string, name: string) {
+async function mergeOrg(fromId: string, toId: string, name: string, why = 'provisional') {
   await db.from('grants').update({ funder_org_id: toId }).eq('funder_org_id', fromId).throwOnError()
   await db
     .from('grants')
@@ -178,6 +178,40 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
     .update({ fiscal_sponsor_org_id: toId })
     .eq('fiscal_sponsor_org_id', fromId)
     .throwOnError()
+  // grant_vias references orgs without a cascade, so the loser has to be off
+  // that table before it can be deleted. Its primary key is
+  // (grant_id, via_org_id): a grant already routed through the winner would
+  // collide, so drop that row instead of moving it.
+  const { data: vias } = await db
+    .from('grant_vias')
+    .select('grant_id')
+    .eq('via_org_id', fromId)
+    .throwOnError()
+  if ((vias ?? []).length > 0) {
+    const { data: existing } = await db
+      .from('grant_vias')
+      .select('grant_id')
+      .eq('via_org_id', toId)
+      .throwOnError()
+    const alreadyRouted = new Set((existing ?? []).map((row) => row.grant_id))
+    for (const row of vias ?? []) {
+      if (alreadyRouted.has(row.grant_id)) {
+        await db
+          .from('grant_vias')
+          .delete()
+          .eq('grant_id', row.grant_id)
+          .eq('via_org_id', fromId)
+          .throwOnError()
+      } else {
+        await db
+          .from('grant_vias')
+          .update({ via_org_id: toId })
+          .eq('grant_id', row.grant_id)
+          .eq('via_org_id', fromId)
+          .throwOnError()
+      }
+    }
+  }
   const { data: names } = await db
     .from('org_names')
     .select('name, normalized')
@@ -194,7 +228,7 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
   }
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
   await db.from('orgs').delete().eq('id', fromId).throwOnError()
-  console.log(`Merged provisional org "${name}" into ${toId}`)
+  console.log(`Merged ${why} org "${name}" into ${toId}`)
 }
 
 // Steady-state seed runs re-claim hundreds of names that are already settled;
@@ -369,6 +403,30 @@ async function main() {
         .throwOnError()
       console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)
     }
+  }
+
+  // aliases.json merges: two curated orgs that turned out to be one body.
+  // An alias cannot do this — claimName refuses to merge an org a human has
+  // already reviewed, which is the right default and the wrong answer once
+  // someone has looked and decided. Stated here, it is deliberate and it
+  // replays on a rebuild. The loser's names survive as aliases of the winner,
+  // so source data using the old spelling still resolves.
+  const merges = (aliasesFile as never as { merges?: Record<string, string> }).merges ?? {}
+  for (const [loserSlug, winnerSlug] of Object.entries(merges)) {
+    const { data: pair } = await db
+      .from('orgs')
+      .select('id, slug, name')
+      .in('slug', [loserSlug, winnerSlug])
+      .throwOnError()
+    const loser = (pair ?? []).find((org) => org.slug === loserSlug)
+    const winner = (pair ?? []).find((org) => org.slug === winnerSlug)
+    if (!winner) {
+      console.warn(`aliases.json merges: unknown target "${winnerSlug}"`)
+      continue
+    }
+    // Already merged on an earlier run.
+    if (!loser) continue
+    await mergeOrg(loser.id, winner.id, loser.name, 'curated')
   }
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
