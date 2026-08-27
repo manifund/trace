@@ -187,6 +187,13 @@ const SOURCES: CuratedSource[] = [
     },
   },
   {
+    sourceId: 'grantmaking_ai',
+    file: 'grantmaking-ai.json',
+    // Every row names its own funder; there is no house default.
+    defaultFunder: 'Unknown Donors',
+    funderType: 'organization',
+  },
+  {
     sourceId: 'openai_foundation',
     file: 'openai-foundation.json',
     defaultFunder: 'OpenAI Foundation',

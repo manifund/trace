@@ -138,6 +138,13 @@ const SOURCES = [
   },
   { id: 'uk_aisi', name: 'UK AISI', url: 'https://www.aisi.gov.uk/', tier: 3 },
   {
+    id: 'grantmaking_ai',
+    name: 'grantmaking.ai',
+    url: 'https://grantmaking.ai/',
+    license: 'CC BY-SA',
+    tier: 3,
+  },
+  {
     id: 'openai_foundation',
     name: 'OpenAI Foundation',
     url: 'https://openaifoundation.org/',

@@ -1141,6 +1141,9 @@
     "jaan_online:895e3803a1464a66382afbbea47b0209621477f5be50a2d96ceae3ca5aa15581 || sff:a4734fa3e6533eb5daae66603c6dfe19efe74cd1889a2a3421712753f51b6d97": "merged",
     "jaan_online:d0497d7dfc3b49cc7439da3dd80daa817dbf486100c74053a3e97f315bc7c83b || sff:1f9bd0f15ff8229acef708f14c7fa0b63899f226bcab0a44358f74c0e600777b": "merged",
     "jaan_online:d98f4abf415552effd07e29d8af9274aca02c67f382e5dfc6394c52934984148 || sff:7a17295e91360d575c132e33cbde8337be949e312aab10b272ef175b1ee14570": "merged",
-    "jaan_online:4c36a9eeb49157b847a6e4998c2728661de893422ed453d8bf25cde80d7c2e98 || sff:8e312c6867156ac15668e8b448997b367477d93b2d4e77d9ca2e0546fa70eb59": "merged"
+    "jaan_online:4c36a9eeb49157b847a6e4998c2728661de893422ed453d8bf25cde80d7c2e98 || sff:8e312c6867156ac15668e8b448997b367477d93b2d4e77d9ca2e0546fa70eb59": "merged",
+    "bluedot:rapid:2a15a50c91451f25ab7e7f5e || grantmaking_ai:gm:6b2a516a-5e09-4450-a61e-b1a39d6265b1": "merged",
+    "grantmaking_ai:gm:44da88db-82f0-4938-84e9-94caea1ba91c || manifund:5f6663c8-55b5-0b17-83a0-54b471e77ecc:JueYan": "merged",
+    "bluedot:rapid:dc705b96afb19ae4895dfa89 || grantmaking_ai:gm:e301ddbe-1e96-4d5e-adbc-3bd1c2173289": "merged"
   }
 }
