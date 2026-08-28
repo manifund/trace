@@ -13,6 +13,8 @@ export async function GET(request: Request, ctx: { params: Promise<{ version: st
   const headers: Record<string, string> = {
     'content-type': 'application/json; charset=utf-8',
     'x-snapshot-version': bytes.version,
+    // Stored brotli length: compare to the transfer size to spot re-encoding.
+    'x-snapshot-bytes': String(bytes.br.length),
     'cache-control': current ? 'public, max-age=31536000, immutable' : 'public, max-age=60',
   }
   if (request.headers.get('accept-encoding')?.includes('br')) {
