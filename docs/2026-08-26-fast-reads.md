@@ -175,3 +175,12 @@ Supabase ──(1.4s, flat tables, joined in JS)──► Snapshot { version, or
    Payload drops ~10×, navigations become free.
 3. `revalidateTag` in suggestions accept; revalidate endpoint for ingest.
 4. Optional: `trace.snapshot()` SQL function; prebuild all org pages.
+
+## Deployed (2026-08-28)
+
+Preview at `trace-git-fast-reads-manifund.vercel.app`: 11,529 grants, snapshot
+stored at 431KB brotli (q11). Vercel's edge decodes and re-encodes function
+responses regardless of `Content-Encoding` or `no-transform`, so the wire
+size is **594KB** (its gzip would be 646KB). Serving as a static asset would
+likely get the same treatment; not worth fighting. CDN caches the immutable
+URL (`x-vercel-cache: HIT` on the second request, ~280ms cold).
