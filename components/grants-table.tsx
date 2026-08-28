@@ -23,6 +23,7 @@ import { Fragment, useEffect, useMemo, useState } from 'react'
 import { AmountFilter } from '@/components/amount-filter'
 import { DateFilter } from '@/components/date-filter'
 import { MultiSelect } from '@/components/multi-select'
+import { useGrants } from '@/components/use-grants'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import {
@@ -126,9 +127,11 @@ function OrgLink(props: { slug: string; name: string; className?: string }) {
 }
 
 export function GrantsTable(props: {
-  grants: GrantRow[]
+  version: string
+  initial: GrantRow[]
   sources: { id: string; name: string }[]
 }) {
+  const grants = useGrants(props.version) ?? props.initial
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -174,9 +177,8 @@ export function GrantsTable(props: {
 
   // Cause narrowing happens here, not on the server: the page is static.
   const causeRows = useMemo(
-    () =>
-      cause === 'all' ? props.grants : props.grants.filter((row) => row.causes.includes(cause)),
-    [props.grants, cause]
+    () => (cause === 'all' ? grants : grants.filter((row) => row.causes.includes(cause))),
+    [grants, cause]
   )
 
   const update = (partial: Partial<GrantFilters>) => {

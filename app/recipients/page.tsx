@@ -1,21 +1,19 @@
 import { Suspense } from 'react'
-import { OrgIndex, type OrgIndexRow } from '@/components/org-index'
-import { listGrants } from '@/db/grant'
+import { OrgIndex } from '@/components/org-index'
+import { firstPaintRows, getGrants, getGrantsVersion } from '@/db/grant'
+import { toIndexRows } from '@/utils/org-index-rows'
 
 export const revalidate = 600
 
 export default async function Page() {
-  const grants = await listGrants('all')
-  const rows: OrgIndexRow[] = grants.map((grant) => [
-    grant.recipientSlug,
-    grant.recipientName,
-    grant.date ? Number(grant.date.slice(0, 4)) : null,
-    grant.amountUsd,
-    grant.causes,
-  ])
+  const [grants, version] = await Promise.all([getGrants(), getGrantsVersion()])
   return (
     <Suspense>
-      <OrgIndex side="recipient" rows={rows} />
+      <OrgIndex
+        side="recipient"
+        version={version}
+        initial={toIndexRows(firstPaintRows(grants), 'recipient')}
+      />
     </Suspense>
   )
 }

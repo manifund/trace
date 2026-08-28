@@ -3,7 +3,7 @@ import { OrgBarChart } from '@/components/org-bar-chart'
 import { OrgBreakdown } from '@/components/org-breakdown'
 import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgStats } from '@/components/org-stats'
-import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
+import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
 import {
   byCause,
@@ -103,12 +103,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const org = await getOrgBySlug(slug)
   if (!org) notFound()
 
-  const [made, received, sponsored, via] = await Promise.all([
-    listGrantsByOrg('funder_org_id', org.id),
-    listGrantsByOrg('recipient_org_id', org.id),
-    listGrantsByOrg('fiscal_sponsor_org_id', org.id),
-    listGrantsByVia(org.id),
-  ])
+  const { made, received, sponsored, via } = await getGrantsForOrg(org.slug)
   const formerNames = org.names.filter((name) => name.kind !== 'canonical')
 
   // Only chart the via flow when this org is not also the funder of record.

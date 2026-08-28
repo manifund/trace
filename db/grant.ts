@@ -1,5 +1,6 @@
 import 'server-only'
 
+import { createHash } from 'node:crypto'
 import { SUPABASE_URL } from './env'
 import { createPublicSupabaseClient } from './supabase-server'
 
@@ -76,43 +77,30 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
   }
 }
 
-// Loads approved grants with org + provenance joins, batching past the
-// PostgREST 1000-row cap. cause === 'all' skips the cause filter.
-export async function listGrants(cause?: string): Promise<GrantRow[]> {
+// Loads every approved grant with org + provenance joins, batching past the
+// PostgREST 1000-row cap. Callers filter in memory; use getGrants() for the
+// cached copy.
+async function listGrants(): Promise<GrantRow[]> {
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()
   const rows: GrantRow[] = []
-  const causeFilter = cause && cause !== 'all'
-  // The filter needs its own aliased embed: filtering the display embed would
-  // strip every cause row except the matched one.
-  const causeEmbed = causeFilter
-    ? 'grant_cause_areas(cause_areas(slug)), cause_filter:grant_cause_areas!inner(cause_areas!inner(slug))'
-    : 'grant_cause_areas(cause_areas(slug))'
-
   // Count first, then fetch every 1000-row page in parallel: sequential
   // paging was the dominant latency on pages that need the full table.
-  let countQuery = supabase
+  const { count } = await supabase
     .from('grants')
-    .select(
-      causeFilter ? 'id, cause_filter:grant_cause_areas!inner(cause_areas!inner(slug))' : 'id',
-      { count: 'exact', head: true }
-    )
+    .select('id', { count: 'exact', head: true })
     .eq('status', 'approved')
-  if (causeFilter) countQuery = countQuery.eq('cause_filter.cause_areas.slug', cause)
-  const { count } = await countQuery.throwOnError()
+    .throwOnError()
   const pages = Math.ceil((count ?? 0) / 1000)
-
-  const fetchPage = (page: number) => {
-    let query = supabase
+  const fetchPage = (page: number) =>
+    supabase
       .from('grants')
-      .select(`${GRANT_SELECT_BASE}, ${causeEmbed}`)
+      .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
       .eq('status', 'approved')
       .order('grant_date', { ascending: false, nullsFirst: false })
       .order('id')
       .range(page * 1000, page * 1000 + 999)
-    if (causeFilter) query = query.eq('cause_filter.cause_areas.slug', cause)
-    return query.throwOnError()
-  }
+      .throwOnError()
   // Small chunks: full parallelism trips Postgres statement timeouts when
   // several pages build at once.
   for (let start = 0; start < pages; start += 3) {
@@ -128,6 +116,74 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
   return rows
 }
 
+// The whole approved dataset, fetched once per process and reused by every
+// page for ten minutes. ISR already makes prod this stale; this makes dev
+// (where ISR doesn't run) and cold regenerations share one query instead of
+// paying the full load per request. Lives on globalThis so dev hot reloads
+// keep it. A failed load is dropped so the next request retries.
+const TTL_MS = 10 * 60 * 1000
+type Loaded = { rows: GrantRow[]; version: string }
+type Memo = { at: number; loaded: Promise<Loaded> }
+const store = globalThis as typeof globalThis & { __traceGrants?: Memo }
+
+function loadGrants(): Promise<Loaded> {
+  const memo = store.__traceGrants
+  if (memo && Date.now() - memo.at < TTL_MS) return memo.loaded
+  const loaded = listGrants()
+    .then((rows) => ({
+      rows,
+      // Content hash: the browser caches /grants.json?v=<version> forever, so
+      // a changed dataset must be a new URL.
+      version: createHash('sha256').update(JSON.stringify(rows)).digest('hex').slice(0, 12),
+    }))
+    .catch((err) => {
+      store.__traceGrants = undefined
+      throw err
+    })
+  store.__traceGrants = { at: Date.now(), loaded }
+  return loaded
+}
+
+export const getGrants = () => loadGrants().then((l) => l.rows)
+export const getGrantsVersion = () => loadGrants().then((l) => l.version)
+
+export function clearGrants() {
+  store.__traceGrants = undefined
+}
+
+// A small slice for a page's server-rendered first paint: the grants that
+// carry 98% of the dollars (a few thousand of the ~11k), minus the prose.
+// The browser swaps in the full dataset from useGrants() moments later, so
+// totals are right immediately and the long tail of small grants follows.
+export function firstPaintRows(rows: GrantRow[]): GrantRow[] {
+  const sorted = [...rows].sort((a, b) => (b.amountUsd ?? 0) - (a.amountUsd ?? 0))
+  const target = 0.98 * sorted.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0)
+  const out: GrantRow[] = []
+  for (let sum = 0; sum < target && out.length < sorted.length; ) {
+    const row = sorted[out.length]
+    sum += row.amountUsd ?? 0
+    out.push({ ...row, description: null, url: null, estimateNote: null, round: null })
+  }
+  return out
+}
+
+// Approved grants tagged with a cause; 'all' returns everything.
+export async function getGrantsByCause(cause: string): Promise<GrantRow[]> {
+  const rows = await getGrants()
+  return cause === 'all' ? rows : rows.filter((row) => row.causes.includes(cause))
+}
+
+// Every grant an org touches, by role. A regrantor shows up on several sides.
+export async function getGrantsForOrg(slug: string) {
+  const rows = await getGrants()
+  return {
+    made: rows.filter((row) => row.funderSlug === slug),
+    received: rows.filter((row) => row.recipientSlug === slug),
+    sponsored: rows.filter((row) => row.sponsorSlug === slug),
+    via: rows.filter((row) => row.vias.some((via) => via.slug === slug)),
+  }
+}
+
 // One approved grant by id, for the suggestion form.
 export async function getGrantById(id: string): Promise<GrantRow | null> {
   const supabase = createPublicSupabaseClient()
@@ -139,78 +195,6 @@ export async function getGrantById(id: string): Promise<GrantRow | null> {
     .maybeSingle()
     .throwOnError()
   return data ? mapGrantRow(data as never as Record<string, unknown>) : null
-}
-
-// Fetch every 1000-row page of a query. Pages go out in small parallel
-// batches: sequential round-trips dominate the wait for a big funder, while
-// full parallelism trips Postgres statement timeouts.
-async function collectPages(
-  count: number,
-  fetchPage: (page: number) => PromiseLike<{ data: unknown[] | null }>
-): Promise<GrantRow[]> {
-  const rows: GrantRow[] = []
-  const pages = Math.max(1, Math.ceil(count / 1000))
-  for (let start = 0; start < pages; start += 3) {
-    const chunk = await Promise.all(
-      Array.from({ length: Math.min(3, pages - start) }, (_, i) => fetchPage(start + i))
-    )
-    for (const { data } of chunk) {
-      for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
-        rows.push(mapGrantRow(grant))
-      }
-    }
-  }
-  return rows
-}
-
-// Approved grants that flowed through the given vehicle org.
-export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
-  if (!dbConfigured()) return []
-  const supabase = createPublicSupabaseClient()
-  const select = `${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug)), via_filter:grant_vias!inner(via_org_id)`
-  const { count } = await supabase
-    .from('grants')
-    .select('id, via_filter:grant_vias!inner(via_org_id)', { count: 'exact', head: true })
-    .eq('status', 'approved')
-    .eq('via_filter.via_org_id', orgId)
-    .throwOnError()
-  const fetchPage = (page: number) =>
-    supabase
-      .from('grants')
-      .select(select)
-      .eq('status', 'approved')
-      .eq('via_filter.via_org_id', orgId)
-      .order('grant_date', { ascending: false, nullsFirst: false })
-      .order('id')
-      .range(page * 1000, page * 1000 + 999)
-      .throwOnError()
-  return collectPages(count ?? 0, fetchPage)
-}
-
-// Approved grants where the org appears on the given side.
-export async function listGrantsByOrg(
-  column: 'funder_org_id' | 'recipient_org_id' | 'fiscal_sponsor_org_id',
-  orgId: string
-): Promise<GrantRow[]> {
-  if (!dbConfigured()) return []
-  const supabase = createPublicSupabaseClient()
-  const { count } = await supabase
-    .from('grants')
-    .select('id', { count: 'exact', head: true })
-    .eq('status', 'approved')
-    .eq(column, orgId)
-    .throwOnError()
-  const fetchPage = (page: number) =>
-    supabase
-      .from('grants')
-      .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
-      .eq('status', 'approved')
-      .eq(column, orgId)
-      .order('grant_date', { ascending: false, nullsFirst: false })
-      .order('id')
-      .range(page * 1000, page * 1000 + 999)
-      .throwOnError()
-  return collectPages(count ?? 0, fetchPage)
 }
 
 export type SourceInfo = {
@@ -231,31 +215,5 @@ export async function listSources(): Promise<SourceInfo[]> {
     .order('tier')
     .order('id')
     .throwOnError()
-  return data ?? []
-}
-
-export async function grantYearRange(): Promise<{ min: number; max: number }> {
-  const fallback = { min: 2012, max: new Date().getFullYear() }
-  if (!dbConfigured()) return fallback
-  const supabase = createPublicSupabaseClient()
-  const edge = async (ascending: boolean) => {
-    const { data } = await supabase
-      .from('grants')
-      .select('grant_date')
-      .eq('status', 'approved')
-      .not('grant_date', 'is', null)
-      .order('grant_date', { ascending })
-      .limit(1)
-      .throwOnError()
-    return data?.[0]?.grant_date ? Number(data[0].grant_date.slice(0, 4)) : null
-  }
-  const [min, max] = await Promise.all([edge(true), edge(false)])
-  return { min: min ?? fallback.min, max: max ?? fallback.max }
-}
-
-export async function listCauseAreas() {
-  if (!dbConfigured()) return []
-  const supabase = createPublicSupabaseClient()
-  const { data } = await supabase.from('cause_areas').select('slug, name').throwOnError()
   return data ?? []
 }
