@@ -229,7 +229,7 @@ export function GrantsTable(props: {
             const grant = row.original
             return (
               <span
-                className="whitespace-nowrap font-semibold text-navy tabular-nums"
+                className="whitespace-nowrap font-semibold text-brand tabular-nums"
                 title={grant.amountEstimated ? (grant.estimateNote ?? 'Estimated') : undefined}
               >
                 {grant.amountEstimated && '~'}
@@ -467,8 +467,8 @@ export function GrantsTable(props: {
                       )}
                     >
                       <table.FlexRender header={header} />
-                      {sorted === 'asc' && <ChevronUpIcon className="size-3.5 text-navy" />}
-                      {sorted === 'desc' && <ChevronDownIcon className="size-3.5 text-navy" />}
+                      {sorted === 'asc' && <ChevronUpIcon className="size-3.5 text-brand" />}
+                      {sorted === 'desc' && <ChevronDownIcon className="size-3.5 text-brand" />}
                     </span>
                   </TableHead>
                 )
@@ -580,7 +580,7 @@ function GrantDetail(props: { grant: GrantRow; sourceName?: string }) {
     ),
   ])
   return (
-    <div className="flex flex-col gap-4 border-l-2 border-navy py-2 pl-4 md:flex-row md:gap-10">
+    <div className="flex flex-col gap-4 border-l-2 border-brand py-2 pl-4 md:flex-row md:gap-10">
       <div className="min-w-0 flex-1">
         <div className="caps-label mb-1 text-[10px]">Purpose</div>
         <p className="max-w-prose text-sm leading-relaxed whitespace-pre-line">
@@ -588,7 +588,7 @@ function GrantDetail(props: { grant: GrantRow; sourceName?: string }) {
         </p>
         {grant.estimateNote && (
           <p className="mt-2 max-w-prose text-xs leading-relaxed text-muted-foreground">
-            <span className="font-semibold text-navy">~</span> {grant.estimateNote}
+            <span className="font-semibold text-brand">~</span> {grant.estimateNote}
           </p>
         )}
       </div>

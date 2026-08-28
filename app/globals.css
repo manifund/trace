@@ -4,8 +4,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Trace palette: cool grey paper, near-black ink, navy for links and key
-   figures. IBM Plex Sans for text; Plex Sans Condensed, tracked and
+/* Trace palette: cool grey paper, near-black ink, Manifund orange (Tailwind
+   orange-700 for text on paper, orange-600 for the soft tint) for key figures
+   and active states. IBM Plex Sans for text; Plex Sans Condensed, tracked and
    uppercase, for nav, section titles, and table headers. */
 :root {
   --paper: #efefed;
@@ -13,8 +14,8 @@
   --ink: #16191d;
   --ink-muted: #5b6570;
   --rule: #cdd1d3;
-  --navy: #1f4e79;
-  --navy-soft: rgba(31, 78, 121, 0.08);
+  --brand: #c2410c;
+  --brand-soft: rgba(234, 88, 12, 0.1);
   --good: #2b6339;
   /* Chart series (validated: lightness band, chroma, CVD ΔE, contrast). */
   --s1: #0457aa;
@@ -31,18 +32,18 @@
   --card-foreground: var(--ink);
   --popover: #ffffff;
   --popover-foreground: var(--ink);
-  --primary: var(--navy);
+  --primary: var(--brand);
   --primary-foreground: #ffffff;
   --secondary: var(--paper-alt);
   --secondary-foreground: var(--ink);
   --muted: var(--paper-alt);
   --muted-foreground: var(--ink-muted);
-  --accent: var(--navy-soft);
+  --accent: var(--brand-soft);
   --accent-foreground: var(--ink);
   --destructive: #a83232;
   --border: var(--rule);
   --input: var(--rule);
-  --ring: var(--navy);
+  --ring: var(--brand);
   --chart-1: var(--s1);
   --chart-2: var(--s2);
   --chart-3: var(--s3);
@@ -57,8 +58,8 @@
   --color-ink: var(--ink);
   --color-ink-muted: var(--ink-muted);
   --color-rule: var(--rule);
-  --color-navy: var(--navy);
-  --color-navy-soft: var(--navy-soft);
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
 
   --font-sans: var(--font-plex-sans), system-ui, sans-serif;
   --font-display: var(--font-plex-condensed), var(--font-plex-sans), system-ui, sans-serif;

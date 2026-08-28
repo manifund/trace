@@ -34,7 +34,7 @@ export function MultiSelect(props: {
       <PopoverTrigger asChild>
         <Button variant="outline" size="sm">
           {label}
-          {selected.length > 0 && <span className="text-navy">({selected.length})</span>}
+          {selected.length > 0 && <span className="text-brand">({selected.length})</span>}
           <ChevronDownIcon className="text-muted-foreground" />
         </Button>
       </PopoverTrigger>

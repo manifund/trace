@@ -117,7 +117,7 @@ export function TreemapChart(props: { branches: TreeBranch[]; total: number }) {
       <div className="mb-2 flex items-baseline gap-1.5 font-sans text-xs">
         <button
           onClick={() => setZoom(null)}
-          className={zoomed ? 'text-navy' : 'text-ink-muted'}
+          className={zoomed ? 'text-brand' : 'text-ink-muted'}
           disabled={!zoomed}
         >
           All

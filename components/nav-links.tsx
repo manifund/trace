@@ -26,7 +26,7 @@ export function NavLinks() {
             href={href}
             className={cn(
               'caps-label pb-2 -mb-2.5 border-b-2 hover:no-underline!',
-              active ? 'border-navy text-navy!' : 'border-transparent hover:text-ink!'
+              active ? 'border-brand text-brand!' : 'border-transparent hover:text-ink!'
             )}
           >
             {label}

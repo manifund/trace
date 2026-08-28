@@ -62,7 +62,7 @@ function GrantList(props: {
         >
           {props.grants.length.toLocaleString()} ·{' '}
           {props.grants.some((grant) => grant.amountEstimated) && (
-            <a href={`#${noteId}`} title="Includes estimated amounts" className="text-navy">
+            <a href={`#${noteId}`} title="Includes estimated amounts" className="text-brand">
               ~
             </a>
           )}

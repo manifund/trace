@@ -128,7 +128,7 @@ export function OrgGrantTable(props: {
                     <a
                       href={`#${props.noteId}`}
                       title={grant.estimateNote ?? undefined}
-                      className="text-navy"
+                      className="text-brand"
                     >
                       {ESTIMATE_SYMBOLS[
                         Math.max(props.estimateNotes.indexOf(grant.estimateNote ?? ''), 0)
