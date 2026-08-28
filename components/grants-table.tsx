@@ -54,10 +54,12 @@ const PAGE = 200
 const COLUMNS_KEY = 'trace:grant-columns'
 
 // Columns hidden until the "+" in the header row reveals them.
-const EXTRA_COLUMNS = ['recipient', 'cause'] as const
-const DEFAULT_VISIBILITY: ColumnVisibilityState = { recipient: false, cause: false }
+const EXTRA_COLUMNS = ['via', 'cause'] as const
+const DEFAULT_VISIBILITY: ColumnVisibilityState = { via: false, cause: false }
 
-// Short source labels so the Source column stays one word wide.
+// Short source labels so the Source column stays narrow. The full name is
+// always in the cell's title attribute, so collapsing several 990 filings to
+// one label loses nothing on hover.
 const SOURCE_SHORT: Record<string, string> = {
   ea_funds: 'EA Funds',
   sff: 'SFF',
@@ -66,11 +68,19 @@ const SOURCE_SHORT: Record<string, string> = {
   coefficient_giving: 'Coefficient',
   acx_grants: 'ACX',
   fli: 'FLI',
+  fli_990: 'Form 990',
+  irs_990: 'Form 990',
+  lightcone_990: 'Form 990',
   lightcone_commons: 'Lightcone',
   foresight: 'Foresight',
   schmidt_sciences: 'Schmidt',
   longview: 'Longview',
   jefftk: 'jefftk',
+  bluedot: 'BlueDot',
+  ftx_future_fund: 'FTX Future Fund',
+  jaan_online: 'jaan.online',
+  fund_estimates: 'Estimates',
+  macroscopic: 'Macroscopic',
 }
 
 const features = tableFeatures({
@@ -86,14 +96,20 @@ const COLUMN_WIDTHS: Record<string, string> = {
   date: 'w-28',
   funder: 'w-44',
   amount: 'w-28',
-  source: 'w-40',
+  source: 'w-32',
   recipient: 'w-44',
+  via: 'w-32',
   cause: 'w-36',
   actions: 'w-8',
 }
 
 const SORT_KEYS: GrantFilters['sort'][] = ['date', 'amount', 'funder', 'recipient']
 const isSortKey = (id: string): id is GrantFilters['sort'] => (SORT_KEYS as string[]).includes(id)
+
+function sourceLabel(sourceId: string | null, names: Map<string, string>) {
+  if (!sourceId) return '\u2014'
+  return SOURCE_SHORT[sourceId] ?? names.get(sourceId) ?? sourceId
+}
 
 function OrgLink(props: { slug: string; name: string; className?: string }) {
   return (
@@ -129,7 +145,18 @@ export function GrantsTable(props: {
       const saved = localStorage.getItem(COLUMNS_KEY)
       const parsed: unknown = saved ? JSON.parse(saved) : null
       if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
-        setColumnVisibility(parsed as ColumnVisibilityState)
+        // Only the toggleable extras persist. A stale entry for a column that
+        // is now always shown must not go on hiding it.
+        const record = parsed as Record<string, unknown>
+        setColumnVisibility({
+          ...DEFAULT_VISIBILITY,
+          ...Object.fromEntries(
+            EXTRA_COLUMNS.filter((id) => typeof record[id] === 'boolean').map((id) => [
+              id,
+              record[id] as boolean,
+            ])
+          ),
+        })
       }
     } catch {}
   }, [])
@@ -226,6 +253,13 @@ export function GrantsTable(props: {
             <OrgLink slug={row.original.funderSlug} name={row.original.funderName} />
           ),
         }),
+        helper.accessor('recipientName', {
+          id: 'recipient',
+          header: 'Recipient',
+          cell: ({ row }) => (
+            <OrgLink slug={row.original.recipientSlug} name={row.original.recipientName} />
+          ),
+        }),
         helper.accessor('amountUsd', {
           id: 'amount',
           header: 'Amount',
@@ -249,52 +283,50 @@ export function GrantsTable(props: {
           enableSorting: false,
           cell: ({ row }) => {
             const grant = row.original
-            const label = grant.sourceId
-              ? (SOURCE_SHORT[grant.sourceId] ?? sourceNames.get(grant.sourceId) ?? grant.sourceId)
-              : '—'
-            // The via is only news when it isn't the funder or the source itself.
-            const sourceName = sourceNames.get(grant.sourceId ?? '')
-            const vias = grant.vias.filter(
-              (via) =>
-                via.slug !== grant.funderSlug && via.name !== sourceName && via.name !== label
-            )
+            const title = sourceNames.get(grant.sourceId ?? '')
+            const label = sourceLabel(grant.sourceId, sourceNames)
             return (
-              <span className="flex items-center gap-1 whitespace-nowrap text-xs">
+              <span className="block truncate whitespace-nowrap text-xs">
                 {grant.url ? (
-                  <a href={grant.url} title={sourceNames.get(grant.sourceId ?? '')}>
+                  <a href={grant.url} title={title}>
                     {label}
                   </a>
                 ) : (
-                  <span title={sourceNames.get(grant.sourceId ?? '')}>{label}</span>
-                )}
-                {vias.length > 0 && (
-                  <>
-                    <span className="text-muted-foreground">·</span>
-                    <Tooltip>
-                      <TooltipTrigger
-                        render={
-                          <a
-                            href={`/orgs/${vias[0].slug}`}
-                            className="max-w-24 truncate text-muted-foreground"
-                          />
-                        }
-                      >
-                        via {vias[0].name}
-                      </TooltipTrigger>
-                      <TooltipContent>Via {vias.map((via) => via.name).join(', ')}</TooltipContent>
-                    </Tooltip>
-                  </>
+                  <span title={title}>{label}</span>
                 )}
               </span>
             )
           },
         }),
-        helper.accessor('recipientName', {
-          id: 'recipient',
-          header: 'Recipient',
-          cell: ({ row }) => (
-            <OrgLink slug={row.original.recipientSlug} name={row.original.recipientName} />
-          ),
+        helper.display({
+          id: 'via',
+          header: 'Via',
+          cell: ({ row }) => {
+            const grant = row.original
+            // The via is only news when it isn't the funder or the source itself.
+            const sourceName = sourceNames.get(grant.sourceId ?? '')
+            const label = sourceLabel(grant.sourceId, sourceNames)
+            const vias = grant.vias.filter(
+              (via) =>
+                via.slug !== grant.funderSlug && via.name !== sourceName && via.name !== label
+            )
+            if (vias.length === 0) return null
+            return (
+              <Tooltip>
+                <TooltipTrigger
+                  render={
+                    <a
+                      href={`/orgs/${vias[0].slug}`}
+                      className="block truncate text-xs text-muted-foreground"
+                    />
+                  }
+                >
+                  {vias[0].name}
+                </TooltipTrigger>
+                <TooltipContent>Via {vias.map((via) => via.name).join(', ')}</TooltipContent>
+              </Tooltip>
+            )
+          },
         }),
         helper.accessor('causes', {
           id: 'cause',
