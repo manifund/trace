@@ -6,7 +6,7 @@ export function GET() {
     {
       endpoints: {
         '/api/v0/grants':
-          'Grants. Params: cause (slug, default all), q, funders, recipients, vias, sources (comma-separated slugs or names), yearMin, yearMax, sort (date|amount|funder|recipient), dir (asc|desc), limit (default 100, max 1000), offset.',
+          'Grants. Params: cause (slug, default all), q, funders, recipients, vias, sources (comma-separated slugs or names), yearMin, yearMax, amountMin, amountMax (USD), sort (date|amount|funder|recipient), dir (asc|desc), limit (default 100, max 1000), offset.',
         '/api/v0/orgs': 'Organizations. Params: q, limit (default 100, max 1000), offset.',
         '/api/v0/sources': 'Data sources.',
         '/api/mcp': 'MCP endpoint (streamable HTTP).',

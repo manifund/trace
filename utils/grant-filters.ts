@@ -8,6 +8,9 @@ export type GrantFilters = {
   sources: string[]
   yearMin: number | null
   yearMax: number | null
+  // Dollar bounds, min inclusive / max exclusive, null = open-ended.
+  amountMin: number | null
+  amountMax: number | null
   sort: 'date' | 'amount' | 'funder' | 'recipient'
   dir: 'asc' | 'desc'
 }
@@ -18,6 +21,8 @@ export const DEFAULT_FILTERS: GrantFilters = {
   sources: [],
   yearMin: null,
   yearMax: null,
+  amountMin: null,
+  amountMax: null,
   sort: 'date',
   dir: 'desc',
 }
@@ -36,6 +41,8 @@ export function filtersFromParams(params: URLSearchParams): GrantFilters {
     sources: list('sources'),
     yearMin: num('yearMin'),
     yearMax: num('yearMax'),
+    amountMin: num('amountMin'),
+    amountMax: num('amountMax'),
     sort: sort === 'amount' || sort === 'funder' || sort === 'recipient' ? sort : 'date',
     dir: dir === 'asc' ? 'asc' : 'desc',
   }
@@ -49,6 +56,8 @@ export function filtersToParams(filters: GrantFilters, cause: string): URLSearch
   if (filters.sources.length > 0) params.set('sources', filters.sources.join(','))
   if (filters.yearMin) params.set('yearMin', String(filters.yearMin))
   if (filters.yearMax) params.set('yearMax', String(filters.yearMax))
+  if (filters.amountMin) params.set('amountMin', String(filters.amountMin))
+  if (filters.amountMax) params.set('amountMax', String(filters.amountMax))
   if (filters.sort !== 'date') params.set('sort', filters.sort)
   if (filters.dir !== 'desc') params.set('dir', filters.dir)
   return params
@@ -73,6 +82,15 @@ export function applyFilters(rows: GrantRow[], filters: GrantFilters): GrantRow[
         (filters.yearMax === null || year <= filters.yearMax)
       )
     })
+  }
+  if (filters.amountMin !== null || filters.amountMax !== null) {
+    // A range implies a known amount, so unknown-amount grants drop out.
+    out = out.filter(
+      (row) =>
+        row.amountUsd !== null &&
+        (filters.amountMin === null || row.amountUsd >= filters.amountMin) &&
+        (filters.amountMax === null || row.amountUsd < filters.amountMax)
+    )
   }
   if (filters.q) {
     out = out.filter((row) =>

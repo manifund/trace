@@ -1,7 +1,7 @@
 import { createMcpHandler } from 'mcp-handler'
 import { z } from 'zod'
 import { queryGrants } from '@/db/api'
-import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
+import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
 import { createPublicSupabaseClient } from '@/db/supabase-server'
 import { CAUSE_TREE } from '@/utils/cause-tree'
@@ -45,6 +45,8 @@ const handler = createMcpHandler((server) => {
         via: z.string().optional().describe('Vehicle the money flowed through, e.g. Manifund, SFF'),
         year_min: z.number().int().optional(),
         year_max: z.number().int().optional(),
+        amount_min: z.number().optional().describe('USD, inclusive'),
+        amount_max: z.number().optional().describe('USD, exclusive'),
         sort: z.enum(['date', 'amount']).optional().describe('Default: date, newest first'),
         limit: z.number().int().min(1).max(100).optional().describe('Default 25'),
       }),
@@ -58,6 +60,8 @@ const handler = createMcpHandler((server) => {
         vias: args.via ? [args.via] : [],
         yearMin: args.year_min ?? null,
         yearMax: args.year_max ?? null,
+        amountMin: args.amount_min ?? null,
+        amountMax: args.amount_max ?? null,
         sort: args.sort ?? 'date',
         dir: 'desc',
       })
@@ -85,11 +89,7 @@ const handler = createMcpHandler((server) => {
       if (!slug) return json({ error: `No organization matching "${name}"` })
       const org = await getOrgBySlug(slug)
       if (!org) return json({ error: `No organization matching "${name}"` })
-      const [made, received, via] = await Promise.all([
-        listGrantsByOrg('funder_org_id', org.id),
-        listGrantsByOrg('recipient_org_id', org.id),
-        listGrantsByVia(org.id),
-      ])
+      const { made, received, via } = await getGrantsForOrg(org.slug)
       const viaOnly = via.filter((g) => g.funderSlug !== org.slug)
       const top = (rows: GrantRow[]) =>
         [...rows]

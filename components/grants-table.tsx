@@ -20,6 +20,8 @@ import {
 } from '@tanstack/react-table'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { Fragment, useEffect, useMemo, useState } from 'react'
+import { AmountFilter } from '@/components/amount-filter'
+import { DateFilter } from '@/components/date-filter'
 import { MultiSelect } from '@/components/multi-select'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -207,17 +209,23 @@ export function GrantsTable(props: {
   )
   const sourceOptions = props.sources.map((source) => ({ value: source.id, label: source.name }))
 
-  const years = useMemo(() => {
-    const set = new Set<number>()
-    for (const grant of causeRows) {
-      if (grant.date) set.add(Number(grant.date.slice(0, 4)))
-    }
-    return Array.from(set).sort((a, b) => b - a)
-  }, [causeRows])
-
   // Filtering and sorting stay in grant-filters so the CSV route matches
   // exactly; the table runs with manualSorting and only owns the header UI.
   const rows = useMemo(() => applyFilters(causeRows, filters), [causeRows, filters])
+  // Each histogram shows what the *other* filters leave, so its bars describe
+  // exactly the set that slider is about to slice.
+  const amountPool = useMemo(
+    () =>
+      applyFilters(causeRows, { ...filters, amountMin: null, amountMax: null }).map(
+        (row) => row.amountUsd
+      ),
+    [causeRows, filters]
+  )
+  const datePool = useMemo(
+    () =>
+      applyFilters(causeRows, { ...filters, yearMin: null, yearMax: null }).map((row) => row.date),
+    [causeRows, filters]
+  )
   const pageRows = useMemo(() => rows.slice(0, limit), [rows, limit])
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
@@ -446,40 +454,18 @@ export function GrantsTable(props: {
             ))}
           </SelectContent>
         </Select>
-        <Select
-          value={filters.yearMin ? String(filters.yearMin) : 'start'}
-          onValueChange={(v) => update({ yearMin: v === 'start' ? null : Number(v) })}
-          modal={false}
-        >
-          <SelectTrigger size="sm">
-            <SelectValue>{filters.yearMin ? `From ${filters.yearMin}` : 'From start'}</SelectValue>
-          </SelectTrigger>
-          <SelectContent alignItemWithTrigger={false}>
-            <SelectItem value="start">From start</SelectItem>
-            {years.map((year) => (
-              <SelectItem key={year} value={String(year)}>
-                From {year}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <Select
-          value={filters.yearMax ? String(filters.yearMax) : 'present'}
-          onValueChange={(v) => update({ yearMax: v === 'present' ? null : Number(v) })}
-          modal={false}
-        >
-          <SelectTrigger size="sm">
-            <SelectValue>{filters.yearMax ? `To ${filters.yearMax}` : 'To present'}</SelectValue>
-          </SelectTrigger>
-          <SelectContent alignItemWithTrigger={false}>
-            <SelectItem value="present">To present</SelectItem>
-            {years.map((year) => (
-              <SelectItem key={year} value={String(year)}>
-                To {year}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        <DateFilter
+          dates={datePool}
+          min={filters.yearMin}
+          max={filters.yearMax}
+          onChange={update}
+        />
+        <AmountFilter
+          amounts={amountPool}
+          min={filters.amountMin}
+          max={filters.amountMax}
+          onChange={update}
+        />
         <a href={csvHref} className="caps-label ml-auto">
           CSV
         </a>

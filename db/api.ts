@@ -1,7 +1,7 @@
 import 'server-only'
 
 // Shared query + serialization layer for the public API and MCP endpoints.
-import { listGrants, type GrantRow } from './grant'
+import { getGrantsByCause, type GrantRow } from './grant'
 import { applyFilters, filtersFromParams } from '@/utils/grant-filters'
 
 export const CORS_HEADERS = {
@@ -42,6 +42,8 @@ export type GrantQuery = {
   sources?: string[]
   yearMin?: number | null
   yearMax?: number | null
+  amountMin?: number | null
+  amountMax?: number | null
   sort?: 'date' | 'amount' | 'funder' | 'recipient'
   dir?: 'asc' | 'desc'
 }
@@ -54,12 +56,14 @@ const matchOrg = (needle: string, slug: string, name: string) => {
 // Accepts slugs or (partial) names for org-side filters so both the REST API
 // and MCP tools can pass through what they were given.
 export async function queryGrants(query: GrantQuery): Promise<GrantRow[]> {
-  const rows = await listGrants(query.cause || 'all')
+  const rows = await getGrantsByCause(query.cause || 'all')
   let out = applyFilters(rows, {
     q: query.q ?? '',
     funders: [],
     sources: query.sources ?? [],
     yearMin: query.yearMin ?? null,
+    amountMin: query.amountMin ?? null,
+    amountMax: query.amountMax ?? null,
     yearMax: query.yearMax ?? null,
     sort: query.sort ?? 'date',
     dir: query.dir ?? 'desc',
@@ -88,6 +92,8 @@ export function grantQueryFromParams(params: URLSearchParams): GrantQuery {
     sources: filters.sources,
     yearMin: filters.yearMin,
     yearMax: filters.yearMax,
+    amountMin: filters.amountMin,
+    amountMax: filters.amountMax,
     sort: filters.sort,
     dir: filters.dir,
   }
