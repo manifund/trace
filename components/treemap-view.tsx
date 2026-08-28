@@ -1,9 +1,10 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import { useGrants } from '@/components/use-grants'
 import { OverviewControls, StatStrip } from '@/components/overview-controls'
 import { TreemapChart } from '@/components/treemap-chart'
-import { analyzeStructure, applyFilters, buildTree } from '@/utils/flow'
+import { analyzeStructure, applyFilters, buildTree, toFlowRows } from '@/utils/flow'
 import type { FlowRow, Nesting } from '@/utils/flow'
 import { formatMoney } from '@/utils/format'
 
@@ -14,7 +15,8 @@ const NESTINGS: { value: Nesting; label: string }[] = [
 ]
 
 export function TreemapView(props: {
-  rows: FlowRow[]
+  version: string
+  initial: FlowRow[]
   span: [number, number]
   vehicles: string[]
 }) {
@@ -24,16 +26,15 @@ export function TreemapView(props: {
     to: props.span[1],
   })
   const [nesting, setNesting] = useState<Nesting>('funder-recipient')
+  const grants = useGrants(props.version)
+  const rows = useMemo(() => (grants ? toFlowRows(grants) : props.initial), [grants, props.initial])
 
-  const structure = useMemo(() => analyzeStructure(props.rows), [props.rows])
+  const structure = useMemo(() => analyzeStructure(rows), [rows])
   // A grant into a regranting fund is left out: the fund's own grants
   // already carry those dollars, so counting both would double up.
   const filtered = useMemo(
-    () =>
-      applyFilters(props.rows, filters, props.span).filter(
-        (row) => !structure.regrantor.has(row.r)
-      ),
-    [props.rows, filters, props.span, structure]
+    () => applyFilters(rows, filters, props.span).filter((row) => !structure.regrantor.has(row.r)),
+    [rows, filters, props.span, structure]
   )
   const vehicles = useMemo(() => new Set(props.vehicles), [props.vehicles])
   const branches = useMemo(

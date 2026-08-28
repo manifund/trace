@@ -44,12 +44,17 @@ utils/            # format, parse, grant-filters (shared by table + CSV route)
 - **Renames** (Open Philanthropy → Coefficient Giving, LTFF → TAIF, ...) are date-ranged rows in `org_names`, seeded from `data/orgs-seed.json`.
 - **Fiscal sponsorship:** `grants.fiscal_sponsor_org_id` (SFF's Receiving Charity). Recipient is who the money is for.
 - **Dedup:** `dedup.ts` proposes cross-source pairs; decisions live in `data/dedup-resolutions.json` (keyed by provenance keys, so they survive DB rebuilds); `--apply` merges, losers become `superseded`.
+- **Reads:** `getGrants()` in `db/grant.ts` loads every approved grant once per process and memoizes it (10 min, content-hashed `getGrantsVersion()`); server code filters that array in memory, `clearGrants()` runs on suggestion accept. Data pages render a small default view on the server (`firstPaintRows`, first N rows, ...) and pass `version` + `initial` to a client component that does `useGrants(version) ?? initial` — SWR fetches `/grants.json?v=<version>` (immutable) once per browser session and every page shares it. New table = one server page + one client component in that shape.
 - **Grant status:** public pages only see `approved`. `pending` is reserved for future community submissions.
 - Field fixes go in `data/overrides.json` (keyed `source:record_key`), never by editing the DB by hand.
 
 ## Code Style
 
 Same as manifund: oxfmt (no semicolons, single quotes, 2-space), kebab-case files, PascalCase components, `@/` alias.
+
+## Git
+
+Small features and fixes are committed directly to `main`. Only larger, multi-session work gets a feature branch and PR.
 
 ## Site copy
 

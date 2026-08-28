@@ -8,6 +8,7 @@
 // into the checked-in data files so a rebuild reproduces them.
 import { revalidatePath } from 'next/cache'
 import type { Database } from '@/db/database.types'
+import { clearGrants } from '@/db/grant'
 import { createAdminClient } from '@/db/supabase-admin'
 import { getUser, isAdminEmail } from '@/db/supabase-auth'
 import { OrgResolver } from '@/scripts/lib/resolve-org'
@@ -181,6 +182,7 @@ export async function acceptSuggestion(id: string, note: string) {
     })
     .eq('id', id)
     .throwOnError()
+  clearGrants()
   revalidatePath('/edit')
   revalidatePath('/')
 }

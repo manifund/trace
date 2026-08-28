@@ -1,4 +1,4 @@
-import { listGrants } from '@/db/grant'
+import { getGrantsByCause } from '@/db/grant'
 import { toCsvCell } from '@/scripts/lib/csv'
 import { applyFilters, filtersFromParams } from '@/utils/grant-filters'
 
@@ -8,7 +8,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const cause = searchParams.get('cause') ?? 'ai-safety'
   const filters = filtersFromParams(searchParams)
-  const rows = applyFilters(await listGrants(cause), filters)
+  const rows = applyFilters(await getGrantsByCause(cause), filters)
 
   const header = [
     'date',
