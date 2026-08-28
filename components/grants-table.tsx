@@ -134,7 +134,10 @@ export function GrantsTable(props: {
   useEffect(() => {
     try {
       const saved = localStorage.getItem(COLUMNS_KEY)
-      if (saved) setColumnVisibility(JSON.parse(saved))
+      const parsed: unknown = saved ? JSON.parse(saved) : null
+      if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+        setColumnVisibility(parsed as ColumnVisibilityState)
+      }
     } catch {}
   }, [])
   const updateVisibility = (next: ColumnVisibilityState) => {
@@ -202,6 +205,7 @@ export function GrantsTable(props: {
       helper.columns([
         helper.accessor('date', {
           header: 'Date',
+          sortDescFirst: true,
           cell: ({ row }) => (
             <span className="whitespace-nowrap tabular-nums">
               {formatGrantDate(row.original.date, row.original.datePrecision)}
@@ -231,6 +235,7 @@ export function GrantsTable(props: {
         helper.accessor('amountUsd', {
           id: 'amount',
           header: 'Amount',
+          sortDescFirst: true,
           cell: ({ row }) => {
             const grant = row.original
             return (
@@ -359,6 +364,9 @@ export function GrantsTable(props: {
     enableSortingRemoval: false,
     enableMultiSort: false,
     getRowCanExpand: () => true,
+    // `data` changes identity on every "show more"; don't let that collapse
+    // open detail rows (update/setCause reset expanded explicitly).
+    autoResetExpanded: false,
     state: { sorting, columnVisibility, expanded },
     onSortingChange,
     onColumnVisibilityChange: (updater) =>
