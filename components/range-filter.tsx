@@ -1,8 +1,7 @@
 'use client'
 
-import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { Slider } from '@base-ui/react/slider'
-import { Button } from '@/components/ui/button'
+import { FilterCell } from '@/components/filter-cell'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { cn } from '@/lib/utils'
 
@@ -12,7 +11,6 @@ import { cn } from '@/lib/utils'
 export type RangePreset = { label: string; lo: number; hi: number }
 
 export function RangeFilter(props: {
-  label: string
   activeLabel: string | null
   bins: number[]
   value: [number, number]
@@ -20,19 +18,19 @@ export function RangeFilter(props: {
   stopLabel: (index: number) => string
   presets: RangePreset[]
   ariaLabel: string
+  align?: 'left' | 'right'
 }) {
-  const { label, activeLabel, bins, value, onChange, stopLabel, presets, ariaLabel } = props
+  const { activeLabel, bins, value, onChange, stopLabel, presets, ariaLabel, align } = props
   const [lo, hi] = value
   const last = bins.length
   const peak = Math.max(1, ...bins)
 
   return (
     <Popover>
-      <PopoverTrigger render={<Button variant="outline" size="sm" />}>
-        {activeLabel ? <span className="text-brand">{activeLabel}</span> : label}
-        <ChevronDownIcon className="text-muted-foreground" />
+      <PopoverTrigger render={<FilterCell active={activeLabel !== null} align={align} />}>
+        {activeLabel ?? 'Any'}
       </PopoverTrigger>
-      <PopoverContent align="start" className="w-72 gap-3 p-3">
+      <PopoverContent align={align === 'right' ? 'end' : 'start'} className="w-72 gap-3 p-3">
         {/* Thumbs are centered on the track ends, so the chart is inset by
             half a thumb to keep bar edges and stops aligned. */}
         <div className="px-[7px]">

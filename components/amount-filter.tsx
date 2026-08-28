@@ -75,7 +75,6 @@ export function AmountFilter(props: {
 
   return (
     <RangeFilter
-      label="Amount"
       activeLabel={formatAmountRange(min, max)}
       bins={bins}
       value={[tickIndex(min, 0), tickIndex(max, LAST)]}
@@ -88,6 +87,7 @@ export function AmountFilter(props: {
       stopLabel={(i) => (i === 0 || i === LAST ? 'Any' : formatShortUsd(TICKS[i]))}
       presets={PRESETS}
       ariaLabel="Grant amount range"
+      align="right"
     />
   )
 }

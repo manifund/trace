@@ -5,6 +5,7 @@ import { searchInAny } from './parse'
 export type GrantFilters = {
   q: string
   funders: string[]
+  recipients: string[]
   sources: string[]
   yearMin: number | null
   yearMax: number | null
@@ -18,6 +19,7 @@ export type GrantFilters = {
 export const DEFAULT_FILTERS: GrantFilters = {
   q: '',
   funders: [],
+  recipients: [],
   sources: [],
   yearMin: null,
   yearMax: null,
@@ -38,6 +40,7 @@ export function filtersFromParams(params: URLSearchParams): GrantFilters {
   return {
     q: params.get('q') ?? '',
     funders: list('funders'),
+    recipients: list('recipients'),
     sources: list('sources'),
     yearMin: num('yearMin'),
     yearMax: num('yearMax'),
@@ -53,6 +56,7 @@ export function filtersToParams(filters: GrantFilters, cause: string): URLSearch
   if (cause !== 'ai-safety') params.set('cause', cause)
   if (filters.q) params.set('q', filters.q)
   if (filters.funders.length > 0) params.set('funders', filters.funders.join(','))
+  if (filters.recipients.length > 0) params.set('recipients', filters.recipients.join(','))
   if (filters.sources.length > 0) params.set('sources', filters.sources.join(','))
   if (filters.yearMin) params.set('yearMin', String(filters.yearMin))
   if (filters.yearMax) params.set('yearMax', String(filters.yearMax))
@@ -68,6 +72,10 @@ export function applyFilters(rows: GrantRow[], filters: GrantFilters): GrantRow[
   if (filters.funders.length > 0) {
     const set = new Set(filters.funders)
     out = out.filter((row) => set.has(row.funderSlug))
+  }
+  if (filters.recipients.length > 0) {
+    const set = new Set(filters.recipients)
+    out = out.filter((row) => set.has(row.recipientSlug))
   }
   if (filters.sources.length > 0) {
     const set = new Set(filters.sources)

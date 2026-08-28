@@ -60,6 +60,7 @@ export async function queryGrants(query: GrantQuery): Promise<GrantRow[]> {
   let out = applyFilters(rows, {
     q: query.q ?? '',
     funders: [],
+    recipients: [],
     sources: query.sources ?? [],
     yearMin: query.yearMin ?? null,
     amountMin: query.amountMin ?? null,

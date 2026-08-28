@@ -14,8 +14,8 @@ const yearAt = (i: number) => FIRST_YEAR + i
 export function formatYearRange(min: number | null, max: number | null): string | null {
   if (min === null && max === null) return null
   if (min === null) return `Through ${max}`
-  if (max === null) return `${min} – present`
-  return min === max ? String(min) : `${min} – ${max}`
+  if (max === null) return `Since ${min}`
+  return min === max ? String(min) : `${min}–${max}`
 }
 
 const clamp = (i: number) => Math.min(LAST, Math.max(0, i))
@@ -48,7 +48,6 @@ export function DateFilter(props: {
 
   return (
     <RangeFilter
-      label="Date"
       activeLabel={formatYearRange(min, max)}
       bins={bins}
       value={[

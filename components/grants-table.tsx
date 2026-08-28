@@ -7,6 +7,7 @@ import {
   PencilIcon,
   PlusIcon,
 } from '@heroicons/react/16/solid'
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import {
   columnVisibilityFeature,
   createColumnHelper,
@@ -22,17 +23,10 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { Fragment, useEffect, useMemo, useState } from 'react'
 import { AmountFilter } from '@/components/amount-filter'
 import { DateFilter } from '@/components/date-filter'
-import { MultiSelect } from '@/components/multi-select'
+import { ListFilter, type ListOption } from '@/components/list-filter'
 import { useGrants } from '@/components/use-grants'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
 import {
   Table,
   TableBody,
@@ -48,6 +42,7 @@ import { formatGrantDate, formatMoney } from '@/utils/format'
 import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import {
   applyFilters,
+  DEFAULT_FILTERS,
   filtersFromParams,
   filtersToParams,
   type GrantFilters,
@@ -108,6 +103,19 @@ const COLUMN_WIDTHS: Record<string, string> = {
 
 const SORT_KEYS: GrantFilters['sort'][] = ['date', 'amount', 'funder', 'recipient']
 const isSortKey = (id: string): id is GrantFilters['sort'] => (SORT_KEYS as string[]).includes(id)
+
+// Funder/recipient pickers rank orgs by the dollars behind them.
+function orgOptions(rows: GrantRow[], side: 'funder' | 'recipient'): ListOption[] {
+  const byOrg = new Map<string, ListOption>()
+  for (const row of rows) {
+    const slug = side === 'funder' ? row.funderSlug : row.recipientSlug
+    const name = side === 'funder' ? row.funderName : row.recipientName
+    const option = byOrg.get(slug) ?? { value: slug, label: name, usd: 0 }
+    option.usd += row.amountUsd ?? 0
+    byOrg.set(slug, option)
+  }
+  return Array.from(byOrg.values())
+}
 
 function sourceLabel(sourceId: string | null, names: Map<string, string>) {
   if (!sourceId) return '\u2014'
@@ -197,19 +205,10 @@ export function GrantsTable(props: {
     })
   }
 
-  const funderOptions = useMemo(() => {
-    const names = new Map<string, string>()
-    for (const grant of causeRows) names.set(grant.funderSlug, grant.funderName)
-    return Array.from(names.entries())
-      .map(([value, label]) => ({ value, label }))
-      .sort((a, b) => a.label.localeCompare(b.label))
-  }, [causeRows])
-
   const sourceNames = useMemo(
     () => new Map(props.sources.map((source) => [source.id, source.name])),
     [props.sources]
   )
-  const sourceOptions = props.sources.map((source) => ({ value: source.id, label: source.name }))
 
   // Filtering and sorting stay in grant-filters so the CSV route matches
   // exactly; the table runs with manualSorting and only owns the header UI.
@@ -228,6 +227,54 @@ export function GrantsTable(props: {
       applyFilters(causeRows, { ...filters, yearMin: null, yearMax: null }).map((row) => row.date),
     [causeRows, filters]
   )
+  const funderOptions = useMemo(
+    () => orgOptions(applyFilters(causeRows, { ...filters, funders: [] }), 'funder'),
+    [causeRows, filters]
+  )
+  const recipientOptions = useMemo(
+    () => orgOptions(applyFilters(causeRows, { ...filters, recipients: [] }), 'recipient'),
+    [causeRows, filters]
+  )
+  const sourceOptions = useMemo(() => {
+    const usd = new Map<string, number>()
+    for (const row of applyFilters(causeRows, { ...filters, sources: [] })) {
+      if (row.sourceId) usd.set(row.sourceId, (usd.get(row.sourceId) ?? 0) + (row.amountUsd ?? 0))
+    }
+    return props.sources.map((source) => ({
+      value: source.id,
+      label: source.name,
+      usd: usd.get(source.id) ?? 0,
+    }))
+  }, [causeRows, filters, props.sources])
+  // Cause is the page's scope, so its totals come from every cause with the
+  // other filters applied.
+  const causeOptions = useMemo((): ListOption[] => {
+    const scoped = applyFilters(grants, filters)
+    const usd = new Map<string, number>()
+    let all = 0
+    for (const row of scoped) {
+      all += row.amountUsd ?? 0
+      for (const slug of row.causes) usd.set(slug, (usd.get(slug) ?? 0) + (row.amountUsd ?? 0))
+    }
+    return [
+      { value: 'all', label: 'All causes', usd: all },
+      ...CAUSE_OPTIONS.map((option) => ({
+        value: option.slug,
+        label: option.name,
+        usd: usd.get(option.slug) ?? 0,
+        depth: option.depth + 1,
+      })),
+    ]
+  }, [grants, filters])
+  const anyFilter =
+    filters.q !== '' ||
+    filters.funders.length > 0 ||
+    filters.recipients.length > 0 ||
+    filters.sources.length > 0 ||
+    filters.yearMin !== null ||
+    filters.yearMax !== null ||
+    filters.amountMin !== null ||
+    filters.amountMax !== null
   const pageRows = useMemo(() => rows.slice(0, limit), [rows, limit])
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
@@ -419,55 +466,29 @@ export function GrantsTable(props: {
 
   return (
     <div>
-      <div className="mb-3 flex flex-wrap items-center gap-2">
-        <Input
-          type="search"
-          placeholder="Search grants"
-          value={filters.q}
-          onChange={(e) => update({ q: e.target.value })}
-          className="h-7 w-52 text-[0.8rem]"
+      <div className="mb-2 flex items-baseline gap-3">
+        <ListFilter
+          options={causeOptions}
+          selected={[cause]}
+          onChange={([next]) => next && setCause(next)}
+          multi={false}
+          order="given"
+          searchPlaceholder="Search causes"
+          trigger="scope"
         />
-        <MultiSelect
-          label="Funder"
-          options={funderOptions}
-          selected={filters.funders}
-          onChange={(funders) => update({ funders })}
-        />
-        <MultiSelect
-          label="Source"
-          options={sourceOptions}
-          selected={filters.sources}
-          onChange={(sources) => update({ sources })}
-        />
-        <Select value={cause} onValueChange={(v) => v && setCause(v)} modal={false}>
-          <SelectTrigger size="sm">
-            <SelectValue>
-              {cause === 'all'
-                ? 'All causes'
-                : (CAUSE_OPTIONS.find((o) => o.slug === cause)?.name ?? cause)}
-            </SelectValue>
-          </SelectTrigger>
-          <SelectContent alignItemWithTrigger={false}>
-            <SelectItem value="all">All causes</SelectItem>
-            {CAUSE_OPTIONS.map((option) => (
-              <SelectItem key={option.slug} value={option.slug}>
-                <span style={{ paddingLeft: option.depth * 10 }}>{option.name}</span>
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <DateFilter
-          dates={datePool}
-          min={filters.yearMin}
-          max={filters.yearMax}
-          onChange={update}
-        />
-        <AmountFilter
-          amounts={amountPool}
-          min={filters.amountMin}
-          max={filters.amountMax}
-          onChange={update}
-        />
+        <span className="text-sm text-muted-foreground tabular-nums">
+          {rows.length.toLocaleString()} grants · {rows.some((row) => row.amountEstimated) && '~'}
+          {formatMoney(totalUsd)}
+        </span>
+        {anyFilter && (
+          <button
+            type="button"
+            onClick={() => update({ ...DEFAULT_FILTERS, sort: filters.sort, dir: filters.dir })}
+            className="text-xs text-brand hover:underline"
+          >
+            Clear filters
+          </button>
+        )}
         <a href={csvHref} className="caps-label ml-auto">
           CSV
         </a>
@@ -476,7 +497,7 @@ export function GrantsTable(props: {
       <Table className="table-fixed border-y text-[13px]">
         <TableHeader>
           {table.getHeaderGroups().map((group) => (
-            <TableRow key={group.id} className="hover:bg-transparent">
+            <TableRow key={group.id} className="border-b-0! hover:bg-transparent">
               {group.headers.map((header) => {
                 const numeric = NUMERIC_COLUMNS.has(header.column.id)
                 const sortable = header.column.getCanSort()
@@ -509,6 +530,83 @@ export function GrantsTable(props: {
               })}
             </TableRow>
           ))}
+          {/* The filter strip shares the header's fill and sits under it with
+              no rule between, so the two rows read as one thick header. */}
+          <TableRow className="border-b border-ink/30 bg-paper-alt hover:bg-transparent">
+            {table.getVisibleLeafColumns().map((column) => (
+              <TableHead
+                key={column.id}
+                className={cn('h-8 border-l p-0 first:border-l-0', COLUMN_WIDTHS[column.id])}
+              >
+                {column.id === 'date' && (
+                  <DateFilter
+                    dates={datePool}
+                    min={filters.yearMin}
+                    max={filters.yearMax}
+                    onChange={update}
+                  />
+                )}
+                {column.id === 'purpose' && (
+                  <div className="relative">
+                    <MagnifyingGlassIcon
+                      aria-hidden="true"
+                      strokeWidth={2.25}
+                      className={cn(
+                        'pointer-events-none absolute top-2.5 left-2.5 size-3',
+                        filters.q ? 'text-brand' : 'text-ink/30'
+                      )}
+                    />
+                    <Input
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search grants"
+                      value={filters.q}
+                      onChange={(e) => update({ q: e.target.value })}
+                      className={cn(
+                        'h-8 rounded-none border-0 bg-transparent pl-7 text-[12px]! shadow-none placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:ring-inset',
+                        filters.q && 'font-medium text-brand'
+                      )}
+                    />
+                  </div>
+                )}
+                {column.id === 'funder' && (
+                  <ListFilter
+                    options={funderOptions}
+                    selected={filters.funders}
+                    onChange={(funders) => update({ funders })}
+                    multi
+                    searchPlaceholder="Search funders"
+                  />
+                )}
+                {column.id === 'recipient' && (
+                  <ListFilter
+                    options={recipientOptions}
+                    selected={filters.recipients}
+                    onChange={(recipients) => update({ recipients })}
+                    multi
+                    searchPlaceholder="Search recipients"
+                  />
+                )}
+                {column.id === 'amount' && (
+                  <AmountFilter
+                    amounts={amountPool}
+                    min={filters.amountMin}
+                    max={filters.amountMax}
+                    onChange={update}
+                  />
+                )}
+                {column.id === 'source' && (
+                  <ListFilter
+                    options={sourceOptions}
+                    selected={filters.sources}
+                    onChange={(sources) => update({ sources })}
+                    multi
+                    searchPlaceholder="Search sources"
+                  />
+                )}
+              </TableHead>
+            ))}
+          </TableRow>
         </TableHeader>
         <TableBody>
           {table.getRowModel().rows.map((row) => {
@@ -559,17 +657,14 @@ export function GrantsTable(props: {
         </TableBody>
       </Table>
 
-      <div className="mt-2 flex items-baseline gap-4 text-sm text-muted-foreground">
-        <span className="tabular-nums">
-          {rows.length.toLocaleString()} grants · {rows.some((row) => row.amountEstimated) && '~'}
-          {formatMoney(totalUsd)}
-        </span>
-        {limit < rows.length && (
+      {limit < rows.length && (
+        <div className="mt-2 text-sm">
           <Button variant="link" size="sm" className="px-0" onClick={() => setLimit(limit + PAGE)}>
-            Show {Math.min(PAGE, rows.length - limit).toLocaleString()} more
+            Show {Math.min(PAGE, rows.length - limit).toLocaleString()} more of{' '}
+            {rows.length.toLocaleString()}
           </Button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   )
 }
