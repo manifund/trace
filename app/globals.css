@@ -111,7 +111,7 @@
   a {
     color: var(--primary);
   }
-  .gb-table a {
+  table a {
     color: inherit;
   }
   a:hover {
