@@ -48,7 +48,8 @@ export function MultiSelect(props: {
             {shown.map((option) => (
               <CommandItem
                 key={option.value}
-                value={option.label}
+                value={option.value}
+                keywords={[option.label]}
                 onSelect={() => toggle(option.value)}
               >
                 <Checkbox checked={selected.includes(option.value)} tabIndex={-1} />

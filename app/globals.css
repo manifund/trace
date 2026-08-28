@@ -108,6 +108,9 @@
   [role='button']:not(:disabled) {
     cursor: pointer;
   }
+  a {
+    color: var(--primary);
+  }
   a:hover {
     text-decoration: underline;
   }
