@@ -1,0 +1,2735 @@
+{
+  "_comment": "OpenAI Foundation grants. Two programmes report differently: AI Resilience grants are announced individually (only the SecureBio one carries a public figure so far; the Foundation says >$130m is being finalised), while the People-First AI Fund named 208 nonprofits but published only the $40.5m pool. The 208 therefore carry no amount and the pool sits on one aggregate row, so nothing is double counted. Not yet itemised anywhere public: the rest of AI Resilience, the $100m Life Sciences tranche, and the $9.5m People-First second wave.",
+  "grants": [
+    {
+      "recipient": "SecureBio",
+      "amount": 17200000,
+      "currency": "USD",
+      "date": "2026-08-20",
+      "datePrecision": "day",
+      "program": "AI Resilience",
+      "description": "Cutting end-to-end pathogen detection from fourteen days to three, expanding collection, and further validating the detection system. Restricted to SecureBio's Detection team.",
+      "sourceUrl": "https://securebio.org/blog/three-day-early-warning-system/",
+      "causes": [
+        "biosecurity"
+      ]
+    },
+    {
+      "recipient": "3 Dots Downtown",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "3Strands Global Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "AccesSOS",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "African American Community Service Agency",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Afro-American Cultural Center, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "All Star Code Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Alliance For A Better Community",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Amigos Together For Kids, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Arc of Madison County Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Bainbridge Youth Services",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Bay Area Video Coalition, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Be Loud Studios",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Better Youth, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Big Brothers Big Sisters of Idaho",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Black Girls Do Engineer Corporation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Boston Project Ministries Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Boys and Girls Club of Fontana",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Boys and Girls Clubs of Chaves and Lincoln Counties",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Bridge Builders Foundation Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "California Association of African American Superintendents And Admin",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "California Black Womens Collective Empowerment Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "California Rural Legal Assistance Foundation Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Camai Community Health Center, Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Capital B News, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Capitalists For Shared Income",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Center for Asian Americans United For Self-Empowerment, Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Center for Common Ground",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Central Valley Immigrant Integration Collaborative",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Charity Cultural Services Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Chicano Awareness Center Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Childrens Museum Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Chinese Culture Foundation of San Francisco",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Citizens 4 Community, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "City Heights Community Development Corporation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Code Girls United",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "College Dreams",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "College of Adaptive Arts",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Commonwealth Prevention Alliance",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Commún Denver Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Community Interventions",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Comunidades Organizando El Poder Y La Accion Latina Copal Education",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Creative Girls Rock",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Creser Capital Fund",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Culturesource",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Defend Our Health",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Delaware Alliance For Nonprofit Advancement",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Dent Education",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Diakonia",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Dibia Dream Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Digital Democracy Institute of The Americas",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Digital Justice Lab",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Digital NEST Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Divine Truth Unity Fellowship Church Dba Rainbow Pride Youth Alliance",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "DJM Community Outreach",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Dolores Huerta Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Donaldina Cameron House",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Dottie Rose Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "DreamYard Project Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "East Harris County Empowerment Council",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Educacion Para Nuestro Futuro Founded By Escuela Bolivia",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "El Rescate",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "El Sol Neighborhood Educational Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ella Baker Institute Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Emerald South Economic Development Collaborative",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ephrata Public Library",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Eradicate Hate Global Summit",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Esq Apprentice",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "F.Y. Eye, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Fabnewport",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Family Alliance For Counseling Tools & Resolution",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "First Congregational Church Westfield Nj",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Foot Soldiers Park",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Franklin Food Bank",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Free Forever-Latisha’s House Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Grace-Mar Services Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Groundswell Community Mural Project Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Gryphon Place",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Healthy Archuleta Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Heartland Forward, Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Hispanas Organized For Political Equality-California",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Hispanic Center of Western Michigan Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Hollywood 4Wrd",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Homeboy Art Academy Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "If Project",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Illinois Philharmonic Orchestra",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Income Movement Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Income to Support All Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ink People Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Interfaith Community Housing of Delaware, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "International Examiner",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Iola Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "J Herman Bosler Memorial Library Bosler Free Library",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Just Harvest Education Fund",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Keshet Dance Company",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Kidznotes",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Kultivate Labs",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "La Cocina",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Laborers’ Community Service And Training Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Legal Aid Society of San Bernardino",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Liberated Success, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Lights Camera Discover",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Little Brothers-Friends of The Elderly",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Loaves, Fishes, & Computers, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Long Beach Journalism Initiative Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Los Angeles Public Press",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Make A Day Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Make Projects",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Maui Roots Reborn",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Mckinleyville Community Collaborative",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Media Arts Center San Diego",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Merge Opportunities Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Merrick Community Services",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Midtown Utica Community Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Mile High Ministries",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Milpa",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ministries of Grace, Inc. - Ga",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Mockingbird Society",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Mongabayorg Corporation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Moveius Contemporary Ballet Dba Dance Loft On 14",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Muralism",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "National Crime Victim Law Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "National Institute for Workers’ Rights",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Native American Journalists Association",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Navigate the Maze to Achievement",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Neighbor to Neighbor Ministries",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Neutral Zone",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Northern California Educational Television Assn, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Northern Nevada Literacy Council",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "NYTAG Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "One Media",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Only7Seconds",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Openhouse",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Oregon Entrepreneurs Forum",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "PawsWithCause",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "PICO California",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Playa Vista Job Opportunities and Business Services",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "PRO Youth and Families, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Program for Female Offenders of South Central Pennsylvania Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Progress for Good Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Project Equity",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Public Health Advocates",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Public Housing Community Fund",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Radio Bilingue, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Reach Out West End Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ready to Succeed",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Reality Changers",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Red Hook Art Project, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Restore Hope Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Rural Opportunity Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Sacramento Youth Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Safe Harbor Coronado",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Safe Organized Spaces Richmond",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Library Foundation SD",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "San Francisco Information Clearinghouse",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "San Francisco Women’s Centers",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Seal Future Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Service to School",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Sigma Beta Xi, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Sikh American Legal Defense And Education Fund",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Silence the Shame, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Siskiyou County Job Council",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Social Creatures Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Social Enterprise Greenhouse",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Social Justice Learning Institute Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "South End Community Outreach Ministry",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Sova Innovation Hub Corporation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Spanish Speaking Citizens Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Springboard to Opportunities",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "St Ann’s Warehouse Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "STEM From Dance, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "STEMarts Lab",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Suicide Prevention Coalition of Eagle Valley",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Forbes Funds",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Giving Kitchen Initiative, Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Kelsey",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Knowledge House Fellowship Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Lighthouse Black Girl Project",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Lunar Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Martin Luther King Jr Center for Nonviolent Social Change",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The National Federation for Just Communities of Western New York",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The News Literacy Project",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Source LGBT+ Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Stories of Us, Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Synod of The Covenant Presbyterian Church Usa",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Theatresquared",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Three Rivers Young Peoples Orchestras",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Tomorrows Leaders NYC",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Transgender District Company",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Tribal Education Departments National Assembly",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Two River Times Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Upsolve Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Urgent, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Valley Initiative For Development And Advancement",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Valley Onward",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Veggielution",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Veterans For All Voters",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Voices of Pacific Island Nations",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Warriors & Quiet Waters Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Welcoming Center For New Pennsylvanians",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Women of Color On the Move",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Women on The Rise GA",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Women’s Economic Self-Sufficiency Team Corp",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Worcester Youth Center, Inc.",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Youth 2 Leaders Education Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Youth Action Programs And Homes Inc",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Youth Law Center",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "YouthBeat",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "YWCA Greater Pittsburgh",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "Unrestricted grant, first wave. OpenAI Foundation did not publish per-grantee amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Unknown Recipients",
+      "amount": 40500000,
+      "currency": "USD",
+      "date": "2025-12-03",
+      "datePrecision": "day",
+      "program": "People-First AI Fund",
+      "description": "$40.5m in unrestricted grants split across the 208 nonprofits listed on this page; the Foundation published the pooled total only. Those 208 are recorded individually with undisclosed amounts.",
+      "sourceUrl": "https://openai.com/index/people-first-ai-fund-grantees/",
+      "causes": [
+        "other"
+      ]
+    }
+  ]
+}

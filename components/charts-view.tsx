@@ -37,7 +37,7 @@ function CauseSelect(props: { value: string; onChange: (v: string) => void }) {
     <select
       value={props.value}
       onChange={(e) => props.onChange(e.target.value)}
-      className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+      className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
     >
       <option value="all">All causes</option>
       {CAUSE_OPTIONS.map((cause) => (
@@ -83,7 +83,7 @@ function BranchSelect(props: { value: string; onChange: (v: string) => void }) {
     <select
       value={props.value}
       onChange={(e) => props.onChange(e.target.value)}
-      className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+      className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
     >
       <option value="ai-safety">AI safety</option>
       {CAUSE_TREE.filter((node) => node.parent === 'ai-safety').map((node) => (
@@ -280,7 +280,7 @@ export function ChartsView(props: { grants?: GrantRow[]; version?: string }) {
   return (
     <div className="flex flex-col gap-10">
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Funding by year</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Funding by year</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <CauseSelect value={barCause} onChange={setBarCause} />
           <MultiSelect
@@ -304,12 +304,12 @@ export function ChartsView(props: { grants?: GrantRow[]; version?: string }) {
       </section>
 
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Cumulative funding, compared</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Cumulative funding, compared</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <select
             value={lineGroup}
             onChange={(e) => setLineGroup(e.target.value as never)}
-            className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+            className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
           >
             <option value="funder">Lines: funders</option>
             <option value="cause">Lines: causes</option>
@@ -329,7 +329,7 @@ export function ChartsView(props: { grants?: GrantRow[]; version?: string }) {
           <select
             value={lineCount}
             onChange={(e) => setLineCount(Number(e.target.value))}
-            className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+            className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
           >
             {[5, 8, 10].map((n) => (
               <option key={n} value={n}>
@@ -347,12 +347,12 @@ export function ChartsView(props: { grants?: GrantRow[]; version?: string }) {
       </section>
 
       <section>
-        <h2 className="mb-1 font-serif text-lg font-bold">Funding share</h2>
+        <h2 className="mb-1 font-display text-lg font-bold">Funding share</h2>
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <select
             value={pieGroup}
             onChange={(e) => setPieGroup(e.target.value as never)}
-            className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+            className="rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm"
           >
             <option value="cause">By cause</option>
             <option value="subcause">By AI safety subcause</option>

@@ -12,6 +12,7 @@ import { invalidateSnapshot } from '@/db/snapshot'
 import { createAdminClient } from '@/db/supabase-admin'
 import { getUser, isAdminEmail } from '@/db/supabase-auth'
 import { OrgResolver } from '@/scripts/lib/resolve-org'
+import { withAncestors } from '@/scripts/lib/causes'
 import { sha256 } from '@/scripts/lib/normalize'
 
 type Payload = Record<string, string>
@@ -20,6 +21,51 @@ async function requireAdmin() {
   const user = await getUser()
   if (!isAdminEmail(user?.email)) throw new Error('Not authorized')
   return user!
+}
+
+const splitList = (raw: string) =>
+  raw
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean)
+
+// Replace a grant's vias with the suggested ones. Suggesters give names, so
+// each is resolved the same way ingestion resolves them.
+async function applyVias(
+  db: ReturnType<typeof createAdminClient>,
+  grantId: string,
+  names: string[]
+) {
+  const resolver = await OrgResolver.load(db)
+  await db.from('grant_vias').delete().eq('grant_id', grantId).throwOnError()
+  for (const name of names) {
+    const orgId = await resolver.resolve(name, 'fund')
+    await db
+      .from('grant_vias')
+      .upsert({ grant_id: grantId, via_org_id: orgId }, { ignoreDuplicates: true })
+      .throwOnError()
+  }
+}
+
+// Cause tags are stored with every ancestor, so filtering on any level of the
+// tree works — the same rule ingestion follows.
+async function applyCauses(
+  db: ReturnType<typeof createAdminClient>,
+  grantId: string,
+  slugs: string[]
+) {
+  const { data: areas } = await db.from('cause_areas').select('id, slug').throwOnError()
+  const idBySlug = new Map((areas ?? []).map((area) => [area.slug, area.id]))
+  const ids = withAncestors(slugs)
+    .map((slug) => idBySlug.get(slug))
+    .filter((id): id is string => Boolean(id))
+  await db.from('grant_cause_areas').delete().eq('grant_id', grantId).throwOnError()
+  if (ids.length > 0) {
+    await db
+      .from('grant_cause_areas')
+      .insert(ids.map((causeAreaId) => ({ grant_id: grantId, cause_area_id: causeAreaId })))
+      .throwOnError()
+  }
 }
 
 function parseDate(raw: string): { date: string; precision: 'day' | 'month' | 'year' } | null {
@@ -70,6 +116,10 @@ export async function acceptSuggestion(id: string, note: string) {
       patch.recipient_org_id = await resolver.resolve(payload.recipient_name, 'organization')
     if (Object.keys(patch).length > 0)
       await db.from('grants').update(patch).eq('id', suggestion.grant_id).throwOnError()
+    if (payload.via_names !== undefined)
+      await applyVias(db, suggestion.grant_id, splitList(payload.via_names))
+    if (payload.causes !== undefined)
+      await applyCauses(db, suggestion.grant_id, splitList(payload.causes))
   } else {
     const resolver = await OrgResolver.load(db)
     const funderId = await resolver.resolve(payload.funder_name, 'organization')
@@ -117,6 +167,8 @@ export async function acceptSuggestion(id: string, note: string) {
       .from('grant_sources')
       .insert({ grant_id: grant.id, source_record_id: record.id, is_primary: true })
       .throwOnError()
+    if (payload.via_names) await applyVias(db, grant.id, splitList(payload.via_names))
+    if (payload.causes) await applyCauses(db, grant.id, splitList(payload.causes))
   }
 
   await db
@@ -131,7 +183,7 @@ export async function acceptSuggestion(id: string, note: string) {
     .eq('id', id)
     .throwOnError()
   invalidateSnapshot()
-  revalidatePath('/suggestions')
+  revalidatePath('/edit')
   revalidatePath('/', 'layout')
 }
 
@@ -149,5 +201,5 @@ export async function rejectSuggestion(id: string, note: string) {
     .eq('id', id)
     .eq('status', 'pending')
     .throwOnError()
-  revalidatePath('/suggestions')
+  revalidatePath('/edit')
 }

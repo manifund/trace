@@ -1959,6 +1959,9 @@
         "University of California, Berkeley"
       ]
     },
+    "fli:f0971c8bf755dc3970c8d5e16ddab425ba3c71c01d5662f7085cef1dab99db98": {
+      "recipient_name": "METR"
+    },
     "foresight:05eb59341233a543fde1ffe1e583322b8e2dc5eaa596f8b01d09bfb06f2cd9c4": {
       "recipient_name": "Roman Bauer",
       "via_names": [
@@ -2196,6 +2199,12 @@
         "University of Cambridge"
       ]
     },
+    "jaan_online:162b0784f879de6d6fe67fe78798497c8cd3853fb103353048e23b465d6002a7": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
+      ]
+    },
     "jaan_online:1b2b977a4bde9915941a0f7f7dd56730bdde63a0d3a6ab0a876dcddf26ec4bed": {
       "note": "Paid to Social and Environmental Entrepreneurs; the grant was for Global Catastrophic Risk Institute (BERI-era regrant)",
       "recipient_name": "Global Catastrophic Risk Institute",
@@ -2296,6 +2305,12 @@
       "recipient_name": "Agent Foundations Field Network",
       "fiscal_sponsor_name": "Ashgro, Inc."
     },
+    "jaan_online:3f6db696ba35f4c9abeab88d68a9f008240caca153db7212c498c53aba7bf076": {
+      "recipient_name": "Elizabeth Van Nostrand",
+      "via_names": [
+        "Center for Applied Rationality"
+      ]
+    },
     "jaan_online:432dc270e0203238bc57ab1ce399a101a74bac3db177cefcc22d9c4c5222fc5d": {
       "recipient_name": "Stanford Existential Risks Initiative",
       "via_names": [
@@ -2322,9 +2337,21 @@
       "recipient_name": "AI Impacts",
       "fiscal_sponsor_name": "Machine Intelligence Research Institute"
     },
+    "jaan_online:4c36a9eeb49157b847a6e4998c2728661de893422ed453d8bf25cde80d7c2e98": {
+      "recipient_name": "Long-Term Future Fund",
+      "via_names": [
+        "Centre for Effective Altruism"
+      ]
+    },
     "jaan_online:4c61e1f18ec6e558be9703aaa51fcdefad73ec0fd14fb14a8cd3f161cca52051": {
       "note": "Paid to Sarah D Spikes; the grant was for Berkeley REACH (BERI-era regrant)",
       "recipient_name": "Berkeley REACH"
+    },
+    "jaan_online:50a991a14260a3a09d7147f82eefea94986447985abbe0251a9308000fcf0976": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
+      ]
     },
     "jaan_online:59f9cfbef8d0db619f887f2646249fc642a70757c421bbf7508134e65abcae88": {
       "recipient_name": "Claudia Shi",
@@ -2338,6 +2365,12 @@
       "via_names": [
         "Solenum Foundation",
         "University of Cambridge"
+      ]
+    },
+    "jaan_online:5d77b385cafe114575cfb87ea5a2b4ad2b6c7881593a34cc3478ac92882fa14a": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
       ]
     },
     "jaan_online:6040c54d2545706e52207dea1eb4f8bb0ecdb8a495fb0db2bf12133154cef73e": {
@@ -2485,6 +2518,12 @@
         "University of Oxford"
       ]
     },
+    "jaan_online:a86a5ca6b9715bbca16032c45d21f946913d44ba9ea671e923ee76819fe652db": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
+      ]
+    },
     "jaan_online:ab0b435b4561905b95cd5fb4229eaf013471e6782de1042783b2bf82173be7a5": {
       "recipient_name": "Claudia Shi",
       "via_names": [
@@ -2504,6 +2543,12 @@
       "via_names": [
         "Lightspeed Grants",
         "Massachusetts Institute of Technology"
+      ]
+    },
+    "jaan_online:b0c500cbb57aec1d1fd4380666c2fa838dbee976ad9d25e6ed88208c40be6b73": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
       ]
     },
     "jaan_online:b4add5330e32db3ed18f892ec0513d8a156f146e5cda44be1767051ffeb9baee": {
@@ -2530,6 +2575,12 @@
     "jaan_online:bccb4d08ff47b9d4be1818c0e85d5685dd4a10b63c303911e598ba03bbdd9d87": {
       "recipient_name": "Jeremy Gillen",
       "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:c342f52b21d8d8e082866afa878f55e9885d05da22a6d345e1e723b05c801aa5": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
+      ]
     },
     "jaan_online:cae50014b2dc48c08ef7a1d58b09247a0e45ab9a8c7eba650c149bf169a3832d": {
       "recipient_name": "Future of Humanity Institute",
@@ -2561,6 +2612,12 @@
       "via_names": [
         "Solenum Foundation",
         "University of Oxford"
+      ]
+    },
+    "jaan_online:d98f4abf415552effd07e29d8af9274aca02c67f382e5dfc6394c52934984148": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
       ]
     },
     "jaan_online:daa2fc6e9b6b2d6b5f13a1a4d33c63d7b029413b21610182a89c3a19e9d86001": {
@@ -2623,6 +2680,9 @@
       "recipient_name": "AI Safety Info",
       "fiscal_sponsor_name": "Ashgro, Inc."
     },
+    "jaan_online:ecf90e7194cb115b2147e976db188ab5db4800df1d67807e34941ce63f9bbc07": {
+      "recipient_name": "METR"
+    },
     "jaan_online:ed2df430017b4f056a6cb9be1d3516cd386831e1867a0198d3d01d0b8ab1267b": {
       "recipient_name": "Future of Humanity Institute",
       "via_names": [
@@ -2632,6 +2692,12 @@
     "jaan_online:f1db4deb6b6c1e1caac41b0f9216845d2169b27d5aabf6ed1ca7e0dfe80965e8": {
       "recipient_name": "Human Agency Bench",
       "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:f7a5cd19590d4d028bbf8c487b6a99d1bd41a94329168fadc3ec3970e6d72119": {
+      "recipient_name": "Long-Term Future Fund",
+      "via_names": [
+        "Centre for Effective Altruism"
+      ]
     },
     "jaan_online:f85daa8b6562f06ecf8b9638f8768c61fb5dbeaa4adcfb02d073274e7988e9a1": {
       "recipient_name": "Centre for the Study of Existential Risk",
@@ -2652,6 +2718,12 @@
       "via_names": [
         "Solenum Foundation",
         "University of Oxford"
+      ]
+    },
+    "jaan_online:fc95a9e5b8ffd245c39dc6cb3fd83ad0d2e8270e4fc661944e0e292c07b1a7ea": {
+      "recipient_name": "Lightcone Infrastructure",
+      "via_names": [
+        "Center for Applied Rationality"
       ]
     },
     "longview:36acc97d8825476683a65f9cb79896b361dc187d20991ac3fcf2ec23303e4ca1": {
@@ -2695,6 +2767,16 @@
     "manifund:f60c8432-db34-65e9-b44e-cbadd8b5f02a": {
       "note": "Ryan Kidd's 'MATS Program' Manifund project — grants belong to MATS Research",
       "recipient_name": "MATS Research"
+    },
+    "sff:5643b4319b8f758e2912c925103e0c9556e0820b8ca46a22b64d283c61e159fc": {
+      "recipient_name": "Center for Human-Compatible AI"
+    },
+    "sff:a05897de3214f686b85ee627c9453fb1fc29e2045b7c8e41476d533b21d91fbe": {
+      "recipient_name": "Safe AI for Humanity",
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Mila"
+      ]
     },
     "sff:ae995ce2cef242d56ce5382545291f3e4aebfd6e264602bfd53cc696a2da4f0f": {
       "recipient_name": "Roman Yampolskiy",

@@ -7,9 +7,9 @@ export default async function Page() {
   return (
     <div className="max-w-3xl">
       <p className="mb-4">
-        Trace compiles data on donations from a variety of sources. The code is open-source and
-        can be seen at <a href="https://github.com/manifund/trace">GitHub</a>. The compilation
-        is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>;
+        Trace compiles data on donations from a variety of sources. The code is open-source and can
+        be seen at <a href="https://github.com/manifund/trace">GitHub</a>. The compilation is
+        released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>;
         underlying records come from the listed sources.
       </p>
       <p className="mb-4">
@@ -30,7 +30,7 @@ export default async function Page() {
         predecessor to this site and source for some of the data. At his request, we would like to
         caveat that data from his site is preliminary and has not been completely vetted.
       </p>
-      <h1 className="mb-4 font-serif text-2xl font-bold">Sources</h1>
+      <h1 className="mb-4 font-display text-2xl font-bold">Sources</h1>
       <div className="overflow-x-auto">
         <table className="gb-table">
           <thead>

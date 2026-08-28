@@ -46,7 +46,7 @@
     "Nutrition International - 7/25/2023": "nutrition-international",
     "Council on Strategic Risks (Nuclear Weapons Policy Work)": "council-on-strategic-risks",
     "Council on Strategic Risks (featured/advised support)": "council-on-strategic-risks",
-    "Alignment Research Center (Evals Team)": "alignment-research-center",
+    "Alignment Research Center (Evals Team)": "model-evaluation-and-threat-research",
     "The Albert Schweitzer Foundation in Germany": "albert-schweitzer-foundation",
     "Albert Schweitzer Foundation for Our Contemporaries": "albert-schweitzer-foundation",
     "Center for Applied Rationality (CFAR)": "center-for-applied-rationality",
@@ -317,6 +317,23 @@
     "Clarity AI Research Inc.": "transluce",
     "Clarity AI Research": "transluce",
     "Agent Foundations Field Network": "agent-foundations-field-network-affine",
-    "Agent Foundations FIeld NEtwork": "agent-foundations-field-network-affine"
+    "Agent Foundations FIeld NEtwork": "agent-foundations-field-network-affine",
+    "SecureDNA Foundation": "securedna",
+    "SecureDNA Stiftung": "securedna",
+    "HitRecord AI Safety Project LLC": "hitrecord"
+  },
+  "_byRoleComment": "Same crosswalk, but only for one side of a grant. Needed where a source uses one label for both: EA Funds writes \"(Anonymous)\" for a grantee who asked not to be named, while Manifund and Vipul write it for a donor who did. A plain alias would send both to the same org and mislabel one of them.",
+  "byRole": {
+    "recipient": {
+      "(Anonymous)": "various-recipients",
+      "Undisclosed donations": "various-recipients"
+    },
+    "funder": {
+      "(Anonymous)": "various-donors"
+    }
+  },
+  "_mergesComment": "Two curated orgs that are one body: loser slug -> surviving slug. Applied by seed, which repoints grants and vias, keeps the loser's names as aliases of the survivor, and deletes it. Idempotent: once merged the loser is gone and the entry is a no-op. Use this only for orgs a human has reviewed; unreviewed duplicates merge automatically through the alias map above.",
+  "merges": {
+    "microsoft-corporation": "microsoft"
   }
 }

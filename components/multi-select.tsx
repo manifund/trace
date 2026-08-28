@@ -1,10 +1,20 @@
 'use client'
 
-import { Popover } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { useState } from 'react'
+import { Button } from '@/components/ui/button'
+import {
+  Command,
+  CommandEmpty,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from '@/components/ui/command'
+import { Checkbox } from '@/components/ui/checkbox'
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 
-const MAX_SHOWN = 250
+// Rendering every funder makes the popover sluggish; show the first few matches.
+const MAX_SHOWN = 40
 
 export function MultiSelect(props: {
   label: string
@@ -17,49 +27,49 @@ export function MultiSelect(props: {
   const q = query.trim().toLowerCase()
   const matches = q ? options.filter((o) => o.label.toLowerCase().includes(q)) : options
   const shown = matches.slice(0, MAX_SHOWN)
+  const toggle = (value: string) =>
+    onChange(selected.includes(value) ? selected.filter((v) => v !== value) : [...selected, value])
   return (
-    <Popover className="relative">
-      <Popover.Button className="flex items-center gap-1 rounded border border-rule bg-paper-alt px-2 py-1 text-sm">
+    <Popover>
+      <PopoverTrigger render={<Button variant="outline" size="sm" />}>
         {label}
-        {selected.length > 0 && <span className="text-accent">({selected.length})</span>}
-        <ChevronDownIcon className="h-4 w-4 text-ink-muted" />
-      </Popover.Button>
-      <Popover.Panel className="absolute z-10 mt-1 max-h-72 w-64 overflow-y-auto rounded border border-rule bg-paper p-2 shadow-none">
-        <div className="mb-1 flex items-center gap-2">
-          <input
-            type="search"
+        {selected.length > 0 && <span className="text-brand">({selected.length})</span>}
+        <ChevronDownIcon className="text-muted-foreground" />
+      </PopoverTrigger>
+      <PopoverContent align="start" className="w-64 p-0">
+        <Command shouldFilter={false}>
+          <CommandInput
+            placeholder={`Search ${label.toLowerCase()}s`}
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search"
-            autoFocus
-            className="w-full rounded border border-rule bg-paper-alt px-2 py-0.5 text-sm"
+            onValueChange={setQuery}
           />
+          <CommandList>
+            <CommandEmpty>No matches.</CommandEmpty>
+            {shown.map((option) => (
+              <CommandItem
+                key={option.value}
+                value={option.label}
+                onSelect={() => toggle(option.value)}
+              >
+                <Checkbox checked={selected.includes(option.value)} tabIndex={-1} />
+                <span className="truncate">{option.label}</span>
+              </CommandItem>
+            ))}
+            {matches.length > MAX_SHOWN && (
+              <p className="px-2 py-1.5 text-xs text-muted-foreground">
+                +{matches.length - MAX_SHOWN} more — keep typing
+              </p>
+            )}
+          </CommandList>
           {selected.length > 0 && (
-            <button className="text-xs text-accent" onClick={() => onChange([])}>
-              clear
-            </button>
+            <div className="border-t p-1">
+              <Button variant="ghost" size="xs" className="w-full" onClick={() => onChange([])}>
+                Clear
+              </Button>
+            </div>
           )}
-        </div>
-        {shown.map((option) => (
-          <label key={option.value} className="flex items-center gap-2 py-0.5 text-sm">
-            <input
-              type="checkbox"
-              checked={selected.includes(option.value)}
-              onChange={(e) =>
-                onChange(
-                  e.target.checked
-                    ? [...selected, option.value]
-                    : selected.filter((v) => v !== option.value)
-                )
-              }
-            />
-            <span className="truncate">{option.label}</span>
-          </label>
-        ))}
-        {matches.length > MAX_SHOWN && (
-          <p className="py-0.5 text-xs text-ink-muted">+{matches.length - MAX_SHOWN} more</p>
-        )}
-      </Popover.Panel>
+        </Command>
+      </PopoverContent>
     </Popover>
   )
 }

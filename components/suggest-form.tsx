@@ -5,7 +5,9 @@
 // requires user_id = auth.uid()), so no server action is needed.
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { createClientSupabase } from '@/db/supabase-browser'
+import { submitSuggestion } from '@/app/suggest/actions'
+import { MultiSelect } from '@/components/multi-select'
+import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
 export type ExistingGrant = {
@@ -17,25 +19,35 @@ export type ExistingGrant = {
   datePrecision: 'day' | 'month' | 'year' | null
   description: string | null
   url: string | null
+  viaNames: string[]
+  causes: string[]
 }
 
+// Only the date says what shape it wants, because that one is not guessable.
 const FIELDS = [
-  { key: 'funder_name', label: 'Funder', placeholder: 'Organization or person giving the money' },
-  { key: 'recipient_name', label: 'Recipient', placeholder: 'Who received it' },
-  { key: 'amount_usd', label: 'Amount (USD)', placeholder: '250000' },
+  { key: 'funder_name', label: 'Funder', placeholder: '' },
+  { key: 'recipient_name', label: 'Recipient', placeholder: '' },
+  { key: 'via_names', label: 'Via (optional)', placeholder: '' },
+  { key: 'amount_usd', label: 'Amount (USD)', placeholder: '' },
   { key: 'grant_date', label: 'Date', placeholder: 'YYYY-MM-DD, YYYY-MM or YYYY' },
-  { key: 'description', label: 'Purpose', placeholder: 'What the grant is for' },
-  { key: 'url', label: 'Grant page', placeholder: 'Link to the grant on the funder’s site' },
+  { key: 'description', label: 'Purpose', placeholder: '' },
 ] as const
 
+// Indent the tree so the sub-causes read as sub-causes.
+const CAUSE_CHOICES = CAUSE_OPTIONS.map((option) => ({
+  value: option.slug,
+  label: `${'\u00a0\u00a0'.repeat(option.depth)}${option.name}`,
+}))
+
 const label = 'block text-sm font-sans text-ink-muted'
-const input = 'w-full rounded border border-rule bg-paper px-2 py-1'
+const input = 'w-full rounded-sm border border-rule bg-paper px-2 py-1'
 
 export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: boolean }) {
   const router = useRouter()
   const kind = props.grant ? 'edit' : 'new'
   const [values, setValues] = useState<Record<string, string>>({})
-  const [sourceUrl, setSourceUrl] = useState('')
+  const [causes, setCauses] = useState<string[]>(props.grant?.causes ?? [])
+  const [sourceUrl, setSourceUrl] = useState(props.grant?.url ?? '')
   const [comment, setComment] = useState('')
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -55,8 +67,8 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
         return g.date ?? ''
       case 'description':
         return g.description ?? ''
-      case 'url':
-        return g.url ?? ''
+      case 'via_names':
+        return g.viaNames.join(', ')
       default:
         return ''
     }
@@ -73,6 +85,19 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
       if (kind === 'edit' && value === current(field.key).trim()) continue
       payload[field.key] = value
     }
+    // One link field, not two: it is the grant's page and the thing a
+    // reviewer checks, and asking twice got the same URL pasted twice.
+    const link = sourceUrl.trim()
+    if (link && !(kind === 'edit' && link === (props.grant?.url ?? '').trim())) {
+      payload.url = link
+    }
+    // The picker starts from the grant's current tags, so an edit sends
+    // whenever the set differs — including down to none, which is how a
+    // wrongly-tagged grant gets cleared.
+    const causeKey = causes.join(',')
+    if (kind === 'edit' ? causeKey !== (props.grant?.causes ?? []).join(',') : causes.length > 0) {
+      payload.causes = causeKey
+    }
     if (Object.keys(payload).length === 0) {
       setError(kind === 'edit' ? 'Change at least one field.' : 'Fill in at least one field.')
       return
@@ -82,27 +107,16 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
       return
     }
     setBusy(true)
-    const supabase = createClientSupabase()
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    if (!user) {
-      setBusy(false)
-      setError('Your session expired — sign in again.')
-      return
-    }
-    const { error: insertError } = await supabase.from('suggestions').insert({
-      user_id: user.id,
-      user_email: user.email ?? null,
+    const { error: submitError } = await submitSuggestion({
       kind,
-      grant_id: props.grant?.id ?? null,
+      grantId: props.grant?.id ?? null,
       payload,
-      source_url: sourceUrl.trim() || null,
+      sourceUrl: sourceUrl.trim() || null,
       comment: comment.trim() || null,
     })
     setBusy(false)
-    if (insertError) {
-      setError(insertError.message)
+    if (submitError) {
+      setError(submitError)
       return
     }
     setDone(true)
@@ -111,16 +125,15 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
 
   if (done)
     return (
-      <p className="rounded border border-rule bg-paper-alt p-3">
-        Thanks — your suggestion is queued for review. See it on the{' '}
-        <a href="/suggestions">suggestions page</a>.
+      <p className="rounded-sm border border-rule bg-paper-alt p-3">
+        Thanks — your suggestion is queued for review. See it on the <a href="/edit">edit page</a>.
       </p>
     )
 
   return (
     <form onSubmit={submit} className="flex max-w-2xl flex-col gap-3">
       {props.grant && (
-        <div className="rounded border border-rule bg-paper-alt p-3 text-sm">
+        <div className="rounded-sm border border-rule bg-paper-alt p-3 text-sm">
           Editing: <strong>{props.grant.funderName}</strong> → {props.grant.recipientName} ·{' '}
           {formatMoney(props.grant.amountUsd)} ·{' '}
           {formatGrantDate(props.grant.date, props.grant.datePrecision)}
@@ -145,13 +158,30 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
         </div>
       ))}
       <div>
+        <span className={label}>
+          Cause areas
+          {props.grant && props.grant.causes.length > 0 && (
+            <span className="ml-2 text-xs">
+              now: {displayCauses(props.grant.causes).join(', ')}
+            </span>
+          )}
+        </span>
+        <div className="mt-1">
+          <MultiSelect
+            label={causes.length > 0 ? 'Cause areas' : 'Choose cause areas'}
+            options={CAUSE_CHOICES}
+            selected={causes}
+            onChange={setCauses}
+          />
+        </div>
+      </div>
+      <div>
         <label className={label} htmlFor="source_url">
           Source link
         </label>
         <input
           id="source_url"
           className={input}
-          placeholder="Where this can be verified — optional, but it speeds up review"
           value={sourceUrl}
           onChange={(e) => setSourceUrl(e.target.value)}
         />
@@ -168,12 +198,12 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
           onChange={(e) => setComment(e.target.value)}
         />
       </div>
-      {error && <p className="text-sm text-[var(--s4)]">{error}</p>}
+      {error && <p className="text-sm text-(--s4)">{error}</p>}
       <div>
         <button
           type="submit"
           disabled={busy || !props.signedIn}
-          className="rounded border border-rule bg-paper-alt px-3 py-1 disabled:opacity-50"
+          className="rounded-sm border border-rule bg-paper-alt px-3 py-1 disabled:opacity-50"
         >
           {busy ? 'Submitting…' : 'Submit suggestion'}
         </button>

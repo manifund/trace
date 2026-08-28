@@ -1,24 +1,14 @@
-import { Suspense } from 'react'
-import { GrantsTable } from '@/components/grants-table'
-import { SSR_ROWS, USE_SNAPSHOT } from '@/db/flags'
-import { listGrants, listSources } from '@/db/grant'
-import { getSnapshot } from '@/db/snapshot'
+import { TreemapView } from '@/components/treemap-view'
+import { listGrants } from '@/db/grant'
+import { listVehicleSlugs } from '@/db/org'
+import { toFlowRows, yearSpan } from '@/utils/flow'
 
 export const revalidate = 600
 
-// Statically rendered (ISR). With the snapshot on, the HTML carries only the
-// first screen of rows and the browser loads the full dataset once; every
-// filter, including cause, applies client-side either way.
+// Where the money sits, as area: funders across the canvas, what each of them
+// funded nested inside. The full grants table is at /grants.
 export default async function Page() {
-  const [grants, sources] = await Promise.all([listGrants('all'), listSources()])
-  const version = USE_SNAPSHOT ? (await getSnapshot()).version : null
-  return (
-    <Suspense>
-      <GrantsTable
-        grants={version ? grants.slice(0, SSR_ROWS) : grants}
-        version={version}
-        sources={sources.filter((source) => source.last_ingested_at !== null)}
-      />
-    </Suspense>
-  )
+  const [grants, vehicles] = await Promise.all([listGrants('all'), listVehicleSlugs()])
+  const rows = toFlowRows(grants)
+  return <TreemapView rows={rows} span={yearSpan(rows)} vehicles={vehicles} />
 }

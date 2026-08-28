@@ -3,7 +3,8 @@ import { z } from 'zod'
 import { queryGrants } from '@/db/api'
 import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
-import { createPublicSupabaseClient } from '@/db/supabase-server'
+import { getSnapshot } from '@/db/snapshot'
+import { expandNameIndex } from '@/utils/snapshot'
 import { CAUSE_TREE } from '@/utils/cause-tree'
 
 export const maxDuration = 60
@@ -74,14 +75,10 @@ const handler = createMcpHandler((server) => {
       inputSchema: z.object({ name: z.string() }),
     },
     async ({ name }) => {
-      const supabase = createPublicSupabaseClient()
-      const { data } = await supabase
-        .from('org_names')
-        .select('orgs!inner(slug)')
-        .ilike('name', `%${name.replace(/[%_\\]/g, '\\$&')}%`)
-        .limit(1)
-        .throwOnError()
-      const slug = (data as never as { orgs: { slug: string } }[])[0]?.orgs?.slug
+      const needle = name.toLowerCase()
+      const slug = expandNameIndex(await getSnapshot()).find(([alias]) =>
+        alias.toLowerCase().includes(needle)
+      )?.[1]
       if (!slug) return json({ error: `No organization matching "${name}"` })
       const org = await getOrgBySlug(slug)
       if (!org) return json({ error: `No organization matching "${name}"` })

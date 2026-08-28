@@ -85,10 +85,10 @@ export function OrgSearch() {
           }
         }}
         placeholder="Search orgs"
-        className="w-44 rounded border border-rule bg-paper-alt px-2 py-1 text-sm sm:w-56"
+        className="w-44 rounded-sm border border-rule bg-paper-alt px-2 py-1 text-sm sm:w-56"
       />
       {open && results.length > 0 && (
-        <ul className="absolute right-0 z-20 mt-1 w-72 rounded border border-rule bg-paper py-1 text-sm">
+        <ul className="absolute right-0 z-20 mt-1 w-72 rounded-sm border border-rule bg-paper py-1 text-sm">
           {results.map((r, i) => (
             <li key={r.slug}>
               <button

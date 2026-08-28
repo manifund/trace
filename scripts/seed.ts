@@ -137,6 +137,25 @@ const SOURCES = [
     tier: 2,
   },
   { id: 'uk_aisi', name: 'UK AISI', url: 'https://www.aisi.gov.uk/', tier: 3 },
+  {
+    id: 'grantmaking_ai',
+    name: 'grantmaking.ai',
+    url: 'https://grantmaking.ai/',
+    license: 'CC BY-SA',
+    tier: 3,
+  },
+  {
+    id: 'openai_foundation',
+    name: 'OpenAI Foundation',
+    url: 'https://openaifoundation.org/',
+    tier: 2,
+  },
+  {
+    id: 'bluedot',
+    name: 'BlueDot Impact grants',
+    url: 'https://bluedot.org/grants',
+    tier: 2,
+  },
 ]
 
 type SeedOrg = {
@@ -147,7 +166,7 @@ type SeedOrg = {
   aliases: { name: string; kind?: string; valid_from?: string; valid_to?: string; note?: string }[]
 }
 
-async function mergeOrg(fromId: string, toId: string, name: string) {
+async function mergeOrg(fromId: string, toId: string, name: string, why = 'provisional') {
   await db.from('grants').update({ funder_org_id: toId }).eq('funder_org_id', fromId).throwOnError()
   await db
     .from('grants')
@@ -159,6 +178,40 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
     .update({ fiscal_sponsor_org_id: toId })
     .eq('fiscal_sponsor_org_id', fromId)
     .throwOnError()
+  // grant_vias references orgs without a cascade, so the loser has to be off
+  // that table before it can be deleted. Its primary key is
+  // (grant_id, via_org_id): a grant already routed through the winner would
+  // collide, so drop that row instead of moving it.
+  const { data: vias } = await db
+    .from('grant_vias')
+    .select('grant_id')
+    .eq('via_org_id', fromId)
+    .throwOnError()
+  if ((vias ?? []).length > 0) {
+    const { data: existing } = await db
+      .from('grant_vias')
+      .select('grant_id')
+      .eq('via_org_id', toId)
+      .throwOnError()
+    const alreadyRouted = new Set((existing ?? []).map((row) => row.grant_id))
+    for (const row of vias ?? []) {
+      if (alreadyRouted.has(row.grant_id)) {
+        await db
+          .from('grant_vias')
+          .delete()
+          .eq('grant_id', row.grant_id)
+          .eq('via_org_id', fromId)
+          .throwOnError()
+      } else {
+        await db
+          .from('grant_vias')
+          .update({ via_org_id: toId })
+          .eq('grant_id', row.grant_id)
+          .eq('via_org_id', fromId)
+          .throwOnError()
+      }
+    }
+  }
   const { data: names } = await db
     .from('org_names')
     .select('name, normalized')
@@ -175,21 +228,27 @@ async function mergeOrg(fromId: string, toId: string, name: string) {
   }
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
   await db.from('orgs').delete().eq('id', fromId).throwOnError()
-  console.log(`Merged provisional org "${name}" into ${toId}`)
+  console.log(`Merged ${why} org "${name}" into ${toId}`)
 }
 
 // Steady-state seed runs re-claim hundreds of names that are already settled;
 // prefetch the crosswalk once so those claims are free instead of two
 // round-trips each.
-const settledNames = new Map<string, string>() // normalized -> org_id
+// normalized -> "org_id|kind". Kind is part of the key so that renaming a
+// seeded org demotes its old name to former_name instead of leaving two rows
+// both claiming to be canonical.
+const settledNames = new Map<string, string>()
+const settled = (orgId: string, kind: string) => `${orgId}|${kind}`
 async function loadSettledNames() {
   for (let from = 0; ; from += 1000) {
     const { data } = await db
       .from('org_names')
-      .select('normalized, org_id')
+      .select('normalized, org_id, kind')
       .range(from, from + 999)
       .throwOnError()
-    for (const row of data ?? []) settledNames.set(row.normalized, row.org_id)
+    for (const row of data ?? []) {
+      settledNames.set(row.normalized, settled(row.org_id, row.kind))
+    }
     if (!data || data.length < 1000) break
   }
 }
@@ -202,7 +261,7 @@ async function claimName(
   kind: string,
   extra: { valid_from?: string; valid_to?: string; note?: string } = {}
 ) {
-  if (settledNames.get(normalized) === toId) return
+  if (settledNames.get(normalized) === settled(toId, kind)) return
   const { data } = await db
     .from('org_names')
     .select('org_id, orgs!inner(needs_review, name)')
@@ -240,7 +299,7 @@ async function claimName(
       { onConflict: 'org_id,normalized' }
     )
     .throwOnError()
-  settledNames.set(normalized, toId)
+  settledNames.set(normalized, settled(toId, kind))
 }
 
 async function main() {
@@ -303,6 +362,71 @@ async function main() {
       continue
     }
     await claimName(normalizeName(raw), raw, target.id, 'alias')
+  }
+
+  // aliases.json byRole: side-specific folds. The resolver applies these to
+  // anything ingested from now on, but rows already in the table were matched
+  // under the old rule and are repointed here. Idempotent — after the first
+  // run there is nothing left on that side to move.
+  const byRole = (aliasesFile as never as { byRole?: Record<string, Record<string, string>> })
+    .byRole
+  for (const [role, map] of Object.entries(byRole ?? {})) {
+    const column = role === 'funder' ? 'funder_org_id' : 'recipient_org_id'
+    for (const [raw, slug] of Object.entries(map)) {
+      const { data: target } = await db
+        .from('orgs')
+        .select('id')
+        .eq('slug', slug)
+        .maybeSingle()
+        .throwOnError()
+      if (!target) {
+        console.warn(`aliases.json byRole: unknown slug "${slug}" for "${raw}"`)
+        continue
+      }
+      const { data: holder } = await db
+        .from('org_names')
+        .select('org_id')
+        .eq('normalized', normalizeName(raw))
+        .maybeSingle()
+        .throwOnError()
+      if (!holder || holder.org_id === target.id) continue
+      const { count } = await db
+        .from('grants')
+        .select('id', { count: 'exact', head: true })
+        .eq(column, holder.org_id)
+        .throwOnError()
+      if (!count) continue
+      await db
+        .from('grants')
+        .update(role === 'funder' ? { funder_org_id: target.id } : { recipient_org_id: target.id })
+        .eq(column, holder.org_id)
+        .throwOnError()
+      console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)
+    }
+  }
+
+  // aliases.json merges: two curated orgs that turned out to be one body.
+  // An alias cannot do this — claimName refuses to merge an org a human has
+  // already reviewed, which is the right default and the wrong answer once
+  // someone has looked and decided. Stated here, it is deliberate and it
+  // replays on a rebuild. The loser's names survive as aliases of the winner,
+  // so source data using the old spelling still resolves.
+  const merges = (aliasesFile as never as { merges?: Record<string, string> }).merges ?? {}
+  for (const [loserSlug, winnerSlug] of Object.entries(merges)) {
+    const { data: pair } = await db
+      .from('orgs')
+      .select('id, slug, name')
+      .in('slug', [loserSlug, winnerSlug])
+      .throwOnError()
+    const loser = (pair ?? []).find((org) => org.slug === loserSlug)
+    const winner = (pair ?? []).find((org) => org.slug === winnerSlug)
+    if (!winner) {
+      console.warn(`aliases.json merges: unknown target "${winnerSlug}"`)
+      continue
+    }
+    // Already merged on an earlier run.
+    if (!loser) continue
+    await mergeOrg(loser.id, winner.id, loser.name, 'curated')
   }
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct

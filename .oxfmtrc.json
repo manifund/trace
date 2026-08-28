@@ -5,5 +5,5 @@
   "semi": false,
   "trailingComma": "es5",
   "singleQuote": true,
-  "ignorePatterns": [".next/**", "out/**", "public/**"]
+  "ignorePatterns": [".next/**", "out/**", "public/**", "data/**", "**/*.md"]
 }

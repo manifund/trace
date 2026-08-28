@@ -142,3 +142,30 @@ export async function listBusiestOrgSlugs(limit = 150): Promise<string[]> {
   const { data: orgs } = await supabase.from('orgs').select('slug').in('id', top).throwOnError()
   return (orgs ?? []).map((org) => org.slug)
 }
+
+// Funds and foundations: the orgs that grant other people's money. A grant
+// records the donor as funder and the vehicle it was granted through as a
+// via, so this is how the flow chart tells a vehicle (SFF, Manifund) apart
+// from a host institution (a university named as via by the de-umbrella
+// pass).
+export async function listVehicleSlugs(): Promise<string[]> {
+  if (!dbConfigured()) return []
+  if (USE_SNAPSHOT) {
+    return (await getSnapshot()).orgs
+      .filter(([, , orgType]) => orgType === 'fund' || orgType === 'foundation')
+      .map(([slug]) => slug)
+  }
+  const supabase = createPublicSupabaseClient()
+  const slugs: string[] = []
+  for (let from = 0; ; from += 1000) {
+    const { data } = await supabase
+      .from('orgs')
+      .select('slug')
+      .in('org_type', ['fund', 'foundation'])
+      .range(from, from + 999)
+      .throwOnError()
+    slugs.push(...(data ?? []).map((org) => org.slug))
+    if (!data || data.length < 1000) break
+  }
+  return slugs
+}

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useTransition } from 'react'
-import { acceptSuggestion, rejectSuggestion } from '@/app/suggestions/actions'
+import { acceptSuggestion, rejectSuggestion } from '@/app/edit/actions'
 
 export function ReviewButtons(props: { id: string }) {
   const [note, setNote] = useState('')
@@ -21,7 +21,7 @@ export function ReviewButtons(props: { id: string }) {
   return (
     <div className="mt-2 flex flex-wrap items-center gap-2">
       <input
-        className="rounded border border-rule bg-paper px-2 py-1 text-sm"
+        className="rounded-sm border border-rule bg-paper px-2 py-1 text-sm"
         placeholder="Review note (optional)"
         value={note}
         onChange={(e) => setNote(e.target.value)}
@@ -29,18 +29,18 @@ export function ReviewButtons(props: { id: string }) {
       <button
         onClick={() => run(acceptSuggestion)}
         disabled={pending}
-        className="rounded border border-rule bg-paper-alt px-3 py-1 text-sm disabled:opacity-50"
+        className="rounded-sm border border-rule bg-paper-alt px-3 py-1 text-sm disabled:opacity-50"
       >
         Accept
       </button>
       <button
         onClick={() => run(rejectSuggestion)}
         disabled={pending}
-        className="rounded border border-rule bg-paper-alt px-3 py-1 text-sm disabled:opacity-50"
+        className="rounded-sm border border-rule bg-paper-alt px-3 py-1 text-sm disabled:opacity-50"
       >
         Reject
       </button>
-      {error && <span className="text-sm text-[var(--s4)]">{error}</span>}
+      {error && <span className="text-sm text-(--s4)">{error}</span>}
     </div>
   )
 }
