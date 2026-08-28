@@ -7,63 +7,93 @@
     },
     "coefficient_giving:10149": {
       "recipient_name": "Alassane Dicko",
-      "via_names": ["University Of Science Technical And Technologies De Bamako"]
+      "via_names": [
+        "University Of Science Technical And Technologies De Bamako"
+      ]
     },
     "coefficient_giving:10413": {
       "recipient_name": "David Baker and Neil King",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:1070": {
       "recipient_name": "Wieland Brendel",
-      "via_names": ["University of Tübingen"]
+      "via_names": [
+        "University of Tübingen"
+      ]
     },
     "coefficient_giving:1072": {
       "recipient_name": "Lark L. Coffey",
-      "via_names": ["University of California, Davis"]
+      "via_names": [
+        "University of California, Davis"
+      ]
     },
     "coefficient_giving:1073": {
       "recipient_name": "Ria Goswami",
-      "via_names": ["Weill Cornell Medical College"]
+      "via_names": [
+        "Weill Cornell Medical College"
+      ]
     },
     "coefficient_giving:1099": {
       "recipient_name": "David Krueger",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "coefficient_giving:11122": {
       "recipient_name": "Center for Long-Term Cybersecurity",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:1119": {
       "recipient_name": "Matthias Hein",
-      "via_names": ["University of Tübingen"]
+      "via_names": [
+        "University of Tübingen"
+      ]
     },
     "coefficient_giving:1120": {
       "recipient_name": "Kotaro Sasaki",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:1130": {
       "recipient_name": "Cihang Xie",
-      "via_names": ["University of California, Santa Cruz"]
+      "via_names": [
+        "University of California, Santa Cruz"
+      ]
     },
     "coefficient_giving:1140": {
       "recipient_name": "Chris Maddison",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "coefficient_giving:11404": {
       "recipient_name": "Clark Barrett and Scott Viteri",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1149": {
       "recipient_name": "MIT Media Lab",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:1154": {
       "recipient_name": "David Wagner",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:1155": {
       "recipient_name": "Dawn Song",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:11552": {
       "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
@@ -72,43 +102,63 @@
     },
     "coefficient_giving:1156": {
       "recipient_name": "Aleksander Madry",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:11869": {
       "recipient_name": "Amy Pickering",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:1210": {
       "recipient_name": "Center for Human-Compatible AI",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:12198": {
       "recipient_name": "Stanford AI Index",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1223": {
       "recipient_name": "David Sibley",
-      "via_names": ["Washington University in St. Louis"]
+      "via_names": [
+        "Washington University in St. Louis"
+      ]
     },
     "coefficient_giving:12465": {
       "recipient_name": "David Bau",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:1248": {
       "recipient_name": "Neil Thompson",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:12509": {
       "recipient_name": "Michael Clemens",
-      "via_names": ["George Mason University"]
+      "via_names": [
+        "George Mason University"
+      ]
     },
     "coefficient_giving:12574": {
       "recipient_name": "Pandemic Preparedness Center",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:12578": {
       "recipient_name": "Chicago School of Existential Risk",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:12588": {
       "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
@@ -117,35 +167,51 @@
     },
     "coefficient_giving:1261": {
       "recipient_name": "Robert Gilchrist",
-      "via_names": ["University of New South Wales"]
+      "via_names": [
+        "University of New South Wales"
+      ]
     },
     "coefficient_giving:1264": {
       "recipient_name": "MIT Media Lab",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:12651": {
       "recipient_name": "Percy Liang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:12686": {
       "recipient_name": "Aditi Raghunathan",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:1271": {
       "recipient_name": "Amy Pickering",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:12718": {
       "recipient_name": "Irina Conboy",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:13066": {
       "recipient_name": "Xiangyu Zhang",
-      "via_names": ["Purdue University"]
+      "via_names": [
+        "Purdue University"
+      ]
     },
     "coefficient_giving:1315": {
       "recipient_name": "Amy Pickering and Michael Kremer",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:13188": {
       "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
@@ -154,7 +220,9 @@
     },
     "coefficient_giving:13319": {
       "recipient_name": "MIT Media Lab",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:13355": {
       "note": "MATS program grant paid via AI Safety Support",
@@ -163,7 +231,9 @@
     },
     "coefficient_giving:13376": {
       "recipient_name": "Center for Communicable Disease Dynamics",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:13392": {
       "note": "MATS program grant paid via Conjecture",
@@ -172,99 +242,147 @@
     },
     "coefficient_giving:13409": {
       "recipient_name": "Jeff Clune",
-      "via_names": ["University of British Columbia"]
+      "via_names": [
+        "University of British Columbia"
+      ]
     },
     "coefficient_giving:13455": {
       "recipient_name": "Ben Levinstein",
-      "via_names": ["University of Illinois"]
+      "via_names": [
+        "University of Illinois"
+      ]
     },
     "coefficient_giving:13498": {
       "recipient_name": "Cihang Xie",
-      "via_names": ["University of California, Santa Cruz"]
+      "via_names": [
+        "University of California, Santa Cruz"
+      ]
     },
     "coefficient_giving:1350": {
       "recipient_name": "Jeffrey Glenn",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1372": {
       "recipient_name": "Jeffrey Glenn",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:13763": {
       "recipient_name": "Lionel Levine",
-      "via_names": ["Cornell University"]
+      "via_names": [
+        "Cornell University"
+      ]
     },
     "coefficient_giving:13766": {
       "recipient_name": "Federico Faroldi",
-      "via_names": ["University of Pavia"]
+      "via_names": [
+        "University of Pavia"
+      ]
     },
     "coefficient_giving:1378": {
       "recipient_name": "Jeffrey Glenn",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1400": {
       "recipient_name": "Charles Anderson",
-      "via_names": ["Penn State University"]
+      "via_names": [
+        "Penn State University"
+      ]
     },
     "coefficient_giving:1410": {
       "recipient_name": "Mark Davis, Justin Sonnenburg, and Bali Pulendran",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:14235": {
       "recipient_name": "Toryn Klassen",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "coefficient_giving:1429": {
       "recipient_name": "Ria Goswami",
-      "via_names": ["Duke University"]
+      "via_names": [
+        "Duke University"
+      ]
     },
     "coefficient_giving:14429": {
       "recipient_name": "Matthias Bethge",
-      "via_names": ["University of Tübingen"]
+      "via_names": [
+        "University of Tübingen"
+      ]
     },
     "coefficient_giving:1462": {
       "recipient_name": "Alexander Tarakhovsky",
-      "via_names": ["Rockefeller University"]
+      "via_names": [
+        "Rockefeller University"
+      ]
     },
     "coefficient_giving:14639": {
       "recipient_name": "Existential Risk Laboratory",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:1469": {
       "recipient_name": "Aubree Gordon",
-      "via_names": ["University of Michigan"]
+      "via_names": [
+        "University of Michigan"
+      ]
     },
     "coefficient_giving:14740": {
       "recipient_name": "Institute for Replication",
-      "via_names": ["University of Ottawa"]
+      "via_names": [
+        "University of Ottawa"
+      ]
     },
     "coefficient_giving:1479": {
       "recipient_name": "Jared Kaplan and Brice Ménard",
-      "via_names": ["Johns Hopkins University"]
+      "via_names": [
+        "Johns Hopkins University"
+      ]
     },
     "coefficient_giving:14826": {
       "recipient_name": "Jared Moore",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:1483": {
       "recipient_name": "Michael Mina",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:1488": {
       "recipient_name": "Lisa Barcellos and Eva Harris",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:14992": {
       "recipient_name": "Ben Levinstein",
-      "via_names": ["University of Illinois"]
+      "via_names": [
+        "University of Illinois"
+      ]
     },
     "coefficient_giving:1505": {
       "recipient_name": "Dorsa Sadigh",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:15052": {
       "recipient_name": "Daniel Brown",
-      "via_names": ["University of Utah"]
+      "via_names": [
+        "University of Utah"
+      ]
     },
     "coefficient_giving:15056": {
       "note": "MATS program grant paid via Conjecture",
@@ -273,31 +391,45 @@
     },
     "coefficient_giving:1506": {
       "recipient_name": "Koen Van Rompay",
-      "via_names": ["University of California, Davis"]
+      "via_names": [
+        "University of California, Davis"
+      ]
     },
     "coefficient_giving:1507": {
       "recipient_name": "Greg Lanzaro",
-      "via_names": ["University of California, Davis"]
+      "via_names": [
+        "University of California, Davis"
+      ]
     },
     "coefficient_giving:15372": {
       "recipient_name": "Daniel Brown",
-      "via_names": ["University of Utah"]
+      "via_names": [
+        "University of Utah"
+      ]
     },
     "coefficient_giving:15408": {
       "recipient_name": "Chenhao Tan",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:15563": {
       "recipient_name": "Yan Zhang",
-      "via_names": ["California State University, San José"]
+      "via_names": [
+        "California State University, San José"
+      ]
     },
     "coefficient_giving:1560": {
       "recipient_name": "Jeffrey Glenn",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1599": {
       "recipient_name": "Jacob Steinhardt",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:16424": {
       "note": "Training for Good 'Operating Costs and Tarbell Fellowship' grant",
@@ -315,47 +447,69 @@
     },
     "coefficient_giving:16527": {
       "recipient_name": "David Bau",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:16543": {
       "recipient_name": "Tom Goldstein",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:1662": {
       "recipient_name": "Center for Human-Compatible AI",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:16644": {
       "recipient_name": "Peter Conti-Brown",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:1666": {
       "recipient_name": "Alternative Meats Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:16689": {
       "recipient_name": "Percy Liang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:1787": {
       "recipient_name": "Magdalena Zernicka-Goetz",
-      "via_names": ["California Institute of Technology"]
+      "via_names": [
+        "California Institute of Technology"
+      ]
     },
     "coefficient_giving:1789": {
       "recipient_name": "Katsuhiko Hayashi",
-      "via_names": ["Kyushu University"]
+      "via_names": [
+        "Kyushu University"
+      ]
     },
     "coefficient_giving:1802": {
       "recipient_name": "Charles Anderson",
-      "via_names": ["Penn State University"]
+      "via_names": [
+        "Penn State University"
+      ]
     },
     "coefficient_giving:1819": {
       "recipient_name": "Kotaro Sasaki",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:1826": {
       "recipient_name": "Irina Conboy",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:18410": {
       "note": "MATS program grant paid via AI Safety Support",
@@ -369,219 +523,327 @@
     },
     "coefficient_giving:1853": {
       "recipient_name": "Kevin Esvelt",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:1858": {
       "recipient_name": "Steve Horvath",
-      "via_names": ["University of California, Los Angeles"]
+      "via_names": [
+        "University of California, Los Angeles"
+      ]
     },
     "coefficient_giving:18659": {
       "recipient_name": "Martin Wattenberg",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:18680": {
       "recipient_name": "Neil Thompson",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:1872": {
       "recipient_name": "Animal Law and Policy Program",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:18754": {
       "recipient_name": "Chaowei Xiao",
-      "via_names": ["Arizona State University"]
+      "via_names": [
+        "Arizona State University"
+      ]
     },
     "coefficient_giving:19040": {
       "recipient_name": "Humane & Sustainable Food Lab",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:19043": {
       "recipient_name": "Alternative Meats Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:19319": {
       "recipient_name": "Daniel Kang",
-      "via_names": ["University of Illinois Urbana-Champaign"]
+      "via_names": [
+        "University of Illinois Urbana-Champaign"
+      ]
     },
     "coefficient_giving:1939": {
       "recipient_name": "Mitinori Saitou",
-      "via_names": ["Kyoto University"]
+      "via_names": [
+        "Kyoto University"
+      ]
     },
     "coefficient_giving:19639": {
       "recipient_name": "Graham Neubig",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:19759": {
       "recipient_name": "Samet Oymak",
-      "via_names": ["University of Michigan"]
+      "via_names": [
+        "University of Michigan"
+      ]
     },
     "coefficient_giving:19894": {
       "recipient_name": "Gabriel Weil",
-      "via_names": ["Touro College & University System"]
+      "via_names": [
+        "Touro College & University System"
+      ]
     },
     "coefficient_giving:1998": {
       "recipient_name": "Alternative Meats Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:2007": {
       "recipient_name": "Saad Bhamla",
-      "via_names": ["Georgia Institute of Technology"]
+      "via_names": [
+        "Georgia Institute of Technology"
+      ]
     },
     "coefficient_giving:20108": {
       "recipient_name": "Dimitris Papailiopoulos",
-      "via_names": ["University of Wisconsin-Madison"]
+      "via_names": [
+        "University of Wisconsin-Madison"
+      ]
     },
     "coefficient_giving:20114": {
       "recipient_name": "Jason Lee",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "coefficient_giving:20125": {
       "recipient_name": "Hong Shen and Fei Fang",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:2013": {
       "recipient_name": "Claudia Schmidt-Dannert",
-      "via_names": ["University of Minnesota, Twin Cities"]
+      "via_names": [
+        "University of Minnesota, Twin Cities"
+      ]
     },
     "coefficient_giving:20270": {
       "recipient_name": "Existential Risk Laboratory",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:2034": {
       "recipient_name": "Pieter Abbeel",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:20434": {
       "recipient_name": "Tatsunori Hashimoto",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:20449": {
       "recipient_name": "David Bau",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:2065": {
       "recipient_name": "David Manley",
-      "via_names": ["University of Michigan"]
+      "via_names": [
+        "University of Michigan"
+      ]
     },
     "coefficient_giving:20671": {
       "recipient_name": "Karthik Narasimhan",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "coefficient_giving:2070": {
       "recipient_name": "Charles Gersbach",
-      "via_names": ["Duke University"]
+      "via_names": [
+        "Duke University"
+      ]
     },
     "coefficient_giving:2072": {
       "recipient_name": "Andrew Snyder-Beattie",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:2073": {
       "recipient_name": "Brian Staskawicz",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:20840": {
       "recipient_name": "Benjamin Bergen",
-      "via_names": ["University of California, San Diego"]
+      "via_names": [
+        "University of California, San Diego"
+      ]
     },
     "coefficient_giving:20871": {
       "recipient_name": "Synthetic Neurobiology Group",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:20876": {
       "recipient_name": "Synthetic Neurobiology Group",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:2095": {
       "recipient_name": "Allan Basbaum",
-      "via_names": ["University of California, San Francisco"]
+      "via_names": [
+        "University of California, San Francisco"
+      ]
     },
     "coefficient_giving:21020": {
       "recipient_name": "Lorenzo Giacani",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:21056": {
       "recipient_name": "Najoung Kim and Sebastian Schuster",
-      "via_names": ["Boston University"]
+      "via_names": [
+        "Boston University"
+      ]
     },
     "coefficient_giving:21066": {
       "recipient_name": "Energy Policy Institute at the University of Chicago",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:21072": {
       "recipient_name": "Josh Kalla",
-      "via_names": ["Yale University"]
+      "via_names": [
+        "Yale University"
+      ]
     },
     "coefficient_giving:21076": {
       "recipient_name": "Dongyeop Kang",
-      "via_names": ["University of Minnesota, Twin Cities"]
+      "via_names": [
+        "University of Minnesota, Twin Cities"
+      ]
     },
     "coefficient_giving:21083": {
       "recipient_name": "William Wang",
-      "via_names": ["University of California, Santa Barbara"]
+      "via_names": [
+        "University of California, Santa Barbara"
+      ]
     },
     "coefficient_giving:2137": {
       "recipient_name": "Allan Dafoe",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:21760": {
       "recipient_name": "Percy Liang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:2177": {
       "recipient_name": "Dan Boneh",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:21920": {
       "recipient_name": "Alex Leader, Dan Zhao, and He He",
-      "via_names": ["New York University"]
+      "via_names": [
+        "New York University"
+      ]
     },
     "coefficient_giving:22328": {
       "recipient_name": "Koushik Sen",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:22549": {
       "recipient_name": "Jakob Foerster",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:2263": {
       "recipient_name": "Raul Andino",
-      "via_names": ["University of California, San Francisco"]
+      "via_names": [
+        "University of California, San Francisco"
+      ]
     },
     "coefficient_giving:22653": {
       "recipient_name": "Yizheng Chen",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:22760": {
       "recipient_name": "Arvind Narayanan",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "coefficient_giving:2297": {
       "recipient_name": "David Baker",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:23088": {
       "recipient_name": "Florian Tramer",
-      "via_names": ["ETH Zürich"]
+      "via_names": [
+        "ETH Zürich"
+      ]
     },
     "coefficient_giving:23222": {
       "recipient_name": "Kevin Jablonka",
-      "via_names": ["Friedrich Schiller University Jena"]
+      "via_names": [
+        "Friedrich Schiller University Jena"
+      ]
     },
     "coefficient_giving:23706": {
       "recipient_name": "Brianna Rosen and Ciaran Martin",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:2374": {
       "recipient_name": "Stephen Johnston",
-      "via_names": ["Arizona State University"]
+      "via_names": [
+        "Arizona State University"
+      ]
     },
     "coefficient_giving:2376": {
       "recipient_name": "Irina Conboy",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:23973": {
       "recipient_name": "Humane & Sustainable Food Lab",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:24016": {
       "note": "MATS program grant paid via AI Safety Support",
@@ -590,103 +852,153 @@
     },
     "coefficient_giving:2414": {
       "recipient_name": "Sergey Levine",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:2460": {
       "recipient_name": "Center for Effective Global Action",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:2462": {
       "recipient_name": "Center for Effective Global Action",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:24626": {
       "recipient_name": "Neil Thompson",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:2467": {
       "recipient_name": "Allan Dafoe",
-      "via_names": ["Yale University"]
+      "via_names": [
+        "Yale University"
+      ]
     },
     "coefficient_giving:24719": {
       "recipient_name": "InterACT Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:24869": {
       "recipient_name": "Cameron Domenico Kirk-Giannini",
-      "via_names": ["Rutgers University"]
+      "via_names": [
+        "Rutgers University"
+      ]
     },
     "coefficient_giving:2492": {
       "recipient_name": "Philip Tetlock",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:2493": {
       "recipient_name": "Gregory Timp",
-      "via_names": ["University of Notre Dame"]
+      "via_names": [
+        "University of Notre Dame"
+      ]
     },
     "coefficient_giving:2497": {
       "recipient_name": "Timothy Haystead",
-      "via_names": ["Duke University"]
+      "via_names": [
+        "Duke University"
+      ]
     },
     "coefficient_giving:2503": {
       "recipient_name": "Tammy Chang",
-      "via_names": ["University of California, San Francisco"]
+      "via_names": [
+        "University of California, San Francisco"
+      ]
     },
     "coefficient_giving:2529": {
       "recipient_name": "Percy Liang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:25300": {
       "recipient_name": "Institute for Replication",
-      "via_names": ["University of Ottawa"]
+      "via_names": [
+        "University of Ottawa"
+      ]
     },
     "coefficient_giving:25302": {
       "recipient_name": "Christian Tarsney and Brad Knox",
-      "via_names": ["University of Texas at Austin"]
+      "via_names": [
+        "University of Texas at Austin"
+      ]
     },
     "coefficient_giving:2537": {
       "recipient_name": "Percy Liang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:2565": {
       "recipient_name": "Alexander Tarakhovsky",
-      "via_names": ["Rockefeller University"]
+      "via_names": [
+        "Rockefeller University"
+      ]
     },
     "coefficient_giving:25701": {
       "recipient_name": "Andrew Reddie",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:25716": {
       "recipient_name": "Abel Brodeur",
-      "via_names": ["University of Ottawa"]
+      "via_names": [
+        "University of Ottawa"
+      ]
     },
     "coefficient_giving:25757": {
       "recipient_name": "Pandemic Center",
-      "via_names": ["Brown University"]
+      "via_names": [
+        "Brown University"
+      ]
     },
     "coefficient_giving:25920": {
       "recipient_name": "Scott Aaronson",
-      "via_names": ["University of Texas at Austin"]
+      "via_names": [
+        "University of Texas at Austin"
+      ]
     },
     "coefficient_giving:25980": {
       "recipient_name": "Oxford Martin AI Governance Initiative",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:26018": {
       "recipient_name": "Daniel Kang",
-      "via_names": ["University of Illinois Urbana-Champaign"]
+      "via_names": [
+        "University of Illinois Urbana-Champaign"
+      ]
     },
     "coefficient_giving:26121": {
       "recipient_name": "Existential Risk Laboratory",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "coefficient_giving:26199": {
       "recipient_name": "Jacob Steinhardt",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:26232": {
       "recipient_name": "Philip Trammell",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:26300": {
       "note": "MATS program grant paid via AI Safety Support",
@@ -695,582 +1007,872 @@
     },
     "coefficient_giving:2667": {
       "recipient_name": "Brian Staskawicz",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:2763": {
       "recipient_name": "EA Berkeley",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:28268": {
       "recipient_name": "Colin Kahl",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:28274": {
       "recipient_name": "Humane & Sustainable Food Lab",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:28281": {
       "recipient_name": "Schwartz Reisman Institute for Technology and Society",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "coefficient_giving:28732": {
       "recipient_name": "Emma Pierson",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:28734": {
       "recipient_name": "Dawn Song",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:28736": {
       "recipient_name": "Christopher Potts",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:28782": {
       "recipient_name": "Tatsunori Hashimoto",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:28788": {
       "recipient_name": "Noam Kolt",
-      "via_names": ["Hebrew University of Jerusalem"]
+      "via_names": [
+        "Hebrew University of Jerusalem"
+      ]
     },
     "coefficient_giving:28792": {
       "recipient_name": "Xin Chen and Florian Tramer",
-      "via_names": ["ETH Zürich"]
+      "via_names": [
+        "ETH Zürich"
+      ]
     },
     "coefficient_giving:2880": {
       "recipient_name": "Center for Human-Compatible AI",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:28804": {
       "recipient_name": "Anqi Liu",
-      "via_names": ["Johns Hopkins University"]
+      "via_names": [
+        "Johns Hopkins University"
+      ]
     },
     "coefficient_giving:28825": {
       "recipient_name": "Tom Goldstein and Ashwinee Panda",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:2886": {
       "recipient_name": "Robin Hanson",
-      "via_names": ["George Mason University"]
+      "via_names": [
+        "George Mason University"
+      ]
     },
     "coefficient_giving:28959": {
       "recipient_name": "Sijia Liu, Shiyu Chang, and Mingyi Hong",
-      "via_names": ["Michigan State University"]
+      "via_names": [
+        "Michigan State University"
+      ]
     },
     "coefficient_giving:29009": {
       "recipient_name": "Virginia Smith and Steven Wu",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:2915": {
       "recipient_name": "Philip Tetlock",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:35699": {
       "recipient_name": "Jade Benjamin-Chung",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:35705": {
       "recipient_name": "Scott Niekum",
-      "via_names": ["University of Massachusetts Amherst"]
+      "via_names": [
+        "University of Massachusetts Amherst"
+      ]
     },
     "coefficient_giving:35711": {
       "recipient_name": "Leo Schwinn",
-      "via_names": ["Technical University of Munich"]
+      "via_names": [
+        "Technical University of Munich"
+      ]
     },
     "coefficient_giving:35715": {
       "recipient_name": "Yu Meng",
-      "via_names": ["University of Virginia"]
+      "via_names": [
+        "University of Virginia"
+      ]
     },
     "coefficient_giving:35720": {
       "recipient_name": "Lu Wang",
-      "via_names": ["University of Michigan"]
+      "via_names": [
+        "University of Michigan"
+      ]
     },
     "coefficient_giving:35722": {
       "recipient_name": "Rui Zhang",
-      "via_names": ["Penn State University"]
+      "via_names": [
+        "Penn State University"
+      ]
     },
     "coefficient_giving:35724": {
       "recipient_name": "Anudeep Das, Gurjot Singh, and Pract Chantasantitam",
-      "via_names": ["University of Waterloo"]
+      "via_names": [
+        "University of Waterloo"
+      ]
     },
     "coefficient_giving:35837": {
       "recipient_name": "Kaiqing Zhang",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:35843": {
       "recipient_name": "Jonathan May",
-      "via_names": ["University of Southern California"]
+      "via_names": [
+        "University of Southern California"
+      ]
     },
     "coefficient_giving:35845": {
       "recipient_name": "Roy Rinberg",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:35847": {
       "recipient_name": "Aviral Kumar and Aditi Raghunathan",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:35853": {
       "recipient_name": "Shi Feng",
-      "via_names": ["George Washington University"]
+      "via_names": [
+        "George Washington University"
+      ]
     },
     "coefficient_giving:35897": {
       "recipient_name": "Josh Martin",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:35913": {
       "recipient_name": "Christian Schroeder de Witt",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:35950": {
       "recipient_name": "Scott Niekum",
-      "via_names": ["University of Massachusetts Amherst"]
+      "via_names": [
+        "University of Massachusetts Amherst"
+      ]
     },
     "coefficient_giving:35953": {
       "recipient_name": "Byron Wallace",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:35955": {
       "recipient_name": "Zohar Ringel",
-      "via_names": ["Hebrew University of Jerusalem"]
+      "via_names": [
+        "Hebrew University of Jerusalem"
+      ]
     },
     "coefficient_giving:35957": {
       "recipient_name": "Yiqiao Zhong",
-      "via_names": ["University of Wisconsin-Madison"]
+      "via_names": [
+        "University of Wisconsin-Madison"
+      ]
     },
     "coefficient_giving:35963": {
       "recipient_name": "Alane Suhr",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:35965": {
       "recipient_name": "Weiyan Shi",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:35967": {
       "recipient_name": "Liu Leqi",
-      "via_names": ["University of Texas at Austin"]
+      "via_names": [
+        "University of Texas at Austin"
+      ]
     },
     "coefficient_giving:35969": {
       "recipient_name": "Eugene Belilovsky and Geraldine Nanfack",
-      "via_names": ["Concordia University"]
+      "via_names": [
+        "Concordia University"
+      ]
     },
     "coefficient_giving:35975": {
       "recipient_name": "Melanie Weber",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:35977": {
       "recipient_name": "Nada Amin",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:35979": {
       "recipient_name": "Yonatan Belinkov",
-      "via_names": ["Technion - Israel Institute of Technology"]
+      "via_names": [
+        "Technion - Israel Institute of Technology"
+      ]
     },
     "coefficient_giving:35981": {
       "recipient_name": "Lijie Chen",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:35983": {
       "recipient_name": "Bin Yu",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:35987": {
       "recipient_name": "Hongseok Namkoong",
-      "via_names": ["Columbia University"]
+      "via_names": [
+        "Columbia University"
+      ]
     },
     "coefficient_giving:36103": {
       "recipient_name": "Rebecca Diamond",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:36156": {
       "recipient_name": "Eamon Duede and Misha Teplitskiy",
-      "via_names": ["Purdue University"]
+      "via_names": [
+        "Purdue University"
+      ]
     },
     "coefficient_giving:36552": {
       "recipient_name": "Sanmi Koyejo",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:36827": {
       "recipient_name": "J-PAL Africa",
-      "via_names": ["University of Cape Town"]
+      "via_names": [
+        "University of Cape Town"
+      ]
     },
     "coefficient_giving:36929": {
       "recipient_name": "Greg Roth and Jeff Stanaway",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:37056": {
       "recipient_name": "Steve Petersen",
-      "via_names": ["Niagara University"]
+      "via_names": [
+        "Niagara University"
+      ]
     },
     "coefficient_giving:37060": {
       "recipient_name": "Walter Scheirer",
-      "via_names": ["University of Notre Dame"]
+      "via_names": [
+        "University of Notre Dame"
+      ]
     },
     "coefficient_giving:37062": {
       "recipient_name": "Eric Darve",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:37071": {
       "recipient_name": "Ryan Cotterell",
-      "via_names": ["ETH Zürich"]
+      "via_names": [
+        "ETH Zürich"
+      ]
     },
     "coefficient_giving:37073": {
       "recipient_name": "Thilo Hagendorf",
-      "via_names": ["University of Stuttgart"]
+      "via_names": [
+        "University of Stuttgart"
+      ]
     },
     "coefficient_giving:37076": {
       "recipient_name": "Aaron Mueller",
-      "via_names": ["Boston University"]
+      "via_names": [
+        "Boston University"
+      ]
     },
     "coefficient_giving:37079": {
       "recipient_name": "Gautam Reddy",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "coefficient_giving:37084": {
       "recipient_name": "Andrew Perrault",
-      "via_names": ["Ohio State University"]
+      "via_names": [
+        "Ohio State University"
+      ]
     },
     "coefficient_giving:37135": {
       "recipient_name": "Albin Gräns",
-      "via_names": ["Swedish University of Agricultural Sciences"]
+      "via_names": [
+        "Swedish University of Agricultural Sciences"
+      ]
     },
     "coefficient_giving:37308": {
       "recipient_name": "Gagandeep Singh",
-      "via_names": ["University of Illinois"]
+      "via_names": [
+        "University of Illinois"
+      ]
     },
     "coefficient_giving:37310": {
       "recipient_name": "Meng Jiang",
-      "via_names": ["University of Notre Dame"]
+      "via_names": [
+        "University of Notre Dame"
+      ]
     },
     "coefficient_giving:37314": {
       "recipient_name": "Flavio Calmon",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:37316": {
       "recipient_name": "Ashwinee Panda",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:37318": {
       "recipient_name": "Xinya Du",
-      "via_names": ["University of Texas at Dallas"]
+      "via_names": [
+        "University of Texas at Dallas"
+      ]
     },
     "coefficient_giving:37320": {
       "recipient_name": "Varun Chandrasekaran",
-      "via_names": ["University of Illinois"]
+      "via_names": [
+        "University of Illinois"
+      ]
     },
     "coefficient_giving:37322": {
       "recipient_name": "Tom Coates",
-      "via_names": ["Imperial College London"]
+      "via_names": [
+        "Imperial College London"
+      ]
     },
     "coefficient_giving:37324": {
       "recipient_name": "Shichao Pei",
-      "via_names": ["University of Massachusetts Boston"]
+      "via_names": [
+        "University of Massachusetts Boston"
+      ]
     },
     "coefficient_giving:37326": {
       "recipient_name": "Stephen Bach",
-      "via_names": ["Brown University"]
+      "via_names": [
+        "Brown University"
+      ]
     },
     "coefficient_giving:37328": {
       "recipient_name": "Huan Sun and Yu Su",
-      "via_names": ["Ohio State University"]
+      "via_names": [
+        "Ohio State University"
+      ]
     },
     "coefficient_giving:37330": {
       "recipient_name": "Huan Sun and Yu Su",
-      "via_names": ["Ohio State University"]
+      "via_names": [
+        "Ohio State University"
+      ]
     },
     "coefficient_giving:37332": {
       "recipient_name": "Sharon Li",
-      "via_names": ["University of Wisconsin-Madison"]
+      "via_names": [
+        "University of Wisconsin-Madison"
+      ]
     },
     "coefficient_giving:37334": {
       "recipient_name": "George Pappas and Hamed Hassani",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "coefficient_giving:37336": {
       "recipient_name": "George Pappas and Hamed Hassani",
-      "via_names": ["Technical University of Munich"]
+      "via_names": [
+        "Technical University of Munich"
+      ]
     },
     "coefficient_giving:37339": {
       "recipient_name": "Somil Bansal",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:37343": {
       "recipient_name": "Yue Xing",
-      "via_names": ["Michigan State University"]
+      "via_names": [
+        "Michigan State University"
+      ]
     },
     "coefficient_giving:37345": {
       "recipient_name": "Meenakshi Khosla",
-      "via_names": ["University of California, San Diego"]
+      "via_names": [
+        "University of California, San Diego"
+      ]
     },
     "coefficient_giving:37347": {
       "recipient_name": "Sarah Wiegreffe",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:37360": {
       "recipient_name": "Shi Feng",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:37596": {
       "recipient_name": "Karl Rohe",
-      "via_names": ["University of Wisconsin-Madison"]
+      "via_names": [
+        "University of Wisconsin-Madison"
+      ]
     },
     "coefficient_giving:37876": {
       "recipient_name": "Zhijing Jin",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "coefficient_giving:37884": {
       "recipient_name": "Nicola Paoletti and Osvaldo Simeone",
-      "via_names": ["King's College London"]
+      "via_names": [
+        "King's College London"
+      ]
     },
     "coefficient_giving:37888": {
       "recipient_name": "Diyi Yang",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:37890": {
       "recipient_name": "Uri Maoz",
-      "via_names": ["Chapman University"]
+      "via_names": [
+        "Chapman University"
+      ]
     },
     "coefficient_giving:37982": {
       "recipient_name": "John Hawthorne",
-      "via_names": ["University of Southern California"]
+      "via_names": [
+        "University of Southern California"
+      ]
     },
     "coefficient_giving:37988": {
       "recipient_name": "Florian Mai",
-      "via_names": ["University of Bonn"]
+      "via_names": [
+        "University of Bonn"
+      ]
     },
     "coefficient_giving:37992": {
       "recipient_name": "Lin Li",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:37996": {
       "recipient_name": "Adam Oberman",
-      "via_names": ["McGill University"]
+      "via_names": [
+        "McGill University"
+      ]
     },
     "coefficient_giving:37998": {
       "recipient_name": "Philip Torr",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:38000": {
       "recipient_name": "Anna Ivanova",
-      "via_names": ["Georgia Institute of Technology"]
+      "via_names": [
+        "Georgia Institute of Technology"
+      ]
     },
     "coefficient_giving:38002": {
       "recipient_name": "Tom Goldstein and Ashwinee Panda",
-      "via_names": ["University of Maryland"]
+      "via_names": [
+        "University of Maryland"
+      ]
     },
     "coefficient_giving:38006": {
       "recipient_name": "Sharon Li",
-      "via_names": ["University of Wisconsin-Madison"]
+      "via_names": [
+        "University of Wisconsin-Madison"
+      ]
     },
     "coefficient_giving:38008": {
       "recipient_name": "Guanhong Tao",
-      "via_names": ["University of Utah"]
+      "via_names": [
+        "University of Utah"
+      ]
     },
     "coefficient_giving:38010": {
       "recipient_name": "Mark Crovella",
-      "via_names": ["Boston University"]
+      "via_names": [
+        "Boston University"
+      ]
     },
     "coefficient_giving:38025": {
       "recipient_name": "Peter Evans and Stefan Dercon",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:38112": {
       "recipient_name": "Berkman Klein Center",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:38244": {
       "recipient_name": "Weiyan Shi",
-      "via_names": ["Northeastern University"]
+      "via_names": [
+        "Northeastern University"
+      ]
     },
     "coefficient_giving:38277": {
       "recipient_name": "Dawn Song",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:38279": {
       "recipient_name": "Sanmi Koyejo",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:38812": {
       "recipient_name": "David Comerford",
-      "via_names": ["University of Stirling"]
+      "via_names": [
+        "University of Stirling"
+      ]
     },
     "coefficient_giving:39104": {
       "recipient_name": "Glen Chou",
-      "via_names": ["Georgia Institute of Technology"]
+      "via_names": [
+        "Georgia Institute of Technology"
+      ]
     },
     "coefficient_giving:39106": {
       "recipient_name": "EconTAI Lab",
-      "via_names": ["University of Virginia"]
+      "via_names": [
+        "University of Virginia"
+      ]
     },
     "coefficient_giving:39139": {
       "recipient_name": "Jake Nebel",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "coefficient_giving:39154": {
       "recipient_name": "Andrew Ilyas",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:39156": {
       "recipient_name": "Yonatan Belinkov",
-      "via_names": ["Technion - Israel Institute of Technology"]
+      "via_names": [
+        "Technion - Israel Institute of Technology"
+      ]
     },
     "coefficient_giving:39164": {
       "recipient_name": "James Mickens",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:39166": {
       "recipient_name": "Qiongkai Xu and Xuanli He",
-      "via_names": ["Macquarie University"]
+      "via_names": [
+        "Macquarie University"
+      ]
     },
     "coefficient_giving:39324": {
       "recipient_name": "Luca Pettinau",
-      "via_names": ["Wageningen University & Research"]
+      "via_names": [
+        "Wageningen University & Research"
+      ]
     },
     "coefficient_giving:39331": {
       "recipient_name": "Zurich Center for Economic Development",
-      "via_names": ["University of Zurich"]
+      "via_names": [
+        "University of Zurich"
+      ]
     },
     "coefficient_giving:39382": {
       "recipient_name": "Alternative Meats Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:39498": {
       "recipient_name": "Chao Chen",
-      "via_names": ["Stony Brook University"]
+      "via_names": [
+        "Stony Brook University"
+      ]
     },
     "coefficient_giving:39507": {
       "recipient_name": "Hanjie Chen",
-      "via_names": ["Rice University"]
+      "via_names": [
+        "Rice University"
+      ]
     },
     "coefficient_giving:39509": {
       "recipient_name": "Kianté Brantley",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "coefficient_giving:39523": {
       "recipient_name": "Jakob Foerster",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:39529": {
       "recipient_name": "Foundations of Cooperative AI Lab",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:39540": {
       "recipient_name": "Andy Zhang",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:39545": {
       "recipient_name": "Melanie Sclar",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:39711": {
       "recipient_name": "Oxford Martin AI Governance Initiative",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "coefficient_giving:40204": {
       "note": "For the AI Village project (AI Village and AI Digest are projects of Sage)."
     },
     "coefficient_giving:7028": {
       "recipient_name": "Zico Kolter",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "coefficient_giving:7045": {
       "recipient_name": "Gregory Timp",
-      "via_names": ["University of Notre Dame"]
+      "via_names": [
+        "University of Notre Dame"
+      ]
     },
     "coefficient_giving:7051": {
       "recipient_name": "Shibani Santurkar",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:7053": {
       "recipient_name": "Douglas Brubaker",
-      "via_names": ["Purdue University"]
+      "via_names": [
+        "Purdue University"
+      ]
     },
     "coefficient_giving:7055": {
       "recipient_name": "Dimitris Tsipras",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:8221": {
       "recipient_name": "Greg Lanzaro",
-      "via_names": ["University of California, Davis"]
+      "via_names": [
+        "University of California, Davis"
+      ]
     },
     "coefficient_giving:8234": {
       "recipient_name": "Lorenzo Giacani",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:8382": {
       "recipient_name": "Adithya Cattamanchi and Sarah Stanley",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:8389": {
       "recipient_name": "Jacob Steinhardt",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:8403": {
       "recipient_name": "Allan Basbaum",
-      "via_names": ["University of California, San Francisco"]
+      "via_names": [
+        "University of California, San Francisco"
+      ]
     },
     "coefficient_giving:8409": {
       "recipient_name": "Neil King",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:8412": {
       "recipient_name": "Alternative Meats Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:8427": {
       "recipient_name": "Robin Jia",
-      "via_names": ["University of Southern California"]
+      "via_names": [
+        "University of Southern California"
+      ]
     },
     "coefficient_giving:8431": {
       "recipient_name": "Caroline Cameron",
-      "via_names": ["University of Victoria"]
+      "via_names": [
+        "University of Victoria"
+      ]
     },
     "coefficient_giving:8446": {
       "recipient_name": "David Baker",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "coefficient_giving:8571": {
       "recipient_name": "Neil Thompson",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "coefficient_giving:8598": {
       "recipient_name": "Richard Bucala",
-      "via_names": ["Yale University"]
+      "via_names": [
+        "Yale University"
+      ]
     },
     "coefficient_giving:9496": {
       "recipient_name": "Anna Edmonds",
-      "via_names": ["University of Michigan"]
+      "via_names": [
+        "University of Michigan"
+      ]
     },
     "coefficient_giving:9498": {
       "recipient_name": "Jake Nebel",
-      "via_names": ["University of Southern California"]
+      "via_names": [
+        "University of Southern California"
+      ]
     },
     "coefficient_giving:9525": {
       "recipient_name": "Timothy Haystead",
-      "via_names": ["Duke University"]
+      "via_names": [
+        "Duke University"
+      ]
     },
     "coefficient_giving:9537": {
       "recipient_name": "Aditi Raghunathan",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "coefficient_giving:9541": {
       "recipient_name": "James Dahlman",
-      "via_names": ["Georgia Institute of Technology"]
+      "via_names": [
+        "Georgia Institute of Technology"
+      ]
     },
     "coefficient_giving:9560": {
       "recipient_name": "Jeffrey Glenn",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "coefficient_giving:9563": {
       "recipient_name": "Ludwig Schmidt",
-      "via_names": ["University of Washington"]
+      "via_names": [
+        "University of Washington"
+      ]
     },
     "ea_funds:grantsAddonData[136]": {
       "recipient_name": "Child and Adolescent Causes of Death Estimation team",
-      "via_names": ["EA Funds", "Johns Hopkins University"]
+      "via_names": [
+        "EA Funds",
+        "Johns Hopkins University"
+      ]
     },
     "ea_funds:rec1j29VZXfVPbCam": {
       "recipient_name": "Joshua Lewis",
-      "via_names": ["EA Funds", "New York University"]
+      "via_names": [
+        "EA Funds",
+        "New York University"
+      ]
     },
     "ea_funds:rec4D7Sg9TyEHL6Y1": {
       "note": "Grantee listed as 'Ashgro Inc. (fiscal sponsor of Apart)' — the grant is Apart's",
@@ -1279,7 +1881,10 @@
     },
     "ea_funds:recfqSRLeRYtOU2zy": {
       "recipient_name": "Aris Richardson",
-      "via_names": ["EA Funds", "EA Berkeley"]
+      "via_names": [
+        "EA Funds",
+        "EA Berkeley"
+      ]
     },
     "ea_funds:reciaJlSLKPTEDU71": {
       "note": "Training for Good grant covering the Tarbell journalism program (per Caroline: TfG grants mentioning Tarbell/journalism belong to Tarbell)",
@@ -1287,171 +1892,258 @@
     },
     "ea_funds:reclDG78z2kSSEOzK": {
       "recipient_name": "Anton Korinek",
-      "via_names": ["EA Funds", "University of Virginia"]
+      "via_names": [
+        "EA Funds",
+        "University of Virginia"
+      ]
     },
     "ea_funds:recnaIL6EkpXs6wsH": {
       "recipient_name": "Theron Pummer",
-      "via_names": ["EA Funds", "University of St Andrews"]
+      "via_names": [
+        "EA Funds",
+        "University of St Andrews"
+      ]
     },
     "ea_funds:recXtCpjz60rsR52y": {
       "recipient_name": "Animal Law Centre",
-      "via_names": ["EA Funds", "NALSAR University of Law"]
+      "via_names": [
+        "EA Funds",
+        "NALSAR University of Law"
+      ]
     },
     "fli:2b5e74173c691e7dfe7239e7ed649d0e59c09c556466aaca47b37f06b6987a3c": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "fli:3578ff73e6c37327934d1940aafc3f9a32caa1c2e7ba6b520bee8c08943ad633": {
       "recipient_name": "Anton Korinek",
-      "via_names": ["University of Virginia"]
+      "via_names": [
+        "University of Virginia"
+      ]
     },
     "fli:3f5902cad9b6113b64ec01a2b62dd4d8bb1bfbb359df8cfb20adda379056da38": {
       "recipient_name": "Richard Gibson",
-      "via_names": ["Wheaton College"]
+      "via_names": [
+        "Wheaton College"
+      ]
     },
     "fli:6cf7808fabb47e62ef10945d9a224b4c8681898ef46e5aa6f1cd1b11cc373bc0": {
       "recipient_name": "AI Policy Hub",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "fli:9d1fac2c1cc49b1c6207f4753558c812f9759e8bf11c43a0e326b73ddc8417b9": {
       "recipient_name": "Octavian Machidon",
-      "via_names": ["University of Ljubljana"]
+      "via_names": [
+        "University of Ljubljana"
+      ]
     },
     "fli:bd90691e8b91aa595ad779346287958ed64f5cb4620b331a34b6e5cc8464e858": {
       "recipient_name": "Hollywood, Health & Society",
-      "via_names": ["University of Southern California"]
+      "via_names": [
+        "University of Southern California"
+      ]
     },
     "fli:dc9f7566290b55f28fdec1f3e5146c19429fe286b00921dbb644fb5128bd5652": {
       "recipient_name": "Existential Risk Laboratory",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "fli:e9eb96653fb8862a4db20a8681a4ef5a01ea837a627adb0b8c9ffbcfcc8ecd4f": {
       "recipient_name": "AI Policy Hub",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "foresight:05eb59341233a543fde1ffe1e583322b8e2dc5eaa596f8b01d09bfb06f2cd9c4": {
       "recipient_name": "Roman Bauer",
-      "via_names": ["University of Surrey"]
+      "via_names": [
+        "University of Surrey"
+      ]
     },
     "foresight:0c4c22254ece4464b84dced7ad10582b7d8b49c6cf685b83ac2b0aed5d27da18": {
       "recipient_name": "Chandler Smith",
-      "via_names": ["Cooperative AI Foundation"]
+      "via_names": [
+        "Cooperative AI Foundation"
+      ]
     },
     "foresight:15da9eff8cf77c160b9d028a2f90a1eb3b9cd883beb62b17faa4f7736a073869": {
       "recipient_name": "Bradley Love",
-      "via_names": ["University College London"]
+      "via_names": [
+        "University College London"
+      ]
     },
     "foresight:279f8db1804d1a21918871620c88fc62fac76ee8a82cee2b0757157493ccc2aa": {
       "recipient_name": "Abhinav Singh",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "foresight:3342e6cde209315f4001f39215bddd45914ba1ad53c1a4c81c714579d9f8d948": {
       "recipient_name": "Lovkush Agarwal",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "foresight:446cd9b6d5588c1fe1a90a0bc8137bf5394b634dd773e6fcf96efedab3ba3375": {
       "recipient_name": "Logan Thrasher Collins",
-      "via_names": ["Washington University in St. Louis"]
+      "via_names": [
+        "Washington University in St. Louis"
+      ]
     },
     "foresight:548691e6d2c745cb65b3bb224b87222284fa3283c8092f220c2745e874d5edb9": {
       "recipient_name": "PK Douglas",
-      "via_names": ["University College London"]
+      "via_names": [
+        "University College London"
+      ]
     },
     "foresight:68f28178ac3ab44ea9b54018256a3481a458a45bb7034a3169f2e902aeb6348f": {
       "recipient_name": "Konrad Kording",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "foresight:c9e40e7195617aac47a572718b0968f5b4554028a100dbf9bc923eca56e32400": {
       "recipient_name": "Toby D. Pilditch",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "foresight:ce366e42fd3ca7c98409be3a57c0f1336c8cf4d44fdb2ba2036697ba138a0c2d": {
       "recipient_name": "Uwe Kortshagen",
-      "via_names": ["University of Minnesota"]
+      "via_names": [
+        "University of Minnesota"
+      ]
     },
     "foresight:e95ce3569c05c5557dcec9b538605e92371cf65770222f473b6ff576b4a549e3": {
       "recipient_name": "Florian Tramer",
-      "via_names": ["ETH Zürich"]
+      "via_names": [
+        "ETH Zürich"
+      ]
     },
     "ftx_future_fund:1c0c0ed44b724dc6e54569db3cd8fe9fdf827b113fe1cdda01bc2fbd9800f91a": {
       "recipient_name": "MESO Lab",
-      "via_names": ["Ohio State University"]
+      "via_names": [
+        "Ohio State University"
+      ]
     },
     "ftx_future_fund:1e2cb2a17384b3f6f816c28f9695b62bcbf9cb8d6bc0164986e21f98e4c3d28e": {
       "recipient_name": "Olle Häggström",
-      "via_names": ["Chalmers University of Technology"]
+      "via_names": [
+        "Chalmers University of Technology"
+      ]
     },
     "ftx_future_fund:1fdb7edbca0936d0c92d4b564e8fec7e721dc0fbc61e11f3fc698e75af5d55ff": {
       "recipient_name": "Chenhao Tan",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "ftx_future_fund:2a53bbbc647cf8b0b2e6299f227927763db1448a24d60960ad17507c8a1d2f0b": {
       "recipient_name": "Claudia Shi",
-      "via_names": ["Columbia University"]
+      "via_names": [
+        "Columbia University"
+      ]
     },
     "ftx_future_fund:302f2dc6592fd2ada880645dabc3704eacce72edf3f86a568121c57a2ea1a013": {
       "recipient_name": "Gabriel Recchia",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "ftx_future_fund:39e1a9fae7f705de9da91d9b835cabce8bcdf965573b3d7d49b040a2140ceb88": {
       "recipient_name": "Khalil Lab",
-      "via_names": ["Boston University"]
+      "via_names": [
+        "Boston University"
+      ]
     },
     "ftx_future_fund:46fc9f343a722fca1788b0e05b4af6cf52821805a4364751b25edeed27bf6c37": {
       "recipient_name": "Tom Gilbert",
-      "via_names": ["Cornell University"]
+      "via_names": [
+        "Cornell University"
+      ]
     },
     "ftx_future_fund:497fd7e325bcac71c668434d02e15524409d80bbb50cb738af40cb91e37f305f": {
       "recipient_name": "Oded Galor",
-      "via_names": ["Brown University"]
+      "via_names": [
+        "Brown University"
+      ]
     },
     "ftx_future_fund:5717f4e27fbc69fa161e1ade5dca2c78f6276bde5d6c7d1db370f67f86728355": {
       "recipient_name": "Tim Oates",
-      "via_names": ["University of Maryland, Baltimore County"]
+      "via_names": [
+        "University of Maryland, Baltimore County"
+      ]
     },
     "ftx_future_fund:6cd2d50ca4624684b6cc7eb91589797ce2c68661cb7315a9ddd04c114c9fcfb3": {
       "recipient_name": "Lionel Levine",
-      "via_names": ["Cornell University"]
+      "via_names": [
+        "Cornell University"
+      ]
     },
     "ftx_future_fund:6ed7bc93ba7fe34475523ce7450753dfcb0e1eb17879f045d8475b62b9b47177": {
       "recipient_name": "Joshua Pearce",
-      "via_names": ["University of Western Ontario"]
+      "via_names": [
+        "University of Western Ontario"
+      ]
     },
     "ftx_future_fund:8892ce2db392ecaf14cffa0cb77af7adf19aaa6cd52964320421d37ea00ee60e": {
       "recipient_name": "Emma Pierson",
-      "via_names": ["Cornell University"]
+      "via_names": [
+        "Cornell University"
+      ]
     },
     "ftx_future_fund:a8c1e0caf013c49c79b5d398f30852e2411f403d03018456fee19c89466b411f": {
       "recipient_name": "Adji Bousso Dieng",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "ftx_future_fund:cb3ead767f2792bdff198760d2f7ca0f87c8b3793564157309873631535b8c9b": {
       "recipient_name": "Daniel Brown",
-      "via_names": ["University of Utah"]
+      "via_names": [
+        "University of Utah"
+      ]
     },
     "ftx_future_fund:cffd9499f7ef9a431c9c17e9c4b269cd7932a7ab37761e978d3a3d2bba8f5721": {
       "recipient_name": "Anca Dragan",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "ftx_future_fund:d07b51f863b2724ee4fdb72a73c38d085d2e4a146549edf18fc070591a08d352": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "ftx_future_fund:daa7350a99c384fa0027b3f3d6bbd7dc6adcf512d8493ca3349505b5c559dbed": {
       "recipient_name": "University of Ottawa Heart Institute",
-      "via_names": ["University of Ottawa"]
+      "via_names": [
+        "University of Ottawa"
+      ]
     },
     "ftx_future_fund:e147aed0e1d4422cb3f2cf3463b5b45fdf71ea7630fa10e46a67f8e642887800": {
       "recipient_name": "Geoff Goodwin",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "ftx_future_fund:edb65af5503019f08d1a30cefdb33360c04be86ce177f0aa622b533d3dfe2108": {
       "recipient_name": "Joshua Greene",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "ftx_future_fund:fdfce21b5bd39da12b005bdb862e6ebec8f8558589cfac56ec54dc55e942749a": {
       "recipient_name": "Cihang Xie",
-      "via_names": ["University of California, Santa Cruz"]
+      "via_names": [
+        "University of California, Santa Cruz"
+      ]
     },
     "jaan_online:00a87389057507f95b2322ec5199761aa32b94ca111c3eccde7aa83825ab3120": {
       "recipient_name": "Orthogonal",
@@ -1459,11 +2151,17 @@
     },
     "jaan_online:039d3bcd8645c76d9716761f984f12e94c53248a06d27ad00dd9fb818b52fba0": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["Survival and Flourishing Fund", "University of Louisville"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Louisville"
+      ]
     },
     "jaan_online:0a89a3c0640c024bbdccd348c713704eccac089eef7fef72fdc405a6679fa026": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["Founders Pledge", "University of Louisville"]
+      "via_names": [
+        "Founders Pledge",
+        "University of Louisville"
+      ]
     },
     "jaan_online:0b5cc5ab5ed6948801113ea4103fb6c6f194a58bba2639d554829df667701730": {
       "recipient_name": "Orthogonal",
@@ -1475,7 +2173,10 @@
     },
     "jaan_online:1056367f01659561496c748a302dc36c4e54cb0a80eff5ecedd9f2224535a821": {
       "recipient_name": "Allen Discovery Center",
-      "via_names": ["Survival and Flourishing Fund", "Tufts University"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Tufts University"
+      ]
     },
     "jaan_online:130a024ade91f847399cb45fa81b054cb6ce89734a78ac96e60518865cffb795": {
       "recipient_name": "Apart Research",
@@ -1483,11 +2184,17 @@
     },
     "jaan_online:1592081b38d81748120ca482058ec8288f62b7d5d1cdf62c46fae9ad011b736d": {
       "recipient_name": "Alabama Law AI Initiative",
-      "via_names": ["Survival and Flourishing Fund", "University of Alabama Law School Foundation"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Alabama Law School Foundation"
+      ]
     },
     "jaan_online:15a52d58c6b7471795b4223d65ecc134a6220e6bdfa6a5f8836ad2adf5feeee1": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Survival and Flourishing Fund", "University of Cambridge"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:1b2b977a4bde9915941a0f7f7dd56730bdde63a0d3a6ab0a876dcddf26ec4bed": {
       "note": "Paid to Social and Environmental Entrepreneurs; the grant was for Global Catastrophic Risk Institute (BERI-era regrant)",
@@ -1496,15 +2203,23 @@
     },
     "jaan_online:1beb8c5cf7861065eb418354bf59ca837076ae96a4236c252981575d974d6fa6": {
       "recipient_name": "Laboratory for Social Minds at Carnegie Mellon University",
-      "via_names": ["Founders Pledge", "Carnegie Mellon University"]
+      "via_names": [
+        "Founders Pledge",
+        "Carnegie Mellon University"
+      ]
     },
     "jaan_online:205094b0cefb2bf2409a4709562788902de360b92ff575c89f481260794b9f77": {
       "recipient_name": "AI: Futures and Responsibility Programme",
-      "via_names": ["Survival and Flourishing Fund", "University of Cambridge"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:214b3b385cd08cc2fd78ab613ce907802d4c406897b52093e8b13fd6f55510f2": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "jaan_online:272169a8e07d2448c4b6bdd7e957129c65610cece4ba711568ea698b55a095ba": {
       "note": "Paid to Center for Applied Rationality; the grant was for Lightcone Infrastructure (BERI-era regrant)",
@@ -1513,11 +2228,17 @@
     },
     "jaan_online:2e427545341756832422f8bcc562697f4782e3ceae102a06d99ee152c4a29264": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:2f56c5260fff7bdbf2cd6d3c41fa66018afbb0091a308dcf516a851c67b16677": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:2ffd9c7d2dc13c695d25c47e0650b233c17b946b194f7fe8c21a634102449286": {
       "recipient_name": "Decode Research",
@@ -1529,7 +2250,9 @@
     },
     "jaan_online:35f40e681f87c91143232dc32fca3f69b6be3fa38d4b0f3e5d583ab7f8cd8d00": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "jaan_online:3665aa4ca94dff791d5ca59f5139691d64278db0d9cfabc5f2b49c4e3e9dc13f": {
       "recipient_name": "Timaeus",
@@ -1537,7 +2260,10 @@
     },
     "jaan_online:37306df8384088596b0292b7eab1622f284d0ea2ec4a1d210dc63f9c56a78de4": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["Survival and Flourishing Fund", "University of Louisville"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Louisville"
+      ]
     },
     "jaan_online:376f64bb4c5e776cd6b6e7f3dd83fd79f09f8ae84dbbb619bec619270fcef97b": {
       "recipient_name": "AI Safety Info",
@@ -1550,7 +2276,10 @@
     },
     "jaan_online:381b673f60d6b99e61adcab4fcb7c130c1f3b51101aeb2a8e1f69496e2de08f0": {
       "recipient_name": "Laboratory for Social Minds at Carnegie Mellon University",
-      "via_names": ["Founders Pledge", "Carnegie Mellon University"]
+      "via_names": [
+        "Founders Pledge",
+        "Carnegie Mellon University"
+      ]
     },
     "jaan_online:3908f2b43db6b868e5d6a9eacfab3664f9584eb59cbd8a592fe5ed1a11b6ea66": {
       "recipient_name": "Agent Foundations Field Network",
@@ -1558,7 +2287,10 @@
     },
     "jaan_online:3d2a28437aaad0bc6ac32b4fff471fad1a2eee204a9243d6d7620c2b855fd71f": {
       "recipient_name": "Jelena Luketina",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:3df356df0b74234e3c113fb4e9897d1874d5002f03a4fb15155693dccc0e23dd": {
       "recipient_name": "Agent Foundations Field Network",
@@ -1566,15 +2298,24 @@
     },
     "jaan_online:432dc270e0203238bc57ab1ce399a101a74bac3db177cefcc22d9c4c5222fc5d": {
       "recipient_name": "Stanford Existential Risks Initiative",
-      "via_names": ["Survival and Flourishing Fund", "Stanford University"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Stanford University"
+      ]
     },
     "jaan_online:473e780b022e9a79be2f97a28e64b450cc8ebc4a881467f045a443cb7b44c24a": {
       "recipient_name": "Peter Reiner",
-      "via_names": ["Survival and Flourishing Fund", "University of British Columbia"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of British Columbia"
+      ]
     },
     "jaan_online:4a5fa7d46a71f44ea12a6f7b0f496e95a1a9be23991de7a477d4e67f8e19c04f": {
       "recipient_name": "Tong Wang",
-      "via_names": ["Lightspeed Grants", "Massachusetts Institute of Technology"]
+      "via_names": [
+        "Lightspeed Grants",
+        "Massachusetts Institute of Technology"
+      ]
     },
     "jaan_online:4a953f5aec339cd3237e644ec35742b308a80f3cc86e723b95fc5e37725630cd": {
       "note": "Donation earmarked for AI Impacts during its MIRI fiscal-sponsorship era",
@@ -1587,23 +2328,38 @@
     },
     "jaan_online:59f9cfbef8d0db619f887f2646249fc642a70757c421bbf7508134e65abcae88": {
       "recipient_name": "Claudia Shi",
-      "via_names": ["Founders Pledge", "Columbia University"]
+      "via_names": [
+        "Founders Pledge",
+        "Columbia University"
+      ]
     },
     "jaan_online:5bd0ebca2da278918bc5bbbba8c27d5682c082d081e50da1061c646c73330ee0": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:6040c54d2545706e52207dea1eb4f8bb0ecdb8a495fb0db2bf12133154cef73e": {
       "recipient_name": "Safe AI for Humanity",
-      "via_names": ["Survival and Flourishing Fund", "Mila"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Mila"
+      ]
     },
     "jaan_online:6639e07a4f35cfd17a4fb0e7549dc2657b52cdfbdb7f7bd0a0fc67681658240d": {
       "recipient_name": "Claudia Shi",
-      "via_names": ["Founders Pledge", "Columbia University"]
+      "via_names": [
+        "Founders Pledge",
+        "Columbia University"
+      ]
     },
     "jaan_online:689398101abc59c89f9754333cbf01aa3f1dccc229da57e4e344c46030142aa9": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:69d947ed845687484ca104a3a114046e82743ac26e7268c0298044d7be759a47": {
       "note": "Donation earmarked for AI Impacts during its MIRI fiscal-sponsorship era",
@@ -1617,11 +2373,16 @@
     },
     "jaan_online:6cab4b2f1beb22cd470162b5ea91ebe4e28804ba6105b21b24de71b0910fe2d2": {
       "recipient_name": "Laboratory for Social Minds at Carnegie Mellon University",
-      "via_names": ["Founders Pledge", "Carnegie Mellon University"]
+      "via_names": [
+        "Founders Pledge",
+        "Carnegie Mellon University"
+      ]
     },
     "jaan_online:6db475d55838f3df696b664ee8c09d02792874accff4a323b80d69f6d7509b3c": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "jaan_online:6f0b5be4153bfe80bc8075a8e68fad65cf265dd19aea39553346e72336050409": {
       "note": "Paid to Centre for Effective Altruism; the grant was for 80,000 Hours (BERI-era regrant)",
@@ -1642,19 +2403,30 @@
     },
     "jaan_online:7b38abca6aed1428a45f0a18dab9561814e9c91e79ed406d14e5780548950cbb": {
       "recipient_name": "Foundations of Cooperative AI Lab",
-      "via_names": ["Survival and Flourishing Fund", "Carnegie Mellon University"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Carnegie Mellon University"
+      ]
     },
     "jaan_online:7bd66b525d4c00323dca41c02ea64cb7c78f7287f3e9c8ab509b029131ad399e": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["University of Louisville"]
+      "via_names": [
+        "University of Louisville"
+      ]
     },
     "jaan_online:7cdf1e73aa7a95024c26dc2adc1ab9e5cc27e945bf00e06919a8e566b986812d": {
       "recipient_name": "Machine Intelligence and Normative Theory Lab",
-      "via_names": ["Survival and Flourishing Fund", "Australian National University"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Australian National University"
+      ]
     },
     "jaan_online:806fb087883cd17537565c32cc6fbb8886722d066d3f75c3827c347c4ccdbaa0": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:8270cca5e6dc6fd289ffb56e23f9036836579807f410931e17b133024df4a18c": {
       "recipient_name": "Apart Research",
@@ -1662,11 +2434,17 @@
     },
     "jaan_online:82acad335a5f899c589391874c937538d12081556d51e6b9eb7e103688b4a476": {
       "recipient_name": "AI: Futures and Responsibility Programme",
-      "via_names": ["Founders Pledge", "University of Cambridge"]
+      "via_names": [
+        "Founders Pledge",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:8e32bfe0c1f4671a2900d9c972b6215a9a6810a45711544bbebf2f6c7c3efc0a": {
       "recipient_name": "Oxford Martin AI Governance Initiative",
-      "via_names": ["Survival and Flourishing Fund", "University of Cambridge"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:8e808af2f3eb62762d23cf5212434b0614e2da7659c92610056d3c2d5958147c": {
       "recipient_name": "Association for Long-Term Existence and Resilience",
@@ -1674,7 +2452,9 @@
     },
     "jaan_online:9154bee575b67dcd98aef74cfa873080814d981536fdf2f6c307a49a35b76d78": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["University of Cambridge"]
+      "via_names": [
+        "University of Cambridge"
+      ]
     },
     "jaan_online:940b820cd155a6d51161a8b354ceccf481d652c1f7a89fe06219c246f8a0172c": {
       "recipient_name": "AI Safety Info",
@@ -1682,11 +2462,17 @@
     },
     "jaan_online:944cbf8346280203f3af8deec006c9d435438a1f948332be056df418e0226956": {
       "recipient_name": "Erik Brynjolfsson",
-      "via_names": ["Survival and Flourishing Fund", "Stanford University"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "Stanford University"
+      ]
     },
     "jaan_online:9cd3b673aa7f832c8e44da1e83f032e450363665f3e947a577d055e8e0f87912": {
       "recipient_name": "Florian Tramer",
-      "via_names": ["Lightspeed Grants", "ETH Zürich"]
+      "via_names": [
+        "Lightspeed Grants",
+        "ETH Zürich"
+      ]
     },
     "jaan_online:a1ebc1249cc0bc30fd96b223ada18dd25ffbbef58c07cac9ae5f332ed0594b7a": {
       "recipient_name": "Orthogonal",
@@ -1694,31 +2480,52 @@
     },
     "jaan_online:a2c03820ccd31b69e5496c2efafb72d35f50de6302b075c7f34a47ef8843321c": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:ab0b435b4561905b95cd5fb4229eaf013471e6782de1042783b2bf82173be7a5": {
       "recipient_name": "Claudia Shi",
-      "via_names": ["Founders Pledge", "Columbia University"]
+      "via_names": [
+        "Founders Pledge",
+        "Columbia University"
+      ]
     },
     "jaan_online:aeadc3075bbe57b0bd660520c7a251369f7715a3d0f6d166661612f4f4490ddd": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:af8ef3248dd9555344f5c5cb72d4ab69d54639badfbba81b75c5a20e69ec7f65": {
       "recipient_name": "Tony Wang",
-      "via_names": ["Lightspeed Grants", "Massachusetts Institute of Technology"]
+      "via_names": [
+        "Lightspeed Grants",
+        "Massachusetts Institute of Technology"
+      ]
     },
     "jaan_online:b4add5330e32db3ed18f892ec0513d8a156f146e5cda44be1767051ffeb9baee": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:b6defc5efd1d7ee2db51d1a45ed24d22364936f8b330220259971ca9a3746c21": {
       "recipient_name": "Foundations of Cooperative AI Lab",
-      "via_names": ["Founders Pledge", "Carnegie Mellon University"]
+      "via_names": [
+        "Founders Pledge",
+        "Carnegie Mellon University"
+      ]
     },
     "jaan_online:b7eb00bf294f04d6b32c9641e12effd0f135899c67cde3ac7a119264ae52c8cd": {
       "recipient_name": "Colin Raffel",
-      "via_names": ["Lightspeed Grants", "University of Toronto"]
+      "via_names": [
+        "Lightspeed Grants",
+        "University of Toronto"
+      ]
     },
     "jaan_online:bccb4d08ff47b9d4be1818c0e85d5685dd4a10b63c303911e598ba03bbdd9d87": {
       "recipient_name": "Jeremy Gillen",
@@ -1726,15 +2533,24 @@
     },
     "jaan_online:cae50014b2dc48c08ef7a1d58b09247a0e45ab9a8c7eba650c149bf169a3832d": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:cc74e4672e8d9b48842685e593b08072caa2ba378914aba04d45bb47053857cc": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["Survival and Flourishing Fund", "University of Louisville"]
+      "via_names": [
+        "Survival and Flourishing Fund",
+        "University of Louisville"
+      ]
     },
     "jaan_online:cc95e9c9b2c7c36dcfee670c0a0a46171168bae5d9a86dbb15ee02042efc0644": {
       "recipient_name": "Jelena Luketina",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:d3de24959fac30786e5742fbb11ba15c99fecf459464449809c986a5d8c625fe": {
       "recipient_name": "AI Safety Info",
@@ -1742,15 +2558,24 @@
     },
     "jaan_online:d69c11691bdf3eb2e65cf754f723da56f6f6cb6c4d1cf15ed3ea9a0bbdfdcc9d": {
       "recipient_name": "Jelena Luketina",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:daa2fc6e9b6b2d6b5f13a1a4d33c63d7b029413b21610182a89c3a19e9d86001": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:dbced0b71050f5f2a63c338d293f30c09802e809aad5d071daef315ba37c7378": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:dd334003a1d89ba350064f41c0aa524ccd03d86e85b502b7a936d5d62fe3ab6c": {
       "recipient_name": "AI Safety Info",
@@ -1758,19 +2583,30 @@
     },
     "jaan_online:deee56ce3e1df74b74a820e63e53c524b0212dfc57887f00b6a0592c10f19cb6": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:e4b8e700f3d03879126b4697769b9d32d6085da7ea3c7166c386cc884e33abf9": {
       "recipient_name": "Milan Griffes",
-      "via_names": ["Founders Pledge", "Johns Hopkins University"]
+      "via_names": [
+        "Founders Pledge",
+        "Johns Hopkins University"
+      ]
     },
     "jaan_online:e6818b065354503e00fb42c1c9d5bc420ac763dd669136c43c4d5561322aa9c2": {
       "recipient_name": "Center for Law and AI Risk",
-      "via_names": ["Founders Pledge", "University of Alabama Law School Foundation"]
+      "via_names": [
+        "Founders Pledge",
+        "University of Alabama Law School Foundation"
+      ]
     },
     "jaan_online:e992d26ff040388ac261e25edf4ff7952127f3d74bc9b563adeac2aabd583039": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "jaan_online:ec0404b7e53e16a77a7a023ccceecd9c7d60d4295a6328a516adac09b9606c6a": {
       "recipient_name": "Timaeus",
@@ -1778,7 +2614,10 @@
     },
     "jaan_online:ec6c123b5215780569a88fb12ee7df72b1fd01c00236bd54ae7bd94d2d0d0483": {
       "recipient_name": "Claudia Shi",
-      "via_names": ["Founders Pledge", "Columbia University"]
+      "via_names": [
+        "Founders Pledge",
+        "Columbia University"
+      ]
     },
     "jaan_online:ecbdc498c769d20e34764869229cc2be3726b75d9bce4a5380c4f272c8f85466": {
       "recipient_name": "AI Safety Info",
@@ -1786,7 +2625,9 @@
     },
     "jaan_online:ed2df430017b4f056a6cb9be1d3516cd386831e1867a0198d3d01d0b8ab1267b": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "jaan_online:f1db4deb6b6c1e1caac41b0f9216845d2169b27d5aabf6ed1ca7e0dfe80965e8": {
       "recipient_name": "Human Agency Bench",
@@ -1794,35 +2635,54 @@
     },
     "jaan_online:f85daa8b6562f06ecf8b9638f8768c61fb5dbeaa4adcfb02d073274e7988e9a1": {
       "recipient_name": "Centre for the Study of Existential Risk",
-      "via_names": ["Solenum Foundation", "University of Cambridge"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Cambridge"
+      ]
     },
     "jaan_online:f9c846db3acafe51abce01fb96f5bc73e6f7950902d6c96654a3db890acb8278": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "jaan_online:fa85fc8cd8970d6c0d6c5808976701adb1e759112a350acf4acf664cc34851b8": {
       "recipient_name": "Future of Humanity Institute",
-      "via_names": ["Solenum Foundation", "University of Oxford"]
+      "via_names": [
+        "Solenum Foundation",
+        "University of Oxford"
+      ]
     },
     "longview:36acc97d8825476683a65f9cb79896b361dc187d20991ac3fcf2ec23303e4ca1": {
       "recipient_name": "Center for Communicable Disease Dynamics",
-      "via_names": ["Harvard University"]
+      "via_names": [
+        "Harvard University"
+      ]
     },
     "longview:37f9329f8d14dfc4f90c6f247025f1508b9648e096c0704bcaa419383292206e": {
       "recipient_name": "Center for Human-Compatible AI",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "longview:73afa36d003307fec595e035979077fc2294e81aa4018ea7cb178540afc7bdd1": {
       "recipient_name": "Perry World House",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "longview:aa86b26312fdb5e2acf6396a23ed485511113dac1fa6c4b209095390c7849883": {
       "recipient_name": "Berkeley Risk and Security Lab",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "longview:cd2ef54e778043392c4c1ab7876e49955562896ce0463937713b1b6260ad7555": {
       "recipient_name": "Center for Human-Compatible AI",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "manifund:bc897493-91bf-47af-afed-5e309538c6c8:acx-grants": {
       "note": "ACX 2024 regrant paid out via Manifund; Tarbell's program, listed under Cillian Crosson",
@@ -1838,123 +2698,187 @@
     },
     "sff:ae995ce2cef242d56ce5382545291f3e4aebfd6e264602bfd53cc696a2da4f0f": {
       "recipient_name": "Roman Yampolskiy",
-      "via_names": ["University of Louisville"]
+      "via_names": [
+        "University of Louisville"
+      ]
     },
     "uk_aisi:03682baca0332bcc6babda507d0ecbf4b0b12f21c20fb2d0d6e0f4ecb90edc2e": {
       "recipient_name": "Xiaowei Huang",
-      "via_names": ["University of Liverpool"]
+      "via_names": [
+        "University of Liverpool"
+      ]
     },
     "uk_aisi:14661094f3a4796a0be9a88108482af58517e86a4c397b6ceef179328137a149": {
       "recipient_name": "Eva Silverstein",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "uk_aisi:1469eeb03e7f8cbe9bdf0f5c480624408d131ccbc0ad0d5b3e9b373770a6ec79": {
       "recipient_name": "Venkatesan Guruswami",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "uk_aisi:1705fb15cedc75b02bb8fed2bf4658e6a0e1b57f28fdba541bb3c542dcaa0cb7": {
       "recipient_name": "Andrew Saxe",
-      "via_names": ["University College London"]
+      "via_names": [
+        "University College London"
+      ]
     },
     "uk_aisi:1b44b363248a9d781d6c504e5a5c4471afa0751f3c8bd1241417ebcc91735e52": {
       "recipient_name": "Caitlin Bentley",
-      "via_names": ["King's College London"]
+      "via_names": [
+        "King's College London"
+      ]
     },
     "uk_aisi:1c4fb5df1876cf189f7178688ccd0ef0b75c83da92034a80341757985d06e0c8": {
       "recipient_name": "Centre for Legal Technology",
-      "via_names": ["Ulster University"]
+      "via_names": [
+        "Ulster University"
+      ]
     },
     "uk_aisi:2c9d2aed40e5220d94645ab74ca1044da62f3cbce1e262d7467701c7589b1c99": {
       "recipient_name": "Annie Liang",
-      "via_names": ["Northwestern University"]
+      "via_names": [
+        "Northwestern University"
+      ]
     },
     "uk_aisi:2e17a78e0a227d906257cb26a73dc61fb01f8e44ffaf7eb89c76b51b8422d533": {
       "recipient_name": "Vinod Vaikuntanathan",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "uk_aisi:3dd2627b9670eda2b498681691b8da3f77b7457707932fe334b231c2b63e59d1": {
       "recipient_name": "Michael Bronstein",
-      "via_names": ["University of Oxford", "McGill University", "Mila"]
+      "via_names": [
+        "University of Oxford",
+        "McGill University",
+        "Mila"
+      ]
     },
     "uk_aisi:432d86842c0451fe6afc5343c8bee368a9497005bc3222a6111d8726f440dbaf": {
       "recipient_name": "Ari Holtzman",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "uk_aisi:43d1f9fafb30e31aecbab24098c195bc1269006bad63a40c97125e628e8733dc": {
       "recipient_name": "Mark McGill",
-      "via_names": ["University of Glasgow", "University of Edinburgh"]
+      "via_names": [
+        "University of Glasgow",
+        "University of Edinburgh"
+      ]
     },
     "uk_aisi:443b87a1f77f885749e1f85101c5be8a0fc9354e3418b817fdb39f6b9eb7e56f": {
       "recipient_name": "Andrew Duncan",
-      "via_names": ["Imperial College London"]
+      "via_names": [
+        "Imperial College London"
+      ]
     },
     "uk_aisi:460c0ee5cc9d4cbc3c934d844b065acb7b27d4baf9a099ae4a7d4973c1c414ae": {
       "recipient_name": "Yali Du",
-      "via_names": ["King's College London"]
+      "via_names": [
+        "King's College London"
+      ]
     },
     "uk_aisi:4845ef1c4a662ec77e59fa25667e6f14f3bc1e79962e68baec4bdccc59a85ba8": {
       "recipient_name": "Marios Kogias",
-      "via_names": ["Imperial College London"]
+      "via_names": [
+        "Imperial College London"
+      ]
     },
     "uk_aisi:48785d9d31632a8b7fddd2a7ad0c9aa067bd23d9a806b642defc854d35e55b17": {
       "recipient_name": "Brian Sheil",
-      "via_names": ["University of Cambridge", "Anglia Ruskin University"]
+      "via_names": [
+        "University of Cambridge",
+        "Anglia Ruskin University"
+      ]
     },
     "uk_aisi:550abcbd0d28aaca1dc04545019844ac6ddfe76f2b14bf7a28602ec98c2c5edc": {
       "recipient_name": "Vinod Vaikuntanathan",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "uk_aisi:5b031721261ba360ab61094aec683b770927baba68537e95a0ce1380041d4b2b": {
       "recipient_name": "Zhijing Jin",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "uk_aisi:5dc6a6eb39e44659161529f0df4493350034168554127964707ce8bc7356c0d1": {
       "recipient_name": "Shirin Saeedi Bidokhti",
-      "via_names": ["University of Pennsylvania"]
+      "via_names": [
+        "University of Pennsylvania"
+      ]
     },
     "uk_aisi:63051bac4e8d79f425324cfa4acef8790d1a496211e4ff875613d1c25fec6f03": {
       "recipient_name": "Aditi Raghunathan",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "uk_aisi:661798a47ba22d10b63d14397be41061748f498d19f5009179083cabb69b1f71": {
       "recipient_name": "Susan Wei",
-      "via_names": ["Monash University"]
+      "via_names": [
+        "Monash University"
+      ]
     },
     "uk_aisi:6862d41ed4bdc83b13ac63203c715f9b65e18cebfe149807060c7cb2c1c9fe00": {
       "recipient_name": "Pavel Izmailov",
-      "via_names": ["New York University"]
+      "via_names": [
+        "New York University"
+      ]
     },
     "uk_aisi:6e8dd64947bfcf5a91691f219eaa06c9880dad2d11ee5544d963976dc74efe82": {
       "recipient_name": "Joan Velja",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "uk_aisi:70c14017601c8d18f7516c7eb673f1afdbc11b301f76312ecef3ba4e230d55f5": {
       "recipient_name": "Alexandros Psomas",
-      "via_names": ["Purdue University"]
+      "via_names": [
+        "Purdue University"
+      ]
     },
     "uk_aisi:7400333b7b91d2c311011e799a128710a298d1d7229caeaacb880f5831104928": {
       "recipient_name": "Bin Yu",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "uk_aisi:7446144a80b2856ece98685020ba1c14eacb15ffe0d2e6c94e8e347ef48ea10f": {
       "recipient_name": "Dirk Bergemann",
-      "via_names": ["Yale University"]
+      "via_names": [
+        "Yale University"
+      ]
     },
     "uk_aisi:7bbca174a43131f4ef0d45fa704000adc482cefb09e87178015bc553ef21a3a4": {
       "recipient_name": "Rico Angell",
-      "via_names": ["New York University"]
+      "via_names": [
+        "New York University"
+      ]
     },
     "uk_aisi:7f12b1151e07b149ca0dbcee9f9dd7a2318e0d4885e8c0c7b8c2eb8b62c6ea56": {
       "recipient_name": "Cole Wyeth",
-      "via_names": ["University of Waterloo"]
+      "via_names": [
+        "University of Waterloo"
+      ]
     },
     "uk_aisi:7f46ecb4484a96c1549441e44f85adcd88905129a1c9636de290175961d1ef6e": {
       "recipient_name": "Inbal Talgam-Cohen",
-      "via_names": ["Tel Aviv University"]
+      "via_names": [
+        "Tel Aviv University"
+      ]
     },
     "uk_aisi:8548e3c323ee0b500e63a3aeef505ecafa78df19c08408912d50b098fb17cbbf": {
       "recipient_name": "Gina Neff",
-      "via_names": ["Queen Mary University of London"]
+      "via_names": [
+        "Queen Mary University of London"
+      ]
     },
     "uk_aisi:89a5bf855274de59868bb76433736fb075cc36e1fe4636cb2ded172fdbbd614b": {
       "recipient_name": "Shoaib Ehsan",
@@ -1966,51 +2890,75 @@
     },
     "uk_aisi:8f599517df1e2e21b8fb2285c2b1276b567fc245f762f3bfdf565437301f1baf": {
       "recipient_name": "Zhijing Jin",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "uk_aisi:92ceaa53b70c74d7ae4a3e8f439653fc362cd003a0caea76a26d56b4c06a95d5": {
       "recipient_name": "Yonatan Kahn",
-      "via_names": ["University of Toronto"]
+      "via_names": [
+        "University of Toronto"
+      ]
     },
     "uk_aisi:948f5713518c418b872dd63691b69844d79746de9a26873795bf53a68beb25bb": {
       "recipient_name": "Syed A. R. Zaidi",
-      "via_names": ["University of Leeds"]
+      "via_names": [
+        "University of Leeds"
+      ]
     },
     "uk_aisi:9c585604f6630a993c032851a1bc199748e04d9606897a227c39fa9693053603": {
       "recipient_name": "Linglong Kong",
-      "via_names": ["University of Alberta"]
+      "via_names": [
+        "University of Alberta"
+      ]
     },
     "uk_aisi:a5b37d34a10204e1d0e8e1f5086080b985c452eef88c4541e11b988fc66ea981": {
       "recipient_name": "Center for Responsible, Decentralized Intelligence",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "uk_aisi:a84ccc84ad975011114a18aa19a8bc53cb06b91bccc8211062670ea59068883a": {
       "recipient_name": "Qian Lu",
-      "via_names": ["Coventry University"]
+      "via_names": [
+        "Coventry University"
+      ]
     },
     "uk_aisi:b01e55d6d2b47bec647dd72bde3cb8ce1f1ced0a859aa7b865598efc0e9bc44f": {
       "recipient_name": "Alexander Serb",
-      "via_names": ["University of Edinburgh"]
+      "via_names": [
+        "University of Edinburgh"
+      ]
     },
     "uk_aisi:b0ffc3bfbeb5d42e33025ccc057c4ba9524cc0b8948db063df2403b1c70d6e07": {
       "recipient_name": "Or Zamir",
-      "via_names": ["Tel Aviv University"]
+      "via_names": [
+        "Tel Aviv University"
+      ]
     },
     "uk_aisi:b7d147d9ae75b00909c0315e7d48ff38b1d80ce99f0ced8dd7be3483124d1679": {
       "recipient_name": "Antonio Valerio Miceli-Barone",
-      "via_names": ["University of Edinburgh"]
+      "via_names": [
+        "University of Edinburgh"
+      ]
     },
     "uk_aisi:c467b02b5648a0a1b10278971804b4c2ee07ccd797a9cdacc134da481daef38c": {
       "recipient_name": "Adel Bibi",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "uk_aisi:c8ffa70862a0d6ec3c6c72dfe3baf91258dd4e4bdceab58810f5ba660a476262": {
       "recipient_name": "Benjamin Van Roy",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "uk_aisi:cba79d6a2f2c2fb40ce40e97e5242f4c451a8af05cbc88e9aebd86d7f713ce19": {
       "recipient_name": "Carl Macrae",
-      "via_names": ["University of Nottingham"]
+      "via_names": [
+        "University of Nottingham"
+      ]
     },
     "uk_aisi:d5f514d0efc2a5eb21ea20e5104d2417ce8de966afdd0ad6d2221a1e31c52b70": {
       "recipient_name": "Max Duchi",
@@ -2018,43 +2966,64 @@
     },
     "uk_aisi:d6024aeff7d8bfc183090b6259bcab7600f0e750a94dbfc1682e52f45f917cb8": {
       "recipient_name": "Risi Kondor",
-      "via_names": ["University of Chicago"]
+      "via_names": [
+        "University of Chicago"
+      ]
     },
     "uk_aisi:dc28349ac55db84c71d7d6bbd2e7a883a31afb1d2d50f73caf3063c09658d580": {
       "recipient_name": "Nick Hawes",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "uk_aisi:ddf98d2bc3a256d3438a9e51c6badd5cdc50113122b392225ba1dcaae82cfc83": {
       "recipient_name": "Kai Sandbrink",
-      "via_names": ["University College London", "University of Oxford"]
+      "via_names": [
+        "University College London",
+        "University of Oxford"
+      ]
     },
     "uk_aisi:e135185bcf0c5abf7047a8d5765901da6cf23fb371dbb8b3f06be2fe0553d905": {
       "recipient_name": "Carmine Ventre",
-      "via_names": ["King's College London"]
+      "via_names": [
+        "King's College London"
+      ]
     },
     "uk_aisi:e1bfe233e949615e3ed32409996cc27a49932f19b871d6c4d23194febeb5d884": {
       "recipient_name": "John Duchi",
-      "via_names": ["Stanford University"]
+      "via_names": [
+        "Stanford University"
+      ]
     },
     "uk_aisi:e4b057db2eb85f09a81038bdff078e21530559e1a6da1000a451de2c94814de7": {
       "recipient_name": "Rahul Santhanam",
-      "via_names": ["University of Oxford"]
+      "via_names": [
+        "University of Oxford"
+      ]
     },
     "uk_aisi:e715c094e3de55a4ce65858b4660c1e9a679d529c82fcb0a4937800a082d73fa": {
       "recipient_name": "Daniele Condorelli",
-      "via_names": ["University of Warwick"]
+      "via_names": [
+        "University of Warwick"
+      ]
     },
     "uk_aisi:eacd08d4873e049546dd1938c89eab98943f7eead4b1f1d8732e624abf410441": {
       "recipient_name": "Rocco Servedio, Xi Chen, and Anindya De",
-      "via_names": ["Columbia University"]
+      "via_names": [
+        "Columbia University"
+      ]
     },
     "uk_aisi:eba5fbd620e5c28c7fb887be719ae1999bab4ef807677c7b688658b0536a4a55": {
       "recipient_name": "Bei Jiang",
-      "via_names": ["University of Alberta"]
+      "via_names": [
+        "University of Alberta"
+      ]
     },
     "uk_aisi:ec5b8b244f96ded4de8f2c1f8fb3ddda7cf3054acc8b142189a71a919e9b3682": {
       "recipient_name": "Ryan Williams",
-      "via_names": ["Massachusetts Institute of Technology"]
+      "via_names": [
+        "Massachusetts Institute of Technology"
+      ]
     },
     "uk_aisi:ee7a8912bf6c7f3a637956b712cef5250e67cb6165139ec7aa83f5dafa63e96a": {
       "recipient_name": "Fernando Rosas",
@@ -2062,7 +3031,10 @@
     },
     "uk_aisi:fa756358a59ba120012456d0a3f63f8df6aa7496be09291a8f115abf34bfa93e": {
       "recipient_name": "Farhana Ferdousi Liza",
-      "via_names": ["University of East Anglia", "University of Sussex"]
+      "via_names": [
+        "University of East Anglia",
+        "University of Sussex"
+      ]
     },
     "uk_aisi:fd614098c1b0ff2a58819159813b64e9f891f145faa0343735dd0f2bb5dabdc6": {
       "recipient_name": "Alexander Gietelink Oldenziel",
@@ -2070,55 +3042,81 @@
     },
     "vipul_donations:1a69cd9d67e35bb064fd4521a9d6b01487322199e2d40849c478c67df86754bc": {
       "recipient_name": "Deborah Cao",
-      "via_names": ["Griffith University"]
+      "via_names": [
+        "Griffith University"
+      ]
     },
     "vipul_donations:2af771cb465e6ec6e2bdc5f493219e61d11b7eb01ce1e91cabfaf38a529c4029": {
       "recipient_name": "Peter Singer",
-      "via_names": ["Princeton University"]
+      "via_names": [
+        "Princeton University"
+      ]
     },
     "vipul_donations:4926c4fe322d46de9c7a4dcc26cba69f728cb4f2080ba0aa081d0ae316948e3c": {
       "recipient_name": "Maina Ngotho",
-      "via_names": ["Mount Kenya University"]
+      "via_names": [
+        "Mount Kenya University"
+      ]
     },
     "vipul_donations:4e81084309b8b8ccaa8c4fa0161f8dd3be918fb546b4a0ee5c83ced353412b0d": {
       "recipient_name": "Joshua Tasoff",
-      "via_names": ["Claremont Graduate University"]
+      "via_names": [
+        "Claremont Graduate University"
+      ]
     },
     "vipul_donations:60bf46b8d618ffd70fee69f84a6286d57296623e97d39cd0924a9454dee89582": {
       "recipient_name": "Deborah Cao",
-      "via_names": ["Griffith University"]
+      "via_names": [
+        "Griffith University"
+      ]
     },
     "vipul_donations:620c95fdf2730131eddd5c2247079c90da2dbca741ddb7d68286af6412aad8b6": {
       "recipient_name": "Matthias Bethge",
-      "via_names": ["University of Tübingen"]
+      "via_names": [
+        "University of Tübingen"
+      ]
     },
     "vipul_donations:795dfa1e4156a2ad7b39eb9a8b19438d27388e2385052fc46c198fc6b203f8c7": {
       "recipient_name": "Michael Toscano",
-      "via_names": ["University of Bern"]
+      "via_names": [
+        "University of Bern"
+      ]
     },
     "vipul_donations:7d16573a1dc9475b0554bcf59097bb91063990eac32380c1c335c09bcadb725c": {
       "recipient_name": "Marc Bracke",
-      "via_names": ["Wageningen University & Research"]
+      "via_names": [
+        "Wageningen University & Research"
+      ]
     },
     "vipul_donations:a37d10d04651bf9ad45858930bbaeb18055fc1ee36dfd88dfd0a21605bc6c833": {
       "recipient_name": "EA Berkeley",
-      "via_names": ["University of California, Berkeley"]
+      "via_names": [
+        "University of California, Berkeley"
+      ]
     },
     "vipul_donations:a93f264eb14e26e41dedb34531f5c336c548b098f3e5f074d75ad54cae18864e": {
       "recipient_name": "Andre Platzer",
-      "via_names": ["Carnegie Mellon University"]
+      "via_names": [
+        "Carnegie Mellon University"
+      ]
     },
     "vipul_donations:b36cc4f61b75e5d2c8d62efb92efdb2a40ce83b058ad9f8740f54fb66b76aac6": {
       "recipient_name": "Maria Chen",
-      "via_names": ["University of British Columbia"]
+      "via_names": [
+        "University of British Columbia"
+      ]
     },
     "vipul_donations:c592ea433ef5a33a416b4c8ebc731dc36aab496712d1e3b4417647acb93ab88b": {
       "recipient_name": "Alan Robock",
-      "via_names": ["Rutgers University"]
+      "via_names": [
+        "Rutgers University"
+      ]
     },
     "vipul_donations:d423455b9d76d5b941643d0b355d7a9f70152f9373949c2fe075a5012e94d827": {
       "recipient_name": "Raul Andino",
-      "via_names": ["University of California, San Francisco"]
+      "via_names": [
+        "University of California, San Francisco"
+      ]
     }
   }
 }

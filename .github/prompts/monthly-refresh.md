@@ -8,7 +8,6 @@ access (deliberately); a human reviews your changes as a pull request, and
 ingestion happens after merge.
 
 ## Ground rules
-
 - Only edit files under `data/curated/` (and nothing else).
 - Match each file's existing row schema, field names, and conventions.
   Read several existing rows first.
@@ -27,7 +26,6 @@ ingestion happens after merge.
   or "no new grants found". This becomes the pull-request body.
 
 ## Sources
-
 - **Longview Philanthropy** (`longview.json`): their published grants at
   longview.org (grants/annual report pages).
 - **Macroscopic Ventures** (`macroscopic.json`): macroscopic.org/grants.
