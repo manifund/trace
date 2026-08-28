@@ -15,7 +15,7 @@ export default function Page() {
     const params = new URLSearchParams(window.location.hash.slice(1))
     const accessToken = params.get('access_token')
     const refreshToken = params.get('refresh_token')
-    const next = params.get('next') || '/suggestions'
+    const next = params.get('next') || '/edit'
     if (!accessToken || !refreshToken) {
       setError('No sign-in details were passed along. Try signing in again.')
       return
@@ -29,7 +29,7 @@ export default function Page() {
           setError(sessionError.message)
           return
         }
-        window.location.replace(next.startsWith('/') ? next : '/suggestions')
+        window.location.replace(next.startsWith('/') ? next : '/edit')
       })
   }, [])
 
@@ -37,7 +37,7 @@ export default function Page() {
     <p className="text-ink-muted">
       {error ? (
         <>
-          {error} <a href="/suggestions">Back to suggestions</a>.
+          {error} <a href="/edit">Back to editing</a>.
         </>
       ) : (
         'Signing you in…'

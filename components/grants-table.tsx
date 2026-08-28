@@ -320,8 +320,8 @@ export function GrantsTable(props: {
             <a
               href={`/suggest?grant=${row.original.id}`}
               className="flex size-6 items-center justify-center rounded-sm text-muted-foreground opacity-0 group-hover:opacity-100 hover:bg-accent hover:text-ink focus-visible:opacity-100"
-              aria-label="Suggest an edit to this grant"
-              title="Suggest an edit"
+              aria-label="Edit this grant"
+              title="Edit this grant"
             >
               <PencilIcon className="size-3.5" />
             </a>

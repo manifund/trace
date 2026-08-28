@@ -408,6 +408,30 @@
       "org_type": "foundation",
       "website": "https://projects.propublica.org/nonprofits/organizations/920636259",
       "aliases": []
+    },
+    {
+      "slug": "various-recipients",
+      "name": "Unknown Recipients",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Various Recipients",
+          "kind": "former_name",
+          "note": "renamed for clarity: the recipients aren't assorted, they're unrecorded"
+        }
+      ]
+    },
+    {
+      "slug": "various-donors",
+      "name": "Unknown Donors",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Various Donors",
+          "kind": "former_name",
+          "note": "renamed for clarity: the donors aren't assorted, they're unrecorded"
+        }
+      ]
     }
   ]
 }

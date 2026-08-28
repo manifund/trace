@@ -5,13 +5,13 @@ import { createUserSupabaseClient } from '@/db/supabase-auth'
 export async function GET(request: Request) {
   const url = new URL(request.url)
   const code = url.searchParams.get('code')
-  const next = url.searchParams.get('next') ?? '/suggestions'
+  const next = url.searchParams.get('next') ?? '/edit'
   if (code) {
     const supabase = await createUserSupabaseClient()
     const { error } = await supabase.auth.exchangeCodeForSession(code)
     if (error) {
       return NextResponse.redirect(
-        new URL(`/suggestions?error=${encodeURIComponent(error.message)}`, url.origin)
+        new URL(`/edit?error=${encodeURIComponent(error.message)}`, url.origin)
       )
     }
   }

@@ -5,11 +5,12 @@ import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 const LINKS = [
-  ['/', 'Grants'],
+  ['/', 'Overview'],
+  ['/grants', 'Grants'],
   ['/funders', 'Funders'],
   ['/recipients', 'Recipients'],
   ['/charts', 'Charts'],
-  ['/suggestions', 'Suggestions'],
+  ['/edit', 'Edit'],
   ['/about', 'About'],
 ] as const
 

@@ -58,7 +58,7 @@ Keep on-site text minimal — data tables, not prose. No generated descriptions 
 ## Community suggestions
 
 Signed-in users propose new grants or edits at `/suggest`; admins review at
-`/suggestions`. Auth is Supabase Google OAuth (enable the provider in the
+`/edit`. Auth is Supabase Google OAuth (enable the provider in the
 Supabase dashboard); admins are the emails in `ADMIN_EMAILS`.
 
 Accepting writes the change to the database immediately, then

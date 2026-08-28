@@ -238,11 +238,13 @@ export async function runIngest(
     const base: GrantInsert = {
       funder_org_id: await resolver.resolve(
         funderNameOverride ?? p.parsed.funderName,
-        funderNameOverride ? 'organization' : p.parsed.funderType
+        funderNameOverride ? 'organization' : p.parsed.funderType,
+        'funder'
       ),
       recipient_org_id: await resolver.resolve(
         recipientNameOverride ?? p.parsed.recipientName,
-        recipientNameOverride ? 'organization' : p.parsed.recipientType
+        recipientNameOverride ? 'organization' : p.parsed.recipientType,
+        'recipient'
       ),
       fiscal_sponsor_org_id:
         (sponsorNameOverride ?? p.parsed.sponsorName)

@@ -10,6 +10,13 @@ const ALIASES: Record<string, string> = (
   aliasesFile as never as { aliases: Record<string, string> }
 ).aliases
 
+export type OrgRole = 'funder' | 'recipient'
+
+// Aliases that only apply to one side of a grant; see aliases.json.
+const BY_ROLE: Record<string, Record<string, string>> = (
+  aliasesFile as never as { byRole?: Record<string, Record<string, string>> }
+).byRole ?? {}
+
 // Exact-match resolution over normalized names + the checked-in alias
 // crosswalk. Unknown names auto-create a needs_review org so no data is
 // dropped; curation happens later via report-unmatched + data/aliases.json.
@@ -17,6 +24,7 @@ export class OrgResolver {
   private idByNormalized = new Map<string, string>()
   private idBySlug = new Map<string, string>()
   private slugByAlias = new Map<string, string>()
+  private slugByRoleAlias = new Map<string, string>()
   createdNames: string[] = []
 
   private constructor(private db: Db) {}
@@ -44,14 +52,27 @@ export class OrgResolver {
     for (const [alias, slug] of Object.entries(ALIASES)) {
       resolver.slugByAlias.set(normalizeName(alias), slug)
     }
+    for (const [role, map] of Object.entries(BY_ROLE)) {
+      for (const [alias, slug] of Object.entries(map)) {
+        resolver.slugByRoleAlias.set(`${role}:${normalizeName(alias)}`, slug)
+      }
+    }
     return resolver
   }
 
-  async resolve(name: string, orgType: OrgType = 'organization'): Promise<string> {
+  async resolve(name: string, orgType: OrgType = 'organization', role?: OrgRole): Promise<string> {
     // Names that normalize to nothing ("-", " ") fall back to the stable
     // hash slug so they can still round-trip; curation renames them later.
     const normalized = normalizeName(name) || slugify(name)
 
+    // A side-specific alias wins over the general one: it's the more
+    // specific statement about what this name means here.
+    const roleSlug = role ? this.slugByRoleAlias.get(`${role}:${normalized}`) : undefined
+    if (roleSlug) {
+      const id = this.idBySlug.get(roleSlug)
+      if (!id) throw new Error(`aliases.json maps ${role} "${name}" to unknown slug "${roleSlug}"`)
+      return id
+    }
     const aliasSlug = this.slugByAlias.get(normalized)
     if (aliasSlug) {
       const id = this.idBySlug.get(aliasSlug)
