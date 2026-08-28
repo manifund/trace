@@ -25,12 +25,12 @@ export const metadata: Metadata = {
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${plexSans.variable} ${plexCondensed.variable}`}>
-      {/* Layout lives on a wrapper, not <body>: Radix's scroll lock rewrites
-          body margins/padding while a Select is open, which would shift the
-          centered page. */}
+      {/* Layout lives on a wrapper, not <body>: popup scroll locks rewrite
+          body margins while open. `isolate` gives Base UI portals a clean
+          stacking context. */}
       <body>
         <TooltipProvider>
-          <div className="mx-auto max-w-7xl px-4 py-5">
+          <div className="isolate mx-auto max-w-7xl px-4 py-5">
             <header className="mb-5 flex items-baseline gap-6 border-b border-rule pb-2">
               <Link
                 href="/"

@@ -111,15 +111,10 @@
   a:hover {
     text-decoration: underline;
   }
-  /* Radix's scroll lock hides the scrollbar and adds a matching margin-right
-     to <body>. With the gutter reserved the scrollbar never goes away, so
-     that margin would shift the centered page; zero it. (The lock's own
-     rule is !important, hence the extra specificity.) */
+  /* Reserve the scrollbar gutter so opening a modal popup never changes the
+     page width. */
   html {
     scrollbar-gutter: stable;
-  }
-  :root body[data-scroll-locked] {
-    margin-right: 0 !important;
   }
 }
 

@@ -31,12 +31,10 @@ export function MultiSelect(props: {
     onChange(selected.includes(value) ? selected.filter((v) => v !== value) : [...selected, value])
   return (
     <Popover>
-      <PopoverTrigger asChild>
-        <Button variant="outline" size="sm">
-          {label}
-          {selected.length > 0 && <span className="text-brand">({selected.length})</span>}
-          <ChevronDownIcon className="text-muted-foreground" />
-        </Button>
+      <PopoverTrigger render={<Button variant="outline" size="sm" />}>
+        {label}
+        {selected.length > 0 && <span className="text-brand">({selected.length})</span>}
+        <ChevronDownIcon className="text-muted-foreground" />
       </PopoverTrigger>
       <PopoverContent align="start" className="w-64 p-0">
         <Command shouldFilter={false}>

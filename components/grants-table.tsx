@@ -266,13 +266,15 @@ export function GrantsTable(props: {
                   <>
                     <span className="text-muted-foreground">·</span>
                     <Tooltip>
-                      <TooltipTrigger asChild>
-                        <a
-                          href={`/orgs/${vias[0].slug}`}
-                          className="max-w-24 truncate text-muted-foreground"
-                        >
-                          via {vias[0].name}
-                        </a>
+                      <TooltipTrigger
+                        render={
+                          <a
+                            href={`/orgs/${vias[0].slug}`}
+                            className="max-w-24 truncate text-muted-foreground"
+                          />
+                        }
+                      >
+                        via {vias[0].name}
                       </TooltipTrigger>
                       <TooltipContent>Via {vias.map((via) => via.name).join(', ')}</TooltipContent>
                     </Tooltip>
@@ -303,15 +305,17 @@ export function GrantsTable(props: {
           id: 'actions',
           header: () => (
             <Tooltip>
-              <TooltipTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="icon-xs"
-                  onClick={toggleExtras}
-                  aria-label={extrasShown ? 'Hide extra columns' : 'Show more columns'}
-                >
-                  {extrasShown ? <MinusIcon /> : <PlusIcon />}
-                </Button>
+              <TooltipTrigger
+                render={
+                  <Button
+                    variant="ghost"
+                    size="icon-xs"
+                    onClick={toggleExtras}
+                    aria-label={extrasShown ? 'Hide extra columns' : 'Show more columns'}
+                  />
+                }
+              >
+                {extrasShown ? <MinusIcon /> : <PlusIcon />}
               </TooltipTrigger>
               <TooltipContent>{extrasShown ? 'Fewer columns' : 'More columns'}</TooltipContent>
             </Tooltip>
@@ -385,7 +389,7 @@ export function GrantsTable(props: {
           selected={filters.sources}
           onChange={(sources) => update({ sources })}
         />
-        <Select value={cause} onValueChange={setCause}>
+        <Select value={cause} onValueChange={(v) => v && setCause(v)} modal={false}>
           <SelectTrigger size="sm">
             <SelectValue>
               {cause === 'all'
@@ -393,7 +397,7 @@ export function GrantsTable(props: {
                 : (CAUSE_OPTIONS.find((o) => o.slug === cause)?.name ?? cause)}
             </SelectValue>
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent alignItemWithTrigger={false}>
             <SelectItem value="all">All causes</SelectItem>
             {CAUSE_OPTIONS.map((option) => (
               <SelectItem key={option.slug} value={option.slug}>
@@ -405,11 +409,12 @@ export function GrantsTable(props: {
         <Select
           value={filters.yearMin ? String(filters.yearMin) : 'start'}
           onValueChange={(v) => update({ yearMin: v === 'start' ? null : Number(v) })}
+          modal={false}
         >
           <SelectTrigger size="sm">
             <SelectValue>{filters.yearMin ? `From ${filters.yearMin}` : 'From start'}</SelectValue>
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent alignItemWithTrigger={false}>
             <SelectItem value="start">From start</SelectItem>
             {years.map((year) => (
               <SelectItem key={year} value={String(year)}>
@@ -421,11 +426,12 @@ export function GrantsTable(props: {
         <Select
           value={filters.yearMax ? String(filters.yearMax) : 'present'}
           onValueChange={(v) => update({ yearMax: v === 'present' ? null : Number(v) })}
+          modal={false}
         >
           <SelectTrigger size="sm">
             <SelectValue>{filters.yearMax ? `To ${filters.yearMax}` : 'To present'}</SelectValue>
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent alignItemWithTrigger={false}>
             <SelectItem value="present">To present</SelectItem>
             {years.map((year) => (
               <SelectItem key={year} value={String(year)}>
