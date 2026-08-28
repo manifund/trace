@@ -40,7 +40,7 @@ const CAUSE_CHOICES = CAUSE_OPTIONS.map((option) => ({
 }))
 
 const label = 'block text-sm font-sans text-ink-muted'
-const input = 'w-full rounded border border-rule bg-paper px-2 py-1'
+const input = 'w-full rounded-sm border border-rule bg-paper px-2 py-1'
 
 export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: boolean }) {
   const router = useRouter()
@@ -125,16 +125,15 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
 
   if (done)
     return (
-      <p className="rounded border border-rule bg-paper-alt p-3">
-        Thanks — your suggestion is queued for review. See it on the{' '}
-        <a href="/edit">edit page</a>.
+      <p className="rounded-sm border border-rule bg-paper-alt p-3">
+        Thanks — your suggestion is queued for review. See it on the <a href="/edit">edit page</a>.
       </p>
     )
 
   return (
     <form onSubmit={submit} className="flex max-w-2xl flex-col gap-3">
       {props.grant && (
-        <div className="rounded border border-rule bg-paper-alt p-3 text-sm">
+        <div className="rounded-sm border border-rule bg-paper-alt p-3 text-sm">
           Editing: <strong>{props.grant.funderName}</strong> → {props.grant.recipientName} ·{' '}
           {formatMoney(props.grant.amountUsd)} ·{' '}
           {formatGrantDate(props.grant.date, props.grant.datePrecision)}
@@ -199,12 +198,12 @@ export function SuggestForm(props: { grant: ExistingGrant | null; signedIn: bool
           onChange={(e) => setComment(e.target.value)}
         />
       </div>
-      {error && <p className="text-sm text-[var(--s4)]">{error}</p>}
+      {error && <p className="text-sm text-(--s4)">{error}</p>}
       <div>
         <button
           type="submit"
           disabled={busy || !props.signedIn}
-          className="rounded border border-rule bg-paper-alt px-3 py-1 disabled:opacity-50"
+          className="rounded-sm border border-rule bg-paper-alt px-3 py-1 disabled:opacity-50"
         >
           {busy ? 'Submitting…' : 'Submit suggestion'}
         </button>

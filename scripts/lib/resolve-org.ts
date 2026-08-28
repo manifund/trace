@@ -13,8 +13,9 @@ const ALIASES: Record<string, string> = (
 export type OrgRole = 'funder' | 'recipient'
 
 // Aliases that only apply to one side of a grant; see aliases.json.
-const BY_ROLE: Record<string, Record<string, string>> =
-  (aliasesFile as never as { byRole?: Record<string, Record<string, string>> }).byRole ?? {}
+const BY_ROLE: Record<string, Record<string, string>> = (
+  aliasesFile as never as { byRole?: Record<string, Record<string, string>> }
+).byRole ?? {}
 
 // Exact-match resolution over normalized names + the checked-in alias
 // crosswalk. Unknown names auto-create a needs_review org so no data is

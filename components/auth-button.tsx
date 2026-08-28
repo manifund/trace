@@ -47,7 +47,7 @@ export function AuthButton(props: { email: string | null; next?: string }) {
     <button
       onClick={signIn}
       disabled={busy}
-      className="rounded border border-rule bg-paper-alt px-3 py-1 text-sm"
+      className="rounded-sm border border-rule bg-paper-alt px-3 py-1 text-sm"
     >
       {busy ? 'Redirecting…' : 'Sign in with Manifund'}
     </button>

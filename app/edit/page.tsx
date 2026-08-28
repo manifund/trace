@@ -26,7 +26,7 @@ export default async function Page() {
   if (!user)
     return (
       <div className="max-w-3xl">
-        <h1 className="mb-4 font-serif text-2xl font-bold">Edit</h1>
+        <h1 className="mb-4 font-display text-2xl font-bold">Edit</h1>
         <p className="mb-3">Sign in to add a grant or edit an existing one.</p>
         <AuthButton email={null} />
       </div>
@@ -113,7 +113,7 @@ export default async function Page() {
   return (
     <div className="max-w-3xl">
       <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="font-serif text-2xl font-bold">Edit</h1>
+        <h1 className="font-display text-2xl font-bold">Edit</h1>
         <AuthButton email={user.email ?? null} />
       </div>
       <p className="mb-4 text-ink-muted">
@@ -121,7 +121,7 @@ export default async function Page() {
         <a href="/grants">grants table</a>.
       </p>
 
-      <h2 className="mb-2 font-serif text-lg font-bold">
+      <h2 className="mb-2 font-display text-lg font-bold">
         Pending {pending.length > 0 && `(${pending.length})`}
       </h2>
       {pending.length === 0 ? (
@@ -132,7 +132,7 @@ export default async function Page() {
 
       {accepted.length > 0 && (
         <>
-          <h2 className="mt-6 mb-2 font-serif text-lg font-bold">Accepted</h2>
+          <h2 className="mt-6 mb-2 font-display text-lg font-bold">Accepted</h2>
           {accepted.map((row) => (
             <Card key={row.id} row={row} />
           ))}

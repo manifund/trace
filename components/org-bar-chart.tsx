@@ -68,7 +68,7 @@ export function OrgBarChart(props: {
   return (
     <section className="mb-8">
       <div className="mb-2 flex flex-wrap items-baseline gap-3">
-        <h2 className="font-serif text-lg font-bold">Grants over time</h2>
+        <h2 className="font-display text-lg font-bold">Grants over time</h2>
         {colored.length > 1 && (
           <button
             onClick={() => setStacked(!stacked)}

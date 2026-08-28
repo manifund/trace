@@ -8,7 +8,7 @@ export function OrgStats(props: { stats: Stat[] }) {
       {props.stats.map((stat) => (
         <div key={stat.label}>
           <dt className="font-sans text-xs uppercase tracking-wide text-ink-muted">{stat.label}</dt>
-          <dd className="font-serif text-2xl font-bold tabular-nums">{stat.value}</dd>
+          <dd className="font-display text-2xl font-bold tabular-nums">{stat.value}</dd>
           {stat.detail && <dd className="text-xs text-ink-muted">{stat.detail}</dd>}
         </div>
       ))}

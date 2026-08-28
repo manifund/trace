@@ -26,7 +26,7 @@ export default async function Page(props: { searchParams: Promise<{ grant?: stri
 
   return (
     <div>
-      <h1 className="mb-2 font-serif text-2xl font-bold">
+      <h1 className="mb-2 font-display text-2xl font-bold">
         {grant ? 'Suggest an edit' : 'Suggest a grant'}
       </h1>
       {!grant && (
