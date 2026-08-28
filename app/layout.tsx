@@ -25,19 +25,24 @@ export const metadata: Metadata = {
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${plexSans.variable} ${plexCondensed.variable}`}>
-      <body className="mx-auto max-w-7xl px-4 py-5">
+      {/* Layout lives on a wrapper, not <body>: Radix's scroll lock rewrites
+          body margins/padding while a Select is open, which would shift the
+          centered page. */}
+      <body>
         <TooltipProvider>
-          <header className="mb-5 flex items-baseline gap-6 border-b border-rule pb-2">
-            <Link
-              href="/"
-              className="font-display text-lg font-semibold tracking-[0.12em] text-ink! uppercase hover:no-underline!"
-            >
-              Trace
-            </Link>
-            <NavLinks />
-            <OrgSearch />
-          </header>
-          {props.children}
+          <div className="mx-auto max-w-7xl px-4 py-5">
+            <header className="mb-5 flex items-baseline gap-6 border-b border-rule pb-2">
+              <Link
+                href="/"
+                className="font-display text-lg font-semibold tracking-[0.12em] text-ink! uppercase hover:no-underline!"
+              >
+                Trace
+              </Link>
+              <NavLinks />
+              <OrgSearch />
+            </header>
+            {props.children}
+          </div>
         </TooltipProvider>
       </body>
     </html>
