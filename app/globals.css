@@ -111,6 +111,9 @@
   a {
     color: var(--primary);
   }
+  .gb-table a {
+    color: inherit;
+  }
   a:hover {
     text-decoration: underline;
   }
