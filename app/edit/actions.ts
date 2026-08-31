@@ -13,7 +13,7 @@ import { createAdminClient } from '@/db/supabase-admin'
 import { getUser, isAdminEmail } from '@/db/supabase-auth'
 import { OrgResolver } from '@/scripts/lib/resolve-org'
 import { withAncestors } from '@/scripts/lib/causes'
-import { sha256 } from '@/scripts/lib/normalize'
+import { normalizeUrl, sha256 } from '@/scripts/lib/normalize'
 
 type Payload = Record<string, string>
 
@@ -112,7 +112,7 @@ export async function acceptSuggestion(id: string, note: string) {
     type GrantPatch = Database['public']['Tables']['grants']['Update']
     const patch: GrantPatch = {}
     if (payload.description !== undefined) patch.description = payload.description
-    if (payload.url !== undefined) patch.url = payload.url
+    if (payload.url !== undefined) patch.url = normalizeUrl(payload.url)
     if (payload.amount_usd !== undefined) {
       const amount = Number(payload.amount_usd.replace(/[$,\s]/g, ''))
       if (Number.isFinite(amount)) {
@@ -176,7 +176,7 @@ export async function acceptSuggestion(id: string, note: string) {
         grant_date: parsed?.date ?? null,
         date_precision: parsed?.precision ?? null,
         description: payload.description ?? null,
-        url: payload.url ?? suggestion.source_url ?? null,
+        url: normalizeUrl(payload.url ?? suggestion.source_url),
         status: 'approved',
       })
       .select('id')

@@ -33,3 +33,19 @@ export async function sha256(text: string): Promise<string> {
     .map((b) => b.toString(16).padStart(2, '0'))
     .join('')
 }
+
+// Suggesters type URLs the way they say them — `thecommonsproblem.com`, no
+// scheme. Stored verbatim that renders as a *relative* href, so the browser
+// resolves it against the current page (`/orgs/thecommonsproblem.com`). Give
+// every stored URL a scheme, and keep anything that isn't http(s) out of an
+// href entirely: `javascript:` and `data:` URLs are live in a link.
+export function normalizeUrl(raw: string | null | undefined): string | null {
+  const value = (raw ?? '').trim()
+  if (!value) return null
+  const scheme = value.match(/^([a-z][a-z0-9+.-]*):/i)?.[1]?.toLowerCase()
+  if (scheme) return scheme === 'http' || scheme === 'https' ? value : null
+  // Protocol-relative (`//example.com`) is scheme-less but not a bare domain.
+  if (value.startsWith('//')) return `https:${value}`
+  if (value.startsWith('/')) return null
+  return `https://${value}`
+}

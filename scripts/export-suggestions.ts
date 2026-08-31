@@ -7,7 +7,7 @@
 // result, then `bun run scripts/ingest-curated.ts community --force`.
 import { readFileSync, writeFileSync } from 'fs'
 import { createAdminClient } from '@/db/supabase-admin'
-import { sha256 } from './lib/normalize'
+import { normalizeUrl, sha256 } from './lib/normalize'
 
 const db = createAdminClient()
 
@@ -58,7 +58,7 @@ async function main() {
         currency: 'USD',
         date: payload.grant_date ?? null,
         description: payload.description ?? null,
-        sourceUrl: payload.url ?? suggestion.source_url ?? null,
+        sourceUrl: normalizeUrl(payload.url ?? suggestion.source_url),
         note: [credit, suggestion.comment].filter(Boolean).join(' '),
       })
       added++
@@ -89,7 +89,7 @@ async function main() {
     if (payload.funder_name) patch.funder_name = payload.funder_name
     if (payload.recipient_name) patch.recipient_name = payload.recipient_name
     if (payload.description) patch.description = payload.description
-    if (payload.url) patch.url = payload.url
+    if (payload.url) patch.url = normalizeUrl(payload.url)
     const amount = parseAmount(payload.amount_usd)
     if (amount !== null) {
       patch.amount = amount
