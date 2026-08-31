@@ -444,6 +444,29 @@
           "note": "Renamed to Decode Research; last grant under the old name 2023-07-31, first as Decode Research 2024-07-23. Exact rename date unknown."
         }
       ]
+    },
+    {
+      "slug": "principles-of-intelligence",
+      "name": "Principles of Intelligence",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Principles of Intelligent Behavior in Biological and Social Systems",
+          "kind": "former_name",
+          "valid_to": "2025-12-31",
+          "note": "renamed Principles of Intelligence in 2025; exact date unrecorded, and only the year is displayed"
+        },
+        {
+          "name": "PIBBSS",
+          "kind": "former_name",
+          "valid_to": "2025-12-31"
+        },
+        {
+          "name": "Principles of Intelligent Behavior in Biological and Social Systems (PIBBSS)",
+          "kind": "former_name",
+          "valid_to": "2025-12-31"
+        }
+      ]
     }
   ]
 }
