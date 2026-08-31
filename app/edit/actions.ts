@@ -76,6 +76,25 @@ function parseDate(raw: string): { date: string; precision: 'day' | 'month' | 'y
   return null
 }
 
+// Every public page is ISR-cached off the same grant data (`revalidate = 600`),
+// so an accepted change stays invisible for up to ten minutes unless each one
+// is invalidated here. `/orgs/[slug]` goes as a route rather than as the two
+// slugs this grant names: vias and fiscal sponsors surface on org pages too,
+// and a rename can move a grant off a slug the payload never mentions.
+function revalidateGrantPages() {
+  const paths = [
+    '/',
+    '/grants',
+    '/funders',
+    '/recipients',
+    '/charts',
+    // A new grant can mint an org, which the header's typeahead index caches.
+    '/org-names.json',
+  ]
+  for (const path of paths) revalidatePath(path)
+  revalidatePath('/orgs/[slug]', 'page')
+}
+
 export async function acceptSuggestion(id: string, note: string) {
   const admin = await requireAdmin()
   const db = createAdminClient()
@@ -184,7 +203,7 @@ export async function acceptSuggestion(id: string, note: string) {
     .throwOnError()
   clearGrants()
   revalidatePath('/edit')
-  revalidatePath('/')
+  revalidateGrantPages()
 }
 
 export async function rejectSuggestion(id: string, note: string) {
