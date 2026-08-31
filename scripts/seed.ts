@@ -305,6 +305,36 @@ async function claimName(
 async function main() {
   await seedCauseAreas()
   await db.from('sources').upsert(SOURCES, { onConflict: 'id' }).throwOnError()
+  // aliases.json merges: two curated orgs that turned out to be one body.
+  // An alias cannot do this — claimName refuses to merge an org a human has
+  // already reviewed, which is the right default and the wrong answer once
+  // someone has looked and decided. Stated here, it is deliberate and it
+  // replays on a rebuild. The loser's names survive as aliases of the winner,
+  // so source data using the old spelling still resolves.
+  //
+  // Runs before the seed pass and before the crosswalk prefetch. A rename that
+  // both folds a duplicate and renames the survivor would otherwise try to
+  // claim names the doomed row still holds, warn CONFLICT, and need a second
+  // run to settle; merging first leaves nothing to collide with, and
+  // loadSettledNames() then caches the post-merge truth.
+  const merges = (aliasesFile as never as { merges?: Record<string, string> }).merges ?? {}
+  for (const [loserSlug, winnerSlug] of Object.entries(merges)) {
+    const { data: pair } = await db
+      .from('orgs')
+      .select('id, slug, name')
+      .in('slug', [loserSlug, winnerSlug])
+      .throwOnError()
+    const loser = (pair ?? []).find((org) => org.slug === loserSlug)
+    const winner = (pair ?? []).find((org) => org.slug === winnerSlug)
+    if (!winner) {
+      console.warn(`aliases.json merges: unknown target "${winnerSlug}"`)
+      continue
+    }
+    // Already merged on an earlier run.
+    if (!loser) continue
+    await mergeOrg(loser.id, winner.id, loser.name, 'curated')
+  }
+
   await loadSettledNames()
 
   const orgs = (orgsSeed as never as { orgs: SeedOrg[] }).orgs
@@ -403,30 +433,6 @@ async function main() {
         .throwOnError()
       console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)
     }
-  }
-
-  // aliases.json merges: two curated orgs that turned out to be one body.
-  // An alias cannot do this — claimName refuses to merge an org a human has
-  // already reviewed, which is the right default and the wrong answer once
-  // someone has looked and decided. Stated here, it is deliberate and it
-  // replays on a rebuild. The loser's names survive as aliases of the winner,
-  // so source data using the old spelling still resolves.
-  const merges = (aliasesFile as never as { merges?: Record<string, string> }).merges ?? {}
-  for (const [loserSlug, winnerSlug] of Object.entries(merges)) {
-    const { data: pair } = await db
-      .from('orgs')
-      .select('id, slug, name')
-      .in('slug', [loserSlug, winnerSlug])
-      .throwOnError()
-    const loser = (pair ?? []).find((org) => org.slug === loserSlug)
-    const winner = (pair ?? []).find((org) => org.slug === winnerSlug)
-    if (!winner) {
-      console.warn(`aliases.json merges: unknown target "${winnerSlug}"`)
-      continue
-    }
-    // Already merged on an earlier run.
-    if (!loser) continue
-    await mergeOrg(loser.id, winner.id, loser.name, 'curated')
   }
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
