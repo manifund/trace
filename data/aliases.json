@@ -334,6 +334,7 @@
   },
   "_mergesComment": "Two curated orgs that are one body: loser slug -> surviving slug. Applied by seed, which repoints grants and vias, keeps the loser's names as aliases of the survivor, and deletes it. Idempotent: once merged the loser is gone and the entry is a no-op. Use this only for orgs a human has reviewed; unreviewed duplicates merge automatically through the alias map above.",
   "merges": {
-    "microsoft-corporation": "microsoft"
+    "microsoft-corporation": "microsoft",
+    "neuronpedia": "decode-research"
   }
 }

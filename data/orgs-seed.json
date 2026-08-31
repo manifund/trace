@@ -432,6 +432,18 @@
           "note": "renamed for clarity: the donors aren't assorted, they're unrecorded"
         }
       ]
+    },
+    {
+      "slug": "decode-research",
+      "name": "Decode Research",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Neuronpedia",
+          "kind": "former_name",
+          "note": "Renamed to Decode Research; last grant under the old name 2023-07-31, first as Decode Research 2024-07-23. Exact rename date unknown."
+        }
+      ]
     }
   ]
 }
