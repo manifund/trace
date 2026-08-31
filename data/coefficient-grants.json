@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-08-25T15:03:35.651Z",
+ "exported_at": "2026-08-31T17:39:56.918Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -1450,7 +1450,7 @@
     "Global Catastrophic Risks Opportunities"
    ],
    "title": "AI Research Fellowships & ML Upskilling Programs",
-   "amount": 2272866
+   "amount": 2422866
   },
   {
    "id": "grants-39102-0",
@@ -3963,7 +3963,7 @@
     "Global Catastrophic Risks Opportunities"
    ],
    "title": "Coworking and Events Space",
-   "amount": 157374
+   "amount": 1607713
   },
   {
    "id": "grants-38212-0",
