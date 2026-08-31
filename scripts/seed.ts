@@ -226,6 +226,27 @@ async function mergeOrg(fromId: string, toId: string, name: string, why = 'provi
       )
       .throwOnError()
   }
+  // Repointing can leave a grant sponsored by its own recipient, when the
+  // source named the sponsor and the recipient differently and those two names
+  // turn out to be one org. ingest.ts drops that at derivation time; it cannot
+  // see a merge that happens later, so clear it here too.
+  const { data: selfSponsored } = await db
+    .from('grants')
+    .select('id')
+    .eq('fiscal_sponsor_org_id', toId)
+    .eq('recipient_org_id', toId)
+    .throwOnError()
+  if ((selfSponsored ?? []).length > 0) {
+    await db
+      .from('grants')
+      .update({ fiscal_sponsor_org_id: null })
+      .in(
+        'id',
+        (selfSponsored ?? []).map((row) => row.id)
+      )
+      .throwOnError()
+    console.log(`Cleared ${selfSponsored!.length} self-sponsorship(s) on ${toId}`)
+  }
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
   await db.from('orgs').delete().eq('id', fromId).throwOnError()
   console.log(`Merged ${why} org "${name}" into ${toId}`)
