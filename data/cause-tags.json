@@ -19658,6 +19658,10 @@
     ],
     "uk_aisi:ec59787fdbc24fc6daa3bd94090bf71798713fd6c3f42bc77bc7030f7d6a33e4": [
       "evals"
+    ],
+    "bluedot:rapid:40d0aee7e811da340b864fd0": [
+      "ai-policy",
+      "ais-events"
     ]
   }
 }

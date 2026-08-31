@@ -13,6 +13,12 @@ const db = createAdminClient()
 
 type Payload = Record<string, string>
 
+const splitList = (raw: string) =>
+  raw
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean)
+
 function parseAmount(raw: string | undefined): number | null {
   if (!raw) return null
   const value = Number(raw.replace(/[$,\s]/g, ''))
@@ -36,10 +42,19 @@ async function main() {
   const overridesDoc = JSON.parse(readFileSync(overridesPath, 'utf8')) as {
     overrides: Record<string, Record<string, unknown>>
   }
+  // Cause tags don't live in overrides.json — `causes` is not a grants column,
+  // and ingest reads authoritative tags from cause-tags.json, keyed the same
+  // way. An accepted edit is exactly that: a reviewed tag set for one grant.
+  const causeTagsPath = 'data/cause-tags.json'
+  const causeTagsDoc = JSON.parse(readFileSync(causeTagsPath, 'utf8')) as {
+    _comment: string
+    tags: Record<string, string[]>
+  }
 
   const byKey = new Map(community.grants.map((row) => [row.key as string, row]))
   let added = 0
   let edited = 0
+  let tagged = 0
   let skipped = 0
 
   for (const suggestion of suggestions ?? []) {
@@ -59,6 +74,8 @@ async function main() {
         date: payload.grant_date ?? null,
         description: payload.description ?? null,
         sourceUrl: normalizeUrl(payload.url ?? suggestion.source_url),
+        via: payload.via_names ? splitList(payload.via_names) : null,
+        causes: payload.causes ? splitList(payload.causes) : null,
         note: [credit, suggestion.comment].filter(Boolean).join(' '),
       })
       added++
@@ -90,6 +107,13 @@ async function main() {
     if (payload.recipient_name) patch.recipient_name = payload.recipient_name
     if (payload.description) patch.description = payload.description
     if (payload.url) patch.url = normalizeUrl(payload.url)
+    // Empty means "clear them": ingest reads `via_names ?? parsed ?? []`, so an
+    // empty array overrides the source's vias rather than falling through.
+    if (payload.via_names !== undefined) patch.via_names = splitList(payload.via_names)
+    if (payload.causes !== undefined) {
+      causeTagsDoc.tags[provenance] = splitList(payload.causes)
+      tagged++
+    }
     const amount = parseAmount(payload.amount_usd)
     if (amount !== null) {
       patch.amount = amount
@@ -109,7 +133,10 @@ async function main() {
         patch.date_precision = 'day'
       }
     }
-    patch.note = [patch.note, credit].filter(Boolean).join(' ')
+    // Re-runnable: the patch starts from the existing override, so appending
+    // unconditionally would restate the credit on every export.
+    const note = (patch.note as string | undefined) ?? ''
+    if (!note.includes(credit)) patch.note = [note, credit].filter(Boolean).join(' ')
     overridesDoc.overrides[provenance] = patch
     edited++
   }
@@ -120,10 +147,12 @@ async function main() {
     Object.entries(overridesDoc.overrides).sort(([a], [b]) => a.localeCompare(b))
   )
   writeFileSync(overridesPath, JSON.stringify(overridesDoc, null, 2) + '\n')
+  writeFileSync(causeTagsPath, JSON.stringify(causeTagsDoc, null, 2) + '\n')
   console.log(
-    `${added} added grants in ${communityPath}, ${edited} edits in ${overridesPath}${
-      skipped ? `, ${skipped} skipped (no grant to attach to)` : ''
-    }`
+    `${added} added grants in ${communityPath}, ${edited} edits in ${overridesPath}, ` +
+      `${tagged} cause-tag sets in ${causeTagsPath}${
+        skipped ? `, ${skipped} skipped (no grant to attach to)` : ''
+      }`
   )
 }
 
