@@ -23,9 +23,11 @@ const yearNote = (funder: string, year: string) =>
   `Estimated total given out by ${funder} in ${year}; grants recorded individually in this database are subtracted from the total.`
 
 const ESTIMATES: Estimate[] = []
+// 2025 total is $75m per Longview's COO job posting
+// (https://www.longview.org/careers/chief-operating-officer/).
 const longview: Record<string, [number, number]> = {
-  '2026': [200e6, 200e6],
-  '2025': [60e6, 60e6],
+  '2026': [200e6, 50e6],
+  '2025': [60e6, 15e6],
   '2024': [16e6, 12e6],
   '2023': [11e6, 11e6],
   '2022': [7e6, 8e6],
