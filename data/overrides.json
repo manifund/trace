@@ -2245,6 +2245,11 @@
       "recipient_name": "Lightcone Infrastructure",
       "fiscal_sponsor_name": "Center for Applied Rationality"
     },
+    "jaan_online:2db6cf57a38d19262858c2b6cfaaf8f0482b4a13f1a9e5ca02540c0bf1164fda": {
+      "note": "Jaan's log books this through Manifold for Charity (= Manifund); the purpose names the actual grantee, whom Manifund fiscally sponsors.",
+      "recipient_name": "PauseAI US",
+      "fiscal_sponsor_name": "Manifund"
+    },
     "jaan_online:2e427545341756832422f8bcc562697f4782e3ceae102a06d99ee152c4a29264": {
       "recipient_name": "Centre for the Study of Existential Risk",
       "via_names": [
@@ -2327,6 +2332,11 @@
         "Survival and Flourishing Fund",
         "Stanford University"
       ]
+    },
+    "jaan_online:43795eb2e2d9f6aaa5e0ea5004d3280a1384d27ad5cefd07eec4d40616c34277": {
+      "note": "Jaan's log books this through Manifold for Charity (= Manifund); the purpose names the actual grantee, whom Manifund fiscally sponsors.",
+      "recipient_name": "Manifold Markets",
+      "fiscal_sponsor_name": "Manifund"
     },
     "jaan_online:473e780b022e9a79be2f97a28e64b450cc8ebc4a881467f045a443cb7b44c24a": {
       "recipient_name": "Peter Reiner",
@@ -2436,6 +2446,11 @@
       "recipient_name": "Catalyze Impact",
       "fiscal_sponsor_name": "Ashgro, Inc."
     },
+    "jaan_online:708e14b935be4fcfdec08bbfcb65cbfbaf4e20dff6ea0cbbf0b20f4730d7ab54": {
+      "note": "Jaan's log books this through Manifold for Charity (= Manifund); the purpose names the actual grantee, whom Manifund fiscally sponsors.",
+      "recipient_name": "PauseAI US",
+      "fiscal_sponsor_name": "Manifund"
+    },
     "jaan_online:72b123714c9c568eb7a4bac31b49d05b40f989ba08a1beb5b5fa59a085160345": {
       "recipient_name": "AI Safety Camp",
       "fiscal_sponsor_name": "Ashgro, Inc."
@@ -2533,6 +2548,11 @@
       "via_names": [
         "Center for Applied Rationality"
       ]
+    },
+    "jaan_online:aa9cc7fd5e0842ea67818e19ffa2c227e9a8dccd686010db4aad4d494a1ca1de": {
+      "note": "Jaan's log books this through Manifold for Charity (= Manifund); the purpose names the actual grantee, whom Manifund fiscally sponsors.",
+      "recipient_name": "PauseAI US",
+      "fiscal_sponsor_name": "Manifund"
     },
     "jaan_online:ab0b435b4561905b95cd5fb4229eaf013471e6782de1042783b2bf82173be7a5": {
       "recipient_name": "Claudia Shi",
@@ -2668,6 +2688,11 @@
         "Founders Pledge",
         "University of Alabama Law School Foundation"
       ]
+    },
+    "jaan_online:e8349d06ef146984bcf71411775b112650b8116bfd0e286dc0bb77a2c6e9cdfd": {
+      "note": "Jaan's log books this through Manifold for Charity (= Manifund); the purpose names the actual grantee, whom Manifund fiscally sponsors.",
+      "recipient_name": "Manifold Markets",
+      "fiscal_sponsor_name": "Manifund"
     },
     "jaan_online:e992d26ff040388ac261e25edf4ff7952127f3d74bc9b563adeac2aabd583039": {
       "recipient_name": "Future of Humanity Institute",
