@@ -214,6 +214,15 @@
       "description": "International governance of frontier AI",
       "program": "International AI governance",
       "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "Intelligence Security Laboratories",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Implementation-driven R&D for high-security AI systems, bridging theoretical security research and practical deployment",
+      "program": "AI security research",
+      "sourceUrl": "https://macroscopic.org/grants"
     }
   ]
 }
