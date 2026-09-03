@@ -2222,6 +2222,20 @@
       "causes": [
         "technical-ai-safety"
       ]
+    },
+    {
+      "recipient": "Kairos",
+      "funder": "Coefficient Giving",
+      "amount": 50000000,
+      "currency": "USD",
+      "date": "2026-09-02",
+      "datePrecision": "day",
+      "description": "Two years of funding for AI safety talent infrastructure: SPAR, Pathfinder, the Generator Residency, Global Challenges Project, and new Kairos Labs, Talent Operations and Special Projects teams",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/6ucKLAbrnbESYguyL/kairos-has-raised-usd50m-to-build-talent-infrastructure-for",
+      "causes": [
+        "ai-fieldbuilding",
+        "training-pipelines"
+      ]
     }
   ]
 }
