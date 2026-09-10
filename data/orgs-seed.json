@@ -464,6 +464,22 @@
           "kind": "alias"
         }
       ]
+    },
+    {
+      "slug": "kairos",
+      "name": "Kairos",
+      "org_type": "organization",
+      "website": "https://kairos-project.org/",
+      "aliases": [
+        {
+          "name": "Kairos Project",
+          "kind": "former_name"
+        },
+        {
+          "name": "The Kairos Project",
+          "kind": "former_name"
+        }
+      ]
     }
   ]
 }
