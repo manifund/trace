@@ -335,6 +335,18 @@
       "aliases": []
     },
     {
+      "slug": "thomas-jiralerspong",
+      "name": "Thomas Jiralerspong",
+      "org_type": "individual",
+      "aliases": [
+        {
+          "name": "Thomas",
+          "kind": "alias",
+          "note": "Manifund profile shows bare first name; both 2026 AISTOF grants confirmed as Thomas Jiralerspong by Caroline, Sep 2026"
+        }
+      ]
+    },
+    {
       "slug": "jeff-kaufman",
       "name": "Julia Wise and Jeff Kaufman",
       "org_type": "individual",
