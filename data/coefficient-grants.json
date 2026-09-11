@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-08-31T17:39:56.918Z",
+ "exported_at": "2026-09-07T15:56:34.660Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -10949,7 +10949,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare Advocacy",
-   "amount": 243829
+   "amount": 255829
   },
   {
    "id": "grants-23988-0",
@@ -23239,7 +23239,7 @@
     "Global Catastrophic Risks Opportunities"
    ],
    "title": "Support for Career Development and Transitions",
-   "amount": 9812853
+   "amount": 10037853
   },
   {
    "id": "grants-10622-0",
@@ -24657,7 +24657,7 @@
     "Biosecurity & Pandemic Preparedness"
    ],
    "title": "Open Philanthropy Biosecurity Scholarships",
-   "amount": 2442419
+   "amount": 2449942
   },
   {
    "id": "grants-8418-0",

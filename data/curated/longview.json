@@ -233,12 +233,12 @@
     },
     {
       "recipient": "Massachusetts Institute of Technology (MIT)",
-      "amount": null,
+      "amount": 600000,
       "currency": "USD",
-      "date": "2026",
-      "datePrecision": "year",
-      "description": "Featured grant (no amount published): testing whether cosmic-particle signatures of nuclear warheads could verify compliance with the Outer Space Treaty's ban on nuclear weapons in orbit. Date is when the grant was added to longview.org (May 2026); actual grant date may be earlier.",
-      "program": "Nuclear Weapons Policy Fund",
+      "date": "2026-01",
+      "datePrecision": "month",
+      "description": "UPDATED 2026-09-03: testing whether cosmic-particle signatures of nuclear warheads could verify compliance with the Outer Space Treaty's ban on nuclear weapons in orbit. Featured (no amount published) as a Nuclear Weapons Policy Fund grant on longview.org, added to the site May 2026, but identifiable as 'Arms Control Verification of the Outer Space Treaty: Feasibility Study' -- a $600,000 first-round award announced 29 Jan 2026 by the Consortium to Reduce Nuclear Dangers, whose press release names Longview Philanthropy among the consortium members supporting this specific award (alongside Carnegie Corporation of New York and other funder(s)). The $600,000 is the Consortium's total multi-funder award for the project, not Longview's share alone. See https://www.carnegie.org/news/articles/consortium-to-reduce-nuclear-dangers-announces-first-round-of-grant-awards-and-welcomes-new-partner/ . Previously recorded here with amount null and date 2026 (year precision, from longview.org alone); amount/date updated now that the underlying Consortium award has been identified.",
+      "program": "Nuclear Weapons Policy Fund / Nuclear Consortium (co-launched by Longview)",
       "sourceUrl": "https://www.longview.org/fund/nuclear-weapons-policy-fund/"
     },
     {
