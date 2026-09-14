@@ -316,7 +316,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 25000000,
+      "amount": 24400000,
       "currency": "USD",
       "date": "2026",
       "description": null,
@@ -664,7 +664,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 73963213,
+      "amount": 67721764,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -676,7 +676,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 143920758,
+      "amount": 111139370,
       "currency": "USD",
       "date": "2026",
       "description": null,
@@ -808,26 +808,26 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 459543851,
+      "amount": 460033851,
       "currency": "USD",
       "date": "2021",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $459,543,851 in 2021 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $460,033,851 in 2021 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
     },
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 661595312,
+      "amount": 662925897,
       "currency": "USD",
       "date": "2022",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $661,595,312 in 2022 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $662,925,897 in 2022 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -892,14 +892,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 749193549,
+      "amount": 770738813,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $949,193,549 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $970,738,813 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -911,7 +911,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $949,193,549 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $970,738,813 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Various Recipients",

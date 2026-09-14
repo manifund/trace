@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-09-07T15:56:34.660Z",
+ "exported_at": "2026-09-14T16:25:03.016Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -89,6 +89,18 @@
    "amount": 500000
   },
   {
+   "id": "grants-40137-0",
+   "org": "Sri Ramachandra Institute of Higher Education & Research",
+   "date": 1784073600,
+   "slug": "rct-on-reducing-lead-exposure-via-metallic-cookware-5",
+   "year": 2026,
+   "areas": [
+    "Lead Exposure Action Fund"
+   ],
+   "title": "RCT on Reducing Lead Exposure via Metallic Cookware",
+   "amount": 366538
+  },
+  {
    "id": "grants-40120-0",
    "org": "Vital Strategies",
    "date": 1783987200,
@@ -99,6 +111,18 @@
    ],
    "title": "Lead Source Identification in Mexico",
    "amount": 922085
+  },
+  {
+   "id": "grants-39794-0",
+   "org": "Institute for Progress",
+   "date": 1783900800,
+   "slug": "general-support-84",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth"
+   ],
+   "title": "General Support",
+   "amount": 10500000
   },
   {
    "id": "grants-39914-0",
@@ -173,6 +197,18 @@
    "amount": 229900
   },
   {
+   "id": "grants-40705-0",
+   "org": "Simon Institute for Longterm Governance ",
+   "date": 1782950400,
+   "slug": "staffing-support",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "Staffing Support",
+   "amount": 5205919
+  },
+  {
    "id": "grants-39894-0",
    "org": "Rutgers University",
    "date": 1782345600,
@@ -244,6 +280,54 @@
    ],
    "title": "Biosecurity Grantmaking",
    "amount": 30000000
+  },
+  {
+   "id": "grants-40533-0",
+   "org": "Kigali Collaborative Research Centre",
+   "date": 1781740800,
+   "slug": "afriqair-technical-assistance-program",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "AfriqAir Technical Assistance Program",
+   "amount": 3587000
+  },
+  {
+   "id": "grants-40680-0",
+   "org": "AI Standards Lab",
+   "date": 1781654400,
+   "slug": "ai-policy-standards-development",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Policy Standards Development",
+   "amount": 470000
+  },
+  {
+   "id": "grants-40678-0",
+   "org": "P-Zero Research",
+   "date": 1781568000,
+   "slug": "ai-safety-research",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Safety Research",
+   "amount": 5580000
+  },
+  {
+   "id": "grants-40531-0",
+   "org": "ITDP India",
+   "date": 1781308800,
+   "slug": "design-for-low-emission-zones-pilot-contract",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Design for Low Emission Zones Pilot (Contract)",
+   "amount": 220000
   },
   {
    "id": "grants-39472-0",
@@ -342,16 +426,16 @@
    "amount": 181746
   },
   {
-   "id": "grants-39794-0",
-   "org": "Institute for Progress",
-   "date": 1780963200,
-   "slug": "general-support-84",
+   "id": "grants-40529-0",
+   "org": "Makerere University",
+   "date": 1781049600,
+   "slug": "africa-clean-air-network-african",
    "year": 2026,
    "areas": [
-    "Abundance & Growth"
+    "Air Quality"
    ],
-   "title": "General Support",
-   "amount": 1000000
+   "title": "Africa Clean Air Network (AfriCAN)",
+   "amount": 619000
   },
   {
    "id": "grants-39848-0",
@@ -525,6 +609,18 @@
    ],
    "title": "General Support",
    "amount": 6250000
+  },
+  {
+   "id": "grants-40676-0",
+   "org": "Albion East",
+   "date": 1779926400,
+   "slug": "ai-diplomatic-engagement-network-general-support",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Diplomatic Engagement Network General Support",
+   "amount": 5332259
   },
   {
    "id": "grants-39717-0",
@@ -771,6 +867,18 @@
    "amount": 511649
   },
   {
+   "id": "grants-40672-0",
+   "org": "Heron AI Security",
+   "date": 1778544000,
+   "slug": "ai-security-research-pilot",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Security Research Pilot",
+   "amount": 1916164
+  },
+  {
    "id": "grants-39620-0",
    "org": "Ofir Press",
    "date": 1778457600,
@@ -843,6 +951,20 @@
    "amount": 340000
   },
   {
+   "id": "grants-40506-0",
+   "org": "International Union Against Tuberculosis and Lung Disease",
+   "date": 1778198400,
+   "slug": "travel-scholarships-to-world-conference-on-lung-health-2",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Policy and Practice",
+    "Science and Global Health R&D"
+   ],
+   "title": "Travel Scholarships to World Conference on Lung Health",
+   "amount": 65011
+  },
+  {
    "id": "grants-39437-0",
    "org": "Recoding America",
    "date": 1778112000,
@@ -891,6 +1013,30 @@
    "amount": 180000
   },
   {
+   "id": "grants-39527-0",
+   "org": "Geodesic Research",
+   "date": 1778025600,
+   "slug": "pretraining-techniques-for-al-alignment",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "Pretraining Techniques for Al Alignment",
+   "amount": 14095046
+  },
+  {
+   "id": "grants-40527-0",
+   "org": "Pahle India Foundation",
+   "date": 1778025600,
+   "slug": "pavana-air-quality-research-initiative",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Pavana (Air Quality Research Initiative)",
+   "amount": 50218
+  },
+  {
    "id": "grants-39149-0",
    "org": "Dartmouth",
    "date": 1777939200,
@@ -928,6 +1074,18 @@
    ],
    "title": "Farm Animal Media Campaign",
    "amount": 475000
+  },
+  {
+   "id": "grants-40524-0",
+   "org": "GDi Partners",
+   "date": 1777939200,
+   "slug": "strategic-support-for-air-quality-improvements-in-india",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Strategic Support for Air Quality Improvements in India",
+   "amount": 1800000
   },
   {
    "id": "grants-39439-0",
@@ -1109,6 +1267,18 @@
    ],
    "title": "General Support",
    "amount": 1884282
+  },
+  {
+   "id": "grants-40522-0",
+   "org": "Lahore University of Management Sciences",
+   "date": 1776816000,
+   "slug": "pollution-source-apportionment-study-in-pakistan",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Pollution Source Apportionment Study in Pakistan",
+   "amount": 1935000
   },
   {
    "id": "grants-39104-0",
@@ -1294,6 +1464,19 @@
    "amount": 167313
   },
   {
+   "id": "grants-40498-0",
+   "org": "MedAccess",
+   "date": 1776124800,
+   "slug": "tuberculosis-vaccine-market-shaping-project",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Tuberculosis Vaccine Market Shaping Project",
+   "amount": 586892
+  },
+  {
    "id": "grants-39145-0",
    "org": "Mieux Donner",
    "date": 1776038400,
@@ -1417,6 +1600,19 @@
    "amount": 451000
   },
   {
+   "id": "grants-40502-0",
+   "org": "Medicines Development for Global Health",
+   "date": 1775606400,
+   "slug": "investigation-of-dovramilast-for-leprosy-and-tuberculosis",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Investigation of Dovramilast for Leprosy and Tuberculosis",
+   "amount": 100000
+  },
+  {
    "id": "grants-39590-0",
    "org": "National Academies of Sciences, Engineering, and Medicine",
    "date": 1775520000,
@@ -1525,6 +1721,20 @@
    "amount": 2500000
   },
   {
+   "id": "grants-40504-0",
+   "org": "University of Oxford",
+   "date": 1775088000,
+   "slug": "establishment-of-the-malaria-vaccine-alliance",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Policy and Practice",
+    "Science and Global Health R&D"
+   ],
+   "title": "Establishment of the Malaria Vaccine Alliance",
+   "amount": 108419
+  },
+  {
    "id": "grants-37922-0",
    "org": "Clean Economy Project",
    "date": 1775001600,
@@ -1573,6 +1783,32 @@
    ],
    "title": "Broiler and Cage-Free Reforms in Romania",
    "amount": 256000
+  },
+  {
+   "id": "grants-40500-0",
+   "org": "University of Cape Town",
+   "date": 1774483200,
+   "slug": "development-of-aerosolized-tuberculosis-vaccine",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D",
+    "Transformative Science"
+   ],
+   "title": "Development of Aerosolized Tuberculosis Vaccine",
+   "amount": 2607186
+  },
+  {
+   "id": "grants-40670-0",
+   "org": "Anthony Duong",
+   "date": 1774483200,
+   "slug": "ai-evals-platform-development",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Evals Platform Development",
+   "amount": 182000
   },
   {
    "id": "grants-39399-0",
@@ -5386,7 +5622,7 @@
   },
   {
    "id": "grants-36960-0",
-   "org": "International Union Against Tuberculosis and Lung Diseas",
+   "org": "International Union Against Tuberculosis and Lung Disease",
    "date": 1758672000,
    "slug": "travel-scholarships-to-world-conference-on-lung-health",
    "year": 2025,
@@ -6630,6 +6866,18 @@
    ],
    "title": "Hepatitis B Prevalance Survey in DR Congo",
    "amount": 624994
+  },
+  {
+   "id": "grants-39151-0",
+   "org": "Cadenza Labs",
+   "date": 1753660800,
+   "slug": "cadenza-labs",
+   "year": 2025,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "Benchmark for Detectors of LLM Dishonesty",
+   "amount": 441449
   },
   {
    "id": "grants-37221-0",
@@ -7975,7 +8223,7 @@
     "Navigating Transformative AI"
    ],
    "title": "Frontier AI Security Task Force",
-   "amount": 2613102
+   "amount": 8413102
   },
   {
    "id": "grants-35881-0",
@@ -22275,7 +22523,7 @@
     "Air Quality"
    ],
    "title": "Indian Parliamentary Air Quality Staff",
-   "amount": 533444
+   "amount": 567336
   },
   {
    "id": "grants-11503-0",
@@ -23239,7 +23487,7 @@
     "Global Catastrophic Risks Opportunities"
    ],
    "title": "Support for Career Development and Transitions",
-   "amount": 10037853
+   "amount": 11334546
   },
   {
    "id": "grants-10622-0",
@@ -27131,7 +27379,7 @@
     "Air Quality"
    ],
    "title": "Air Quality Sensors in South Asia",
-   "amount": 410000
+   "amount": 900000
   },
   {
    "id": "grants-1119-0",
