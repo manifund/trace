@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-09-14T16:25:03.016Z",
+ "exported_at": "2026-09-21T16:31:28.347Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -17,6 +17,30 @@
    "amount": 55000
   },
   {
+   "id": "grants-40827-0",
+   "org": "Epoch",
+   "date": 1787184000,
+   "slug": "general-support-91",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "General Support",
+   "amount": 68796286
+  },
+  {
+   "id": "grants-40904-0",
+   "org": "Blueperch",
+   "date": 1786665600,
+   "slug": "small-grants-regranting-fund",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Small Grants Regranting Fund",
+   "amount": 250000
+  },
+  {
    "id": "grants-40204-0",
    "org": "AI Village",
    "date": 1786406400,
@@ -27,6 +51,46 @@
    ],
    "title": "General Support",
    "amount": 12600000
+  },
+  {
+   "id": "grants-40902-0",
+   "org": "One Health and Development Initiative",
+   "date": 1786406400,
+   "slug": "fish-welfare-policy-development-and-implementation-in-africa",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Policy Development and Implementation in Africa",
+   "amount": 2100000
+  },
+  {
+   "id": "grants-40931-0",
+   "org": "Upstream Policies",
+   "date": 1785974400,
+   "slug": "fish-welfare-policy-work",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Policy Work",
+   "amount": 300000
+  },
+  {
+   "id": "grants-40875-0",
+   "org": "Mercy For Animals",
+   "date": 1785715200,
+   "slug": "corporate-campaigns",
+   "year": 2026,
+   "areas": [
+    "Broiler Chicken Welfare",
+    "Cage-Free Reforms",
+    "Farm Animal Welfare"
+   ],
+   "title": "Corporate Campaigns",
+   "amount": 12650000
   },
   {
    "id": "grants-38956-0",
@@ -53,6 +117,32 @@
    "amount": 400000
   },
   {
+   "id": "grants-40873-0",
+   "org": "UN Foundation",
+   "date": 1785456000,
+   "slug": "coalition-building-for-alt-protein-funding",
+   "year": 2026,
+   "areas": [
+    "Alternatives to Animal Products",
+    "Farm Animal Welfare"
+   ],
+   "title": "Coalition-building for Alt Protein Funding",
+   "amount": 400000
+  },
+  {
+   "id": "grants-40929-0",
+   "org": "Wageningen University (Dr. Hans van de Vis)",
+   "date": 1785456000,
+   "slug": "wild-caught-fish-welfare",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Wild-Caught Fish Welfare",
+   "amount": 244258
+  },
+  {
    "id": "grants-40103-0",
    "org": "High Impact Medicine",
    "date": 1785283200,
@@ -63,6 +153,43 @@
    ],
    "title": "General Support",
    "amount": 455658
+  },
+  {
+   "id": "grants-40911-0",
+   "org": "New York University",
+   "date": 1785196800,
+   "slug": "benchmark-for-animal-welfare-in-ai-models",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Benchmark for Animal Welfare in AI Models",
+   "amount": 77000
+  },
+  {
+   "id": "grants-40887-0",
+   "org": "Animal Welfare Research Network",
+   "date": 1785110400,
+   "slug": "academic-network-expansion-in-asia",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Academic Network Expansion in Asia",
+   "amount": 169000
+  },
+  {
+   "id": "grants-40890-0",
+   "org": "Langsikt",
+   "date": 1785110400,
+   "slug": "fish-welfare-advocacy-in-norway",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Advocacy in Norway",
+   "amount": 500000
   },
   {
    "id": "grants-40218-0",
@@ -77,6 +204,19 @@
    "amount": 212184070
   },
   {
+   "id": "grants-40881-0",
+   "org": "Universidade de Vigo",
+   "date": 1784851200,
+   "slug": "fish-welfare-research-5",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Research (Jesús Miguez)",
+   "amount": 170000
+  },
+  {
    "id": "grants-40105-0",
    "org": "Scale Wise",
    "date": 1784764800,
@@ -89,6 +229,47 @@
    "amount": 500000
   },
   {
+   "id": "grants-40900-0",
+   "org": "Dyrenes Alliance",
+   "date": 1784678400,
+   "slug": "fish-welfare-advocacy-in-denmark",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Advocacy in Denmark",
+   "amount": 500000
+  },
+  {
+   "id": "grants-40896-0",
+   "org": "Essere Animali",
+   "date": 1784505600,
+   "slug": "farm-animal-welfare-in-italy",
+   "year": 2026,
+   "areas": [
+    "Broiler Chicken Welfare",
+    "Cage-Free Reforms",
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Farm Animal Welfare in Italy",
+   "amount": 850000
+  },
+  {
+   "id": "grants-40879-0",
+   "org": "Institute of Agrifood Research and Technology",
+   "date": 1784160000,
+   "slug": "fish-welfare-research-4",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Research (Dr. Sonia Rey Planellas)",
+   "amount": 390000
+  },
+  {
    "id": "grants-40137-0",
    "org": "Sri Ramachandra Institute of Higher Education & Research",
    "date": 1784073600,
@@ -99,6 +280,18 @@
    ],
    "title": "RCT on Reducing Lead Exposure via Metallic Cookware",
    "amount": 366538
+  },
+  {
+   "id": "grants-40917-0",
+   "org": "The Mission Motor",
+   "date": 1784073600,
+   "slug": "monitoring-evaluation-and-learning-support-for-animal-welfare-orgs",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Monitoring, Evaluation and Learning Support for Animal Welfare Orgs",
+   "amount": 990000
   },
   {
    "id": "grants-40120-0",
@@ -149,6 +342,18 @@
    "amount": 900000
   },
   {
+   "id": "grants-40907-0",
+   "org": "Mycelium",
+   "date": 1783641600,
+   "slug": "research-and-tools-for-animal-welfare-in-ai",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Research and Tools for Animal Welfare in AI",
+   "amount": 80000
+  },
+  {
    "id": "grants-39767-0",
    "org": "ChinaTalk",
    "date": 1783555200,
@@ -197,6 +402,19 @@
    "amount": 229900
   },
   {
+   "id": "grants-40919-0",
+   "org": "Meritens",
+   "date": 1783296000,
+   "slug": "developing-a-method-of-humane-slaughter-for-fish",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Developing a Method of Humane Slaughter for Fish",
+   "amount": 1378618
+  },
+  {
    "id": "grants-40705-0",
    "org": "Simon Institute for Longterm Governance ",
    "date": 1782950400,
@@ -209,6 +427,18 @@
    "amount": 5205919
   },
   {
+   "id": "grants-40885-0",
+   "org": "Spring Innovation Fund",
+   "date": 1782691200,
+   "slug": "general-support-93",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "General Support",
+   "amount": 7500000
+  },
+  {
    "id": "grants-39894-0",
    "org": "Rutgers University",
    "date": 1782345600,
@@ -219,6 +449,19 @@
    ],
    "title": "Field Testing of Building Protections from Airborne Hazards",
    "amount": 400000
+  },
+  {
+   "id": "grants-40871-0",
+   "org": "Ministry of Future Affairs",
+   "date": 1782259200,
+   "slug": "alt-protein-advocacy-in-the-eu",
+   "year": 2026,
+   "areas": [
+    "Alternatives to Animal Products",
+    "Farm Animal Welfare"
+   ],
+   "title": "Alt Protein Advocacy in the EU",
+   "amount": 520155
   },
   {
    "id": "grants-40116-0",
@@ -268,6 +511,18 @@
    ],
    "title": "Lead Exposure Market Shaping and Governance Program",
    "amount": 8000000
+  },
+  {
+   "id": "grants-40825-0",
+   "org": "Augur",
+   "date": 1781827200,
+   "slug": "ai-supply-chain-research",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "AI Supply Chain Research",
+   "amount": 1356794
   },
   {
    "id": "grants-39896-0",
@@ -436,6 +691,18 @@
    ],
    "title": "Africa Clean Air Network (AfriCAN)",
    "amount": 619000
+  },
+  {
+   "id": "grants-40760-0",
+   "org": "Tony Blair Institute for Global Change",
+   "date": 1781049600,
+   "slug": "health-technical-assistance-in-malawi-and-mozambique",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Health Technical Assistance in Malawi and Mozambique (Predates Fund)",
+   "amount": 3026746
   },
   {
    "id": "grants-39848-0",
@@ -670,6 +937,32 @@
    ],
    "title": "Farm Animal Welfare Advocacy",
    "amount": 350000
+  },
+  {
+   "id": "grants-40922-0",
+   "org": "Swedish University of Agricultural Sciences",
+   "date": 1779840000,
+   "slug": "developing-a-method-of-humane-slaughter-for-fish-2",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Developing a Method of Humane Slaughter for Fish",
+   "amount": 126880
+  },
+  {
+   "id": "grants-40924-0",
+   "org": "FAI Farms",
+   "date": 1779840000,
+   "slug": "developing-a-method-of-humane-slaughter-for-fish-3",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Developing a Method of Humane Slaughter for Fish",
+   "amount": 428004
   },
   {
    "id": "grants-39790-0",
@@ -977,6 +1270,18 @@
    "amount": 500000
   },
   {
+   "id": "grants-40945-0",
+   "org": "Delivery Associates",
+   "date": 1778112000,
+   "slug": "scoping-for-health-sector-planning-in-cameroon",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Scoping for Health Sector Planning in Cameroon (Predates Fund)",
+   "amount": 170000
+  },
+  {
    "id": "grants-39173-0",
    "org": "Brookings Institution",
    "date": 1778025600,
@@ -1035,6 +1340,19 @@
    ],
    "title": "Pavana (Air Quality Research Initiative)",
    "amount": 50218
+  },
+  {
+   "id": "grants-40788-0",
+   "org": "International Vaccine Institute",
+   "date": 1778025600,
+   "slug": "schistosomiasis-vaccine-phase-ii-trial",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Schistosomiasis Vaccine Phase II Trial",
+   "amount": 3150000
   },
   {
    "id": "grants-39149-0",
@@ -1173,6 +1491,20 @@
    "amount": 327259
   },
   {
+   "id": "grants-40792-0",
+   "org": "University of California, San Diego",
+   "date": 1777593600,
+   "slug": "antimalarial-gene-drive-support",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D",
+    "Transformative Science"
+   ],
+   "title": "Antimalarial Gene Drive Support",
+   "amount": 2100000
+  },
+  {
    "id": "grants-39533-0",
    "org": "AI Alignment Foundation",
    "date": 1777507200,
@@ -1219,6 +1551,19 @@
    ],
    "title": "Energy Permitting Reforms",
    "amount": 2714000
+  },
+  {
+   "id": "grants-40784-0",
+   "org": "Nationwide Children's Hospital",
+   "date": 1777248000,
+   "slug": "research-on-diagnosis-and-treatment-of-cerebral-malaria",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Research on Diagnosis and Treatment of Cerebral Malaria",
+   "amount": 275000
   },
   {
    "id": "grants-39106-0",
@@ -1811,6 +2156,18 @@
    "amount": 182000
   },
   {
+   "id": "grants-40762-0",
+   "org": "Tony Blair Institute for Global Change",
+   "date": 1774483200,
+   "slug": "health-technical-assistance-in-cote-divoire-and-zambia",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Health Technical Assistance in Cote d'Ivoire and Zambia (Predates Fund)",
+   "amount": 3062488
+  },
+  {
    "id": "grants-39399-0",
    "org": "Certified Humane Asia",
    "date": 1774396800,
@@ -1821,6 +2178,31 @@
    ],
    "title": "Scale-up of Farm Animal Welfare Certification Programs in India",
    "amount": 500000
+  },
+  {
+   "id": "grants-40520-0",
+   "org": "University of Chicago",
+   "date": 1774310400,
+   "slug": "epic-air-quality-fund",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "EPIC Air Quality Fund",
+   "amount": 2500000
+  },
+  {
+   "id": "grants-40780-0",
+   "org": "Stanford University",
+   "date": 1774310400,
+   "slug": "infrastructure-for-tuberculosis-vaccine-trials",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Infrastructure for Tuberculosis Vaccine Trials",
+   "amount": 208008
   },
   {
    "id": "grants-39577-0",
@@ -2108,6 +2490,19 @@
    "amount": 64395
   },
   {
+   "id": "grants-40782-0",
+   "org": "VenomAid",
+   "date": 1773187200,
+   "slug": "development-of-rapid-snakebite-diagnostics-investment",
+   "year": 2026,
+   "areas": [
+    "Noninfectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Development of Rapid Snakebite Diagnostics (Investment)",
+   "amount": 994654
+  },
+  {
    "id": "grants-37592-0",
    "org": "Center for Addiction Science, Policy, and Research (CASPR)",
    "date": 1773100800,
@@ -2215,6 +2610,18 @@
    ],
    "title": "Mirror Biology Policy Working Group",
    "amount": 154675
+  },
+  {
+   "id": "grants-40770-0",
+   "org": "African Leaders Malaria Alliance",
+   "date": 1772496000,
+   "slug": "advocacy-and-technical-assistance-efforts",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Advocacy and Technical Assistance Efforts (Predates Fund)",
+   "amount": 396022
   },
   {
    "id": "grants-37986-0",
@@ -2587,6 +2994,18 @@
    "amount": 429000
   },
   {
+   "id": "grants-40942-0",
+   "org": "Delivery Associates",
+   "date": 1771459200,
+   "slug": "technical-assistance-in-cameroon-and-sierra-leone",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Technical Assistance in Cameroon and Sierra Leone (Predates Fund)",
+   "amount": 140000
+  },
+  {
    "id": "grants-37874-0",
    "org": "University of California, San Diego",
    "date": 1771372800,
@@ -2734,6 +3153,18 @@
    "amount": 786286
   },
   {
+   "id": "grants-40838-0",
+   "org": "Tarbell Center for AI Journalism",
+   "date": 1770768000,
+   "slug": "general-support-92",
+   "year": 2026,
+   "areas": [
+    "Global Catastrophic Risks Opportunities"
+   ],
+   "title": "General Support",
+   "amount": 16810000
+  },
+  {
    "id": "grants-37872-0",
    "org": "Albion East",
    "date": 1770681600,
@@ -2854,6 +3285,18 @@
    "amount": 915566
   },
   {
+   "id": "grants-40947-0",
+   "org": "PATH",
+   "date": 1770076800,
+   "slug": "technical-health-support-in-mozambique-and-drc",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Technical Health Support in Mozambique and DRC (Predates Fund)",
+   "amount": 1032409
+  },
+  {
    "id": "grants-37608-0",
    "org": "Progress Ireland",
    "date": 1769990400,
@@ -2876,6 +3319,18 @@
    ],
    "title": "AI Alignment Research Program",
    "amount": 263496
+  },
+  {
+   "id": "grants-40766-0",
+   "org": "Georgetown University Center for Global Health Practice and Impact",
+   "date": 1769990400,
+   "slug": "convening-for-health-sector-planning",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "Convening for Health Sector Planning (Predates Fund)",
+   "amount": 697373
   },
   {
    "id": "grants-38339-0",
@@ -2908,9 +3363,9 @@
    "slug": "health-sector-planning-in-mali",
    "year": 2026,
    "areas": [
-    "Global Health & Wellbeing Opportunities"
+    "Health Aid Transition"
    ],
-   "title": "Health Sector Planning in Mali",
+   "title": "Health Sector Planning in Mali (Predates Fund)",
    "amount": 299999
   },
   {
@@ -3084,6 +3539,18 @@
    "amount": 5180971
   },
   {
+   "id": "grants-40974-0",
+   "org": "Successif",
+   "date": 1769040000,
+   "slug": "career-advising-2",
+   "year": 2026,
+   "areas": [
+    "Global Catastrophic Risks Opportunities"
+   ],
+   "title": "Career Advising",
+   "amount": 1900000
+  },
+  {
    "id": "grants-36542-0",
    "org": "REACH",
    "date": 1768953600,
@@ -3146,6 +3613,18 @@
    ],
    "title": "Work on Fish Welfare Protocols",
    "amount": 217140
+  },
+  {
+   "id": "grants-40768-0",
+   "org": "Clinton Health Access Initiative",
+   "date": 1768953600,
+   "slug": "mou-planning",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "MOU Planning (Predates Fund)",
+   "amount": 256157
   },
   {
    "id": "grants-38486-0",
@@ -3258,6 +3737,18 @@
    "amount": 1690783
   },
   {
+   "id": "grants-40978-0",
+   "org": "Carnegie Endowment for International Peace",
+   "date": 1768348800,
+   "slug": "research-and-programming-support",
+   "year": 2026,
+   "areas": [
+    "Navigating Transformative AI"
+   ],
+   "title": "Research and Programming Support",
+   "amount": 5975000
+  },
+  {
    "id": "grants-36370-0",
    "org": "Plant Based Foods Association",
    "date": 1768262400,
@@ -3352,10 +3843,22 @@
    "slug": "malaria-program-planning",
    "year": 2026,
    "areas": [
-    "Global Aid Policy"
+    "Health Aid Transition"
    ],
-   "title": "Malaria Program Planning",
+   "title": "Malaria Program Planning (Predates Fund)",
    "amount": 800000
+  },
+  {
+   "id": "grants-40764-0",
+   "org": "Tony Blair Institute for Global Change",
+   "date": 1767830400,
+   "slug": "mou-planning-and-advising",
+   "year": 2026,
+   "areas": [
+    "Health Aid Transition"
+   ],
+   "title": "MOU Planning and Advising (Predates Fund)",
+   "amount": 1000000
   },
   {
    "id": "grants-38081-0",
@@ -3369,18 +3872,6 @@
    ],
    "title": "Monoclonal Antibody Development",
    "amount": 100000
-  },
-  {
-   "id": "grants-37813-0",
-   "org": "Successif",
-   "date": 1767312000,
-   "slug": "career-advising",
-   "year": 2026,
-   "areas": [
-    "Global Catastrophic Risks Opportunities"
-   ],
-   "title": "Career Advising",
-   "amount": 600000
   },
   {
    "id": "grants-36956-0",
@@ -5363,7 +5854,7 @@
     "Transformative Science"
    ],
    "title": "Antimalarial Gene Drive Research",
-   "amount": 2660838
+   "amount": 4160838
   },
   {
    "id": "grants-36170-0",
@@ -6267,6 +6758,18 @@
    ],
    "title": "Cage-Free Implementation Fund",
    "amount": 1500000
+  },
+  {
+   "id": "grants-40972-0",
+   "org": "MATS Research",
+   "date": 1755820800,
+   "slug": "ai-safety-fellowship-extensions",
+   "year": 2025,
+   "areas": [
+    "Global Catastrophic Risks Opportunities"
+   ],
+   "title": "AI Safety Fellowship Extensions",
+   "amount": 15000000
   },
   {
    "id": "grants-36168-0",
@@ -8343,9 +8846,9 @@
    "slug": "health-technical-support-unit",
    "year": 2025,
    "areas": [
-    "Global Health & Wellbeing Opportunities"
+    "Health Aid Transition"
    ],
-   "title": "Health Technical Support Unit",
+   "title": "Health Technical Support Unit (Predates Fund)",
    "amount": 704461
   },
   {
@@ -8657,18 +9160,6 @@
    ],
    "title": "Conference on Artificial General Intelligence",
    "amount": 117631
-  },
-  {
-   "id": "grants-28367-0",
-   "org": "MATS Research",
-   "date": 1746921600,
-   "slug": "general-support-8",
-   "year": 2025,
-   "areas": [
-    "Global Catastrophic Risks Opportunities"
-   ],
-   "title": "General Support",
-   "amount": 26924000
   },
   {
    "id": "grants-28372-0",
@@ -9161,9 +9652,9 @@
    "slug": "health-technical-support-units",
    "year": 2025,
    "areas": [
-    "Global Health & Wellbeing Opportunities"
+    "Health Aid Transition"
    ],
-   "title": "Health Technical Support Units",
+   "title": "Health Technical Support Units (Predates Fund)",
    "amount": 2145539
   },
   {
@@ -30562,7 +31053,7 @@
     "Transformative Science"
    ],
    "title": "Infant Immunome and Influenza Studies (Mary Staat)",
-   "amount": 9105777
+   "amount": 10605777
   },
   {
    "id": "grants-1655-0",

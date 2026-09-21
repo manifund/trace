@@ -664,7 +664,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 67721764,
+      "amount": 52721764,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -676,7 +676,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 111139370,
+      "amount": 35611290,
       "currency": "USD",
       "date": "2026",
       "description": null,
@@ -784,14 +784,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 238835045,
+      "amount": 240335045,
       "currency": "USD",
       "date": "2019",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $238,835,045 in 2019 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $240,335,045 in 2019 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -868,14 +868,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 694464021,
+      "amount": 695964021,
       "currency": "USD",
       "date": "2025",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $894,464,021 in 2025 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $895,964,021 in 2025 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -887,19 +887,19 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $894,464,021 in 2025 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $895,964,021 in 2025 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 770738813,
+      "amount": 838081585,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $970,738,813 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,038,081,585 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -911,7 +911,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $970,738,813 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,038,081,585 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Various Recipients",
