@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-09-21T16:31:28.347Z",
+ "exported_at": "2026-09-28T18:12:34.083Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -75,7 +75,7 @@
     "Farm Animal Welfare",
     "Fish Welfare"
    ],
-   "title": "Fish Welfare Policy Work",
+   "title": "Freshwater Ecosystem Protection",
    "amount": 300000
   },
   {
@@ -141,6 +141,31 @@
    ],
    "title": "Wild-Caught Fish Welfare",
    "amount": 244258
+  },
+  {
+   "id": "grants-41063-0",
+   "org": "Fórum Nacional de Proteção e Defesa Animal",
+   "date": 1785456000,
+   "slug": "hanging-free-electrical-stunning-broiler-pilot",
+   "year": 2026,
+   "areas": [
+    "Broiler Chicken Welfare",
+    "Farm Animal Welfare"
+   ],
+   "title": "Hanging-Free Electrical Stunning Broiler Pilot",
+   "amount": 336726
+  },
+  {
+   "id": "grants-41118-0",
+   "org": "SecureBio",
+   "date": 1785369600,
+   "slug": "infrastructure-for-rapid-pcr-assays",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Infrastructure for Rapid PCR Assays",
+   "amount": 515000
   },
   {
    "id": "grants-40103-0",
@@ -240,6 +265,18 @@
    ],
    "title": "Fish Welfare Advocacy in Denmark",
    "amount": 500000
+  },
+  {
+   "id": "grants-41066-0",
+   "org": "People for Animals Uttarakhand",
+   "date": 1784678400,
+   "slug": "farm-animal-welfare-fellowship-2",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Farm Animal Welfare Fellowship",
+   "amount": 350000
   },
   {
    "id": "grants-40896-0",
@@ -731,7 +768,7 @@
   },
   {
    "id": "grants-39484-0",
-   "org": "ProEquip",
+   "org": "Hadrian Biodefense",
    "date": 1780876800,
    "slug": "general-support-76",
    "year": 2026,
@@ -1184,6 +1221,19 @@
    "amount": 189960
   },
   {
+   "id": "grants-40790-0",
+   "org": "Novartis",
+   "date": 1778457600,
+   "slug": "nipah-virus-antiviral-drug-development",
+   "year": 2026,
+   "areas": [
+    "Infectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Nipah Virus Antiviral Drug Development",
+   "amount": 4800000
+  },
+  {
    "id": "grants-39466-0",
    "org": "Pivotal Research",
    "date": 1778198400,
@@ -1390,7 +1440,7 @@
     "Broiler Chicken Welfare",
     "Farm Animal Welfare"
    ],
-   "title": "Farm Animal Media Campaign",
+   "title": "Support for London Public Awareness Campaign (Poor Broiler Chicken Welfare)",
    "amount": 475000
   },
   {
@@ -1491,6 +1541,20 @@
    "amount": 327259
   },
   {
+   "id": "grants-40786-0",
+   "org": "Universidad de Antioquia",
+   "date": 1777593600,
+   "slug": "mapping-anti-inflammatory-effects-of-the-apoe3ch-gene-david-aguillon-and-rafael-posada",
+   "year": 2026,
+   "areas": [
+    "Noninfectious Diseases",
+    "Science and Global Health R&D",
+    "Transformative Science"
+   ],
+   "title": "Mapping Anti-Inflammatory Effects of the APOE3 Ch Gene (David Aguillon and Rafael Posada)",
+   "amount": 905520
+  },
+  {
    "id": "grants-40792-0",
    "org": "University of California, San Diego",
    "date": 1777593600,
@@ -1503,18 +1567,6 @@
    ],
    "title": "Antimalarial Gene Drive Support",
    "amount": 2100000
-  },
-  {
-   "id": "grants-39533-0",
-   "org": "AI Alignment Foundation",
-   "date": 1777507200,
-   "slug": "alignment-research-accelerator",
-   "year": 2026,
-   "areas": [
-    "Navigating Transformative AI"
-   ],
-   "title": "Alignment Research Accelerator",
-   "amount": 5520000
   },
   {
    "id": "grants-39486-0",
@@ -4643,7 +4695,7 @@
   },
   {
    "id": "grants-36478-0",
-   "org": "ProEquip",
+   "org": "Hadrian Biodefense",
    "date": 1764028800,
    "slug": "ppe-rd",
    "year": 2025,
@@ -7482,7 +7534,7 @@
   },
   {
    "id": "grants-36476-0",
-   "org": "ProEquip",
+   "org": "Hadrian Biodefense",
    "date": 1753142400,
    "slug": "general-support-33",
    "year": 2025,
