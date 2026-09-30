@@ -37,6 +37,43 @@ const ROUND_DATES: Record<string, { date: string; precision: 'day' | 'month' }> 
   'SFF-2024': { date: '2024-10-30', precision: 'day' },
   'SFF-2024-FlexHEGs': { date: '2024-12-01', precision: 'month' },
   'SFF-2025': { date: '2025-09-01', precision: 'month' },
+  'SFF-2026': { date: '2026-09-01', precision: 'month' },
+}
+
+// From SFF-2026 on, the index lists joint "Jaan Tallinn & Dustin Moskovitz"
+// rows with one combined amount; the per-funder split is only on the round's
+// own announcement page, whose recommendations grid repeats each row's total
+// with "Jaan Tallinn: $X" / "Dustin Moskovitz: $Y" lines underneath.
+const ROUND_PAGES: Record<string, string> = {
+  'SFF-2026': 'https://survivalandflourishing.fund/2026/recommendations',
+}
+
+type Split = { name: string; amount: number }[]
+
+// Keyed by `${organization}|${total}` (an org can appear twice in a round
+// with different amounts). Orgs added to the page after the announcement
+// carry a trailing "*", which is stripped.
+async function loadFunderSplits(url: string): Promise<Map<string, Split>> {
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`SFF round page fetch failed: ${res.status} ${url}`)
+  const $ = cheerio.load(await res.text())
+  const cells = $('[columns="6"] .in-grid:not(.is-header)')
+    .toArray()
+    .map((el) => $(el).text().replace(/\s+/g, ' ').trim())
+  const splits = new Map<string, Split>()
+  for (let i = 0; i + 5 < cells.length; i += 6) {
+    const organization = cells[i + 1].replace(/\*$/, '').trim()
+    const amountCell = cells[i + 3]
+    const total = amountCell.match(/^\$([\d,]+)/)?.[1]
+    if (!total) continue
+    const split: Split = []
+    for (const m of amountCell.matchAll(/(Jaan Tallinn|Dustin Moskovitz): \$([\d,]+)/g)) {
+      split.push({ name: m[1], amount: Number(m[2].replace(/,/g, '')) })
+    }
+    if (split.length) splits.set(`${organization}|${Number(total.replace(/,/g, ''))}`, split)
+  }
+  if (splits.size === 0) throw new Error(`No funder splits parsed from ${url}`)
+  return splits
 }
 
 function parseRound(round: string): {
@@ -64,6 +101,10 @@ async function main() {
   const res = await fetch(URL)
   if (!res.ok) throw new Error(`SFF fetch failed: ${res.status}`)
   const $ = cheerio.load(await res.text())
+  const splitsByRound = new Map<string, Map<string, Split>>()
+  for (const [round, url] of Object.entries(ROUND_PAGES)) {
+    splitsByRound.set(round, await loadFunderSplits(url))
+  }
 
   const records: SourceRecordInput[] = []
   const rows = $('tr').toArray()
@@ -90,13 +131,29 @@ async function main() {
     // pairs two figures — org names can contain "and" ("The Casey and Family
     // Foundation") without being joint.
     const jointAmounts = amountCell.match(/^\$([\d,]+) and \$([\d,]+)$/)
-    const funders =
-      jointAmounts && source.includes(' and ')
-        ? source.split(' and ').map((name, i) => ({
-            name: name.trim(),
-            amount: Number(jointAmounts[i + 1].replace(/,/g, '')),
-          }))
-        : [{ name: source, amount: parseAmount(amountCell) }]
+    let funders: { name: string; amount: number | null }[]
+    if (jointAmounts && source.includes(' and ')) {
+      funders = source.split(' and ').map((name, i) => ({
+        name: name.trim(),
+        amount: Number(jointAmounts[i + 1].replace(/,/g, '')),
+      }))
+    } else if (source.includes(' & ')) {
+      // "Jaan Tallinn & Dustin Moskovitz" with one combined amount: split per
+      // the round page. The page's total is the index amount including any
+      // "+$X‡" matching pledge, and the two funder figures sum to it.
+      const total = parseAmount(amountCell)
+      const split = splitsByRound.get(round.trim())?.get(`${organization}|${total}`)
+      if (!split) {
+        throw new Error(`No funder split for ${round} / ${organization} / ${amountCell}`)
+      }
+      const splitTotal = split.reduce((a, b) => a + b.amount, 0)
+      if (splitTotal !== total) {
+        throw new Error(`Funder split for ${organization} sums to ${splitTotal}, not ${total}`)
+      }
+      funders = split
+    } else {
+      funders = [{ name: source, amount: parseAmount(amountCell) }]
+    }
 
     for (const funder of funders) {
       // Early rounds list "SFF DAF" as the source — the fund's own DAF pool,
