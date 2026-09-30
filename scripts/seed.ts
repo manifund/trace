@@ -117,6 +117,12 @@ const SOURCES = [
     tier: 3,
   },
   {
+    id: 'navigation_fund',
+    name: 'The Navigation Fund grants pages',
+    url: 'https://www.navigation.org/grants',
+    tier: 3,
+  },
+  {
     id: 'jaan_online',
     name: 'Jaan Tallinn donations',
     url: 'https://jaan.online/philanthropy/donations.html',

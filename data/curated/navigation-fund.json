@@ -1,0 +1,239 @@
+{
+  "_comment": "Grantees of The Navigation Fund (Jed McCaleb's foundation) named on navigation.org's program pages, extracted 2026-09-30. The site publishes grantee logos and highlights but no amounts or dates; aggregate giving ($24m to farm animal welfare in 2025) is recorded via fund_estimates. Their Open Science program closed and moved to Astera; nuclear safety giving is via a partnership with Longview Philanthropy and is not itemized here.",
+  "grants": [
+    {
+      "recipient": "New Roots Institute",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Farm Animal Welfare program page (no amount or date published).",
+      "program": "Farm Animal Welfare",
+      "sourceUrl": "https://www.navigation.org/grants/farm-animal-welfare",
+      "causes": [
+        "animal-welfare"
+      ]
+    },
+    {
+      "recipient": "Albert Schweitzer Foundation",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Farm Animal Welfare program page (no amount or date published).",
+      "program": "Farm Animal Welfare",
+      "sourceUrl": "https://www.navigation.org/grants/farm-animal-welfare",
+      "causes": [
+        "animal-welfare"
+      ]
+    },
+    {
+      "recipient": "Animal Justice Canada",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Farm Animal Welfare program page (no amount or date published).",
+      "program": "Farm Animal Welfare",
+      "sourceUrl": "https://www.navigation.org/grants/farm-animal-welfare",
+      "causes": [
+        "animal-welfare"
+      ]
+    },
+    {
+      "recipient": "Sinergia Animal",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Farm Animal Welfare program page (no amount or date published).",
+      "program": "Farm Animal Welfare",
+      "sourceUrl": "https://www.navigation.org/grants/farm-animal-welfare",
+      "causes": [
+        "animal-welfare"
+      ]
+    },
+    {
+      "recipient": "Animal Advocacy Careers",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Farm Animal Welfare program page (no amount or date published).",
+      "program": "Farm Animal Welfare",
+      "sourceUrl": "https://www.navigation.org/grants/farm-animal-welfare",
+      "causes": [
+        "animal-welfare"
+      ]
+    },
+    {
+      "recipient": "Arête Glacier Initiative",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published). Highlighted for its work on glacier stabilization.",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Carbon to Sea Initiative",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published).",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Operaatio Arktis",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published).",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Reflective",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published).",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Spark Climate Solutions",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published).",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "The Degrees Initiative",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Climate Change program page (no amount or date published). Highlighted for its researchers' contributions to the IPCC's 7th Assessment Report.",
+      "program": "Climate Change",
+      "sourceUrl": "https://www.navigation.org/grants/climate-change",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Silicon Valley De-Bug",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published). Highlighted for pioneering the Participatory Defense model.",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Illinois Coalition to End Permanent Punishment",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published). Highlighted for its role in Illinois's automatic record relief campaign.",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Safer Cities",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published). Highlighted for its newsletter on non-carceral safety strategies.",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Recidiviz",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published). Highlighted for decarceration technology used by 19 state partners.",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Defend Youth Rights",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published).",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "FORCE Detroit",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published).",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Scrutinize",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Listed as a grantee on the Transforming Criminal Justice program page (no amount or date published).",
+      "program": "Transforming Criminal Justice",
+      "sourceUrl": "https://www.navigation.org/grants/transforming-criminal-justice",
+      "causes": [
+        "other"
+      ]
+    }
+  ]
+}

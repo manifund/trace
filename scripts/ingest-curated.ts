@@ -199,6 +199,16 @@ const SOURCES: CuratedSource[] = [
     defaultFunder: 'OpenAI Foundation',
     funderType: 'foundation',
   },
+  {
+    sourceId: 'navigation_fund',
+    file: 'navigation-fund.json',
+    defaultFunder: 'The Navigation Fund',
+    funderType: 'foundation',
+    programCauses: (program) => {
+      if (/animal welfare/i.test(program)) return ['animal-welfare']
+      return ['other']
+    },
+  },
 ]
 
 function parseDate(row: CuratedRow): {

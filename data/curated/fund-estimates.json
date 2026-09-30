@@ -687,6 +687,18 @@
     },
     {
       "recipient": "Various Recipients",
+      "funder": "The Navigation Fund",
+      "amount": 24000000,
+      "currency": "USD",
+      "date": "2025",
+      "description": null,
+      "program": "Aggregate estimate — animal welfare",
+      "sourceUrl": null,
+      "amountEstimated": true,
+      "estimateNote": "The Navigation Fund reports deploying $24m to farm animal welfare in 2025; animal welfare grants from them recorded individually in this database are subtracted from the total."
+    },
+    {
+      "recipient": "Various Recipients",
       "funder": "OpenAI",
       "amount": 10000000,
       "currency": "USD",

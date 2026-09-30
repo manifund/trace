@@ -116,6 +116,18 @@ for (const [year, total] of Object.entries(coefficientAi)) {
     note: `Estimated total given to AI safety by Coefficient Giving in ${year}${year === '2026' ? ' so far' : ''}; AI-safety grants recorded individually in this database are subtracted from the total.`,
   })
 }
+// The Navigation Fund's farm animal welfare page says "In 2025, with one
+// program officer, we deployed $24 million"
+// (https://www.navigation.org/grants/farm-animal-welfare). Their other
+// programs (climate, criminal justice; >$60m/year overall) are not estimated.
+ESTIMATES.push({
+  funderSlug: 'the-navigation-fund',
+  funderName: 'The Navigation Fund',
+  date: '2025',
+  bucket: 'animal',
+  totalUsd: 24e6,
+  note: 'The Navigation Fund reports deploying $24m to farm animal welfare in 2025; animal welfare grants from them recorded individually in this database are subtracted from the total.',
+})
 ESTIMATES.push({
   funderSlug: 'openai',
   funderName: 'OpenAI',
@@ -196,7 +208,7 @@ async function main() {
   }
   // Funders whose estimates deliberately cover only some causes: never fold
   // recorded grants from other buckets into their estimate.
-  const PARTIAL_FUNDERS = new Set(['coefficient-giving'])
+  const PARTIAL_FUNDERS = new Set(['coefficient-giving', 'the-navigation-fund'])
   const catchAll = (slug: string): Bucket => {
     if (PARTIAL_FUNDERS.has(slug)) return 'none' as Bucket
     const set = estimatedBuckets.get(slug) ?? new Set<Bucket>()
