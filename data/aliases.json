@@ -348,7 +348,19 @@
     "Epistea US": "epistea-z-s",
     "Edge Institute, Inc.": "edge-city",
     "Windfall for Humanity, Inc.": "windfall-trust",
-    "Seismic Catalyst Foundation": "seismic-foundation"
+    "Seismic Catalyst Foundation": "seismic-foundation",
+    "The Clear Fund DBA GiveWell": "givewell",
+    "Animal Advocates Interntl": "animal-advocates-international",
+    "Institute Of Animal Law Asia": "institute-of-animal-law-of-asia",
+    "Material Innovation Institute": "material-innovation-initiative",
+    "Seed Strategies For Ethical": "strategies-for-ethical-and-environmental-development-seed",
+    "The Pollination Project Fdn": "the-pollination-project",
+    "Tufts College": "trustees-of-tufts-college",
+    "The Nonhuman Rights Project": "nonhuman-rights-project",
+    "Factory Farming Awareness": "factory-farming-awareness-coalition",
+    "Factory Farming Alliance Coalition": "factory-farming-awareness-coalition",
+    "Uc Regents - Ucla": "university-of-california-los-angeles",
+    "Insect Welfare Research Socie": "insect-welfare-research-society"
   },
   "_byRoleComment": "Same crosswalk, but only for one side of a grant. Needed where a source uses one label for both: EA Funds writes \"(Anonymous)\" for a grantee who asked not to be named, while Manifund and Vipul write it for a donor who did. A plain alias would send both to the same org and mislabel one of them.",
   "byRole": {

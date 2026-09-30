@@ -492,6 +492,40 @@
           "kind": "former_name"
         }
       ]
+    },
+    {
+      "slug": "vox-future-perfect",
+      "name": "Vox Future Perfect",
+      "org_type": "organization",
+      "website": "https://www.vox.com/future-perfect",
+      "aliases": [
+        {
+          "name": "Vox Media Future Perfect Project",
+          "kind": "alias"
+        },
+        {
+          "name": "Vox Media",
+          "kind": "alias",
+          "note": "Grants to Vox Media from BEMC, ACE and Rockefeller all fund Future Perfect"
+        },
+        {
+          "name": "Vox Media Inc",
+          "kind": "alias"
+        },
+        {
+          "name": "Vox Media LLC",
+          "kind": "alias"
+        }
+      ],
+      "description": null
+    },
+    {
+      "slug": "insect-welfare-research-society",
+      "name": "Insect Welfare Research Society",
+      "org_type": "organization",
+      "website": "https://www.insectwelfare.com/",
+      "aliases": [],
+      "description": null
     }
   ]
 }
