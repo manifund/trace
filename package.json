@@ -21,7 +21,9 @@
     "verify": "bun run scripts/verify-totals.ts",
     "report-untagged": "bun run scripts/report-untagged.ts",
     "report-tranches": "bun run scripts/report-tranches.ts",
-    "export-suggestions": "bun run scripts/export-suggestions.ts"
+    "export-suggestions": "bun run scripts/export-suggestions.ts",
+    "find-org-links": "bun run scripts/find-org-links.ts",
+    "fetch-logos": "bun run scripts/fetch-logos.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -54,6 +56,7 @@
     "bun-types": "latest",
     "oxfmt": "^0.32.0",
     "postcss": "^8.4.21",
+    "sharp": "0.34.5",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.1.3"
   },

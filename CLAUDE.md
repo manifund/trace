@@ -15,6 +15,8 @@ bun run report-unmatched # needs_review orgs ranked by $ affected
 bun run dedup            # Cross-source dup candidates; --apply executes resolutions
 bun run verify           # Totals vs data/expected-totals.json
 bun run gen-types        # Regenerate db/database.types.ts from Supabase
+bun run find-org-links   # Propose websites for orgs without one -> data/org-links.json
+bun run fetch-logos      # Site icons for every org with a website -> public/logos/
 ```
 
 ## Tech Stack
@@ -47,6 +49,7 @@ utils/            # format, parse, grant-filters (shared by table + CSV route)
 - **Reads:** `getGrants()` in `db/grant.ts` loads every approved grant once per process and memoizes it (10 min, content-hashed `getGrantsVersion()`); server code filters that array in memory, `clearGrants()` runs on suggestion accept. Data pages render a small default view on the server (`firstPaintRows`, first N rows, ...) and pass `version` + `initial` to a client component that does `useGrants(version) ?? initial` — SWR fetches `/grants.json?v=<version>` (immutable) once per browser session and every page shares it. New table = one server page + one client component in that shape.
 - **Grant status:** public pages only see `approved`. `pending` is reserved for future community submissions.
 - Field fixes go in `data/overrides.json` (keyed `source:record_key`), never by editing the DB by hand.
+- **Websites and logos:** `orgs-seed.json` carries websites for curated orgs; `data/org-links.json` (filled by `find-org-links` from the vipul donee table, Manifund profiles and Wikidata, keyed by slug with provenance) covers the rest and is applied by `seed`. `fetch-logos` turns websites into `public/logos/<slug>.png` and lists them in `data/org-logos.json`, which `OrgLogo` reads; rerun it after seed changes websites.
 
 ## Code Style
 

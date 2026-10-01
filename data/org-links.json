@@ -1,0 +1,2401 @@
+{
+  "_comment": "Websites for orgs that orgs-seed.json does not cover, keyed by org slug. `bun run find-org-links` adds candidates with where they came from (via); `bun run seed` writes them to orgs.website and clears the website of any org in neither file. Fix a wrong url in place; set url to null to reject a candidate so it stays off the site and is not proposed again. `bun run fetch-logos` turns websites into public/logos/<slug>.png.",
+  "websites": {
+    "1day-sooner": {
+      "name": "1Day Sooner",
+      "url": "http://1daysooner.org/",
+      "via": "manifund",
+      "note": "profile behind \"Advocate for a specialized pandemic response team at the FDA\""
+    },
+    "80-000-hours": {
+      "name": "80,000 Hours",
+      "url": "https://80000hours.org/",
+      "via": "wikidata",
+      "note": "Q4644323: organization researching how to have an impactful career"
+    },
+    "a-just-world": {
+      "name": "A Just World",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a political party"
+    },
+    "abdul-latif-jameel-poverty-action-lab": {
+      "name": "Abdul Latif Jameel Poverty Action Lab",
+      "url": "https://www.povertyactionlab.org",
+      "via": "wikidata",
+      "note": "Q774437: global research center working to reduce poverty"
+    },
+    "actasia": {
+      "name": "ACTAsia",
+      "url": "https://www.actasia.org/",
+      "via": "vipul"
+    },
+    "advocates-for-animals": {
+      "name": "Advocates for Animals",
+      "url": "http://www.onekind.org",
+      "via": "wikidata",
+      "note": "Q4045794: Scottish animal welfare charity"
+    },
+    "affine": {
+      "name": "AFFINE",
+      "url": "https://www.affi.ne/",
+      "via": "manifund",
+      "note": "profile behind \"AFFINE Event-Prep\""
+    },
+    "african-leaders-malaria-alliance": {
+      "name": "African Leaders Malaria Alliance",
+      "url": "http://alma2030.org/",
+      "via": "wikidata",
+      "note": "Q4689842: government organization in New York, United States"
+    },
+    "african-school-of-economics": {
+      "name": "African School of Economics",
+      "url": "https://africanschoolofeconomics.com/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://chartercitiesinstitute.org/"
+    },
+    "against-malaria-foundation": {
+      "name": "Against Malaria Foundation",
+      "url": "http://www.againstmalaria.com/",
+      "via": "wikidata",
+      "note": "Q4691036: United Kingdom-based charity"
+    },
+    "ai-futures-project": {
+      "name": "AI Futures Project",
+      "url": "http://ai-futures.org/",
+      "via": "wikidata",
+      "note": "Q138196018: nonprofit research organization focused on forecasting advanced artificial intelligence"
+    },
+    "ai-impacts": {
+      "name": "AI Impacts",
+      "url": "https://aiimpacts.org/",
+      "via": "vipul"
+    },
+    "ai-safety-and-governance-fund": {
+      "name": "AI Safety and Governance Fund",
+      "url": "https://aisgf.us",
+      "via": "manifund",
+      "note": "profile behind \"Testing and spreading messages to reduce AI x-risk\""
+    },
+    "ai-plans-com": {
+      "name": "AI-Plans.com",
+      "url": "https://ai-plans.com/",
+      "via": "manifund",
+      "note": "profile behind \"AI-Plans.com Critique-a-Thon $500 Prize Fund Proposal\""
+    },
+    "aisa": {
+      "name": "AISA",
+      "url": "https://www.aisafety.asia",
+      "via": "manifund",
+      "note": "profile behind \"AI Crisis Convening at India AI Impact Summit 2026\""
+    },
+    "alameda-research": {
+      "name": "Alameda Research",
+      "url": "https://www.alameda-research.com/",
+      "via": "wikidata",
+      "note": "Q115175564: quantitative cryptocurrency trading firm"
+    },
+    "albert-schweitzer-foundation": {
+      "name": "Albert Schweitzer Foundation",
+      "url": "https://albertschweitzerfoundation.org",
+      "via": "vipul"
+    },
+    "alert": {
+      "name": "ALERT",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "alfred-p-sloan-foundation": {
+      "name": "Alfred P. Sloan Foundation",
+      "url": "https://sloan.org/",
+      "via": "wikidata",
+      "note": "Q1200258: American philanthropic nonprofit organization"
+    },
+    "alignment-research-center": {
+      "name": "Alignment Research Center",
+      "url": "http://alignment.org/",
+      "via": "wikidata",
+      "note": "Q117834778: AI safety research organization"
+    },
+    "alliance-for-international-medical-action": {
+      "name": "Alliance for International Medical Action",
+      "url": "https://alima.ngo/en/",
+      "via": "wikidata",
+      "note": "Q107519904: organization in Dakar, Senegal"
+    },
+    "alliance-to-feed-the-earth-in-disasters": {
+      "name": "Alliance to Feed the Earth in Disasters",
+      "url": "https://allfed.info/",
+      "via": "wikidata",
+      "note": "Q123857449: non-profit organisation"
+    },
+    "american-cancer-society": {
+      "name": "American Cancer Society",
+      "url": "https://www.cancer.org",
+      "via": "wikidata",
+      "note": "Q463665: health organization seeking to cure and treat cancer"
+    },
+    "american-enterprise-institute": {
+      "name": "American Enterprise Institute",
+      "url": "https://www.aei.org",
+      "via": "wikidata",
+      "note": "Q464135: American conservative think tank founded in 1938"
+    },
+    "american-heart-association": {
+      "name": "American Heart Association",
+      "url": "https://www.heart.org",
+      "via": "wikidata",
+      "note": "Q464880: US nonprofit funding cardiovascular medical research, educating consumers on healthy living, and fostering cardiac care"
+    },
+    "americans-for-responsible-innovation": {
+      "name": "Americans for Responsible Innovation",
+      "url": "https://ari.us/",
+      "via": "wikidata",
+      "note": "Q139329057: US advocacy organization related to AI"
+    },
+    "amplify": {
+      "name": "Amplify",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a film distributor"
+    },
+    "anima": {
+      "name": "Anima",
+      "url": "https://anima.dk/",
+      "via": "vipul"
+    },
+    "anima-international": {
+      "name": "Anima International",
+      "url": "https://animainternational.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://stoppdyremishandling.no/"
+    },
+    "animal-advocacy-africa": {
+      "name": "Animal Advocacy Africa",
+      "url": "https://www.animaladvocacyafrica.org/",
+      "via": "manifund",
+      "note": "profile behind \"Animal Advocacy Africa \""
+    },
+    "animal-charity-evaluators": {
+      "name": "Animal Charity Evaluators",
+      "url": "https://animalcharityevaluators.org",
+      "via": "wikidata",
+      "note": "Q97360231: American nonprofit"
+    },
+    "animal-equality": {
+      "name": "Animal Equality",
+      "url": "https://animalequality.org",
+      "via": "wikidata",
+      "note": "Q3286916: Animal rights organization"
+    },
+    "animal-welfare-league": {
+      "name": "Animal Welfare League",
+      "url": "http://www.animalwelfareleague.com",
+      "via": "wikidata",
+      "note": "Q54834570: American nonprofit organization"
+    },
+    "apart-research": {
+      "name": "Apart Research",
+      "url": "https://apartresearch.com",
+      "via": "manifund",
+      "note": "profile behind \"Apart incubates and facilitates hundreds of AI safety researchers around the globe.\""
+    },
+    "apollo-research": {
+      "name": "Apollo Research",
+      "url": "https://apolloresearch.ai/",
+      "via": "manifund",
+      "note": "profile behind \"Apollo Research: Scale up interpretability & behavioral model evals research\""
+    },
+    "applied-research-laboratory-for-intelligence-and-security": {
+      "name": "Applied Research Laboratory for Intelligence and Security",
+      "url": "https://www.arlis.umd.edu",
+      "via": "wikidata",
+      "note": "Q123382150: University Affiliated Research Center at the University of Maryland"
+    },
+    "aquaculture-stewardship-council": {
+      "name": "Aquaculture Stewardship Council",
+      "url": "http://www.asc-aqua.org/",
+      "via": "wikidata",
+      "note": "Q2028860: organisation promoting and certifying sustainable aquaculture"
+    },
+    "aquatic-animal-alliance": {
+      "name": "Aquatic Animal Alliance",
+      "url": "https://www.ali.fish",
+      "via": "manifund",
+      "note": "profile behind \"Aquatic Animal Alliance: A Global Movement for Neglected Species\""
+    },
+    "arkose": {
+      "name": "Arkose",
+      "url": "https://arkose.org/",
+      "via": "manifund",
+      "note": "profile behind \"Arkose\""
+    },
+    "asia-for-animals-coalition": {
+      "name": "Asia for Animals Coalition",
+      "url": "https://www.smaccoalition.com/",
+      "via": "wikidata",
+      "note": "Q122730682: no description"
+    },
+    "association-for-the-advancement-of-artificial-intelligence": {
+      "name": "Association for the Advancement of Artificial Intelligence",
+      "url": "https://www.aaai.org/",
+      "via": "wikidata",
+      "note": "Q2739680: international scientific society"
+    },
+    "asterisk-magazine": {
+      "name": "Asterisk Magazine",
+      "url": "https://asteriskmag.com",
+      "via": "manifund",
+      "note": "profile behind \"Asterisk AI Blogging Fellowship\""
+    },
+    "ayuda-efectiva": {
+      "name": "Ayuda Efectiva",
+      "url": "https://ayudaefectiva.org",
+      "via": "wikidata",
+      "note": "Q105979632: Spanish nonprofit organization"
+    },
+    "berkeley-genomics-project": {
+      "name": "Berkeley Genomics Project",
+      "url": "https://berkeleygenomics.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://tsvibt.blogspot.com/"
+    },
+    "berkeley-reach": {
+      "name": "Berkeley REACH",
+      "url": "https://www.berkeleyreach.org/",
+      "via": "vipul"
+    },
+    "beth-israel-deaconess-medical-center": {
+      "name": "Beth Israel Deaconess Medical Center",
+      "url": "https://www.bidmc.org/",
+      "via": "wikidata",
+      "note": "Q4897536: teaching hospital of Harvard Medical School"
+    },
+    "blue-marble-space": {
+      "name": "Blue Marble Space",
+      "url": "http://www.bluemarblespace.org/",
+      "via": "wikidata",
+      "note": "Q30285855: facility in Seattle, United States"
+    },
+    "blue-ribbon-study-panel-on-biodefense": {
+      "name": "Blue Ribbon Study Panel on Biodefense",
+      "url": "https://biodefensecommission.org/",
+      "via": "manual",
+      "note": "replaced vipul candidate http://www.biodefensestudy.org"
+    },
+    "brandeis-university": {
+      "name": "Brandeis University",
+      "url": "https://www.brandeis.edu/",
+      "via": "wikidata",
+      "note": "Q49119: private research university in Waltham, Massachusetts"
+    },
+    "brighter-green": {
+      "name": "Brighter Green",
+      "url": "http://brightergreen.org/",
+      "via": "vipul"
+    },
+    "broad-institute": {
+      "name": "Broad Institute",
+      "url": "http://www.broadinstitute.org/",
+      "via": "wikidata",
+      "note": "Q4971893: biomedical and genomic research center"
+    },
+    "brookings-institution": {
+      "name": "Brookings Institution",
+      "url": "https://www.brookings.edu",
+      "via": "wikidata",
+      "note": "Q929154: American think tank"
+    },
+    "bulletin-of-the-atomic-scientists": {
+      "name": "Bulletin of the Atomic Scientists",
+      "url": "https://thebulletin.org/",
+      "via": "wikidata",
+      "note": "Q1004412: academic journal"
+    },
+    "cadenza-labs": {
+      "name": "Cadenza Labs",
+      "url": "https://cadenzalabs.org/",
+      "via": "manifund",
+      "note": "profile behind \"Cadenza Labs: AI Safety research group working on own interpretability agenda\""
+    },
+    "california-yimby": {
+      "name": "California YIMBY",
+      "url": "https://cayimby.org/",
+      "via": "wikidata",
+      "note": "Q136680743: housing advocacy group"
+    },
+    "cambridge-in-america": {
+      "name": "Cambridge in America",
+      "url": "http://www.cantab.org/",
+      "via": "wikidata",
+      "note": "Q30267901: nonprofit organization in New York, United States"
+    },
+    "caml": {
+      "name": "CaML",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a programming language"
+    },
+    "camp-sunshine": {
+      "name": "Camp Sunshine",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a video game"
+    },
+    "carnegie-endowment-for-international-peace": {
+      "name": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.org/",
+      "via": "wikidata",
+      "note": "Q1153595: Washington-based American think tank"
+    },
+    "cavendish-labs": {
+      "name": "Cavendish Labs",
+      "url": "https://cavendishlabs.org",
+      "via": "wikidata",
+      "note": "Q121634560: Research laboratory in Cavendish, Vermont."
+    },
+    "cdc-foundation": {
+      "name": "CDC Foundation",
+      "url": "http://www.cdcfoundation.org/",
+      "via": "wikidata",
+      "note": "Q30267799: American nonprofit organization"
+    },
+    "center-for-a-new-american-security": {
+      "name": "Center for a New American Security",
+      "url": "https://www.cnas.org/",
+      "via": "wikidata",
+      "note": "Q5059931: organization"
+    },
+    "center-for-ai-safety": {
+      "name": "Center for AI Safety, Inc.",
+      "url": "https://safe.ai/",
+      "via": "manifund",
+      "note": "profile behind \"AI Safety & Society\""
+    },
+    "center-for-applied-rationality": {
+      "name": "Center for Applied Rationality",
+      "url": "http://rationality.org/",
+      "via": "wikidata",
+      "note": "Q20715499: organization"
+    },
+    "center-for-communicable-disease-dynamics": {
+      "name": "Center for Communicable Disease Dynamics",
+      "url": "https://ccdd.hsph.harvard.edu/",
+      "via": "wikidata",
+      "note": "Q109608662: research center"
+    },
+    "center-for-global-development": {
+      "name": "Center for Global Development",
+      "url": "https://www.cgdev.org/",
+      "via": "wikidata",
+      "note": "Q3355598: organization"
+    },
+    "center-for-human-compatible-ai": {
+      "name": "Center for Human-Compatible AI",
+      "url": "https://humancompatible.ai/",
+      "via": "vipul"
+    },
+    "center-for-humane-technology": {
+      "name": "Center for Humane Technology",
+      "url": "https://www.humanetech.com/",
+      "via": "wikidata",
+      "note": "Q30314140: nonprofit organization"
+    },
+    "center-for-international-security-and-cooperation": {
+      "name": "Center for International Security and Cooperation",
+      "url": "http://cisac.stanford.edu",
+      "via": "wikidata",
+      "note": "Q5059715: organization"
+    },
+    "center-for-open-science": {
+      "name": "Center for Open Science",
+      "url": "https://cos.io/",
+      "via": "wikidata",
+      "note": "Q16972305: American nonprofit organization"
+    },
+    "center-for-security-and-emerging-technology": {
+      "name": "Center for Security and Emerging Technology",
+      "url": "https://cset.georgetown.edu/",
+      "via": "wikidata",
+      "note": "Q65052724: American technology think tank"
+    },
+    "center-for-strategic-and-international-studies": {
+      "name": "Center for Strategic and International Studies",
+      "url": "https://www.csis.org/",
+      "via": "wikidata",
+      "note": "Q1053614: American think tank in Washington, D.C."
+    },
+    "center-on-long-term-risk": {
+      "name": "Center on Long-Term Risk",
+      "url": "https://longtermrisk.org/",
+      "via": "wikidata",
+      "note": "Q136995628: nonprofit research organization"
+    },
+    "centre-for-effective-altruism": {
+      "name": "Centre for Effective Altruism",
+      "url": "https://www.centreforeffectivealtruism.org",
+      "via": "wikidata",
+      "note": "Q58844186: British charitable organization"
+    },
+    "centre-for-enabling-ea-learning-research": {
+      "name": "Centre for Enabling EA Learning & Research",
+      "url": "https://ceealar.org",
+      "via": "manifund",
+      "note": "profile behind \"CEEALAR (EA Hotel) Needs a New Roof\""
+    },
+    "centre-for-international-governance-innovation": {
+      "name": "Centre for International Governance Innovation",
+      "url": "http://cigionline.org",
+      "via": "wikidata",
+      "note": "Q5062486: think tank on global governance"
+    },
+    "centre-for-long-term-resilience": {
+      "name": "Centre for Long-Term Resilience",
+      "url": "https://www.longtermresilience.org/",
+      "via": "wikidata",
+      "note": "Q126286020: think tank based in the United Kingdom"
+    },
+    "centre-for-the-study-of-existential-risk": {
+      "name": "Centre for the Study of Existential Risk",
+      "url": "http://cser.org/",
+      "via": "wikidata",
+      "note": "Q1153172: English existential risk research centre"
+    },
+    "cesia": {
+      "name": "CeSIA",
+      "url": "https://www.securite-ia.fr/",
+      "via": "manifund",
+      "note": "profile behind \"Scaling AI safety awareness via content creators\""
+    },
+    "cfar": {
+      "name": "CFAR",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a UW research center; CFAR here is the rationality org"
+    },
+    "charity-entrepreneurship": {
+      "name": "Charity Entrepreneurship",
+      "url": "https://www.charityentrepreneurship.com",
+      "via": "wikidata",
+      "note": "Q135700271: nonprofit organization"
+    },
+    "charity-navigator": {
+      "name": "Charity Navigator",
+      "url": "https://www.charitynavigator.org/",
+      "via": "wikidata",
+      "note": "Q1063259: charity assessment organization that evaluates charitable organizations in the United States"
+    },
+    "charity-science": {
+      "name": "Charity Science",
+      "url": "http://www.charityscience.com/",
+      "via": "vipul"
+    },
+    "children-s-cancer-therapy-development-institute": {
+      "name": "Children's Cancer Therapy Development Institute",
+      "url": "http://www.cc-tdi.org",
+      "via": "wikidata",
+      "note": "Q30264387: nonprofit organization in Beaverton, United States"
+    },
+    "children-s-defense-fund": {
+      "name": "Children's Defense Fund",
+      "url": "http://www.childrensdefense.org/",
+      "via": "wikidata",
+      "note": "Q5098068: non-profit organization in the USA"
+    },
+    "christians-for-impact": {
+      "name": "Christians for Impact",
+      "url": "https://www.eaforchristians.org",
+      "via": "manifund",
+      "note": "profile behind \"Advertise Christians for Impact (EA for Christians)\""
+    },
+    "ciftlik-hayvanlarn-koruma-dernegi": {
+      "name": "Çiftlik Hayvanlarını Koruma Derneği",
+      "url": "https://www.kafessizturkiye.com/",
+      "via": "wikidata",
+      "note": "Q131429837: non-profit organisation from Turkey"
+    },
+    "cincinnati-children-s-hospital-medical-center": {
+      "name": "Cincinnati Children’s Hospital Medical Center",
+      "url": "http://www.cincinnatichildrens.org/default/",
+      "via": "wikidata",
+      "note": "Q5120231: hospital in Ohio, United States"
+    },
+    "claremont-graduate-university": {
+      "name": "Claremont Graduate University",
+      "url": "https://www.cgu.edu",
+      "via": "wikidata",
+      "note": "Q50015: university located in Claremont, California, United States"
+    },
+    "clinton-health-access-initiative": {
+      "name": "Clinton Health Access Initiative",
+      "url": "http://www.clintonhealthaccess.org/",
+      "via": "wikidata",
+      "note": "Q30296135: nonprofit organization in Boston, United States"
+    },
+    "collective-intelligence-project": {
+      "name": "Collective Intelligence Project",
+      "url": "https://www.cip.org",
+      "via": "wikidata",
+      "note": "Q136663672: nonprofit organization in San Francisco, United States"
+    },
+    "collider": {
+      "name": "Collider",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a video game"
+    },
+    "columbia-university": {
+      "name": "Columbia University",
+      "url": "https://columbia.edu",
+      "via": "wikidata",
+      "note": "Q49088: private university in New York City, New York, US"
+    },
+    "community-initiatives": {
+      "name": "Community Initiatives",
+      "url": "http://communityin.org/",
+      "via": "wikidata",
+      "note": "Q30271522: nonprofit organization in San Francisco, United States"
+    },
+    "compassion-in-world-farming-usa": {
+      "name": "Compassion in World Farming USA",
+      "url": "https://www.ciwf.com/",
+      "via": "vipul"
+    },
+    "compassion-over-killing": {
+      "name": "Compassion Over Killing",
+      "url": "http://www.cok.net/",
+      "via": "wikidata",
+      "note": "Q5156134: organization"
+    },
+    "conjecture": {
+      "name": "Conjecture Ltd",
+      "url": "https://www.conjecture.dev/",
+      "via": "wikidata",
+      "note": "Q131890289: no description"
+    },
+    "conservation-law-foundation": {
+      "name": "Conservation Law Foundation",
+      "url": "http://www.clf.org",
+      "via": "wikidata",
+      "note": "Q5162928: non-profit organization in the USA"
+    },
+    "conservative-animal-welfare-foundation": {
+      "name": "Conservative Animal Welfare Foundation",
+      "url": "https://www.conservativeanimalwelfarefoundation.org/",
+      "via": "wikidata",
+      "note": "Q111949889: British animal welfare organization"
+    },
+    "consumer-reports": {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/",
+      "via": "wikidata",
+      "note": "Q1957782: American magazine"
+    },
+    "convergent-research": {
+      "name": "Convergent Research",
+      "url": "https://www.convergentresearch.org/",
+      "via": "wikidata",
+      "note": "Q123018364: incubator for philanthropic ventures"
+    },
+    "coordinal-research": {
+      "name": "Coordinal Research",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "cornell-university": {
+      "name": "Cornell University",
+      "url": "https://cornell.edu",
+      "via": "wikidata",
+      "note": "Q49115: private and statutory land-grant research university in Ithaca, New York, USA"
+    },
+    "coursetexts": {
+      "name": "Coursetexts",
+      "url": "https://coursetexts.org",
+      "via": "manifund",
+      "note": "profile behind \"Coursetexts\""
+    },
+    "cstep": {
+      "name": "CSTEP",
+      "url": "http://www.cstep.in/",
+      "via": "wikidata",
+      "note": "Q30267837: nonprofit organization in Bengaluru, India"
+    },
+    "dana-farber-cancer-institute": {
+      "name": "Dana-Farber Cancer Institute",
+      "url": "http://www.dana-farber.org/",
+      "via": "wikidata",
+      "note": "Q1159198: hospital in Massachusetts, United States"
+    },
+    "dansk-vegetarisk-forening": {
+      "name": "Dansk Vegetarisk Forening",
+      "url": "https://vegetarisk.dk/",
+      "via": "wikidata",
+      "note": "Q12307586: Danish vegetarian and vegan organisation"
+    },
+    "dartmouth": {
+      "name": "Dartmouth",
+      "url": "https://home.dartmouth.edu/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://town.dartmouth.ma.us"
+    },
+    "delivery-associates": {
+      "name": "Delivery Associates",
+      "url": "https://www.deliveryassociates.com",
+      "via": "wikidata",
+      "note": "Q132472593: company from the United Kingdom"
+    },
+    "development-media-international": {
+      "name": "Development Media International",
+      "url": "http://developmentmedia.net",
+      "via": "wikidata",
+      "note": "Q18150551: UK health charity"
+    },
+    "diakonia": {
+      "name": "Diakonia",
+      "url": "https://www.diakonia.se",
+      "via": "wikidata",
+      "note": "Q10470401: organization in Sweden"
+    },
+    "distill": {
+      "name": "Distill",
+      "url": "https://distill.pub",
+      "via": "vipul"
+    },
+    "doctors-without-borders": {
+      "name": "Doctors Without Borders",
+      "url": "https://www.doctorswithoutborders.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate http://www.msf.org/en/where-we-work/uganda"
+    },
+    "dovetail": {
+      "name": "Dovetail",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a software company"
+    },
+    "dyrenes-alliance": {
+      "name": "Dyrenes Alliance",
+      "url": "https://dyrenesalliance.dk",
+      "via": "wikidata",
+      "note": "Q113031358: no description"
+    },
+    "dyrevernalliansen": {
+      "name": "Dyrevernalliansen",
+      "url": "https://dyrevern.no",
+      "via": "wikidata",
+      "note": "Q17768411: Humane society in Norway"
+    },
+    "earth-law-center": {
+      "name": "Earth Law Center",
+      "url": "http://earthlawcenter.org",
+      "via": "wikidata",
+      "note": "Q16992185: organization"
+    },
+    "earth-species-project": {
+      "name": "Earth Species Project",
+      "url": "https://www.earthspecies.org/",
+      "via": "wikidata",
+      "note": "Q126287845: initiative to use AI to decode and understand non-human communication"
+    },
+    "effective-altruism-foundation": {
+      "name": "Effective Altruism Foundation, Inc.",
+      "url": "https://ea-foundation.org/",
+      "via": "vipul"
+    },
+    "effective-altruism-new-zealand": {
+      "name": "Effective Altruism New Zealand",
+      "url": "https://effectivealtruism.nz",
+      "via": "manifund",
+      "note": "profile behind \"Effective Giving in New Zealand\""
+    },
+    "ellis-institute-tubingen": {
+      "name": "ELLIS Institute Tübingen",
+      "url": "https://institute-tue.ellis.eu",
+      "via": "wikidata",
+      "note": "Q138460611: organization in Tübingen, Germany"
+    },
+    "environmental-defense-fund": {
+      "name": "Environmental Defense Fund",
+      "url": "http://www.edf.org/",
+      "via": "wikidata",
+      "note": "Q1345899: United States environmental advocacy organization, headquartered in New York City"
+    },
+    "epoch-ai": {
+      "name": "Epoch AI",
+      "url": "https://epoch.ai/",
+      "via": "manifund",
+      "note": "profile behind \"Investigating and informing the public about the trajectory of AI\""
+    },
+    "equal-justice-initiative": {
+      "name": "Equal Justice Initiative",
+      "url": "http://www.eji.org",
+      "via": "wikidata",
+      "note": "Q19867897: organization providing legal representation to inmates on death row in Alabama, USA"
+    },
+    "era": {
+      "name": "ERA",
+      "url": "https://erafellowship.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate http://era-music.artistes.universalmusic.fr/"
+    },
+    "essere-animali": {
+      "name": "Essere Animali",
+      "url": "http://www.essereanimali.org/en",
+      "via": "wikidata",
+      "note": "Q131906923: no description"
+    },
+    "eth-zurich": {
+      "name": "ETH Zürich",
+      "url": "https://www.ethz.ch/",
+      "via": "wikidata",
+      "note": "Q11942: public research university in Zurich"
+    },
+    "eurogroup-for-animals": {
+      "name": "Eurogroup for Animals",
+      "url": "https://www.eurogroupforanimals.org",
+      "via": "wikidata",
+      "note": "Q202417: international animal advocacy organization in the European Union"
+    },
+    "european-environmental-bureau": {
+      "name": "European Environmental Bureau",
+      "url": "http://www.eeb.org/",
+      "via": "wikidata",
+      "note": "Q694459: organization"
+    },
+    "european-union": {
+      "name": "European Union",
+      "url": "https://europa.eu/",
+      "via": "wikidata",
+      "note": "Q458: political and economic union of 27 European states"
+    },
+    "evitable": {
+      "name": "Evitable",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "expect-miracles-foundation": {
+      "name": "Expect Miracles Foundation",
+      "url": "https://expectmiraclesfoundation.org",
+      "via": "wikidata",
+      "note": "Q140876141: nonprofit organization in Boston, United States"
+    },
+    "factory-farming-awareness-coalition": {
+      "name": "Factory Farming Awareness Coalition",
+      "url": "https://newrootsinstitute.org",
+      "via": "wikidata",
+      "note": "Q105702286: Nonprofit organization empowering the next generation with knowledge and training to end factory farming"
+    },
+    "fair-fish-international-association": {
+      "name": "fair-fish international association",
+      "url": "http://www.fair-fish.net/",
+      "via": "vipul"
+    },
+    "far-ai": {
+      "name": "FAR AI",
+      "url": "https://far.ai",
+      "via": "wikidata",
+      "note": "Q139885400: AI non-profit organization"
+    },
+    "farm-forward": {
+      "name": "Farm Forward",
+      "url": "https://www.farmforward.com/",
+      "via": "vipul"
+    },
+    "farmkind": {
+      "name": "FarmKind",
+      "url": "https://farmkind.giving",
+      "via": "manifund",
+      "note": "profile behind \"FarmKind - A donation platform creating new donors for effective animal advocacy\""
+    },
+    "faunalytics": {
+      "name": "Faunalytics",
+      "url": "https://faunalytics.org/",
+      "via": "wikidata",
+      "note": "Q5939251: animal advocacy research organization based in the United States"
+    },
+    "federation-of-american-scientists": {
+      "name": "Federation of American Scientists",
+      "url": "http://www.fas.org",
+      "via": "wikidata",
+      "note": "Q762201: nonprofit organization"
+    },
+    "federation-of-indian-animal-protection-organisations": {
+      "name": "Federation of Indian Animal Protection Organisations",
+      "url": "http://fiapo.org/",
+      "via": "vipul"
+    },
+    "fistula-foundation": {
+      "name": "Fistula Foundation",
+      "url": "http://www.fistulafoundation.org",
+      "via": "wikidata",
+      "note": "Q5455359: organization"
+    },
+    "food-empowerment-project": {
+      "name": "Food Empowerment Project",
+      "url": "http://foodispower.org/",
+      "via": "wikidata",
+      "note": "Q5465316: organization"
+    },
+    "forecasting-research-institute": {
+      "name": "Forecasting Research Institute",
+      "url": "https://forecastingresearch.org",
+      "via": "wikidata",
+      "note": "Q122208275: organization doing research inspired in part by Philip Tetlock"
+    },
+    "forest-trends": {
+      "name": "Forest Trends",
+      "url": "http://www.forest-trends.org",
+      "via": "wikidata",
+      "note": "Q5469128: non-profit organization in the USA"
+    },
+    "forethought-foundation-for-global-priorities-research": {
+      "name": "Forethought Foundation for Global Priorities Research",
+      "url": "https://www.forethought.org/",
+      "via": "vipul"
+    },
+    "forum-nacional-de-protecao-e-defesa-animal": {
+      "name": "Fórum Nacional de Proteção e Defesa Animal",
+      "url": "https://www.forumanimal.org/",
+      "via": "vipul"
+    },
+    "foundation-for-american-innovation": {
+      "name": "Foundation for American Innovation",
+      "url": "https://www.thefai.org/",
+      "via": "wikidata",
+      "note": "Q141158140: 501(c)(3) founded in the Silicon Valley in 2014"
+    },
+    "foundation-for-food-and-agricultural-research": {
+      "name": "Foundation for Food and Agricultural Research",
+      "url": "https://foundationfar.org/",
+      "via": "vipul"
+    },
+    "foundation-for-the-national-institutes-of-health": {
+      "name": "Foundation for the National Institutes of Health",
+      "url": "https://fnih.org/",
+      "via": "vipul"
+    },
+    "foundational-questions-institute": {
+      "name": "Foundational Questions Institute",
+      "url": "http://fqxi.org/",
+      "via": "wikidata",
+      "note": "Q8565004: nonprofit organization"
+    },
+    "fred-hutchinson-cancer-center": {
+      "name": "Fred Hutchinson Cancer Center",
+      "url": "https://www.fredhutch.org/en.html",
+      "via": "wikidata",
+      "note": "Q1452369: cancer research institute in Seattle, Washington, United States"
+    },
+    "future-impact-group": {
+      "name": "Future Impact Group",
+      "url": "https://futureimpact.group/",
+      "via": "wikidata",
+      "note": "Q141247988: London-based artificial intelligence safety research fellowship organization"
+    },
+    "future-of-humanity-institute": {
+      "name": "Future of Humanity Institute",
+      "url": "https://www.fhi.ox.ac.uk/",
+      "via": "vipul"
+    },
+    "ge-effektivt": {
+      "name": "Ge Effektivt",
+      "url": "https://geeffektivt.se/",
+      "via": "wikidata",
+      "note": "Q137355601: Swedish non-governmental organisation"
+    },
+    "georgetown-university": {
+      "name": "Georgetown University",
+      "url": "https://www.georgetown.edu",
+      "via": "wikidata",
+      "note": "Q333886: private university in Washington, D.C., United States"
+    },
+    "georgia-institute-of-technology": {
+      "name": "Georgia Institute of Technology",
+      "url": "https://gatech.edu",
+      "via": "wikidata",
+      "note": "Q864855: public research university in Atlanta, Georgia, United States"
+    },
+    "georgia-tech-research-corporation": {
+      "name": "Georgia Tech Research Corporation",
+      "url": "https://gtrc.gatech.edu/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://amirmohan.github.io"
+    },
+    "gg": {
+      "name": "GG",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is Guernsey"
+    },
+    "gimbal": {
+      "name": "Gimbal",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a video game"
+    },
+    "give-kids-the-world-village": {
+      "name": "Give Kids The World Village",
+      "url": "http://www.gktw.org/",
+      "via": "wikidata",
+      "note": "Q5565660: nonprofit resort in Florida for children with life-threatening illnesses and their families"
+    },
+    "givedirectly": {
+      "name": "GiveDirectly",
+      "url": "https://www.givedirectly.org/",
+      "via": "wikidata",
+      "note": "Q5565603: aid organization"
+    },
+    "givewell": {
+      "name": "GiveWell",
+      "url": "https://www.givewell.org/",
+      "via": "wikidata",
+      "note": "Q5565607: American charity"
+    },
+    "givewell-maximum-impact-fund": {
+      "name": "GiveWell Maximum Impact Fund",
+      "url": "https://www.givewell.org",
+      "via": "vipul"
+    },
+    "giving-what-we-can": {
+      "name": "Giving What We Can",
+      "url": "http://www.givingwhatwecan.org/",
+      "via": "wikidata",
+      "note": "Q5565874: organization"
+    },
+    "global-alliance-for-improved-nutrition": {
+      "name": "Global Alliance for Improved Nutrition",
+      "url": "https://www.gainhealth.org",
+      "via": "wikidata",
+      "note": "Q5570101: organization"
+    },
+    "global-animal-partnership": {
+      "name": "Global Animal Partnership",
+      "url": "https://globalanimalpartnership.org",
+      "via": "vipul"
+    },
+    "global-aquaculture-alliance": {
+      "name": "Global Aquaculture Alliance",
+      "url": "https://www.aquaculturealliance.org/",
+      "via": "vipul"
+    },
+    "global-catastrophic-risk-institute": {
+      "name": "Global Catastrophic Risk Institute",
+      "url": "https://gcri.org/",
+      "via": "wikidata",
+      "note": "Q135643653: American non-profit organization"
+    },
+    "global-development-incubator": {
+      "name": "Global Development Incubator",
+      "url": "http://globaldevincubator.org/",
+      "via": "wikidata",
+      "note": "Q30271675: nonprofit organization in Washington D.C., United States"
+    },
+    "global-greengrants-fund": {
+      "name": "Global Greengrants Fund",
+      "url": "http://www.greengrants.org/",
+      "via": "wikidata",
+      "note": "Q5570352: non-profit organization in the USA"
+    },
+    "global-priorities-institute": {
+      "name": "Global Priorities Institute",
+      "url": "https://www.globalprioritiesinstitute.org/",
+      "via": "wikidata",
+      "note": "Q138806948: no description"
+    },
+    "globalg-a-p": {
+      "name": "GLOBALG.A.P.",
+      "url": "http://www.globalgap.org/",
+      "via": "wikidata",
+      "note": "Q3183082: farm assurance program"
+    },
+    "good-ventures-foundation": {
+      "name": "Good Ventures Foundation",
+      "url": "http://goodventures.org",
+      "via": "wikidata",
+      "note": "Q5583039: American philanthropic foundation"
+    },
+    "google-open-source": {
+      "name": "Google Open Source",
+      "url": "https://opensource.google/",
+      "via": "wikidata",
+      "note": "Q111351974: department at Google that promotes open-source software development"
+    },
+    "gordon-research-conferences": {
+      "name": "Gordon Research Conferences",
+      "url": "http://www.grc.org",
+      "via": "wikidata",
+      "note": "Q4143919: informal scientific community meetings without publications"
+    },
+    "grassroots-international": {
+      "name": "Grassroots International",
+      "url": "http://www.grassrootsonline.org",
+      "via": "wikidata",
+      "note": "Q54628358: American nonprofit organization"
+    },
+    "greater-greater-washington": {
+      "name": "Greater Greater Washington",
+      "url": "http://greatergreaterwashington.org/",
+      "via": "wikidata",
+      "note": "Q21283241: blog about the Washington, D.C. region"
+    },
+    "group-nine-media": {
+      "name": "Group Nine Media",
+      "url": "https://www.groupninemedia.com/",
+      "via": "wikidata",
+      "note": "Q29469134: American digital media holding company"
+    },
+    "hamden-hall-country-day-school": {
+      "name": "Hamden Hall Country Day School",
+      "url": "http://www.hamdenhall.org/",
+      "via": "wikidata",
+      "note": "Q5644391: coeducational private day school located in Hamden, Connecticut"
+    },
+    "harvard-university": {
+      "name": "Harvard University",
+      "url": "https://harvard.edu",
+      "via": "wikidata",
+      "note": "Q13371: private university in Cambridge, Massachusetts"
+    },
+    "health-care-without-harm": {
+      "name": "Health Care Without Harm",
+      "url": "https://noharm-uscanada.org/",
+      "via": "wikidata",
+      "note": "Q30285830: healthcare organization in Reston, United States"
+    },
+    "helen-keller-international": {
+      "name": "Helen Keller International",
+      "url": "http://www.hki.org",
+      "via": "wikidata",
+      "note": "Q5702577: non-profit organization in the USA"
+    },
+    "hitrecord": {
+      "name": "HitRecord",
+      "url": "http://www.hitrecord.org/",
+      "via": "wikidata",
+      "note": "Q5871268: online collaborative media platform"
+    },
+    "hive": {
+      "name": "Hive",
+      "url": "https://joinhive.org",
+      "via": "manifund",
+      "note": "profile behind \"Hive Slack - an active community space for engaged farmed animal advocates\""
+    },
+    "hopewell-fund": {
+      "name": "Hopewell Fund",
+      "url": "https://www.hopewellfund.org/",
+      "via": "wikidata",
+      "note": "Q55454199: US nonprofit organization"
+    },
+    "horizon-institute-for-public-service": {
+      "name": "Horizon Institute for Public Service",
+      "url": "https://www.horizonpublicservice.org",
+      "via": "wikidata",
+      "note": "Q121852509: American tech policy nonprofit"
+    },
+    "humane-slaughter-association": {
+      "name": "Humane Slaughter Association",
+      "url": "http://www.hsa.org.uk/",
+      "via": "wikidata",
+      "note": "Q17513403: organization"
+    },
+    "humane-society-international": {
+      "name": "Humane Society International",
+      "url": "http://www.hsi.org",
+      "via": "wikidata",
+      "note": "Q21108884: international division of The Humane Society of the United States"
+    },
+    "humane-society-of-the-united-states": {
+      "name": "Humane Society of the United States",
+      "url": "https://www.humaneworld.org/",
+      "via": "wikidata",
+      "note": "Q1636612: non-profit organization in the USA"
+    },
+    "hypermind": {
+      "name": "Hypermind",
+      "url": "https://www.hypermind.com/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://www.indiedb.com/games/hypermind"
+    },
+    "ibbis": {
+      "name": "IBBIS",
+      "url": "https://ibbis.bio/",
+      "via": "manifund",
+      "note": "profile behind \"Scaling adoption of synthesis screening outside the US and EU\""
+    },
+    "icahn-school-of-medicine-at-mount-sinai": {
+      "name": "Icahn School of Medicine at Mount Sinai",
+      "url": "http://www.mssm.edu",
+      "via": "wikidata",
+      "note": "Q1950740: medical school"
+    },
+    "icddr-b": {
+      "name": "icddr,b",
+      "url": "http://www.icddrb.org/",
+      "via": "wikidata",
+      "note": "Q2945843: organization"
+    },
+    "idinsight": {
+      "name": "IDinsight",
+      "url": "http://idinsight.org/",
+      "via": "wikidata",
+      "note": "Q30271770: nonprofit organization in San Francisco, United States"
+    },
+    "imperial-college-london": {
+      "name": "Imperial College London",
+      "url": "https://www.imperial.ac.uk/",
+      "via": "wikidata",
+      "note": "Q189022: public research university located in London, United Kingdom"
+    },
+    "indian-institute-of-technology-delhi": {
+      "name": "Indian Institute of Technology Delhi",
+      "url": "http://www.iitd.ac.in",
+      "via": "wikidata",
+      "note": "Q1194650: public research university located in Delhi"
+    },
+    "indian-institute-of-technology-kanpur": {
+      "name": "Indian Institute of Technology Kanpur",
+      "url": "http://www.iitk.ac.in/",
+      "via": "wikidata",
+      "note": "Q782682: public engineering institution"
+    },
+    "indigenous-environmental-network": {
+      "name": "Indigenous Environmental Network",
+      "url": "http://ienearth.org/",
+      "via": "wikidata",
+      "note": "Q6024683: network of indigenous, grassroots environmental justice activists"
+    },
+    "innocence-project": {
+      "name": "Innocence Project",
+      "url": "http://www.innocenceproject.org/",
+      "via": "wikidata",
+      "note": "Q1664111: American non-profit legal organization"
+    },
+    "innovations-for-poverty-action": {
+      "name": "Innovations for Poverty Action",
+      "url": "http://poverty-action.org/",
+      "via": "wikidata",
+      "note": "Q6036241: organization"
+    },
+    "institute-for-ai-policy-and-strategy": {
+      "name": "Institute for AI Policy and Strategy",
+      "url": "https://www.iaps.ai/",
+      "via": "wikidata",
+      "note": "Q131901373: no description"
+    },
+    "institute-for-family-studies": {
+      "name": "Institute for Family Studies",
+      "url": "https://ifstudies.org/",
+      "via": "wikidata",
+      "note": "Q95395171: American think tank (2009-)"
+    },
+    "institute-for-progress": {
+      "name": "Institute for Progress",
+      "url": "https://ifp.org/",
+      "via": "wikidata",
+      "note": "Q113499577: American think tank"
+    },
+    "institute-of-agrifood-research-and-technology": {
+      "name": "Institute of Agrifood Research and Technology",
+      "url": "https://www.irta.cat/en/",
+      "via": "wikidata",
+      "note": "Q123397395: no description"
+    },
+    "international-aids-vaccine-initiative": {
+      "name": "International AIDS Vaccine Initiative",
+      "url": "http://www.iavi.org",
+      "via": "wikidata",
+      "note": "Q17003871: organization"
+    },
+    "international-centre-of-insect-physiology-and-ecology": {
+      "name": "International Centre of Insect Physiology and Ecology",
+      "url": "http://www.icipe.org/",
+      "via": "wikidata",
+      "note": "Q6049130: research institute"
+    },
+    "international-conference-on-learning-representations": {
+      "name": "International Conference on Learning Representations",
+      "url": "https://iclr.cc/",
+      "via": "wikidata",
+      "note": "Q30108190: annual conference series on feature learning"
+    },
+    "international-genetically-engineered-machine-foundation": {
+      "name": "International Genetically Engineered Machine Foundation",
+      "url": "http://igem.org/Main_Page",
+      "via": "wikidata",
+      "note": "Q136380020: organization in Cambridge, United States"
+    },
+    "international-refugee-assistance-project": {
+      "name": "International Refugee Assistance Project",
+      "url": "http://www.refugeerights.org",
+      "via": "wikidata",
+      "note": "Q30325304: US non-profit organization"
+    },
+    "international-rescue-committee": {
+      "name": "International Rescue Committee",
+      "url": "https://www.rescue.org/",
+      "via": "wikidata",
+      "note": "Q1666849: non-profit organization in the USA"
+    },
+    "international-society-for-applied-ethology": {
+      "name": "International Society for Applied Ethology",
+      "url": "https://www.applied-ethology.org",
+      "via": "wikidata",
+      "note": "Q6053313: behaviour and welfare of confined or domesticated animals"
+    },
+    "international-union-against-tuberculosis-and-lung-disease": {
+      "name": "International Union Against Tuberculosis and Lung Disease",
+      "url": "http://www.theunion.org/",
+      "via": "wikidata",
+      "note": "Q2096638: organization"
+    },
+    "international-vaccine-institute": {
+      "name": "International Vaccine Institute",
+      "url": "https://www.ivi.int",
+      "via": "wikidata",
+      "note": "Q6054186: independent, nonprofit, international organization"
+    },
+    "iodine-global-network": {
+      "name": "Iodine Global Network",
+      "url": "http://www.iccidd.org",
+      "via": "wikidata",
+      "note": "Q18351809: organization"
+    },
+    "it-for-change": {
+      "name": "IT for Change",
+      "url": "https://itforchange.net/",
+      "via": "wikidata",
+      "note": "Q30262958: nonprofit organization based in Bengaluru, India"
+    },
+    "joep-lange-institute": {
+      "name": "Joep Lange Institute",
+      "url": "https://www.joeplangeinstitute.org/",
+      "via": "wikidata",
+      "note": "Q107519368: nonprofit organization in Amsterdam, Netherlands"
+    },
+    "johns-hopkins-center-for-health-security": {
+      "name": "Johns Hopkins Center for Health Security",
+      "url": "http://www.centerforhealthsecurity.org/",
+      "via": "wikidata",
+      "note": "Q5059526: nonprofit public health think tank"
+    },
+    "johns-hopkins-university": {
+      "name": "Johns Hopkins University",
+      "url": "https://jhu.edu",
+      "via": "wikidata",
+      "note": "Q193727: private university in Baltimore, Maryland, USA"
+    },
+    "kurzgesagt": {
+      "name": "Kurzgesagt",
+      "url": "https://kurzgesagt.org/",
+      "via": "wikidata",
+      "note": "Q23893763: German animation and design studio"
+    },
+    "l214": {
+      "name": "L214",
+      "url": "https://www.l214.com/",
+      "via": "wikidata",
+      "note": "Q16651549: french organization advocating for farm animals, founded in 2008"
+    },
+    "la-trobe-university": {
+      "name": "La Trobe University",
+      "url": "https://www.latrobe.edu.au",
+      "via": "wikidata",
+      "note": "Q1478723: university in Victoria, Australia"
+    },
+    "lead-exposure-elimination-project": {
+      "name": "Lead Exposure Elimination Project",
+      "url": "https://leadelimination.org/",
+      "via": "wikidata",
+      "note": "Q130372708: NGO focused on lead reduction in middle income countries"
+    },
+    "league-of-women-voters": {
+      "name": "League Of Women Voters",
+      "url": "http://lwv.org",
+      "via": "wikidata",
+      "note": "Q3369894: non-profit, non-partisan advocacy group"
+    },
+    "learning-ally": {
+      "name": "Learning Ally",
+      "url": "http://www.LearningAlly.org",
+      "via": "wikidata",
+      "note": "Q6510093: organization"
+    },
+    "legal-impact-for-chickens": {
+      "name": "Legal Impact for Chickens",
+      "url": "https://www.legalimpactforchickens.org/",
+      "via": "wikidata",
+      "note": "Q136645645: American animal law nonprofit"
+    },
+    "leverage-research": {
+      "name": "Leverage Research",
+      "url": "https://www.leverageresearch.org",
+      "via": "wikidata",
+      "note": "Q108898176: American research institute"
+    },
+    "life-sciences-research-foundation": {
+      "name": "Life Sciences Research Foundation",
+      "url": "http://www.lsrf.org",
+      "via": "wikidata",
+      "note": "Q17064610: Postdoctoral fellowship program"
+    },
+    "lifeboat-foundation": {
+      "name": "Lifeboat Foundation",
+      "url": "https://lifeboat.com/",
+      "via": "wikidata",
+      "note": "Q25326788: existential risk reduction organization"
+    },
+    "liverpool-school-of-tropical-medicine": {
+      "name": "Liverpool School of Tropical Medicine",
+      "url": "https://www.lstmed.ac.uk/",
+      "via": "wikidata",
+      "note": "Q3835531: Tropical medicine teaching and research institution"
+    },
+    "living-goods": {
+      "name": "Living Goods",
+      "url": "http://livinggoods.org/",
+      "via": "wikidata",
+      "note": "Q54834256: American nonprofit organization"
+    },
+    "london-school-of-hygiene-and-tropical-medicine": {
+      "name": "London School of Hygiene and Tropical Medicine",
+      "url": "https://lshtm.ac.uk/",
+      "via": "wikidata",
+      "note": "Q1126189: public research university in Bloomsbury, Camden, UK; constituent college of the University of London"
+    },
+    "luthien": {
+      "name": "Luthien",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site belongs to another org"
+    },
+    "lyptus-research": {
+      "name": "Lyptus Research",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "machine-intelligence-research-institute": {
+      "name": "Machine Intelligence Research Institute",
+      "url": "https://intelligence.org",
+      "via": "vipul"
+    },
+    "malaria-consortium": {
+      "name": "Malaria Consortium",
+      "url": "http://www.malariaconsortium.org/",
+      "via": "wikidata",
+      "note": "Q6741344: international non-profit organization focused on control of malaria"
+    },
+    "massachusetts-general-hospital": {
+      "name": "Massachusetts General Hospital",
+      "url": "https://www.massgeneral.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate http://www.massgeneral.org/international"
+    },
+    "massachusetts-institute-of-technology": {
+      "name": "Massachusetts Institute of Technology",
+      "url": "https://mit.edu",
+      "via": "wikidata",
+      "note": "Q49108: private university in Cambridge, Massachusetts, USA, founded 1861"
+    },
+    "mercy-corps": {
+      "name": "Mercy Corps",
+      "url": "https://www.mercycorps.org",
+      "via": "wikidata",
+      "note": "Q3874786: non-governmental organization"
+    },
+    "mercy-for-animals": {
+      "name": "Mercy for Animals",
+      "url": "https://mercyforanimals.org/",
+      "via": "wikidata",
+      "note": "Q6818817: non-profit organization in the USA"
+    },
+    "microsoft": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/",
+      "via": "wikidata",
+      "note": "Q2283: American multinational technology corporation"
+    },
+    "mila": {
+      "name": "Mila",
+      "url": "https://mila.quebec/en/",
+      "via": "vipul"
+    },
+    "mit-media-lab": {
+      "name": "MIT Media Lab",
+      "url": "https://media.mit.edu",
+      "via": "wikidata",
+      "note": "Q1373549: interdisciplinary research laboratory at the Massachusetts Institute of Technology"
+    },
+    "modeling-cooperation": {
+      "name": "Modeling Cooperation",
+      "url": "https://www.modelingcooperation.com/",
+      "via": "manifund",
+      "note": "profile behind \"Modeling AI competition dynamics for better governance\""
+    },
+    "mox": {
+      "name": "Mox",
+      "url": "https://moxsf.com/",
+      "via": "manifund",
+      "note": "profile behind \"Mox: 2026 Fundraiser\""
+    },
+    "musk-foundation": {
+      "name": "Musk Foundation",
+      "url": "https://www.muskfoundation.org/",
+      "via": "wikidata",
+      "note": "Q124843291: US foundation"
+    },
+    "national-academies-of-sciences-engineering-and-medicine": {
+      "name": "National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://www.nationalacademies.org/",
+      "via": "wikidata",
+      "note": "Q3233780: scientific national academy for the United States"
+    },
+    "national-academy-of-sciences": {
+      "name": "National Academy of Sciences",
+      "url": "http://www.nasonline.org/",
+      "via": "wikidata",
+      "note": "Q270794: science branch of the United States National Academies"
+    },
+    "national-network-of-abortion-funds": {
+      "name": "National Network Of Abortion Funds",
+      "url": "https://abortionfunds.org/",
+      "via": "wikidata",
+      "note": "Q97275501: American social justice organization"
+    },
+    "national-science-foundation": {
+      "name": "National Science Foundation",
+      "url": "http://www.nsf.gov/",
+      "via": "wikidata",
+      "note": "Q304878: United States government agency"
+    },
+    "new-harvest": {
+      "name": "New Harvest",
+      "url": "http://www.new-harvest.org",
+      "via": "wikidata",
+      "note": "Q7008464: US donor-funded research institute dedicated to the field of cellular agriculture"
+    },
+    "new-incentives": {
+      "name": "New Incentives",
+      "url": "https://www.newincentives.org/",
+      "via": "wikidata",
+      "note": "Q106170968: Nigerian non-governmental organization"
+    },
+    "new-roots-institute": {
+      "name": "New Roots Institute",
+      "url": "https://www.newrootsinstitute.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://www.newrootsinstitute.org/our-team/monica-chen"
+    },
+    "new-venture-fund": {
+      "name": "New Venture Fund",
+      "url": "https://newventurefund.org/",
+      "via": "wikidata",
+      "note": "Q30288321: organization in Washington D.C., United States"
+    },
+    "new-york-university": {
+      "name": "New York University",
+      "url": "https://nyu.edu",
+      "via": "wikidata",
+      "note": "Q49210: private university in New York City"
+    },
+    "newspeak-house": {
+      "name": "Newspeak House",
+      "url": "https://www.nwspk.com/",
+      "via": "wikidata",
+      "note": "Q65048456: independent residential college and event venue in London, England"
+    },
+    "niskanen-center": {
+      "name": "Niskanen Center",
+      "url": "http://niskanencenter.org",
+      "via": "wikidata",
+      "note": "Q22907319: American moderate think tank founded in 2015"
+    },
+    "nonhuman-rights-project": {
+      "name": "Nonhuman Rights Project",
+      "url": "http://www.nonhumanrightsproject.org/",
+      "via": "wikidata",
+      "note": "Q5059943: American animal rights nonprofit organization"
+    },
+    "novartis": {
+      "name": "Novartis",
+      "url": "http://www.novartis.com/",
+      "via": "wikidata",
+      "note": "Q507154: Swiss-American multinational pharmaceutical corporation"
+    },
+    "nuclear-threat-initiative": {
+      "name": "Nuclear Threat Initiative",
+      "url": "https://www.nti.org/",
+      "via": "wikidata",
+      "note": "Q453521: American foreign policy think tank"
+    },
+    "open-new-york": {
+      "name": "Open New York",
+      "url": "https://opennewyork.org/",
+      "via": "wikidata",
+      "note": "Q108661148: pro-housing advocacy organization in New York City"
+    },
+    "openai": {
+      "name": "OpenAI",
+      "url": "https://openai.com/",
+      "via": "vipul"
+    },
+    "oregon-health-and-science-university": {
+      "name": "Oregon Health and Science University",
+      "url": "https://www.ohsu.edu",
+      "via": "wikidata",
+      "note": "Q282097: public university in Portland, Oregon, USA"
+    },
+    "oregon-state-university": {
+      "name": "Oregon State University",
+      "url": "http://oregonstate.edu",
+      "via": "wikidata",
+      "note": "Q861888: public research university in Corvallis, Oregon, United States"
+    },
+    "otwarte-klatki": {
+      "name": "Otwarte Klatki",
+      "url": "https://www.otwarteklatki.pl/",
+      "via": "vipul"
+    },
+    "ought": {
+      "name": "Ought",
+      "url": "https://ought.org",
+      "via": "vipul"
+    },
+    "our-world-in-data": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/",
+      "via": "wikidata",
+      "note": "Q23680080: website that presents data and statistics of socially relevant topics"
+    },
+    "overseas-development-institute": {
+      "name": "Overseas Development Institute",
+      "url": "http://www.odi.org.uk/",
+      "via": "wikidata",
+      "note": "Q565054: British organisation (think tank)"
+    },
+    "oxfam-america": {
+      "name": "Oxfam America",
+      "url": "http://www.oxfamamerica.org/",
+      "via": "wikidata",
+      "note": "Q30288311: nonprofit organization in Boston, United States"
+    },
+    "oxford-martin-ai-governance-initiative": {
+      "name": "Oxford Martin AI Governance Initiative",
+      "url": "https://www.oxfordmartin.ox.ac.uk/ai-governance",
+      "via": "wikidata",
+      "note": "Q131434189: research program at Oxford Martin School"
+    },
+    "path": {
+      "name": "PATH",
+      "url": "https://www.path.org/",
+      "via": "wikidata",
+      "note": "Q7248414: global health nonprofit"
+    },
+    "patrick-j-mcgovern-foundation": {
+      "name": "Patrick J. McGovern Foundation",
+      "url": "https://www.mcgovern.org",
+      "via": "wikidata",
+      "note": "Q122189199: foundation named after Patrick J. McGovern"
+    },
+    "pauseai": {
+      "name": "PauseAI",
+      "url": "https://pauseai.info",
+      "via": "manifund",
+      "note": "profile behind \"PauseAI local communities - volunteer stipends\""
+    },
+    "pauseai-us": {
+      "name": "PauseAI US",
+      "url": "https://pauseai-us.org",
+      "via": "manifund",
+      "note": "profile behind \"PauseAI US 2025 through Q2\""
+    },
+    "peterson-institute-for-international-economics": {
+      "name": "Peterson Institute for International Economics",
+      "url": "https://www.piie.com/",
+      "via": "wikidata",
+      "note": "Q2981447: think tank based in Washington, DC, USA"
+    },
+    "prevent-cruelty-california": {
+      "name": "Prevent Cruelty California",
+      "url": "https://preventcrueltyca.com/",
+      "via": "vipul"
+    },
+    "princeton-university": {
+      "name": "Princeton University",
+      "url": "https://princeton.edu",
+      "via": "wikidata",
+      "note": "Q21578: private Ivy League research university in Princeton, New Jersey, United States"
+    },
+    "pro-animal-future": {
+      "name": "Pro-Animal Future",
+      "url": "https://proanimal.org",
+      "via": "manifund",
+      "note": "profile behind \"Pro-Animal Future\""
+    },
+    "produtor-do-bem": {
+      "name": "Produtor do Bem",
+      "url": "https://produtordobem.com.br/",
+      "via": "wikidata",
+      "note": "Q131903223: no description"
+    },
+    "project-healthy-children": {
+      "name": "Project Healthy Children",
+      "url": "http://projecthealthychildren.com/",
+      "via": "wikidata",
+      "note": "Q25345630: organization"
+    },
+    "propublica": {
+      "name": "Propublica",
+      "url": "https://www.propublica.org/",
+      "via": "wikidata",
+      "note": "Q1817856: nonprofit investigative journalism organization based in New York City"
+    },
+    "proteus-fund": {
+      "name": "Proteus Fund",
+      "url": "http://www.proteusfund.org/",
+      "via": "wikidata",
+      "note": "Q30273019: organization in Amherst Center, United States"
+    },
+    "proveg-international": {
+      "name": "ProVeg International",
+      "url": "https://proveg.com/",
+      "via": "wikidata",
+      "note": "Q54254315: international food awareness organisation"
+    },
+    "purdue-university": {
+      "name": "Purdue University",
+      "url": "https://purdue.edu",
+      "via": "wikidata",
+      "note": "Q217741: public research university in West Lafayette, Indiana, United States"
+    },
+    "pure-earth": {
+      "name": "Pure Earth",
+      "url": "http://www.pureearth.org",
+      "via": "wikidata",
+      "note": "Q145590: environmental organization"
+    },
+    "quantified-uncertainty-research-institute": {
+      "name": "Quantified Uncertainty Research Institute",
+      "url": "https://quantifieduncertainty.org/",
+      "via": "wikidata",
+      "note": "Q107519548: nonprofit organization in San Francisco, United States"
+    },
+    "raising-for-effective-giving": {
+      "name": "Raising for Effective Giving",
+      "url": "http://reg-charity.org/",
+      "via": "wikidata",
+      "note": "Q20666621: organization"
+    },
+    "rand-corporation": {
+      "name": "RAND Corporation",
+      "url": "https://www.rand.org/",
+      "via": "wikidata",
+      "note": "Q861141: American research organization"
+    },
+    "reducetarian-foundation": {
+      "name": "Reducetarian Foundation",
+      "url": "http://www.reducetarian.org/",
+      "via": "wikidata",
+      "note": "Q24526001: nonprofit organization"
+    },
+    "renaissance-philanthropy": {
+      "name": "Renaissance Philanthropy",
+      "url": "https://www.renaissancephilanthropy.org/",
+      "via": "wikidata",
+      "note": "Q140077470: Philanthropic organization"
+    },
+    "research-institute-of-industrial-economics": {
+      "name": "Research Institute of Industrial Economics",
+      "url": "http://www.ifn.se/eng",
+      "via": "wikidata",
+      "note": "Q7315104: private independent research foundation"
+    },
+    "rethink-charity": {
+      "name": "Rethink Charity",
+      "url": null,
+      "via": "vipul",
+      "note": "rejected: vipul link is dead"
+    },
+    "rethink-priorities": {
+      "name": "Rethink Priorities",
+      "url": "https://www.rethinkpriorities.org",
+      "via": "manifund",
+      "note": "profile behind \"Animal Advocacy Strategy Forum\""
+    },
+    "rita-allen-foundation": {
+      "name": "Rita Allen Foundation",
+      "url": "http://www.ritaallen.org/",
+      "via": "wikidata",
+      "note": "Q30296792: nonprofit organization in Princeton, United States"
+    },
+    "royal-society-for-the-prevention-of-cruelty-to-animals": {
+      "name": "Royal Society for the Prevention of Cruelty to Animals",
+      "url": "https://www.rspca.org.uk/",
+      "via": "wikidata",
+      "note": "Q584819: charity operating in England and Wales which promotes animal activism founded in 1824, the oldest and largest animal welfare organisation in the world, one of the largest charity in UK with international branches in Europe, Africa and Asia."
+    },
+    "rutgers-university": {
+      "name": "Rutgers University",
+      "url": "https://www.rutgers.edu/",
+      "via": "wikidata",
+      "note": "Q499451: multi-campus public research university in New Jersey, United States"
+    },
+    "saferai": {
+      "name": "SaferAI",
+      "url": "https://www.safer-ai.org/",
+      "via": "wikidata",
+      "note": "Q131900758: no description"
+    },
+    "sage": {
+      "name": "Sage",
+      "url": "https://sage-future.org/",
+      "via": "manifund",
+      "note": "profile behind \"Fatebook and Quantified Intuitions\""
+    },
+    "sapiens-first": {
+      "name": "Sapiens First",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "save-the-children": {
+      "name": "Save the Children",
+      "url": "https://www.savethechildren.org",
+      "via": "wikidata",
+      "note": "Q215934: London-based international non-profit organization"
+    },
+    "schistosomiasis-control-initiative": {
+      "name": "Schistosomiasis Control Initiative",
+      "url": "https://unlimithealth.org/",
+      "via": "wikidata",
+      "note": "Q7431536: non-profit initiative against parasitic worm infections"
+    },
+    "screwworm-free-future": {
+      "name": "Screwworm Free Future",
+      "url": "https://screwworm.org",
+      "via": "manifund",
+      "note": "profile behind \"Screwworm Free Future: Seizing the Eradication Window\""
+    },
+    "senter-for-langsiktig-politikk": {
+      "name": "Senter for Langsiktig Politikk",
+      "url": "https://www.langsikt.no/",
+      "via": "wikidata",
+      "note": "Q137682433: Norwegian think tank"
+    },
+    "sentience-institute": {
+      "name": "Sentience Institute",
+      "url": "https://www.sentienceinstitute.org/",
+      "via": "wikidata",
+      "note": "Q85800357: effective altruism think tank"
+    },
+    "sentience-politics": {
+      "name": "Sentience Politics",
+      "url": "https://sentience.ch/en/",
+      "via": "manifund",
+      "note": "profile behind \"Sentience Politics\""
+    },
+    "sentient-media": {
+      "name": "Sentient Media",
+      "url": "https://sentientmedia.org",
+      "via": "wikidata",
+      "note": "Q130482759: nonprofit news organization and website"
+    },
+    "sentinel": {
+      "name": "Sentinel",
+      "url": "https://sentinel-team.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://nunosempere.com"
+    },
+    "separatrix": {
+      "name": "Separatrix",
+      "url": "https://separatrix.ai",
+      "via": "manifund",
+      "note": "profile behind \"Separatrix\""
+    },
+    "shrimp-welfare-project": {
+      "name": "Shrimp Welfare Project",
+      "url": "https://www.shrimpwelfareproject.org/",
+      "via": "wikidata",
+      "note": "Q139670136: British animal welfare charity"
+    },
+    "sightline-institute": {
+      "name": "Sightline Institute",
+      "url": "https://www.sightline.org/",
+      "via": "wikidata",
+      "note": "Q7512117: non-profit organization in the USA"
+    },
+    "sightsavers": {
+      "name": "Sightsavers",
+      "url": "https://www.sightsavers.org/",
+      "via": "wikidata",
+      "note": "Q7512119: international non-governmental organisation"
+    },
+    "sinergia-animal": {
+      "name": "Sinergia Animal",
+      "url": "https://www.sinergiaanimalinternational.org",
+      "via": "wikidata",
+      "note": "Q134565994: no description"
+    },
+    "social-and-environmental-entrepreneurs": {
+      "name": "Social and Environmental Entrepreneurs",
+      "url": "http://www.saveourplanet.org/",
+      "via": "wikidata",
+      "note": "Q30299278: nonprofit organization in Calabasas, California, United States"
+    },
+    "sociedade-vegetariana-brasileira": {
+      "name": "Sociedade Vegetariana Brasileira",
+      "url": "https://svb.org.br/",
+      "via": "wikidata",
+      "note": "Q96279390: non-governmental organization based in Brazil"
+    },
+    "softmax": {
+      "name": "Softmax",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is a game developer"
+    },
+    "soko-tierschutz": {
+      "name": "Soko Tierschutz",
+      "url": "http://www.soko-tierschutz.org/",
+      "via": "wikidata",
+      "note": "Q18289477: German animal protection and advocacy group"
+    },
+    "southport-school": {
+      "name": "Southport School",
+      "url": "http://www.tss.qld.edu.au/",
+      "via": "wikidata",
+      "note": "Q7765598: independent primary and secondary school in Southport, QLD, Australia"
+    },
+    "sparc": {
+      "name": "SPARC",
+      "url": null,
+      "via": "wikidata",
+      "note": "rejected: wikidata hit is the CPU architecture"
+    },
+    "special-olympics": {
+      "name": "Special Olympics",
+      "url": "http://www.specialolympics.org",
+      "via": "wikidata",
+      "note": "Q1043220: sports organization for people with intellectual disabilities"
+    },
+    "stanford-university": {
+      "name": "Stanford University",
+      "url": "https://stanford.edu",
+      "via": "wikidata",
+      "note": "Q41506: private research university in Stanford, California, USA"
+    },
+    "statens-serum-institut": {
+      "name": "Statens Serum Institut",
+      "url": "https://www.ssi.dk/",
+      "via": "wikidata",
+      "note": "Q3378353: Medical research institute in Denmark"
+    },
+    "stockholm-environment-institute": {
+      "name": "Stockholm Environment Institute",
+      "url": "https://www.sei.org/",
+      "via": "wikidata",
+      "note": "Q2350733: international environmental research institute"
+    },
+    "swiss-tropical-and-public-health-institute": {
+      "name": "Swiss Tropical and Public Health Institute",
+      "url": "https://www.swisstph.ch",
+      "via": "wikidata",
+      "note": "Q3152651: health institute"
+    },
+    "sydney-ai-safety-hub-sash": {
+      "name": "Sydney AI Safety Hub (SASH)",
+      "url": "https://www.aisafetyanz.com.au",
+      "via": "manifund",
+      "note": "profile behind \"Bridge Funding for the Sydney AI Safety Hub (SASH)\""
+    },
+    "tampere-university": {
+      "name": "Tampere University",
+      "url": "https://www.tuni.fi",
+      "via": "wikidata",
+      "note": "Q56403399: public university in the city of Tampere, Finland"
+    },
+    "tartu-ulikool": {
+      "name": "Tartu Ülikool",
+      "url": "https://ut.ee",
+      "via": "wikidata",
+      "note": "Q204181: university in Tartu, Estonia"
+    },
+    "technical-alignment-research-accelerator-tara": {
+      "name": "Technical Alignment Research Accelerator (TARA)",
+      "url": "https://www.aisafetyanz.com.au",
+      "via": "manifund",
+      "note": "profile behind \"Help launch the Technical Alignment Research Accelerator (TARA)!\""
+    },
+    "the-audacious-project": {
+      "name": "The Audacious Project",
+      "url": "https://www.audaciousproject.org/",
+      "via": "wikidata",
+      "note": "Q85806422: Funding initiative established by TED"
+    },
+    "the-boston-foundation": {
+      "name": "The Boston Foundation",
+      "url": "http://www.tbf.org/",
+      "via": "wikidata",
+      "note": "Q7719452: non-profit organization in the USA"
+    },
+    "the-breakthrough-institute": {
+      "name": "The Breakthrough Institute",
+      "url": "https://thebreakthrough.org/",
+      "via": "wikidata",
+      "note": "Q16828164: environmental research center in Oakland, California, United States"
+    },
+    "the-center-for-election-science": {
+      "name": "The Center for Election Science",
+      "url": "https://electionscience.org",
+      "via": "wikidata",
+      "note": "Q85847679: American nonprofit organization"
+    },
+    "the-degrees-initiative": {
+      "name": "The Degrees Initiative",
+      "url": "https://www.degrees.ngo/",
+      "via": "wikidata",
+      "note": "Q131905983: no description"
+    },
+    "the-good-food-institute": {
+      "name": "The Good Food Institute",
+      "url": "http://www.gfi.org/",
+      "via": "wikidata",
+      "note": "Q28073549: nonprofit promoting alternatives to animal food products"
+    },
+    "the-greenfield-project": {
+      "name": "The Greenfield Project",
+      "url": "https://www.thegreenfieldproject.org",
+      "via": "vipul"
+    },
+    "the-humane-league": {
+      "name": "The Humane League",
+      "url": "http://thehumaneleague.com/",
+      "via": "wikidata",
+      "note": "Q24259971: international nonprofit organization"
+    },
+    "the-life-you-can-save": {
+      "name": "The Life You Can Save",
+      "url": "https://www.thelifeyoucansave.org/",
+      "via": "vipul"
+    },
+    "the-metascience-observatory": {
+      "name": "The Metascience Observatory",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "the-navigation-fund": {
+      "name": "The Navigation Fund",
+      "url": "https://navigation.org",
+      "via": "wikidata",
+      "note": "Q130314578: nonprofit organization in Berkeley, United States"
+    },
+    "the-phi-beta-kappa-society": {
+      "name": "The Phi Beta Kappa Society",
+      "url": "https://pbk.org",
+      "via": "wikidata",
+      "note": "Q1938003: honor society for the liberal arts and sciences in the United States"
+    },
+    "the-rockefeller-foundation": {
+      "name": "The Rockefeller Foundation",
+      "url": "https://www.rockefellerfoundation.org/",
+      "via": "wikidata",
+      "note": "Q862034: United States-based philanthropic organization"
+    },
+    "the-task-force-for-global-health": {
+      "name": "The Task Force for Global Health",
+      "url": "https://www.taskforce.org/",
+      "via": "wikidata",
+      "note": "Q17029282: an international, nonprofit organization that works to improve health of people most in need"
+    },
+    "the-unjournal": {
+      "name": "The Unjournal",
+      "url": "https://www.unjournal.org",
+      "via": "wikidata",
+      "note": "Q136448366: nonprofit organization in Camden, United States"
+    },
+    "the-wilson-center": {
+      "name": "The Wilson Center",
+      "url": "https://www.wilsoncenter.org/",
+      "via": "vipul"
+    },
+    "theguardian-org": {
+      "name": "theguardian.org",
+      "url": "https://theguardian.org/",
+      "via": "vipul"
+    },
+    "thiel-foundation": {
+      "name": "Thiel Foundation",
+      "url": "http://thielfoundation.org",
+      "via": "wikidata",
+      "note": "Q17098689: private foundation created and funded by Peter Thiel"
+    },
+    "thrive-philanthropy": {
+      "name": "Thrive Philanthropy",
+      "url": null,
+      "via": "manifund",
+      "note": "rejected: profile site is the founder’s"
+    },
+    "tides-center": {
+      "name": "Tides Center",
+      "url": "http://www.tidescenter.org",
+      "via": "wikidata",
+      "note": "Q55457857: American nonprofit organization"
+    },
+    "timaeus": {
+      "name": "Timaeus",
+      "url": "https://timaeus.co/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://jessehoogland.com"
+    },
+    "tony-blair-institute-for-global-change": {
+      "name": "Tony Blair Institute for Global Change",
+      "url": "http://www.institute.global/",
+      "via": "wikidata",
+      "note": "Q30592102: non-profit organization"
+    },
+    "topos-institute": {
+      "name": "Topos Institute",
+      "url": "https://topos.institute",
+      "via": "wikidata",
+      "note": "Q124525882: nonprofit organization in Berkeley, United States"
+    },
+    "tostan": {
+      "name": "Tostan",
+      "url": "http://www.tostan.org/",
+      "via": "vipul"
+    },
+    "transluce": {
+      "name": "Transluce",
+      "url": "https://transluce.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://jsteinhardt.stat.berkeley.edu/"
+    },
+    "ucla-school-of-law": {
+      "name": "UCLA School of Law",
+      "url": "http://www.law.ucla.edu",
+      "via": "wikidata",
+      "note": "Q8012898: law school at the University of California, Los Angeles"
+    },
+    "ues-gemeinnutzige-gmbh-fur-effektives-spenden": {
+      "name": "UES – Gemeinnützige GmbH für effektives Spenden",
+      "url": "https://www.effektiv-spenden.org/",
+      "via": "wikidata",
+      "note": "Q122853968: no description"
+    },
+    "unicef-usa": {
+      "name": "UNICEF USA",
+      "url": "http://www.unicefusa.org",
+      "via": "wikidata",
+      "note": "Q54557197: American nonprofit organization"
+    },
+    "union-of-concerned-scientists": {
+      "name": "Union Of Concerned Scientists",
+      "url": "http://www.ucs.org/",
+      "via": "wikidata",
+      "note": "Q1136715: nonprofit organization"
+    },
+    "unitarian-universalist-service-committee": {
+      "name": "Unitarian Universalist Service Committee",
+      "url": "http://www.uusc.org/",
+      "via": "wikidata",
+      "note": "Q2495076: organization"
+    },
+    "university-health-network": {
+      "name": "University Health Network",
+      "url": "http://www.uhn.ca/",
+      "via": "wikidata",
+      "note": "Q7894718: hospital network in Toronto, Canada"
+    },
+    "university-of-california-berkeley": {
+      "name": "University of California, Berkeley",
+      "url": "https://berkeley.edu",
+      "via": "wikidata",
+      "note": "Q168756: public university in Berkeley, California, USA"
+    },
+    "university-of-california-davis": {
+      "name": "University of California, Davis",
+      "url": "https://ucdavis.edu",
+      "via": "wikidata",
+      "note": "Q129421: public university in the Davis, California area; part of the University of California system"
+    },
+    "university-of-california-los-angeles": {
+      "name": "University of California, Los Angeles",
+      "url": "https://ucla.edu",
+      "via": "wikidata",
+      "note": "Q174710: public university in Los Angeles, California, USA"
+    },
+    "university-of-california-san-diego": {
+      "name": "University of California, San Diego",
+      "url": "https://ucsd.edu",
+      "via": "wikidata",
+      "note": "Q622664: public university in La Jolla, California, United States"
+    },
+    "university-of-california-san-francisco": {
+      "name": "University of California, San Francisco",
+      "url": "https://ucsf.edu",
+      "via": "wikidata",
+      "note": "Q1061104: public land-grant research university in San Francisco, California"
+    },
+    "university-of-cape-town": {
+      "name": "University of Cape Town",
+      "url": "https://www.uct.ac.za/",
+      "via": "wikidata",
+      "note": "Q951305: public university in Cape Town, South Africa"
+    },
+    "university-of-chicago": {
+      "name": "University of Chicago",
+      "url": "https://uchicago.edu/",
+      "via": "wikidata",
+      "note": "Q131252: private university in Chicago, Illinois"
+    },
+    "university-of-colorado": {
+      "name": "University of Colorado",
+      "url": "https://www.cu.edu/",
+      "via": "wikidata",
+      "note": "Q1206658: public university system in Colorado, United States"
+    },
+    "university-of-edinburgh": {
+      "name": "University of Edinburgh",
+      "url": "https://www.ed.ac.uk",
+      "via": "wikidata",
+      "note": "Q160302: public university in Edinburgh, Scotland, United Kingdom"
+    },
+    "university-of-georgia": {
+      "name": "University of Georgia",
+      "url": "https://uga.edu",
+      "via": "wikidata",
+      "note": "Q761534: public university located in Athens, Georgia, United States"
+    },
+    "university-of-glasgow": {
+      "name": "University of Glasgow",
+      "url": "https://gla.ac.uk/",
+      "via": "wikidata",
+      "note": "Q192775: university in Glasgow, Scotland, United Kingdom, founded in 1451"
+    },
+    "university-of-helsinki": {
+      "name": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en",
+      "via": "wikidata",
+      "note": "Q28695: public university in Helsinki, Finland"
+    },
+    "university-of-maryland": {
+      "name": "University of Maryland",
+      "url": "https://umd.edu",
+      "via": "wikidata",
+      "note": "Q503415: public research university in the city of College Park in Prince George's County, Maryland, USA"
+    },
+    "university-of-michigan": {
+      "name": "University of Michigan",
+      "url": "https://umich.edu",
+      "via": "wikidata",
+      "note": "Q230492: public research university in Ann Arbor, Michigan"
+    },
+    "university-of-north-carolina": {
+      "name": "University of North Carolina",
+      "url": "https://northcarolina.edu",
+      "via": "wikidata",
+      "note": "Q1191202: public university system for North Carolina, USA"
+    },
+    "university-of-oxford": {
+      "name": "University of Oxford",
+      "url": "https://ox.ac.uk/",
+      "via": "wikidata",
+      "note": "Q34433: collegiate research university in Oxford, England"
+    },
+    "university-of-pennsylvania": {
+      "name": "University of Pennsylvania",
+      "url": "https://upenn.edu",
+      "via": "wikidata",
+      "note": "Q49117: private research university in Philadelphia, Pennsylvania, United States"
+    },
+    "university-of-queensland": {
+      "name": "University of Queensland",
+      "url": "https://www.uq.edu.au",
+      "via": "wikidata",
+      "note": "Q866012: university in Australia"
+    },
+    "university-of-southern-california": {
+      "name": "University of Southern California",
+      "url": "https://usc.edu",
+      "via": "wikidata",
+      "note": "Q4614: private university in Los Angeles, California, United States"
+    },
+    "university-of-utah": {
+      "name": "University of Utah",
+      "url": "https://www.utah.edu",
+      "via": "wikidata",
+      "note": "Q168515: public coeducational space-grant research university in Salt Lake City, Utah, United States"
+    },
+    "university-of-warwick": {
+      "name": "University of Warwick",
+      "url": "https://warwick.ac.uk/",
+      "via": "wikidata",
+      "note": "Q865528: university in Coventry, United Kingdom"
+    },
+    "university-of-washington": {
+      "name": "University of Washington",
+      "url": "https://washington.edu",
+      "via": "wikidata",
+      "note": "Q219563: public research university in Seattle, Washington, United States"
+    },
+    "university-of-wisconsin-madison": {
+      "name": "University of Wisconsin-Madison",
+      "url": "https://wisc.edu",
+      "via": "wikidata",
+      "note": "Q838330: public research university in Madison, Wisconsin, USA"
+    },
+    "unlimit-health": {
+      "name": "Unlimit Health",
+      "url": "https://unlimithealth.org/",
+      "via": "wikidata",
+      "note": "Q7431536: non-profit initiative against parasitic worm infections"
+    },
+    "urban-institute": {
+      "name": "Urban Institute",
+      "url": "http://www.urban.org/",
+      "via": "wikidata",
+      "note": "Q7899935: American think tank"
+    },
+    "utility-farm": {
+      "name": "Utility Farm",
+      "url": "https://www.utility.farm/",
+      "via": "vipul"
+    },
+    "vaccine-formulation-institute": {
+      "name": "Vaccine Formulation Institute",
+      "url": "https://www.vaccineformulationinstitute.org",
+      "via": "wikidata",
+      "note": "Q140869041: nonprofit organization in Plan-les-Ouates, Switzerland"
+    },
+    "vanderbilt-university": {
+      "name": "Vanderbilt University",
+      "url": "https://www.vanderbilt.edu/",
+      "via": "wikidata",
+      "note": "Q29052: private university in Nashville, Tennessee, US"
+    },
+    "vanguard-charitable": {
+      "name": "Vanguard Charitable",
+      "url": "https://www.vanguardcharitable.org",
+      "via": "wikidata",
+      "note": "Q130482773: nonprofit grantmaking organization"
+    },
+    "vegan-outreach": {
+      "name": "Vegan Outreach",
+      "url": "http://www.veganoutreach.org",
+      "via": "wikidata",
+      "note": "Q7918280: non-profit organization in the USA"
+    },
+    "veganuary": {
+      "name": "Veganuary",
+      "url": "https://veganuary.com/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://veganuary.com/fr/"
+    },
+    "vibecamp": {
+      "name": "vibecamp",
+      "url": "https://vibe.camp",
+      "via": "manifund",
+      "note": "profile behind \"vibecamp\""
+    },
+    "vital-strategies": {
+      "name": "Vital Strategies",
+      "url": "https://www.vitalstrategies.org/",
+      "via": "wikidata",
+      "note": "Q30268388: nonprofit organization in New York, United States"
+    },
+    "wageningen-university-research": {
+      "name": "Wageningen University & Research",
+      "url": "https://www.wur.nl/",
+      "via": "wikidata",
+      "note": "Q422208: university in the Netherlands"
+    },
+    "wakker-dier": {
+      "name": "Wakker Dier",
+      "url": "http://www.wakkerdier.nl",
+      "via": "wikidata",
+      "note": "Q2681289: organization"
+    },
+    "washington-university-in-st-louis": {
+      "name": "Washington University in St. Louis",
+      "url": "https://washu.edu/",
+      "via": "wikidata",
+      "note": "Q777403: private research university in St. Louis, Missouri, United States"
+    },
+    "wikimedia-foundation": {
+      "name": "Wikimedia Foundation Inc",
+      "url": "https://wikimediafoundation.org/",
+      "via": "wikidata",
+      "note": "Q180: American charitable organization"
+    },
+    "wild-animal-initiative": {
+      "name": "Wild Animal Initiative",
+      "url": "https://www.wildanimalinitiative.org",
+      "via": "wikidata",
+      "note": "Q107463177: wild animal welfare nonprofit organization"
+    },
+    "wildaid": {
+      "name": "WildAid",
+      "url": "http://wildaid.org/",
+      "via": "wikidata",
+      "note": "Q4925973: environmental organization"
+    },
+    "william-mary": {
+      "name": "William & Mary",
+      "url": "https://www.wm.edu/",
+      "via": "wikidata",
+      "note": "Q875637: public university in Williamsburg, Virginia"
+    },
+    "wilton-park": {
+      "name": "Wilton Park",
+      "url": "https://www.wiltonpark.org.uk/",
+      "via": "wikidata",
+      "note": "Q520501: government agency"
+    },
+    "wnet": {
+      "name": "Wnet",
+      "url": "https://www.thirteen.org/",
+      "via": "wikidata",
+      "note": "Q3120960: PBS member station in Newark, New Jersey"
+    },
+    "world-animal-protection": {
+      "name": "World Animal Protection",
+      "url": "http://worldanimalprotection.org/",
+      "via": "wikidata",
+      "note": "Q541683: international non-profit non-governmental charity animal welfare organization that has been in operation since 1981; headquarters location is Grays Inn Road, London, WC1; its mission is to create a better world for animals by protecting them"
+    },
+    "world-health-organization": {
+      "name": "World Health Organization",
+      "url": "https://www.who.int",
+      "via": "wikidata",
+      "note": "Q7817: United Nations agency concerned with international public health"
+    },
+    "world-resources-institute": {
+      "name": "World Resources Institute",
+      "url": "http://www.wri.org/",
+      "via": "wikidata",
+      "note": "Q976978: organization"
+    },
+    "wshu": {
+      "name": "Wshu",
+      "url": "http://www.wshu.org",
+      "via": "wikidata",
+      "note": "Q7955659: public radio station in Westport, Connecticut, United States"
+    },
+    "yale-university": {
+      "name": "Yale University",
+      "url": "https://yale.edu",
+      "via": "wikidata",
+      "note": "Q49112: private university in New Haven, Connecticut"
+    },
+    "yimby-law": {
+      "name": "YIMBY Law",
+      "url": "https://www.yimbylaw.org/",
+      "via": "wikidata",
+      "note": "Q135676011: no description"
+    }
+  }
+}

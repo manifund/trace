@@ -4,6 +4,7 @@
 // auto-created a provisional (needs_review) org under that name, the
 // provisional org's grants are repointed and the org is deleted.
 import aliasesFile from '@/data/aliases.json'
+import linksFile from '@/data/org-links.json'
 import orgsSeed from '@/data/orgs-seed.json'
 import reviewedFile from '@/data/reviewed-orgs.json'
 import { createAdminClient } from '@/db/supabase-admin'
@@ -461,6 +462,49 @@ async function main() {
       console.log(`Folded ${count} grants: "${raw}" as ${role} -> ${slug}`)
     }
   }
+
+  // org-links.json: websites for orgs orgs-seed.json doesn't cover. The file
+  // owns orgs.website for every non-seeded org, so an org in neither file
+  // loses its website — deleting an entry is how a wrong link comes off.
+  const links = (linksFile as never as { websites: Record<string, { url: string | null }> })
+    .websites
+  const seededSlugs = new Set(orgs.map((seed) => seed.slug))
+  const currentSites = new Map<string, string>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('orgs')
+      .select('slug, website')
+      .not('website', 'is', null)
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) currentSites.set(row.slug, row.website as string)
+    if (!data || data.length < 1000) break
+  }
+  const linked = new Set<string>()
+  for (const [slug, link] of Object.entries(links)) {
+    if (!link.url) continue
+    linked.add(slug)
+    if (currentSites.get(slug) === link.url) continue
+    const { data } = await db
+      .from('orgs')
+      .update({ website: link.url })
+      .eq('slug', slug)
+      .select('id')
+      .throwOnError()
+    if (!data?.length) console.warn(`org-links.json: unknown slug "${slug}"`)
+  }
+  const stale = Array.from(currentSites.keys()).filter(
+    (slug) => !seededSlugs.has(slug) && !linked.has(slug)
+  )
+  for (let from = 0; from < stale.length; from += 200) {
+    await db
+      .from('orgs')
+      .update({ website: null })
+      .in('slug', stale.slice(from, from + 200))
+      .throwOnError()
+  }
+  if (stale.length > 0)
+    console.log(`Cleared ${stale.length} website(s) no longer in org-links.json`)
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
   // and correctly named; clears the needs_review flag without seeding them.

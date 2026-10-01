@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { OrgBarChart } from '@/components/org-bar-chart'
 import { OrgBreakdown } from '@/components/org-breakdown'
 import { OrgGrantTable } from '@/components/org-grant-table'
+import { OrgLogo } from '@/components/org-logo'
 import { OrgStats } from '@/components/org-stats'
 import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
@@ -181,7 +182,10 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
 
   return (
     <div>
-      <h1 className="font-display text-2xl font-bold">{org.name}</h1>
+      <div className="flex items-center gap-3">
+        <OrgLogo slug={org.slug} className="rounded-sm" />
+        <h1 className="font-display text-2xl font-bold">{org.name}</h1>
+      </div>
       <p className="mb-6 text-sm text-ink-muted">
         {org.website && (
           <>
