@@ -2791,6 +2791,10 @@
         "University of California, Berkeley"
       ]
     },
+    "manifund:61203ee9-3b7a-dd1b-e5fa-1add242550ef:SFF": {
+      "note": "Ingested Sep 1 2026 under a transient profile display name; the project creator is Thane Ruthenis, as on every other donation to it.",
+      "recipient_name": "Thane Ruthenis"
+    },
     "manifund:bc897493-91bf-47af-afed-5e309538c6c8:acx-grants": {
       "note": "ACX 2024 regrant paid out via Manifund; Tarbell's program, listed under Cillian Crosson",
       "recipient_name": "Tarbell Center for AI Journalism"
