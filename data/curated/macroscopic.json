@@ -223,6 +223,15 @@
       "description": "Implementation-driven R&D for high-security AI systems, bridging theoretical security research and practical deployment",
       "program": "AI security research",
       "sourceUrl": "https://macroscopic.org/grants"
+    },
+    {
+      "recipient": "PRISM",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "description": "Field-building for digital minds: supporting research, raising awareness, developing talent, and organizing events and workshops",
+      "program": "AI welfare & sentience",
+      "sourceUrl": "https://macroscopic.org/grants"
     }
   ]
 }
