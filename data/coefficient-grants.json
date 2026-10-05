@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-09-28T18:12:34.083Z",
+ "exported_at": "2026-10-05T19:21:38.437Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -66,6 +66,18 @@
    "amount": 2100000
   },
   {
+   "id": "grants-41122-0",
+   "org": "Langsikt",
+   "date": 1786406400,
+   "slug": "biosecurity-advocacy",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Biosecurity Advocacy",
+   "amount": 450000
+  },
+  {
    "id": "grants-40931-0",
    "org": "Upstream Policies",
    "date": 1785974400,
@@ -77,6 +89,18 @@
    ],
    "title": "Freshwater Ecosystem Protection",
    "amount": 300000
+  },
+  {
+   "id": "grants-41124-0",
+   "org": "Centre for British Progress",
+   "date": 1785801600,
+   "slug": "biosecurity-policy-research",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Biosecurity Policy Research",
+   "amount": 160000
   },
   {
    "id": "grants-40875-0",
@@ -3141,6 +3165,18 @@
    ],
    "title": "Viral Vascular Leak Research",
    "amount": 600000
+  },
+  {
+   "id": "grants-38503-0",
+   "org": "Catalyze Impact",
+   "date": 1770854400,
+   "slug": "ai-safety-incubator-program",
+   "year": 2026,
+   "areas": [
+    "Global Catastrophic Risks Opportunities"
+   ],
+   "title": "AI Safety Incubator Program",
+   "amount": 1219456
   },
   {
    "id": "grants-39393-0",

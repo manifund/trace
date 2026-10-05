@@ -652,7 +652,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "AI Safety Tactical Opportunities Fund",
-      "amount": 22251572,
+      "amount": 22234072,
       "currency": "USD",
       "date": "2026",
       "description": null,
@@ -904,14 +904,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 844988831,
+      "amount": 846818287,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,044,988,831 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,046,818,287 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -923,7 +923,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,044,988,831 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,046,818,287 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Various Recipients",
