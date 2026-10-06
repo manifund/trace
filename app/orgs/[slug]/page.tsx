@@ -5,7 +5,7 @@ import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgLogo } from '@/components/org-logo'
 import { OrgReviews } from '@/components/org-reviews'
 import { OrgStats } from '@/components/org-stats'
-import { OrgTeamLine } from '@/components/org-team'
+import { OrgTeamBlock } from '@/components/org-team'
 import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
 import { getReviewsForOrg } from '@/db/review'
@@ -113,7 +113,8 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
     getReviewsForOrg(org.id),
     getTeamForOrg(org.id),
   ])
-  const formerNames = org.names.filter((name) => name.kind !== 'canonical')
+  // Renames are worth a mention; plain aliases are matching plumbing.
+  const formerNames = org.names.filter((name) => name.kind === 'former_name')
 
   // Only chart the via flow when this org is not also the funder of record.
   const viaOnly = via.filter((g) => g.funderSlug !== org.slug)
@@ -214,7 +215,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
           </>
         )}
       </p>
-      <OrgTeamLine team={team} />
+      <OrgTeamBlock team={team} />
       {causeChips.length > 0 && (
         <p className="mb-4 flex flex-wrap gap-1">
           {causeChips.map((chip) => (
