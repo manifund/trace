@@ -1433,6 +1433,76 @@
       "sourceUrl": "https://www.matsprogram.org/transparency"
     },
     {
+      "recipient": "MATS Research",
+      "funder": "Good Ventures Foundation",
+      "amount": 1520150,
+      "currency": "USD",
+      "date": "2025-05-06",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Good Ventures Foundation",
+      "amount": 3038300,
+      "currency": "USD",
+      "date": "2025-05-07",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Berkeley Existential Risk Initiative",
+      "amount": 450000,
+      "currency": "USD",
+      "date": "2025-03-05",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Berkeley Existential Risk Initiative",
+      "amount": 1000,
+      "currency": "USD",
+      "date": "2024-01-29",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Berkeley Existential Risk Initiative",
+      "amount": 499000,
+      "currency": "USD",
+      "date": "2024-02-02",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Berkeley Existential Risk Initiative",
+      "amount": 500000,
+      "currency": "USD",
+      "date": "2024-05-10",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
+      "recipient": "MATS Research",
+      "funder": "Berkeley Existential Risk Initiative",
+      "amount": 500000,
+      "currency": "USD",
+      "date": "2024-06-03",
+      "datePrecision": "day",
+      "description": "Cash donation per MATS transparency page (date is when funds were received).",
+      "sourceUrl": "https://www.matsprogram.org/transparency"
+    },
+    {
       "recipient": "Center for Security and Emerging Technology",
       "funder": "Musk Foundation",
       "amount": 2449000,
