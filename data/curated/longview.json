@@ -122,16 +122,6 @@
       "sourceUrl": "https://www.longview.org/fund/emerging-challenges-fund-december-2023-grants-report/"
     },
     {
-      "recipient": "Six EU civil society organisations (aggregate; EU AI Act Emergency Support)",
-      "amount": 733000,
-      "currency": "USD",
-      "date": "2024",
-      "datePrecision": "year",
-      "description": "Aggregate grant line from the ECF 2024 Annual Report ('$733k, EU AI Act: Emergency Support') supporting civil society organisations invited to help draft the EU AI Act Code of Practice; over half of 2024 ECF grantmaking. Individual recipients not named in the public summary. Three of them are probably the US-entity Schedule I grantees Rethink Priorities ($219,000), Players Philanthropy Fund ($51,000), and AI Objectives Institute ($18,843), each with identical '(AI governance in Europe' purpose text in the FY2024 Form 990 -- see separate 990 entries; treat with care to avoid double counting. Source is the TYPE III AUDIO narration mirror of the (now-unavailable) EA Forum announcement post https://forum.effectivealtruism.org/posts/PBonnCzpMjij4X3Mr/announcing-the-emerging-challenges-fund-s-2024-report; canonical report PDF (download-restricted): https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view",
-      "program": "Emerging Challenges Fund",
-      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
-    },
-    {
       "recipient": "Horizon Institute for Public Service",
       "amount": 150000,
       "currency": "USD",
@@ -139,7 +129,7 @@
       "datePrecision": "year",
       "description": "Placing technical expertise in government. ECF 2024 Annual Report grants table. Partially corroborated by FY2024 Form 990 Schedule I grant of $116,285 (general support) from Longview Philanthropy USA Inc; remainder likely disbursed via Giving What We Can/UK entity.",
       "program": "Emerging Challenges Fund",
-      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
     },
     {
       "recipient": "Centre for Long-Term Resilience",
@@ -149,7 +139,7 @@
       "datePrecision": "year",
       "description": "Advising on biosecurity & AI policy. ECF 2024 Annual Report grants table. CLTR (formerly Alpenglow) is also a long-standing Longview featured grantee (see separate entry).",
       "program": "Emerging Challenges Fund",
-      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
     },
     {
       "recipient": "Pacific Forum",
@@ -159,37 +149,137 @@
       "datePrecision": "year",
       "description": "Convening (summary truncated in source; an asterisk footnote on the amount could not be recovered). ECF 2024 Annual Report grants table. Corroborated by FY2024 Form 990 Schedule I: $50,000 to Pacific Forum International, Honolulu HI, 'to support a US-China dialogue to foster mutual understanding and promote public policy development'. This entry and the Schedule I entry are the same grant.",
       "program": "Emerging Challenges Fund",
-      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
     },
     {
-      "recipient": "Players Philanthropy Fund (Towson, MD; fiscal sponsor)",
-      "amount": 51000,
+      "recipient": "SaferAI",
+      "amount": 262000,
       "currency": "USD",
       "date": "2024",
       "datePrecision": "year",
-      "description": "FY2024 (calendar year 2024) Form 990 Schedule I, Longview Philanthropy USA Inc (EIN 93-2664730): 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely one of the six EU AI Act Code of Practice support grants (fiscally sponsored project not named).",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). Three additional full-time staff, a workshop, and logistical costs for participating in the Code of Practice consultation. ECF 2024 Annual Report p.7. Same grant as the $262,000 FY2024 Form 990 Schedule F cash grant to an undisclosed European organisation from Longview Philanthropy USA Inc.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
     },
     {
-      "recipient": "Rethink Priorities",
+      "recipient": "Apollo Research",
       "amount": 219000,
       "currency": "USD",
       "date": "2024",
       "datePrecision": "year",
-      "description": "FY2024 Form 990 Schedule I, Longview Philanthropy USA Inc: 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely part of the ECF 'Six EU civil society organisations' $733k aggregate.",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). Additional workshops plus legal and technical research for the drafting of the Code of Practice. ECF 2024 Annual Report p.7. Probably the $219,000 FY2024 Form 990 Schedule I grant to Rethink Priorities (\"AI governance in Europe\") from Longview Philanthropy USA Inc, i.e. paid via Rethink Priorities.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
     },
     {
-      "recipient": "AI Objectives Institute",
-      "amount": 18843,
+      "recipient": "Observatorio de Riesgos Catastróficos Globales",
+      "amount": 51000,
       "currency": "USD",
       "date": "2024",
       "datePrecision": "year",
-      "description": "FY2024 Form 990 Schedule I, Longview Philanthropy USA Inc: 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely part of the ECF 'Six EU civil society organisations' $733k aggregate.",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). Additional research papers, meetings with other participants, and feedback on drafts. ECF 2024 Annual Report p.7. Probably the $51,000 FY2024 Form 990 Schedule I grant to Players Philanthropy Fund (fiscal sponsor, \"AI governance in Europe\").",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
+    },
+    {
+      "recipient": "CeSIA",
+      "amount": 56000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). One full-time and one half-time employee for research and stakeholder roundtables. Centre pour la Sécurité de l'IA. ECF 2024 Annual Report p.7.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
+    },
+    {
+      "recipient": "Pour Demain",
+      "amount": 126000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). An additional staff member plus legal and technical consultants. ECF 2024 Annual Report p.7. Same grant as the $126,000 FY2024 Form 990 Schedule F cash grant to an undisclosed European organisation.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
+    },
+    {
+      "recipient": "AI Objectives Institute",
+      "amount": 19000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "EU AI Act: Emergency Support (one of six grants totalling $733k; start Q4 2024, 12 months). Supports Matija Franklin dedicating half his time to the Code of Practice, including travel to Brussels and Paris. ECF 2024 Annual Report p.7. Reported as $18,843 on the FY2024 Form 990 Schedule I (\"AI governance in Europe\").",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
+    },
+    {
+      "recipient": "Council on Strategic Risks",
+      "amount": 210000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "Promoting non-nuclear deterrence: seed funding for CSR's Deterrence Council and bridge funding for its Early-Career Nuclear Risk Reduction Fellowship and Nuclear Weapon Systems Project (Center on Strategic Weapons). Start Q4 2024, 12 months. ECF 2024 Annual Report p.11.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view"
+    },
+    {
+      "recipient": "METR",
+      "amount": 450000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Evaluating risks from frontier AI models. ECF 2025 Annual Report (six grants totalling $1.5M).",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
+    },
+    {
+      "recipient": "Forethought Research",
+      "amount": 346000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Navigating explosive AI growth. ECF 2025 Annual Report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
+    },
+    {
+      "recipient": "Horizon Institute for Public Service",
+      "amount": 350000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Placing technical experts in government. ECF 2025 Annual Report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
+    },
+    {
+      "recipient": "SaferAI",
+      "amount": 115000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Establishing AI risk management standards. ECF 2025 Annual Report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
+    },
+    {
+      "recipient": "Perry World House, University of Pennsylvania",
+      "amount": 114000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Drafting AI-nuclear arms control agreements. ECF 2025 Annual Report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
+    },
+    {
+      "recipient": "Panoplia Laboratories",
+      "amount": 97000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Evaluating AI-enabled biorisks. ECF 2025 Annual Report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
     },
     {
       "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 1 of 3)",
@@ -200,36 +290,6 @@
       "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'. Recipient names are not required to be disclosed on Schedule F. Total FY2024 foreign grants: $892,714.",
       "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
       "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
-    },
-    {
-      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 2 of 3)",
-      "amount": 262000,
-      "currency": "USD",
-      "date": "2024",
-      "datePrecision": "year",
-      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'.",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
-    },
-    {
-      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 3 of 3)",
-      "amount": 126000,
-      "currency": "USD",
-      "date": "2024",
-      "datePrecision": "year",
-      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'.",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
-    },
-    {
-      "recipient": "Panoplia Laboratories",
-      "amount": null,
-      "currency": "USD",
-      "date": "2025",
-      "datePrecision": "year",
-      "description": "Empirical AI-biosecurity research to assess how frontier AI models could enable or constrain real-world misuse and to evaluate current safeguards. Listed as an ECF grantee on Giving What We Can's fund page after the 2025 ECF Annual Report was released (not present on the Feb 2025 archived version); very likely one of the six 2025 ECF grants (which totalled $1.5M across six grants). Amount not publicly disclosed; see the 2025 ECF Annual Report PDF (download-restricted): https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view",
-      "program": "Emerging Challenges Fund",
-      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund"
     },
     {
       "recipient": "Massachusetts Institute of Technology (MIT)",
