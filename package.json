@@ -25,6 +25,7 @@
     "find-org-links": "bun run scripts/find-org-links.ts",
     "fetch-logos": "bun run scripts/fetch-logos.ts",
     "fetch-zvi-reviews": "bun run scripts/fetch-zvi-reviews.ts",
+    "fetch-mdickens-reviews": "bun run scripts/fetch-mdickens-reviews.ts",
     "ingest-reviews": "bun run scripts/ingest-reviews.ts"
   },
   "dependencies": {

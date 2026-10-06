@@ -388,7 +388,17 @@
     "Stanford Existential Risk Initiative (SERI)": "stanford-existential-risks-initiative",
     "Cybersecurity Lab at University of Louisville": "university-of-louisville-dr-roman-yampolskiy-s-research-group-cybersecurity-lab",
     "Eisenstat Research": "sam-eisenstat",
-    "Don’t Worry About the Vase": "zvi-mowshowitz"
+    "Don’t Worry About the Vase": "zvi-mowshowitz",
+    "Centre for Enabling Effective Altruism Learning & Research (CEELAR)": "centre-for-enabling-ea-learning-research",
+    "Centre for Enabling EA Learning and Research (CEEALAR)": "centre-for-enabling-ea-learning-research",
+    "Center for Long-Term Resilience": "centre-for-long-term-resilience",
+    "Center for Security and Emerging Technology (CSET)": "center-for-security-and-emerging-technology",
+    "Centre for Long-Term Policy": "langsikt-centre-for-long-term-policy",
+    "Sentinel rapid emergency response team": "sentinel",
+    "AI Policy Network": "the-ai-policy-network",
+    "Americans for Responsible Innovation (ARI)": "americans-for-responsible-innovation",
+    "Machine Intelligence Research Institute (MIRI)": "machine-intelligence-research-institute",
+    "Center for Human-Compatible AI": "center-for-human-compatible-ai"
   },
   "_byRoleComment": "Same crosswalk, but only for one side of a grant. Needed where a source uses one label for both: EA Funds writes \"(Anonymous)\" for a grantee who asked not to be named, while Manifund and Vipul write it for a donor who did. A plain alias would send both to the same org and mislabel one of them.",
   "byRole": {
@@ -402,6 +412,7 @@
   },
   "_mergesComment": "Two curated orgs that are one body: loser slug -> surviving slug. Applied by seed, which repoints grants and vias, keeps the loser's names as aliases of the survivor, and deletes it. Idempotent: once merged the loser is gone and the entry is a no-op. Use this only for orgs a human has reviewed; unreviewed duplicates merge automatically through the alias map above.",
   "merges": {
+    "centre-for-enabling-effective-altruism-learning-research-ceelar": "centre-for-enabling-ea-learning-research",
     "centre-pour-la-securite-de-l-ia": "cesia",
     "kairos-project": "kairos",
     "manifold-for-charity": "manifund",

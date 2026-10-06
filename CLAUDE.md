@@ -79,11 +79,12 @@ into `data/overrides.json`. Commit those and the rebuild reproduces them.
 
 Third-party write-ups of orgs live in `org_reviews`, one row per reviewer x
 org, shown as a "Reviews" section on org pages. Each reviewer edition is a
-checked-in file in `data/reviews/` (`zvi-2025.json` is snapshotted from
-nonprofits.zone by `fetch-zvi-reviews`); `bun run ingest-reviews` resolves org
-names through the usual crosswalk and upserts. Reviewer-specific ratings
-(Zvi's confidence and funding need) are folded into the body text, not
-columns. Apply migrations to the hosted project with
+checked-in file in `data/reviews/` (`zvi-2025.json` from nonprofits.zone via
+`fetch-zvi-reviews`; `mdickens-<year>.json` from Michael Dickens's donation
+posts via `fetch-mdickens-reviews`); `bun run ingest-reviews` resolves org
+names through the usual crosswalk and upserts. The body's first paragraph is
+the reviewer's one-line verdict (Zvi's confidence and funding need, Dickens's
+classification) and shows collapsed on the org page; the rest opens on click. Apply migrations to the hosted project with
 `SUPABASE_PAT=... bun run scripts/apply-trace-migration.ts <file>`.
 
 ## Database Migrations

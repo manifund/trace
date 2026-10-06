@@ -18,6 +18,7 @@ type ReviewsFile = {
   reviewedAt: string
   reviews: {
     org: string
+    sourceUrl?: string | null
     confidence?: string | null
     fundingNeeded?: string | null
     review: string
@@ -54,7 +55,7 @@ for (const name of readdirSync('data/reviews').sort()) {
       source_key: key,
       reviewer: file.reviewer,
       reviewer_url: file.reviewerUrl ?? null,
-      source_url: file.sourceUrl ?? null,
+      source_url: review.sourceUrl ?? file.sourceUrl ?? null,
       reviewed_at: file.reviewedAt,
       body: body(review),
       updated_at: new Date().toISOString(),
