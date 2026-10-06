@@ -1,0 +1,85 @@
+{
+  "slug": "macroscopic",
+  "website": "https://macroscopic.org/",
+  "sourceUrl": "https://macroscopic.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 15,
+  "headcountNote": "15 people listed in the TEAM section of the About page (no separate team page); the page says it also relies on unnamed external advisors; co-founder David Althaus is listed as Strategic Advisor and Jonas Vollmer as Director (also Director of Strategy at Polaris), so the operating executives are Donnelly and Kestenholz.",
+  "people": [
+    {
+      "name": "Ruairí Donnelly",
+      "title": "Co-founder, President",
+      "leadership": true
+    },
+    {
+      "name": "Daniel Kestenholz",
+      "title": "Co-founder, COO",
+      "leadership": true
+    },
+    {
+      "name": "Jonas Vollmer",
+      "title": "Co-founder, Director",
+      "leadership": true
+    },
+    {
+      "name": "David Althaus",
+      "title": "Co-founder, Strategic Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Arden Berg",
+      "title": "Investor",
+      "leadership": false
+    },
+    {
+      "name": "Clark Wisenbaker",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jesse Clifton",
+      "title": "Principal Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Lisa Wolff",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michael St. Jules",
+      "title": "Grants Associate (Animal Welfare)",
+      "leadership": false
+    },
+    {
+      "name": "Nathaniel Sauerberg",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Nick Marsh",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Oscar Delaney",
+      "title": "Grants Director, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Ricardo Pimentel",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Rohan Selva-Radov",
+      "title": "Program Lead, Donor Resources",
+      "leadership": false
+    },
+    {
+      "name": "Will Aldred",
+      "title": "Grants Associate",
+      "leadership": false
+    }
+  ]
+}

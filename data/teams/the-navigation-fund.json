@@ -1,0 +1,50 @@
+{
+  "slug": "the-navigation-fund",
+  "website": "https://navigation.org",
+  "sourceUrl": "https://navigation.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 8,
+  "headcountNote": "8 staff listed on the team page; 3 board members excluded.",
+  "people": [
+    {
+      "name": "David Coman-Hidy",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Taylor Denson",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kristen Diederich",
+      "title": "Grants and Operations Director",
+      "leadership": false
+    },
+    {
+      "name": "Erin Keith",
+      "title": "Transforming Criminal Justice Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Katie Ly",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jesse Marks",
+      "title": "Farm Animal Welfare Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Liam St Louis",
+      "title": "Climate Change Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Renata Scarellis",
+      "title": "Farm Animal Welfare Program Manager",
+      "leadership": false
+    }
+  ]
+}

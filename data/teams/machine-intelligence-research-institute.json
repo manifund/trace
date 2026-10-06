@@ -1,0 +1,145 @@
+{
+  "slug": "machine-intelligence-research-institute",
+  "website": "https://intelligence.org",
+  "sourceUrl": "https://intelligence.org/team/",
+  "checkedAt": "2026-10-06",
+  "headcount": 27,
+  "headcountNote": "27 people listed: 5 under Leadership and 22 under Staff; Board excluded (Soares and Yudkowsky also sit on it); 'keltan' is shown mononymously; no stated staff count.",
+  "people": [
+    {
+      "name": "Malo Bourgon",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Nate Soares",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Eliezer Yudkowsky",
+      "title": "Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Alex Vermeer",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Jimmy Rintjema",
+      "title": "Chief Financial Officer",
+      "leadership": true
+    },
+    {
+      "name": "Michelle Rintjema",
+      "title": "Donor Stewardship",
+      "leadership": false
+    },
+    {
+      "name": "David Abecassis",
+      "title": "Technical Governance Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Brian Abeyta",
+      "title": "Senior Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Peter Barnett",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Alex Beck",
+      "title": "Communications Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Rob Bensinger",
+      "title": "Communications",
+      "leadership": false
+    },
+    {
+      "name": "Naci Cankaya",
+      "title": "Technical Governance Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Sam Eisenstat",
+      "title": "Research",
+      "leadership": false
+    },
+    {
+      "name": "Benya Fallenstein",
+      "title": "Research",
+      "leadership": false
+    },
+    {
+      "name": "Brittany Ferrero",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Alana Horowitz Friedman",
+      "title": "Staff Writer & Communications Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Donald Gauvreau",
+      "title": "Core Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Max Harms",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Robert Herr",
+      "title": "Policy and Communications Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Mitchell Howe",
+      "title": "Lead Media Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Martin Lucas",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Tobias Martin",
+      "title": "Communications Generalist",
+      "leadership": false
+    },
+    {
+      "name": "keltan",
+      "title": "Education Lead",
+      "leadership": false
+    },
+    {
+      "name": "Robi Rahman",
+      "title": "Senior Data Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Joe Rogero",
+      "title": "Writer/Editor",
+      "leadership": false
+    },
+    {
+      "name": "Aaron Scher",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Harlan Stewart",
+      "title": "Head of Outreach",
+      "leadership": false
+    }
+  ]
+}

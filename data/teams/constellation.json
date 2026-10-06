@@ -1,0 +1,180 @@
+{
+  "slug": "constellation",
+  "website": "https://www.constellation.org/",
+  "sourceUrl": "https://constellation.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 34,
+  "headcountNote": "34 staff listed on the About page team section (Leadership, Convening, Research Programs, Incubation/Growth/Talent, Business Operations, Shared Services, Site Operations); no board or advisors shown; fellows and network members excluded.",
+  "people": [
+    {
+      "name": "Nicole Ross",
+      "title": "Interim CEO",
+      "leadership": true
+    },
+    {
+      "name": "Alexandra Bates",
+      "title": "Interim Director of Convening",
+      "leadership": true
+    },
+    {
+      "name": "Katy Dybwad",
+      "title": "Director of Business Operations",
+      "leadership": true
+    },
+    {
+      "name": "Jameace Maliga",
+      "title": "Director of People",
+      "leadership": true
+    },
+    {
+      "name": "Keith Weissglass",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Sasha Berezhnoi",
+      "title": "Events Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Isaac Dunn",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Iris Liao",
+      "title": "Program Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Ada Lin",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Weinberg",
+      "title": "Senior Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Joseph De Wolk",
+      "title": "Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Morgan Matthews",
+      "title": "Senior Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Aris Richardson",
+      "title": "Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Henry Sleight",
+      "title": "Special Projects",
+      "leadership": false
+    },
+    {
+      "name": "Morgan Simpson",
+      "title": "Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Connor Smith",
+      "title": "Senior Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Bruce Tsai",
+      "title": "Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Peter Wallich",
+      "title": "Senior Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Benoit",
+      "title": "Senior Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Clarissa Lam",
+      "title": "Program Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Briza Juarez",
+      "title": "HR Lead",
+      "leadership": false
+    },
+    {
+      "name": "Anam Nguyen",
+      "title": "Finance Lead",
+      "leadership": false
+    },
+    {
+      "name": "Josh Pitta",
+      "title": "Business Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Julian Aveling",
+      "title": "Data & Systems Lead",
+      "leadership": false
+    },
+    {
+      "name": "Lee Esche",
+      "title": "Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Lil Jansen",
+      "title": "Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Mia McElhatton",
+      "title": "Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Sally Meeks",
+      "title": "Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Asher Sabah",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Tharfeed Ahmed Unus",
+      "title": "Data Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Ishaq El-Amin",
+      "title": "Facilities Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Godwin Gnani",
+      "title": "Site Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Ravpreet Grewal",
+      "title": "IT Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Brian Starkey",
+      "title": "Executive Chef",
+      "leadership": false
+    }
+  ]
+}

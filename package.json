@@ -26,7 +26,8 @@
     "fetch-logos": "bun run scripts/fetch-logos.ts",
     "fetch-zvi-reviews": "bun run scripts/fetch-zvi-reviews.ts",
     "fetch-mdickens-reviews": "bun run scripts/fetch-mdickens-reviews.ts",
-    "ingest-reviews": "bun run scripts/ingest-reviews.ts"
+    "ingest-reviews": "bun run scripts/ingest-reviews.ts",
+    "ingest-teams": "bun run scripts/ingest-teams.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

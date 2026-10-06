@@ -1,0 +1,360 @@
+{
+  "slug": "schmidt-sciences",
+  "website": "https://www.schmidtsciences.org/",
+  "sourceUrl": "https://www.schmidtsciences.org/team/",
+  "checkedAt": "2026-10-06",
+  "headcount": 70,
+  "headcountNote": "69 cards on the team page (3 under Leadership, 66 under Team, incl. Project Pearl engineers); the Leadership group only has the founders (one card for Eric and Wendy Schmidt), President and VP; 'Balaji' is mononymous on the site; the Team list includes a few fellows and visiting/advisor titles as shown; no stated staff count; the site shows Eric and Wendy Schmidt on one joint card, counted as two people.",
+  "people": [
+    {
+      "name": "Eric Schmidt",
+      "title": "Founders",
+      "leadership": true
+    },
+    {
+      "name": "Wendy Schmidt",
+      "title": "Founders",
+      "leadership": true
+    },
+    {
+      "name": "Stuart Feldman",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Mark Greaves",
+      "title": "Vice President",
+      "leadership": true
+    },
+    {
+      "name": "Balaji",
+      "title": "Climate Lead",
+      "leadership": false
+    },
+    {
+      "name": "Brittany Aguilar",
+      "title": "Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Whitney Ajibola",
+      "title": "Manager of Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Kirsten Allen",
+      "title": "Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Nicole Arulanantham",
+      "title": "Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Elise Bell",
+      "title": "Associate",
+      "leadership": false
+    },
+    {
+      "name": "Dustin T. Blanchard",
+      "title": "Supply Chain Process Manager",
+      "leadership": false
+    },
+    {
+      "name": "Brett Bobley",
+      "title": "Advisor, HAVI",
+      "leadership": false
+    },
+    {
+      "name": "Alexandra Boghosian",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Ron Brachman",
+      "title": "Distinguished Visiting Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Abhishek Chatterjee",
+      "title": "Senior Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Michael Clear",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Molly Coyne",
+      "title": "Manager",
+      "leadership": false
+    },
+    {
+      "name": "Genevieve Croft",
+      "title": "Senior Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Heidi Cullen",
+      "title": "Director, Climate",
+      "leadership": false
+    },
+    {
+      "name": "Tina Dang",
+      "title": "Associate, Program Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Dorian Debose",
+      "title": "Executive and Administrative Assistant",
+      "leadership": false
+    },
+    {
+      "name": "John DiPalma",
+      "title": "Spacecraft Chief Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Ty Elie",
+      "title": "Director, Office of the President",
+      "leadership": false
+    },
+    {
+      "name": "James Fox",
+      "title": "Senior Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Gajarawala",
+      "title": "Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kiara Reyes Gamas",
+      "title": "Fellow in Residence",
+      "leadership": false
+    },
+    {
+      "name": "Kyran Grattan",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Anthony Grigore",
+      "title": "Senior Spacecraft Electrical & Software Systems Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Tyler Hallmark",
+      "title": "Alumni Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Hargis",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Peter Hase",
+      "title": "Senior Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Andreas Haupt",
+      "title": "Fellow in Residence",
+      "leadership": false
+    },
+    {
+      "name": "Andrea Hodgson",
+      "title": "Director, Biosciences",
+      "leadership": false
+    },
+    {
+      "name": "Katrina Hui",
+      "title": "Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Johnson",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Stephanie Kenealy",
+      "title": "Manager",
+      "leadership": false
+    },
+    {
+      "name": "Pete Klupar",
+      "title": "Executive Director",
+      "leadership": false
+    },
+    {
+      "name": "Ken Knowlton",
+      "title": "Director of Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Minjoon Kouh",
+      "title": "Senior Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "James Lasker",
+      "title": "Science Associate",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Lee",
+      "title": "Senior Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Peri Lund",
+      "title": "Program Delivery Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Suhas Mahesh",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Poushali Maji",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Gabe Medina",
+      "title": "Creative Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Maya Moretta",
+      "title": "Associate",
+      "leadership": false
+    },
+    {
+      "name": "Shadi Nasabzadeh",
+      "title": "Associate, Program Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Connor Nelson",
+      "title": "Senior Spacecraft Software Systems Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Mohammad Ahzam Quraishi",
+      "title": "Senior Science Analyst",
+      "leadership": false
+    },
+    {
+      "name": "James Ricci",
+      "title": "Director, Science Systems",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Rice",
+      "title": "Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Arpita Roy",
+      "title": "Director, Astrophysics and Space",
+      "leadership": false
+    },
+    {
+      "name": "Nairoby Russell",
+      "title": "Manager of Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Rayan Sadeldin",
+      "title": "Senior Science Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Collin Schladweiler",
+      "title": "Program Delivery Associate",
+      "leadership": false
+    },
+    {
+      "name": "Everett Schlawin",
+      "title": "Detector Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Hale Sirin",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Alexandra Skrivanek",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Arfon Smith",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Gudmundur Stefansson",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Cody Tucker",
+      "title": "Senior Business Associate",
+      "leadership": false
+    },
+    {
+      "name": "Adriana Uy",
+      "title": "Program Delivery Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Natalie Watson",
+      "title": "Mission Architectures and Spacecraft Operations",
+      "leadership": false
+    },
+    {
+      "name": "Thomas Wevers",
+      "title": "Program Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Carlie Wiener",
+      "title": "Director of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Leanne Willey",
+      "title": "Engineering Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Megan Wilmot",
+      "title": "Manager of Delivery",
+      "leadership": false
+    },
+    {
+      "name": "Pete Worden",
+      "title": "Senior Science Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Fan Yang Yang",
+      "title": "Spacecraft Systems Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Sander Zandbergen",
+      "title": "Payload Systems Engineer",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "lightcone-infrastructure",
+  "website": "https://www.lightconeinfrastructure.com/",
+  "sourceUrl": "https://www.lightconeinfrastructure.com/",
+  "checkedAt": "2026-10-06",
+  "headcount": 13,
+  "headcountNote": "13 team members listed on the homepage (no separate team page) under the labels Generalist, Specialist and Lighthavenist, which are used here as titles; the site gives no individual titles and names no CEO, so Oliver Habryka is flagged as leadership from his known role as CEO rather than from page text.",
+  "people": [
+    {
+      "name": "Oliver Habryka",
+      "title": "Generalist",
+      "leadership": true
+    },
+    {
+      "name": "Ruby Bloom",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Rafe Kennedy",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Ben Pace",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Raymond Arnold",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Ronny Fernandez",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Robert Mushkatblat",
+      "title": "Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Miranda Dixon-Luinenburg",
+      "title": "Specialist",
+      "leadership": false
+    },
+    {
+      "name": "James Babcock",
+      "title": "Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Joanna Bregan",
+      "title": "Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Manguikian",
+      "title": "Lighthavenist",
+      "leadership": false
+    },
+    {
+      "name": "Drake Morrison",
+      "title": "Lighthavenist",
+      "leadership": false
+    },
+    {
+      "name": "Lucie Philippon",
+      "title": "Lighthavenist",
+      "leadership": false
+    }
+  ]
+}

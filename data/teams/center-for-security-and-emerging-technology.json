@@ -1,0 +1,255 @@
+{
+  "slug": "center-for-security-and-emerging-technology",
+  "website": "https://cset.georgetown.edu/",
+  "sourceUrl": "https://cset.georgetown.edu/team/",
+  "checkedAt": "2026-10-06",
+  "headcount": 49,
+  "headcountNote": "49 staff extracted from the single unpaginated team page (its department filters show Analysis 20, Data Science 13, External Affairs 6, CyberAI 6, Operations 5, Directors 5, which overlap); non-resident/affiliate fellows are not shown on this page; leadership = the page's \"Directors\" filter group.",
+  "people": [
+    {
+      "name": "Helen Toner",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Cara LaPointe",
+      "title": "Director of Analysis",
+      "leadership": true
+    },
+    {
+      "name": "Catherine Aiken",
+      "title": "Director of Data Science and Research",
+      "leadership": true
+    },
+    {
+      "name": "Christa Bennett",
+      "title": "Director of Communications and Strategic Engagement",
+      "leadership": true
+    },
+    {
+      "name": "Olivia Albrighton-Vanway",
+      "title": "Director of People and Operations",
+      "leadership": true
+    },
+    {
+      "name": "Adrian Thinnyun",
+      "title": "Data Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Ali Crawford",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Andrea Guerrero",
+      "title": "Financial Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Lohn",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Ben Murphy",
+      "title": "Translation Manager",
+      "leadership": false
+    },
+    {
+      "name": "Brian Love",
+      "title": "Senior Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Carolina Pachon",
+      "title": "Executive Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Colin Shea-Blymyer",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Chou",
+      "title": "Data Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Danny Hague",
+      "title": "Assistant Director of External Affairs and Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Emily Tavenner",
+      "title": "Content and Digital Communications Lead",
+      "leadership": false
+    },
+    {
+      "name": "Gwyneth Sholar",
+      "title": "Strategic Engagement Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Hanna Dohmen",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Harmony LaJeunesse-Gaskins",
+      "title": "Program Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Huey-Meei Chang",
+      "title": "Senior China S&T Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Jack Karsten",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jacob Feldgoise",
+      "title": "Senior Data Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jason Ly",
+      "title": "Visual Communications Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Jessica Ji",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Julie George",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Katherine Quinn",
+      "title": "Senior Data Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Kathleen Curlee",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Katie Kunesh",
+      "title": "UX Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Kelly Beavan",
+      "title": "Survey Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Crichton",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Miller",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Kahn",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Lassiter",
+      "title": "Research Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Lawrence Hailes",
+      "title": "People Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Luke Koslosky",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Matthias Oschinski",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Max Hatfield",
+      "title": "Data Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Mina Narayanan",
+      "title": "Senior Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Owen Daniels",
+      "title": "Associate Director of Analysis and Andrew W. Marshall Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Rebecca Gelles",
+      "title": "ML Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Ronnie Kinoshita",
+      "title": "Deputy Director of Data Science & Research",
+      "leadership": false
+    },
+    {
+      "name": "Sam Bresnick",
+      "title": "Research Fellow and Andrew W. Marshall Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Samuel Crouch",
+      "title": "Space Force Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Shelton Fitch",
+      "title": "Managing Editor",
+      "leadership": false
+    },
+    {
+      "name": "Shruti Agarwal",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Sonali Subbu Rathinam",
+      "title": "Data Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Steph Batalis",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Vikram Venkatram",
+      "title": "Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "William Hannas",
+      "title": "Lead Analyst",
+      "leadership": false
+    }
+  ]
+}

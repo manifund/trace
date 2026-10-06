@@ -1,0 +1,140 @@
+{
+  "slug": "center-for-human-compatible-ai",
+  "website": "https://humancompatible.ai/",
+  "sourceUrl": "https://humancompatible.ai/people",
+  "checkedAt": "2026-10-06",
+  "headcount": 26,
+  "headcountNote": "26 people in the Faculty (10, several at other universities), Staff (3), Researchers (7) and Research Fellows (6) sections; 21 graduate students, 2 affiliated graduate students, 13 interns, ~30 affiliates and alumni excluded. Stuart Russell is marked leadership as the center's founder/PI although the page shows only his professorship.",
+  "people": [
+    {
+      "name": "Stuart Russell",
+      "title": "Professor of EECS at UC Berkeley; Director of Kavli Center for Ethics, Science, and the Public",
+      "leadership": true
+    },
+    {
+      "name": "Pieter Abbeel",
+      "title": "Professor of EECS at UC Berkeley",
+      "leadership": false
+    },
+    {
+      "name": "Anca Dragan",
+      "title": "Associate Professor of EECS at UC Berkeley; Founder, InterACT Lab",
+      "leadership": false
+    },
+    {
+      "name": "Bart Selman",
+      "title": "Professor of Computer Science and Engineering at Cornell University",
+      "leadership": false
+    },
+    {
+      "name": "Emma Pierson",
+      "title": "Assistant Professor of Computer Science at UC Berkeley",
+      "leadership": false
+    },
+    {
+      "name": "Michael Wellman",
+      "title": "Professor of Computer Science and Engineering at the University of Michigan",
+      "leadership": false
+    },
+    {
+      "name": "Satinder Singh Baveja",
+      "title": "Professor of Computer Science and Engineering at the University of Michigan; Director of the Artificial Intelligence Laboratory",
+      "leadership": false
+    },
+    {
+      "name": "Serina Chang",
+      "title": "Assistant Professor of EECS at UC Berkeley",
+      "leadership": false
+    },
+    {
+      "name": "Tania Lombrozo",
+      "title": "Professor of Psychology at UC Berkeley",
+      "leadership": false
+    },
+    {
+      "name": "Tom Griffiths",
+      "title": "Professor of Psychology and Cognitive Science at Princeton",
+      "leadership": false
+    },
+    {
+      "name": "Mark Nitzberg",
+      "title": "Executive Director of CHAI",
+      "leadership": true
+    },
+    {
+      "name": "James Paul (J.P.) Gonzales",
+      "title": "Assistant to Stuart Russell",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Otis",
+      "title": "Assistant Director of CHAI",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Critch",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Cameron Allen",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Ian Baker",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Stray",
+      "title": "Senior Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Julia Morris",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Justin Svegliato",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Livia Morris",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ben Plaut",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Brian Judge",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "George Obaido",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Khanh Nguyen",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Michael Cohen",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Paria Rashidinejad",
+      "title": "Research Fellow",
+      "leadership": false
+    }
+  ]
+}

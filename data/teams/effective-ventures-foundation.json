@@ -1,0 +1,20 @@
+{
+  "slug": "effective-ventures-foundation",
+  "website": "https://ev.org/",
+  "sourceUrl": "https://ev.org/ops/about/",
+  "checkedAt": "2026-10-06",
+  "headcount": null,
+  "headcountNote": "Site names only the two CEOs (EV UK and EV US) and the trustees; the EV Operations about page describes five team areas (Executive, Finance, Staff Support, Systems, Property) without naming staff or giving a count, so the staff headcount is unknowable from the site.",
+  "people": [
+    {
+      "name": "Rob Gledhill",
+      "title": "CEO of EV UK",
+      "leadership": true
+    },
+    {
+      "name": "Zach Robinson",
+      "title": "CEO of EV US",
+      "leadership": true
+    }
+  ]
+}

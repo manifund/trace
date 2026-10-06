@@ -1,0 +1,100 @@
+{
+  "slug": "timaeus",
+  "website": "https://timaeus.co/",
+  "sourceUrl": "https://timaeus.co/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 18,
+  "headcountNote": "18 people listed under Leadership, Research, Engineering and Support (2 of them labelled Contractor); 2 research affiliates and 3 advisors excluded.",
+  "people": [
+    {
+      "name": "Jesse Hoogland",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Daniel Murfet",
+      "title": "Research Director",
+      "leadership": true
+    },
+    {
+      "name": "Stan van Wingerden",
+      "title": "Director of Engineering",
+      "leadership": true
+    },
+    {
+      "name": "Marco Cozzi",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "George Wang",
+      "title": "Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Chris Elliott",
+      "title": "Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Einar Urdshals",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Andy Gordon",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "William Troiani",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Maxwell Adam",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Rohan Hitchcock",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Elizabeth Donoway",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Billy Snikkers",
+      "title": "Research Scientist / Engineer",
+      "leadership": false
+    },
+    {
+      "name": "William Snell",
+      "title": "Contractor",
+      "leadership": false
+    },
+    {
+      "name": "Adam Newgas",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Ioannis Mouratidis",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Johan Wind",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Lucchese",
+      "title": "Contractor",
+      "leadership": false
+    }
+  ]
+}

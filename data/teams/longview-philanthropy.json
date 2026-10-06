@@ -1,0 +1,170 @@
+{
+  "slug": "longview-philanthropy",
+  "website": "https://www.longview.org/",
+  "sourceUrl": "https://www.longview.org/about/#team",
+  "checkedAt": "2026-10-06",
+  "headcount": 32,
+  "headcountNote": "32 people listed in the Team section of the About page (Leadership Team, AI, Nuclear Weapons Policy, Advisory, Operations, Founder; people appearing in multiple sections counted once); Natalie Cargill is listed only as Founder with no operating title; the 3-person Advisory Board excluded; leadership = the explicit Leadership Team group.",
+  "people": [
+    {
+      "name": "Simran Dhaliwal",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Katie Hearsum",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Alysha Glenn",
+      "title": "Chief Partnerships Officer",
+      "leadership": true
+    },
+    {
+      "name": "Michael Aird",
+      "title": "AI Program Director",
+      "leadership": true
+    },
+    {
+      "name": "Ruby Emerson",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Suryansh Mehta",
+      "title": "Chief of Staff, AI Program",
+      "leadership": false
+    },
+    {
+      "name": "Zach Freitas-Groff",
+      "title": "AI Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ben Stewart",
+      "title": "AI Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ajay Karpur",
+      "title": "AI Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Will Hodgkins",
+      "title": "AI Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Harrison Gietz",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kendrea Beers",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Austin Smith",
+      "title": "AI Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Luke Marks",
+      "title": "AI Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Carl Robichaud",
+      "title": "Nuclear Weapons Policy Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Matthew Gentzel",
+      "title": "Nuclear Weapons Policy Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Max Hoell",
+      "title": "Senior Nuclear Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Shane Ward",
+      "title": "Nuclear Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Dylan Mitchell",
+      "title": "Director of Development Operations",
+      "leadership": false
+    },
+    {
+      "name": "Debbie Kim",
+      "title": "Development Officer",
+      "leadership": false
+    },
+    {
+      "name": "Mariam Kvaratskhelia",
+      "title": "Research & Content Manager",
+      "leadership": false
+    },
+    {
+      "name": "Alexis Harrell",
+      "title": "Development Associate",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Player",
+      "title": "Head of Grants Management & Compliance",
+      "leadership": false
+    },
+    {
+      "name": "Will Sherman",
+      "title": "Grants & Compliance Director",
+      "leadership": false
+    },
+    {
+      "name": "Isabella Velez",
+      "title": "Grants & Compliance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ruth Wallis",
+      "title": "People Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Lori Falcon",
+      "title": "People Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kaymin Martin-Burnett",
+      "title": "Business Operations Director",
+      "leadership": false
+    },
+    {
+      "name": "Rishane Dassanayake",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Dishita Shah",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kate Van Horn",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Natalie Cargill",
+      "title": "Founder",
+      "leadership": false
+    }
+  ]
+}

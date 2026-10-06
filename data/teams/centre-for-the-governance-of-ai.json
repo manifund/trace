@@ -1,0 +1,285 @@
+{
+  "slug": "centre-for-the-governance-of-ai",
+  "website": "https://www.governance.ai/",
+  "sourceUrl": "https://www.governance.ai/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 55,
+  "headcountNote": "55 people listed under Team (leadership, research fellows, 14 research scholars, one visiting fellow, and admin/support staff); Affiliates, Adjunct Fellows and Board excluded; 'Nathan T.' is shown that way on the site; no stated staff count.",
+  "people": [
+    {
+      "name": "Ben Garfinkel",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Georg Arndt",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Markus Anderljung",
+      "title": "Director of Policy and Research",
+      "leadership": true
+    },
+    {
+      "name": "Valerie Belu",
+      "title": "Director of Talent",
+      "leadership": true
+    },
+    {
+      "name": "Abraham Rowe",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Robert Trager",
+      "title": "International Governance Lead",
+      "leadership": true
+    },
+    {
+      "name": "Noemi Dreksler",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jonas Freund",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Sam Manning",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "John Halstead",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Alan Chan",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Sophie Williams",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Matthew van der Merwe",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Rebecca Hersman",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Bhuvana Sudarshan",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Zaheed Kara",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Jake Steckler",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Pablo Villalobos",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Karthik Tadepalli",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Zachary Bernstein",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Michela Barbieri",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Edward Foley",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Wei",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Hanna Palya",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Cheryl Wu",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Tomás Aguirre",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Zilan Qian",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Alex Leonidou",
+      "title": "Visiting Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Martin Fukui",
+      "title": "Head of DC Fellowship",
+      "leadership": false
+    },
+    {
+      "name": "Verena Heusser",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michael Bennett",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nicole Wong",
+      "title": "Research Manager Associate",
+      "leadership": false
+    },
+    {
+      "name": "Aquila Hassan",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Will Taylor",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Elias Groll",
+      "title": "Senior Research Editor",
+      "leadership": false
+    },
+    {
+      "name": "Miro Plueckebaum",
+      "title": "Program Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Emily Moore",
+      "title": "General Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Paul Harding",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Charlie Giattino",
+      "title": "Communications Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Daniela Waldhorn",
+      "title": "Talent Systems Manager",
+      "leadership": false
+    },
+    {
+      "name": "John Drummond",
+      "title": "Talent Systems Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Madeleine Ruwitch",
+      "title": "Hiring Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Natasha Martemianova",
+      "title": "Hiring Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Anastacia Button-Gentry",
+      "title": "People Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Joelle Lewis",
+      "title": "People Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Isha Paik",
+      "title": "Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Leia Wang",
+      "title": "Project Management Associate",
+      "leadership": false
+    },
+    {
+      "name": "Nick Hollman",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lorienne Doyle-Maw",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Robyn Seabrook",
+      "title": "Executive Assistant to the Director",
+      "leadership": false
+    },
+    {
+      "name": "Romina Wojcik",
+      "title": "Executive Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Lloyd",
+      "title": "Executive Support Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Anamaria Puscas",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Nathan T.",
+      "title": "Office Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jasmine Lever",
+      "title": "Community Associate",
+      "leadership": false
+    }
+  ]
+}

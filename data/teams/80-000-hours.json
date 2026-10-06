@@ -1,0 +1,290 @@
+{
+  "slug": "80-000-hours",
+  "website": "https://80000hours.org/",
+  "sourceUrl": "https://80000hours.org/about/meet-the-team/",
+  "checkedAt": "2026-10-06",
+  "headcount": 56,
+  "headcountNote": "56 staff: 55 listed under Staff plus Benjamin Todd (President and Co-founder) from the Founders section; Will MacAskill (Co-founder, no operating title), board and external advisors excluded; 'Advisor' titles are career-advising staff; no stated staff count.",
+  "people": [
+    {
+      "name": "Niel Bowerman",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Benjamin Todd",
+      "title": "President and Co-founder",
+      "leadership": true
+    },
+    {
+      "name": "Aaron Gertler",
+      "title": "Deputy Editor",
+      "leadership": false
+    },
+    {
+      "name": "Ailbhe Treacy",
+      "title": "Outreach Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Alice De Gennaro",
+      "title": "Chief of Staff for the Finance & Governance Team",
+      "leadership": false
+    },
+    {
+      "name": "Aric Floyd",
+      "title": "Associate Video Producer",
+      "leadership": false
+    },
+    {
+      "name": "Ashley Meader",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Avital Morris",
+      "title": "Writer",
+      "leadership": false
+    },
+    {
+      "name": "Balázs Rapi",
+      "title": "Legal & Governance Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Becky Rolapp",
+      "title": "Project Associate, Office of the CEO",
+      "leadership": false
+    },
+    {
+      "name": "Bella Forristal",
+      "title": "Director of Growth",
+      "leadership": true
+    },
+    {
+      "name": "Brenton Mayer",
+      "title": "Director of Special Projects",
+      "leadership": true
+    },
+    {
+      "name": "Brian Tan",
+      "title": "Headhunting Product Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Carrick Flynn",
+      "title": "Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Chana Messinger",
+      "title": "Head of Video",
+      "leadership": false
+    },
+    {
+      "name": "Conor Barnes",
+      "title": "Job Board Product Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Dominic Armstrong",
+      "title": "Production Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Eirin Evjen",
+      "title": "People Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Eli Nathan",
+      "title": "Head of Business Operations",
+      "leadership": false
+    },
+    {
+      "name": "Eve McCormick",
+      "title": "Chief of Staff for the Studio Team",
+      "leadership": false
+    },
+    {
+      "name": "Huon Porteous",
+      "title": "Director of Career Services",
+      "leadership": true
+    },
+    {
+      "name": "Huw Thomas",
+      "title": "Headhunting Lead",
+      "leadership": false
+    },
+    {
+      "name": "Katy Moore",
+      "title": "Studio Team Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Inés Fernandez",
+      "title": "Recruiting Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jenna Peters",
+      "title": "Chief of Staff for the Career Services Team",
+      "leadership": false
+    },
+    {
+      "name": "Jess Binksmith",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jørgen Ljønes",
+      "title": "Head of Finance & Governance",
+      "leadership": false
+    },
+    {
+      "name": "JP Addison",
+      "title": "AI Product Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Laura González Salmerón",
+      "title": "Advising Manager",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Kuhns",
+      "title": "Web Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Lou Moran",
+      "title": "Studio Team Associate",
+      "leadership": false
+    },
+    {
+      "name": "Louise Verkin",
+      "title": "Programme Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Luca De Leo",
+      "title": "Product Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Lucia De Santis",
+      "title": "Recruiting Associate",
+      "leadership": false
+    },
+    {
+      "name": "Luisa Rodriguez",
+      "title": "Host",
+      "leadership": false
+    },
+    {
+      "name": "Maris Sala",
+      "title": "Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Matt Beard",
+      "title": "Writer",
+      "leadership": false
+    },
+    {
+      "name": "Michelle Hutchinson",
+      "title": "Director of Studio and Strategy",
+      "leadership": true
+    },
+    {
+      "name": "Milo McGuire",
+      "title": "Production Associate",
+      "leadership": false
+    },
+    {
+      "name": "Molly Webb",
+      "title": "People Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Nadia Montazeri",
+      "title": "Strategic Projects Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Nick Stockton",
+      "title": "Producer",
+      "leadership": false
+    },
+    {
+      "name": "Nik Mastroddi",
+      "title": "Marketing Lead",
+      "leadership": false
+    },
+    {
+      "name": "Phoebe Brooks",
+      "title": "Writer & Creative Producer",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Villa",
+      "title": "Content Associate",
+      "leadership": false
+    },
+    {
+      "name": "Rob Wiblin",
+      "title": "Founder and Host of the 80,000 Hours Podcast",
+      "leadership": false
+    },
+    {
+      "name": "Sage Bergerson",
+      "title": "Video Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sam Haskell",
+      "title": "Systems Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Cheng",
+      "title": "Product Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Sashika Coxhead",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Sudhanshu Kasewa",
+      "title": "Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Tom Reed",
+      "title": "Host",
+      "leadership": false
+    },
+    {
+      "name": "Valerie Richmond",
+      "title": "Principal Web Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Brook",
+      "title": "Strategic Growth Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Zershaaneh Qureshi",
+      "title": "Host",
+      "leadership": false
+    },
+    {
+      "name": "Ziya Huang",
+      "title": "People Operations Lead",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "ea-funds",
+  "website": "https://funds.effectivealtruism.org/",
+  "sourceUrl": "https://funds.effectivealtruism.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 8,
+  "headcountNote": "8 named people on the team page (1 EA Funds core team member plus 7 fund managers across four funds, many part-time or based at other orgs); 9 fund advisors excluded and 'GiveWell staff' listed as GHDF managers without names.",
+  "people": [
+    {
+      "name": "Loïc Watine",
+      "title": "Director, EA Funds",
+      "leadership": true
+    },
+    {
+      "name": "Karolina Sarek",
+      "title": "Director, Animal Welfare Fund",
+      "leadership": false
+    },
+    {
+      "name": "Neil Dullaghan",
+      "title": "Senior Program Officer, Animal Welfare Fund",
+      "leadership": false
+    },
+    {
+      "name": "Zoë Sigle",
+      "title": "Senior Program Officer, Animal Welfare Fund",
+      "leadership": false
+    },
+    {
+      "name": "Renata Scarellis",
+      "title": "Fund Manager, Animal Welfare Fund",
+      "leadership": false
+    },
+    {
+      "name": "Jamie Harris",
+      "title": "Fund Manager, EA Infrastructure Fund",
+      "leadership": false
+    },
+    {
+      "name": "Elie Hassenfeld",
+      "title": "Fund Chair, Global Health and Development Fund",
+      "leadership": false
+    },
+    {
+      "name": "Lowe Lundin",
+      "title": "Head of Fund, Transformative AI Fund",
+      "leadership": false
+    }
+  ]
+}

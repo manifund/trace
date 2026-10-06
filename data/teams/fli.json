@@ -1,0 +1,220 @@
+{
+  "slug": "fli",
+  "website": "https://futureoflife.org/",
+  "sourceUrl": "https://futureoflife.org/about-us/our-people/",
+  "checkedAt": "2026-10-06",
+  "headcount": 42,
+  "headcountNote": "42 staff listed across the Executive Director, Policy, Futures, Communications and Operations & Grants sections; the Our Board section (5, incl. Max Tegmark and Jaan Tallinn) excluded; leadership = CEO plus the head of each department.",
+  "people": [
+    {
+      "name": "Anthony Aguirre",
+      "title": "President and CEO",
+      "leadership": true
+    },
+    {
+      "name": "Mark Brakel",
+      "title": "Global Director of Policy",
+      "leadership": true
+    },
+    {
+      "name": "Alexandra Tsalidis",
+      "title": "State Engagement Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Ann Deer",
+      "title": "UN Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "Anna Hehir",
+      "title": "Head of Military AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Ashima Singh",
+      "title": "Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Dalia Hashad",
+      "title": "Chief State Affairs Officer",
+      "leadership": false
+    },
+    {
+      "name": "David Atkinson",
+      "title": "Legal Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Éle Donegan",
+      "title": "Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Eliška Andrš",
+      "title": "Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Hamza Chaudhry",
+      "title": "AI and National Security Lead",
+      "leadership": false
+    },
+    {
+      "name": "Imane Bello",
+      "title": "Multilateral Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "James Petrie",
+      "title": "Compute Security and Governance Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jason Van Beek",
+      "title": "Chief Government Affairs Officer",
+      "leadership": false
+    },
+    {
+      "name": "José Jaime Villalobos",
+      "title": "Multilateral Governance Lead",
+      "leadership": false
+    },
+    {
+      "name": "Mark Allworthy",
+      "title": "Middle East Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Michael Kleinman",
+      "title": "Head of U.S. Policy",
+      "leadership": false
+    },
+    {
+      "name": "Oliver Ritchie",
+      "title": "UK Policy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Richard Mallah",
+      "title": "Principal AI Safety Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Risto Uuk",
+      "title": "Head of European Policy and Research",
+      "leadership": false
+    },
+    {
+      "name": "Sabina Nong",
+      "title": "AI Safety Investigator",
+      "leadership": false
+    },
+    {
+      "name": "Scott Choi",
+      "title": "Korea Representative",
+      "leadership": false
+    },
+    {
+      "name": "Wes McEnany",
+      "title": "Labor Outreach and Coalition Builder",
+      "leadership": false
+    },
+    {
+      "name": "Yannick Muehlhaeuser",
+      "title": "Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Emilia Javorsky",
+      "title": "Director, Futures Program",
+      "leadership": true
+    },
+    {
+      "name": "Anna Yelizarova",
+      "title": "Special Projects Lead",
+      "leadership": false
+    },
+    {
+      "name": "Brian J. A. Boyd",
+      "title": "U.S. Faith Liaison",
+      "leadership": false
+    },
+    {
+      "name": "William Jones",
+      "title": "Associate, Futures Program",
+      "leadership": false
+    },
+    {
+      "name": "Ben Cumming",
+      "title": "Communications Director",
+      "leadership": true
+    },
+    {
+      "name": "Andrew Shanahan",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Chase Hardin",
+      "title": "US Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Elyse Fulcher",
+      "title": "Designer",
+      "leadership": false
+    },
+    {
+      "name": "Gus Docker",
+      "title": "Podcast Host & Director",
+      "leadership": false
+    },
+    {
+      "name": "Maggie Munro",
+      "title": "Communications Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Taylor Jones",
+      "title": "Design & Web Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ben Eisenpress",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Andrea Berman",
+      "title": "Grants Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ines Lee",
+      "title": "Impact Evaluator",
+      "leadership": false
+    },
+    {
+      "name": "Josie Antona",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Lotte Gleeson",
+      "title": "People Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Margaret Goyette",
+      "title": "Head of Finance",
+      "leadership": false
+    },
+    {
+      "name": "Mike Brozowski",
+      "title": "Operations Specialist",
+      "leadership": false
+    }
+  ]
+}

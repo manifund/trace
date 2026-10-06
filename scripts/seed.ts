@@ -254,6 +254,26 @@ async function mergeOrg(fromId: string, toId: string, name: string, why = 'provi
       .throwOnError()
     console.log(`Cleared ${selfSponsored!.length} self-sponsorship(s) on ${toId}`)
   }
+  // Team rows cascade-delete with their org: keep the winner's team if it has
+  // one, otherwise adopt the loser's; staff names already on the winner drop.
+  const { data: winnerTeam } = await db
+    .from('org_teams')
+    .select('org_id')
+    .eq('org_id', toId)
+    .maybeSingle()
+    .throwOnError()
+  if (winnerTeam) {
+    await db.from('org_teams').delete().eq('org_id', fromId).throwOnError()
+    await db.from('org_people').delete().eq('org_id', fromId).throwOnError()
+  } else {
+    await db.from('org_teams').update({ org_id: toId }).eq('org_id', fromId).throwOnError()
+    await db.from('org_people').update({ org_id: toId }).eq('org_id', fromId).throwOnError()
+  }
+  await db
+    .from('org_people')
+    .update({ person_org_id: toId })
+    .eq('person_org_id', fromId)
+    .throwOnError()
   // Reviews cascade-delete with their org, so move them first.
   await db.from('org_reviews').update({ org_id: toId }).eq('org_id', fromId).throwOnError()
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()

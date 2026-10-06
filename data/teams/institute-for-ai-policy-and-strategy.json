@@ -1,0 +1,185 @@
+{
+  "slug": "institute-for-ai-policy-and-strategy",
+  "website": "https://www.iaps.ai/",
+  "sourceUrl": "https://www.iaps.ai/our-team",
+  "checkedAt": "2026-10-06",
+  "headcount": 35,
+  "headcountNote": "35 staff listed on the team page (Leadership, research area leads, researchers, policy/programs and operations staff); 4 board members, 1 advisor and 3 affiliates excluded.",
+  "people": [
+    {
+      "name": "Jennifer Marron",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Renan Araujo",
+      "title": "Director of Programs",
+      "leadership": true
+    },
+    {
+      "name": "Amanda El-Dakhakhni",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Matthew Fargo",
+      "title": "Head of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Leigh Nolan",
+      "title": "Policy Director",
+      "leadership": true
+    },
+    {
+      "name": "Zoe Williams",
+      "title": "Managing Director",
+      "leadership": true
+    },
+    {
+      "name": "Onni Aarne",
+      "title": "Research Lead, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Diego Duchi",
+      "title": "Associate Director, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Karson Elmgren",
+      "title": "Research Manager, International Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Brianna Rosen",
+      "title": "Research Director, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Nick Yap",
+      "title": "Deputy Director, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Bill Anderson-Samways",
+      "title": "Senior Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Dave Banerjee",
+      "title": "Researcher, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Theo Bearman",
+      "title": "Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Christopher Covino",
+      "title": "Senior Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Godek",
+      "title": "Researcher, International Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Erich Grunewald",
+      "title": "Senior Researcher, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Cassia King",
+      "title": "Senior Researcher, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Clarissa Koh",
+      "title": "Researcher, International Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Jam Kraprayoon",
+      "title": "Senior Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Cara Labrador",
+      "title": "Senior Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Hamish Low",
+      "title": "Research Associate, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Sambhav Maheshwari",
+      "title": "Research Associate, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Matthew Mittelsteadt",
+      "title": "Senior Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Joe O'Brien",
+      "title": "Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Lara Thurnherr",
+      "title": "Researcher, Compute Policy",
+      "leadership": false
+    },
+    {
+      "name": "Jan Wehner",
+      "title": "Researcher, Frontier Security",
+      "leadership": false
+    },
+    {
+      "name": "Neena Dhillon",
+      "title": "Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Arushi Gupta",
+      "title": "Programs Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kelsey Henquinet",
+      "title": "Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ruby Qiu",
+      "title": "Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sam Robinson",
+      "title": "Senior Programs Associate",
+      "leadership": false
+    },
+    {
+      "name": "Mustafa Zahid",
+      "title": "Senior Programs Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Gillis",
+      "title": "Finance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Lydia Henning",
+      "title": "Operations Coordinator",
+      "leadership": false
+    }
+  ]
+}

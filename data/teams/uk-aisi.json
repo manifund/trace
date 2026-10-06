@@ -1,0 +1,30 @@
+{
+  "slug": "uk-aisi",
+  "website": "https://www.aisi.gov.uk/",
+  "sourceUrl": "https://www.aisi.gov.uk/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 100,
+  "headcountNote": "Site states '100+ technical staff' on the About page (no staff directory); only the four named executives are listed here; Ian Hogarth (Chair) and Yoshua Bengio (advisory board) excluded as governance/advisory.",
+  "people": [
+    {
+      "name": "Henry de Zoete",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Jade Leung",
+      "title": "Chief Technology Officer",
+      "leadership": true
+    },
+    {
+      "name": "Nate Burnikell",
+      "title": "Chief Strategy Officer",
+      "leadership": true
+    },
+    {
+      "name": "Chris Summerfield",
+      "title": "Research Director",
+      "leadership": true
+    }
+  ]
+}

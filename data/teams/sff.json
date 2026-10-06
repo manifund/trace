@@ -1,0 +1,25 @@
+{
+  "slug": "sff",
+  "website": "https://survivalandflourishing.fund/",
+  "sourceUrl": "https://survivalandflourishing.fund/",
+  "checkedAt": "2026-10-06",
+  "headcount": 3,
+  "headcountNote": "The SFF site has no team page; it names three 'SFF Advisors' who operate the fund (Ethan Ashkie as President & CEO of Survival and Flourishing Corp, which runs SFF's software and operations), so headcount is these 3; funder Jaan Tallinn, co-funders and the rotating anonymous grant recommenders are excluded.",
+  "people": [
+    {
+      "name": "Andrew Critch",
+      "title": "SFF Advisor",
+      "leadership": true
+    },
+    {
+      "name": "Eric Rogstad",
+      "title": "SFF Advisor",
+      "leadership": true
+    },
+    {
+      "name": "Ethan Ashkie",
+      "title": "SFF Advisor; President & CEO, Survival and Flourishing Corp",
+      "leadership": true
+    }
+  ]
+}

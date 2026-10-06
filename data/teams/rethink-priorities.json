@@ -1,0 +1,290 @@
+{
+  "slug": "rethink-priorities",
+  "website": "https://www.rethinkpriorities.org",
+  "sourceUrl": "https://www.rethinkpriorities.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 56,
+  "headcountNote": "56 unique staff listed on the team page across the Leadership and Executive Team group and all department sections (people appearing in several sections counted once); 7 non-staff board members excluded.",
+  "people": [
+    {
+      "name": "Marcus A. Davis",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Kieran Greig",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Carolyn Footitt",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Peter Wildeford",
+      "title": "Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "David Moss",
+      "title": "Principal Research Director",
+      "leadership": true
+    },
+    {
+      "name": "Samuel Hilton",
+      "title": "Acting Director of Animal Welfare",
+      "leadership": true
+    },
+    {
+      "name": "Abbie Clare",
+      "title": "Interim Director of Global Health and Development",
+      "leadership": true
+    },
+    {
+      "name": "Jonathan Nelson",
+      "title": "Head of Communications and Development",
+      "leadership": true
+    },
+    {
+      "name": "Carmen van Schoubroeck",
+      "title": "Head of Executive Office",
+      "leadership": true
+    },
+    {
+      "name": "William McAuliffe",
+      "title": "Senior Research Manager III",
+      "leadership": false
+    },
+    {
+      "name": "Samara Mendez",
+      "title": "Senior Economist",
+      "leadership": false
+    },
+    {
+      "name": "Sagar Shah",
+      "title": "Senior Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Sophie Williamson",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Xia",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Rey Edison",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Alyse Spiehler",
+      "title": "Talent Program & Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jacob Schmiess",
+      "title": "Economist",
+      "leadership": false
+    },
+    {
+      "name": "Tom Vargas",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jenny Kudymowa",
+      "title": "Senior Researcher II",
+      "leadership": false
+    },
+    {
+      "name": "Jerome Mayaud",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Britta Jewell",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Rory Todd",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "John Firth",
+      "title": "Senior Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Jamie Elsey",
+      "title": "Senior Research Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Hayley Clatterbuck",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Bob Fischer",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Arvo Muñoz Morán",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Laura Duffy",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jon Temin",
+      "title": "Research Lead: Democratic Resilience",
+      "leadership": false
+    },
+    {
+      "name": "Benjamin Tereick",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Angela Aristizabal",
+      "title": "External Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jim Buhler",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Vahit Kutluer",
+      "title": "Measurement and Evaluation Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Evelyn Morris",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Lisette Reuvers",
+      "title": "Project Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Gracey",
+      "title": "AI Strategy Program Leader",
+      "leadership": false
+    },
+    {
+      "name": "Kieran Keohane",
+      "title": "AI Strategy Team Lead",
+      "leadership": false
+    },
+    {
+      "name": "Arifa Abbas",
+      "title": "Senior Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Eda Arpacı",
+      "title": "Senior Talent Acquisition Lead",
+      "leadership": false
+    },
+    {
+      "name": "Hannah Balbon",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Courtney Brink",
+      "title": "Head of People and Culture",
+      "leadership": false
+    },
+    {
+      "name": "Jessika Mendez-Reppucci",
+      "title": "Controller",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Negris-Mamani",
+      "title": "Senior Financial Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Elisa Autric",
+      "title": "Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Janique Behman",
+      "title": "Senior Development Manager",
+      "leadership": false
+    },
+    {
+      "name": "Whitney Childs",
+      "title": "Senior Development Officer",
+      "leadership": false
+    },
+    {
+      "name": "Maja Nenadov Webster",
+      "title": "Communications Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Hannah Tookey",
+      "title": "Development Lead",
+      "leadership": false
+    },
+    {
+      "name": "Urszula Zarosa",
+      "title": "Senior Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Aély Haccoun",
+      "title": "Senior Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Amy Jehan",
+      "title": "Special Projects Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lara La Barbera",
+      "title": "Special Projects Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sydney Logozzo",
+      "title": "Special Projects Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Neilon",
+      "title": "Special Projects Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nikhil Saukhla",
+      "title": "Special Projects Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Benjamin Shenouda",
+      "title": "Special Projects Associate",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "slug": "securebio",
+  "website": "https://securebio.org/",
+  "sourceUrl": "https://securebio.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 56,
+  "headcountNote": "56 current members listed on the team page (Leadership, AI, Detection, Operations); 4 board members and 19 past members excluded.",
+  "people": [
+    {
+      "name": "Ben Mueller",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Jasper Götting",
+      "title": "Director, AI",
+      "leadership": true
+    },
+    {
+      "name": "Jeff Kaufman",
+      "title": "Director of Detection",
+      "leadership": true
+    },
+    {
+      "name": "Alvaro Morales",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Will Bradshaw",
+      "title": "Head of Computational Programs",
+      "leadership": true
+    },
+    {
+      "name": "Aaron Maiwald",
+      "title": "Graduate Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Allison Jia",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Becca Chandler Bostock",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Bryce Cai",
+      "title": "Senior Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Coleman Breen",
+      "title": "Head of AI Policy",
+      "leadership": false
+    },
+    {
+      "name": "Eleanor Marshall",
+      "title": "Head of Applied Research",
+      "leadership": false
+    },
+    {
+      "name": "Emma Dolan",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Faith Rovenolt",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Geetha Jeyapragasan",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jacob Kaffey",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Jake Yukich",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Jon Sanders",
+      "title": "Head of Foundational Research",
+      "leadership": false
+    },
+    {
+      "name": "Mac Walker",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Nelly Mak",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Nils Justen",
+      "title": "Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Pedro Medeiros",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Peter Peneder",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Samira Nedungadi",
+      "title": "Head of Engineering",
+      "leadership": false
+    },
+    {
+      "name": "Seth Donoughe",
+      "title": "Senior Advisor on Research & Policy",
+      "leadership": false
+    },
+    {
+      "name": "Shiv Muthupandiyan",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Steven Merriel",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Abigail O'Connor",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Alessandro Zulli",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Cameron DeChristopher",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Chris Doering",
+      "title": "Genomic Biosecurity Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Dan Rice",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Derek Rothenheber",
+      "title": "Metagenomics Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Evan Fields",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Freddy Lee",
+      "title": "Senior Research Scientist, Molecular Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jake Lloyd",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "James Kremer",
+      "title": "Head of Laboratory Science",
+      "leadership": false
+    },
+    {
+      "name": "Jared Gurzenda",
+      "title": "Senior Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jo Faraguna",
+      "title": "Bioinformatics Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Katherine Stansifer",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Kelly Chafin",
+      "title": "Head of Biosecurity Response",
+      "leadership": false
+    },
+    {
+      "name": "Matt Benczkowski",
+      "title": "Associate Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Megan Hockman",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Michael Gomez",
+      "title": "Senior Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Mike McLaren",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Molly Devlin",
+      "title": "Associate Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Hershey",
+      "title": "Metagenomics Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Robert Gambee",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Róisín Floyd-O'Sullivan",
+      "title": "Associate Laboratory Manager",
+      "leadership": false
+    },
+    {
+      "name": "Russell Rollins",
+      "title": "Senior Cloud Infrastructure Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Siham Elhamoumi",
+      "title": "Head of Partnerships",
+      "leadership": false
+    },
+    {
+      "name": "Tanya Gonzalez-Garza",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Gerard Goucher",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jacqueline Chretien",
+      "title": "Communications Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Lane McAree",
+      "title": "Program and Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Mollie Koval",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nathan Maya",
+      "title": "Operations Specialist",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "slug": "coefficient-giving",
+  "website": "https://coefficientgiving.org/",
+  "sourceUrl": "https://coefficientgiving.org/about-us/team/",
+  "checkedAt": "2026-10-06",
+  "headcount": 209,
+  "headcountNote": "209 staff listed on the live team page (read in a browser; the site blocks plain fetches). Board chair Cari Tuna and a volunteer advisor excluded. Leadership = the page's Leadership group.",
+  "people": [
+    {
+      "name": "Alexander Berger",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Emily Oehlsen",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Otis Reid",
+      "title": "Executive Director, Global Health & Wellbeing",
+      "leadership": true
+    },
+    {
+      "name": "Derek Hopf",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Naina Bajekal",
+      "title": "Managing Director, Communications",
+      "leadership": true
+    },
+    {
+      "name": "Liz Givens",
+      "title": "Director of Partnerships",
+      "leadership": true
+    },
+    {
+      "name": "Caleb Watney",
+      "title": "Managing Director, Public Policy",
+      "leadership": true
+    },
+    {
+      "name": "David Teter",
+      "title": "Senior Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Graham Gottlieb",
+      "title": "Senior Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Chris Smith",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Larsen",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Aaron Roesch",
+      "title": "Strategy Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Surbhi Bharadwaj",
+      "title": "Strategy Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Ben West",
+      "title": "Partnerships Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Carly Brown",
+      "title": "Partnerships Associate",
+      "leadership": false
+    },
+    {
+      "name": "Carolina Jimenez",
+      "title": "Partnerships Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kirsten Mullin",
+      "title": "Partnerships Associate",
+      "leadership": false
+    },
+    {
+      "name": "Joe Wheeler",
+      "title": "Partnerships Associate",
+      "leadership": false
+    },
+    {
+      "name": "Hannah Yang",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Elbert Ventura",
+      "title": "Senior Editorial and Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Sharon Yang",
+      "title": "Senior Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Bryan Walsh",
+      "title": "Senior Writer and Editor",
+      "leadership": false
+    },
+    {
+      "name": "Britney Budiman",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Klemin",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Amanda Glassman",
+      "title": "Managing Director, Global Health and Development Policy",
+      "leadership": false
+    },
+    {
+      "name": "Rebca van de Ven",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Sam Donald",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Matt Clancy",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Alex Armlovich",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Jordan Dworkin",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Willow Latham-Proença",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Dylan Matthews",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Nisha Austin",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Santosh Harish",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Melanie Basnak",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Kearney Capuano",
+      "title": "Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lewis Bollard",
+      "title": "Managing Director",
+      "leadership": false
+    },
+    {
+      "name": "Amanda Hungerford",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Martin Gould",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Abhi Kumar",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Emma Nevo",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Harshdeep Singh",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Michelle Lavery",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Emily Massey",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "James Özden",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jia Li Leonard",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Julia Trabert",
+      "title": "Program Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Helena Bouchard",
+      "title": "Program Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Norma Altshuler",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Hetty Kovach",
+      "title": "Senior Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Adam Trowbridge",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Alex Honjiyo",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Margaret Andersen",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Justin Sandefur",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Rafael Latham-Proença",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Oliver Kim",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Noemi Schramm Ndao",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Tom Hird",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Giorgio Mariani",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ishita Batra",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "James Hu",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Anna Bershteyn",
+      "title": "Managing Director",
+      "leadership": false
+    },
+    {
+      "name": "Chris Somerville",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Heather Youngs",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Katharine Collins",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ray Kennedy",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Pete Gardner",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Aisling Leow",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Lydia Braunack-Mayer",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Douglas Chukwu Junior",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jenna Sternberg",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Rafael Dib",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sid Sharma",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jamie Simonson",
+      "title": "Program Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "James Snowden",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Deena Mousa",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Nic Lyon",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Philipp Kastrau",
+      "title": "Research Officer",
+      "leadership": false
+    },
+    {
+      "name": "Bas Sanders",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Felipe Doria",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Peter Hickman",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Vijay Kotecha",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Aveek Bhattacharya",
+      "title": "Strategy Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Seranne Motilal",
+      "title": "Strategy Fellow",
+      "leadership": false
+    },
+    {
+      "name": "George Rosenfeld",
+      "title": "Deputy Director",
+      "leadership": false
+    },
+    {
+      "name": "Darius Meissner",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Snyder-Beattie",
+      "title": "Managing Director",
+      "leadership": false
+    },
+    {
+      "name": "Conor McGurk",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "James Wagstaff",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Chris Bakerlee",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Christian Ruhl",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Fiona Conlon",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Adin Richards",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Aman Patel",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Eva Siegmann",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Damon Binder",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Constantin Arnscheidt",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Neha Singh",
+      "title": "Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Peter Favaloro",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Rossa O’Keeffe-O’Donovan",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Ben Bateman",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jake Mendel",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Max Nadeau",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Erin Robertson",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Matt MacDermott",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Aidan Ewart",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lucas Le Merlus Schmuck",
+      "title": "Program Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Luke Muehlhauser",
+      "title": "Managing Director",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Fugate",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Lawsen",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Samantha Wright",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ben Goldhaber",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Will Henshall",
+      "title": "Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Abbey Chaver",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Catherine Brewer",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Ed Williams",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Nick Gabrieli",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Miriam Hinthorn-Syed",
+      "title": "Program Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Matt Beard",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Pavan Chima",
+      "title": "Senior Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Zachary Atran",
+      "title": "Senior Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Ben Esche",
+      "title": "Interim Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Bastian Stern",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Asya Bergal",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "David Bernard",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Kasey Shibayama",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Liam Alexander",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Noah Topper",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Qurat Zainab",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jennifer Waldmann",
+      "title": "Program Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Claire Zabel",
+      "title": "Managing Director",
+      "leadership": false
+    },
+    {
+      "name": "Moritz von Knebel",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Max Daniel",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Michael Townsend",
+      "title": "Associate Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Tanae Rao",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Rohan Subramani",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Steven Veld",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Quincy Ponvert",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Stephanie Hill",
+      "title": "Head of People",
+      "leadership": false
+    },
+    {
+      "name": "Danny De La Torre",
+      "title": "Manager, Business Operations",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Gokhale",
+      "title": "Events Lead",
+      "leadership": false
+    },
+    {
+      "name": "Eddie Galvan",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Reese O’Craven",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Rochelle Jordan",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ruby Li",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Samantha Knee",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sara Takamatsu",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Shirley Higerd-Rusli",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Trevis Lipnicky",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Delaney Eisen",
+      "title": "Business Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Kate Lindsay",
+      "title": "Business Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Jake Schwarber",
+      "title": "Finance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Josephine Williams",
+      "title": "Finance Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Phillip Greene",
+      "title": "Finance Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Stacey Heras",
+      "title": "Finance Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jay Stevens",
+      "title": "Finance Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Alessandra Peters",
+      "title": "Manager, Grantmaking Operations",
+      "leadership": false
+    },
+    {
+      "name": "Dash Wieland",
+      "title": "Data Lead",
+      "leadership": false
+    },
+    {
+      "name": "Eddie Moore",
+      "title": "Grants Officer",
+      "leadership": false
+    },
+    {
+      "name": "Kate Pruitt",
+      "title": "Grants Officer",
+      "leadership": false
+    },
+    {
+      "name": "Catherine Zhang",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Glen Gordon",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Hafsa Ahmed",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Harry Lord",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ilva Ravinska",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jaclyn Marcatili",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Myron Krueger",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Steven Quispe",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sydney Bowman",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Zsofi Menyhei",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Luke Willey",
+      "title": "IT Lead",
+      "leadership": false
+    },
+    {
+      "name": "Travis Grabow",
+      "title": "IT Associate",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Kauffman",
+      "title": "IT Associate",
+      "leadership": false
+    },
+    {
+      "name": "Joseph Skonie",
+      "title": "Technical Project Associate",
+      "leadership": false
+    },
+    {
+      "name": "Molly Kovite",
+      "title": "General Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Tamara Garcia",
+      "title": "Senior Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Cath Rubenstein",
+      "title": "Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Binette",
+      "title": "Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Sam Scott",
+      "title": "Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Caroline Daniell",
+      "title": "Associate Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Gilad Seckler",
+      "title": "Legal Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Tracy Huynh",
+      "title": "Legal & Grants Operations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Evy Nyairo",
+      "title": "People Partner",
+      "leadership": false
+    },
+    {
+      "name": "Gabriella Plevin",
+      "title": "People Partner",
+      "leadership": false
+    },
+    {
+      "name": "Marie Cadelina",
+      "title": "People Partner",
+      "leadership": false
+    },
+    {
+      "name": "Nick Ravazzolo",
+      "title": "Senior People Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Annie Brandt",
+      "title": "People Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Arianna Bosio",
+      "title": "People Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Martin McDonald",
+      "title": "Business Immigration Associate",
+      "leadership": false
+    },
+    {
+      "name": "Brittanie Lewis",
+      "title": "Business Immigration Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kiana Snekcim-Shields",
+      "title": "Business Immigration Associate",
+      "leadership": false
+    },
+    {
+      "name": "Philip Zealley",
+      "title": "Recruiting Lead",
+      "leadership": false
+    },
+    {
+      "name": "Adam Kruger",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Angela Campbell",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Dara Homer",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Dominic Parr",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Evan Vandermeer",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Jeanne Chouchana",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Juliana Martins",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Shakeel Rahman",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Will Sorflaten",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Xaviera Steele",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Dee Kathuria",
+      "title": "Recruiting Consultant",
+      "leadership": false
+    },
+    {
+      "name": "Allison Blajda",
+      "title": "Interim Salesforce Lead",
+      "leadership": false
+    },
+    {
+      "name": "Kerry Holsinger",
+      "title": "Senior Administrator & Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Clement Chan",
+      "title": "Salesforce Administrator & Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Emily White",
+      "title": "Salesforce Administrator & Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kelly Pratt",
+      "title": "Salesforce Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Abie Rohrig",
+      "title": "Chief of Staff",
+      "leadership": false
+    }
+  ]
+}

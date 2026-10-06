@@ -1,0 +1,335 @@
+{
+  "slug": "centre-for-effective-altruism",
+  "website": "https://www.centreforeffectivealtruism.org",
+  "sourceUrl": "https://www.centreforeffectivealtruism.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 65,
+  "headcountNote": "65 staff listed on the team page across Office of the CEO, Events, Groups, Courses, Operations, Online, Community Health, Marketing & Communications, EA Funds and Strategy; no board shown; no explicit leadership group, so leadership = CEO, COO and the department Directors.",
+  "people": [
+    {
+      "name": "Zachary Robinson",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Angelina Li",
+      "title": "Deputy Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ayla Smith",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mirielle Pyram",
+      "title": "Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Amy Willey Labenz",
+      "title": "Director of Events",
+      "leadership": true
+    },
+    {
+      "name": "Arthur Malone",
+      "title": "EAGx Senior Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "David Solar",
+      "title": "EA Global Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Dion Tan",
+      "title": "EAGx Senior Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Jemima Jones",
+      "title": "AI Events Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Juan Federico Morel",
+      "title": "Senior Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kiran Sargent",
+      "title": "EA Global Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kiryl Shantyka",
+      "title": "EAGx Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Mihan Borhani",
+      "title": "Project Manager, AI Events",
+      "leadership": false
+    },
+    {
+      "name": "Niki Kesseler",
+      "title": "EAGx Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Nikolai Bjork",
+      "title": "Events Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Ollie Rodriguez",
+      "title": "AI Events Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Robert Harling",
+      "title": "Head of Events",
+      "leadership": false
+    },
+    {
+      "name": "Joris Pijpers",
+      "title": "Chief of Staff, Community Growth",
+      "leadership": false
+    },
+    {
+      "name": "Kennan McClung",
+      "title": "Groups Lead",
+      "leadership": false
+    },
+    {
+      "name": "Isobella Taylor",
+      "title": "Scalable Support Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "James Lester",
+      "title": "Pilot Universities Product Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Jamie Harris",
+      "title": "Courses Project Lead",
+      "leadership": false
+    },
+    {
+      "name": "Cian Mullarkey",
+      "title": "Virtual Programs Associate",
+      "leadership": false
+    },
+    {
+      "name": "Matt Hurst-Smith",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Kathleen Perell",
+      "title": "Chief of Staff, Operations",
+      "leadership": false
+    },
+    {
+      "name": "Ari Elkhatib",
+      "title": "Salesforce Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Asher Benter",
+      "title": "Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ander Morgan",
+      "title": "Salesforce Admin",
+      "leadership": false
+    },
+    {
+      "name": "Ariel Choi",
+      "title": "Senior Legal Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Becky Lang",
+      "title": "Grants Lead",
+      "leadership": false
+    },
+    {
+      "name": "Cole Varvel",
+      "title": "Head of Finance",
+      "leadership": false
+    },
+    {
+      "name": "Ellie Dunnigan",
+      "title": "People Operations Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Felipe Santos",
+      "title": "Finance Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Keighly Baron",
+      "title": "HR Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kale Ridsdale",
+      "title": "Recruiting Manager",
+      "leadership": false
+    },
+    {
+      "name": "Karina Wen",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Maria Lopes",
+      "title": "Senior Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Mariah Ventura",
+      "title": "People Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Max Shiffman",
+      "title": "Business Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Sam Gaffney",
+      "title": "Grants Associate",
+      "leadership": false
+    },
+    {
+      "name": "Shijia Huang",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Agnes Stenlund",
+      "title": "Senior Product Designer",
+      "leadership": false
+    },
+    {
+      "name": "Ollie Etherington",
+      "title": "Senior Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Toby Tremlett",
+      "title": "Senior Content Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Julia Wise",
+      "title": "Community Health Lead",
+      "leadership": false
+    },
+    {
+      "name": "Catherine Low",
+      "title": "Community Liaison",
+      "leadership": false
+    },
+    {
+      "name": "Charlotte Darnell",
+      "title": "Community Liaison",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Mannhart",
+      "title": "Community Liaison",
+      "leadership": false
+    },
+    {
+      "name": "Marta Strzyga",
+      "title": "Community Health Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Tess Newton-Palmer",
+      "title": "Director of Marketing and Communications",
+      "leadership": true
+    },
+    {
+      "name": "Eli Svoboda",
+      "title": "Communications Associate",
+      "leadership": false
+    },
+    {
+      "name": "Fran Barclay",
+      "title": "Media Relations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jacob Bauer",
+      "title": "Content Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jordan Pieters",
+      "title": "Podcast Producer",
+      "leadership": false
+    },
+    {
+      "name": "Madeleine Hazen",
+      "title": "Content and Campaigns Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Loïc Watine",
+      "title": "Director of EA Funds",
+      "leadership": true
+    },
+    {
+      "name": "Eleanor McAree",
+      "title": "Associate Program Officer, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Karolina Sarek",
+      "title": "Director, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Kristina Tkac",
+      "title": "Associate Chief of Staff, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Lowe Lundin",
+      "title": "Head of TAIF",
+      "leadership": false
+    },
+    {
+      "name": "Martijn Klop",
+      "title": "Senior Program Associate, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Neil Dullaghan",
+      "title": "Senior Program Officer, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Susan Halteman",
+      "title": "Director of Development, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Zoë Sigle",
+      "title": "Senior Program Officer, AWF",
+      "leadership": false
+    },
+    {
+      "name": "Alex Dial",
+      "title": "Growth Specialist",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "johns-hopkins-center-for-health-security",
+  "website": "http://www.centerforhealthsecurity.org/",
+  "sourceUrl": "https://centerforhealthsecurity.org/who-we-are/our-people",
+  "checkedAt": "2026-10-06",
+  "headcount": 34,
+  "headcountNote": "34 staff listed on the Our People page (Executive Officers, Senior Scholars, Policy Advisors, Associate Scholars, Fellows, Senior Analysts, Support Staff); Contributing Scholars (11), Advisors (2), doctoral students, founding/former directors excluded; academic degree suffixes dropped from names.",
+  "people": [
+    {
+      "name": "Tom Inglesby",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Anita Cicero",
+      "title": "Senior Strategic Advisor",
+      "leadership": true
+    },
+    {
+      "name": "Debora Sandiford",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Amesh Adalja",
+      "title": "Senior Scholar, Assistant Professor - Adjunct",
+      "leadership": false
+    },
+    {
+      "name": "Tara Kirk Sell",
+      "title": "Senior Scholar, Associate Professor",
+      "leadership": false
+    },
+    {
+      "name": "Jaspreet Pannu",
+      "title": "Senior Scholar, Assistant Professor",
+      "leadership": false
+    },
+    {
+      "name": "Alexandra L. Phelan",
+      "title": "Senior Scholar, Associate Professor",
+      "leadership": false
+    },
+    {
+      "name": "Caitlin Rivers",
+      "title": "Senior Scholar, Associate Professor",
+      "leadership": false
+    },
+    {
+      "name": "Erin M. Sorrell",
+      "title": "Senior Scholar, Associate Professor",
+      "leadership": false
+    },
+    {
+      "name": "Eric Toner",
+      "title": "Senior Scholar, Senior Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Crystal Watson",
+      "title": "Senior Scholar, Associate Professor",
+      "leadership": false
+    },
+    {
+      "name": "Dillon Leet",
+      "title": "AI and Biosecurity Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Ishan Mehta",
+      "title": "Senior Policy Advisor for Emerging Technology",
+      "leadership": false
+    },
+    {
+      "name": "Joel Straus",
+      "title": "Senior Policy Advisor for Preparedness and Response",
+      "leadership": false
+    },
+    {
+      "name": "Lucia Mullen",
+      "title": "Associate Scholar, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Matthew Shearer",
+      "title": "Associate Scholar, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kathryn O'Rourke",
+      "title": "Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Brianna Saunders",
+      "title": "Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Caitlin Walker",
+      "title": "Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Alanna Fogarty",
+      "title": "Senior Analyst, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Vanessa Grégoire",
+      "title": "Senior Analyst, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Aishwarya Nagar",
+      "title": "Managing Senior Analyst, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Madi Neufeld",
+      "title": "Senior Analyst, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Julia Cizek",
+      "title": "Website Administrator",
+      "leadership": false
+    },
+    {
+      "name": "Hannah Feeney",
+      "title": "Senior Program Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Kathleen Fox",
+      "title": "Director of Publications",
+      "leadership": false
+    },
+    {
+      "name": "Cagla Giray",
+      "title": "Communications Director",
+      "leadership": false
+    },
+    {
+      "name": "Zhenya Gnezdilova",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Lahn",
+      "title": "Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Andrea Lapp",
+      "title": "Director of Events",
+      "leadership": false
+    },
+    {
+      "name": "Tanna Liggins",
+      "title": "Senior Administrative Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Tommy O'Keefe",
+      "title": "Financial Manager",
+      "leadership": false
+    },
+    {
+      "name": "Field Sexton",
+      "title": "Senior Administrative Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Price Tyson",
+      "title": "Information Technology Director",
+      "leadership": false
+    }
+  ]
+}

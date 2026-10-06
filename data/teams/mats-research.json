@@ -1,0 +1,315 @@
+{
+  "slug": "mats-research",
+  "website": "https://www.matsprogram.org/",
+  "sourceUrl": "https://www.matsprogram.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 61,
+  "headcountNote": "61 staff listed across Leadership, UK Branch Leadership, Research, Program, Compute, Community and Operations teams; board of directors excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Ryan Kidd",
+      "title": "CEO & Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Christian Smith",
+      "title": "COO & Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Matthew Wearden",
+      "title": "Managing Director, UK",
+      "leadership": true
+    },
+    {
+      "name": "Maria Campbell",
+      "title": "Deputy Managing Director, UK",
+      "leadership": true
+    },
+    {
+      "name": "Laura Vaughan",
+      "title": "Research Director",
+      "leadership": false
+    },
+    {
+      "name": "Perusha Moodley",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Bryce Woodworth",
+      "title": "Research Management Regional Lead",
+      "leadership": false
+    },
+    {
+      "name": "Zohreh Shams",
+      "title": "Research Management Regional Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jeffrey Heninger",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jason Green-Lowe",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Elise Racine",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Keivan Navaie",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Claire Short",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Rich Barton-Cooper",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Maria Kostylew",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Patryk Wielopolski",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Cory Kendrick",
+      "title": "Chief of Staff to the Research Director",
+      "leadership": false
+    },
+    {
+      "name": "Chris Ackerman",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Skylar Shibayama",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Fred Bruford",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jinghua Ou",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Fred Parkwood",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Srija Chakraborty",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nayara Fonseca",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Tasos Spiliotopoulos",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ning Yang",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nate Delaney-Busch",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Eleni Angelou",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Katie Rimey",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Robyn Kozierok",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Thomas Morris",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Heera Sharma",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Tali Jona",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Miller",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Dhairya Dalal",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Maureen Ahmed",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Juan Gil",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Sanyu Rajakumar",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Bret Homer",
+      "title": "Program Talent Manager",
+      "leadership": false
+    },
+    {
+      "name": "Henning Bartsch",
+      "title": "Extension Lead",
+      "leadership": false
+    },
+    {
+      "name": "Raj Thimmiah",
+      "title": "Program Systems Associate",
+      "leadership": false
+    },
+    {
+      "name": "Will Kirby",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Iftekhar Uddin",
+      "title": "Compute Lead",
+      "leadership": false
+    },
+    {
+      "name": "Pratiksha Dange",
+      "title": "Compute Administrator",
+      "leadership": false
+    },
+    {
+      "name": "Ganesh Chandra",
+      "title": "Compute Administrator",
+      "leadership": false
+    },
+    {
+      "name": "Nathan Helm-Burger",
+      "title": "Compute Administrator",
+      "leadership": false
+    },
+    {
+      "name": "Jana Guraziu",
+      "title": "Community Lead",
+      "leadership": false
+    },
+    {
+      "name": "John Teichman",
+      "title": "Community Programs Officer",
+      "leadership": false
+    },
+    {
+      "name": "Nate Simmons",
+      "title": "Community Manager",
+      "leadership": false
+    },
+    {
+      "name": "Vivian Ha",
+      "title": "Community Manager",
+      "leadership": false
+    },
+    {
+      "name": "Roisin Morrison",
+      "title": "Community Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jim Chapman",
+      "title": "Operations Director",
+      "leadership": false
+    },
+    {
+      "name": "Kali Richards",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Joseph Lemien",
+      "title": "Business Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Sofia Surla",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Eric Dhan",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Jarrett Taylor",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Sam Houk",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Bella Saenz",
+      "title": "Junior Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "André Custodio",
+      "title": "Operations Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Michele McDuff",
+      "title": "Head of People",
+      "leadership": false
+    }
+  ]
+}

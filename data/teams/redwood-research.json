@@ -1,0 +1,120 @@
+{
+  "slug": "redwood-research",
+  "website": "https://www.redwoodresearch.org/",
+  "sourceUrl": "https://www.redwoodresearch.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 22,
+  "headcountNote": "22 people listed on the team page (executive, technical, and operations staff); board excluded. The staff lists are rendered client-side, so a plain HTML fetch misses them.",
+  "people": [
+    {
+      "name": "Buck Shlegeris",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Adam Kaufman",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Aryan Bhatt",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Oak Hu",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Mallen",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alexa Pan",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Julian Stastny",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Caspar Oesterheld",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Vivek Hebbar",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Aghyad Deeb",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Keshav Shenoy",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "James Lucassen",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Eric Gan",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Emery Cooper",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Kastner",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alek Westover",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Marshall Richards",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Sebastian Prasanna",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lukas Finnveden",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Linh Chi Nguyen",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Tyler Tracy",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jadyn Malone",
+      "title": "Generalist and Operations Staff",
+      "leadership": false
+    }
+  ]
+}

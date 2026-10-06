@@ -8,6 +8,7 @@ on:
       - 'data/curated/**'
       - 'data/coefficient-grants.json'
       - 'data/reviews/**'
+      - 'data/teams/**'
 
 concurrency: ingest
 
@@ -29,11 +30,14 @@ jobs:
       - run: bun install --frozen-lockfile
       - name: Ingest changed sources
         run: |
-          CHANGED=$(git diff --name-only HEAD^ HEAD -- data/curated data/coefficient-grants.json data/reviews)
+          CHANGED=$(git diff --name-only HEAD^ HEAD -- data/curated data/coefficient-grants.json data/reviews data/teams)
           echo "Changed: $CHANGED"
           {
             echo '## Ingested'
             echo '```'
+            if grep -q 'data/teams/' <<< "$CHANGED"; then
+              bun run scripts/ingest-teams.ts 2>&1 | tail -3
+            fi
             if grep -q 'data/reviews/' <<< "$CHANGED"; then
               bun run scripts/ingest-reviews.ts 2>&1 | tail -3
             fi

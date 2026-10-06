@@ -1,0 +1,95 @@
+{
+  "slug": "bluedot-impact",
+  "website": "https://bluedot.org/",
+  "sourceUrl": "https://bluedot.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 17,
+  "headcountNote": "17 team members in the About page's 'Our team' list (loaded client-side from /api/trpc/teamMembers.getAll); the page text says 'Our team of 16'. Leadership = the page's 'Leadership' subteam.",
+  "people": [
+    {
+      "name": "Alex Groth",
+      "title": "Head of Growth",
+      "leadership": false
+    },
+    {
+      "name": "Ben Lukszys",
+      "title": "Talent Investor",
+      "leadership": false
+    },
+    {
+      "name": "Bilal Chughtai",
+      "title": "Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Chris Strahle",
+      "title": "Biosecurity Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Cosima Axford",
+      "title": "People Ops",
+      "leadership": false
+    },
+    {
+      "name": "Dewi Erwan",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Eleni Kougioumtzi",
+      "title": "Course Systems Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Harry Waterman",
+      "title": "Special Projects",
+      "leadership": false
+    },
+    {
+      "name": "Joshua Landes",
+      "title": "Head of Special Projects",
+      "leadership": false
+    },
+    {
+      "name": "Li-Lian Ang",
+      "title": "Head of Courses",
+      "leadership": false
+    },
+    {
+      "name": "Lucas Duarte",
+      "title": "Head of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Nixon Hanna",
+      "title": "AGI Strategy Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Scharfman",
+      "title": "Talent Investor, Biosecurity",
+      "leadership": false
+    },
+    {
+      "name": "Sam Dower",
+      "title": "Technical AI Safety Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Tejas Subramaniam",
+      "title": "Field Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Weronika Żurek",
+      "title": "Operations & Community Manager",
+      "leadership": false
+    },
+    {
+      "name": "Will Saunter",
+      "title": "Co-Founder",
+      "leadership": true
+    }
+  ]
+}

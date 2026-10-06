@@ -1,0 +1,230 @@
+{
+  "slug": "far-ai",
+  "website": "https://far.ai",
+  "sourceUrl": "https://far.ai/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 44,
+  "headcountNote": "44 staff listed under Leadership, Executive Office, Operations, Technical Staff, Communications and Events & Programs; external Collaborators, Advisors and Board excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Adam Gleave",
+      "title": "Co-founder & CEO",
+      "leadership": true
+    },
+    {
+      "name": "Karl Berzins",
+      "title": "Co-Founder and President",
+      "leadership": true
+    },
+    {
+      "name": "Boston Nyer",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Edward Yee",
+      "title": "Chief Growth Officer",
+      "leadership": true
+    },
+    {
+      "name": "Lindsay Murachver",
+      "title": "Head of Programs",
+      "leadership": true
+    },
+    {
+      "name": "Jenn Thom",
+      "title": "Head of Engineering",
+      "leadership": true
+    },
+    {
+      "name": "Karolina Walęcik",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Magdalena Fitipaldi",
+      "title": "Executive Operations",
+      "leadership": false
+    },
+    {
+      "name": "Taylor Boyle",
+      "title": "Head of Finance",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Tuite",
+      "title": "Talent Partner",
+      "leadership": false
+    },
+    {
+      "name": "Melanie Sirisoma",
+      "title": "Business Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nick Louie",
+      "title": "Finance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Liz Ibarra",
+      "title": "Co-Working Space Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kenya Scott",
+      "title": "People Partner",
+      "leadership": false
+    },
+    {
+      "name": "Tom Tseng",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Tigist Diriba",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Sam Adam-Day",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rick Korzekwa",
+      "title": "Technical Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Oskar Hollinsworth",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mohammad Taufeeque",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lukas Struppek",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Levon Avagyan",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lars Yencken",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kellin Pelrine",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "James Collins",
+      "title": "Head of Research Acceleration",
+      "leadership": false
+    },
+    {
+      "name": "Jasper Timm",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Chris Cundy",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ann-Kathrin Dombrowski",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jason Koeller",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Matt Pallissard",
+      "title": "Infrastructure Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Mick Yang",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Grace Cheong",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Spies",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ziwei Xu",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Heather McIntyre",
+      "title": "Communications Principal",
+      "leadership": false
+    },
+    {
+      "name": "Isadora de Andrade",
+      "title": "Digital Media Manager",
+      "leadership": false
+    },
+    {
+      "name": "Oscar Mata",
+      "title": "Communications Design Lead",
+      "leadership": false
+    },
+    {
+      "name": "Al-Hussein Saqr",
+      "title": "Senior Programs & Strategy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Annie Lehman-Ludwig",
+      "title": "Senior Project Manager, Events",
+      "leadership": false
+    },
+    {
+      "name": "Helen Moser",
+      "title": "Programs & Partnerships Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jessica Lim",
+      "title": "Project Manager, Events",
+      "leadership": false
+    },
+    {
+      "name": "Hale Guyer",
+      "title": "Community Programs Manager",
+      "leadership": false
+    },
+    {
+      "name": "Kulraj Chavda",
+      "title": "Technical Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Frances Lorenz",
+      "title": "Project Manager",
+      "leadership": false
+    }
+  ]
+}

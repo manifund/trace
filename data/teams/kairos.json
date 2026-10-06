@@ -1,0 +1,90 @@
+{
+  "slug": "kairos",
+  "website": "https://kairos-project.org/",
+  "sourceUrl": "https://kairos-project.org/about/",
+  "checkedAt": "2026-10-06",
+  "headcount": 16,
+  "headcountNote": "16 people listed under 'Our team' on the About page (no separate /team page; /team is 404), including two contractors shown as team members; no board listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Agustín Covarrubias",
+      "title": "Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Neav Topaz",
+      "title": "Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Rebecca Baron",
+      "title": "Founding Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Antonia Boetsch",
+      "title": "Generalist (Programs)",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Kintana",
+      "title": "Generalist (Groups)",
+      "leadership": false
+    },
+    {
+      "name": "Jesse Gilbert",
+      "title": "Interim Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Sam Glendenning",
+      "title": "Head of Workshops",
+      "leadership": false
+    },
+    {
+      "name": "Rob Gledhill",
+      "title": "Head of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Helena Dias",
+      "title": "Senior Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Julian Moncarz",
+      "title": "Generalist (Talent Ops)",
+      "leadership": false
+    },
+    {
+      "name": "Bryan Sukidi",
+      "title": "Generalist (Talent Ops)",
+      "leadership": false
+    },
+    {
+      "name": "Andrés Cotton",
+      "title": "SPAR Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Aris Richardson",
+      "title": "Head of Generator",
+      "leadership": false
+    },
+    {
+      "name": "Ben Pomeranz",
+      "title": "Generalist (Strategy)",
+      "leadership": false
+    },
+    {
+      "name": "Skye Yi-Hardie",
+      "title": "Contract Generalist",
+      "leadership": false
+    },
+    {
+      "name": "Aryan Sharma",
+      "title": "Contract Software Engineer",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "blueprint-biosecurity",
+  "website": "https://www.blueprintbiosecurity.org/",
+  "sourceUrl": "https://www.blueprintbiosecurity.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 19,
+  "headcountNote": "19 people listed under 'Meet the Team', including one contractor and two fellows presented as team members; no board or advisors on the page; no stated staff count.",
+  "people": [
+    {
+      "name": "Jake Swett",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Siobhan Brenton",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Lesley Marling",
+      "title": "Chief of Staff to the COO",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Slaughter",
+      "title": "PPE Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Brian Renda",
+      "title": "Built Environment Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Sami Leonardo",
+      "title": "Communications Director",
+      "leadership": false
+    },
+    {
+      "name": "Miriam Rodgers",
+      "title": "Grants and Compliance Director",
+      "leadership": false
+    },
+    {
+      "name": "Stephen Martin",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Darryl Angel",
+      "title": "Glycol Vapors Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Carolyn McCoy",
+      "title": "Senior Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Alice Fine",
+      "title": "Operations and Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Kelsey Quinn",
+      "title": "Far-UVC Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Elisa Cink",
+      "title": "Respiratory Protection Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Cassie Collins",
+      "title": "Executive Assistant to the Executive Director",
+      "leadership": false
+    },
+    {
+      "name": "Corbie Phillips",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Joe Fortney",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Chanrith (Chan) Siv",
+      "title": "Built Environment Contractor",
+      "leadership": false
+    },
+    {
+      "name": "James Montavon",
+      "title": "Built Environment Program Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Lennart Justen",
+      "title": "Non-Resident Fellow",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "tarbell-center-for-ai-journalism",
+  "website": "https://www.tarbellcenter.org/",
+  "sourceUrl": "https://www.tarbellcenter.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 12,
+  "headcountNote": "12 people listed under 'The Tarbell Team' (tarbellfellowship.org now redirects to tarbellcenter.org); board of directors (3) and advisor (1) excluded; current fellows are not listed as staff.",
+  "people": [
+    {
+      "name": "Anna Gordon",
+      "title": "Senior Program Associate, Fellowship",
+      "leadership": false
+    },
+    {
+      "name": "Celia Ford",
+      "title": "Reporter, Transformer",
+      "leadership": false
+    },
+    {
+      "name": "Cillian Crosson",
+      "title": "Executive Director and President",
+      "leadership": true
+    },
+    {
+      "name": "Jasper Jackson",
+      "title": "Managing Editor, Transformer",
+      "leadership": false
+    },
+    {
+      "name": "Josh Turner",
+      "title": "Senior Program Associate, Fellowship",
+      "leadership": false
+    },
+    {
+      "name": "Libby Nelson",
+      "title": "Program Director, Fellowship",
+      "leadership": false
+    },
+    {
+      "name": "Oliver Kemp",
+      "title": "Head of Audience, Transformer",
+      "leadership": false
+    },
+    {
+      "name": "Sawyer Bernath",
+      "title": "Operations Director and Treasurer",
+      "leadership": true
+    },
+    {
+      "name": "Shakeel Hashim",
+      "title": "Editor, Transformer",
+      "leadership": false
+    },
+    {
+      "name": "Veronica Irwin",
+      "title": "Senior Policy Reporter, Transformer",
+      "leadership": false
+    },
+    {
+      "name": "Vincent Manancourt",
+      "title": "Program Director, Grants",
+      "leadership": false
+    },
+    {
+      "name": "Yi-Ling Liu",
+      "title": "Journalist in Residence",
+      "leadership": false
+    }
+  ]
+}

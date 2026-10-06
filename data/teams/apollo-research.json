@@ -1,0 +1,235 @@
+{
+  "slug": "apollo-research",
+  "website": "https://www.apolloresearch.ai/",
+  "sourceUrl": "https://www.apolloresearch.ai/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 45,
+  "headcountNote": "45 staff listed across the 4 paginated pages of the team page (12 per page via 'Load more'); the site's explicit Leadership group is the CEO, COO and Chief Governance Officer; no board or advisors listed.",
+  "people": [
+    {
+      "name": "Marius Hobbhahn",
+      "title": "CEO / Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Chris Akin",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Charlotte Stix",
+      "title": "Chief Governance Officer",
+      "leadership": true
+    },
+    {
+      "name": "Alexander Meinke",
+      "title": "Head of Research",
+      "leadership": false
+    },
+    {
+      "name": "Jérémy Scheurer",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rusheb Shah",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Matteo Pistillo",
+      "title": "Member of Governance Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alejandro Ortega",
+      "title": "Member of Governance Staff",
+      "leadership": false
+    },
+    {
+      "name": "Bronson Schoen",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Axel Højmark",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Andrei Matveiakin",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Felix Hofstätter",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Joping Chai",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Annika Hallensleben",
+      "title": "Member of Governance Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Lloyd",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Teun van der Weij",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Alex Kedryk",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Glen Rodgers",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Umar Akhtar",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Neiman",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jasvin Kaur",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mia Hopman",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Theodore Ehrenborg",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Zak Walters",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Dai",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Dylan Bowman",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Herbert Tanujaya",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jannes Elstner",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Victor Gillioz",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ezra Newman",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Srdjan Miletic",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Zen van Riel",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Monika Jotautaité",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Gustavo Bicalho",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Harry Day",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Paul Schindler",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Steven Lee",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nevan Wichers",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Joschka Braun",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Dawson Gooch",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Dmitrii Volkov",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ashley Eisenberg",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kate Uhlman",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Scott Steinhardt",
+      "title": "Member of Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Billy Gigurtsis",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    }
+  ]
+}

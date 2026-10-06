@@ -1,0 +1,280 @@
+{
+  "slug": "epoch-ai",
+  "website": "https://epoch.ai/",
+  "sourceUrl": "https://epoch.ai/about/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 54,
+  "headcountNote": "54 staff listed on the team page (Leadership, Senior Staff, Senior Researchers, Engineers, Researchers, Operations); Board of Directors (5) and Advisors (5) excluded; leadership = the explicit Leadership group (CEO/COO/CSO/CTO).",
+  "people": [
+    {
+      "name": "Jaime Sevilla",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "María de la Lama",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Yafah Edelman",
+      "title": "CSO",
+      "leadership": true
+    },
+    {
+      "name": "Bret Sepulveda",
+      "title": "CTO",
+      "leadership": true
+    },
+    {
+      "name": "Greg Burnham",
+      "title": "Head of Benchmarks",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Self",
+      "title": "Head of Web Development",
+      "leadership": false
+    },
+    {
+      "name": "Kyla Wills",
+      "title": "Head of People",
+      "leadership": false
+    },
+    {
+      "name": "David Owen",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jean-Stanislas Denain",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Anson Ho",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Ben Cottier",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Isabel Juniewicz",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Alexander Barry",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Campbell Hutcheson",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Phil Trammell",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Michelle Campeau",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Tom Adamczewski",
+      "title": "Senior Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Lee Bousfield",
+      "title": "Senior Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Giles Edkins",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Edu Roldán",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Souza",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Mustin",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Aidan Hendrickson",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Sviatoslav Shatunov",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "H. Ryan Jones",
+      "title": "Web Developer",
+      "leadership": false
+    },
+    {
+      "name": "Avery Yen",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Timothée Chauvin",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Benjamin Ou",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Josh You",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Luke Emberson",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Venkat Somala",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Caroline Falkman Olsson",
+      "title": "Researcher, Polling",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Carey",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Samuel Prieto",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Tara Abrishami",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jaeho Lee",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Kelly Hong",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Aiden Ament",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jason Li",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Lucio Melito",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Emilia Álvarez",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Radu Covaci",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Axel Campos",
+      "title": "Data Center Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Elliot Stewart",
+      "title": "Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Pablo Stafforini",
+      "title": "AI Enablement Manager",
+      "leadership": false
+    },
+    {
+      "name": "Ricardo Pimentel",
+      "title": "Business Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Casey Whitcomb",
+      "title": "Finance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Mélanie Girod",
+      "title": "Finance Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Isabel Johnson",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Jonah O'Connor",
+      "title": "Recruiter",
+      "leadership": false
+    },
+    {
+      "name": "Roman Coussement",
+      "title": "Special Projects Associate",
+      "leadership": false
+    },
+    {
+      "name": "Dmitriy Khripkov",
+      "title": "Special Projects Associate",
+      "leadership": false
+    },
+    {
+      "name": "Simon Chen",
+      "title": "Executive Associate",
+      "leadership": false
+    },
+    {
+      "name": "Matt Soens",
+      "title": "People Operations Associate",
+      "leadership": false
+    }
+  ]
+}

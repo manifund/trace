@@ -1,0 +1,255 @@
+{
+  "slug": "nuclear-threat-initiative",
+  "website": "https://www.nti.org/",
+  "sourceUrl": "https://www.nti.org/about/who-we-are/",
+  "checkedAt": "2026-10-06",
+  "headcount": 49,
+  "headcountNote": "49 people in the 'Leadership & Staff' tab of the Who We Are page (/about/people/ redirects here; read via browser because the site returns 403 to scripted fetches); Board of Directors, Emeritus Board, advisory groups, fellows, consultants and interns excluded. Leadership = President/CEO, COO, CFO and VPs.",
+  "people": [
+    {
+      "name": "Christine E. Wormuth",
+      "title": "President and CEO",
+      "leadership": true
+    },
+    {
+      "name": "Carmen E. MacDougall",
+      "title": "Chief Operating Officer and Senior Vice President",
+      "leadership": true
+    },
+    {
+      "name": "Amy C. Hargrett",
+      "title": "Chief Financial Officer, Treasurer, and Vice President",
+      "leadership": true
+    },
+    {
+      "name": "Paul Dean",
+      "title": "Vice President, Global Nuclear Policy Program",
+      "leadership": true
+    },
+    {
+      "name": "Mimi Hall",
+      "title": "Vice President, Communications",
+      "leadership": true
+    },
+    {
+      "name": "Jake Jordan",
+      "title": "Vice President, Global Biological Policy & Programs",
+      "leadership": true
+    },
+    {
+      "name": "Scott A. Roecker",
+      "title": "Vice President, Nuclear Materials Security",
+      "leadership": true
+    },
+    {
+      "name": "Hugh Sullivan",
+      "title": "Vice President of Development",
+      "leadership": true
+    },
+    {
+      "name": "Alex Tiersky",
+      "title": "Vice President, Government Relations",
+      "leadership": true
+    },
+    {
+      "name": "Mia Atkinson",
+      "title": "Development Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Keirstin Anderson",
+      "title": "Executive Assistant & Events Coordinator, Government Relations; Liaison, NTI Board of Directors",
+      "leadership": false
+    },
+    {
+      "name": "Jessica A. Bell",
+      "title": "On Intergovernmental Personnel Act (IPA) Appointment",
+      "leadership": false
+    },
+    {
+      "name": "Eric Brewer",
+      "title": "Deputy Vice President, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "Sophia Brown",
+      "title": "Program Officer, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "Greg Butchello",
+      "title": "Program Officer, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Cahill",
+      "title": "Senior Director, Communications",
+      "leadership": false
+    },
+    {
+      "name": "Amy Cole-Gibbons",
+      "title": "Senior Director for Grants and Contracts",
+      "leadership": false
+    },
+    {
+      "name": "Jason Conklin",
+      "title": "Accounting Manager",
+      "leadership": false
+    },
+    {
+      "name": "Gabrielle Essix",
+      "title": "Senior Program Officer, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Mary Olney Fulham",
+      "title": "Director, Communications",
+      "leadership": false
+    },
+    {
+      "name": "Tatiana Ghonda",
+      "title": "Controller",
+      "leadership": false
+    },
+    {
+      "name": "Cathy Gwin",
+      "title": "Senior Director, Communications",
+      "leadership": false
+    },
+    {
+      "name": "Toya Jackson",
+      "title": "Program Officer, Global Nuclear Policy Program",
+      "leadership": false
+    },
+    {
+      "name": "Patricia Jaworek",
+      "title": "Director, Global Nuclear Policy Program",
+      "leadership": false
+    },
+    {
+      "name": "Sara Kaufman",
+      "title": "Executive Assistant & Events Coordinator, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Laura Kiefer",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Amanda Krieger",
+      "title": "Development Officer",
+      "leadership": false
+    },
+    {
+      "name": "Valeria MacPhail",
+      "title": "Director, Office of the Honorable Sam Nunn",
+      "leadership": false
+    },
+    {
+      "name": "Ross Matzkin-Bridger",
+      "title": "Senior Director, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "Mark Melamed",
+      "title": "Deputy Vice President, Global Nuclear Policy Program",
+      "leadership": false
+    },
+    {
+      "name": "Logan Mintz",
+      "title": "Director, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "Therese Murphy",
+      "title": "Director of Development",
+      "leadership": false
+    },
+    {
+      "name": "Cheryl Nathan",
+      "title": "Senior Director of Human Resources",
+      "leadership": false
+    },
+    {
+      "name": "Annie Nelson",
+      "title": "Operations Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Nathan A. Paxton",
+      "title": "Senior Director, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Nickolas Roth",
+      "title": "Senior Director, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "Elise Rowan",
+      "title": "Deputy Vice President, Communications",
+      "leadership": false
+    },
+    {
+      "name": "Hayley Severance",
+      "title": "Deputy Vice President, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Scott Nolan Smith",
+      "title": "Senior Director, Communications",
+      "leadership": false
+    },
+    {
+      "name": "Elizabeth Smith",
+      "title": "Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Staley Grant",
+      "title": "Senior Director, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Emma Stevens",
+      "title": "Executive Assistant, Nuclear Materials Security",
+      "leadership": false
+    },
+    {
+      "name": "David Stiefel",
+      "title": "Director, Global Biological Policy and Programs",
+      "leadership": false
+    },
+    {
+      "name": "Valeria Valdes",
+      "title": "Staff Accountant",
+      "leadership": false
+    },
+    {
+      "name": "Cassandra Varanka",
+      "title": "Director of Legislative Affairs, Government Relations",
+      "leadership": false
+    },
+    {
+      "name": "Grace Wankelman",
+      "title": "Social Media Officer",
+      "leadership": false
+    },
+    {
+      "name": "Tammy T. Ware",
+      "title": "Human Resources Officer",
+      "leadership": false
+    },
+    {
+      "name": "Isabelle Williams",
+      "title": "Senior Director",
+      "leadership": false
+    },
+    {
+      "name": "Caressa Williams",
+      "title": "Executive Assistant and Events Coordinator, Communications",
+      "leadership": false
+    }
+  ]
+}

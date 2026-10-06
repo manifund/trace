@@ -308,6 +308,51 @@ export type Database = {
           },
         ]
       }
+      org_people: {
+        Row: {
+          id: string
+          leadership: boolean
+          name: string
+          org_id: string
+          person_org_id: string | null
+          sort_order: number
+          title: string | null
+        }
+        Insert: {
+          id?: string
+          leadership?: boolean
+          name: string
+          org_id: string
+          person_org_id?: string | null
+          sort_order?: number
+          title?: string | null
+        }
+        Update: {
+          id?: string
+          leadership?: boolean
+          name?: string
+          org_id?: string
+          person_org_id?: string | null
+          sort_order?: number
+          title?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'org_people_org_id_fkey'
+            columns: ['org_id']
+            isOneToOne: false
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'org_people_person_org_id_fkey'
+            columns: ['person_org_id']
+            isOneToOne: false
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
+          },
+        ]
+      }
       org_reviews: {
         Row: {
           body: string
@@ -350,6 +395,41 @@ export type Database = {
             foreignKeyName: 'org_reviews_org_id_fkey'
             columns: ['org_id']
             isOneToOne: false
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
+          },
+        ]
+      }
+      org_teams: {
+        Row: {
+          checked_at: string
+          headcount: number | null
+          headcount_note: string | null
+          org_id: string
+          source_url: string | null
+          updated_at: string
+        }
+        Insert: {
+          checked_at: string
+          headcount?: number | null
+          headcount_note?: string | null
+          org_id: string
+          source_url?: string | null
+          updated_at?: string
+        }
+        Update: {
+          checked_at?: string
+          headcount?: number | null
+          headcount_note?: string | null
+          org_id?: string
+          source_url?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'org_teams_org_id_fkey'
+            columns: ['org_id']
+            isOneToOne: true
             referencedRelation: 'orgs'
             referencedColumns: ['id']
           },

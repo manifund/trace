@@ -23,6 +23,8 @@ const TABLES = [
   'grant_sources',
   'grant_vias',
   'org_reviews',
+  'org_teams',
+  'org_people',
   'dedup_candidates',
   'suggestions',
 ] as const

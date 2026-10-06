@@ -1,0 +1,45 @@
+{
+  "slug": "palisade-research",
+  "website": "https://palisaderesearch.org/",
+  "sourceUrl": "https://palisaderesearch.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 7,
+  "headcountNote": "7 staff listed under 'The Palisade Team' on the About page; 2 board members excluded.",
+  "people": [
+    {
+      "name": "Jeffrey Ladish",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Benjamin Weinstein-Raun",
+      "title": "Head of Research",
+      "leadership": true
+    },
+    {
+      "name": "Dave Kasten",
+      "title": "Head of Policy",
+      "leadership": true
+    },
+    {
+      "name": "Eli Tyre",
+      "title": "Head of Strategy",
+      "leadership": true
+    },
+    {
+      "name": "John Steidley",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Jeremy Schlatter",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Melynna Garcia",
+      "title": "Operations Manager",
+      "leadership": false
+    }
+  ]
+}

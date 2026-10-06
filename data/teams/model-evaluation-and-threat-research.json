@@ -1,0 +1,230 @@
+{
+  "slug": "model-evaluation-and-threat-research",
+  "website": "https://metr.org/",
+  "sourceUrl": "https://metr.org/about#our-team",
+  "checkedAt": "2026-10-06",
+  "headcount": 44,
+  "headcountNote": "44 people listed under Leadership, Technical Staff (incl. one Research Contractor), Operations Staff and Policy Staff on the About page (/team redirects there); Advisors/board, Research Collaborators and Specialist Partners excluded; leadership = the explicit Leadership group.",
+  "people": [
+    {
+      "name": "Beth Barnes",
+      "title": "Founder, CEO",
+      "leadership": true
+    },
+    {
+      "name": "Chris Painter",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Hjalmar Wijk",
+      "title": "Chief Scientist",
+      "leadership": true
+    },
+    {
+      "name": "Nate Rush",
+      "title": "CTO",
+      "leadership": true
+    },
+    {
+      "name": "Ajeya Cotra",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Bruce Lee",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "David Rein",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Dmitrii Calzago",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Gabor",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Josh Engels",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kei Nishimura-Gasparian",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lena Hickson Long",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lev McKinney",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Lucas Sato",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Manish Shetty",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Matt Putz",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Megan Kinniment",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mischa Spiegelmock",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Neev Parikh",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nikola Jurkovic",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Paarth Shah",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Parker Whitfill",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Pip Arnott",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rafael Carvalho",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rasmus Faber-Espensen",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Reilly Haskins",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rif A. Saurous",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Greenblatt",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Spruce Bondera",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Thomas Broadley",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Tim Hua",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Tom Cunningham",
+      "title": "Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Khalid Mahamud",
+      "title": "Research Contractor",
+      "leadership": false
+    },
+    {
+      "name": "Stephanie Palla",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Bhaskar Chaturvedi",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jingyi Wang",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kris Chari",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Parv Mahajan",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rae She",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Wilder Seitz",
+      "title": "Operations Staff",
+      "leadership": false
+    },
+    {
+      "name": "Charles Foster",
+      "title": "Policy Staff",
+      "leadership": false
+    },
+    {
+      "name": "Jasmine Dhaliwal",
+      "title": "Policy Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kit Harris",
+      "title": "Policy Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rox Heston",
+      "title": "Policy Staff",
+      "leadership": false
+    }
+  ]
+}

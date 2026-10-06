@@ -87,6 +87,16 @@ the reviewer's one-line verdict (Zvi's confidence and funding need, Dickens's
 classification) and shows collapsed on the org page; the rest opens on click. Apply migrations to the hosted project with
 `SUPABASE_PAT=... bun run scripts/apply-trace-migration.ts <file>`.
 
+## Teams
+
+Leadership and staff from each org's own website live in `org_teams`
+(headcount, provenance) and `org_people` (one row per listed person), shown
+as a line under the org header with the full list behind a toggle. Source
+files are `data/teams/<slug>.json`; `bun run ingest-teams` replaces an org's
+rows and links people to their own Trace page when a normalized name matches
+an org of type individual (never auto-creates). Board members and advisors
+are not staff.
+
 ## Database Migrations
 
 Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no local Docker flow), then `bun run gen-types`. RLS policies are checked into the migrations — keep it that way. `db/database.types.ts` was hand-written to match the initial migration; regenerate once the project exists.
