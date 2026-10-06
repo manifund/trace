@@ -1,7 +1,7 @@
 // Loads data/teams/<slug>.json (leadership and staff as listed on each org's
 // website) into org_teams and org_people. Files are keyed by org slug and
-// must name an existing org; people are matched by normalized name to orgs
-// of type individual so a staff member with a Trace page gets linked, never
+// must name an existing org; people are matched by normalized name to any
+// existing org so a staff member with a Trace page gets linked, never
 // auto-created. Re-running replaces an org's rows.
 // Usage: bun run scripts/ingest-teams.ts [slug]
 import { readdirSync, readFileSync } from 'node:fs'
@@ -20,30 +20,18 @@ type TeamFile = {
 const only = process.argv[2]
 const db = createAdminClient()
 
-// normalized name -> org id, for individuals only
-const individuals = new Map<string, string>()
-{
-  const ids = new Set<string>()
-  for (let from = 0; ; from += 1000) {
-    const { data } = await db
-      .from('orgs')
-      .select('id')
-      .eq('org_type', 'individual')
-      .range(from, from + 999)
-      .throwOnError()
-    for (const org of data ?? []) ids.add(org.id)
-    if (!data || data.length < 1000) break
-  }
-  for (let from = 0; ; from += 1000) {
-    const { data } = await db
-      .from('org_names')
-      .select('normalized, org_id')
-      .range(from, from + 999)
-      .throwOnError()
-    for (const row of data ?? [])
-      if (ids.has(row.org_id)) individuals.set(row.normalized, row.org_id)
-    if (!data || data.length < 1000) break
-  }
+// normalized name -> org id. Org type is not a reliable "is a person" signal
+// (ingesters default to organization), so any org whose name matches a
+// staff member's exactly counts; people's names rarely collide with orgs'.
+const byName = new Map<string, string>()
+for (let from = 0; ; from += 1000) {
+  const { data } = await db
+    .from('org_names')
+    .select('normalized, org_id')
+    .range(from, from + 999)
+    .throwOnError()
+  for (const row of data ?? []) byName.set(row.normalized, row.org_id)
+  if (!data || data.length < 1000) break
 }
 
 let files = 0
@@ -87,7 +75,7 @@ for (const name of readdirSync('data/teams').sort()) {
       return true
     })
     .map((p, i) => {
-      const personId = individuals.get(normalizeName(p.name)) ?? null
+      const personId = byName.get(normalizeName(p.name)) ?? null
       if (personId) linked++
       return {
         org_id: org.id,
