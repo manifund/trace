@@ -11,17 +11,17 @@
     },
     {
       "id": "sff-2026-total",
-      "description": "SFF-2026 rows on survivalandflourishing.fund/recommendations, amount incl. +$X\u2021 matching pledges; matches the $64.60MM 'total funding recommended' on /2026/recommendations (parsed 2026-09-30)",
+      "description": "SFF-2026 rows on survivalandflourishing.fund/recommendations, amount incl. +$X‡ matching pledges; matches the $62.25MM 'total funding recommended' on /2026/recommendations (parsed 2026-10-06; SFF dropped AIPI, Wentworth & Lorell and Synthesizing Standalone World-Models rows and cut CivAI to $250k on 2026-10-05)",
       "source_id": "sff",
       "round_contains": "2026",
-      "expected_usd": 64600000,
+      "expected_usd": 62250000,
       "tolerance": 0.005
     },
     {
       "id": "sff-all-rounds-total",
-      "description": "All SFF rounds 2019-2026 on the index page (parsed 2026-09-30; one duplicated Initiative Committee 2024 row is deliberately collapsed)",
+      "description": "All SFF rounds 2019-2026 on the index page (parsed 2026-10-06; one duplicated Initiative Committee 2024 row is deliberately collapsed)",
       "source_id": "sff",
-      "expected_usd": 215450706,
+      "expected_usd": 213113706,
       "tolerance": 0.01
     }
   ]
