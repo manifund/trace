@@ -1,8 +1,7 @@
 'use client'
 
-// Grants over time for one org: a bar per year, optionally split into the
-// categories that make it up (cause areas for a funder, funders for a
-// recipient). Same mark discipline as the other charts — thin marks, rounded
+// Grants over time for one org: a bar per year, split into the categories
+// that make it up (cause areas for a funder, funders for a recipient). Same mark discipline as the other charts — thin marks, rounded
 // data ends, a 2px gap between stacked segments, recessive grid.
 import { useMemo, useRef, useState } from 'react'
 import { fmtCompact, niceTicks, SERIES, SERIES_OTHER } from '@/components/charts'
@@ -13,10 +12,8 @@ export function OrgBarChart(props: {
   years: number[]
   totals: Record<number, number>
   stacks: Stack[]
-  stackLabel: string
   height?: number
 }) {
-  const [stacked, setStacked] = useState(false)
   const [tip, setTip] = useState<{ x: number; y: number; lines: string[] } | null>(null)
   const wrap = useRef<HTMLDivElement>(null)
 
@@ -28,6 +25,7 @@ export function OrgBarChart(props: {
       })),
     [props.stacks]
   )
+  const stacked = colored.length > 1
 
   const H = props.height ?? 260
   const W = 720
@@ -67,17 +65,7 @@ export function OrgBarChart(props: {
 
   return (
     <section className="mb-8">
-      <div className="mb-2 flex flex-wrap items-baseline gap-3">
-        <h2 className="font-display text-lg font-bold">Grants over time</h2>
-        {colored.length > 1 && (
-          <button
-            onClick={() => setStacked(!stacked)}
-            className="rounded border border-rule bg-paper-alt px-2 py-0.5 font-sans text-xs"
-          >
-            {stacked ? 'Show totals' : `Stack by ${props.stackLabel}`}
-          </button>
-        )}
-      </div>
+      <h2 className="mb-2 font-display text-lg font-bold">Grants over time</h2>
       <div ref={wrap} className="relative">
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="Grants over time">
           {ticks.map((t) => (

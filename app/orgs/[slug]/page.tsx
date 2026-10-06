@@ -233,7 +233,6 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
         years={yearRange(chartGrants)}
         totals={byYear(chartGrants)}
         stacks={stacksFor(chartGrants, stackDimension)}
-        stackLabel={stackDimension === 'cause' ? 'cause area' : 'funder'}
       />
       <div className="flex flex-wrap gap-x-10">
         {breakdowns.map((breakdown) => (
