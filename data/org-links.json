@@ -521,6 +521,12 @@
       "via": "wikidata",
       "note": "Q5120231: hospital in Ohio, United States"
     },
+    "civic-ai-security-program": {
+      "name": "Civic AI Security Program, Inc.",
+      "url": "https://civai.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-06"
+    },
     "claremont-graduate-university": {
       "name": "Claremont Graduate University",
       "url": "https://www.cgu.edu",
@@ -716,6 +722,12 @@
       "via": "wikidata",
       "note": "Q138460611: organization in Tübingen, Germany"
     },
+    "encode": {
+      "name": "Encode",
+      "url": "https://encodeai.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-06"
+    },
     "environmental-defense-fund": {
       "name": "Environmental Defense Fund",
       "url": "http://www.edf.org/",
@@ -775,6 +787,12 @@
       "url": null,
       "via": "manifund",
       "note": "rejected: profile site is the founder’s"
+    },
+    "existential-risk-laboratory": {
+      "name": "Existential Risk Laboratory",
+      "url": "https://xrisk.uchicago.edu/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-06"
     },
     "expect-miracles-foundation": {
       "name": "Expect Miracles Foundation",
@@ -1743,6 +1761,12 @@
       "via": "wikidata",
       "note": "Q499451: multi-campus public research university in New Jersey, United States"
     },
+    "safe-ai-forum": {
+      "name": "Safe AI Forum",
+      "url": "https://saif.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-06"
+    },
     "saferai": {
       "name": "SaferAI",
       "url": "https://www.safer-ai.org/",
@@ -1778,6 +1802,12 @@
       "url": "https://screwworm.org",
       "via": "manifund",
       "note": "profile behind \"Screwworm Free Future: Seizing the Eradication Window\""
+    },
+    "secure-ai-project": {
+      "name": "Secure AI Project",
+      "url": "https://secureaiproject.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-06"
     },
     "senter-for-langsiktig-politikk": {
       "name": "Senter for Langsiktig Politikk",

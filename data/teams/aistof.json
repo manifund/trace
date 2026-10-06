@@ -1,0 +1,15 @@
+{
+  "slug": "aistof",
+  "website": null,
+  "sourceUrl": "https://manifund.org/JueYan",
+  "checkedAt": "2026-10-06",
+  "headcount": 1,
+  "headcountNote": "The fund has no website of its own; its Manifund profile ('JueYan Zhang / AISTOF') names only JueYan Zhang, and his Schmidt Sciences team-page bio gives the title 'Fund Manager, AI Safety Tactical Opportunities Fund' and says he runs the fund. No other staff named anywhere, so headcount is 1.",
+  "people": [
+    {
+      "name": "JueYan Zhang",
+      "title": "Fund Manager",
+      "leadership": true
+    }
+  ]
+}

@@ -526,6 +526,29 @@
       "website": "https://www.insectwelfare.com/",
       "aliases": [],
       "description": null
+    },
+    {
+      "slug": "grove-research",
+      "name": "Grove Research",
+      "org_type": "organization",
+      "website": "https://grove-research.org/",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "movement-labs",
+      "name": "Movement Labs",
+      "org_type": "organization",
+      "website": "https://www.movementlabs.com/",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "humans-first",
+      "name": "Humans First",
+      "org_type": "organization",
+      "aliases": [],
+      "description": null
     }
   ]
 }

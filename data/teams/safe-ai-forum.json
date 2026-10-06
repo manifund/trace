@@ -1,0 +1,100 @@
+{
+  "slug": "safe-ai-forum",
+  "website": "https://saif.org/",
+  "sourceUrl": "https://saif.org/about-and-contact/",
+  "checkedAt": "2026-10-06",
+  "headcount": 18,
+  "headcountNote": "18 staff listed under 'Team' on the About & Contact page; one further person listed there as 'Affiliate' (Cynthia Chen) excluded; no board or advisors listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Fynn Heide",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Sophie Thomson",
+      "title": "Director of Programmes",
+      "leadership": true
+    },
+    {
+      "name": "Jonathan Michel",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Euan Baldwin",
+      "title": "Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Saad Siddiqui",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Isabella Duan",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Yawen Duan",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Brooke Bacigal",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Edward Kembery",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Emmie Hine",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Sabrina Shih",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Andy Wang",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Lilian Hughes",
+      "title": "Head of Events",
+      "leadership": false
+    },
+    {
+      "name": "Katherine Thesing",
+      "title": "Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Aman Agarwal",
+      "title": "Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Harsimrandeep Malhi",
+      "title": "Head of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Shubham Bansal",
+      "title": "Business Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jana Wilke",
+      "title": "People Operations Manager",
+      "leadership": false
+    }
+  ]
+}

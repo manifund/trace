@@ -1,0 +1,65 @@
+{
+  "slug": "encode",
+  "website": "https://encodeai.org/",
+  "sourceUrl": "https://encodeai.org/who-we-are/",
+  "checkedAt": "2026-10-06",
+  "headcount": 11,
+  "headcountNote": "11 people listed under 'our team' on the Who we are page; no board or advisors listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Sneha Revanur",
+      "title": "Founder & President",
+      "leadership": true
+    },
+    {
+      "name": "Sunny Gandhi",
+      "title": "Co-Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Adam Billen",
+      "title": "Co-Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Nathan Calvin",
+      "title": "General Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Brian McGrail",
+      "title": "Senior Policy Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Jason Baker",
+      "title": "Director of National Security Policy",
+      "leadership": false
+    },
+    {
+      "name": "Seve Christian",
+      "title": "Director of California Policy",
+      "leadership": false
+    },
+    {
+      "name": "Claire Larkin",
+      "title": "Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Ben Snyder",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Jesse Rothman",
+      "title": "Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Holly Branco",
+      "title": "Operations Associate",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "taif",
+  "website": "https://funds.effectivealtruism.org/",
+  "sourceUrl": "https://funds.effectivealtruism.org/team",
+  "checkedAt": "2026-10-06",
+  "headcount": 1,
+  "headcountNote": "The EA Funds team page lists one person under Transformative AI Fund (Head of Fund); the two fund advisors for Transformative AI (Catherine Low, Caleb Parikh) are excluded, and EA Funds' own core team is on the EA Funds page.",
+  "people": [
+    {
+      "name": "Lowe Lundin",
+      "title": "Head of Fund",
+      "leadership": true
+    }
+  ]
+}

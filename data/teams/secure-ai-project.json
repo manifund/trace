@@ -1,0 +1,95 @@
+{
+  "slug": "secure-ai-project",
+  "website": "https://secureaiproject.org/",
+  "sourceUrl": "https://secureaiproject.org/about/",
+  "checkedAt": "2026-10-06",
+  "headcount": 17,
+  "headcountNote": "17 people listed under 'Who We Are' on the About page (12 of them titled Policy Director); no board or advisors listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Nick Beckstead",
+      "title": "Co-Founder & Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Thomas Woodside",
+      "title": "Co-Founder & Policy Director",
+      "leadership": true
+    },
+    {
+      "name": "Lily Sands",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Scott",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Rebecca McMahon",
+      "title": "Operations Director",
+      "leadership": false
+    },
+    {
+      "name": "Emily Soice",
+      "title": "Operations Director",
+      "leadership": false
+    },
+    {
+      "name": "Scott Wisor",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Howie Lempel",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Doris",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Kelley McGill",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Skye Golann",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Juan Carlos Salamanca Vazquez",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Trevor Odelberg",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Kane",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Tristan Williams",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Leonie Koessler",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Emily Liu",
+      "title": "Policy Director",
+      "leadership": false
+    }
+  ]
+}

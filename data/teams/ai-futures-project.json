@@ -1,0 +1,50 @@
+{
+  "slug": "ai-futures-project",
+  "website": "https://www.aifutures.org/",
+  "sourceUrl": "https://www.aifutures.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": 8,
+  "headcountNote": "8 people listed under 'Team' on the About page, including one shown as Research Contractor; no board or advisors listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Daniel Kokotajlo",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Lauren Mangla",
+      "title": "Managing Director",
+      "leadership": true
+    },
+    {
+      "name": "Thomas Larsen",
+      "title": "Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Eli Lifland",
+      "title": "Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Romeo Dean",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Miles Kodama",
+      "title": "Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Nicole Sanna",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Brendan Halstead",
+      "title": "Research Contractor",
+      "leadership": false
+    }
+  ]
+}

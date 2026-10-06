@@ -1,0 +1,30 @@
+{
+  "slug": "existential-risk-laboratory",
+  "website": "https://xrisk.uchicago.edu/",
+  "sourceUrl": "https://xrisk.uchicago.edu/about/",
+  "checkedAt": "2026-10-06",
+  "headcount": 4,
+  "headcountNote": "4 people listed under 'Meet our team' on the About page, two of them University of Chicago undergraduates; the 16-member Faculty Advisory Committee is excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Daniel Holz",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Madeline Berzak",
+      "title": "Nuclear Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Rhea Kanuparthi",
+      "title": "Emerging Technology Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Oksana Vickers",
+      "title": "Student Associate",
+      "leadership": false
+    }
+  ]
+}

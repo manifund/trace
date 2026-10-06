@@ -1,0 +1,25 @@
+{
+  "slug": "civic-ai-security-program",
+  "website": "https://civai.org/",
+  "sourceUrl": "https://civai.org/about",
+  "checkedAt": "2026-10-06",
+  "headcount": null,
+  "headcountNote": "The About page names only the three people under 'Leadership Team'; no wider staff list or count, so the staff headcount is unknowable from the site. The site blocks plain fetches, so this was read from the Wayback Machine snapshot of 2026-09-04.",
+  "people": [
+    {
+      "name": "Siddharth Hiregowdara",
+      "title": "CEO & Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Elliot Lewis",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Andrew Yoon",
+      "title": "Head of Research",
+      "leadership": true
+    }
+  ]
+}

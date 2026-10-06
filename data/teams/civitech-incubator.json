@@ -1,0 +1,20 @@
+{
+  "slug": "civitech-incubator",
+  "website": null,
+  "sourceUrl": "https://manifund.org/projects/civitech-incubator",
+  "checkedAt": "2026-10-06",
+  "headcount": 2,
+  "headcountNote": "The incubator has no website of its own (civitech.io does not mention it); its Manifund project page named these two under 'Who is on your team?'. That page now returns access denied, so this was read from the Wayback Machine snapshot of 2026-08-12. A later update there by Lincoln Quirk says the incubation program was delayed and that he will probably advise rather than run it.",
+  "people": [
+    {
+      "name": "Lincoln Quirk",
+      "title": "Incubator Director",
+      "leadership": true
+    },
+    {
+      "name": "Jeremy Smith",
+      "title": "Team Lead; CEO, Civitech",
+      "leadership": true
+    }
+  ]
+}

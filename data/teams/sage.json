@@ -1,0 +1,35 @@
+{
+  "slug": "sage",
+  "website": "https://sage-future.org/",
+  "sourceUrl": "https://sage-future.org/",
+  "checkedAt": "2026-10-06",
+  "headcount": 5,
+  "headcountNote": "5 staff listed on the home page (4 under 'AI Digest team', 1 under 'Epistemics team'); 4 advisors excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Adam Binksmith",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "George Ingebretsen",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Shoshannah Tekofsky",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Zak Miller",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Simon Steshin",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "center-for-ai-safety",
+  "website": "https://safe.ai/",
+  "sourceUrl": "https://safe.ai/about",
+  "checkedAt": "2026-10-06",
+  "headcount": null,
+  "headcountNote": "The About page names only the two people under 'Leadership' and describes four functional teams (Research, Cloud and DevOps, Projects, Operations) without naming staff or giving a count; no team page, so the staff headcount is unknowable from the site.",
+  "people": [
+    {
+      "name": "Dan Hendrycks",
+      "title": "Executive & Research Director",
+      "leadership": true
+    },
+    {
+      "name": "Oliver Zhang",
+      "title": "Managing Director",
+      "leadership": true
+    }
+  ]
+}
