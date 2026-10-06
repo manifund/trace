@@ -23,7 +23,9 @@
     "report-tranches": "bun run scripts/report-tranches.ts",
     "export-suggestions": "bun run scripts/export-suggestions.ts",
     "find-org-links": "bun run scripts/find-org-links.ts",
-    "fetch-logos": "bun run scripts/fetch-logos.ts"
+    "fetch-logos": "bun run scripts/fetch-logos.ts",
+    "fetch-zvi-reviews": "bun run scripts/fetch-zvi-reviews.ts",
+    "ingest-reviews": "bun run scripts/ingest-reviews.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

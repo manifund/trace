@@ -308,6 +308,53 @@ export type Database = {
           },
         ]
       }
+      org_reviews: {
+        Row: {
+          body: string
+          created_at: string
+          id: string
+          org_id: string
+          reviewed_at: string
+          reviewer: string
+          reviewer_url: string | null
+          source_key: string
+          source_url: string | null
+          updated_at: string
+        }
+        Insert: {
+          body: string
+          created_at?: string
+          id?: string
+          org_id: string
+          reviewed_at: string
+          reviewer: string
+          reviewer_url?: string | null
+          source_key: string
+          source_url?: string | null
+          updated_at?: string
+        }
+        Update: {
+          body?: string
+          created_at?: string
+          id?: string
+          org_id?: string
+          reviewed_at?: string
+          reviewer?: string
+          reviewer_url?: string | null
+          source_key?: string
+          source_url?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'org_reviews_org_id_fkey'
+            columns: ['org_id']
+            isOneToOne: false
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
+          },
+        ]
+      }
       orgs: {
         Row: {
           created_at: string

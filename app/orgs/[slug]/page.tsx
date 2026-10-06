@@ -3,9 +3,11 @@ import { OrgBarChart } from '@/components/org-bar-chart'
 import { OrgBreakdown } from '@/components/org-breakdown'
 import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgLogo } from '@/components/org-logo'
+import { OrgReviews } from '@/components/org-reviews'
 import { OrgStats } from '@/components/org-stats'
 import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
+import { getReviewsForOrg } from '@/db/review'
 import {
   byCause,
   byOrg,
@@ -104,7 +106,10 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const org = await getOrgBySlug(slug)
   if (!org) notFound()
 
-  const { made, received, sponsored, via } = await getGrantsForOrg(org.slug)
+  const [{ made, received, sponsored, via }, reviews] = await Promise.all([
+    getGrantsForOrg(org.slug),
+    getReviewsForOrg(org.id),
+  ])
   const formerNames = org.names.filter((name) => name.kind !== 'canonical')
 
   // Only chart the via flow when this org is not also the funder of record.
@@ -235,6 +240,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
           />
         ))}
       </div>
+      <OrgReviews reviews={reviews} />
       <GrantList
         title="Grants received"
         grants={received}

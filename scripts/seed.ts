@@ -254,6 +254,8 @@ async function mergeOrg(fromId: string, toId: string, name: string, why = 'provi
       .throwOnError()
     console.log(`Cleared ${selfSponsored!.length} self-sponsorship(s) on ${toId}`)
   }
+  // Reviews cascade-delete with their org, so move them first.
+  await db.from('org_reviews').update({ org_id: toId }).eq('org_id', fromId).throwOnError()
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
   await db.from('orgs').delete().eq('id', fromId).throwOnError()
   console.log(`Merged ${why} org "${name}" into ${toId}`)
