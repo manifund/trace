@@ -12,6 +12,7 @@ bun test                 # Parser/normalize unit tests only
 bun run seed             # Seed cause areas, sources, curated orgs; applies alias merges
 bun run ingest           # All tier-1 ingesters, then dedup report
 bun run report-unmatched # needs_review orgs ranked by $ affected
+bun run prune-orphan-orgs # Delete orgs nothing refers to (--apply)
 bun run dedup            # Cross-source dup candidates; --apply executes resolutions
 bun run verify           # Totals vs data/expected-totals.json
 bun run gen-types        # Regenerate db/database.types.ts from Supabase

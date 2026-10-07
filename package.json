@@ -29,6 +29,7 @@
     "fetch-ltff-reviews": "bun run scripts/fetch-ltff-reviews.ts",
     "fetch-manifund-comments": "bun run scripts/fetch-manifund-comments.ts",
     "ingest-reviews": "bun run scripts/ingest-reviews.ts",
+    "prune-orphan-orgs": "bun run scripts/prune-orphan-orgs.ts",
     "ingest-teams": "bun run scripts/ingest-teams.ts"
   },
   "dependencies": {

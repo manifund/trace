@@ -3245,6 +3245,26 @@
       "via_names": [
         "University of California, San Francisco"
       ]
+    },
+    "jaan_online:4654240273315631812859f631738c50e28608e1b0fa6e618e73e254be60808d": {
+      "note": "Jaan's list names the fiscal sponsor (Ashgro Inc/Sangro); the money is for Apart Research",
+      "recipient_name": "Apart Research",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:cee0abc163405321655dbbc04bc0b55458348148a9931ba8e72791abef47d94b": {
+      "note": "Jaan's list names the fiscal sponsor (Ashgro Inc/Sangro); the money is for Orthogonal",
+      "recipient_name": "Orthogonal",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:8508a6973abb6ce5a01a2b93bc5e1df1d1f37a966bfdebdb1e5dc260d0e5e2e4": {
+      "note": "Jaan's list names the fiscal sponsor (Ashgro Inc/Sangro); the money is for Orthogonal",
+      "recipient_name": "Orthogonal",
+      "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "jaan_online:3102e8fa087f30b7440c082527b6ed098041efa73ab37087553143881ab55aa0": {
+      "note": "Jaan's list names the fiscal sponsor (Sangro); the money is for Sam Eisenstat's research",
+      "recipient_name": "Sam Eisenstat",
+      "fiscal_sponsor_name": "Ashgro, Inc."
     }
   }
 }
