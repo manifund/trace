@@ -80,9 +80,39 @@ function block(node: Node): string {
   }
 }
 
+function plain(doc: Node | null): string {
+  const walk = (n: Node): string =>
+    n.type === 'text'
+      ? (n.text ?? '')
+      : (n.content ?? []).map(walk).join(n.type === 'paragraph' ? '' : ' ')
+  return doc ? walk(doc) : ''
+}
+
 function markdown(doc: Node | null): string {
   if (!doc) return ''
   return (doc.content ?? []).map(block).filter(Boolean).join('\n\n').trim()
+}
+
+// ---- which comments count as reviews ----
+
+const HOUSEKEEPING =
+  /\b(limit order|signal.?boost|links? (is|are) broken|look into this|see \w+'s comment|in response to|would appreciate feedback)/i
+
+type Comment = { content: Node | null; replying_to: string | null; special_type: string | null }
+
+function substantive(c: Comment, text: string): boolean {
+  const s = text.trim()
+  if (c.special_type === 'grant rationale') return true
+  // Progress updates and final reports are the regrantor reporting on a
+  // project of their own.
+  if (c.special_type) return false
+  if (/^(@|hi\b|hey\b|hello\b|dear\b)/i.test(s)) return false
+  const questions = (s.match(/\?/g) ?? []).length
+  const sentences = Math.max(1, s.split(/[.!?]+(\s|$)/).filter((x) => x.trim()).length)
+  if (questions > 0 && questions >= sentences / 2) return false
+  if (HOUSEKEEPING.test(s)) return false
+  if (c.replying_to) return s.length >= 400
+  return s.length >= 60
 }
 
 // ---- project -> Trace org, via the grants Trace already holds ----
@@ -121,7 +151,9 @@ for (const who of (regranters ?? []).sort((a, b) => a.username.localeCompare(b.u
   if (STAFF.has(who.username) && !wanted.has(who.username)) continue
   const { data: comments } = await manifund
     .from('comments')
-    .select('id, created_at, content, project:projects!inner(slug, title)')
+    .select(
+      'id, created_at, content, replying_to, special_type, project:projects!inner(slug, title)'
+    )
     .eq('commenter', who.id)
     .is('deleted_at', null)
     .order('created_at')
@@ -134,7 +166,7 @@ for (const who of (regranters ?? []).sort((a, b) => a.username.localeCompare(b.u
     const org = orgByProjectSlug.get(project.slug)
     if (!org) continue
     const text = markdown(c.content as Node | null)
-    if (!text) continue
+    if (!text || !substantive(c as never as Comment, plain(c.content as Node | null))) continue
     const date = (c.created_at as string).slice(0, 10)
     const entry = byOrg.get(org) ?? {
       org,
@@ -169,12 +201,13 @@ for (const who of (regranters ?? []).sort((a, b) => a.username.localeCompare(b.u
       review: e.pieces.join('\n\n---\n\n'),
     }))
   const file = {
-    _comment: `${who.full_name}'s comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.`,
+    _comment: `${who.full_name}'s comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.`,
     id,
     reviewer: who.full_name,
     reviewerUrl: `${MANIFUND}/${who.username}`,
     sourceUrl: `${MANIFUND}/${who.username}?tab=by`,
     reviewedAt: reviews.reduce((m, r) => (r.reviewedAt > m ? r.reviewedAt : m), '0000'),
+    venue: 'Manifund',
     createOrgs: false,
     reviews,
   }

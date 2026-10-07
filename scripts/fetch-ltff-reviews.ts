@@ -2,9 +2,10 @@
 // data/reviews/ltff-<yyyy-mm>.json, one review per grant write-up, filed under
 // the grantee. A write-up starts at a heading or bold paragraph that carries
 // the grant amount ("Name ($40,000)", "Name – $60,000", "Name: USD 40,000")
-// and runs to the next one; the fund manager comes from the enclosing
-// "Writeups by …" / "Grant reports by …" / "Grants evaluated by …" section.
-// The body opens with amount, purpose and evaluator as the verdict line.
+// and runs to the next one; the fund manager who wrote it comes from the
+// enclosing "Writeups by …" / "Grant reports by …" / "Grants evaluated by …"
+// section and is the review's reviewer (the fund is the venue). The body
+// opens with amount and purpose as the verdict line.
 // Grantees are mostly individuals, so these files set createOrgs: false and
 // ingest-reviews skips any that the crosswalk does not already know.
 // Usage: bun run scripts/fetch-ltff-reviews.ts [postId]
@@ -18,6 +19,8 @@ import { normalizeName } from './lib/normalize'
 type Post = {
   id: string
   postId: string
+  // Who wrote every write-up, for posts without per-section bylines.
+  author?: string
   // Section titles (any heading level) whose contents are not write-ups:
   // recipient tables, one-line lists of smaller grants, appendices.
   skip?: string[]
@@ -54,6 +57,7 @@ const POSTS: Post[] = [
   {
     id: 'ltff-2024-06',
     postId: 'pJyCWzevPHsycj4oQ',
+    author: 'Linch Zhang',
     skip: ['Appendix', 'Other Grants We Made During This Time Period'],
   },
 ]
@@ -144,12 +148,18 @@ function isBoldParagraph($: CheerioAPI, el: Cheerio<AnyNode>): boolean {
 }
 
 const BY_LINE = /^(?:writeups?|grant reports?|grants? evaluated|grants? recommended)\s+by\s+(.+)$/i
+const NOT_A_NAME =
+  /\b(grants?|fund|highlights?|highlighted|introduction|appendix|updates?|writings?|feedback|recipients?|reports?|overview|summary|other|future)\b/i
 
 type Review = {
   org: string
   sourceUrl: string
+  reviewer: string | null
   review: string
 }
+
+// Bylines vary between posts; one spelling per person.
+const NAMES: Record<string, string> = { 'Linchuan Zhang': 'Linch Zhang' }
 
 function extract($: CheerioAPI, base: string, post: Post): Review[] {
   const out = new Map<string, Review>()
@@ -164,14 +174,24 @@ function extract($: CheerioAPI, base: string, post: Post): Review[] {
       cur = null
       return
     }
-    const verdict = [head.amount, head.purpose, cur.evaluator && `write-up by ${cur.evaluator}`]
-      .filter(Boolean)
-      .join(' · ')
+    const verdict = [head.amount, head.purpose].filter(Boolean).join(' · ')
     const text = [verdict, ...blocks].filter(Boolean).join('\n\n')
     const key = normalizeName(head.name)
     const prev = out.get(key)
-    if (prev) prev.review += `\n\n---\n\n${text}`
-    else out.set(key, { org: head.name, sourceUrl: id ? `${base}#${id}` : base, review: text })
+    const who = cur.evaluator ?? post.author ?? null
+    if (prev) {
+      // A second grant to the same grantee in one report, maybe by another
+      // manager: keep both write-ups under the file's reviewer.
+      prev.review += `\n\n---\n\n${who && who !== prev.reviewer ? `*Write-up by ${who}.* ` : ''}${text}`
+      if (who !== prev.reviewer) prev.reviewer = null
+    } else {
+      out.set(key, {
+        org: head.name,
+        sourceUrl: id ? `${base}#${id}` : base,
+        reviewer: who,
+        review: text,
+      })
+    }
     cur = null
   }
 
@@ -190,10 +210,13 @@ function extract($: CheerioAPI, base: string, post: Post): Review[] {
       }
     }
     if (isHeading) {
-      const by = BY_LINE.exec(text)
+      // "Writeups by Helen Toner", or (2020) just "Helen Toner" as a heading.
+      const by =
+        BY_LINE.exec(text) ??
+        (NOT_A_NAME.test(text) ? null : /^([A-Z][\w'.-]+(?: [A-Z][\w'.-]+){1,2})$/.exec(text))
       if (by) {
         flush()
-        evaluator = by[1]!.trim()
+        evaluator = NAMES[by[1]!.trim()] ?? by[1]!.trim()
         skipping = false
         continue
       }
@@ -254,10 +277,11 @@ for (const post of POSTS) {
   const $ = cheerio.load(result.htmlBody)
   const reviews = extract($, result.pageUrl, post)
   const file = {
-    _comment: `Long-Term Future Fund payout report "${result.title.replace(/\s+/g, ' ').trim()}", snapshotted from the EA Forum by scripts/fetch-ltff-reviews.ts. One review per grant write-up, filed under the grantee; the body opens with amount, purpose and the fund manager who wrote it up.`,
+    _comment: `Long-Term Future Fund payout report "${result.title.replace(/\s+/g, ' ').trim()}", snapshotted from the EA Forum by scripts/fetch-ltff-reviews.ts. One review per grant write-up, filed under the grantee and attributed to the fund manager who wrote it; the body opens with amount and purpose.`,
     id: post.id,
     reviewer: 'Long-Term Future Fund',
     reviewerUrl: REVIEWER_URL,
+    venue: 'Long-Term Future Fund',
     sourceUrl: result.pageUrl,
     reviewedAt: result.postedAt.slice(0, 10),
     createOrgs: false,

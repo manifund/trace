@@ -1,17 +1,18 @@
 {
-  "_comment": "Thomas Larsen's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Thomas Larsen's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-Thomas",
   "reviewer": "Thomas Larsen",
   "reviewerUrl": "https://manifund.org/Thomas",
   "sourceUrl": "https://manifund.org/Thomas?tab=by",
   "reviewedAt": "2026-01-01",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {
       "org": "Chi Nguyen",
       "sourceUrl": "https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions?tab=comments#ad6f9b9f-d36a-44ba-aed4-5ded135b061d",
       "reviewedAt": "2026-01-01",
-      "review": "[Acausal research and interventions](https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions), Jun 2025\n\nI think this is very promising. This team seems to have some of the people who have the clearest thoughts in the world about acausal interactions. I've asked several people who I trust a lot in this space and gotten universally positive references about the team.\n\nMy main concern is that thinking about acausal interactions is extremely difficult (meaning that zero progress is somewhat likely) and sign uncertain (so, even if they did make progress, it's not clear this would be net helpful). Overall, my view is that it still seems good to have some people working on this, and I trust this team in particular to be thoughtful about the tradeoffs.\n\nAlso, this type of work doesn't get funded by OP.\n\n---\n\n[Acausal research and interventions](https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions), Jun 2025\n\nClarification: this work doesn't get funded by Good Ventures. OP may still recommend grants of this type to non-Good Ventures donors. In practice, this means the pool of possible funding is still much smaller, so I think the argument stands.\n\n---\n\n[Acausal research and interventions](https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions), Jan 2026\n\nFewer people have donated to this than I thought, so I am donating my remaining regranting budget here."
+      "review": "[Acausal research and interventions](https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions), Jun 2025\n\nI think this is very promising. This team seems to have some of the people who have the clearest thoughts in the world about acausal interactions. I've asked several people who I trust a lot in this space and gotten universally positive references about the team.\n\nMy main concern is that thinking about acausal interactions is extremely difficult (meaning that zero progress is somewhat likely) and sign uncertain (so, even if they did make progress, it's not clear this would be net helpful). Overall, my view is that it still seems good to have some people working on this, and I trust this team in particular to be thoughtful about the tradeoffs.\n\nAlso, this type of work doesn't get funded by OP.\n\n---\n\n[Acausal research and interventions](https://manifund.org/projects/acausal-safety-fund-a-team-to-do-research-and-interventions), Jan 2026\n\nFewer people have donated to this than I thought, so I am donating my remaining regranting budget here."
     },
     {
       "org": "Lightcone Infrastructure",

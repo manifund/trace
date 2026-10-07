@@ -1,29 +1,18 @@
 {
-  "_comment": "Richard Ngo's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Richard Ngo's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-Richard",
   "reviewer": "Richard Ngo",
   "reviewerUrl": "https://manifund.org/Richard",
   "sourceUrl": "https://manifund.org/Richard?tab=by",
   "reviewedAt": "2026-01-18",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
-    {
-      "org": "AI Safety Camp",
-      "sourceUrl": "https://manifund.org/projects/10th-edition-of-ai-safety-camp?tab=comments#56912f54-0aae-429c-98b4-0fd5b1553693",
-      "reviewedAt": "2024-02-06",
-      "review": "[10th edition of AI Safety Camp](https://manifund.org/projects/10th-edition-of-ai-safety-camp), Feb 2024\n\nSeems important and underfunded!"
-    },
     {
       "org": "Apart Research",
       "sourceUrl": "https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline?tab=comments#3a2a47e6-689d-40cc-8364-08676950999e",
       "reviewedAt": "2025-06-06",
       "review": "[Keep Apart Research Going: Global AI Safety Research & Talent Pipeline](https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline), Jun 2025\n\nBuilding a culture of hands-on experimentation is probably the best way to do AI safety outreach, and Apart seems to have executed on it really well."
-    },
-    {
-      "org": "Groundless Alignment Residency",
-      "sourceUrl": "https://manifund.org/projects/groundless-alignment-india-residency-2025?tab=comments#2ca4c23a-d6e3-4412-8f77-4fea2caab336",
-      "reviewedAt": "2025-10-27",
-      "review": "[Groundless Alignment Residency 2025](https://manifund.org/projects/groundless-alignment-india-residency-2025), Oct 2025\n\nI’m very excited about the groundless agenda."
     },
     {
       "org": "Mateusz Bagiński",

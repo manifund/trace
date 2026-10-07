@@ -1,10 +1,11 @@
 {
-  "_comment": "Marius Hobbhahn's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Marius Hobbhahn's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-mariushobbhahn",
   "reviewer": "Marius Hobbhahn",
   "reviewerUrl": "https://manifund.org/mariushobbhahn",
   "sourceUrl": "https://manifund.org/mariushobbhahn?tab=by",
-  "reviewedAt": "2026-05-13",
+  "reviewedAt": "2025-12-26",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {
@@ -30,12 +31,6 @@
       "sourceUrl": "https://manifund.org/projects/inspect-evals?tab=comments#90659f4b-3bab-45f9-836d-876b526afe7f",
       "reviewedAt": "2025-10-20",
       "review": "[Inspect Evals](https://manifund.org/projects/inspect-evals), Oct 2025\n\nI think it's great that more people work on Inspect and I've seen a few evals being either competently ported to Inspect or existing evals being significantly improved. \n\nI'm happy to throw in 10k of my regranting money as a sign of my support, but I think the value they provide is clearly big enough that a large funder should support them with hundreds of thousands or millions of dollars in support."
-    },
-    {
-      "org": "Jash Vira",
-      "sourceUrl": "https://manifund.org/projects/awareness-conditioned-emergent-misalignment?tab=comments#9ff59075-e39e-4cbd-bd54-0ea7018b5302",
-      "reviewedAt": "2026-05-13",
-      "review": "[Awareness-conditioned emergent misalignment](https://manifund.org/projects/awareness-conditioned-emergent-misalignment), May 2026\n\nI think this is a reasonable project"
     },
     {
       "org": "Jord Nguyen",

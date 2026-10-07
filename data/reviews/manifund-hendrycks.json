@@ -1,10 +1,11 @@
 {
-  "_comment": "Dan Hendrycks's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Dan Hendrycks's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-hendrycks",
   "reviewer": "Dan Hendrycks",
   "reviewerUrl": "https://manifund.org/hendrycks",
   "sourceUrl": "https://manifund.org/hendrycks?tab=by",
-  "reviewedAt": "2025-01-26",
+  "reviewedAt": "2024-12-22",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {
@@ -18,12 +19,6 @@
       "sourceUrl": "https://manifund.org/projects/ai-safety--society?tab=comments#d57d4a1d-2fe7-48d0-8499-7e0c4402e5a3",
       "reviewedAt": "2024-12-22",
       "review": "[AI Safety & Society](https://manifund.org/projects/ai-safety--society), Dec 2024\n\n**Main points in favor of this grant**\n\n- The premise and theory of change is strong. There’s a need for such a platform.\n- The team has journalism and editorial experience.\n- CAIS has strong networks with academics and researchers; the project has already seen interest from a variety of external contributors.\n\n**Donor's main reservations**\n\n- Sustaining a high rate of high-quality contributions may be challenging.\n- May require significant marketing to build readership and visibility.\n\n**Process for deciding amount**\n\nI reviewed a budget.\n\n**Conflicts of interest**\n\nI will be advising this project."
-    },
-    {
-      "org": "Dan Hendrycks",
-      "sourceUrl": "https://manifund.org/projects/research-staff-for-ai-safety-research-projects?tab=comments#bb2db5ae-c61c-479f-878b-0014795cf142",
-      "reviewedAt": "2025-01-26",
-      "review": "[Research Staff for AI Safety Research Projects](https://manifund.org/projects/research-staff-for-ai-safety-research-projects), Jan 2025\n\n**What progress have you made since your last update?**\n\n- Published Tamper-Resistant Safeguards: \n  [https://arxiv.org/abs/2408.00761](https://arxiv.org/abs/2408.00761)\n  [https://www.tamper-resistant-safeguards.com/](https://www.tamper-resistant-safeguards.com/)\n- Published Circuitbreakers:\n  [https://arxiv.org/abs/2406.04313](https://arxiv.org/abs/2406.04313)\n- Published Safetywashing: a meta-analysis of AI safety\n  [https://arxiv.org/pdf/2407.21792](https://arxiv.org/pdf/2407.21792)\n  [https://www.safetywashing.ai/](https://www.safetywashing.ai/)\n- Other projects are ongoing. New projects include ones on honesty/deception, on teaching AIs to follow the law, and so on.\n\n**What are your next steps?**\n\n- Publish the superintelligence evals and virology benchmarks."
     }
   ]
 }

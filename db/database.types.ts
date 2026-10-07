@@ -361,10 +361,12 @@ export type Database = {
           org_id: string
           reviewed_at: string
           reviewer: string
+          reviewer_org_id: string | null
           reviewer_url: string | null
           source_key: string
           source_url: string | null
           updated_at: string
+          venue: string | null
         }
         Insert: {
           body: string
@@ -373,10 +375,12 @@ export type Database = {
           org_id: string
           reviewed_at: string
           reviewer: string
+          reviewer_org_id?: string | null
           reviewer_url?: string | null
           source_key: string
           source_url?: string | null
           updated_at?: string
+          venue?: string | null
         }
         Update: {
           body?: string
@@ -385,12 +389,21 @@ export type Database = {
           org_id?: string
           reviewed_at?: string
           reviewer?: string
+          reviewer_org_id?: string | null
           reviewer_url?: string | null
           source_key?: string
           source_url?: string | null
           updated_at?: string
+          venue?: string | null
         }
         Relationships: [
+          {
+            foreignKeyName: 'org_reviews_reviewer_org_id_fkey'
+            columns: ['reviewer_org_id']
+            isOneToOne: false
+            referencedRelation: 'orgs'
+            referencedColumns: ['id']
+          },
           {
             foreignKeyName: 'org_reviews_org_id_fkey'
             columns: ['org_id']

@@ -7,9 +7,54 @@ function hostname(url: string): string {
 
 // A review's first paragraph is its one-line verdict (Zvi's ratings, Michael
 // Dickens's classification); the rest opens on click.
-function splitLead(body: string): [string, string] {
+export function splitLead(body: string): [string, string] {
   const i = body.search(/\n\s*\n/)
   return i === -1 ? [body, ''] : [body.slice(0, i).trim(), body.slice(i).trim()]
+}
+
+export function reviewDate(date: string): string {
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  })
+}
+
+// Reviewer, linked to their own page when they have one, then where it ran.
+export function ReviewerLine(props: { review: OrgReview }) {
+  const { review } = props
+  return (
+    <>
+      <span className="font-semibold text-ink">
+        {review.reviewerSlug ? (
+          <a href={`/orgs/${review.reviewerSlug}`}>{review.reviewer}</a>
+        ) : (
+          review.reviewer
+        )}
+      </span>
+      {review.venue && review.venue !== review.reviewer && (
+        <>
+          {' · '}
+          {review.venue}
+        </>
+      )}
+      {review.reviewerUrl && !review.venue && (
+        <>
+          {' · '}
+          <a href={review.reviewerUrl}>{hostname(review.reviewerUrl)}</a>
+        </>
+      )}
+      {review.sourceUrl && review.sourceUrl !== review.reviewerUrl && (
+        <>
+          {' · '}
+          <a href={review.sourceUrl}>full post</a>
+        </>
+      )}
+      {' · '}
+      {reviewDate(review.reviewedAt)}
+    </>
+  )
 }
 
 export function OrgReviews(props: { reviews: OrgReview[] }) {
@@ -21,26 +66,7 @@ export function OrgReviews(props: { reviews: OrgReview[] }) {
         const [lead, rest] = splitLead(review.body)
         const meta = (
           <p className="mb-1 text-sm text-ink-muted">
-            <span className="font-semibold text-ink">{review.reviewer}</span>
-            {review.reviewerUrl && (
-              <>
-                {' · '}
-                <a href={review.reviewerUrl}>{hostname(review.reviewerUrl)}</a>
-              </>
-            )}
-            {review.sourceUrl && review.sourceUrl !== review.reviewerUrl && (
-              <>
-                {' · '}
-                <a href={review.sourceUrl}>full post</a>
-              </>
-            )}
-            {' · '}
-            {new Date(`${review.reviewedAt}T00:00:00Z`).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric',
-              timeZone: 'UTC',
-            })}
+            <ReviewerLine review={review} />
           </p>
         )
         if (!rest) {

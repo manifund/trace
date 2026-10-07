@@ -275,8 +275,14 @@ async function mergeOrg(fromId: string, toId: string, name: string, why = 'provi
     .update({ person_org_id: toId })
     .eq('person_org_id', fromId)
     .throwOnError()
-  // Reviews cascade-delete with their org, so move them first.
+  // Reviews cascade-delete with their org, so move them first; reviews the
+  // loser wrote follow it too.
   await db.from('org_reviews').update({ org_id: toId }).eq('org_id', fromId).throwOnError()
+  await db
+    .from('org_reviews')
+    .update({ reviewer_org_id: toId })
+    .eq('reviewer_org_id', fromId)
+    .throwOnError()
   await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
   await db.from('orgs').delete().eq('id', fromId).throwOnError()
   console.log(`Merged ${why} org "${name}" into ${toId}`)

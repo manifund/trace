@@ -1,10 +1,11 @@
 {
-  "_comment": "Tristan Hume's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Tristan Hume's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-trishume",
   "reviewer": "Tristan Hume",
   "reviewerUrl": "https://manifund.org/trishume",
   "sourceUrl": "https://manifund.org/trishume?tab=by",
   "reviewedAt": "2023-11-20",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {

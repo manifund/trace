@@ -1,10 +1,11 @@
 {
-  "_comment": "Neel Nanda's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Neel Nanda's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-NeelNanda",
   "reviewer": "Neel Nanda",
   "reviewerUrl": "https://manifund.org/NeelNanda",
   "sourceUrl": "https://manifund.org/NeelNanda?tab=by",
-  "reviewedAt": "2026-10-06",
+  "reviewedAt": "2026-08-05",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {
@@ -14,34 +15,16 @@
       "review": "[80,000 Hours](https://manifund.org/projects/80000-hours), Aug 2024\n\nI think 80K is doing good work that should clearly be funded - I've had 80K career advising several times and found it quite valuable, and think it helped push me over the edge into pursuing AI Safety work (not donating more as I think they're far too large an org to get much value from EACC, and it's best spent on smaller orgs)"
     },
     {
-      "org": "Aashka Patel",
-      "sourceUrl": "https://manifund.org/projects/ai-championship-ai-safety-talent-prepipeline-for-indias-6th-8th-graders?tab=comments#51005218-e3b6-4923-a363-db84c7a84659",
-      "reviewedAt": "2026-10-06",
-      "review": "[AI Safety Workshops For 6th-8th Graders in India](https://manifund.org/projects/ai-championship-ai-safety-talent-prepipeline-for-indias-6th-8th-graders), Oct 2026\n\n> **Cost per Neel Nanda discovered at middle school**\n\nWhile I'm flattered, I'm not sure I follow the logic here?"
-    },
-    {
       "org": "AI Futures Project",
       "sourceUrl": "https://manifund.org/projects/ai-forecasting-and-policy-research-by-the-ai-2027-team?tab=comments#241308ba-317b-42b0-9349-71a59dde6f29",
       "reviewedAt": "2025-05-06",
       "review": "[AI forecasting and policy research by the AI 2027 team](https://manifund.org/projects/ai-forecasting-and-policy-research-by-the-ai-2027-team), May 2025\n\nI don't believe AI 2027 will be my comparative advantage as a regranter, but I think AI 2027 is great, they're an excellent place to donate money, and I wanted to put my money where my mouth is with a token donation.\n\nI was very impressed with AI 2027. While I don't agree with all of the assumptions, and it's substantially faster than I predict, I found it scarily plausible. It was very productive for concretising my own thoughts and making me more aware of key considerations, for example, whether an AI will try to align its successor. I think this kind of writing is valuable and I would love to see more.\n\nIt also seems to have been very well received publicly (much more so than I expected), getting a ton of attention while being much higher quality than the messages that many people may have previously been exposed to. The team has an excellent track record, and I think the success of AI 2027 gives them significant momentum, in addition to Daniel's profile and positive reputation as a whistleblower who tried to walk away from large amounts of money, so it's plausible to me that they can get a good amount of public/policy attention. Though I would be much more optimistic about this if they hired someone with substantial policy/lobbying experience.\n\nWhile I don't expect to agree with the team on everything, I broadly think they have good judgment, care about the correct things, and will do things that are valuable and helpful. I view this donation and endorsement as a bet on the team and their future judgment, more so than any specific future plan."
     },
     {
-      "org": "AI Safety and Governance Fund",
-      "sourceUrl": "https://manifund.org/projects/testing-and-spreading-messages-to-reduce-ai-x-risk?tab=comments#94bc565f-7e9e-4770-9675-d5ee52d2f297",
-      "reviewedAt": "2024-08-31",
-      "review": "[Testing and spreading messages to reduce AI x-risk](https://manifund.org/projects/testing-and-spreading-messages-to-reduce-ai-x-risk), Aug 2024\n\nDid you intentionally make the max donation $500? Your own donation has already exceeded that, so I imagine you want to raise the cap\n\n---\n\n[Testing and spreading messages to reduce AI x-risk](https://manifund.org/projects/testing-and-spreading-messages-to-reduce-ai-x-risk), Aug 2024\n\n@ms Hmm, if it's not exposed to users, DM Austin on the Discord (linked in the corner) and ask him to fix it?"
-    },
-    {
-      "org": "AI Safety Los Angeles (AISLA)",
-      "sourceUrl": "https://manifund.org/projects/ai-safety-los-angeles-aisla?tab=comments#37caf3f5-09e2-4dda-a0aa-a548a8f21759",
-      "reviewedAt": "2025-07-08",
-      "review": "[AI Safety Los Angeles (AISLA)](https://manifund.org/projects/ai-safety-los-angeles-aisla), Jul 2025\n\nDo you know of specific people who would be excited about this community? Do you have a sense of specific people you'd reach out to? I think that having a sense of the latent demand would make evaluating how promising this is much easier."
-    },
-    {
       "org": "Alex Cloud",
       "sourceUrl": "https://manifund.org/projects/compute-for-4-mats-scholars-to-rapidly-scale-promising-new-method-pre-iclr?tab=comments#a54b7425-3194-4160-9d74-1e19ea9087d3",
       "reviewedAt": "2024-08-18",
-      "review": "[Compute for 4 MATS scholars to rapidly scale promising new method pre-ICLR](https://manifund.org/projects/compute-for-4-mats-scholars-to-rapidly-scale-promising-new-method-pre-iclr), Aug 2024\n\nI discussed this with Alex Cloud. I'm somewhat pessimistic about whether the technique will both work and not have a crippling alignment tax, but he made a pretty compelling case that it MIGHT, and could be a big deal if it worked, and it's a fairly elegant idea that seems like it has potential for some cool things even if the exact proposal doesn't work.\n\nEither way, this was a fairly cheap grant, a small fraction of the cost of labor going into the project, and it seems valuable to gather more data on whether the technique works and I expect that having more compute will make the quantity and quality of the evidence better, especially if they can go beyond using tiny stories to more realistic settings. There were several experiments Alex and I agreed would be good ideas, and I would be keen to see them happen.\n\n---\n\n[Compute for 4 MATS scholars to rapidly scale promising new method pre-ICLR](https://manifund.org/projects/compute-for-4-mats-scholars-to-rapidly-scale-promising-new-method-pre-iclr), Aug 2024\n\n@NeelNanda I was also impressed that Alex was able to defend the case for the project in quite a lot of detail, had already thought of several experiments I suggested, and generally seemed to care a lot about baselines and rigour.\n\nI'm also generally pro supporting the work of promising junior researchers regardless of the project to help them build skills and credibility."
+      "review": "[Compute for 4 MATS scholars to rapidly scale promising new method pre-ICLR](https://manifund.org/projects/compute-for-4-mats-scholars-to-rapidly-scale-promising-new-method-pre-iclr), Aug 2024\n\nI discussed this with Alex Cloud. I'm somewhat pessimistic about whether the technique will both work and not have a crippling alignment tax, but he made a pretty compelling case that it MIGHT, and could be a big deal if it worked, and it's a fairly elegant idea that seems like it has potential for some cool things even if the exact proposal doesn't work.\n\nEither way, this was a fairly cheap grant, a small fraction of the cost of labor going into the project, and it seems valuable to gather more data on whether the technique works and I expect that having more compute will make the quantity and quality of the evidence better, especially if they can go beyond using tiny stories to more realistic settings. There were several experiments Alex and I agreed would be good ideas, and I would be keen to see them happen."
     },
     {
       "org": "Apart Research",
@@ -86,12 +69,6 @@
       "review": "[MATS 10.0 Neel Subliminal Learning](https://manifund.org/projects/mats-100-neel-subliminal-learning), May 2026\n\nI’m funding two of my MATS scholars for two months each for work done on a paper explaining what’s going on with subliminal learning. This was during a period when they were not funded by the main MATS programme, paid at the same rates as MATS. While there is an obvious conflict of interest, since I supervised the paper, I do not financially profit and my bar for mentoring people is noticeably higher than my bar for funding them, so I am not too worried about this. And I think this is a great paper! Subliminal learning is a mysterious phenomenon of wide interest, and I think the forthcoming paper provides a satisfying explanation. Basic science on mysterious phenomena in LLMs is valuable work in a bunch of hard to foresee ways."
     },
     {
-      "org": "Can Rager",
-      "sourceUrl": "https://manifund.org/projects/automatic-circuit-discovery-on-sparse-autoencoded-features?tab=comments#0263be1c-03a1-485e-93a4-8951d9b6c519",
-      "reviewedAt": "2024-05-12",
-      "review": "[Automatic circuit discovery on sparse autoencoded features](https://manifund.org/projects/automatic-circuit-discovery-on-sparse-autoencoded-features), May 2024\n\n@AdamGleave Just noting that I was quite impressed by the paper that came out of this ( [https://arxiv.org/abs/2403.19647](https://arxiv.org/abs/2403.19647) ) - good grant, and good work by Sam, Can and co!"
-    },
-    {
       "org": "Celeste",
       "sourceUrl": "https://manifund.org/projects/interpretability-research-feb-jun?tab=comments#6f44a64f-b660-46d3-9020-510afd54f681",
       "reviewedAt": "2026-08-05",
@@ -102,12 +79,6 @@
       "sourceUrl": "https://manifund.org/projects/support-for-saelens-and-other-decode-research-projects?tab=comments#0c2bead7-cc9a-48ea-8520-3d81fca1c649",
       "reviewedAt": "2025-08-04",
       "review": "[Support for SAELens and other Decode Research Projects](https://manifund.org/projects/support-for-saelens-and-other-decode-research-projects), Aug 2025\n\nFully funded (I asked David to apply). I think Decode is great and serve a valuable role providing infrastructure for the interpretability community and I want to see them succeed. The co-founder Johnny is an absolutely cracked engineer and has made some amazing interfaces and surrounding infra, but I was sad to hear that Curt, the main one with a research background, has decided to move on, as I think it's very helpful to have someone with a research background around. I'm super excited that David is now interested in getting involved and happy to support this, I really liked some of David's past research like the feature absorption paper, and I think he'll be able to provide a lot of valuable research expertise to complement Johnny's skillset."
-    },
-    {
-      "org": "Effective Altruism New Zealand",
-      "sourceUrl": "https://manifund.org/projects/effective-altruism-nz?tab=comments#43e065bd-c60f-4898-809e-bda94b319081",
-      "reviewedAt": "2024-08-22",
-      "review": "[Support EA NZ's operations](https://manifund.org/projects/effective-altruism-nz), Aug 2024\n\nNote: Your max funding here is $500, which I presume is an error? (If you can't fix it yourself, I imagine you can DM Austin on Discord to fix it)"
     },
     {
       "org": "Elizabeth Van Nostrand",
@@ -132,12 +103,6 @@
       "sourceUrl": "https://manifund.org/projects/ai-scam-research-targeting-seniors?tab=comments#834ced30-6093-4eb1-8f69-bc3b97489f53",
       "reviewedAt": "2025-06-18",
       "review": "[AI scam research targeting seniors](https://manifund.org/projects/ai-scam-research-targeting-seniors), Jun 2025\n\nThis seems a pretty compelling opportunity! You seem like legitimate researchers and like you have a serious shot at getting a bunch of attention on this work. I agree that getting more attention on this kind of thing seems good for more policy energy regarding AI and it seems like travel funding will help with this. I funded this to a bit over the requested $3000, I'm open to pitches for the full $5000 being useful. Good luck!"
-    },
-    {
-      "org": "Gaurav Yadav",
-      "sourceUrl": "https://manifund.org/projects/ai-governance-youtube-channel?tab=comments#986a7b59-1ffb-4d33-870b-c2162f4c8540",
-      "reviewedAt": "2024-08-22",
-      "review": "[AI Governance YouTube Channel](https://manifund.org/projects/ai-governance-youtube-channel), Aug 2024\n\n@michaeltrazzi +1, in particular, donating money to help you spend more time on this would feel noticeably more exciting than more time for better hardware/software/etc - I don't know if your time is fungible though Gaurav?"
     },
     {
       "org": "Gavin Leech",
@@ -206,18 +171,6 @@
       "review": "[Bayesian modelling of LLM capabilities from evals](https://manifund.org/projects/bayesian-modelling-of-llm-capabilities-from-evals), Dec 2024\n\nI'm making this grant largely on the recommendation of Marius (as he's much more involved in the evals field than me), thus only giving the minimum funding of $18.5K, but I'd be happy to see this fully funded!\n\nThe overall goal and plan here checks out to me and seem important: understanding how capable AI systems are seems very important, especially dangerous capabilities, both for forecasting risks and for coordinating agreements (like RSP-style conditional pauses). Current statistical practices seem pretty sloppy, and I can buy that there's a lot of low hanging fruit to improve it. I'm not familiar enough with the statistical theory here to say if the proposed method is the right call, but it seems fairly reasonable to me, and I'd be excited to see it explored properly!\n\nThe main concerns I see:\n\n- A method is only useful if people actually use it - highly technical or complex methods seem less likely to get adoption. Though eval methods can be used by people outside AGI labs (eg Apollo), so there are far more chances for someone to try it. I expect the main things to help here are compelling evidence that it's useful, along with good explainers and software\n- Getting data is expensive - I'm not sure how data efficient this method is compared to other things, but both designing questions and running an AI agent on them can be highly costly, and data efficiency seems super important\n- To work, if I understand correctly, there must be a list of latent factors to study, and each question in the benchmark must be labelled according to which it uses? Existing benchmarks tend not to look like this, and so this will need to be addressed. My guess is that enumerating the relevant latent factors wouldn't be that hard, at least for a given dataset, and that another LLM could do a good job of labelling given access to the question and worked solution? But I'm not confident, and this is another point of failure\n\nI have no conflicts of interest here"
     },
     {
-      "org": "Lawrence Chan",
-      "sourceUrl": "https://manifund.org/projects/exploring-novel-research-directions-in-prosaic-ai-alignment?tab=comments#c4485d0c-3f21-7438-e2c4-8442901ededa",
-      "reviewedAt": "2023-11-30",
-      "review": "[Exploring novel research directions in prosaic AI alignment](https://manifund.org/projects/exploring-novel-research-directions-in-prosaic-ai-alignment), Nov 2023\n\nLawrence is great, very experienced with alignment, and I trust his judgement, this seems like a great thing to fund! I would donate myself if this was tax deductible in the UK (which I don't think it is?)"
-    },
-    {
-      "org": "LEAH Coworking Space",
-      "sourceUrl": "https://manifund.org/projects/leah-coworking-space?tab=comments#9c53b9ed-0df7-41b2-a80b-49e9fdd5f5bd",
-      "reviewedAt": "2024-08-22",
-      "review": "[LEAH Coworking Space](https://manifund.org/projects/leah-coworking-space), Aug 2024\n\nI've worked out of LEAH and appreciate its existence!"
-    },
-    {
       "org": "Lightcone Infrastructure",
       "sourceUrl": "https://manifund.org/projects/lightcone-infrastructure?tab=comments#261dc1b5-1632-4953-b633-5411325bb52d",
       "reviewedAt": "2024-08-22",
@@ -233,19 +186,13 @@
       "org": "Marisa Vogiatzi",
       "sourceUrl": "https://manifund.org/projects/social-media-strategy-for-ea-orgs?tab=comments#60df260a-2055-4804-bd78-fe137d5d7be3",
       "reviewedAt": "2024-08-22",
-      "review": "[Social Media Strategy for EA Orgs](https://manifund.org/projects/social-media-strategy-for-ea-orgs), Aug 2024\n\nThis seems like a great service to provide! And I'd expect that someone interested in EA is better placed to provide useful work for an EA org's needs than a generic professional. It's hard to judge how good you are here, but having too much demand seems like a strong positive signal, and totally worth funding.\n\n---\n\n[Social Media Strategy for EA Orgs](https://manifund.org/projects/social-media-strategy-for-ea-orgs), Aug 2024\n\n@marisavogiatzi I'd encourage you to increase the max funding significantly higher if you would spend more hours on EA stuff given more money! It's *max *funding, after all. I also second Austin's suggestion of charging people some money for it (specialised to what the org can reasonably afford), this is a good way to ensure you're actually providing value."
+      "review": "[Social Media Strategy for EA Orgs](https://manifund.org/projects/social-media-strategy-for-ea-orgs), Aug 2024\n\nThis seems like a great service to provide! And I'd expect that someone interested in EA is better placed to provide useful work for an EA org's needs than a generic professional. It's hard to judge how good you are here, but having too much demand seems like a strong positive signal, and totally worth funding."
     },
     {
       "org": "MATS Research",
       "sourceUrl": "https://manifund.org/projects/mats-funding?tab=comments#00b2aa4c-ce72-4bf8-8c01-3799c91c9643",
       "reviewedAt": "2024-08-22",
       "review": "[MATS Program](https://manifund.org/projects/mats-funding), Aug 2024\n\nI've found being a MATS mentor a very valuable experience! I think my scholars have done kick-ass work, several of them have had very high impact roles going forwards, and I've mentored many more people than I would have done on my own in a way that I believe has significantly magnified my and their impact, and I appreciate MATS for facilitating this.\n\nI'm not donating more, as MATS is a large funding opportunity that I don't think EACC is well placed for, but a token donation seems in the spirit."
-    },
-    {
-      "org": "Michaël Rubens Trazzi",
-      "sourceUrl": "https://manifund.org/projects/grow-an-ai-safety-tiktok-channel-to-reach-tens-of-millions-of-people?tab=comments#928a70c9-9dd9-4ba6-8dce-45730d825807",
-      "reviewedAt": "2025-08-12",
-      "review": "[Grow An AI Safety Tiktok Channel To Reach Ten Million People](https://manifund.org/projects/grow-an-ai-safety-tiktok-channel-to-reach-tens-of-millions-of-people), Aug 2025\n\nSeems like an interesting project, and impressive reach. What kinds of messages/calls to action do you hope to broadcast?\n\nAlso presumably there's a typo above and you mean $10K for 5 weeks not be 10?\n\n---\n\n[Grow An AI Safety Tiktok Channel To Reach Ten Million People](https://manifund.org/projects/grow-an-ai-safety-tiktok-channel-to-reach-tens-of-millions-of-people), Aug 2025\n\nGotcha, thanks! @michaeltrazzi\n\nThat seems a pretty reasonable plan and you've gotten good reach. I'm not confident this is a good idea, but I think that's plausible and more value of information here would be good, so I've donated another month's worth. Good luck!"
     },
     {
       "org": "Oscar Balcells Obeso",
@@ -255,15 +202,15 @@
     },
     {
       "org": "PauseAI US",
-      "sourceUrl": "https://manifund.org/projects/pauseai-us-2025-through-q2?tab=comments#9a804f94-b5c6-45ce-a58f-a61bf63fbf61",
+      "sourceUrl": "https://manifund.org/projects/pauseai-us-2025-through-q2?tab=comments#634a4513-5305-43f2-8c5c-e2c03c546c9a",
       "reviewedAt": "2024-11-21",
-      "review": "[PauseAI US 2025 through Q2](https://manifund.org/projects/pauseai-us-2025-through-q2), Nov 2024\n\n@Austin To clarify, do all Manifund grantees pay a 5% fee on donations via Manifund? Or just the grantees who are also fiscally sponsored by Manifund, and they pay it regardless of whether donations come via Manifund or elsewhere?\n\n---\n\n[PauseAI US 2025 through Q2](https://manifund.org/projects/pauseai-us-2025-through-q2), Nov 2024\n\n@Austin Thanks for clarifying!\n\nFwiw, without much context on the finances here, I'd be pro not having a 5% fee on smaller donors - my intuition is that it won't raise much money, and the discouragement of a fee would have an outsized effect on reducing donations. While larger donors are more likely to be rational about this kind of thing, and also to be able to judge how much value Manifund is actually adding to the ecosystem."
+      "review": "[PauseAI US 2025 through Q2](https://manifund.org/projects/pauseai-us-2025-through-q2), Nov 2024\n\n@Austin Thanks for clarifying!\n\nFwiw, without much context on the finances here, I'd be pro not having a 5% fee on smaller donors - my intuition is that it won't raise much money, and the discouragement of a fee would have an outsized effect on reducing donations. While larger donors are more likely to be rational about this kind of thing, and also to be able to judge how much value Manifund is actually adding to the ecosystem."
     },
     {
       "org": "Piotr Zaborszczyk",
-      "sourceUrl": "https://manifund.org/projects/ai-safety-fieldbuilding-in-warsaw-poland-funding-for-1-semester?tab=comments#0142907d-8a5f-460e-80ee-72fbd7f78db1",
+      "sourceUrl": "https://manifund.org/projects/ai-safety-fieldbuilding-in-warsaw-poland-funding-for-1-semester?tab=comments#821bb0af-f224-4908-afb2-2bdc657a86cf",
       "reviewedAt": "2024-12-10",
-      "review": "[AI safety fieldbuilding in Warsaw, Poland (funding for 1 semester)](https://manifund.org/projects/ai-safety-fieldbuilding-in-warsaw-poland-funding-for-1-semester), Nov 2024\n\nI like the proposal! Do you think you could productively use any more money?\n\n---\n\n[AI safety fieldbuilding in Warsaw, Poland (funding for 1 semester)](https://manifund.org/projects/ai-safety-fieldbuilding-in-warsaw-poland-funding-for-1-semester), Dec 2024\n\nI just gave Piotr a small top-up for the purposes of running 2 hackathons (or events in the same spirit) in areas of AI Safety, eg making a satellite event for an Apart Hackathon.\n\nI don't know Piotr much, and so can't be confident he'll execute well on this, but this seems pretty positive EV to me. This is very cheap, and I've met a surprising amount of University of Warsaw graduates in elite STEM circles (eg maths olympiads, Cambridge university, Jane Street, etc), so getting any of them excited about AI safety seems great to me. I think hackathons are a great way to energise and ground a group into actually doing practical things, rather than just reading or philosophising, and to help build momentum."
+      "review": "[AI safety fieldbuilding in Warsaw, Poland (funding for 1 semester)](https://manifund.org/projects/ai-safety-fieldbuilding-in-warsaw-poland-funding-for-1-semester), Dec 2024\n\nI just gave Piotr a small top-up for the purposes of running 2 hackathons (or events in the same spirit) in areas of AI Safety, eg making a satellite event for an Apart Hackathon.\n\nI don't know Piotr much, and so can't be confident he'll execute well on this, but this seems pretty positive EV to me. This is very cheap, and I've met a surprising amount of University of Warsaw graduates in elite STEM circles (eg maths olympiads, Cambridge university, Jane Street, etc), so getting any of them excited about AI safety seems great to me. I think hackathons are a great way to energise and ground a group into actually doing practical things, rather than just reading or philosophising, and to help build momentum."
     },
     {
       "org": "Robert Krzyzanowski",
@@ -279,15 +226,9 @@
     },
     {
       "org": "Steve Petersen",
-      "sourceUrl": "https://manifund.org/projects/systems-that-give-a-damn?tab=comments#16a9678e-f61c-48f1-b8cb-7a28c6160d32",
+      "sourceUrl": "https://manifund.org/projects/systems-that-give-a-damn?tab=comments#85cc1807-908a-4953-8c39-842be5fc5811",
       "reviewedAt": "2025-08-05",
-      "review": "[Systems that \"give a damn\"](https://manifund.org/projects/systems-that-give-a-damn), Aug 2025\n\nCould you share a few examples of your work (in the AI alignment space) that you feel proudest of? (Blog posts are fine, no need to try to stick to published papers - just whatever you consider your best work to be).Or, if I wanted to ask some alignment researchers who've engaged a bunch with your research and found it valuable, who would you recommend?\n\n---\n\n[Systems that \"give a damn\"](https://manifund.org/projects/systems-that-give-a-damn), Aug 2025\n\nI've funded this up to 1 semesters worth. On my inside view, I'm not particularly excited about this kind of theory heavy non-empirical alignment work. on the outside view it sure seems like enough people are into this kind of thing that it should be taken seriously and given at least some resources. And my sense is that AI safety is a lot more constrained by plausibly reasonable places to spend money, than money. So this seems like a pretty reasonable thing to fund. I don't feel compelled enough to fully fund this, but would be happy to see someone else who feels excited about this do so.\n\nGood luck! I hope it goes well."
-    },
-    {
-      "org": "Sudarsh Kunnavakkam",
-      "sourceUrl": "https://manifund.org/projects/tooling--model-orgs-for-cot-faithfulness-research?tab=comments#65530522-178f-413c-b369-b3c6e84b913e",
-      "reviewedAt": "2025-07-21",
-      "review": "[Tooling + Model Orgs for CoT Faithfulness Research](https://manifund.org/projects/tooling--model-orgs-for-cot-faithfulness-research), Jul 2025\n\n> I have training checkpoints that have been successful (at partial progress).\n\nWhat exactly do you mean by this?"
+      "review": "[Systems that \"give a damn\"](https://manifund.org/projects/systems-that-give-a-damn), Aug 2025\n\nI've funded this up to 1 semesters worth. On my inside view, I'm not particularly excited about this kind of theory heavy non-empirical alignment work. on the outside view it sure seems like enough people are into this kind of thing that it should be taken seriously and given at least some resources. And my sense is that AI safety is a lot more constrained by plausibly reasonable places to spend money, than money. So this seems like a pretty reasonable thing to fund. I don't feel compelled enough to fully fund this, but would be happy to see someone else who feels excited about this do so.\n\nGood luck! I hope it goes well."
     },
     {
       "org": "tamar rott shaham",
@@ -297,15 +238,15 @@
     },
     {
       "org": "Teamwork",
-      "sourceUrl": "https://manifund.org/projects/teamwork---professional-ea-co-working-space-in-berlin?tab=comments#9b9035c5-7688-4281-95bd-690074b9b233",
+      "sourceUrl": "https://manifund.org/projects/teamwork---professional-ea-co-working-space-in-berlin?tab=comments#863c87bd-feed-4e6a-b6a6-6c1e0e814474",
       "reviewedAt": "2024-08-22",
-      "review": "[Teamwork - professional EA co-working space in Berlin](https://manifund.org/projects/teamwork---professional-ea-co-working-space-in-berlin), Aug 2024\n\nHow long a time period would the 45K requested cover? I'm very surprised you can pay 0.5 FTE *and* rent a decently sized office space for so little, what's the breakdown here?\n\nAnd what kind of people (eg what roles/working for which orgs) work out of the space at the moment, or in the expected future?\n\n---\n\n[Teamwork - professional EA co-working space in Berlin](https://manifund.org/projects/teamwork---professional-ea-co-working-space-in-berlin), Aug 2024\n\nI haven't used Teamwork myself, but I think co-working spaces are valuable, and it seems like you do good work at impressively cheap rates!"
+      "review": "[Teamwork - professional EA co-working space in Berlin](https://manifund.org/projects/teamwork---professional-ea-co-working-space-in-berlin), Aug 2024\n\nI haven't used Teamwork myself, but I think co-working spaces are valuable, and it seems like you do good work at impressively cheap rates!"
     },
     {
       "org": "Tom McGrath",
       "sourceUrl": "https://manifund.org/projects/train-great-open-source-sparse-autoencoders?tab=comments#3fcec672-af9a-4b97-90b0-37ef4923fcce",
       "reviewedAt": "2024-05-09",
-      "review": "[Train great open-source sparse autoencoders](https://manifund.org/projects/train-great-open-source-sparse-autoencoders), May 2024\n\n****Main points in favor of this grant****\n\nI think that determining the best training setup for SAEs seems like a highly valuable thing to do. Lots of new ideas are arising about how to train these things well (eg Gated SAEs, Prolu, Anthropic's April update), with wildly varying amounts of rigour behind them, and often little effort put into replicating them and seeing how they combine. Having a rigorous and careful effort doing this seems of significant value to the mech interp community.\n\nTom is a strong researcher, though hasn't worked on SAEs before, I thought the Hydra Effect and Understanding AlphaZero were solid papers. Joseph is also solid and has a lot of experience with SAEs. I expect them to be a good team.\n\n****Donor's main reservations****\n\nThe Google DeepMind mech interp team has been looking somewhat into how to combine the Anthropic April Update methods and Gated SAEs, and also hopes to open source SAEs at some point, which creates some concerns for duplicated work. As a result, I'm less excited about significant investment into open source SAEs, though having some out (especially soon!) would be nice.\n\nThis is an engineering heavy project, and I don't know too much about Tom's engineering skills, though I don't have any reason to think they're bad.\n\n****Process for deciding amount****\n\nAs above, I'm less excited about significant investment into open source SAEs, which is the main reason I haven't funded the full amount. $4K is a fairly small grant, so I haven't thought too hard about exactly how much compute this should reasonably take. If the training methods exploration turns out to take much more compute than expected, I'd be happy to increase it.\n\n****Conflicts of interest****\n\nPlease disclose e.g. any romantic, professional, financial, housemate, or familial relationships you have with the grant recipient(s).\n\nTom and I somewhat overlapped at DeepMind, but never directly worked together.\n\nJoseph is one of my MATS alumni, and currently doing my MATS extension program. I consider this more of a conflict of interest, but my understanding is that Tom is predominantly driving this project, with Joseph helping out where he can.\n\nI expect my MATS scholars to benefit from good open source SAEs existing and for both my scholars and the GDM team to benefit from better knowledge on training SAEs, but in the same way that the whole mech interp ecosystem benefits.\n\n---\n\n[Train great open-source sparse autoencoders](https://manifund.org/projects/train-great-open-source-sparse-autoencoders), May 2024\n\n@Austin Yep, I'd be happy to pay salary on this if Tom wants it (not sure what appropriate rates are though). Tom and I discussed it briefly before he applied.\n\n---\n\n[Train great open-source sparse autoencoders](https://manifund.org/projects/train-great-open-source-sparse-autoencoders), May 2024\n\n@NeelNanda Note: Tom and I discussed this grant before he applied here, and I encouraged him to apply to Manifund since I thought it was a solid grant to fund."
+      "review": "[Train great open-source sparse autoencoders](https://manifund.org/projects/train-great-open-source-sparse-autoencoders), May 2024\n\n****Main points in favor of this grant****\n\nI think that determining the best training setup for SAEs seems like a highly valuable thing to do. Lots of new ideas are arising about how to train these things well (eg Gated SAEs, Prolu, Anthropic's April update), with wildly varying amounts of rigour behind them, and often little effort put into replicating them and seeing how they combine. Having a rigorous and careful effort doing this seems of significant value to the mech interp community.\n\nTom is a strong researcher, though hasn't worked on SAEs before, I thought the Hydra Effect and Understanding AlphaZero were solid papers. Joseph is also solid and has a lot of experience with SAEs. I expect them to be a good team.\n\n****Donor's main reservations****\n\nThe Google DeepMind mech interp team has been looking somewhat into how to combine the Anthropic April Update methods and Gated SAEs, and also hopes to open source SAEs at some point, which creates some concerns for duplicated work. As a result, I'm less excited about significant investment into open source SAEs, though having some out (especially soon!) would be nice.\n\nThis is an engineering heavy project, and I don't know too much about Tom's engineering skills, though I don't have any reason to think they're bad.\n\n****Process for deciding amount****\n\nAs above, I'm less excited about significant investment into open source SAEs, which is the main reason I haven't funded the full amount. $4K is a fairly small grant, so I haven't thought too hard about exactly how much compute this should reasonably take. If the training methods exploration turns out to take much more compute than expected, I'd be happy to increase it.\n\n****Conflicts of interest****\n\nPlease disclose e.g. any romantic, professional, financial, housemate, or familial relationships you have with the grant recipient(s).\n\nTom and I somewhat overlapped at DeepMind, but never directly worked together.\n\nJoseph is one of my MATS alumni, and currently doing my MATS extension program. I consider this more of a conflict of interest, but my understanding is that Tom is predominantly driving this project, with Joseph helping out where he can.\n\nI expect my MATS scholars to benefit from good open source SAEs existing and for both my scholars and the GDM team to benefit from better knowledge on training SAEs, but in the same way that the whole mech interp ecosystem benefits."
     },
     {
       "org": "Transluce",
@@ -316,8 +257,8 @@
     {
       "org": "Tyler John",
       "sourceUrl": "https://manifund.org/projects/philanthropic-advising?tab=comments#441e3a6d-121d-45b9-b838-2468954761d8",
-      "reviewedAt": "2025-04-21",
-      "review": "[Philanthropic advising](https://manifund.org/projects/philanthropic-advising), Mar 2025\n\nI am familiar with Tyler's work and encouraged him to apply. He did great work at Longview and is currently independent and advising some other philanthropists. I think this is very high impact work and want him to be supported to focus on it as long as seems impactful. Some of the details are a bit sensitive which is why the write-up is fairly sparse. I'm giving 20K now, I'll hopefully increase this if I get a budget top-up.\n\n---\n\n[Philanthropic advising](https://manifund.org/projects/philanthropic-advising), Apr 2025\n\n@NeelNanda I just increased this to 50K post my budget top up"
+      "reviewedAt": "2025-03-16",
+      "review": "[Philanthropic advising](https://manifund.org/projects/philanthropic-advising), Mar 2025\n\nI am familiar with Tyler's work and encouraged him to apply. He did great work at Longview and is currently independent and advising some other philanthropists. I think this is very high impact work and want him to be supported to focus on it as long as seems impactful. Some of the details are a bit sensitive which is why the write-up is fairly sparse. I'm giving 20K now, I'll hopefully increase this if I get a budget top-up."
     },
     {
       "org": "Zhonghao He",

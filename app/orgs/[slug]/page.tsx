@@ -4,11 +4,12 @@ import { OrgBreakdown } from '@/components/org-breakdown'
 import { OrgGrantTable } from '@/components/org-grant-table'
 import { OrgLogo } from '@/components/org-logo'
 import { OrgReviews } from '@/components/org-reviews'
+import { OrgReviewsWritten } from '@/components/org-reviews-written'
 import { OrgStats } from '@/components/org-stats'
 import { OrgTeamBlock } from '@/components/org-team'
 import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
-import { getReviewsForOrg } from '@/db/review'
+import { getReviewsByOrg, getReviewsForOrg } from '@/db/review'
 import { getTeamForOrg } from '@/db/team'
 import {
   byCause,
@@ -108,9 +109,10 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const org = await getOrgBySlug(slug)
   if (!org) notFound()
 
-  const [{ made, received, sponsored, via }, reviews, team] = await Promise.all([
+  const [{ made, received, sponsored, via }, reviews, written, team] = await Promise.all([
     getGrantsForOrg(org.slug),
     getReviewsForOrg(org.id),
+    getReviewsByOrg(org.id),
     getTeamForOrg(org.id),
   ])
   // Renames are worth a mention; plain aliases are matching plumbing.
@@ -246,6 +248,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
         ))}
       </div>
       <OrgReviews reviews={reviews} />
+      <OrgReviewsWritten name={org.name} reviews={written} />
       <GrantList
         title="Grants received"
         grants={received}

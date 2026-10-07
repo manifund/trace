@@ -1,10 +1,11 @@
 {
-  "_comment": "Isaak Freeman's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "_comment": "Isaak Freeman's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: the substantive comments on that org's projects (grant rationales and assessments; not replies, questions or housekeeping), oldest first, each headed by the project and month.",
   "id": "manifund-IsaakFreeman",
   "reviewer": "Isaak Freeman",
   "reviewerUrl": "https://manifund.org/IsaakFreeman",
   "sourceUrl": "https://manifund.org/IsaakFreeman?tab=by",
-  "reviewedAt": "2025-05-22",
+  "reviewedAt": "2023-12-06",
+  "venue": "Manifund",
   "createOrgs": false,
   "reviews": [
     {
@@ -18,12 +19,6 @@
       "sourceUrl": "https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory?tab=comments#319b09ad-fc56-73f2-06bc-073d66255298",
       "reviewedAt": "2023-11-26",
       "review": "[A Lumenator Company, or: A More Ambitious Life Trajectory](https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory), Nov 2023\n\nI built my own high-illumination system and would have loved to have a high-quality product to buy at the time. I'd be even more excited about this project if there were someone with hardware startup/business experience on board. I also think the timelines could be more ambitious, especially if the first prototypes are just pre-assembled kits of existing components. 2 months of legal work and setting up an online shop is quite long."
-    },
-    {
-      "org": "AI Safety Camp",
-      "sourceUrl": "https://manifund.org/projects/10th-edition-of-ai-safety-camp?tab=comments#627e05b0-3366-799d-a706-59d64f868ead",
-      "reviewedAt": "2023-12-15",
-      "review": "[10th edition of AI Safety Camp](https://manifund.org/projects/10th-edition-of-ai-safety-camp), Dec 2023\n\nWithout any in-depth evaluation, I think this is worth a signal-boost and a seed grant. I’d be disappointed to see AISC stop!"
     },
     {
       "org": "ALERT",
@@ -48,18 +43,6 @@
       "sourceUrl": "https://manifund.org/projects/the-base-rate-times?tab=comments#e989efd8-cfdf-64cb-37f0-a0282bbe08ab",
       "reviewedAt": "2023-11-26",
       "review": "[The Base Rate Times](https://manifund.org/projects/the-base-rate-times), Nov 2023\n\nI think this is interesting and would want to hear how it's going."
-    },
-    {
-      "org": "niplav",
-      "sourceUrl": "https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need?tab=comments#20bde4e5-9a12-42ae-839f-70d328879539",
-      "reviewedAt": "2025-05-22",
-      "review": "[Orexin Pilot Experiment for Reducing Sleep Need](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need), May 2025\n\nLove it! [isaak.net/sleepless](https://isaak.net/sleepless/)"
-    },
-    {
-      "org": "Talos Network",
-      "sourceUrl": "https://manifund.org/projects/talos-institute-eu-ai-policy-career-org-spinning-out-of-training-for-good?tab=comments#5a8dcb21-b25f-c5b6-49b5-fcb37d18f234",
-      "reviewedAt": "2023-12-09",
-      "review": "[Talos Network](https://manifund.org/projects/talos-institute-eu-ai-policy-career-org-spinning-out-of-training-for-good), Dec 2023\n\nSignal-boosting this."
     }
   ]
 }

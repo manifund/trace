@@ -18,11 +18,14 @@ type ReviewsFile = {
   reviewerUrl?: string | null
   sourceUrl?: string | null
   reviewedAt: string
+  venue?: string | null
   createOrgs?: boolean
   reviews: {
     org: string
     sourceUrl?: string | null
     reviewedAt?: string | null
+    reviewer?: string | null
+    reviewerUrl?: string | null
     confidence?: string | null
     fundingNeeded?: string | null
     review: string
@@ -66,11 +69,14 @@ for (const name of readdirSync('data/reviews').sort()) {
       orgId = await resolver.resolve(review.org)
     }
     seen.add(key)
+    const reviewer = review.reviewer ?? file.reviewer
     rows.push({
       org_id: orgId,
       source_key: key,
-      reviewer: file.reviewer,
-      reviewer_url: file.reviewerUrl ?? null,
+      reviewer,
+      reviewer_url: review.reviewerUrl ?? file.reviewerUrl ?? null,
+      reviewer_org_id: resolver.lookup(reviewer),
+      venue: file.venue ?? null,
       source_url: review.sourceUrl ?? file.sourceUrl ?? null,
       reviewed_at: review.reviewedAt ?? file.reviewedAt,
       body: body(review),

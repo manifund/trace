@@ -336,6 +336,12 @@ DROP POLICY IF EXISTS "public read" ON org_people;
 CREATE POLICY "public read" ON org_people FOR SELECT USING (true);
 
 
+-- ===== from 20261008000000_review_authors.sql =====
+ALTER TABLE org_reviews
+  ADD COLUMN IF NOT EXISTS reviewer_org_id uuid REFERENCES orgs(id) ON DELETE SET NULL,
+  ADD COLUMN IF NOT EXISTS venue text;
+CREATE INDEX IF NOT EXISTS org_reviews_reviewer_idx ON org_reviews (reviewer_org_id);
+
 -- ===== API role grants =====
 -- Supabase grants these automatically for `public` only; a new schema needs
 -- them spelled out. RLS still governs what anon/authenticated can see —
