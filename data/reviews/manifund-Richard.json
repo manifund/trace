@@ -1,0 +1,35 @@
+{
+  "_comment": "Richard Ngo's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-Richard",
+  "reviewer": "Richard Ngo",
+  "reviewerUrl": "https://manifund.org/Richard",
+  "sourceUrl": "https://manifund.org/Richard?tab=by",
+  "reviewedAt": "2026-01-18",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "AI Safety Camp",
+      "sourceUrl": "https://manifund.org/projects/10th-edition-of-ai-safety-camp?tab=comments#56912f54-0aae-429c-98b4-0fd5b1553693",
+      "reviewedAt": "2024-02-06",
+      "review": "[10th edition of AI Safety Camp](https://manifund.org/projects/10th-edition-of-ai-safety-camp), Feb 2024\n\nSeems important and underfunded!"
+    },
+    {
+      "org": "Apart Research",
+      "sourceUrl": "https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline?tab=comments#3a2a47e6-689d-40cc-8364-08676950999e",
+      "reviewedAt": "2025-06-06",
+      "review": "[Keep Apart Research Going: Global AI Safety Research & Talent Pipeline](https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline), Jun 2025\n\nBuilding a culture of hands-on experimentation is probably the best way to do AI safety outreach, and Apart seems to have executed on it really well."
+    },
+    {
+      "org": "Groundless Alignment Residency",
+      "sourceUrl": "https://manifund.org/projects/groundless-alignment-india-residency-2025?tab=comments#2ca4c23a-d6e3-4412-8f77-4fea2caab336",
+      "reviewedAt": "2025-10-27",
+      "review": "[Groundless Alignment Residency 2025](https://manifund.org/projects/groundless-alignment-india-residency-2025), Oct 2025\n\nI’m very excited about the groundless agenda."
+    },
+    {
+      "org": "Mateusz Bagiński",
+      "sourceUrl": "https://manifund.org/projects/ambitious-ai-alignment-seminar?tab=comments#1f30da36-4062-4bec-ac21-5c9bf3ebec5b",
+      "reviewedAt": "2026-01-18",
+      "review": "[Ambitious AI Alignment Seminar](https://manifund.org/projects/ambitious-ai-alignment-seminar), Jan 2026\n\nLooks exciting. My personal view is that there's a lot of progress waiting to be made on theoretical/agent foundations research. The quality of the program will of course depend a lot on the quality of fellows; I'm curious if there are many people already on your radar, or if you think you have good leads there.\n\nA few other thoughts:\n\n- I think trying to persuade people that the alignment problem is *hard* is often counterproductive. The mindset of \"I need to try to solve a extremely difficult problem\" is not very conducive to thinking up promising research directions. More than anything else, I'd like people to come out of this with a sense of why the alignment problem is *interesting*. Happy to talk more about this in a call.\n\n- Some of the selection criteria seem a bit counterproductive. a) \"Decent team players, non-disruptive to the group cohesion\" seems like a bad way to select for amazing scientists, and might rule out some of the most interesting candidates. And b) \"would care about saving the world and all their friends if they thought human extinction was likely\" seems likely to select mainly for EA-type motivations which IMO also make people worse at open-ended theoretical research. Meanwhile c) \"highly technically skilled\" is reasonable, but I care much more about clarity of thinking than literal technical skills.\n\nIf the organizers have good reasons to expect high-quality candidates I expect I'd pitch in 5-10k."
+    }
+  ]
+}

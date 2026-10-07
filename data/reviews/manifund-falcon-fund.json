@@ -1,0 +1,23 @@
+{
+  "_comment": "Falcon Fund's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-falcon-fund",
+  "reviewer": "Falcon Fund",
+  "reviewerUrl": "https://manifund.org/falcon-fund",
+  "sourceUrl": "https://manifund.org/falcon-fund?tab=by",
+  "reviewedAt": "2026-09-20",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "AI–Animal Observatory",
+      "sourceUrl": "https://manifund.org/projects/aianimal-observatory?tab=comments#0b155a1d-c10c-48f3-8801-4b79475a8b6f",
+      "reviewedAt": "2026-09-15",
+      "review": "[The AI–Animal Observatory](https://manifund.org/projects/aianimal-observatory), Sep 2026\n\nI've been looking for someone to do this for a while, and I found this person from the Sentient Futures fellowship. They were recommended to me, and I worked with them on the shape of this project.\n\nIt's very important to know how the animal agriculture industry is adopting technology so we can determine if any of them are very bad and we can build solutions that are better.\n\nI also paid back a $4000 loan so the total size of the grant is $64000"
+    },
+    {
+      "org": "Tandena Wagner",
+      "sourceUrl": "https://manifund.org/projects/research-disease-from-vulture-population-crashes-and-prevention?tab=comments#d0c3545d-1e5a-4560-9591-fbbca9d59fac",
+      "reviewedAt": "2026-09-20",
+      "review": "[Research Disease from Vulture-Population Crashes, and Prevention](https://manifund.org/projects/research-disease-from-vulture-population-crashes-and-prevention), Sep 2026\n\nTandena, I think this is great work. Thank you for doing it. I'm glad my offer to pay enticed you to do this. Post this on the EA forum?"
+    }
+  ]
+}

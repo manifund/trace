@@ -9,6 +9,7 @@ import { writeFileSync } from 'node:fs'
 import * as cheerio from 'cheerio'
 import type { Cheerio, CheerioAPI } from 'cheerio'
 import type { AnyNode } from 'domhandler'
+import { blockMd, textOf } from './lib/html-md'
 
 type Post = {
   id: string
@@ -60,97 +61,6 @@ const POSTS: Post[] = [
   },
 ]
 
-// ---- HTML -> markdown (just what the renderer understands) ----
-
-function inlineMd($: CheerioAPI, node: AnyNode, base: string): string {
-  if (node.type === 'text') return node.data.replace(/\s+/g, ' ')
-  if (node.type !== 'tag') return ''
-  const kids = () =>
-    $(node)
-      .contents()
-      .toArray()
-      .map((k) => inlineMd($, k, base))
-      .join('')
-  switch (node.name) {
-    case 'a': {
-      const href = $(node).attr('href') ?? ''
-      let abs = href
-      try {
-        abs = new URL(href.replace(/^\(+/, ''), base).toString()
-      } catch {}
-      return `[${kids()}](${abs})`
-    }
-    case 'strong':
-    case 'b':
-      return `**${kids()}**`
-    case 'em':
-    case 'i':
-      return `*${kids()}*`
-    case 'code':
-      return kids()
-    case 'sup':
-      return '' // footnote markers
-    case 'br':
-      return '\n'
-    default:
-      return kids()
-  }
-}
-
-function blockMd($: CheerioAPI, el: Cheerio<AnyNode>, base: string): string {
-  const node = el.get(0)
-  if (!node || node.type !== 'tag') return ''
-  switch (node.name) {
-    case 'p':
-      return el
-        .contents()
-        .toArray()
-        .map((k) => inlineMd($, k, base))
-        .join('')
-        .trim()
-    case 'ul':
-    case 'ol':
-      return el
-        .children('li')
-        .toArray()
-        .map(
-          (li) =>
-            '- ' +
-            $(li)
-              .contents()
-              .toArray()
-              .map((k) => inlineMd($, k, base))
-              .join('')
-              .trim()
-        )
-        .join('\n')
-    case 'blockquote':
-      return el
-        .children()
-        .toArray()
-        .map((c) => blockMd($, $(c), base))
-        .filter(Boolean)
-        .join('\n\n')
-        .split('\n')
-        .map((line) => `> ${line}`)
-        .join('\n')
-    case 'div':
-      return el
-        .children()
-        .toArray()
-        .map((c) => blockMd($, $(c), base))
-        .filter(Boolean)
-        .join('\n\n')
-    default:
-      return el
-        .contents()
-        .toArray()
-        .map((k) => inlineMd($, k, base))
-        .join('')
-        .trim()
-  }
-}
-
 // The blocks between a heading and the next heading of the same or higher level.
 function sectionBlocks($: CheerioAPI, heading: Cheerio<AnyNode>, stopAt: string[]) {
   const out: Cheerio<AnyNode>[] = []
@@ -165,10 +75,6 @@ function sectionBlocks($: CheerioAPI, heading: Cheerio<AnyNode>, stopAt: string[
     cur = cur.next()
   }
   return out
-}
-
-function textOf(el: Cheerio<AnyNode>): string {
-  return el.text().replace(/\s+/g, ' ').trim()
 }
 
 function h2Sections($: CheerioAPI, h1Title: string) {

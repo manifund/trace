@@ -1,0 +1,17 @@
+{
+  "_comment": "Keri Warr's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-keri",
+  "reviewer": "Keri Warr",
+  "reviewerUrl": "https://manifund.org/keri",
+  "sourceUrl": "https://manifund.org/keri?tab=by",
+  "reviewedAt": "2026-08-16",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Mox",
+      "sourceUrl": "https://manifund.org/projects/mox-2026-fundraiser?tab=comments#aad104c8-0294-4d04-9d8d-b4a1f5eebf61",
+      "reviewedAt": "2026-08-16",
+      "review": "[Mox: 2026 Fundraiser](https://manifund.org/projects/mox-2026-fundraiser), Aug 2026\n\nI'm a huge believer in Mox, and I'm excited for more excellent events and more opportunities for fellows."
+    }
+  ]
+}

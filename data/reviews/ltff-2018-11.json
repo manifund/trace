@@ -1,0 +1,36 @@
+{
+  "_comment": "Long-Term Future Fund payout report \"Long Term Future Fund: November grant decisions\", snapshotted from the EA Forum by scripts/fetch-ltff-reviews.ts. One review per grant write-up, filed under the grantee; the body opens with amount, purpose and the fund manager who wrote it up.",
+  "id": "ltff-2018-11",
+  "reviewer": "Long-Term Future Fund",
+  "reviewerUrl": "https://funds.effectivealtruism.org/funds/far-future",
+  "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+  "reviewedAt": "2018-12-02",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Jan Kulveit",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+      "review": "USD 21,000\n\nThis grant is to fund the second year of a summer school on AI safety, aiming to familiarize potential researchers with interesting technical problems in the field. Last year’s iteration of this event appears to have gone well, based both on [public materials](https://www.lesswrong.com/posts/bXLi3n2jrfqRwoSTH/human-aligned-ai-summer-school-a-summary) and on private knowledge some of us have about participants and their experiences. We believe that well-run education efforts of this kind are valuable (where “well-run” refers to the quality of the intellectual content, the participants, and the logistics of the event), and feel confident enough that this particular effort will be well-run that we decided to support it. This grant fully funds Jan’s request."
+    },
+    {
+      "org": "Ozzie Gooen",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+      "review": "USD 20,000\n\nOzzie sought funding to build an online community of EA forecasters, researchers, and data scientists to predict variables of interest to the EA community. Ozzie proposed using the platform to answer a range of questions, including examples like “How many Google searches will there be for reinforcement learning in 2020?” or “How many plan changes will 80,000 hours cause in 2020?”, and using the results to help EA organizations and individuals to prioritize. We decided to make this grant based on Ozzie’s experience designing and building [Guesstimate](https://www.getguesstimate.com/), our belief that a successful project along these lines could be very valuable, and some team members’ discussions with Ozzie about this project in more detail. This grant funds the project’s basic setup and initial testing."
+    },
+    {
+      "org": "AI Safety Unconference",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+      "review": "CAD 6,000\n\nOrpheus Lummis and Vaughn DiMarco are organizing an unconference on AI Alignment on the last day of the NeurIPS conference, with the goal of facilitating networking and research on AI Alignment among a diverse audience of AI researchers with and without safety backgrounds.\n\nWe evaluated this grant on similar grounds to the AI-Summer School grant above; based on direct interactions we’ve had with some of the organizers and the calibre of some of the participating established AI Alignment organizations we feel that the project deserves funding. Our understanding is that the organizers are still in the process of finalizing whether or not to go ahead with the unconference, so this funding is conditional on them deciding to proceed. This grant would fully fund Orpheus’ request."
+    },
+    {
+      "org": "Machine Intelligence Research Institute",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+      "review": "USD 40,000\n\nMIRI is seeking funding to pursue the research directions outlined in its [recent update](https://intelligence.org/2018/11/22/2018-update-our-new-research-directions/). We believe that this research represents one promising approach to AI alignment research. According to their [fundraiser post](https://intelligence.org/2018/11/26/miris-2018-fundraiser/), MIRI believes it will be able to find productive uses for additional funding, and gives examples of ways additional funding was used to support their work this year."
+    },
+    {
+      "org": "Ought",
+      "sourceUrl": "https://forum.effectivealtruism.org/posts/sTvepoxCDMgskGDDN/long-term-future-fund-november-grant-decisions",
+      "review": "USD 10,000\n\n[Ought](https://ought.org/) is a nonprofit aiming to implement AI alignment concepts in real-world applications. We believe that Ought's approach is interesting and worth trying, and that they have a strong team. Our understanding is that hiring is currently more of a bottleneck for them than funding, so we are only making a small grant. Part of the aim of the grant is to show Ought as an example of the type of organization we are likely to fund in the future."
+    }
+  ]
+}

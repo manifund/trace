@@ -1,0 +1,83 @@
+{
+  "_comment": "Gavin Leech's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-gleech",
+  "reviewer": "Gavin Leech",
+  "reviewerUrl": "https://manifund.org/gleech",
+  "sourceUrl": "https://manifund.org/gleech?tab=by",
+  "reviewedAt": "2026-10-05",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "ALERT",
+      "sourceUrl": "https://manifund.org/projects/make-alert-happen?tab=comments#a5a677e4-dc4a-e646-70e2-1fd1b165c3b6",
+      "reviewedAt": "2023-12-06",
+      "review": "[Make ALERT happen](https://manifund.org/projects/make-alert-happen), Dec 2023\n\nThe predecessor was my most important project last year. I've personally verified that there's a great deal of demand for some version of this (\"customer\" orgs and institutions and \"supplier\" volunteers). Nuno has some rare and essential qualities (honesty, clarity, infovorism) while lacking some others. But the shoestring version still excites me and I vote with my feet."
+    },
+    {
+      "org": "Algon 33",
+      "sourceUrl": "https://manifund.org/projects/video-game-eval-compilation-and-analysis?tab=comments#3d819b39-4aa9-41a2-ac87-9088a2c4ae87",
+      "reviewedAt": "2026-10-05",
+      "review": "[Video Game Eval Compilation and Analysis](https://manifund.org/projects/video-game-eval-compilation-and-analysis), Oct 2026\n\nI'm very impressed with Algon's independence and clarity, and [think]([https://www.paradigm3.org/research/pokemon](https://www.paradigm3.org/research/pokemon)) that games are still a great place for actual evaluation science."
+    },
+    {
+      "org": "Apart Research",
+      "sourceUrl": "https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline?tab=comments#7c0717bb-f8b8-473a-b0bd-bd6d55fdb5f2",
+      "reviewedAt": "2025-06-05",
+      "review": "[Keep Apart Research Going: Global AI Safety Research & Talent Pipeline](https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline), Jun 2025\n\nI like Apart; I like their results.\n\nThe top-of-funnel reference class they're in includes Bluedot, Nontrivial, AISC, aisafety.info. Three of those groups also struggle for institutional funding. Two of those groups are also trying to put out real research as legible output. (MATS isn't top-of-funnel in this sense.)\n\nWhat do we want from this kind of effort?\n\n- leaders who know what they're talking about technically (check)\n- friendly (check)\n- otherwise good vibes and epistemics (check)\n- actually doing stuff; empirical; e.g. seeking (proxy) feedback for ideas from conference reviews (check)\n- throughput (check)\n- buy-in from ML or safety or governance or whatnot (mixed?)\n\nI find it difficult to estimate the value of openness and friendliness in field-building but it's not small, and this is not their only selling point. Good luck!\n\n---\n\n[Keep Apart Research Going: Global AI Safety Research & Talent Pipeline](https://manifund.org/projects/keep-apart-research-going-global-ai-safety-research--talent-pipeline), Jun 2025\n\n@gleech I wonder if putting the full $1m target up on Manifund suppresses donors by making their donation seem smaller. But it has the advantage of being fully honest."
+    },
+    {
+      "org": "Gavin Leech",
+      "sourceUrl": "https://manifund.org/projects/shallow-review-of-ai-safety-2024?tab=comments#e7a3a67f-b80c-489d-a05d-cf52199b5d21",
+      "reviewedAt": "2025-05-05",
+      "review": "[Shallow review of AI safety 2024](https://manifund.org/projects/shallow-review-of-ai-safety-2024), Nov 2024\n\nThanks very much to all donors! A private donor has offered to fill the difference so please stop sending me money (mods, if there's a way to close projects I can't see it). We've started work.\n\n---\n\n[Shallow review of AI safety 2024](https://manifund.org/projects/shallow-review-of-ai-safety-2024), Nov 2024\n\nA donor has sent another $10k, which will partly fund the 2025 edition.\n\n---\n\n[Shallow review of AI safety 2024](https://manifund.org/projects/shallow-review-of-ai-safety-2024), May 2025\n\n**Description of subprojects and results, including major changes from the original proposal**\n\nThe post went up roughly on time (29th December) and was fairly well-received (though it garnered less karma than last year). Comments were good and only the Alex Altair entry required notable edits. This is evidence but not strong evidence that the current version is error-free.\n\nOur conference scrape provided some academic work which I think is underappreciated on LW but less than I hoped.\n\nI'm very happy with the new fields (target case and broad approach) and our data entry on them.\n\nChange: Following comments from funders we didn't do the \"glossy\" PDF version. Surplus money will go towards the 2025 version.\n\n**Spending breakdown**\n\n100% on salaries for the team. Thanks especially to Shoshannah Tekofsky, a highly graceful research manager.\n\n---\n\n[Shallow review of AI safety 2024](https://manifund.org/projects/shallow-review-of-ai-safety-2024), May 2025\n\n@CarmenCondor my bad - [here it is](https://www.lesswrong.com/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024)!"
+    },
+    {
+      "org": "niplav",
+      "sourceUrl": "https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need?tab=comments#f30734da-1074-4865-91e8-010b5e251b5c",
+      "reviewedAt": "2025-05-22",
+      "review": "[Orexin Pilot Experiment for Reducing Sleep Need](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need), May 2025\n\nstrong team with nose in the game"
+    },
+    {
+      "org": "Peli Grietzer",
+      "sourceUrl": "https://manifund.org/projects/virtue-ethical-rationality-and-training-dynamics-?tab=comments#1fe11de1-a582-4db0-af4d-02ae6f33f2e5",
+      "reviewedAt": "2025-05-22",
+      "review": "[Virtue-Ethical Rationality and Training Dynamics ](https://manifund.org/projects/virtue-ethical-rationality-and-training-dynamics-), May 2025\n\nPeli is a frugal philosopher who cowrote one of my [favourite essays on alignment](https://ai.objectives.institute/blog/the-problem-with-alignment).\n\n*The idea*: He wants to invent *virtue post-training*, inspired by e.g. the actual normative practice of fields like maths, which often appeals to self-instantiation. It's an open question whether current capabilities allow for instilling stable loops like this and I'm glad someone is trying.\n\n*Counterfactual*: The current project struck out from the usual funders, I guess because theory is [de-emphasised](https://www.openphilanthropy.org/tais-rfp-research-areas/#id-%e2%80%a0conceptual-clarity-about-risks-from-powerful-ai:~:text=Arcas%20et%20al.-,Flag%3A%20We%20will%20have%20a%20high%20bar%20for%20proposals%20in%20this%20area.,-This%20topic%20is) now, or because virtue ethics is usually unoperationalisable, or because he's not good at sales, or because they don't know the following about him.\n\n*Track record*: Besides the (great) above essay: I've worked with Peli on two technical ML research papers and was impressed with his experimental skill, design skill, and precision. He also did some invited technical replication work on [Turner 2023.](https://arxiv.org/abs/2308.10248) He's competent at ML experiments at the level of a decent PhD student in the field. He is very used to working totally independently from inception to .\n\n*Concerns*: If I didn't know the above, the [doc](https://docs.google.com/document/d/1cKbqYSGspfJavXvnhsp3mAuxHh08rNbP7tzYieqLiXw/edit?tab=t.0) would worry me in how totally non-ML-technical it is (it's intentionally doing some original philosophical work as prerequisite for that part). He's also been looking for collaborators and not finding much success; I hope that giving him independent funding makes this search an easier pitch.\n\nI expect distribution to be the weakest part of the project. The inferential distance might be too high for the narrower part of the ingroup audience to bridge to him, even with him presenting them good data. But places like [PAW](https://neurips.cc/virtual/2024/workshop/84737), [AIES](https://www.aies-conference.com/2025/) and [HAAISS](https://humanaligned.ai/2025/) will certainly engage. He's capable of doing the conference paper grind but doesn't seem motivated by it. Maybe a collaborator could bring the will to actively disseminate the results. But if distribution is the worst risk for a speculative ambitious project then we're in a good spot.\n\n*Cost-effectiveness*: Very high, $40k / FTE for taking an intriguing idea and bringing it to testability.\n\n*Conflict of interest*: As noted, Peli has worked on several projects at my company Arb and I've known him for years on Twitter."
+    },
+    {
+      "org": "Pete Wolfendale",
+      "sourceUrl": "https://manifund.org/projects/artificial-selves?tab=comments#6c2edbef-e173-4db7-b0d0-3c4768c0524d",
+      "reviewedAt": "2026-07-29",
+      "review": "[Artificial Selves](https://manifund.org/projects/artificial-selves), Jul 2026\n\nSahil, [TJ]([https://ai.objectives.institute/blog/the-problem-with-alignment](https://ai.objectives.institute/blog/the-problem-with-alignment)), and Pete have a strong reputation for deep thinking about AI, though on the abstract-to-max-abstract end of the greater AI safety and AI flourishing field. I've been chatting to Pete and others in the cluster for a while and think that the philosophical gap discussed here is actually urgent. I'm hoping (15%?) that along with related work by Grietzer this new subfield soon yields a training method with better alignment properties.\n\nMy sole reservation is that the work badly needs a project manager, which is why I've funded a good amount more than the minimum.\n\nGood luck!\n\nCoI: I own Arb, who are providing a little project management / cheerleading pro bono. We won't see any of the money."
+    },
+    {
+      "org": "Petr Salaba",
+      "sourceUrl": "https://manifund.org/projects/development-of-a-cautionary-tale-feature-film-about-gradual-disempowerment?tab=comments#953ec881-269a-411b-864c-096a433d7398",
+      "reviewedAt": "2025-08-31",
+      "review": "[Development of a Cautionary Tale Feature Film about Gradual Disempowerment](https://manifund.org/projects/development-of-a-cautionary-tale-feature-film-about-gradual-disempowerment), Jul 2025\n\nPetr and his team are actual filmmakers making some of the only AI art I admire. I can corroborate the key claim above about his augmented work being > an order of magnitude cheaper than traditional film production. The 12 month timeframe until _screenings_ is crazy fast but doable if the script comes together soon. I trust Petr to not make it manipulative (appropriate to the theme) and he's planning to consult the 'Gradual Disempowerment' authors to keep it real.\n\nMajor distribution is a whole other question, but he has one lead. Deals and lawyer latency is what's be most likely make the ambitious timeline slip.\n\nAnother concern is whether others will have taken up the theme in 12 months' time (see [e.g.]([https://www.imdb.com/news/ni65114720/](https://www.imdb.com/news/ni65114720/))).\n\n(I'd have funded the project's full minimum but I'm tapped out.)\n\n*Conflict of interest*: I worked with Petr on the Dwarkesh pod.\n\n---\n\n[Development of a Cautionary Tale Feature Film about Gradual Disempowerment](https://manifund.org/projects/development-of-a-cautionary-tale-feature-film-about-gradual-disempowerment), Aug 2025\n\nFilling the minimum myself. Good luck!"
+    },
+    {
+      "org": "Principles of Intelligence",
+      "sourceUrl": "https://manifund.org/projects/pibbss---affiliate-program-funding-6-months-6-affiliates-or-more?tab=comments#6ac8dae2-d535-448d-965f-64868b977f42",
+      "reviewedAt": "2025-12-06",
+      "review": "[PIBBSS - General Programs funding or specific funding](https://manifund.org/projects/pibbss---affiliate-program-funding-6-months-6-affiliates-or-more), Dec 2025\n\nQuite often when I meet some impressive new person in safety, it turns out they got in / went pro through PIBBSS. I'm particuarly excited to see how their fellows' conceptual work goes during the theory revival.\n\nAFAIK they usually only have <1 year runway despite running a long-term hits-based strat. I'd like to see what they can do with more freedom.\n\nBonus: They have matching funds with SFF right now.\n\nCoI: I've volunteered on the admissions team in the past."
+    },
+    {
+      "org": "The Metascience Observatory",
+      "sourceUrl": "https://manifund.org/projects/llm-driven-metascience-observatory?tab=comments#bd69ceed-c81b-4190-8cee-beed68c0c824",
+      "reviewedAt": "2025-12-08",
+      "review": "[The Metascience Observatory ](https://manifund.org/projects/llm-driven-metascience-observatory), Dec 2025\n\nI've been following Dan's work for years and think this could go pretty far with agents.\n\nThe state of the art in collating followup studies is extremely poor for stupid reasons and so easy to beat.\n\nHe's not naive about the technical issues nor the likely reception in academia and has some cool ideas for getting the results into actual discussions."
+    },
+    {
+      "org": "Thomas Moynihan",
+      "sourceUrl": "https://manifund.org/projects/history-of-ideas-concerning-the-future?tab=comments#7a3389bd-495f-4eba-a96f-f87e675e365f",
+      "reviewedAt": "2026-05-21",
+      "review": "[History of ideas concerning the future.](https://manifund.org/projects/history-of-ideas-concerning-the-future), May 2026\n\nTom wrote the best book there is about existential risk and is a true scholar. He has a publisher lined up for this one already and I'm keen to see where he goes with it."
+    },
+    {
+      "org": "Yuchen Liu",
+      "sourceUrl": "https://manifund.org/projects/-arena-and-adversarial-multi-agent-vla-interpretability?tab=comments#b2effd29-7a4b-4a51-9b64-2a2afe0ade0a",
+      "reviewedAt": "2026-05-18",
+      "review": "[Φ-Arena and adversarial multi-agent VLA interpretability](https://manifund.org/projects/-arena-and-adversarial-multi-agent-vla-interpretability), May 2026\n\nHad a brief exchange with Yuchen and like the energy (four real papers submitted simultaneously, four more promised). The readme [here]([https://github.com/phi-monster/phi-monster.github.io#what-we-work-on](https://github.com/phi-monster/phi-monster.github.io#what-we-work-on)) is a better explanation than the above. The work is cool and indeed nearly completely neglected. Luck!"
+    }
+  ]
+}

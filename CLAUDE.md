@@ -81,10 +81,17 @@ Third-party write-ups of orgs live in `org_reviews`, one row per reviewer x
 org, shown as a "Reviews" section on org pages. Each reviewer edition is a
 checked-in file in `data/reviews/` (`zvi-2025.json` from nonprofits.zone via
 `fetch-zvi-reviews`; `mdickens-<year>.json` from Michael Dickens's donation
-posts via `fetch-mdickens-reviews`); `bun run ingest-reviews` resolves org
-names through the usual crosswalk and upserts. The body's first paragraph is
+posts via `fetch-mdickens-reviews`; `ltff-<yyyy-mm>.json` from LTFF payout reports
+on the EA Forum via `fetch-ltff-reviews`, one review per grant write-up;
+`manifund-<username>.json` from each Manifund regrantor's comments on
+projects Trace holds grants for, via `fetch-manifund-comments`, Manifund
+staff excluded); `bun run ingest-reviews` resolves org names through the
+usual crosswalk and upserts. Files with `createOrgs: false` (the LTFF and
+Manifund ones, which name hundreds of individuals) skip names the crosswalk
+does not know instead of creating stub orgs. The body's first paragraph is
 the reviewer's one-line verdict (Zvi's confidence and funding need, Dickens's
-classification) and shows collapsed on the org page; the rest opens on click. Apply migrations to the hosted project with
+classification, LTFF's amount, purpose and evaluator, the Manifund project
+and month) and shows collapsed on the org page; the rest opens on click. Apply migrations to the hosted project with
 `SUPABASE_PAT=... bun run scripts/apply-trace-migration.ts <file>`.
 
 ## Teams

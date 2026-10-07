@@ -1,0 +1,17 @@
+{
+  "_comment": "Lauren Mangla's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-laurenm",
+  "reviewer": "Lauren Mangla",
+  "reviewerUrl": "https://manifund.org/laurenm",
+  "sourceUrl": "https://manifund.org/laurenm?tab=by",
+  "reviewedAt": "2025-12-25",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Lightcone Infrastructure",
+      "sourceUrl": "https://manifund.org/projects/lightcone-infrastructure?tab=comments#9cee172b-5e3b-4ca4-8d9d-3ebb0dbffc4d",
+      "reviewedAt": "2025-12-25",
+      "review": "[Lightcone Infrastructure](https://manifund.org/projects/lightcone-infrastructure), Dec 2025\n\nI donated $50k via Manifund because I think Lightcone is great and tends to have a harder time getting funding from the usual suspects. I do work at AIFP, and we’ve been working with Lightcone on some new projects, but this donation is not a payment and is not tied to my role at AIFP or our working relationship. Obviously, working with Lightcone has made me think more positively about them, which likely influenced my decision to give this grant. That said, the donation is in my capacity as a Manifund regrantor and long-time admirer of what they do.\n\nI think Lighthaven is very special, and I want Lightcone to have more capacity. I think they are amazing at web dev and want them to be able to help projects like AIFP (and others) with web stuff more than they currently can. I also really want them to have the space and freedom to do more creative, experimental things, like Inkhaven and hosting The Curve, and to run more programs and events in that spirit.\n\nI think Lightcone is unusually well-positioned to try interesting things that others won’t, and I think that’s really good for the community. LessWrong is also great and important, but I’m honestly less worried about LessWrong going under if I don’t donate. What I want more from this is Lightcone being able to use the money to try new, creative projects that have trickle-down benefits for the rest of the ecosystem."
+    }
+  ]
+}

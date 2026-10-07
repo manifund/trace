@@ -60,6 +60,16 @@ export class OrgResolver {
     return resolver
   }
 
+  // The org a name already resolves to, or null; never creates one.
+  lookup(name: string, role?: OrgRole): string | null {
+    const normalized = normalizeName(name) || slugify(name)
+    const roleSlug = role ? this.slugByRoleAlias.get(`${role}:${normalized}`) : undefined
+    if (roleSlug) return this.idBySlug.get(roleSlug) ?? null
+    const aliasSlug = this.slugByAlias.get(normalized)
+    if (aliasSlug) return this.idBySlug.get(aliasSlug) ?? null
+    return this.idByNormalized.get(normalized) ?? null
+  }
+
   async resolve(name: string, orgType: OrgType = 'organization', role?: OrgRole): Promise<string> {
     // Names that normalize to nothing ("-", " ") fall back to the stable
     // hash slug so they can still round-trip; curation renames them later.

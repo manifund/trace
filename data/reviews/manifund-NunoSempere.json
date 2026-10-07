@@ -1,0 +1,71 @@
+{
+  "_comment": "Nuño Sempere's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-NunoSempere",
+  "reviewer": "Nuño Sempere",
+  "reviewerUrl": "https://manifund.org/NunoSempere",
+  "sourceUrl": "https://manifund.org/NunoSempere?tab=by",
+  "reviewedAt": "2025-05-22",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Adrian Regenfuss",
+      "sourceUrl": "https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory?tab=comments#234e2fee-8390-978a-441c-94b6652feb20",
+      "reviewedAt": "2023-10-25",
+      "review": "[A Lumenator Company, or: A More Ambitious Life Trajectory](https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory), Oct 2023\n\nCould you say a bit more about why this beats your counterfactual?\n\n---\n\n[A Lumenator Company, or: A More Ambitious Life Trajectory](https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory), Oct 2023\n\nFunding this. I like the lumenator part, but I particularly like the more ambitious life trajectory point.\n\nOn your application, you mention:\n\n> returning the money left if I decided that this was not a good idea anymore\n\nPlease consider not doing this; rather, please either pivot to a better opportunity or keep it until a good opportunity arises."
+    },
+    {
+      "org": "ALERT",
+      "sourceUrl": "https://manifund.org/projects/make-alert-happen?tab=comments#badf3ce7-a3bc-4eed-883c-1c4374e2b4e5",
+      "reviewedAt": "2024-09-05",
+      "review": "[Make ALERT happen](https://manifund.org/projects/make-alert-happen), Jun 2024\n\n**What progress have you made since your last update?**\n\n- A foresight team continuously looking for things that could become large-scale or existential catastrophes\n- An emergency response composed of capable yet mostly unattached people who could convene in the event of a catastrophe\n- A website [http://sentinel-team.org/](http://sentinel-team.org/)\n  - It also has a short writeup of the project's history [https://sentinel-team.org/sentinel-history/](https://sentinel-team.org/sentinel-history/)\n- Weekly public minutes from the foresight team [https://sentinel-team.org/blog/](https://sentinel-team.org/blog/)\n- A fiscal sponsor\n- Further funding\n- A collaboration with Nathaniel Cooke on foresight methods beyond forecasting <[https://forecasting.substack.com/p/a-gentle-introduction-to-risk-frameworks](https://forecasting.substack.com/p/a-gentle-introduction-to-risk-frameworks)>. We later parted ways, but this was a good output.\n- I'm probably forgetting something\n\nIn short, the project has overall been going well. The idea was to have two components, the first of which was a foresight team that could raise an alarm if something happens. This foresight team is going great; I have three very obsessive, very competent forecasters, in addition to myself, and some tooling to aid them.\n\nThe emergency response team has been going well, but less so. It exists, it has some competent people, and we had a trial run with the Iran attacks on Israel.\n\nBut in general I just feel much better about our ability to, say, detect a Chinese invasion of Taiwan two weeks, or a few days before it happens, than I feel about our ability to *do* anything about it.\n\n**What are your next steps?**\n\nSome steps on the horizon:\n\n- Improve emergency response team.\n- Integrate more info sources.\n- Put out analytical pieces sharing lessons learnt\n- Reach out to potential collaborators and similar projects\n- Consider finding more funding\n\n**Is there anything others could help you with?**\n\n- Introduction to potential emergency response team members. For details see [https://sentinel-team.org/emergency_response_team/](https://sentinel-team.org/emergency_response_team/)\n- Mentorship seems like it would be super useful to me. Are you one or two levels above me in life; have you set up something cool and want to share pointers? I'd be grateful.\n- I'm currently conflicted about funding. I'd appreciate help either with acquiring more, or with deciding that it's a distraction.\n  - Funding is not the bottleneck on the, say $5k to $10k range, but funding on the $100k to $5M range *would* allow me to make this project more awesome.\n  - I'm thinking that I prefer a smaller project that is sustainable ~forever, over a larger project that lives or dies by [large funder]'s word. But is this a good way to think about it? And even if it is, should I instead attempt to build something that shines twice as bright but lasts twice as long?\n  - I'm procrastinating on applying to the SFF grant round. Partly this is because I find the application baroque. Help, or just coworking on it, would be appreciated\n  - On the other hand, this project is sustainable at the current spend, so looking for more funding feels like a distraction.\n  - I'm currently ~not really paying myself. I'm probably fine with this until the end of this year, though. Is this a good move?\n\n**Thoughts on Manifund**\n\nI am very grateful to Manifund.\n\n- Writing the project proposal and getting early funding was important for coordinating between people interested in supporting the project.\n- Getting early funding from peers, from people whose respect I cherished, was important for me psychologically. It made me more excited. It was a hard to fake signal of promisingness\n- Early funding has been useful to not have money be a bottleneck.\n\n---\n\n[Make ALERT happen](https://manifund.org/projects/make-alert-happen), Sep 2024\n\nThis continues to run, you can keep track at [https://blog.sentinel-team.org](https://blog.sentinel-team.org/). We also have a weekly private project update mailing list to which I'm happy to add people with whom I have some rapport.\n\nOne important development has been getting a cofounder, Rai Sur ([rai.dev](http://rai.dev)) to complement my skillset; he's been working out great."
+    },
+    {
+      "org": "Apart Research",
+      "sourceUrl": "https://manifund.org/projects/help-apart-expand-global-ai-safety-research?tab=comments#27732fa0-c3d0-90b6-2dbb-cd544b37a43d",
+      "reviewedAt": "2023-12-28",
+      "review": "[Help Apart Expand Global AI Safety Research](https://manifund.org/projects/help-apart-expand-global-ai-safety-research), Dec 2023\n\nThis looks shiny to me. I am considering funding it for a small amount.\n\nPros:\n\n- Successes and accomplishments seem valuable\n- Proxies look good\n- Writeup seems thoughtful\n\nCons:\n\n- I don't understand why other people haven't funded this yet\n- Maybe this application is exaggerating stuff?\n- Maybe the organization adds another step in the chain to impact, and it would be more efficient to fund individual people instead?\n- Maybe the biggest one: how do I know the success is counterfactual? Say that someone participated in a hackathon/fellowship/etc, and then later got a research position in some Oxford lab. How do I know that the person wouldn't have gotten something similarly impressive in the absence of your organization?\n\n---\n\n[Help Apart Expand Global AI Safety Research](https://manifund.org/projects/help-apart-expand-global-ai-safety-research), Dec 2023\n\nI guess that another way of expressing the above might be that this seems potentially good, but given the large amount of funding it is asking for, it feels like someone should evaluate this in-depth, rather than casually?"
+    },
+    {
+      "org": "Case Sandberg",
+      "sourceUrl": "https://manifund.org/projects/play-money-prediction-markets?tab=comments#6f3d7908-7992-4d90-976c-3540e9b04059",
+      "reviewedAt": "2024-09-05",
+      "review": "[Play money prediction markets](https://manifund.org/projects/play-money-prediction-markets), Sep 2024\n\nCongrats on getting to alpha"
+    },
+    {
+      "org": "David Federico Rivadeneira",
+      "sourceUrl": "https://manifund.org/projects/update-big-list-of-cause-candidates?tab=comments#a7682d35-1d21-8d07-b006-578fe97b6da2",
+      "reviewedAt": "2023-12-07",
+      "review": "[Update Big List of Cause Candidates](https://manifund.org/projects/update-big-list-of-cause-candidates), Dec 2023\n\n**Main points in favor of this grant**\n\n- Project has some value, may have influenced organizations like Charity Entrepreneurship\n- Project has some learning value as well\n\n**Donor's main reservations**\n\n- None.\n\n**Process for deciding amount**\n\n- Negotiation with project lead based on expected number of hours.\n\n**Conflicts of interest**\n\n- None"
+    },
+    {
+      "org": "Joel Becker",
+      "sourceUrl": "https://manifund.org/projects/estimating-annual-burden-of-airborne-disease-last-mile-to-mvp?tab=comments#2828fbe2-e55f-f26d-4470-0cc0255a2b30",
+      "reviewedAt": "2023-10-21",
+      "review": "[Estimating annual burden of airborne disease (last mile to MVP)](https://manifund.org/projects/estimating-annual-burden-of-airborne-disease-last-mile-to-mvp), Oct 2023\n\nOverall I don't really understand the biosecurity ecosystem or how this would fit in, so I'm thinking I'm probably a bad funder here. Still, some questions:\n\n- Do you already have some decision-makers who could use these estimates to make different decisions?\n- How valuable do you think that this project is without the long covid estimate?\n- Who is actually doing this work? Vivian and Richard, or Joel and Aron?\n- Why are you doing stuff $3.6k a time, rather than having set up some larger project with existing biosecurity grantmakers?"
+    },
+    {
+      "org": "Marcel van Diemen",
+      "sourceUrl": "https://manifund.org/projects/the-base-rate-times?tab=comments#cac7d966-6231-1eaf-357b-4eeb2c8eeca4",
+      "reviewedAt": "2023-12-06",
+      "review": "[The Base Rate Times](https://manifund.org/projects/the-base-rate-times), Dec 2023\n\n@vandemonian Are you currently constrained by more funding? Do you have the capacity to put in more effort if you get more funding?\n\n---\n\n[The Base Rate Times](https://manifund.org/projects/the-base-rate-times), Dec 2023\n\nI feel that the project could be potentially valuable, and I hope Marcel will be a bit more ambitious/have a bit more runway and leeway. I feel that there could be room for more funding, but I'd want some specific commitments in exchange."
+    },
+    {
+      "org": "niplav",
+      "sourceUrl": "https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need?tab=comments#b9eae43b-bbd2-4249-a0b3-f502ffbd7ac2",
+      "reviewedAt": "2025-05-22",
+      "review": "[Orexin Pilot Experiment for Reducing Sleep Need](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need), May 2025\n\nSeems cool enough!\n\n---\n\n[Orexin Pilot Experiment for Reducing Sleep Need](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need), May 2025\n\nI also read <[https://www.lesswrong.com/posts/Nmp6FWAj3mcuLu6H6/sleep-need-reduction-therapies-1](https://www.lesswrong.com/posts/Nmp6FWAj3mcuLu6H6/sleep-need-reduction-therapies-1)> and thought it was interesting"
+    },
+    {
+      "org": "Observatorio de Riesgos Catastróficos Globales",
+      "sourceUrl": "https://manifund.org/projects/support-riesgos-catastroficos-globales?tab=comments#c3cdbee2-ed13-24cf-aea8-96cc3e7948d5",
+      "reviewedAt": "2023-12-31",
+      "review": "[Support Riesgos Catastroficos Globales](https://manifund.org/projects/support-riesgos-catastroficos-globales), Sep 2023\n\nI think that RCG's object-level work is somewhat valuable, and also that they could greatly contribute to making the Spanish and Latin-American EA community become stronger. I think one could make an argument that this doesn't exceed some funding bar, but ultimately it doesn't go through.\n\n---\n\n[Support Riesgos Catastroficos Globales](https://manifund.org/projects/support-riesgos-catastroficos-globales), Dec 2023\n\nI think this project is my bar for funding. If I don't find other projects I'm as excited by, I'm planning to donate my remaining balance to it.\n\n---\n\n[Support Riesgos Catastroficos Globales](https://manifund.org/projects/support-riesgos-catastroficos-globales), Dec 2023\n\nI continue to be excited about RCGs and its role in the EA Spain/LatAm communities.** **\n\nI was waiting until end of year to see if I found more promising options. I was considering APART ([https://manifund.org/projects/help-apart-expand-global-ai-safety-research](https://manifund.org/projects/help-apart-expand-global-ai-safety-research)), but I don't think I'll have time to evaluate it in more depth; still, I've reserved some of my funds potentially for it."
+    },
+    {
+      "org": "Sentinel",
+      "sourceUrl": "https://manifund.org/projects/fund-sentinel-for-q4-2024?tab=comments#7112f60e-6f67-4ad7-bdfb-b24f93ce5747",
+      "reviewedAt": "2024-12-16",
+      "review": "[Fund Sentinel for Q1-2025](https://manifund.org/projects/fund-sentinel-for-q4-2024), Oct 2024\n\n@Loppukilpailija Thanks!\n\n---\n\n[Fund Sentinel for Q1-2025](https://manifund.org/projects/fund-sentinel-for-q4-2024), Dec 2024\n\nThanks @jsd!"
+    }
+  ]
+}

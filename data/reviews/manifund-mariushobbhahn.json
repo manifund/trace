@@ -1,0 +1,65 @@
+{
+  "_comment": "Marius Hobbhahn's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-mariushobbhahn",
+  "reviewer": "Marius Hobbhahn",
+  "reviewerUrl": "https://manifund.org/mariushobbhahn",
+  "sourceUrl": "https://manifund.org/mariushobbhahn?tab=by",
+  "reviewedAt": "2026-05-13",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Anthony Duong",
+      "sourceUrl": "https://manifund.org/projects/1-month-full-time-contributing-software-to-inspect?tab=comments#d2cc1cf6-9e15-4b0f-a2b8-e3dbab0a917b",
+      "reviewedAt": "2025-09-16",
+      "review": "[3 months full-time contributing software to Inspect](https://manifund.org/projects/1-month-full-time-contributing-software-to-inspect), Aug 2025\n\nAnthony has done great work on other OS libraries for AI safety (SAELens, neuronpedia, and SAEDashboard) and I'm excited that he wants to explore building tools for evals. \n\nI've talked to him about his plans and think it's an obviously good funding opportunity.\n\n---\n\n[3 months full-time contributing software to Inspect](https://manifund.org/projects/1-month-full-time-contributing-software-to-inspect), Sep 2025\n\nAdding another 10k after the first month has gone well. Anthony is making fast progress on Inspect. We've discussed plans for longer-term funding, and I'll be bridging the next month until other funding is confirmed."
+    },
+    {
+      "org": "Florian Dietz",
+      "sourceUrl": "https://manifund.org/projects/split-personality-training?tab=comments#c3b45c05-1753-4756-a30f-cf761f3bc321",
+      "reviewedAt": "2025-05-11",
+      "review": "[Split Personality Training](https://manifund.org/projects/split-personality-training), May 2025\n\nFunding with $2000 to get the project off the ground. \n\nI have talked to Florian about this project during the last MATS cohort presentation day. I felt like his conceptual considerations were good, and the motivation makes sense. \n\nI have no clear ability in favor or against his ability to execute projects quickly, which is why I'm keeping it at $2k. \n\nI might consider more funding if there are good early results or other strong evidence of progress that I can easily verify. I'd recommend trying to sprint to a 4-6 week MVP and publishing or at least writing up and privately sharing the results."
+    },
+    {
+      "org": "Igor Ivanov",
+      "sourceUrl": "https://manifund.org/projects/salient-demonstration-of-llms-deceiving-and-getting-out-of-a-sandbox?tab=comments#0785a8fd-3257-455c-9a98-b701bff6d02a",
+      "reviewedAt": "2025-06-18",
+      "review": "[Demonstration of LLMs deceiving and getting out of a sandbox](https://manifund.org/projects/salient-demonstration-of-llms-deceiving-and-getting-out-of-a-sandbox), Jun 2025\n\nI think realistic demos of autonomous worrying behavior are quite important and there aren't many good examples yet. \n\nI'm not sure whether this particular project will meet my bar for realism, but I think it's worth giving it a try. I have not vetted the project in detail. Impossible tasks as a source of deception have been explored multiple times in the literature. I think the main addition from a project like this would come from making highly realistic agentic scenarios."
+    },
+    {
+      "org": "Inspect Evals",
+      "sourceUrl": "https://manifund.org/projects/inspect-evals?tab=comments#90659f4b-3bab-45f9-836d-876b526afe7f",
+      "reviewedAt": "2025-10-20",
+      "review": "[Inspect Evals](https://manifund.org/projects/inspect-evals), Oct 2025\n\nI think it's great that more people work on Inspect and I've seen a few evals being either competently ported to Inspect or existing evals being significantly improved. \n\nI'm happy to throw in 10k of my regranting money as a sign of my support, but I think the value they provide is clearly big enough that a large funder should support them with hundreds of thousands or millions of dollars in support."
+    },
+    {
+      "org": "Jash Vira",
+      "sourceUrl": "https://manifund.org/projects/awareness-conditioned-emergent-misalignment?tab=comments#9ff59075-e39e-4cbd-bd54-0ea7018b5302",
+      "reviewedAt": "2026-05-13",
+      "review": "[Awareness-conditioned emergent misalignment](https://manifund.org/projects/awareness-conditioned-emergent-misalignment), May 2026\n\nI think this is a reasonable project"
+    },
+    {
+      "org": "Jord Nguyen",
+      "sourceUrl": "https://manifund.org/projects/benchmarking-and-comparing-different-evaluation-awareness-metrics?tab=comments#cb35e088-7c5c-437b-8fd2-d2347b05eaaa",
+      "reviewedAt": "2025-08-10",
+      "review": "[Benchmarking and comparing different evaluation awareness metrics](https://manifund.org/projects/benchmarking-and-comparing-different-evaluation-awareness-metrics), Aug 2025\n\nOffering 3k to get this started. I think the project makes sense, but have no further evidence about the project or authors than listed here. \n\nThis donation is not a commitment to follow-up funding, even if reasonable progress is made."
+    },
+    {
+      "org": "Lightcone Infrastructure",
+      "sourceUrl": "https://manifund.org/projects/lightcone-infrastructure?tab=comments#b941a696-7453-48ef-b081-35e549f13d21",
+      "reviewedAt": "2025-12-26",
+      "review": "[Lightcone Infrastructure](https://manifund.org/projects/lightcone-infrastructure), Dec 2025\n\nDonating ~half of my remaining regranting funding ($25k). While this is not in the category of things I wanted to fund with the regranting pot (i.e. individuals working on scheming research), I think Lighthaven is worth supporting. \n\nMy main evidence is that my MATS scholars really like it and when I've been at Lighthaven for conferences or other meetings I thought it was a great venue. \n\nOne caveat is that I think Lighthaven should be funded through institutional donors rather than many small grants due to the obvious overhead considerations and large funding amounts. Though, in the current situation individual donations seem obviously better than nothing."
+    },
+    {
+      "org": "Sudarsh Kunnavakkam",
+      "sourceUrl": "https://manifund.org/projects/tooling--model-orgs-for-cot-faithfulness-research?tab=comments#d7a22789-1d5e-443d-bdc8-7eff0f94dfe2",
+      "reviewedAt": "2025-08-05",
+      "review": "[Tooling + Model Orgs for CoT Faithfulness Research](https://manifund.org/projects/tooling--model-orgs-for-cot-faithfulness-research), Aug 2025\n\nI think the topic is important. I have neither done a check on the person running it nor read a more detailed project description than is visible in the grant itself. \n\nIf there are interesting results from this funding round, I might be willing to donate a larger follow-up round."
+    },
+    {
+      "org": "Tarbell Center for AI Journalism",
+      "sourceUrl": "https://manifund.org/projects/tarbell-center-for-ai-journalism?tab=comments#b48808e3-9593-4569-a617-210acef762d6",
+      "reviewedAt": "2025-09-21",
+      "review": "[Tarbell Center for AI Journalism](https://manifund.org/projects/tarbell-center-for-ai-journalism), Sep 2025\n\nI'm recommending a $10k donation as a regrantor. \n\nMultiple journalists in the Tarbell program have previously reached out to me for news articles and, while they are often less experienced, they often ask better questions and write better articles than their senior colleagues. \n\nWith better, I specifically don't mean \"they represent my opinion\", but I mean \n1. They have read the paper, and the questions are well-prepared.\n2. The resulting texts are typically more accurate and have much fewer factual errors than the texts from my average journalist experience.\n3. The questions are often critical and really trying to understand the limitations of the work rather than softball. \n\nIn general, all Tarbell journalists I have worked with so far seemed to have high integrity with a strong desire to write an accurate and interesting article for their readership rather than produce an attention-grabbing headline."
+    }
+  ]
+}

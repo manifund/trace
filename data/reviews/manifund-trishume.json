@@ -1,0 +1,23 @@
+{
+  "_comment": "Tristan Hume's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-trishume",
+  "reviewer": "Tristan Hume",
+  "reviewerUrl": "https://manifund.org/trishume",
+  "sourceUrl": "https://manifund.org/trishume?tab=by",
+  "reviewedAt": "2023-11-20",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Apollo Research",
+      "sourceUrl": "https://manifund.org/projects/apollo-research-scale-up-interpretability--behavioral-model-evals-research?tab=comments#08e391bf-f164-81f0-f247-284410490115",
+      "reviewedAt": "2023-07-31",
+      "review": "[Apollo Research: Scale up interpretability & behavioral model evals research](https://manifund.org/projects/apollo-research-scale-up-interpretability--behavioral-model-evals-research), Jul 2023\n\nI'm very excited about Apollo based on a combination of the track record of it's founding employees and the research agenda they've articulated.\n\n[Marius]([https://www.alignmentforum.org/posts/KzwB4ovzrZ8DYWgpw/more-findings-on-memorization-and-double-descent](https://www.alignmentforum.org/posts/KzwB4ovzrZ8DYWgpw/more-findings-on-memorization-and-double-descent)) and [Lee]([https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition](https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition)) have published work that's [significantly contributed to Anthropic's work on dictionary learning]([https://transformer-circuits.pub/2023/may-update/index.html](https://transformer-circuits.pub/2023/may-update/index.html)). I've also met both Marius and Lee and have confidence in them to do a good job with Apollo.\n\nAdditionally, I'm very much a fan of alignment and dangerous capability evals as an area of research and think there's lots of room for more people to work on them.\n\nIn terms of cost-effectiveness I like these research areas because they're ones I think are very tractable to approach from outside a major lab in a helpful way, while not taking large amounts of compute. I also think Apollo existing in London will allow them to hire underutilized talent that would have trouble getting a U.S. visa."
+    },
+    {
+      "org": "MATS Research",
+      "sourceUrl": "https://manifund.org/projects/mats-funding?tab=comments#9c18e41e-cd7e-91f2-9735-6499f44042cb",
+      "reviewedAt": "2023-11-20",
+      "review": "[MATS Program](https://manifund.org/projects/mats-funding), Nov 2023\n\nI've been very impressed with the MATS program. Lots of impressive people have gotten into and connected through their program and when I've visited I've been impressed with the caliber of people I met.\n\nAn example is Marius Hobbhahn doing interpretability research during MATS that helped inform the Anthropic interpretability team's strategy, and then Marius going on to co-found Apollo."
+    }
+  ]
+}

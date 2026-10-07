@@ -1,0 +1,29 @@
+{
+  "_comment": "Ethan Josean Perez's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-ethanjperez",
+  "reviewer": "Ethan Josean Perez",
+  "reviewerUrl": "https://manifund.org/ethanjperez",
+  "sourceUrl": "https://manifund.org/ethanjperez?tab=by",
+  "reviewedAt": "2026-08-03",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "CaML",
+      "sourceUrl": "https://manifund.org/projects/caml---agi-alignment-to-nonhumans-1nu9bv7z5i2?tab=comments#06159e04-b7d3-4695-bfd6-e5d4d37bc8af",
+      "reviewedAt": "2026-08-03",
+      "review": "[CaML - AGI alignment to nonhumans](https://manifund.org/projects/caml---agi-alignment-to-nonhumans-1nu9bv7z5i2), Aug 2026\n\nI'm excited about work on CompassionBench and similar evals, to help better understand how well models are doing on animal welfare -relevant axes"
+    },
+    {
+      "org": "Forethought",
+      "sourceUrl": "https://manifund.org/projects/forethought?tab=comments#da3ae692-97f4-4b4f-a5e4-9c79ccc29642",
+      "reviewedAt": "2025-12-16",
+      "review": "[Forethought](https://manifund.org/projects/forethought), Dec 2025\n\nForethought’s work has been some of the biggest influence on my safety research work, raising several new areas of research I and some of my collaborators hadn’t previously considered or prioritized. Keep up the amazing work!"
+    },
+    {
+      "org": "Transluce",
+      "sourceUrl": "https://manifund.org/projects/transluce-fund-scalable-democratic-oversight-of-ai?tab=comments#03398c42-85ca-4593-a06f-f9c14ca76040",
+      "reviewedAt": "2025-12-23",
+      "review": "[Transluce: Fund Scalable Democratic Oversight of AI](https://manifund.org/projects/transluce-fund-scalable-democratic-oversight-of-ai), Dec 2025\n\nI'm a huge fan of Transluce's work on investigator agents, automated red teaming and jailbreaking, and introducing fresh angles in interpretability/explainability. Their work has consistently been thought-provoking and among the best safety research out there. They also seem to have quite a talented and productive team as well."
+    }
+  ]
+}

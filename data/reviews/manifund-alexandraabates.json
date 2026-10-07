@@ -1,0 +1,23 @@
+{
+  "_comment": "Alexandra Bates's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-alexandraabates",
+  "reviewer": "Alexandra Bates",
+  "reviewerUrl": "https://manifund.org/alexandraabates",
+  "sourceUrl": "https://manifund.org/alexandraabates?tab=by",
+  "reviewedAt": "2026-01-05",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Forethought",
+      "sourceUrl": "https://manifund.org/projects/forethought?tab=comments#87b3f7c8-4d1f-4f5f-a24f-9a2c90ecaf0f",
+      "reviewedAt": "2026-01-05",
+      "review": "[Forethought](https://manifund.org/projects/forethought), Jan 2026\n\nForethought does some of the best AI related futurism and strategy work, and I think it's very valuable that they're thinking about this. They seem at least somewhat funding constrained, which is unfortunate, and it seems that marginal donations will cause them to do more work."
+    },
+    {
+      "org": "Lightcone Infrastructure",
+      "sourceUrl": "https://manifund.org/projects/lightcone-infrastructure?tab=comments#a106ae7a-d815-478b-a600-11e8a3f001fd",
+      "reviewedAt": "2026-01-01",
+      "review": "[Lightcone Infrastructure](https://manifund.org/projects/lightcone-infrastructure), Jan 2026\n\nDonating 50k. Lightcone's main projects – Lighthaven, Lesswrong, and websites for good causes – all seem very valuable for making AI go well. I would like there to be more AI safety events, better public discussion of AIS ideas, and more big comms efforts. I trust the Lightcone team a lot: they have good taste, are thoughtful and caring, and have interestingly different views on how to make AI go well from many other orgs I spend a lot of time around. I'd like to give them more financial security, so they can run their core products and have the freedom to try new things."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_comment": "Isaak Freeman's comments as a Manifund regrantor on projects Trace records grants for, snapshotted by scripts/fetch-manifund-comments.ts. One review per org: every comment on that org's projects, oldest first, each headed by the project and month.",
+  "id": "manifund-IsaakFreeman",
+  "reviewer": "Isaak Freeman",
+  "reviewerUrl": "https://manifund.org/IsaakFreeman",
+  "sourceUrl": "https://manifund.org/IsaakFreeman?tab=by",
+  "reviewedAt": "2025-05-22",
+  "createOrgs": false,
+  "reviews": [
+    {
+      "org": "Aaron Silverbook",
+      "sourceUrl": "https://manifund.org/projects/recreate-the-cavity-preventing-gmo-bacteria-bcs3-l1-from-precursor-?tab=comments#20f2a5f4-c0eb-e1e5-266a-387f31d81edb",
+      "reviewedAt": "2023-07-18",
+      "review": "[Recreate the cavity-preventing GMO bacteria BCS3-L1 from precursor ](https://manifund.org/projects/recreate-the-cavity-preventing-gmo-bacteria-bcs3-l1-from-precursor-), Jul 2023\n\nMatching Austin's commitment. I think this is ambitious and feasible. It's just awesome to cure caries forever, and also to serve as an inspiration of projects that are simultaneously ambitious, altruistic, and potentially self-sustaining companies. I don't mind whether this is an investment or a grant."
+    },
+    {
+      "org": "Adrian Regenfuss",
+      "sourceUrl": "https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory?tab=comments#319b09ad-fc56-73f2-06bc-073d66255298",
+      "reviewedAt": "2023-11-26",
+      "review": "[A Lumenator Company, or: A More Ambitious Life Trajectory](https://manifund.org/projects/a-lumenator-company-or-a-more-ambitious-life-trajectory), Nov 2023\n\nI built my own high-illumination system and would have loved to have a high-quality product to buy at the time. I'd be even more excited about this project if there were someone with hardware startup/business experience on board. I also think the timelines could be more ambitious, especially if the first prototypes are just pre-assembled kits of existing components. 2 months of legal work and setting up an online shop is quite long."
+    },
+    {
+      "org": "AI Safety Camp",
+      "sourceUrl": "https://manifund.org/projects/10th-edition-of-ai-safety-camp?tab=comments#627e05b0-3366-799d-a706-59d64f868ead",
+      "reviewedAt": "2023-12-15",
+      "review": "[10th edition of AI Safety Camp](https://manifund.org/projects/10th-edition-of-ai-safety-camp), Dec 2023\n\nWithout any in-depth evaluation, I think this is worth a signal-boost and a seed grant. I’d be disappointed to see AISC stop!"
+    },
+    {
+      "org": "ALERT",
+      "sourceUrl": "https://manifund.org/projects/make-alert-happen?tab=comments#4cf2f00f-561d-e724-e3a2-cd1a8031cab2",
+      "reviewedAt": "2023-12-06",
+      "review": "[Make ALERT happen](https://manifund.org/projects/make-alert-happen), Dec 2023\n\nMatching Joel in reasoning and donation. Great idea; only possible through charity ecosystems; I was sad to see the previous one fade."
+    },
+    {
+      "org": "Brent Burdick",
+      "sourceUrl": "https://manifund.org/projects/building-better-infrastructure-for-learning-and-anki-v2?tab=comments#0e265600-122e-cfbf-7ce9-eebc0fbd30c6",
+      "reviewedAt": "2023-11-26",
+      "review": "[Personal development and better infrastructure for learning, \"Anki V2\"](https://manifund.org/projects/building-better-infrastructure-for-learning-and-anki-v2), Nov 2023\n\n**Main points in favor of this grant**\n\nSpaced Repetition is one of the best tools out there to accelerate the learning pace and retention of anything. Anki, the most commonly used app, works fairly well. But it's mostly old software, and GPT4 opened up huge, underutilized opportunities for accelerating learning pace. I wonder why we still don't have automated flashcard creation, personalized feeds of content from a textbook, personalized explanations of concepts, etc. I'd be excited to see these integrated into a couple of great tools.\n\nBrent has been working on this and generating lots of ideas. He thinks that \"Anki v2\" is overdue. He's dropped out of university to self-teach software engineering, and is currently exploring what to do next. In the spirit of investing in people, not projects, Brent is a quick learner, very thoughtful, and quick to get stuff done. I'm excited to support Brent in whatever he's doing next, but especially his focus on improving learning tech has been promising.\n\n**Donor's main reservations**\n\nIt's possible Brent ends up failing to build something that's notably better than Anki or doesn't make good use of his next months of exploration.\n\n**Process for deciding amount**\n\nCommon career redevelopment grant size intended for 3-6 months of exploration, new projects, etc. (Cf. Emergent Ventures, ZFellows)\n\n**Conflicts of interest**\n\nImportant to note, Brent is a housemate and friend. Though, this allowed me to see him make rapid progress on his initial projects and made me confident in recommending this project."
+    },
+    {
+      "org": "Hardeep Singh Gambhir",
+      "sourceUrl": "https://manifund.org/projects/support-funding-for-hardeep-gambhirs-gap-semester?tab=comments#633c2b11-64e8-6282-0ba7-6280461ed4f9",
+      "reviewedAt": "2023-08-17",
+      "review": "[Support funding for Hardeep Gambhir's gap semester](https://manifund.org/projects/support-funding-for-hardeep-gambhirs-gap-semester), Aug 2023\n\n****\n\nThis is a career development and travel regrant to Hardeep Gambhir, an interesting high-energy teenager from Canada. It will enable him to take a gap year from university, travel, and explore various projects he might want to work on.\n\nIn the context of being introduced by a common collaborator (Nick), I've had a couple of conversations with Hardeep, and I was impressed by his high energy, past demonstrated agency, and knack for community building. His main goals are (and ought to be) flexible, as of now centering around visiting the US, especially the Bay Area, and exploring different communities and potential projects.\n\nI'd be excited to see Hardeep hone his community-building aptitude, maybe nurturing and connecting promising communities across the Bay. Yet, should he decide to pivot and work on something drastically different, that might also produce interesting results. It seems to me he was a bit overlooked by the current funding systems and could potentially be a diamond in the rough. He has a thrifty mindset and originally was asking for $2000, which I upped to $4000 as that seems like it might give him a lot more flexibility given how constrained he currently is.\n\nIn the case of failure, I'd guess that the most likely scenario is that Hardeep's gap year just goes so-so, and it would've been a better alternative for him to stay in university.\n\nOf note, The Residency is collaborating with a house that friends and I run together, and The Residency will host their MVP cohort here. Hardeep will likely come to visit should he come to the Bay, and pending how his plans pan out, he might become a housemate in the future."
+    },
+    {
+      "org": "Marcel van Diemen",
+      "sourceUrl": "https://manifund.org/projects/the-base-rate-times?tab=comments#e989efd8-cfdf-64cb-37f0-a0282bbe08ab",
+      "reviewedAt": "2023-11-26",
+      "review": "[The Base Rate Times](https://manifund.org/projects/the-base-rate-times), Nov 2023\n\nI think this is interesting and would want to hear how it's going."
+    },
+    {
+      "org": "niplav",
+      "sourceUrl": "https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need?tab=comments#20bde4e5-9a12-42ae-839f-70d328879539",
+      "reviewedAt": "2025-05-22",
+      "review": "[Orexin Pilot Experiment for Reducing Sleep Need](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need), May 2025\n\nLove it! [isaak.net/sleepless](https://isaak.net/sleepless/)"
+    },
+    {
+      "org": "Talos Network",
+      "sourceUrl": "https://manifund.org/projects/talos-institute-eu-ai-policy-career-org-spinning-out-of-training-for-good?tab=comments#5a8dcb21-b25f-c5b6-49b5-fcb37d18f234",
+      "reviewedAt": "2023-12-09",
+      "review": "[Talos Network](https://manifund.org/projects/talos-institute-eu-ai-policy-career-org-spinning-out-of-training-for-good), Dec 2023\n\nSignal-boosting this."
+    }
+  ]
+}
