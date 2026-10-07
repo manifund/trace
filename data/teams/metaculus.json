@@ -1,0 +1,110 @@
+{
+  "slug": "metaculus",
+  "website": "https://www.metaculus.com/",
+  "sourceUrl": "https://www.metaculus.com/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 20,
+  "headcountNote": "metaculus.com returns 403 to plain fetches (and recent Wayback captures are Cloudflare challenge pages), so read from the Wayback Machine snapshot of 2026-07-17. 20 people listed under 'team' on the About page; 5 board members (including founders Anthony Aguirre, Carroll 'Max' Wainwright and David Levine) and 6 advisors excluded.",
+  "people": [
+    {
+      "name": "Deger Turan",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Atakan Seçkin",
+      "title": "Head of Design",
+      "leadership": false
+    },
+    {
+      "name": "Molly Hickman",
+      "title": "Technical Product Manager",
+      "leadership": false
+    },
+    {
+      "name": "Leonard Barrett",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Christian Williams",
+      "title": "Director of Communications & Data",
+      "leadership": false
+    },
+    {
+      "name": "Cole Sussmeier",
+      "title": "AI Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Beck",
+      "title": "Director of Forecasting",
+      "leadership": false
+    },
+    {
+      "name": "Sylvain Chevalier",
+      "title": "Director of Product",
+      "leadership": false
+    },
+    {
+      "name": "Elis Popescu",
+      "title": "Head of Engineering",
+      "leadership": false
+    },
+    {
+      "name": "Hlib Kononenko",
+      "title": "Senior Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Ben Wilson",
+      "title": "AI Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Nikita Oleinykof",
+      "title": "Software Developer",
+      "leadership": false
+    },
+    {
+      "name": "Luke Sabor",
+      "title": "Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Nikitas Angeletos Chrysaitis",
+      "title": "Forecasting Program Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "John Bash",
+      "title": "Forecasting Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Felipe Oliveira",
+      "title": "Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Cemre Inanc",
+      "title": "Software Developer",
+      "leadership": false
+    },
+    {
+      "name": "Grace McLain",
+      "title": "Project Delivery Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jesse Damiani",
+      "title": "Communications Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Carolin Ullrich",
+      "title": "Principal Product Manager",
+      "leadership": false
+    }
+  ]
+}

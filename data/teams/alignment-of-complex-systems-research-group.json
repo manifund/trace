@@ -1,0 +1,75 @@
+{
+  "slug": "alignment-of-complex-systems-research-group",
+  "website": "https://acsresearch.org/",
+  "sourceUrl": "https://acsresearch.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 13,
+  "headcountNote": "13 people on the ACS Team page across its four groups (core team of 3, LLM Psychology and Sociology Team of 4, Gradual Disempowerment Team of 2, Researchers of 4, including two Research Associates with outside affiliations); 4 alumni excluded; no stated staff count. ACS is academically part of the Center for Theoretical Study at Charles University and supported by Epistea.",
+  "people": [
+    {
+      "name": "Jan Kulveit",
+      "title": "Principal Investigator",
+      "leadership": true
+    },
+    {
+      "name": "Raymond Douglas",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Martin Vaněk",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Theia Vogel",
+      "title": "LLM Psychology and Sociology Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Ondřej Havlíček",
+      "title": "LLM Psychology and Sociology Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Annie Stephenson",
+      "title": "LLM Psychology and Sociology Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Ivar Frisch",
+      "title": "Researcher / Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Teodora Chis",
+      "title": "Gradual Disempowerment Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Dan MacKinlay",
+      "title": "Gradual Disempowerment Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Vojtěch Kovařík",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Tomáš Gavenčiak",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Gavin Leech",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Simon McGregor",
+      "title": "Research Associate",
+      "leadership": false
+    }
+  ]
+}

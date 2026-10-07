@@ -1,0 +1,110 @@
+{
+  "slug": "topos-institute",
+  "website": "https://topos.institute/",
+  "sourceUrl": "https://topos.institute/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 20,
+  "headcountNote": "3 under 'Leadership' plus 17 under 'Staff' on the Team page = 20. Tish Tanski ('Special Strategic Advisor') is counted because the site places her in the Leadership group, not the advisor lists. Excluded: 7 Senior Advisors, 4 Research Affiliates, 9 Alumni, and the Governing Body (Fong and Spivak appear there too; the other 4 are board-only).",
+  "people": [
+    {
+      "name": "Brendan Fong",
+      "title": "CEO & Trustee (UK)",
+      "leadership": true
+    },
+    {
+      "name": "David Spivak",
+      "title": "Senior Scientist and Institute Fellow & Treasurer (US)",
+      "leadership": true
+    },
+    {
+      "name": "Tish Tanski",
+      "title": "Special Strategic Advisor",
+      "leadership": true
+    },
+    {
+      "name": "Diasmer Bloe",
+      "title": "Director of UK Operations",
+      "leadership": false
+    },
+    {
+      "name": "Jason Brown",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Kristopher Brown",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Kaspar Bumke",
+      "title": "Senior Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "tslil clingman",
+      "title": "Principal Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Bryce Goldman",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Tim Hosgood",
+      "title": "Social Impact Lead",
+      "leadership": false
+    },
+    {
+      "name": "Joanna Ko",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Owen Lynch",
+      "title": "Research Software Engineer",
+      "leadership": false
+    },
+    {
+      "name": "David Jaz Myers",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Nelson Niu",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Evan Patterson",
+      "title": "Principal Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Maximilien Péroux",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Mitchell Riley",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "José Siqueira",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Molly White",
+      "title": "Office Manager",
+      "leadership": false
+    },
+    {
+      "name": "Beth Williams",
+      "title": "Finance and Operations Manager",
+      "leadership": false
+    }
+  ]
+}

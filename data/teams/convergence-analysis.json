@@ -1,0 +1,25 @@
+{
+  "slug": "convergence-analysis",
+  "website": "https://www.convergenceanalysis.org/",
+  "sourceUrl": "https://www.convergenceanalysis.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 3,
+  "headcountNote": "3 people listed under 'Staff' on the Our Team page; 3 Senior Research Fellows and 3 board members (including Justin Shovelain, Chairman & Senior Strategist) excluded. No stated staff count.",
+  "people": [
+    {
+      "name": "David Kristoffersson",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Mike Keough",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Gwyn Glasser",
+      "title": "AI Policy Lead",
+      "leadership": false
+    }
+  ]
+}

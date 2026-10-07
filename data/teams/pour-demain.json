@@ -1,0 +1,60 @@
+{
+  "slug": "pour-demain",
+  "website": "https://www.pourdemain.ngo/en",
+  "sourceUrl": "https://www.pourdemain.ngo/en/about-us",
+  "checkedAt": "2026-10-07",
+  "headcount": 10,
+  "headcountNote": "10 people listed under 'Team' on the About us page. The site gives no job titles, only a bio and a work-area tag per person (Artificial Intelligence / Development / Organisation), so titles are null and no one can be marked as leadership from the site. The ~25-member Advisory Board (23 named) is excluded.",
+  "people": [
+    {
+      "name": "Abra Ganz",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Aimen Taimur",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Alejandro Tlaie Boria",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Basil Müller",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Christoph Bossart-Lee",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Jimmy Farrell",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Julia Niggemeyer",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Pascal Roelcke",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Patrick Stadler",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Tina Wünn",
+      "title": null,
+      "leadership": false
+    }
+  ]
+}

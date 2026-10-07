@@ -1,0 +1,225 @@
+{
+  "slug": "foundation-for-american-innovation",
+  "website": "https://www.thefai.org/",
+  "sourceUrl": "https://www.thefai.org/staff",
+  "checkedAt": "2026-10-07",
+  "headcount": 43,
+  "headcountNote": "43 people in the 'Staff' section of the Staff page. The page is JS-rendered (HTML only says 'Loading team members...'), so names, titles and order were read from the page's own section config (__NEXT_DATA__) resolved against the site's public Sanity CMS dataset (d8lrla4f/staging) that the page loads. The Staff section includes 3 Senior Fellows and 15 Research Fellows (in-house titles, distinct from the separate Conservative AI Policy Fellowship program); excluded: 41 Non-Resident Fellows, 5 Board members (Zach Graves also appears on the Board), 17 Notable Alumni.",
+  "people": [
+    {
+      "name": "Zach Graves",
+      "title": "President & CEO",
+      "leadership": true
+    },
+    {
+      "name": "Max Bodach",
+      "title": "Executive Vice President",
+      "leadership": true
+    },
+    {
+      "name": "Mark Shanoudy",
+      "title": "Vice President of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Grace Werner",
+      "title": "Vice President of Growth",
+      "leadership": false
+    },
+    {
+      "name": "David Bahr",
+      "title": "Vice President for External Relations",
+      "leadership": false
+    },
+    {
+      "name": "Benji Gering",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Tim Hwang",
+      "title": "General Counsel and Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Samuel Hammond",
+      "title": "Director of Artificial Intelligence & Chief Economist",
+      "leadership": false
+    },
+    {
+      "name": "Joshua Levine",
+      "title": "Director of Technology & Statecraft",
+      "leadership": false
+    },
+    {
+      "name": "Emmet Penney",
+      "title": "Director of Energy & Infrastructure",
+      "leadership": false
+    },
+    {
+      "name": "Ian Banks",
+      "title": "Director of Science & Innovation",
+      "leadership": false
+    },
+    {
+      "name": "Soren Dayton",
+      "title": "Director of American Governance",
+      "leadership": false
+    },
+    {
+      "name": "Christopher McCaffery",
+      "title": "Creative Director",
+      "leadership": false
+    },
+    {
+      "name": "Arielle Moore",
+      "title": "Staff Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Reses",
+      "title": "Director of New Media",
+      "leadership": false
+    },
+    {
+      "name": "Josefina Cuddeback",
+      "title": "Director of Events",
+      "leadership": false
+    },
+    {
+      "name": "Josh Wentzel",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Dan Lips",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Peter Warren",
+      "title": "Senior Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Hawickhorst",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Max Dauber",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Daniel King",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Sophia Bulla",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Soham Mehta",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Gavin Fry",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Isaiah Menning",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Farrell Gregory",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Blaine Dillingham",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Emily Yang",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Joseph Addington",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Lucas Pombo",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Geneva Kirk Drayson",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Govind Pimpale",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Emerson Alden",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Cody Matteson",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Wrena Sproat",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Una Blumberg",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Alessandro DeMarchi",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Miranda Brewen",
+      "title": "Finance & Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Isaac Mansell",
+      "title": "Research & Development Associate",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Schmitt",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "María-Theresa Vicente",
+      "title": "Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Matthew Smyser",
+      "title": "Operations Associate",
+      "leadership": false
+    }
+  ]
+}

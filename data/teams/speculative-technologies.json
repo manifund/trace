@@ -1,0 +1,40 @@
+{
+  "slug": "speculative-technologies",
+  "website": "https://spec.tech/",
+  "sourceUrl": "https://spec.tech/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "6 staff listed under 'Team' on the Team page, in site order; 2 board members, 5 advisors and 3 alumni (former program leads) excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Jessica Alfoldi",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Ben Reinhardt",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Brent Ridley",
+      "title": "Director, Brains",
+      "leadership": false
+    },
+    {
+      "name": "Will Vega-Brown",
+      "title": "Program Lead",
+      "leadership": false
+    },
+    {
+      "name": "Eileen Nakahata",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Aziz",
+      "title": "Special Projects Lead",
+      "leadership": false
+    }
+  ]
+}

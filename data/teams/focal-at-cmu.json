@@ -1,0 +1,35 @@
+{
+  "slug": "focal-at-cmu",
+  "website": "https://www.cs.cmu.edu/~focal/",
+  "sourceUrl": "https://www.cs.cmu.edu/~focal/people.html",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "Academic lab. 5 of the 13 people on the Team page are faculty, postdocs or research staff; following the CHAI convention, 4 PhD students and 1 undergraduate researcher are excluded, as are 3 entries marked '(alum; now on the faculty at ...)'. Caspar Oesterheld is listed as 'Assistant Director, PhD student' and is kept for his director title.",
+  "people": [
+    {
+      "name": "Vincent Conitzer",
+      "title": "Director, Professor of Computer Science, Economics and Philosophy",
+      "leadership": true
+    },
+    {
+      "name": "Caspar Oesterheld",
+      "title": "Assistant Director, PhD student in Computer Science",
+      "leadership": true
+    },
+    {
+      "name": "Vojta Kovarik",
+      "title": "Postdoctoral researcher in Computer Science",
+      "leadership": false
+    },
+    {
+      "name": "Ivan Geffner",
+      "title": "Postdoctoral researcher in Computer Science",
+      "leadership": false
+    },
+    {
+      "name": "Emery Cooper",
+      "title": "Research Associate",
+      "leadership": false
+    }
+  ]
+}

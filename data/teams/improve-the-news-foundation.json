@@ -1,0 +1,20 @@
+{
+  "slug": "improve-the-news-foundation",
+  "website": "https://www.improvethenews.org/",
+  "sourceUrl": "https://www.improvethenews.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The site (branded Verity) names only the two founders and their officer roles ('founded in October 2020 by MIT Professor Max Tegmark and Tufts Researcher Meia Chita-Tegmark — serving as president and treasurer/secretary, respectively'); the team is described as 'a global network of collaborators' with no list or count, so headcount is unknowable from the site. Podcast host Scott Wallace is mentioned without a title and is not included.",
+  "people": [
+    {
+      "name": "Max Tegmark",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Meia Chita-Tegmark",
+      "title": "Treasurer/Secretary",
+      "leadership": true
+    }
+  ]
+}

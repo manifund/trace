@@ -1,0 +1,25 @@
+{
+  "slug": "epistea-z-s",
+  "website": "https://epistea.org/",
+  "sourceUrl": "https://epistea.org/",
+  "checkedAt": "2026-10-07",
+  "headcount": 3,
+  "headcountNote": "The home page 'Team' block names 1 project lead and 2 team members with no titles beyond those labels (titles here are the site's group labels). Jan Kulveit and Elizabeth Garrett appear under 'Advisors' (confirmed from the page's grid layout, since the text order is ambiguous) and are excluded.",
+  "people": [
+    {
+      "name": "Irena Kotíková",
+      "title": "Project lead",
+      "leadership": true
+    },
+    {
+      "name": "Viktorie Havlíčková",
+      "title": "Team member",
+      "leadership": false
+    },
+    {
+      "name": "Jiří Nádvorník",
+      "title": "Team member",
+      "leadership": false
+    }
+  ]
+}

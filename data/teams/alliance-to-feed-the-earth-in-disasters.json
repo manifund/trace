@@ -1,0 +1,155 @@
+{
+  "slug": "alliance-to-feed-the-earth-in-disasters",
+  "website": "https://allfed.info/",
+  "sourceUrl": "https://allfed.info/about/team-and-board",
+  "checkedAt": "2026-10-07",
+  "headcount": 29,
+  "headcountNote": "28 people under 'Team' plus co-founder David Denkenberger (Director & Co-founder) on the Team and Board page = 29; the page says 'the majority of our team contributes on a part-time or voluntary basis' without distinguishing them, so all are counted. Titles come from each person's own profile page (the listing shows names only); Denkenberger's title is trimmed to the role part. Excluded: 24 on the Board of Advisors (including Sonia Cassidy, 'Director of Operations, Director of the Board', who is placed in the board section), and co-founder Ray Taylor shown as '(inactive)'.",
+  "people": [
+    {
+      "name": "David Denkenberger",
+      "title": "Director & Co-founder",
+      "leadership": true
+    },
+    {
+      "name": "Yushuwa Nettles",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Amanda Cassidy",
+      "title": "Relationship Systems Manager and the Procurement & Logistics Manager",
+      "leadership": false
+    },
+    {
+      "name": "Noah Wescombe",
+      "title": "Head of Policy",
+      "leadership": false
+    },
+    {
+      "name": "Juan B. García Martínez",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Carina Denkenwolf",
+      "title": "Compliance Coordinator and acting Secretary of ALLFED Institute",
+      "leadership": false
+    },
+    {
+      "name": "Bianca Cruz",
+      "title": "Fundraising Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michael Hinge",
+      "title": "Senior Economist",
+      "leadership": false
+    },
+    {
+      "name": "Aron Mill",
+      "title": "Coordinator / Project Lead, Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jane Redfern",
+      "title": "Head of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Andreea Petre",
+      "title": "Communications Associate Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Maciej Pilachowski",
+      "title": "HR Coordinator, Finance Coordinator and Treasurer of ALLFED Institute",
+      "leadership": false
+    },
+    {
+      "name": "Adam Steinberg",
+      "title": "Donor Relations Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Palm",
+      "title": "Data Coordinator, Operations Manager, and Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Farrah Jasmine Louise D. Dingal",
+      "title": "Policy Associate",
+      "leadership": false
+    },
+    {
+      "name": "James Mulhall",
+      "title": "Research Associate / Data Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Simon Blouin",
+      "title": "Data Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Rassool",
+      "title": "Research Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Martina Kunz",
+      "title": "Senior Policy Associate Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Olufunke Femi-Ojo",
+      "title": "Event Coordinator and Project Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Pinkeshkumar Attarwala",
+      "title": "PhD researcher at University of Canterbury",
+      "leadership": false
+    },
+    {
+      "name": "Mohammadreza Ebrahimnataj Tiji",
+      "title": "PhD researcher at University of Canterbury",
+      "leadership": false
+    },
+    {
+      "name": "Luísa Lopes Monteiro",
+      "title": "PhD researcher at University of Canterbury",
+      "leadership": false
+    },
+    {
+      "name": "Ross Tieman",
+      "title": "Research Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Florian Ulrich Jehn",
+      "title": "Research Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Juan Esteban Lamilla",
+      "title": "Data Science Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Morgan Rivers",
+      "title": "Research Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Alexey Turchin",
+      "title": "Research Collaborator",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Alvarado",
+      "title": "Graduate Researcher",
+      "leadership": false
+    }
+  ]
+}

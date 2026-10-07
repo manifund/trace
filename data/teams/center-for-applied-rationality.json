@@ -1,0 +1,45 @@
+{
+  "slug": "center-for-applied-rationality",
+  "website": "https://rationality.org/",
+  "sourceUrl": "https://rationality.org/about/staff/",
+  "checkedAt": "2026-10-07",
+  "headcount": 7,
+  "headcountNote": "7 people listed under 'Staff' on the CFAR Staff page; 17 under 'Staff Alumni' and the 3-person Board of Directors (two of whom are also staff) excluded.",
+  "people": [
+    {
+      "name": "Anna Salamon",
+      "title": "President & Cofounder",
+      "leadership": true
+    },
+    {
+      "name": "Jack Carroll",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    },
+    {
+      "name": "Davis Tower Kingsley",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    },
+    {
+      "name": "Preston Greene",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    },
+    {
+      "name": "Stephanie Payor",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    },
+    {
+      "name": "Divia Eden",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    },
+    {
+      "name": "John Salvatier",
+      "title": "Curriculum Developer & Instructor",
+      "leadership": false
+    }
+  ]
+}

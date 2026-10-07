@@ -1,0 +1,185 @@
+{
+  "slug": "institute-for-progress",
+  "website": "https://ifp.org/",
+  "sourceUrl": "https://ifp.org/about/#team",
+  "checkedAt": "2026-10-07",
+  "headcount": 35,
+  "headcountNote": "35 people listed under 'Team' on the About page (alphabetical; 'Fellow' is IFP's in-house staff title for researchers). Excluded: 17 Non-Resident Senior Fellows, 5 Non-Resident Fellows and 4 External Board Members (incl. co-founder Caleb Watney, now at Coefficient Giving). The page names no leadership group, so only the CEO is flagged.",
+  "people": [
+    {
+      "name": "Georgia Adamson",
+      "title": "Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Abigail 'Beez' Africa",
+      "title": "Creative Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Allan Buchness",
+      "title": "Deputy Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Tao Burga",
+      "title": "Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Violet Buxton-Walsh",
+      "title": "Immigration Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Arnab Datta",
+      "title": "Director of Policy Implementation",
+      "leadership": false
+    },
+    {
+      "name": "Arielle D'Souza",
+      "title": "Biotechnology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Liam Epstein",
+      "title": "Emerging Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Matthew Esche",
+      "title": "Metascience Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Tim Fist",
+      "title": "Director of Emerging Technology Policy",
+      "leadership": false
+    },
+    {
+      "name": "Joseph Fridman",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Gerard",
+      "title": "Senior Metascience Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jenn Gustetic",
+      "title": "Director of Metascience Policy",
+      "leadership": false
+    },
+    {
+      "name": "Brielle Hill",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Tim Hwang",
+      "title": "Senior Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Jimenez",
+      "title": "Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Saif Khan",
+      "title": "Distinguished Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jason Liang",
+      "title": "Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Anastasia Lambrou",
+      "title": "Senior Biotechnology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Aidan Mackenzie",
+      "title": "Infrastructure Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jeremy Neufeld",
+      "title": "Director of Immigration Policy",
+      "leadership": false
+    },
+    {
+      "name": "Amy Nice",
+      "title": "Distinguished Immigration Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Raffa Nigos",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Connor O'Brien",
+      "title": "High-Skilled Immigration Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Will Poff-Webster",
+      "title": "Director of Infrastructure Policy",
+      "leadership": false
+    },
+    {
+      "name": "Brian Potter",
+      "title": "Senior Infrastructure Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Nicholas Ritter",
+      "title": "Metascience Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Ben Schifman",
+      "title": "Senior Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Reed Schwartz",
+      "title": "Associate Infrastructure Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Rita Sokolova",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Alec Stapp",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Arthur Tellis",
+      "title": "Senior Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Dan Turner-Evans",
+      "title": "Senior Metascience Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Jonah Weinbaum",
+      "title": "Technology Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Heidi Williams",
+      "title": "Distinguished Metascience Fellow",
+      "leadership": false
+    }
+  ]
+}

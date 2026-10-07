@@ -1,0 +1,55 @@
+{
+  "slug": "cooperative-ai-foundation",
+  "website": "https://www.cooperativeai.com/",
+  "sourceUrl": "https://www.cooperativeai.com/foundation",
+  "checkedAt": "2026-10-07",
+  "headcount": 9,
+  "headcountNote": "9 people listed under 'Team' on the Foundation page; 5 trustees, 7 advisors and 3 affiliates excluded. A blog post announces Brigit Goebelbecker as CAIF's first CEO 'starting October 2026', but she is not yet on the team list, so she is not included.",
+  "people": [
+    {
+      "name": "Lewis Hammond",
+      "title": "Research Director",
+      "leadership": true
+    },
+    {
+      "name": "Joss Oliver",
+      "title": "Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Natàlia Fernández Ashman",
+      "title": "Communications Officer",
+      "leadership": false
+    },
+    {
+      "name": "Marta Bieńkiewicz",
+      "title": "Policy and Partnerships Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michelle Virgo",
+      "title": "People and Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Goda Mockutė",
+      "title": "Programme Manager",
+      "leadership": false
+    },
+    {
+      "name": "Qi Guo",
+      "title": "Research Engineer",
+      "leadership": false
+    },
+    {
+      "name": "William Anderson",
+      "title": "Research Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Aansa Tahseen",
+      "title": "Administration Associate",
+      "leadership": false
+    }
+  ]
+}

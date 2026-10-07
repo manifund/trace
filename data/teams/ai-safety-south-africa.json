@@ -1,0 +1,45 @@
+{
+  "slug": "ai-safety-south-africa",
+  "website": "https://cisai.co/",
+  "sourceUrl": "https://cisai.co/team.html",
+  "checkedAt": "2026-10-07",
+  "headcount": 7,
+  "headcountNote": "AI Safety Cape Town became AI Safety South Africa (AISSA, aisafetysa.com), which is now rebranding to the Cape Institute for Safe AI (CISAI). 7 staff listed on the CISAI Team page; 3 people shown as 'Governance Affiliate' / 'Research Affiliate' excluded; no board listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Leo Hyams",
+      "title": "Co-Founder, Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Tegan Green",
+      "title": "Operations Director",
+      "leadership": true
+    },
+    {
+      "name": "Benjamin Sturgeon",
+      "title": "Co-Founder, Strategic Director",
+      "leadership": true
+    },
+    {
+      "name": "Jaco Du Toit",
+      "title": "Evaluations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Alexa Blagus",
+      "title": "Workspace Manager",
+      "leadership": false
+    },
+    {
+      "name": "Josh Stein",
+      "title": "Community Manager",
+      "leadership": false
+    },
+    {
+      "name": "Isabella Hamilton-Russell",
+      "title": "Program Manager",
+      "leadership": false
+    }
+  ]
+}

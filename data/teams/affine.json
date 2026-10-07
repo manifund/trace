@@ -1,0 +1,35 @@
+{
+  "slug": "affine",
+  "website": "https://www.affi.ne/",
+  "sourceUrl": "https://www.affi.ne/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "5 people listed under 'Core Team' on the Team page; 10 'Visiting Mentors' (including Abram Demski, shown with an AFFINE affiliation) excluded as mentors; no board listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Mateusz Bagiński",
+      "title": "Founder",
+      "leadership": true
+    },
+    {
+      "name": "Jonas Hallgren",
+      "title": "Generalist & Mentor",
+      "leadership": false
+    },
+    {
+      "name": "Julia Persson",
+      "title": "Seminar Design",
+      "leadership": false
+    },
+    {
+      "name": "Noa “Ouro” Hölzer",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Pauliina Laine",
+      "title": "Operations",
+      "leadership": false
+    }
+  ]
+}

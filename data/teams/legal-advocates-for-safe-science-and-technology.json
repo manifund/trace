@@ -1,0 +1,35 @@
+{
+  "slug": "legal-advocates-for-safe-science-and-technology",
+  "website": "https://lasst.org/",
+  "sourceUrl": "https://lasst.org/who-we-are/",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "5 people in the 'Staff' section of the Who We Are page. The Board of Directors (5 seats: Tyler Whitmer and Cortney Busch, who are also staff, plus Amy Labenz, Laurens Prins and Sneha Revanur) is excluded, so 3 board-only people are left out.",
+  "people": [
+    {
+      "name": "Tyler Whitmer",
+      "title": "CEO/President/Director",
+      "leadership": true
+    },
+    {
+      "name": "Vivian Dong",
+      "title": "Programs Director",
+      "leadership": true
+    },
+    {
+      "name": "Cortney Busch",
+      "title": "Operations Director",
+      "leadership": true
+    },
+    {
+      "name": "Ben Rashkovich",
+      "title": "Senior Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Will Conlon",
+      "title": "Senior Counsel",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "alter-israel",
+  "website": "https://alter.org.il/",
+  "sourceUrl": "https://alter.org.il/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 3,
+  "headcountNote": "3 people listed under 'Team' on the About page (read from the site's content-en.json, which the JS-rendered page loads); 3 'ALTER Fellows' alumni, 4 Executive Board Members, 2 Audit Committee members and 3 Association Members excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "David Manheim",
+      "title": "Founder, Director Of Policy & Research",
+      "leadership": true
+    },
+    {
+      "name": "Naham Shapiro",
+      "title": "Operations Manager and Public Health Lead",
+      "leadership": false
+    },
+    {
+      "name": "Vanessa Kosoy",
+      "title": "Director of AI Research",
+      "leadership": true
+    }
+  ]
+}

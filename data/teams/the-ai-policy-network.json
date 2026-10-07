@@ -1,0 +1,50 @@
+{
+  "slug": "the-ai-policy-network",
+  "website": "https://theaipn.org/",
+  "sourceUrl": "https://theaipn.org/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 8,
+  "headcountNote": "8 staff listed under 'Our Team' on the About page (titles verbatim, including the site's inconsistent capitalisation). AIPN is a 501(c)(4); Daniel Colson is separately ED of the AI Policy Institute.",
+  "people": [
+    {
+      "name": "Mark Beall, Jr.",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Daniel Colson",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Ethan Saxon",
+      "title": "Vice president of Legislative affairs",
+      "leadership": false
+    },
+    {
+      "name": "Jeff Starr",
+      "title": "COO & Director of Development",
+      "leadership": true
+    },
+    {
+      "name": "Daniel Eth",
+      "title": "Director of strategy",
+      "leadership": false
+    },
+    {
+      "name": "Peter Wildeford",
+      "title": "HEAD OF POLICY",
+      "leadership": false
+    },
+    {
+      "name": "Min Goodman-Cheng",
+      "title": "Director of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Philip Wieczorek",
+      "title": "Junior Associate",
+      "leadership": false
+    }
+  ]
+}

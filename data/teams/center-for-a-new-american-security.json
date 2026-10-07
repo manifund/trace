@@ -1,0 +1,25 @@
+{
+  "slug": "center-for-a-new-american-security",
+  "website": "https://www.cnas.org/",
+  "sourceUrl": "https://www.cnas.org/people?group=full-time-staff",
+  "checkedAt": "2026-10-07",
+  "headcount": 46,
+  "headcountNote": "46 people listed under the 'Full-Time Staff' filter of the People page (names only, no titles on the list page), so only the 3 members of the 'Executive Team' filter are listed here, with titles taken from their individual profile pages. Board of directors, board of advisors, directors emeriti, distinguished senior fellows, adjunct fellows, senior military fellows, interns, next-generation fellows, visiting fellows and writer in residence excluded.",
+  "people": [
+    {
+      "name": "Richard Fontaine",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Anna Saito Carson",
+      "title": "Senior Vice President of Development",
+      "leadership": true
+    },
+    {
+      "name": "Paul Scharre",
+      "title": "Executive Vice President",
+      "leadership": true
+    }
+  ]
+}

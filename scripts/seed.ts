@@ -4,6 +4,7 @@
 // auto-created a provisional (needs_review) org under that name, the
 // provisional org's grants are repointed and the org is deleted.
 import aliasesFile from '@/data/aliases.json'
+import descriptionsFile from '@/data/org-descriptions.json'
 import linksFile from '@/data/org-links.json'
 import orgsSeed from '@/data/orgs-seed.json'
 import reviewedFile from '@/data/reviewed-orgs.json'
@@ -527,6 +528,42 @@ async function main() {
   }
   if (stale.length > 0)
     console.log(`Cleared ${stale.length} website(s) no longer in org-links.json`)
+
+  // org-descriptions.json owns orgs.description the same way: one sentence per
+  // slug, and any org not in the file loses its description.
+  const descriptions = (descriptionsFile as never as { descriptions: Record<string, string> })
+    .descriptions
+  const described = new Map<string, string>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('orgs')
+      .select('slug, description')
+      .not('description', 'is', null)
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) described.set(row.slug, row.description as string)
+    if (!data || data.length < 1000) break
+  }
+  for (const [slug, text] of Object.entries(descriptions)) {
+    if (described.get(slug) === text) continue
+    const { data } = await db
+      .from('orgs')
+      .update({ description: text })
+      .eq('slug', slug)
+      .select('id')
+      .throwOnError()
+    if (!data?.length) console.warn(`org-descriptions.json: unknown slug "${slug}"`)
+  }
+  const undescribed = Array.from(described.keys()).filter((slug) => !(slug in descriptions))
+  for (let from = 0; from < undescribed.length; from += 200) {
+    await db
+      .from('orgs')
+      .update({ description: null })
+      .in('slug', undescribed.slice(from, from + 200))
+      .throwOnError()
+  }
+  if (undescribed.length > 0)
+    console.log(`Cleared ${undescribed.length} description(s) no longer in org-descriptions.json`)
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
   // and correctly named; clears the needs_review flag without seeding them.

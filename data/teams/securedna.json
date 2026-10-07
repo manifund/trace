@@ -1,0 +1,25 @@
+{
+  "slug": "securedna",
+  "website": "https://securedna.org/",
+  "sourceUrl": "https://securedna.org/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The Team page names only a 3-person 'Management Team' with descriptive blurbs rather than titles (Foner's blurb calls him 'Software architect and security lead for SecureDNA'; the other two have no title), and says the organisation is 'composed of academic life scientists and cryptographers, policy analysts, information security specialists, and software engineers' without a count, so headcount is unknown. Excluded: 3-member Foundation Council, 1 special-projects advisor, 4 cryptography advisors, 11 academic advisors (one marked past), and 5 named research contributors.",
+  "people": [
+    {
+      "name": "Leonard Foner",
+      "title": "Software architect and security lead",
+      "leadership": true
+    },
+    {
+      "name": "Kirsten Engel",
+      "title": null,
+      "leadership": true
+    },
+    {
+      "name": "Kate Daw",
+      "title": null,
+      "leadership": true
+    }
+  ]
+}

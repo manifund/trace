@@ -1,0 +1,25 @@
+{
+  "slug": "balsa-policy-institute",
+  "website": "https://www.balsaresearch.com/",
+  "sourceUrl": "https://www.balsaresearch.com/people",
+  "checkedAt": "2026-10-07",
+  "headcount": 3,
+  "headcountNote": "3 people listed on the People page; no board or advisors listed; no stated staff count. The site operates as Balsa Research; its footer gives the legal name Balsa Policy Institute (EIN 92-0966448).",
+  "people": [
+    {
+      "name": "Zvi Mowshowitz",
+      "title": "Founder and CEO",
+      "leadership": true
+    },
+    {
+      "name": "Chelsea Gray",
+      "title": "Maritime Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jennifer Chen",
+      "title": "Strategic Operations Lead",
+      "leadership": false
+    }
+  ]
+}

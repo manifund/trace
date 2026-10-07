@@ -1,0 +1,110 @@
+{
+  "slug": "council-on-strategic-risks",
+  "website": "https://councilonstrategicrisks.org/",
+  "sourceUrl": "https://councilonstrategicrisks.org/experts/",
+  "checkedAt": "2026-10-07",
+  "headcount": 20,
+  "headcountNote": "20 unique people on the 'Experts, Staff, and Fellows' page across CSR Leadership & Core Staff and its three institutes (Center for Climate and Security, Nolan Center on Strategic Weapons, Converging Risks Lab); people listed under more than one institute counted once with titles joined. Resident Senior/Research Fellows are in-house staff at this think tank and are counted; excluded: 1 Director Emeritus (John Conger), 1 Nonresident Senior Fellow (Kevin Cutright), 1 Research Intern (Rob Mugno). Caitlin Werrell (co-founder, 'Senior Advisor') is counted because the site lists her under Core Staff. Rank prefixes ('CAPT', 'Hon.') dropped from names. The About page's Leadership list also names Christine Parthemore as Director, Nolan Center, but she is absent from the Experts page, so she is not included. Board of Directors is on a separate page and excluded.",
+  "people": [
+    {
+      "name": "Mallory Stewart",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Catherine Dill",
+      "title": "Vice President of Programs; Senior Fellow, The Janne E. Nolan Center on Strategic Weapons",
+      "leadership": true
+    },
+    {
+      "name": "Scott Stinson",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Francesco Femia",
+      "title": "Director of Research; Co-Founder, the Council on Strategic Risks and The Center for Climate and Security",
+      "leadership": true
+    },
+    {
+      "name": "Andrew Facini",
+      "title": "Director of Communications; Senior Fellow, The Janne E. Nolan Center on Strategic Weapons",
+      "leadership": false
+    },
+    {
+      "name": "Courtney Tillman",
+      "title": "Communications Associate",
+      "leadership": false
+    },
+    {
+      "name": "Caitlin Werrell",
+      "title": "Senior Advisor; Co-Founder, The Council on Strategic Risks and The Center for Climate and Security",
+      "leadership": false
+    },
+    {
+      "name": "Erin Sikorsky",
+      "title": "Director, Center for Climate and Security; Director, The International Military Council on Climate and Security",
+      "leadership": false
+    },
+    {
+      "name": "Tom Ellison",
+      "title": "Deputy Director, The Center for Climate and Security",
+      "leadership": false
+    },
+    {
+      "name": "Noah Fritzhand",
+      "title": "Research Fellow, The Center for Climate and Security",
+      "leadership": false
+    },
+    {
+      "name": "Katherine Yusko",
+      "title": "Research Fellow, The Center for Climate and Security",
+      "leadership": false
+    },
+    {
+      "name": "John Moulton",
+      "title": "Deputy Director and Senior Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Christopher East",
+      "title": "Senior Fellow and Program Manager, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Crystal Grant",
+      "title": "Senior Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Jess Rogers",
+      "title": "Senior Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Weber",
+      "title": "Senior Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Kyle Wilgus",
+      "title": "Biosecurity Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Jackson du Pont",
+      "title": "Fellow, Nolan Center",
+      "leadership": false
+    },
+    {
+      "name": "Caroline Baxter",
+      "title": "Director, The Converging Risks Lab",
+      "leadership": false
+    },
+    {
+      "name": "Lily Boland",
+      "title": "Strategic Foresight Fellow, The Converging Risks Lab",
+      "leadership": false
+    }
+  ]
+}

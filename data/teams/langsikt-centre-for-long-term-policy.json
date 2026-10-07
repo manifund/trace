@@ -1,0 +1,65 @@
+{
+  "slug": "langsikt-centre-for-long-term-policy",
+  "website": "https://www.langsikt.no/",
+  "sourceUrl": "https://www.langsikt.no/personer",
+  "checkedAt": "2026-10-07",
+  "headcount": 11,
+  "headcountNote": "11 people in the visible 'Stab' (staff) list on the Personer page (titles in Norwegian, verbatim; the English site is machine-translated). Includes one on leave (Cindy Robles), two on contracts ending 2026, and one part-time (20%) 'tilknyttet rådgiver' (Preben Monteiro Ness). The page also contains a second, CSS-hidden older staff list (headed by former daglig leder Eirik Mofoss, with Sigrid Bratlie, Tellef Solbakk Raabe, Peder Skjelbred, Johannes Bangum) which was ignored. Excluded: 5 board members ('Styret', incl. Eirik Mofoss, daglig leder 2023-2026) and 9 advisory council members ('Fagrådet').",
+  "people": [
+    {
+      "name": "Lotte Skolem",
+      "title": "Fungerende daglig leder",
+      "leadership": true
+    },
+    {
+      "name": "Aksel Braanen Sterri",
+      "title": "Fagsjef",
+      "leadership": true
+    },
+    {
+      "name": "Cindy Robles",
+      "title": "Seniorrådgiver (i permisjon)",
+      "leadership": false
+    },
+    {
+      "name": "Henrik Hvaal",
+      "title": "Seniorrådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Anders Eidesvik",
+      "title": "Rådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Fride Nordstrand Ljønes",
+      "title": "Stabssjef og rådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Preben Monteiro Ness",
+      "title": "Tilknyttet rådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Frida Walle Thornes",
+      "title": "Rådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Martin Sunde Eriksen",
+      "title": "Rådgiver",
+      "leadership": false
+    },
+    {
+      "name": "Ram Eirik Glomseth",
+      "title": "Rådgiver, ut 2026",
+      "leadership": false
+    },
+    {
+      "name": "Haakon Huynh",
+      "title": "Rådgiver, ut 2026",
+      "leadership": false
+    }
+  ]
+}

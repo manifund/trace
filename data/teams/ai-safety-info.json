@@ -1,0 +1,15 @@
+{
+  "slug": "ai-safety-info",
+  "website": "https://aisafety.info/",
+  "sourceUrl": "https://aisafety.info/questions/NLZQ/What-is-this-site-about",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The site's 'About us' page says only that AISafety.info is 'a project founded by Rob Miles' and is 'maintained by a global team of specialists and volunteers', with no staff list or count, so headcount is unknowable from the site; the title 'Founder' is derived from 'founded by'. AISafety.info is a project of Ashgro Inc (fiscal sponsor).",
+  "people": [
+    {
+      "name": "Rob Miles",
+      "title": "Founder",
+      "leadership": true
+    }
+  ]
+}

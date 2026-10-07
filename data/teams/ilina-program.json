@@ -1,0 +1,60 @@
+{
+  "slug": "ilina-program",
+  "website": "https://www.ilinaprogram.org/",
+  "sourceUrl": "https://www.ilinaprogram.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 10,
+  "headcountNote": "10 people listed under 'Meet the Team' on the Team page, in site order, with titles verbatim (including lowercase 'Program manager' and 'technical AI safety researcher'); the page has no board or advisor section and no stated staff count. The four Research Scholars / Junior Research Scholars are listed as team members, though they may be program participants rather than employees.",
+  "people": [
+    {
+      "name": "Cecil Abungu",
+      "title": "Coordinator",
+      "leadership": true
+    },
+    {
+      "name": "Natalie Gitau",
+      "title": "Program manager",
+      "leadership": false
+    },
+    {
+      "name": "Michelle Malonza",
+      "title": "Research Associate and Policy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Marie Iradukunda",
+      "title": "Research Associate and Training Lead",
+      "leadership": false
+    },
+    {
+      "name": "Gathoni Ireri",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Raqda Sayidali",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Wachira",
+      "title": "Junior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Elvis Mogesa",
+      "title": "Junior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Sienka Dounia",
+      "title": "technical AI safety researcher",
+      "leadership": false
+    },
+    {
+      "name": "Faith Gakii",
+      "title": "Research Editor",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "talos-network",
+  "website": "https://www.talosnetwork.org/",
+  "sourceUrl": "https://www.talosnetwork.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "6 people listed under 'Meet the Team' on the Team page; 4 board members excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Chiara Gerosa",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "David Conrad",
+      "title": "Managing Director",
+      "leadership": true
+    },
+    {
+      "name": "Francesca Sheeka",
+      "title": "EU Tech Policy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Stephen Robcraft",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Carolin Basilowski",
+      "title": "Network Strategy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Antonia Briel",
+      "title": "Programme Associate",
+      "leadership": false
+    }
+  ]
+}

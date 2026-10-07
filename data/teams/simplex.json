@@ -1,0 +1,125 @@
+{
+  "slug": "simplex",
+  "website": "https://www.simplexaisafety.com/",
+  "sourceUrl": "https://www.simplexaisafety.com/",
+  "checkedAt": "2026-10-07",
+  "headcount": 23,
+  "headcountNote": "Home page lists 23 names as 'The Simplex team, both part-time and full-time' with no titles; the site gives no roles, so titles are null. Paul Riechers and Adam Shai are marked leadership because the site says Simplex 'was founded by Paul Riechers and Adam Shai in 2024' (no operating titles stated). Simplex sits within the Astera Institute (footer).",
+  "people": [
+    {
+      "name": "Adam Shai",
+      "title": null,
+      "leadership": true
+    },
+    {
+      "name": "Andrew Jun Lee",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Asvin G",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Augustin Lafay",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Casper L Christensen",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Dmitry Manning-Coe",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Eric Alt",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Eric J Michaud",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Francesco Cagnetta",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Idil Sahin",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Jasmina Urdshals",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Javan Tahir",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Karthik Viswanathan",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Kyle J Ray",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Loren Amdahl-Culleton",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Matt Smith",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "McNair Shah",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Paul Riechers",
+      "title": null,
+      "leadership": true
+    },
+    {
+      "name": "Sarah Harvey",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Selma Mazioud",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Thomas J Elliott",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Vivek Handebagh",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Xavier Poncini",
+      "title": null,
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "beri",
+  "website": "https://existence.org/",
+  "sourceUrl": "https://www.existence.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 8,
+  "headcountNote": "8 people listed under 'Core Team' on the Team page (incl. two part-time staff and a contract bookkeeper). The page also lists 24 'Embedded Staff' whom BERI employs but who work inside collaborating organizations (CHAI, CLTC, Oxford China Policy Lab, Existential Risk Laboratory, ...); they are excluded here so they are not double-counted against those orgs' own teams. Board of Directors (3, of whom Elizabeth Cooper is already counted) excluded.",
+  "people": [
+    {
+      "name": "Elizabeth Cooper",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Emily Hollenbeck",
+      "title": "Deputy Director",
+      "leadership": true
+    },
+    {
+      "name": "Rachel Labare-Sukhu",
+      "title": "Head of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Lara Lincoln",
+      "title": "Special Projects Manager",
+      "leadership": false
+    },
+    {
+      "name": "Andreina Gómez Torres",
+      "title": "Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Andreas Pashos",
+      "title": "Program Manager (Part-Time)",
+      "leadership": false
+    },
+    {
+      "name": "Natalie Gitau",
+      "title": "Operations Assistant (Part-Time)",
+      "leadership": false
+    },
+    {
+      "name": "Cierra Johnson",
+      "title": "Bookkeeper (Contract)",
+      "leadership": false
+    }
+  ]
+}

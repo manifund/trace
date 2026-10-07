@@ -1,0 +1,40 @@
+{
+  "slug": "effective-institutions-project",
+  "website": "https://effectiveinstitutionsproject.org/",
+  "sourceUrl": "https://effectiveinstitutionsproject.org/people/",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "6 staff under 'Team' on the People page; Faye Crawford (Fellow) and the 9-member Board of Directors (which includes the CEO) excluded.",
+  "people": [
+    {
+      "name": "Ian David Moss",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Ella McIntosh",
+      "title": "Managing Director",
+      "leadership": true
+    },
+    {
+      "name": "Jakob Graabak",
+      "title": "Interim Program Director, Peace and Security",
+      "leadership": false
+    },
+    {
+      "name": "Tyler John",
+      "title": "Program Director, Artificial Intelligence",
+      "leadership": false
+    },
+    {
+      "name": "Conrad Helminger",
+      "title": "Senior Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lev Heller",
+      "title": "Operations Manager",
+      "leadership": false
+    }
+  ]
+}

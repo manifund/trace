@@ -1,0 +1,16 @@
+{
+  "slug": "pauseai",
+  "website": "https://pauseai.info/",
+  "sourceUrl": "https://pauseai.info/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "6 people listed under 'Executive Team' on the About page (the cards are rendered client-side, so this was read in a browser); the 15 'National Leaders' run separate national PauseAI organizations (PauseAI US has its own Trace page) and are excluded, as are the movement's volunteers. The site does not say which executive roles are paid.",
+  "people": [
+    { "name": "Maxime Fournes", "title": "CEO PauseAI Global", "leadership": true },
+    { "name": "Irina Tavera", "title": "Organizing Director", "leadership": false },
+    { "name": "Jonathan Moody", "title": "Comms Director", "leadership": false },
+    { "name": "Matilda Da Rui", "title": "Strategy Director", "leadership": false },
+    { "name": "Anthony Bailey", "title": "Software Team Lead", "leadership": false },
+    { "name": "Patricio Vercesi", "title": "Technical Ops", "leadership": false }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "transluce",
+  "website": "https://transluce.org/",
+  "sourceUrl": "https://transluce.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 15,
+  "headcountNote": "17 people listed under 'Our Team' on the About page; 2 of them (Emma Pierson, Senior Research Fellow; Luke Hewitt, Research Fellow) excluded as fellows, leaving 15 staff. 7 advisors and 3 board members (one of whom, Jacob Steinhardt, is also CEO) excluded.",
+  "people": [
+    {
+      "name": "Jacob Steinhardt",
+      "title": "Co-Founder, CEO",
+      "leadership": true
+    },
+    {
+      "name": "Sarah Schwettmann",
+      "title": "Co-Founder, Chief Scientist",
+      "leadership": true
+    },
+    {
+      "name": "Tiffany Tzeng",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Conrad Stosz",
+      "title": "Head of Governance",
+      "leadership": true
+    },
+    {
+      "name": "Rachael Somerville",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Meng",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Dami Choi",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Johnson",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Vincent Huang",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Cassidy Laidlaw",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Rob Friel",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Ryan Bloom",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nick Wu",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Selena Zhang",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nari Johnson",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "ai-policy-institute",
+  "website": "https://theaipi.org/",
+  "sourceUrl": "https://theaipi.org/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The 'Our Team' section of the About page names only the founder and Executive Director; no other staff and no count are given.",
+  "people": [
+    {
+      "name": "Daniel Colson",
+      "title": "Executive Director",
+      "leadership": true
+    }
+  ]
+}

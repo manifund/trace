@@ -1,0 +1,25 @@
+{
+  "slug": "bipartisan-commission-on-biodefense",
+  "website": "https://biodefensecommission.org/",
+  "sourceUrl": "https://biodefensecommission.org/mission-our-team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 3,
+  "headcountNote": "3 people listed under 'Staff' on the Mission / Our Team page; no executive director is named, so no one is flagged as leadership. The 10 Commissioners (co-chairs Tom Ridge and Donna Shalala plus 8 members), former commissioners, and ex officio members are the governing body and are excluded. The site banner says the Commission moved to the Atlantic Council's Scowcroft Center in September 2025; the Atlantic Council page's team section is JS-loaded with no names in the HTML, so this list comes from the Commission's own domain (whose commissioner list was updated as recently as February 2026).",
+  "people": [
+    {
+      "name": "Robert Bradley",
+      "title": "Associate Director, Government Relations and Policy",
+      "leadership": false
+    },
+    {
+      "name": "John T. O’Brien, MS",
+      "title": "Associate Director, Research",
+      "leadership": false
+    },
+    {
+      "name": "Wendy Villalta",
+      "title": "Assistant Director, Operations",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "convergent-research",
+  "website": "https://www.convergentresearch.org/",
+  "sourceUrl": "https://www.convergentresearch.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 25,
+  "headcountNote": "25 people listed under 'Team' on the Team page; 5 listed under 'Board & Advisors' (all titled Board Member) excluded; no stated staff count. FRO (Focused Research Organization) staff are not on this page.",
+  "people": [
+    {
+      "name": "Adam Marblestone",
+      "title": "CEO & Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Anastasia Gamick",
+      "title": "President & Co-Founder",
+      "leadership": true
+    },
+    {
+      "name": "Jasmine Balloch",
+      "title": "Launch Manager",
+      "leadership": false
+    },
+    {
+      "name": "Scott Benton",
+      "title": "Senior Philanthropic Advisor",
+      "leadership": false
+    },
+    {
+      "name": "Faith David",
+      "title": "People Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michael Dunn",
+      "title": "Partner",
+      "leadership": false
+    },
+    {
+      "name": "Kristin Ellis",
+      "title": "Partner",
+      "leadership": false
+    },
+    {
+      "name": "Amanda Farrington",
+      "title": "Executive Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Lisa Girard",
+      "title": "Head of Communications and Engagement",
+      "leadership": false
+    },
+    {
+      "name": "Kari Graham",
+      "title": "General Manager",
+      "leadership": false
+    },
+    {
+      "name": "Avery Holland",
+      "title": "Head of Portfolio Success",
+      "leadership": false
+    },
+    {
+      "name": "Albernel Jones",
+      "title": "Finance & Accounting Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Kopkin",
+      "title": "Philanthropic Research & Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Brittany Lampe",
+      "title": "Finance & Accounting Manager",
+      "leadership": false
+    },
+    {
+      "name": "David Lansky",
+      "title": "Head of Legal, Focused Research Organizations",
+      "leadership": false
+    },
+    {
+      "name": "Danna Luo",
+      "title": "Head of Finance",
+      "leadership": false
+    },
+    {
+      "name": "Mir Masud-Elias",
+      "title": "General Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Kim-Chi Nguyen",
+      "title": "Human Resources Business Partner",
+      "leadership": false
+    },
+    {
+      "name": "Kait Picco",
+      "title": "Head of People & Operations",
+      "leadership": false
+    },
+    {
+      "name": "Corey Ruzicano",
+      "title": "Events & Program Experience Manager",
+      "leadership": false
+    },
+    {
+      "name": "Cat Salazar",
+      "title": "Operations Manager, Compliance",
+      "leadership": false
+    },
+    {
+      "name": "John Santos",
+      "title": "Procurement Systems Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sabrina Singh",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mary Wang",
+      "title": "Head of Strategic Initiatives",
+      "leadership": false
+    },
+    {
+      "name": "Katharine Weiss",
+      "title": "Accounts Payable Manager",
+      "leadership": false
+    }
+  ]
+}

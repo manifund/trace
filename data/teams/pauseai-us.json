@@ -1,0 +1,20 @@
+{
+  "slug": "pauseai-us",
+  "website": "https://pauseai-us.org",
+  "sourceUrl": "https://www.pauseai-us.org/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 2,
+  "headcountNote": "2 staff listed under 'Meet the Team' on the About page; the site describes PauseAI US as 'a small, nimble, and deeply committed team' plus volunteer local groups, which are not counted.",
+  "people": [
+    {
+      "name": "Holly Elmore",
+      "title": "Founder & Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Alvaro Cuba",
+      "title": "Development Director",
+      "leadership": false
+    }
+  ]
+}

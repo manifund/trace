@@ -1,0 +1,40 @@
+{
+  "slug": "stanford-existential-risks-initiative",
+  "website": "https://seri.stanford.edu/",
+  "sourceUrl": "https://seri.stanford.edu/people",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "The People page lists 13 'SERI Members'. Counted as staff: 2 faculty co-directors, 2 postdoctoral fellows (treated as research staff, not honorary fellows), 1 research assistant, and Rhea Jain, whose profile page says she 'serves as a research assistant for SERI' (no title on the list). Excluded: 3 SERI Student Fellows, 2 Affiliates, and 2 members (Emma Beharry, Doug Rosales) with no role stated anywhere on the site.",
+  "people": [
+    {
+      "name": "Paul N. Edwards",
+      "title": "Faculty Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Anna Ferl",
+      "title": "Postdoctoral Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Eric Heng",
+      "title": "Research Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Rhea Jain",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Steve Luby",
+      "title": "Faculty Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Dan Zimmer",
+      "title": "Postdoctoral Fellow, SERI",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "cesia",
+  "website": "https://cesia.org/en/",
+  "sourceUrl": "https://cesia.org/en/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 12,
+  "headcountNote": "12 staff listed under 'Team' on the About page; 2 people listed separately under 'Fellows' (Jonathan Salter, Niharika Chaubey) excluded. The site moved from securite-ia.fr to cesia.org (old domain redirects).",
+  "people": [
+    {
+      "name": "Charbel-Raphaël Ségerie",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Florent Berthet",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Pauline Charazac",
+      "title": "Head of Policy Engagement",
+      "leadership": false
+    },
+    {
+      "name": "Arthur Grimonpont",
+      "title": "Head of Advocacy",
+      "leadership": false
+    },
+    {
+      "name": "Markov Grey",
+      "title": "Head of Technical Governance",
+      "leadership": false
+    },
+    {
+      "name": "Simon Fauvel",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Byrley",
+      "title": "Senior EU Engagement Officer",
+      "leadership": false
+    },
+    {
+      "name": "Lauri Aarnio",
+      "title": "Senior Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Anne Richard",
+      "title": "Operations & Executive Associate",
+      "leadership": false
+    },
+    {
+      "name": "Callum Coleman",
+      "title": "Senior Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jan Króliński",
+      "title": "Senior Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Isabella Morgott",
+      "title": "Advocacy Manager",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "centre-for-long-term-resilience",
+  "website": "https://www.longtermresilience.org/",
+  "sourceUrl": "https://www.longtermresilience.org/the-team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 20,
+  "headcountNote": "20 people listed under 'Team' on The Team page; a 'Contractor Team' heading on the page is empty; Board of Directors (5, two of whom are also staff) and Advisory Council (5) excluded. Leadership = the Chief Executive and the Director; the four 'Director of X' department heads are not grouped as leadership by the site.",
+  "people": [
+    {
+      "name": "Angus Mercer",
+      "title": "Founder & Chief Executive",
+      "leadership": true
+    },
+    {
+      "name": "Beth Nichols",
+      "title": "Delivery Manager",
+      "leadership": false
+    },
+    {
+      "name": "Carl Mayers",
+      "title": "Senior Adviser, Biosecurity Policy",
+      "leadership": false
+    },
+    {
+      "name": "Cassidy Nelson",
+      "title": "Director of Biosecurity Policy",
+      "leadership": false
+    },
+    {
+      "name": "Eleanor Hevey",
+      "title": "Director of Advocacy and Communications",
+      "leadership": false
+    },
+    {
+      "name": "Emma Lawsen",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Frankie Di-Nozzi",
+      "title": "Policy and Operations Strategist",
+      "leadership": false
+    },
+    {
+      "name": "Gabriella Overödder",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Hamish Hobbs",
+      "title": "Director of AI Policy",
+      "leadership": false
+    },
+    {
+      "name": "James Ginns",
+      "title": "Senior Adviser, Risk Management Policy",
+      "leadership": false
+    },
+    {
+      "name": "Joe Collenette",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Jess Whittlestone",
+      "title": "Senior Advisor, AI Policy",
+      "leadership": false
+    },
+    {
+      "name": "Patrick Levermore",
+      "title": "Senior Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Scott Allen",
+      "title": "Associate Director of Biosecurity Policy",
+      "leadership": false
+    },
+    {
+      "name": "Paul-Enguerrand Fady",
+      "title": "Senior Biosecurity Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Rebecca Allenby",
+      "title": "Strategic Partnerships and Philanthropy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Richard Moulange",
+      "title": "Senior Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Tommy Shaffer Shane",
+      "title": "Senior Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Michael Mahar",
+      "title": "Senior Biosecurity Policy Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sonal Shah",
+      "title": "People Operations Manager",
+      "leadership": false
+    }
+  ]
+}

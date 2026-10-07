@@ -1,0 +1,45 @@
+{
+  "slug": "alignment-research-center",
+  "website": "https://www.alignment.org/",
+  "sourceUrl": "https://www.alignment.org/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 7,
+  "headcountNote": "Team page (dated April 30th 2024) lists 6 people under 'Full-time researchers' and 1 under 'Operations' with no individual titles, so titles here are the section headings; the governance paragraph names Paul Christiano as executive director. Board members (Paul Christiano, Buck Shlegeris, Ben Hoskin) and officer Kyle Scott (Treasurer, not listed as staff) excluded.",
+  "people": [
+    {
+      "name": "Paul Christiano",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Jacob Hilton",
+      "title": "Full-time researcher",
+      "leadership": false
+    },
+    {
+      "name": "Victor Lecomte",
+      "title": "Full-time researcher",
+      "leadership": false
+    },
+    {
+      "name": "Wilson Wu",
+      "title": "Full-time researcher",
+      "leadership": false
+    },
+    {
+      "name": "Mike Winer",
+      "title": "Full-time researcher",
+      "leadership": false
+    },
+    {
+      "name": "James Brownlie",
+      "title": "Full-time researcher",
+      "leadership": false
+    },
+    {
+      "name": "Harshita Khera",
+      "title": "Operations",
+      "leadership": false
+    }
+  ]
+}

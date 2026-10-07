@@ -1,0 +1,15 @@
+{
+  "slug": "emergent-ventures",
+  "website": "https://www.mercatus.org/emergent-ventures",
+  "sourceUrl": "https://www.mercatus.org/emergent-ventures",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "Emergent Ventures is a grant program of the Mercatus Center, not a standalone org; its page names only Tyler Cowen ('Mercatus Center faculty director Tyler Cowen administers the program') with no staff list or count. mercatus.org returns 403 to plain fetches, so the page was read from the Wayback Machine snapshot of 2025-12-28.",
+  "people": [
+    {
+      "name": "Tyler Cowen",
+      "title": "Mercatus Center faculty director",
+      "leadership": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "intelligence-rising",
+  "website": "https://www.intelligencerising.org/",
+  "sourceUrl": "https://www.intelligencerising.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 10,
+  "headcountNote": "10 people listed under 'Staff and consultants' on the About page (Hilla Tal is listed without a title). Excluded: 11 'Intelligence Rising Facilitators' (external contributors with their own day jobs), 3 trustees of Technology Strategy Roleplay (the charity the project sits under), and the 'Origin Story' list of past contributors.",
+  "people": [
+    {
+      "name": "Inbar Bobrovsky",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Sanjana Kashyap",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Aaron Halpern",
+      "title": "Game Design and Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Anine Andresen",
+      "title": "Events and Partnerships Lead",
+      "leadership": false
+    },
+    {
+      "name": "Hilla Tal",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Auriane Técourt",
+      "title": "Game Design and Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Eran Aviram",
+      "title": "Senior Game Design Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ravenn Triplett",
+      "title": "Senior Events Associate",
+      "leadership": false
+    },
+    {
+      "name": "Dayna Cabrera",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Gabriel Gonzalez",
+      "title": "Operations Associate",
+      "leadership": false
+    }
+  ]
+}

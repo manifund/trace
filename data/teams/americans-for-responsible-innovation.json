@@ -1,0 +1,190 @@
+{
+  "slug": "americans-for-responsible-innovation",
+  "website": "https://ari.us/",
+  "sourceUrl": "https://ari.us/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 36,
+  "headcountNote": "36 staff on the Team page (2 under 'Leadership' plus 34 under 'Our Team'); George Dougherty (Non-Resident Fellow) and the 6-member Board of Advisors excluded.",
+  "people": [
+    {
+      "name": "Brad Carson",
+      "title": "Co-Founder & President",
+      "leadership": true
+    },
+    {
+      "name": "Eric Gastfriend",
+      "title": "Co-Founder & Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Justin Bullock",
+      "title": "VP of Policy",
+      "leadership": false
+    },
+    {
+      "name": "Doug Calidas",
+      "title": "Senior Vice President of Government Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Q Chaghtai",
+      "title": "Digital Director",
+      "leadership": false
+    },
+    {
+      "name": "Farhan Chughtai",
+      "title": "Coalitions Director",
+      "leadership": false
+    },
+    {
+      "name": "Caroline Dauchess",
+      "title": "Scheduler",
+      "leadership": false
+    },
+    {
+      "name": "Michael Dila",
+      "title": "Director, Policy Futures Lab",
+      "leadership": false
+    },
+    {
+      "name": "Aaron Dorshow",
+      "title": "Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "McKenna Fitzgerald",
+      "title": "External Relations",
+      "leadership": false
+    },
+    {
+      "name": "Iskandar Haykel",
+      "title": "Senior Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Hovde",
+      "title": "Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Stephanie Justice",
+      "title": "Policy Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Garrett Katz",
+      "title": "Associate Director of People Operations",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Kessel",
+      "title": "Manager of Government Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Mitch Kominsky",
+      "title": "VP of Government Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Michael Lee",
+      "title": "Research Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Megi Llubani",
+      "title": "Policy Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Chris MacKenzie",
+      "title": "Vice President of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Kaden Madson",
+      "title": "Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jessica Maksimov",
+      "title": "Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Blair Mallin",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Allie Maloney",
+      "title": "Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Justin Mullis",
+      "title": "PAC Assistant",
+      "leadership": false
+    },
+    {
+      "name": "Brandie Nonnecke",
+      "title": "Senior Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Annie O’Donnell",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Annika Olson",
+      "title": "Director of Government Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Adam Pastrich",
+      "title": "Vice President of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Morgan C. Plummer",
+      "title": "VP of Policy Design & Delivery",
+      "leadership": false
+    },
+    {
+      "name": "David Robusto",
+      "title": "Associate Director of Policy Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Giovanni Rocco",
+      "title": "Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Noah Rudolph",
+      "title": "Policy Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Evan Sarnor",
+      "title": "Legislative Analyst",
+      "leadership": false
+    },
+    {
+      "name": "John Soroushian",
+      "title": "Senior Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Jacqueline Viteznik",
+      "title": "Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jared Wilhelm",
+      "title": "Associate Policy Director",
+      "leadership": false
+    }
+  ]
+}

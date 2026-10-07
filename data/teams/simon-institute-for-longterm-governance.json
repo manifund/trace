@@ -1,0 +1,60 @@
+{
+  "slug": "simon-institute-for-longterm-governance",
+  "website": "https://simoninstitute.ch/",
+  "sourceUrl": "https://simoninstitute.ch/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 10,
+  "headcountNote": "10 people listed under 'Our Team' on the About page; the page says 'We are also grateful for the support of several advisers and fellows' without naming them, and they are excluded. Leadership = CEO and Chief Strategy Officer (the two co-founders).",
+  "people": [
+    {
+      "name": "Max Stauffer",
+      "title": "Chief Executive Officer",
+      "leadership": true
+    },
+    {
+      "name": "Konrad Gerosa",
+      "title": "Chief Strategy Officer",
+      "leadership": true
+    },
+    {
+      "name": "Amina Mir",
+      "title": "Executive Assistant & Event Support",
+      "leadership": false
+    },
+    {
+      "name": "Gaëtan Bidaud",
+      "title": "Head of Finance & Operations",
+      "leadership": false
+    },
+    {
+      "name": "Jan Pieter Snoeij",
+      "title": "Senior Tech Diplomacy Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Julia Chen",
+      "title": "Senior AI Policy Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Henry Davidson",
+      "title": "AI Policy Associate",
+      "leadership": false
+    },
+    {
+      "name": "Helia Samani",
+      "title": "AIxBio Policy Advisor",
+      "leadership": false
+    },
+    {
+      "name": "António Varela Cid",
+      "title": "Operations and Systems Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Kathryn Gichini",
+      "title": "Communications Specialist",
+      "leadership": false
+    }
+  ]
+}

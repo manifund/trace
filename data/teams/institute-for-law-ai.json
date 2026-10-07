@@ -1,0 +1,185 @@
+{
+  "slug": "institute-for-law-ai",
+  "website": "https://law-ai.org/",
+  "sourceUrl": "https://law-ai.org/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 35,
+  "headcountNote": "law-ai.org returns 403 to plain fetches, so read from the Wayback Machine snapshot of 2026-10-04. 39 people listed under 'Core team'; 4 excluded as visiting or non-resident (Peter N. Salib, Janel Thamkul and Chinmayi Sharma, Visiting Senior Fellows; Gabriel Weil, Non-Resident Senior Fellow), leaving 35. Resident Senior Research Fellow and Research Fellow are kept as staff titles here. 12 research affiliates excluded.",
+  "people": [
+    {
+      "name": "Christoph Winter",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Cullen O’Keefe",
+      "title": "Managing Director of Research",
+      "leadership": true
+    },
+    {
+      "name": "Emily Gillett",
+      "title": "Director of EU Law",
+      "leadership": true
+    },
+    {
+      "name": "Matthijs M. Maas",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Janna Tay",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Bahrad Sokhansanj",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Benjamin Brady",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Spencer Amdur",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Dev Basumallik",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Ben Gantt",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Leeke",
+      "title": "Editor",
+      "leadership": false
+    },
+    {
+      "name": "Kristina Fort",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Annemieke Brouwer",
+      "title": "Programs Manager",
+      "leadership": false
+    },
+    {
+      "name": "Simon Jarvis",
+      "title": "Head of Business Operations",
+      "leadership": false
+    },
+    {
+      "name": "Lucas DeBartolo",
+      "title": "Senior Finance Manager",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Barnfather",
+      "title": "Office Manager, Cambridge",
+      "leadership": false
+    },
+    {
+      "name": "Aesha Haider",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Chloe Clayton-Green",
+      "title": "Executive Associate",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Krauss",
+      "title": "Chief of Staff",
+      "leadership": false
+    },
+    {
+      "name": "Mackenzie Arnold",
+      "title": "Managing Director of US Law & Policy",
+      "leadership": true
+    },
+    {
+      "name": "Koji Flynn-Do",
+      "title": "Chief of Staff, US Policy",
+      "leadership": false
+    },
+    {
+      "name": "Charlie Bullock",
+      "title": "Senior Policy Director",
+      "leadership": false
+    },
+    {
+      "name": "Zlatko Grigorov",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Mark Reddish",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Thomas Lilamand",
+      "title": "Senior Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Hannes Bastians",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Stephan Llerena",
+      "title": "Research Scholar",
+      "leadership": false
+    },
+    {
+      "name": "Cody Fenwick",
+      "title": "Senior Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sophia Rubio",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Max Räuker",
+      "title": "Programs Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jackson Gardner",
+      "title": "Senior Operations Manager (US)",
+      "leadership": false
+    },
+    {
+      "name": "Margisel Adams",
+      "title": "Senior Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Tegeler",
+      "title": "Senior Talent Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nastassia Shaveika",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Anna Kerby",
+      "title": "Senior Executive Associate",
+      "leadership": false
+    }
+  ]
+}

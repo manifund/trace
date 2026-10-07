@@ -1,0 +1,55 @@
+{
+  "slug": "apart-research",
+  "website": "https://apartresearch.com/",
+  "sourceUrl": "https://apartresearch.com/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 9,
+  "headcountNote": "9 people listed under 'Our team' on the About page; 4 board members and 2 advisors under 'Board and advisors' excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Jaime Raldúa Veuthey",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Jerome Wynne",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Lorenzo Pacchiardi",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Adrian Arnaiz-Rodriguez",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Akash Kundu",
+      "title": "Evaluations Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Jaco Du Toit",
+      "title": "Evaluations Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Kamil Alaa",
+      "title": "Sprints Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Eitán Sprejer",
+      "title": "Fellowship Lead",
+      "leadership": false
+    },
+    {
+      "name": "Moïri Gamboni",
+      "title": "AI Infrastructure Engineer",
+      "leadership": false
+    }
+  ]
+}

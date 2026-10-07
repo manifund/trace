@@ -1,0 +1,20 @@
+{
+  "slug": "ai-safety-camp",
+  "website": "https://www.aisafety.camp/",
+  "sourceUrl": "https://www.aisafety.camp/organizers",
+  "checkedAt": "2026-10-07",
+  "headcount": 2,
+  "headcountNote": "2 current organizers listed at the top of the Organizers page (the page gives no titles for them; 'Organizer' is taken from the page heading and the About & FAQ page's 'Each of us organisers (Remmelt, Robert)'). Everyone under 'Past Organizers' (Linda Linsefors, Kristi Uustalu and others from earlier editions) excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Remmelt Ellen",
+      "title": "Organizer",
+      "leadership": true
+    },
+    {
+      "name": "Robert Kralisch",
+      "title": "Organizer",
+      "leadership": true
+    }
+  ]
+}

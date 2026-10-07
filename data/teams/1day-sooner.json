@@ -1,0 +1,85 @@
+{
+  "slug": "1day-sooner",
+  "website": "https://www.1daysooner.org/",
+  "sourceUrl": "https://www.1daysooner.org/about/our-team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 15,
+  "headcountNote": "15 people listed under 'Staff' on the 1Day Sooner Team page; excluded: 4 under 'Researchers and Advisors' (Gavriel Kleinwaks, David Manheim, Witold Więcek, Abie Rohrig), Board of Directors (7, two of whom are also staff) and Board of Advisors (12).",
+  "people": [
+    {
+      "name": "Josh Morrison",
+      "title": "President",
+      "leadership": true
+    },
+    {
+      "name": "Julia Murdza",
+      "title": "Chief Operations Officer",
+      "leadership": true
+    },
+    {
+      "name": "Marianna Azar",
+      "title": "Policy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Raquel Castro",
+      "title": "Volunteer Coordinator",
+      "leadership": false
+    },
+    {
+      "name": "Danni Cerezo",
+      "title": "Events Manager",
+      "leadership": false
+    },
+    {
+      "name": "Alastair Fraser-Urquhart",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Zacharia Kafuko",
+      "title": "1Day Africa Director",
+      "leadership": false
+    },
+    {
+      "name": "Philip Kenol",
+      "title": "Partnership Lead",
+      "leadership": false
+    },
+    {
+      "name": "Taylor Livelli",
+      "title": "Director, US Advocacy",
+      "leadership": false
+    },
+    {
+      "name": "Circe McDonald",
+      "title": "Director, Clinical Trials",
+      "leadership": false
+    },
+    {
+      "name": "Maggie Mercer",
+      "title": "People Operations Lead",
+      "leadership": false
+    },
+    {
+      "name": "Tess Lanzarotta",
+      "title": "Communications Lead",
+      "leadership": false
+    },
+    {
+      "name": "Joshua Payne",
+      "title": "Research Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jonas Rose",
+      "title": "Graphic Designer",
+      "leadership": false
+    },
+    {
+      "name": "Paul Zimmer-Harwood",
+      "title": "Research Lead, Clinical Trials",
+      "leadership": false
+    }
+  ]
+}

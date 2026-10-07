@@ -1,0 +1,120 @@
+{
+  "slug": "forecasting-research-institute",
+  "website": "https://forecastingresearch.org/",
+  "sourceUrl": "https://forecastingresearch.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 22,
+  "headcountNote": "22 people listed under 'The FRI Team' on the About page. Excluded: 7 'Academic Affiliates & External Advisors', the Board of Directors (5, of whom Tetlock and Rosenberg are already counted as staff) and 30 'Other Collaborators' (research assistants, student RAs and consultants, which the site lists separately from the team). Leadership = President/Chief Scientist, CEO and Director of Research.",
+  "people": [
+    {
+      "name": "Philip Tetlock",
+      "title": "President, Chief Scientist",
+      "leadership": true
+    },
+    {
+      "name": "Josh Rosenberg",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Ezra Karger",
+      "title": "Director of Research",
+      "leadership": true
+    },
+    {
+      "name": "Matt Reynolds",
+      "title": "Director of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Astrid Sorflaten",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Bridget Williams",
+      "title": "Associate Director of Research & Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Jessie Barker",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Houtan Bastani",
+      "title": "Senior Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Rhiannon Britt",
+      "title": "Senior Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Jordan Canedy",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Dan Catley",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Rebecca Ceppas de Castro",
+      "title": "Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Josh Connor",
+      "title": "Strategy Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Zack Devlin-Foltz",
+      "title": "Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nadja Flechner",
+      "title": "Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Zach Jacobs",
+      "title": "Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Carys John",
+      "title": "Senior Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Simas Kucinskas",
+      "title": "Senior Research Manager",
+      "leadership": false
+    },
+    {
+      "name": "Otto Kuusela",
+      "title": "Senior Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Sophie Ma Zhu",
+      "title": "Data Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Marissa Sanna",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Victoria Schmidt",
+      "title": "Research Operations Analyst",
+      "leadership": false
+    }
+  ]
+}

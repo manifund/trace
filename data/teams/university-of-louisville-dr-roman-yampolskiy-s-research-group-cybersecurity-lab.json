@@ -1,0 +1,15 @@
+{
+  "slug": "university-of-louisville-dr-roman-yampolskiy-s-research-group-cybersecurity-lab",
+  "website": "https://faculty.cse.louisville.edu/roman/",
+  "sourceUrl": "https://faculty.cse.louisville.edu/roman/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The lab's own page (cecs.louisville.edu/security/) no longer resolves; Dr. Yampolskiy's faculty page on the university site names only himself as Director of the Cybersecurity Laboratory and lists no students or staff, so the group's size is unknowable from the site.",
+  "people": [
+    {
+      "name": "Roman V. Yampolskiy",
+      "title": "Director - Cybersecurity Laboratory",
+      "leadership": true
+    }
+  ]
+}

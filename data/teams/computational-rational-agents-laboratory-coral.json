@@ -1,0 +1,20 @@
+{
+  "slug": "computational-rational-agents-laboratory-coral",
+  "website": "https://coral-research.org/",
+  "sourceUrl": "https://coral-research.org/our-team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 2,
+  "headcountNote": "2 people listed on the Our Team page, with bios but no job titles (titles null). Vanessa Kosoy is marked as leadership because her bio says she created CORAL. CORAL is a fiscally sponsored project of Ashgro.",
+  "people": [
+    {
+      "name": "Vanessa Kosoy",
+      "title": null,
+      "leadership": true
+    },
+    {
+      "name": "Alex Appel",
+      "title": null,
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "principles-of-intelligence",
+  "website": "https://princint.ai/",
+  "sourceUrl": "https://princint.ai/about/team-advisors/",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "2 people under 'Organizing Team' and 5 under 'Research Team' on the Team & Advisors page; 3 of the research team (Andrew Mack, Ari Brill, Jennifer Lin) are tagged '[Affiliate Jun 2025-Present]' in their bios and are excluded as affiliates, leaving 5. 4 board members excluded. Formerly PIBBSS; no stated staff count. The two Executive Director titles are capitalised that way in the page source.",
+  "people": [
+    {
+      "name": "Lucas Teixeira",
+      "title": "Executive Director, RESEARCH",
+      "leadership": true
+    },
+    {
+      "name": "Dušan D. Nešić",
+      "title": "Executive Director, OPERATIONS",
+      "leadership": true
+    },
+    {
+      "name": "Lauren Greenspan",
+      "title": "Technical Director",
+      "leadership": false
+    },
+    {
+      "name": "Dmitry Vaintrob",
+      "title": "Technical Director",
+      "leadership": false
+    },
+    {
+      "name": "Nischal Mainali",
+      "title": "Researcher",
+      "leadership": false
+    }
+  ]
+}

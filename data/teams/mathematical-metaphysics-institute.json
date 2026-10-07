@@ -1,0 +1,30 @@
+{
+  "slug": "mathematical-metaphysics-institute",
+  "website": "https://www.mathematicalmetaphysics.org/",
+  "sourceUrl": "https://www.mathematicalmetaphysics.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 4,
+  "headcountNote": "The Team page gives names under section headings with no individual titles; the headings are used as titles here. 4 people under 'Leadership', 'Research' and 'Media'; 3 advisors, 2 research affiliates and 5 board members (Alex Zhu also sits on the board) excluded. No stated staff count.",
+  "people": [
+    {
+      "name": "Alex Zhu",
+      "title": "Leadership",
+      "leadership": true
+    },
+    {
+      "name": "Mark Miller",
+      "title": "Research",
+      "leadership": false
+    },
+    {
+      "name": "Alexander Siegenfeld",
+      "title": "Research",
+      "leadership": false
+    },
+    {
+      "name": "Lucas Perry",
+      "title": "Media",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "arcadia-impact",
+  "website": "https://www.arcadiaimpact.org/",
+  "sourceUrl": "https://www.arcadiaimpact.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 19,
+  "headcountNote": "19 people listed under 'Our Team' on the About page (Leadership 1, Programmes 6 incl. one Field-Building Intern shown as a team member, Research 9, Operations 3); 4 Trustees excluded. The site groups only the Director as Leadership.",
+  "people": [
+    {
+      "name": "Joe Hardie",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Alicia Pollard",
+      "title": "Project Director, Impact First",
+      "leadership": false
+    },
+    {
+      "name": "Ben R Smith",
+      "title": "Programme Lead, AI Governance Taskforce",
+      "leadership": false
+    },
+    {
+      "name": "Brandon Riggs",
+      "title": "Programme Manager, LASR Labs",
+      "leadership": false
+    },
+    {
+      "name": "Emma Mouliere",
+      "title": "Field-Building Intern",
+      "leadership": false
+    },
+    {
+      "name": "Lauren Brickell",
+      "title": "Community and Operations Associate, Impact First",
+      "leadership": false
+    },
+    {
+      "name": "Tamkeen Nawab",
+      "title": "Programme Coordinator, LASR Labs",
+      "leadership": false
+    },
+    {
+      "name": "Alejandro Aristizábal",
+      "title": "Researcher, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Draganov",
+      "title": "Research Lead, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Angel Martinez",
+      "title": "Researcher, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Tan",
+      "title": "Research Lead, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Dewi Gould",
+      "title": "Research Lead, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Bostock",
+      "title": "Researcher, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Moritz Pfau",
+      "title": "Programme Manager, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Sam Martin",
+      "title": "Researcher, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Sid Baines",
+      "title": "Researcher, Alignment",
+      "leadership": false
+    },
+    {
+      "name": "Alex Beat",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Esme Herman",
+      "title": "Business Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Georgie Collings",
+      "title": "People Operations Manager",
+      "leadership": false
+    }
+  ]
+}

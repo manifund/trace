@@ -1,0 +1,70 @@
+{
+  "slug": "foresight-institute",
+  "website": "https://foresight.org/",
+  "sourceUrl": "https://foresight.org/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 12,
+  "headcountNote": "12 staff under 'Team' on the About page (the fractional CFO counts as a team member); Amber Duettmann (listed as 'Advisor') and the 6 people under 'Oversight' (3 directors, a senior fellow, treasurer, secretary) excluded.",
+  "people": [
+    {
+      "name": "Allison Duettmann",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Karolina Eklöw",
+      "title": "COO",
+      "leadership": true
+    },
+    {
+      "name": "Boston Nyer",
+      "title": "CFO (Fractional)",
+      "leadership": true
+    },
+    {
+      "name": "Beatrice Erkers",
+      "title": "Program Director, Existential Hope",
+      "leadership": false
+    },
+    {
+      "name": "Lydia La Roux",
+      "title": "Program Manager, Events & Fellowship",
+      "leadership": false
+    },
+    {
+      "name": "Lisa Stenvinkel",
+      "title": "Interim Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Madeleine Parker",
+      "title": "Program Director, Strategy and Development",
+      "leadership": false
+    },
+    {
+      "name": "Bradley Royes",
+      "title": "AI Node Manager, Berlin",
+      "leadership": false
+    },
+    {
+      "name": "Martina Pepiciello",
+      "title": "Communications Specialist, Existential Hope",
+      "leadership": false
+    },
+    {
+      "name": "Tara Padovan-Hickman",
+      "title": "Executive Assistant to CEO",
+      "leadership": false
+    },
+    {
+      "name": "Rachel Farley",
+      "title": "AI Node Manager, San Francisco",
+      "leadership": false
+    },
+    {
+      "name": "Sherry Hull",
+      "title": "Administrative Manager",
+      "leadership": false
+    }
+  ]
+}

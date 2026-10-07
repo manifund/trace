@@ -1,0 +1,35 @@
+{
+  "slug": "ai-risk-mitigation-fund",
+  "website": "https://www.airiskfund.com/",
+  "sourceUrl": "https://www.airiskfund.com/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "5 people listed under 'Our team and history' on the About page, all titled Program Associate (the fund's grantmakers); no executive named, so none flagged as leadership. The fund is a project of Effective Ventures Foundation. The bios look stale (e.g. Thomas Larsen described as executive director of the Center for AI Policy), so the list may not be current. No stated staff count.",
+  "people": [
+    {
+      "name": "Lawrence Chan",
+      "title": "Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Oliver Habryka",
+      "title": "Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Lauro Langosco",
+      "title": "Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Thomas Larsen",
+      "title": "Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Caleb Parikh",
+      "title": "Program Associate",
+      "leadership": false
+    }
+  ]
+}

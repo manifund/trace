@@ -1,0 +1,50 @@
+{
+  "slug": "charter-cities-institute",
+  "website": "https://chartercitiesinstitute.org/",
+  "sourceUrl": "https://chartercitiesinstitute.org/our-story/",
+  "checkedAt": "2026-10-07",
+  "headcount": 8,
+  "headcountNote": "7 people listed under 'Institute Staff' on the Our Story page plus 1 contractor (Video Producer) from the 'Interns & Contractors' group; 2 interns, 3 fellows, 3 board members and 8 advisors excluded. Honorifics ('Dr.', 'Amb.') dropped from names. No stated staff count.",
+  "people": [
+    {
+      "name": "Mark Lutter",
+      "title": "Founder & Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "John Hoyt",
+      "title": "Head of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Michael Holstein",
+      "title": "Head of Communications & General Counsel",
+      "leadership": true
+    },
+    {
+      "name": "Omar Arouna",
+      "title": "Senior Advisor, Government Relations",
+      "leadership": false
+    },
+    {
+      "name": "Jeffrey Mason",
+      "title": "Head of Policy",
+      "leadership": true
+    },
+    {
+      "name": "Gemma Adelman",
+      "title": "Marketing & Communications Manager",
+      "leadership": false
+    },
+    {
+      "name": "Jidy Chitta",
+      "title": "Special Projects Associate",
+      "leadership": false
+    },
+    {
+      "name": "Daniel Jesusegun",
+      "title": "Video Producer",
+      "leadership": false
+    }
+  ]
+}

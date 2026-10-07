@@ -1,0 +1,50 @@
+{
+  "slug": "international-association-for-safe-and-ethical-ai-iaseai",
+  "website": "https://www.iaseai.org/",
+  "sourceUrl": "https://www.iaseai.org/leadership",
+  "checkedAt": "2026-10-07",
+  "headcount": 8,
+  "headcountNote": "8 people in the 'Staff and Volunteers' section of the Leadership page (the site is a JS single-page app; names and titles were read from the leadership-page data embedded in its own JS bundle). The section does not separate volunteers from staff. Excluded: Ron Bodkin (Senior Advisor) and Cynthia Yeung (Advisor) from that section, the Board of Directors (5, including President Stuart Russell), the Council (25) and the Advisory Board (11).",
+  "people": [
+    {
+      "name": "Mark Nitzberg",
+      "title": "Interim Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Loy Sheflott",
+      "title": "General Manager",
+      "leadership": true
+    },
+    {
+      "name": "Julia Irwin",
+      "title": "Associate Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Molly Shilman",
+      "title": "Head of Content and Special Projects",
+      "leadership": false
+    },
+    {
+      "name": "Markela Zeneli",
+      "title": "Technical Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Cherry Bogue",
+      "title": "Events and Engagement Manager",
+      "leadership": false
+    },
+    {
+      "name": "Olivia Valante",
+      "title": "Associate Project Manager",
+      "leadership": false
+    },
+    {
+      "name": "Isabelle Qian",
+      "title": "Associate Project Manager",
+      "leadership": false
+    }
+  ]
+}

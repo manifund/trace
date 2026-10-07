@@ -1,0 +1,110 @@
+{
+  "slug": "saferai",
+  "website": "https://www.safer-ai.org/",
+  "sourceUrl": "https://www.safer-ai.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 20,
+  "headcountNote": "21 people listed under 'Employees' on the About page; one of them, Cornelia Kutterer (Senior Policy Fellow, described as advising the team one day a week and elsewhere as 'our senior advisor'), excluded as a fellow/advisor, leaving 20. 4 people under 'Advisors' (including founder and board chair Siméon Campos) excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Henry Papadatos",
+      "title": "Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Martin Rusch",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "James Gealy",
+      "title": "Standardization Lead",
+      "leadership": false
+    },
+    {
+      "name": "Chloé Touzet",
+      "title": "Policy Lead",
+      "leadership": false
+    },
+    {
+      "name": "Malcolm Murray",
+      "title": "Research Lead",
+      "leadership": false
+    },
+    {
+      "name": "Elizabeth Burgnon",
+      "title": "Research Program Manager",
+      "leadership": false
+    },
+    {
+      "name": "Renn Karageorgieva",
+      "title": "Communications and Operations Specialist",
+      "leadership": false
+    },
+    {
+      "name": "Nada Hegazy",
+      "title": "Executive and Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Bruno Galizzi",
+      "title": "Senior Policy Associate",
+      "leadership": false
+    },
+    {
+      "name": "Alice Teilhard",
+      "title": "Policy Associate",
+      "leadership": false
+    },
+    {
+      "name": "Said Saillant",
+      "title": "Standards Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jakub Kryś",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Jane Valentine",
+      "title": "Senior Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Jack Kengott",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Benedict Bruckamp",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "May Dixit",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Jacob Davies",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Max Schaffelder",
+      "title": "Research Scientist",
+      "leadership": false
+    },
+    {
+      "name": "Lydia Preston",
+      "title": "Governance Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Jason Lee",
+      "title": "Governance Researcher",
+      "leadership": false
+    }
+  ]
+}

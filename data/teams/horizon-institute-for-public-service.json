@@ -1,0 +1,135 @@
+{
+  "slug": "horizon-institute-for-public-service",
+  "website": "https://horizonpublicservice.org/",
+  "sourceUrl": "https://horizonpublicservice.org/about-us/#team",
+  "checkedAt": "2026-10-07",
+  "headcount": 25,
+  "headcountNote": "29 people listed under 'Team' on the About Us page; 4 titled 'Senior Advisor' excluded as advisors, giving 25 (including 2 Consultants and 1 Career Coach shown as team members); 5-person advisory board excluded. No stated staff count.",
+  "people": [
+    {
+      "name": "Joan Gass",
+      "title": "Co-Founder and Co-Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Remco Zwetsloot",
+      "title": "Co-Founder and Co-Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Zachary Arnold",
+      "title": "Vice President and General Counsel",
+      "leadership": true
+    },
+    {
+      "name": "Ryan Remmel",
+      "title": "Senior Director",
+      "leadership": false
+    },
+    {
+      "name": "Oliver Stephenson",
+      "title": "Senior Director",
+      "leadership": false
+    },
+    {
+      "name": "Mikaela Saccoccio",
+      "title": "Director of Programs and Events",
+      "leadership": false
+    },
+    {
+      "name": "Katarina Watney",
+      "title": "Director of Fellowships",
+      "leadership": false
+    },
+    {
+      "name": "Anna Ringvold",
+      "title": "Director of Operations",
+      "leadership": false
+    },
+    {
+      "name": "Evan McVail",
+      "title": "Director of Partnerships",
+      "leadership": false
+    },
+    {
+      "name": "Emma Richter",
+      "title": "Director of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Kevin Li",
+      "title": "Director",
+      "leadership": false
+    },
+    {
+      "name": "Trinity Dial",
+      "title": "Director of Content Strategy",
+      "leadership": false
+    },
+    {
+      "name": "Sarah Winthrope",
+      "title": "Director",
+      "leadership": false
+    },
+    {
+      "name": "Zachary Thomas",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jarom Gordon",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jake Morris",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Brooke O’Connell",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Ivan Burduk",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Matt Hodak",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Jose Altamirano",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Emma Vidal",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Andrew Lawrence",
+      "title": "Senior Program Associate",
+      "leadership": false
+    },
+    {
+      "name": "Faith Savaiano",
+      "title": "Consultant",
+      "leadership": false
+    },
+    {
+      "name": "Hillel Ehrenreich",
+      "title": "Consultant",
+      "leadership": false
+    },
+    {
+      "name": "Krystin Borgognone",
+      "title": "Career Coach",
+      "leadership": false
+    }
+  ]
+}

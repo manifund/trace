@@ -3,9 +3,9 @@
   "websites": {
     "1day-sooner": {
       "name": "1Day Sooner",
-      "url": "http://1daysooner.org/",
-      "via": "manifund",
-      "note": "profile behind \"Advocate for a specialized pandemic response team at the FDA\""
+      "url": "https://www.1daysooner.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate http://1daysooner.org/; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "80-000-hours": {
       "name": "80,000 Hours",
@@ -71,6 +71,24 @@
       "url": "https://aiimpacts.org/",
       "via": "vipul"
     },
+    "ai-lab-watch": {
+      "name": "AI Lab Watch",
+      "url": "https://ailabwatch.org/",
+      "via": "manual",
+      "note": "defunct org; site kept for the record"
+    },
+    "ai-policy-institute": {
+      "name": "AI Policy Institute",
+      "url": "https://theaipi.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "ai-risk-mitigation-fund": {
+      "name": "AI Risk Mitigation Fund",
+      "url": "https://www.airiskfund.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "ai-safety-and-governance-fund": {
       "name": "AI Safety and Governance Fund",
       "url": "https://aisgf.us",
@@ -82,6 +100,30 @@
       "url": "https://ai-plans.com/",
       "via": "manifund",
       "note": "profile behind \"AI-Plans.com Critique-a-Thon $500 Prize Fund Proposal\""
+    },
+    "ai-safety-camp": {
+      "name": "AI Safety Camp",
+      "url": "https://www.aisafety.camp/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "ai-safety-info": {
+      "name": "AI Safety Info",
+      "url": "https://aisafety.info/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "ai-safety-south-africa": {
+      "name": "AI Safety Cape Town",
+      "url": "https://cisai.co/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "ai-standards-lab": {
+      "name": "AI Standards Lab",
+      "url": "https://aistandardslab.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "aisa": {
       "name": "AISA",
@@ -112,11 +154,17 @@
       "via": "wikidata",
       "note": "Q1200258: American philanthropic nonprofit organization"
     },
+    "alignment-of-complex-systems-research-group": {
+      "name": "Alignment of Complex Systems Research Group",
+      "url": "https://acsresearch.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "alignment-research-center": {
       "name": "Alignment Research Center",
-      "url": "http://alignment.org/",
-      "via": "wikidata",
-      "note": "Q117834778: AI safety research organization"
+      "url": "https://www.alignment.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate http://alignment.org/; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "alliance-for-international-medical-action": {
       "name": "Alliance for International Medical Action",
@@ -129,6 +177,12 @@
       "url": "https://allfed.info/",
       "via": "wikidata",
       "note": "Q123857449: non-profit organisation"
+    },
+    "alter-israel": {
+      "name": "ALTER Israel",
+      "url": "https://alter.org.il/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "american-cancer-society": {
       "name": "American Cancer Society",
@@ -225,6 +279,12 @@
       "via": "manifund",
       "note": "profile behind \"Aquatic Animal Alliance: A Global Movement for Neglected Species\""
     },
+    "arcadia-impact": {
+      "name": "Arcadia Impact",
+      "url": "https://www.arcadiaimpact.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "arkose": {
       "name": "Arkose",
       "url": "https://arkose.org/",
@@ -249,11 +309,29 @@
       "via": "manifund",
       "note": "profile behind \"Asterisk AI Blogging Fellowship\""
     },
+    "atlas-computing": {
+      "name": "Atlas Computing",
+      "url": "https://atlascomputing.org/",
+      "via": "manual",
+      "note": "defunct org; site kept for the record"
+    },
+    "atlas-fellowship": {
+      "name": "Atlas Fellowship",
+      "url": "https://www.atlasfellowship.org/",
+      "via": "manual",
+      "note": "defunct org; site kept for the record"
+    },
     "ayuda-efectiva": {
       "name": "Ayuda Efectiva",
       "url": "https://ayudaefectiva.org",
       "via": "wikidata",
       "note": "Q105979632: Spanish nonprofit organization"
+    },
+    "balsa-policy-institute": {
+      "name": "Balsa Policy Institute Inc.",
+      "url": "https://www.balsaresearch.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "berkeley-genomics-project": {
       "name": "Berkeley Genomics Project",
@@ -272,6 +350,12 @@
       "via": "wikidata",
       "note": "Q4897536: teaching hospital of Harvard Medical School"
     },
+    "bipartisan-commission-on-biodefense": {
+      "name": "Bipartisan Commission on Biodefense",
+      "url": "https://biodefensecommission.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "blue-marble-space": {
       "name": "Blue Marble Space",
       "url": "http://www.bluemarblespace.org/",
@@ -283,6 +367,12 @@
       "url": "https://biodefensecommission.org/",
       "via": "manual",
       "note": "replaced vipul candidate http://www.biodefensestudy.org"
+    },
+    "blueprint-biosecurity": {
+      "name": "Blueprint Biosecurity",
+      "url": "https://www.blueprintbiosecurity.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
     },
     "brandeis-university": {
       "name": "Brandeis University",
@@ -343,11 +433,29 @@
       "via": "wikidata",
       "note": "rejected: wikidata hit is a video game"
     },
+    "campaign-for-ai-safety": {
+      "name": "Campaign for AI Safety",
+      "url": "https://campaignforaisafety.org/",
+      "via": "manual",
+      "note": "defunct org; site kept for the record"
+    },
+    "carboncopies-foundation-for-substrate-independent-minds": {
+      "name": "Carboncopies Foundation for Substrate Independent Minds",
+      "url": "https://carboncopies.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "carnegie-endowment-for-international-peace": {
       "name": "Carnegie Endowment for International Peace",
       "url": "https://carnegieendowment.org/",
       "via": "wikidata",
       "note": "Q1153595: Washington-based American think tank"
+    },
+    "catalyze-impact": {
+      "name": "Catalyze Impact",
+      "url": "https://catalyze-impact.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "cavendish-labs": {
       "name": "Cavendish Labs",
@@ -367,6 +475,12 @@
       "via": "wikidata",
       "note": "Q5059931: organization"
     },
+    "center-for-ai-policy": {
+      "name": "Center for AI Policy",
+      "url": "https://www.centeraipolicy.org/",
+      "via": "manual",
+      "note": "defunct org; site kept for the record"
+    },
     "center-for-ai-safety": {
       "name": "Center for AI Safety, Inc.",
       "url": "https://safe.ai/",
@@ -375,9 +489,9 @@
     },
     "center-for-applied-rationality": {
       "name": "Center for Applied Rationality",
-      "url": "http://rationality.org/",
-      "via": "wikidata",
-      "note": "Q20715499: organization"
+      "url": "https://rationality.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate http://rationality.org/; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "center-for-communicable-disease-dynamics": {
       "name": "Center for Communicable Disease Dynamics",
@@ -440,9 +554,9 @@
     },
     "centre-for-enabling-ea-learning-research": {
       "name": "Centre for Enabling EA Learning & Research",
-      "url": "https://ceealar.org",
-      "via": "manifund",
-      "note": "profile behind \"CEEALAR (EA Hotel) Needs a New Roof\""
+      "url": "https://www.ceealar.org/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://ceealar.org; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "centre-for-international-governance-innovation": {
       "name": "Centre for International Governance Innovation",
@@ -456,6 +570,12 @@
       "via": "wikidata",
       "note": "Q126286020: think tank based in the United Kingdom"
     },
+    "centre-for-the-governance-of-ai": {
+      "name": "Centre for the Governance of AI",
+      "url": "https://www.governance.ai/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
+    },
     "centre-for-the-study-of-existential-risk": {
       "name": "Centre for the Study of Existential Risk",
       "url": "http://cser.org/",
@@ -464,9 +584,9 @@
     },
     "cesia": {
       "name": "CeSIA",
-      "url": "https://www.securite-ia.fr/",
-      "via": "manifund",
-      "note": "profile behind \"Scaling AI safety awareness via content creators\""
+      "url": "https://cesia.org/en/",
+      "via": "manual",
+      "note": "replaced manifund candidate https://www.securite-ia.fr/; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "cfar": {
       "name": "CFAR",
@@ -490,6 +610,12 @@
       "name": "Charity Science",
       "url": "http://www.charityscience.com/",
       "via": "vipul"
+    },
+    "charter-cities-institute": {
+      "name": "Charter Cities Institute",
+      "url": "https://chartercitiesinstitute.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "children-s-cancer-therapy-development-institute": {
       "name": "Children's Cancer Therapy Development Institute",
@@ -574,6 +700,12 @@
       "via": "wikidata",
       "note": "Q5156134: organization"
     },
+    "computational-rational-agents-laboratory-coral": {
+      "name": "Computational Rational Agents Laboratory (CORAL)",
+      "url": "https://coral-research.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "conjecture": {
       "name": "Conjecture Ltd",
       "url": "https://www.conjecture.dev/",
@@ -592,11 +724,29 @@
       "via": "wikidata",
       "note": "Q111949889: British animal welfare organization"
     },
+    "constellation": {
+      "name": "Constellation",
+      "url": "https://www.constellation.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
+    },
     "consumer-reports": {
       "name": "Consumer Reports",
       "url": "https://www.consumerreports.org/",
       "via": "wikidata",
       "note": "Q1957782: American magazine"
+    },
+    "controlai": {
+      "name": "ControlAI",
+      "url": "https://controlai.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "convergence-analysis": {
+      "name": "Convergence Analysis",
+      "url": "https://www.convergenceanalysis.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "convergent-research": {
       "name": "Convergent Research",
@@ -615,6 +765,12 @@
       "url": "https://cornell.edu",
       "via": "wikidata",
       "note": "Q49115: private and statutory land-grant research university in Ithaca, New York, USA"
+    },
+    "council-on-strategic-risks": {
+      "name": "Council on Strategic Risks",
+      "url": "https://councilonstrategicrisks.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "coursetexts": {
       "name": "Coursetexts",
@@ -716,11 +872,29 @@
       "via": "manifund",
       "note": "profile behind \"Effective Giving in New Zealand\""
     },
+    "effective-institutions-project": {
+      "name": "Effective Institutions Project",
+      "url": "https://effectiveinstitutionsproject.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "effective-ventures-foundation": {
+      "name": "Effective Ventures Foundation",
+      "url": "https://ev.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
+    },
     "ellis-institute-tubingen": {
       "name": "ELLIS Institute Tübingen",
       "url": "https://institute-tue.ellis.eu",
       "via": "wikidata",
       "note": "Q138460611: organization in Tübingen, Germany"
+    },
+    "emergent-ventures": {
+      "name": "Emergent Ventures",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "encode": {
       "name": "Encode",
@@ -733,6 +907,12 @@
       "url": "http://www.edf.org/",
       "via": "wikidata",
       "note": "Q1345899: United States environmental advocacy organization, headquartered in New York City"
+    },
+    "epistea-z-s": {
+      "name": "Epistea, z.s",
+      "url": "https://epistea.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "epoch-ai": {
       "name": "Epoch AI",
@@ -794,6 +974,12 @@
       "via": "manual",
       "note": "org's own site, confirmed while checking its team page 2026-10-06"
     },
+    "existential-risk-observatory": {
+      "name": "Existential Risk Observatory",
+      "url": "https://www.existentialriskobservatory.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "expect-miracles-foundation": {
       "name": "Expect Miracles Foundation",
       "url": "https://expectmiraclesfoundation.org",
@@ -850,6 +1036,12 @@
       "url": "http://www.fistulafoundation.org",
       "via": "wikidata",
       "note": "Q5455359: organization"
+    },
+    "focal-at-cmu": {
+      "name": "Focal at CMU",
+      "url": "https://www.cs.cmu.edu/~focal/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "food-empowerment-project": {
       "name": "Food Empowerment Project",
@@ -918,11 +1110,23 @@
       "url": "https://www.fhi.ox.ac.uk/",
       "via": "vipul"
     },
+    "future-of-life-foundation": {
+      "name": "Future of Life Foundation",
+      "url": "https://flf.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "ge-effektivt": {
       "name": "Ge Effektivt",
       "url": "https://geeffektivt.se/",
       "via": "wikidata",
       "note": "Q137355601: Swedish non-governmental organisation"
+    },
+    "geodesic-research": {
+      "name": "Geodesic Research",
+      "url": "https://geodesicresearch.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "georgetown-university": {
       "name": "Georgetown University",
@@ -1029,6 +1233,18 @@
       "via": "wikidata",
       "note": "Q3183082: farm assurance program"
     },
+    "good-ancestor-foundation": {
+      "name": "Good Ancestor Foundation",
+      "url": "https://goodancestor.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "good-impressions": {
+      "name": "Good Impressions",
+      "url": "https://www.goodimpressionsmedia.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "good-ventures-foundation": {
       "name": "Good Ventures Foundation",
       "url": "http://goodventures.org",
@@ -1064,6 +1280,12 @@
       "url": "https://www.groupninemedia.com/",
       "via": "wikidata",
       "note": "Q29469134: American digital media holding company"
+    },
+    "hadrian-biodefense": {
+      "name": "Hadrian Biodefense",
+      "url": "https://www.hadrian.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "hamden-hall-country-day-school": {
       "name": "Hamden Hall Country Day School",
@@ -1109,9 +1331,9 @@
     },
     "horizon-institute-for-public-service": {
       "name": "Horizon Institute for Public Service",
-      "url": "https://www.horizonpublicservice.org",
-      "via": "wikidata",
-      "note": "Q121852509: American tech policy nonprofit"
+      "url": "https://horizonpublicservice.org/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://www.horizonpublicservice.org; org's own site, confirmed while checking its team page 2026-10-07"
     },
     "humane-slaughter-association": {
       "name": "Humane Slaughter Association",
@@ -1161,11 +1383,29 @@
       "via": "wikidata",
       "note": "Q30271770: nonprofit organization in San Francisco, United States"
     },
+    "ilina-program": {
+      "name": "ILINA Program",
+      "url": "https://www.ilinaprogram.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "impact-academy": {
+      "name": "Impact Academy",
+      "url": "https://steadrise.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "imperial-college-london": {
       "name": "Imperial College London",
       "url": "https://www.imperial.ac.uk/",
       "via": "wikidata",
       "note": "Q189022: public research university located in London, United Kingdom"
+    },
+    "improve-the-news-foundation": {
+      "name": "Improve the News Foundation",
+      "url": "https://www.improvethenews.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "indian-institute-of-technology-delhi": {
       "name": "Indian Institute of Technology Delhi",
@@ -1209,6 +1449,12 @@
       "via": "wikidata",
       "note": "Q95395171: American think tank (2009-)"
     },
+    "institute-for-law-ai": {
+      "name": "Institute for Law & AI",
+      "url": "https://law-ai.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "institute-for-progress": {
       "name": "Institute for Progress",
       "url": "https://ifp.org/",
@@ -1221,11 +1467,23 @@
       "via": "wikidata",
       "note": "Q123397395: no description"
     },
+    "intelligence-rising": {
+      "name": "Intelligence Rising",
+      "url": "https://www.intelligencerising.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "international-aids-vaccine-initiative": {
       "name": "International AIDS Vaccine Initiative",
       "url": "http://www.iavi.org",
       "via": "wikidata",
       "note": "Q17003871: organization"
+    },
+    "international-association-for-safe-and-ethical-ai-iaseai": {
+      "name": "International Association for Safe and Ethical AI (IASEAI)",
+      "url": "https://www.iaseai.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "international-centre-of-insect-physiology-and-ecology": {
       "name": "International Centre of Insect Physiology and Ecology",
@@ -1323,6 +1581,18 @@
       "via": "wikidata",
       "note": "Q1478723: university in Victoria, Australia"
     },
+    "langsikt-centre-for-long-term-policy": {
+      "name": "Langsikt - Centre for Long-Term Policy",
+      "url": "https://www.langsikt.no/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "lawzero": {
+      "name": "LawZero",
+      "url": "https://lawzero.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "lead-exposure-elimination-project": {
       "name": "Lead Exposure Elimination Project",
       "url": "https://leadelimination.org/",
@@ -1340,6 +1610,12 @@
       "url": "http://www.LearningAlly.org",
       "via": "wikidata",
       "note": "Q6510093: organization"
+    },
+    "legal-advocates-for-safe-science-and-technology": {
+      "name": "Legal Advocacy for Safe Science and Technology",
+      "url": "https://lasst.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "legal-impact-for-chickens": {
       "name": "Legal Impact for Chickens",
@@ -1418,6 +1694,12 @@
       "via": "wikidata",
       "note": "Q49108: private university in Cambridge, Massachusetts, USA, founded 1861"
     },
+    "mathematical-metaphysics-institute": {
+      "name": "Mathematical Metaphysics Institute",
+      "url": "https://www.mathematicalmetaphysics.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "mercy-corps": {
       "name": "Mercy Corps",
       "url": "https://www.mercycorps.org",
@@ -1429,6 +1711,12 @@
       "url": "https://mercyforanimals.org/",
       "via": "wikidata",
       "note": "Q6818817: non-profit organization in the USA"
+    },
+    "metaculus": {
+      "name": "Metaculus",
+      "url": "https://www.metaculus.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "microsoft": {
       "name": "Microsoft",
@@ -1531,6 +1819,12 @@
       "via": "wikidata",
       "note": "Q22907319: American moderate think tank founded in 2015"
     },
+    "non-trivial": {
+      "name": "Non-Trivial",
+      "url": "https://www.non-trivial.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "nonhuman-rights-project": {
       "name": "Nonhuman Rights Project",
       "url": "http://www.nonhumanrightsproject.org/",
@@ -1560,6 +1854,12 @@
       "url": "https://openai.com/",
       "via": "vipul"
     },
+    "openmined": {
+      "name": "OpenMined",
+      "url": "https://openmined.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "oregon-health-and-science-university": {
       "name": "Oregon Health and Science University",
       "url": "https://www.ohsu.edu",
@@ -1571,6 +1871,12 @@
       "url": "http://oregonstate.edu",
       "via": "wikidata",
       "note": "Q861888: public research university in Corvallis, Oregon, United States"
+    },
+    "orthogonal": {
+      "name": "Orthogonal",
+      "url": "https://orxl.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "otwarte-klatki": {
       "name": "Otwarte Klatki",
@@ -1602,9 +1908,15 @@
     },
     "oxford-martin-ai-governance-initiative": {
       "name": "Oxford Martin AI Governance Initiative",
-      "url": "https://www.oxfordmartin.ox.ac.uk/ai-governance",
-      "via": "wikidata",
-      "note": "Q131434189: research program at Oxford Martin School"
+      "url": "https://aigi.ox.ac.uk/",
+      "via": "manual",
+      "note": "replaced wikidata candidate https://www.oxfordmartin.ox.ac.uk/ai-governance; org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "palisade-research": {
+      "name": "Palisade Research",
+      "url": "https://palisaderesearch.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
     },
     "path": {
       "name": "PATH",
@@ -1635,6 +1947,12 @@
       "url": "https://www.piie.com/",
       "via": "wikidata",
       "note": "Q2981447: think tank based in Washington, DC, USA"
+    },
+    "pour-demain": {
+      "name": "Pour Demain",
+      "url": "https://www.pourdemain.ngo/en",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "prevent-cruelty-california": {
       "name": "Prevent Cruelty California",
@@ -1718,6 +2036,12 @@
       "url": "http://www.reducetarian.org/",
       "via": "wikidata",
       "note": "Q24526001: nonprofit organization"
+    },
+    "redwood-research": {
+      "name": "Redwood Research",
+      "url": "https://www.redwoodresearch.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
     },
     "renaissance-philanthropy": {
       "name": "Renaissance Philanthropy",
@@ -1809,6 +2133,18 @@
       "via": "manual",
       "note": "org's own site, confirmed while checking its team page 2026-10-06"
     },
+    "securebio": {
+      "name": "SecureBio",
+      "url": "https://securebio.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
+    },
+    "securedna": {
+      "name": "SecureDNA",
+      "url": "https://securedna.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "senter-for-langsiktig-politikk": {
       "name": "Senter for Langsiktig Politikk",
       "url": "https://www.langsikt.no/",
@@ -1863,6 +2199,18 @@
       "via": "wikidata",
       "note": "Q7512119: international non-governmental organisation"
     },
+    "simon-institute-for-longterm-governance": {
+      "name": "Simon Institute for Longterm Governance",
+      "url": "https://simoninstitute.ch/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "simplex": {
+      "name": "Simplex",
+      "url": "https://www.simplexaisafety.com/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "sinergia-animal": {
       "name": "Sinergia Animal",
       "url": "https://www.sinergiaanimalinternational.org",
@@ -1911,6 +2259,18 @@
       "via": "wikidata",
       "note": "Q1043220: sports organization for people with intellectual disabilities"
     },
+    "speculative-technologies": {
+      "name": "Speculative Technologies",
+      "url": "https://spec.tech/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "stanford-existential-risks-initiative": {
+      "name": "Stanford Existential Risks Initiative",
+      "url": "https://seri.stanford.edu/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "stanford-university": {
       "name": "Stanford University",
       "url": "https://stanford.edu",
@@ -1929,6 +2289,12 @@
       "via": "wikidata",
       "note": "Q2350733: international environmental research institute"
     },
+    "stop-ai": {
+      "name": "Stop AI",
+      "url": "https://www.stopai.info/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "swiss-tropical-and-public-health-institute": {
       "name": "Swiss Tropical and Public Health Institute",
       "url": "https://www.swisstph.ch",
@@ -1941,11 +2307,23 @@
       "via": "manifund",
       "note": "profile behind \"Bridge Funding for the Sydney AI Safety Hub (SASH)\""
     },
+    "talos-network": {
+      "name": "Talos Network",
+      "url": "https://www.talosnetwork.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "tampere-university": {
       "name": "Tampere University",
       "url": "https://www.tuni.fi",
       "via": "wikidata",
       "note": "Q56403399: public university in the city of Tampere, Finland"
+    },
+    "tarbell-center-for-ai-journalism": {
+      "name": "Tarbell Center for AI Journalism",
+      "url": "https://www.tarbellcenter.org/",
+      "via": "manual",
+      "note": "org's own site, from its team page check 2026-10-06"
     },
     "tartu-ulikool": {
       "name": "Tartu Ülikool",
@@ -1959,6 +2337,18 @@
       "via": "manifund",
       "note": "profile behind \"Help launch the Technical Alignment Research Accelerator (TARA)!\""
     },
+    "the-ai-policy-network": {
+      "name": "The AI Policy Network",
+      "url": "https://theaipn.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
+    "the-ai-whistleblower-initiative": {
+      "name": "The AI Whistleblower Initiative",
+      "url": "https://aiwi.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
+    },
     "the-audacious-project": {
       "name": "The Audacious Project",
       "url": "https://www.audaciousproject.org/",
@@ -1970,6 +2360,12 @@
       "url": "http://www.tbf.org/",
       "via": "wikidata",
       "note": "Q7719452: non-profit organization in the USA"
+    },
+    "the-bramble-center": {
+      "name": "The Bramble Center",
+      "url": "https://www.bramblecenter.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "the-breakthrough-institute": {
       "name": "The Breakthrough Institute",
@@ -1988,6 +2384,12 @@
       "url": "https://www.degrees.ngo/",
       "via": "wikidata",
       "note": "Q131905983: no description"
+    },
+    "the-future-society": {
+      "name": "The Future Society, Inc.",
+      "url": "https://thefuturesociety.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "the-good-food-institute": {
       "name": "The Good Food Institute",
@@ -2211,6 +2613,12 @@
       "url": "https://www.helsinki.fi/en",
       "via": "wikidata",
       "note": "Q28695: public university in Helsinki, Finland"
+    },
+    "university-of-louisville-dr-roman-yampolskiy-s-research-group-cybersecurity-lab": {
+      "name": "University of Louisville (Dr. Roman Yampolskiy’s Research Group (Cybersecurity Lab))",
+      "url": "https://faculty.cse.louisville.edu/roman/",
+      "via": "manual",
+      "note": "org's own site, confirmed while checking its team page 2026-10-07"
     },
     "university-of-maryland": {
       "name": "University of Maryland",

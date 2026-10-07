@@ -1,0 +1,20 @@
+{
+  "slug": "sentinel",
+  "website": "https://sentinel-team.org/",
+  "sourceUrl": "https://sentinel-team.org/#leadership",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The single-page site names only the two cofounders under 'Leadership' and gives no staff list or count. A 'Foresight Team' block naming three forecasters (Vidur Kapur, Tolga Bilge, Leif Sigrúnsson) exists in the HTML but is commented out and not rendered (the page still carries lorem-ipsum placeholders), so it was not used.",
+  "people": [
+    {
+      "name": "Nuño Sempere",
+      "title": "Cofounder & Head of Foresight",
+      "leadership": true
+    },
+    {
+      "name": "Rai Sur",
+      "title": "Cofounder & CEO",
+      "leadership": true
+    }
+  ]
+}

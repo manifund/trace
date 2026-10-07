@@ -1,0 +1,40 @@
+{
+  "slug": "lawzero",
+  "website": "https://lawzero.org/",
+  "sourceUrl": "https://lawzero.org/en/team",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The Team page names only the 6-person 'Leadership Team' and gives no staff list or count, so headcount is unknown. Excluded: Board of Directors (4, chaired by Maria Eitel), Global Advisory Council (2) and 8 Scientific Advisors. Leadership = the two Co-Presidents.",
+  "people": [
+    {
+      "name": "Yoshua Bengio",
+      "title": "Co-President and Scientific Director",
+      "leadership": true
+    },
+    {
+      "name": "Sam Ramadori",
+      "title": "Co-President and Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Maggie Da Prato",
+      "title": "Vice-President, Talent",
+      "leadership": false
+    },
+    {
+      "name": "Justine Gauthier",
+      "title": "Vice-President, Legal & General Counsel",
+      "leadership": false
+    },
+    {
+      "name": "Joumana Ghosn",
+      "title": "Senior Director, Research",
+      "leadership": false
+    },
+    {
+      "name": "Catherine Saine",
+      "title": "Vice-President, Development & Operations",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "manifund",
+  "website": "https://manifund.org/",
+  "sourceUrl": "https://manifund.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 2,
+  "headcountNote": "2 people listed under 'Our team' on the About page; regrantors and the Mox/Surplus/Frame side projects are not counted.",
+  "people": [
+    {
+      "name": "Austin Chen",
+      "title": "Cofounder, CEO",
+      "leadership": true
+    },
+    {
+      "name": "Caroline Ellison",
+      "title": "Senior Researcher & Ops",
+      "leadership": false
+    }
+  ]
+}

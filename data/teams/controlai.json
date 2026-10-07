@@ -1,0 +1,100 @@
+{
+  "slug": "controlai",
+  "website": "https://controlai.org/",
+  "sourceUrl": "https://controlai.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 18,
+  "headcountNote": "2 people under 'Our Leadership' plus 16 under 'Team' on the About page; 2 people under 'Our Advisors' (Des Browne, Gabriel Alfour) excluded.",
+  "people": [
+    {
+      "name": "Andrea Miotti",
+      "title": "Founder & CEO",
+      "leadership": true
+    },
+    {
+      "name": "Connor Leahy",
+      "title": "US Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Leticia García Martínez",
+      "title": "UK Parliamentary Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "Sophie Toura",
+      "title": "Head of UK Operations",
+      "leadership": false
+    },
+    {
+      "name": "Grace Gonzales",
+      "title": "Media Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "Max Winga",
+      "title": "Creator Outreach & Systems Lead",
+      "leadership": false
+    },
+    {
+      "name": "Max Salmon",
+      "title": "Citizen Engagement Lead",
+      "leadership": false
+    },
+    {
+      "name": "Mayank Adlakha",
+      "title": "Policy Advisor, UK",
+      "leadership": false
+    },
+    {
+      "name": "Anna Bruvere",
+      "title": "Policy Advisor, UK",
+      "leadership": false
+    },
+    {
+      "name": "Michael Mayhew",
+      "title": "Policy Advisor, UK",
+      "leadership": false
+    },
+    {
+      "name": "Esmé Carter",
+      "title": "Media Relations Officer",
+      "leadership": false
+    },
+    {
+      "name": "Alex Amadori",
+      "title": "Senior Policy Analyst",
+      "leadership": false
+    },
+    {
+      "name": "Adam Shimi",
+      "title": "Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Tolga Bilge",
+      "title": "Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Benjamin Balde",
+      "title": "Program Officer (Germany)",
+      "leadership": false
+    },
+    {
+      "name": "Samuel Buteau",
+      "title": "Program Officer (Canada)",
+      "leadership": false
+    },
+    {
+      "name": "Derry Duffy",
+      "title": "Junior Outreach Officer",
+      "leadership": false
+    },
+    {
+      "name": "Eva Behrens",
+      "title": "Special Projects Lead",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "impact-academy",
+  "website": "https://steadrise.org/",
+  "sourceUrl": "https://steadrise.org/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 4,
+  "headcountNote": "Impact Academy now operates as SteadRise (impactacademy.org redirects to steadrise.org). 4 people listed under 'The people building SteadRise' on the About page; 2 board members and 4 advisors under 'Our Board & Advisors' excluded; no stated staff count.",
+  "people": [
+    {
+      "name": "Roy Hagemann",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Marina Romanisio",
+      "title": "Director of Programs",
+      "leadership": true
+    },
+    {
+      "name": "Menno Arends",
+      "title": "Head of Partnerships & Headhunter",
+      "leadership": false
+    },
+    {
+      "name": "Semhar Russom",
+      "title": "Operations Specialist",
+      "leadership": false
+    }
+  ]
+}

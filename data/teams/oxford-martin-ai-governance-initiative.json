@@ -1,0 +1,50 @@
+{
+  "slug": "oxford-martin-ai-governance-initiative",
+  "website": "https://aigi.ox.ac.uk/",
+  "sourceUrl": "https://aigi.ox.ac.uk/people/",
+  "checkedAt": "2026-10-07",
+  "headcount": 8,
+  "headcountNote": "8 people listed under 'The Core team' on the AIGI people page (the initiative's dedicated site; the Oxford Martin School programme page lists a smaller 4-person core team). The much longer 'Our Experts / Affiliates' section (research affiliates, DPhil affiliates, faculty affiliates, visiting fellows, senior advisors, plus Toby Ord as Senior Researcher and Ben Garfinkel as Postdoctoral Researcher) is excluded as it is not presented as core staff.",
+  "people": [
+    {
+      "name": "Maike Osborne",
+      "title": "Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Robert Trager",
+      "title": "Co-Director",
+      "leadership": true
+    },
+    {
+      "name": "Fazl Barez",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Marta Ziosi",
+      "title": "Lead of AI Best Practices",
+      "leadership": false
+    },
+    {
+      "name": "Nicholas Caputo",
+      "title": "Legal Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Sami Wymes",
+      "title": "Programmes Manager",
+      "leadership": false
+    },
+    {
+      "name": "Isaac Friend",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Rivka Mitchell",
+      "title": "Postdoctoral Researcher",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "carboncopies-foundation-for-substrate-independent-minds",
+  "website": "https://carboncopies.org/",
+  "sourceUrl": "https://carboncopies.org/About/Team/Us/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The Meet Our Team page says the foundation is '100% volunteer-driven' with no paid staff, so staff headcount is null; the 27 people listed are its volunteer operating team: 24 under 'Team Members' (11 with no role shown) plus the 3 officers from the 'Board Members' section who carry operating titles. Other board members and advisors excluded.",
+  "people": [
+    {
+      "name": "Randal Koene",
+      "title": "President and Chief Science Officer",
+      "leadership": true
+    },
+    {
+      "name": "Thomas Liao",
+      "title": "Director of BrainGenix",
+      "leadership": true
+    },
+    {
+      "name": "Stefania Schino",
+      "title": "Chief Financial Officer",
+      "leadership": true
+    },
+    {
+      "name": "Jason Wong",
+      "title": "Director of HR/Talent Acquisition, Director of Communications",
+      "leadership": false
+    },
+    {
+      "name": "Michael Cerullo",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Keiland Cooper",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Bill Croughan",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Matthew T. Dearing",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Daniel C. Elton",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Joshua French",
+      "title": "BrainGenix Department",
+      "leadership": false
+    },
+    {
+      "name": "Amna Ghani",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Samuel Hosovsky",
+      "title": "BrainGenix Department",
+      "leadership": false
+    },
+    {
+      "name": "John Jose",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Sara Kochanny",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Zachary Lazzara",
+      "title": "BrainGenix Department",
+      "leadership": false
+    },
+    {
+      "name": "Brad Leu",
+      "title": "BrainGenix Department",
+      "leadership": false
+    },
+    {
+      "name": "Charl Linssen",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Mika Mautner-Rohde",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Arseniy Mukovozov",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Bill Nguyen",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Oge Nnadi",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Prishita Ray",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Ilya Sapranidi",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Joe Strout",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Angela Thornton",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Fasiha Iffat",
+      "title": null,
+      "leadership": false
+    },
+    {
+      "name": "Shuma Begum",
+      "title": null,
+      "leadership": false
+    }
+  ]
+}

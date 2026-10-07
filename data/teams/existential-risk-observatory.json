@@ -1,0 +1,35 @@
+{
+  "slug": "existential-risk-observatory",
+  "website": "https://www.existentialriskobservatory.org/",
+  "sourceUrl": "https://www.existentialriskobservatory.org/about-us/",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "7 people are listed under 'Team' on the About Us page; the Treasurer (Joep Sauren) and Secretary (Marko van der Wal) are foundation-board officer roles (Dutch stichting) and are excluded, leaving 5 including one Research Intern. 7 people under 'Graduates' (alumni) excluded. The site says there are no full-time positions open.",
+  "people": [
+    {
+      "name": "Otto Barten",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Hugo Save",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Raymond Koopmanschap",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Stefano Zuffi",
+      "title": "Research Intern",
+      "leadership": false
+    },
+    {
+      "name": "Maria Lawrence",
+      "title": "Events Organizer",
+      "leadership": false
+    }
+  ]
+}

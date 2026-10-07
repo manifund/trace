@@ -1,0 +1,45 @@
+{
+  "slug": "geodesic-research",
+  "website": "https://geodesicresearch.org/",
+  "sourceUrl": "https://geodesicresearch.org/#team",
+  "checkedAt": "2026-10-07",
+  "headcount": 7,
+  "headcountNote": "7 people listed under 'The Team' on the single-page site (geodesicresearch.org redirects to geodesicresearch.ai); 4 'Mentors' (external researchers at other orgs) excluded. Site says it is hiring four more Members of Technical Staff.",
+  "people": [
+    {
+      "name": "Cameron Tice",
+      "title": "Co-Founder & Executive Director",
+      "leadership": true
+    },
+    {
+      "name": "Puria Radmard",
+      "title": "Co-Founder & Technical Director",
+      "leadership": true
+    },
+    {
+      "name": "Alexandra Narin",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Edward Young",
+      "title": "Founding Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Kyle O'Brien",
+      "title": "Founding Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nathalie Kirch",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    },
+    {
+      "name": "Nathaniel Mitrani Hadida",
+      "title": "Member of Technical Staff",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "rand-corporation",
+  "website": "https://www.rand.org/",
+  "sourceUrl": "https://www.rand.org/about/leadership.html",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The Leadership page names 21 executives (12 Organizational Leadership, 7 Research Division Management, 2 International); the site gives no staff count and no staff list (the About page only says RAND has eight offices across the U.S., Europe and Australia), so headcount is unknown. Board of Trustees (23, incl. Jason Matheny ex officio), 2 trustees emeritus and the Social and Economic Policy Advisory Board excluded. Leadership = CEO and the two Senior Vice Presidents (C-suite).",
+  "people": [
+    {
+      "name": "Jason Matheny",
+      "title": "President and Chief Executive Officer, RAND",
+      "leadership": true
+    },
+    {
+      "name": "Jim Mitre",
+      "title": "Senior Vice President and Chief Research Officer",
+      "leadership": true
+    },
+    {
+      "name": "Eric Peltz",
+      "title": "Senior Vice President and Chief Financial and Operations Officer",
+      "leadership": true
+    },
+    {
+      "name": "Lester Arnold, Sr.",
+      "title": "Vice President and Chief Human Resources Officer",
+      "leadership": false
+    },
+    {
+      "name": "Catherine H. Augustine",
+      "title": "Vice President, Workplace Services & Real Estate",
+      "leadership": false
+    },
+    {
+      "name": "Robert M. Case",
+      "title": "Vice President, General Counsel, and Corporate Secretary",
+      "leadership": false
+    },
+    {
+      "name": "Jennifer Gould",
+      "title": "Vice President, Communications and External Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Ben Kucinski",
+      "title": "Vice President, Finance",
+      "leadership": false
+    },
+    {
+      "name": "Christine Lanoie-Newman",
+      "title": "Vice President, Development; Chief Development Officer",
+      "leadership": false
+    },
+    {
+      "name": "Jennifer Sloan McCombs",
+      "title": "Vice President and Director, Global Research Talent; Senior Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Nancy Staudt",
+      "title": "Vice President, RAND, and Frank and Marcia Carlucci Dean, RAND School of Public Policy",
+      "leadership": false
+    },
+    {
+      "name": "Tim Winders",
+      "title": "Vice President, Information Services and Chief Information Officer",
+      "leadership": false
+    },
+    {
+      "name": "Matan Chorev",
+      "title": "Vice President and Director, RAND Global and Emerging Risks; Senior Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "James S. Chow",
+      "title": "Vice President and Director, RAND Project AIR FORCE; Senior Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Peter S. Hussey",
+      "title": "Vice President and Director, RAND Health; Senior Policy Researcher, RAND; Professor of Policy Analysis, RAND School of Public Policy",
+      "leadership": false
+    },
+    {
+      "name": "Eric Landree",
+      "title": "Acting Vice President, Homeland Security Research Division; Acting Director, Homeland Security Operational Analysis Center; Senior Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Anu Narayanan",
+      "title": "Vice President and Director, RAND National Security Research Division; Professor of Policy Analysis, RAND School of Public Policy; Senior Engineer",
+      "leadership": false
+    },
+    {
+      "name": "Christopher G. Pernin",
+      "title": "Vice President, RAND Army Research Division; Director, RAND Arroyo Center; Senior Physical Scientist, RAND; Professor of Policy Analysis, RAND School of Public Policy",
+      "leadership": false
+    },
+    {
+      "name": "Heather L. Schwartz",
+      "title": "Vice President and Director, RAND Education, Employment, and Infrastructure; Senior Policy Researcher; Codirector, American School District Panel and American Youth Panel",
+      "leadership": false
+    },
+    {
+      "name": "Carolyn Bull",
+      "title": "Director, RAND Australia",
+      "leadership": false
+    },
+    {
+      "name": "Hans Pung",
+      "title": "President, RAND Europe",
+      "leadership": false
+    }
+  ]
+}

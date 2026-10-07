@@ -1,0 +1,15 @@
+{
+  "slug": "good-ancestor-foundation",
+  "website": "https://goodancestor.com/",
+  "sourceUrl": "https://goodancestor.com/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The About page lists four Board Members, of whom only Cameron Colby Thomson carries an operating title (CEO/Chairman); the other 3 board members (Airick Journey Crabill, Rachel Azafrani, Gayle Karen Young) are excluded as governance. The site says its Team page is visible to newsletter subscribers only, so staff count is unknowable from the public site.",
+  "people": [
+    {
+      "name": "Cameron Colby Thomson",
+      "title": "CEO/Chairman",
+      "leadership": true
+    }
+  ]
+}

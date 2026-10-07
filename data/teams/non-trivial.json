@@ -1,0 +1,15 @@
+{
+  "slug": "non-trivial",
+  "website": "https://www.non-trivial.org/",
+  "sourceUrl": "https://www.non-trivial.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": 1,
+  "headcountNote": "The Team page's 'year-round team'/'Staff' section names two people: Jonah Boucher (CEO) and Peter McIntyre, whose title is 'Founder and Advisor' and who is excluded as an advisor. 18 'Recent Facilitators' (alumni coaches) excluded. Non-Trivial is a program of Leaf Inc.; its board and advisors are on leaf.courses.",
+  "people": [
+    {
+      "name": "Jonah Boucher",
+      "title": "CEO",
+      "leadership": true
+    }
+  ]
+}

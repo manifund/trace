@@ -16,7 +16,9 @@ export function OrgTeamBlock(props: { team: OrgTeam | null }) {
   const team = props.team
   if (!team || (team.people.length === 0 && team.headcount === null)) return null
   const leaders = team.people.filter((p) => p.leadership)
-  const count = team.headcount ?? team.people.length
+  // A site that names only its executives gives no staff count; say nothing
+  // rather than pass the executive count off as the headcount.
+  const count = team.headcount
   const hasMore = team.people.length > leaders.length
   const checked = new Date(`${team.checkedAt}T00:00:00Z`).toLocaleDateString('en-US', {
     month: 'short',
@@ -41,11 +43,13 @@ export function OrgTeamBlock(props: { team: OrgTeam | null }) {
             </ul>
           </section>
         )}
-        {count > 0 && (
+        {(count !== null || hasMore || team.sourceUrl) && (
           <section>
             <h3 className="mb-1 font-sans text-xs uppercase tracking-wide text-ink-muted">Team</h3>
             <p className="text-sm" title={team.headcountNote ?? undefined}>
-              {count.toLocaleString()} {count === 1 ? 'person' : 'people'}
+              {count !== null
+                ? `${count.toLocaleString()} ${count === 1 ? 'person' : 'people'}`
+                : 'headcount not published'}
             </p>
             {team.sourceUrl && (
               <p className="text-sm text-ink-muted">
@@ -58,7 +62,7 @@ export function OrgTeamBlock(props: { team: OrgTeam | null }) {
                 onClick={() => setOpen((v) => !v)}
                 className="mt-1 text-xs text-brand"
               >
-                {open ? 'Hide staff ▴' : 'All staff ▾'}
+                {open ? 'Hide list ▴' : count !== null ? 'All staff ▾' : 'All listed ▾'}
               </button>
             )}
           </section>

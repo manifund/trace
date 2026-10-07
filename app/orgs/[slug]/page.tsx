@@ -215,6 +215,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
           </>
         )}
       </p>
+      {org.description && <p className="-mt-3 mb-6 max-w-prose text-sm">{org.description}</p>}
       <OrgTeamBlock team={team} />
       {causeChips.length > 0 && (
         <p className="mb-4 flex flex-wrap gap-1">

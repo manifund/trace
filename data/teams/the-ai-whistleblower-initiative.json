@@ -1,0 +1,35 @@
+{
+  "slug": "the-ai-whistleblower-initiative",
+  "website": "https://aiwi.org/",
+  "sourceUrl": "https://aiwi.org/about/",
+  "checkedAt": "2026-10-07",
+  "headcount": 5,
+  "headcountNote": "5 people listed under 'Team' on the About page, including one shown as a consultant and the co-founder shown as 'Tech Advisor, Co-Founder' (kept because the site lists him as a team member with an operating remit); no board or separate advisors listed; no stated staff count.",
+  "people": [
+    {
+      "name": "Karl Koch",
+      "title": "Managing Director, Founder",
+      "leadership": true
+    },
+    {
+      "name": "Maximilian Nebl",
+      "title": "Tech Advisor, Co-Founder",
+      "leadership": false
+    },
+    {
+      "name": "Indah Harahap",
+      "title": "Communications Lead",
+      "leadership": false
+    },
+    {
+      "name": "Jenny Huzell",
+      "title": "Founder's Associate",
+      "leadership": false
+    },
+    {
+      "name": "Chandini Stensel",
+      "title": "Research & Communications Consultant",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "catalyze-impact",
+  "website": "https://catalyze-impact.org/",
+  "sourceUrl": "https://catalyze-impact.org/",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The site has no team page; the home page names only the CEO (shown in uppercase as 'CO-FOUNDER & CEO of CATALYZE' as a quote attribution) and the Careers page says 'our small entrepreneurial team' without a count, so the staff headcount is unknowable from the site. Experts listed on the Incubator page are external office-hours guests, excluded.",
+  "people": [
+    {
+      "name": "Alexandra Bos",
+      "title": "Co-Founder & CEO",
+      "leadership": true
+    }
+  ]
+}

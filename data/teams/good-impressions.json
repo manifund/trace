@@ -1,0 +1,45 @@
+{
+  "slug": "good-impressions",
+  "website": "https://www.goodimpressionsmedia.com/",
+  "sourceUrl": "https://www.goodimpressionsmedia.com/about",
+  "checkedAt": "2026-10-07",
+  "headcount": 7,
+  "headcountNote": "7 people listed under 'The Team' on the About page; 12 Advisors excluded. 'Kempe G.' is shown that way on the site. Leadership = the Founder (the site does not group a leadership team).",
+  "people": [
+    {
+      "name": "Callum Brooks",
+      "title": "Guest Network",
+      "leadership": false
+    },
+    {
+      "name": "Diane Doran",
+      "title": "Head of Growth and Advocacy",
+      "leadership": false
+    },
+    {
+      "name": "Corina Perez-Cobb",
+      "title": "Engagement Manager, Farmed Animal Welfare",
+      "leadership": false
+    },
+    {
+      "name": "Kempe G.",
+      "title": "Campaign Manager",
+      "leadership": false
+    },
+    {
+      "name": "Tom McLeod",
+      "title": "AI Enablement",
+      "leadership": false
+    },
+    {
+      "name": "Eric Spamer",
+      "title": "Measurement",
+      "leadership": false
+    },
+    {
+      "name": "Johnstuart Winchell",
+      "title": "Founder",
+      "leadership": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "hadrian-biodefense",
+  "website": "https://www.hadrian.org/",
+  "sourceUrl": "https://www.hadrian.org/team",
+  "checkedAt": "2026-10-07",
+  "headcount": null,
+  "headcountNote": "The Team page lists only an 8-person 'Leadership team' with no full staff list or count, so headcount is unknowable from the site. All 8 are included; the VPs are marked leadership because the site groups them under 'Leadership team', the Chief of Staff is not.",
+  "people": [
+    {
+      "name": "Connor Campbell",
+      "title": "Co-Founder & CEO",
+      "leadership": true
+    },
+    {
+      "name": "Emma Abele",
+      "title": "Co-Founder & Special Projects",
+      "leadership": true
+    },
+    {
+      "name": "Rodney Hehenberger",
+      "title": "Chief Technology Officer",
+      "leadership": true
+    },
+    {
+      "name": "Nikki Vars McCullough",
+      "title": "VP Applied Research and Regulatory Affairs",
+      "leadership": false
+    },
+    {
+      "name": "Steve DuVal",
+      "title": "VP Manufacturing Operations",
+      "leadership": false
+    },
+    {
+      "name": "Josh Tuz",
+      "title": "VP Finance and Operations",
+      "leadership": false
+    },
+    {
+      "name": "Jameace Maliga",
+      "title": "VP People",
+      "leadership": false
+    },
+    {
+      "name": "Catherine Fist",
+      "title": "Chief of Staff",
+      "leadership": false
+    }
+  ]
+}

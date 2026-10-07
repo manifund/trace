@@ -1,0 +1,90 @@
+{
+  "slug": "the-future-society",
+  "website": "https://thefuturesociety.org/",
+  "sourceUrl": "https://thefuturesociety.org/our-team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 16,
+  "headcountNote": "18 people on the 'Our team' page; 16 counted as staff. Excluded: Nicolas Miailhe ('Founder & Former Chair of the Board') and Nicolas Economou ('Chair, AI and the Rule of Law (Volunteer)'). Board of Directors and Advisors are on a separate page and not included.",
+  "people": [
+    {
+      "name": "Nick Moës",
+      "title": "Executive Director & Secretary of the Board",
+      "leadership": true
+    },
+    {
+      "name": "Ellen O’Connell",
+      "title": "Chief Operating Officer",
+      "leadership": true
+    },
+    {
+      "name": "Niki Iliadis",
+      "title": "Director, International AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Caroline Jeanmaire",
+      "title": "Interim Director, AI Security Policy",
+      "leadership": false
+    },
+    {
+      "name": "Toni Lorente",
+      "title": "Director, European AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Sam Baskeyfield",
+      "title": "Operations Associate",
+      "leadership": false
+    },
+    {
+      "name": "Eloise Dunn",
+      "title": "Operations Manager",
+      "leadership": false
+    },
+    {
+      "name": "Nicoleta Paladi",
+      "title": "Operations Analyst",
+      "leadership": false
+    },
+    {
+      "name": "George Gor",
+      "title": "Associate, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Delfina Belli",
+      "title": "Senior Associate, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Caio Vieira Machado",
+      "title": "Senior Associate, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Anoush Rima Tatevossian",
+      "title": "Senior Associate, Stakeholder Engagement",
+      "leadership": false
+    },
+    {
+      "name": "Tereza Zoumpalova",
+      "title": "Associate, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Kathrin Gardhouse",
+      "title": "Senior Associate, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Jonathan Schmidt",
+      "title": "Analyst, AI Governance",
+      "leadership": false
+    },
+    {
+      "name": "Chelsey Mann",
+      "title": "Special Assistant",
+      "leadership": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "ai-standards-lab",
+  "website": "https://aistandardslab.org/",
+  "sourceUrl": "https://aistandardslab.org/team/",
+  "checkedAt": "2026-10-07",
+  "headcount": 6,
+  "headcountNote": "6 people listed under 'Our Team' on the Team page; the 2 non-staff board members (co-founders Ariel Gil and Jonathan Happel, who also sit on the board with the two co-leads) and 4 named past contributors excluded; no stated staff count. The site says it is a virtual lab and operates under fiscal sponsorship by Players Philanthropy Fund.",
+  "people": [
+    {
+      "name": "Koen Holtman",
+      "title": "Co-Lead / Co-Founder / Resident Standards Expert",
+      "leadership": true
+    },
+    {
+      "name": "Ze Shen Chin",
+      "title": "Co-Lead",
+      "leadership": true
+    },
+    {
+      "name": "Ayrton San Joaquin",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Marcel Mir Teijeiro",
+      "title": "Senior Policy Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Rokas Gipiškis",
+      "title": "Senior Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Yi-Yang Chua",
+      "title": "Operations Specialist",
+      "leadership": false
+    }
+  ]
+}
