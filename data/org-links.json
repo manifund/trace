@@ -1055,10 +1055,11 @@
       "via": "wikidata",
       "note": "Q5469128: non-profit organization in the USA"
     },
-    "forethought-foundation-for-global-priorities-research": {
-      "name": "Forethought Foundation for Global Priorities Research",
+    "forethought": {
+      "name": "Forethought",
       "url": "https://www.forethought.org/",
-      "via": "vipul"
+      "via": "manual",
+      "note": "carried over from the merged Forethought Foundation for Global Priorities Research entry"
     },
     "forum-nacional-de-protecao-e-defesa-animal": {
       "name": "Fórum Nacional de Proteção e Defesa Animal",
