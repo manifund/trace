@@ -175,8 +175,7 @@ function extract($: CheerioAPI, base: string, post: Post): Review[] {
     cur = null
   }
 
-  const root = $('body').children().length > 0 ? $('body') : $.root()
-  for (const node of root.children().toArray()) {
+  for (const node of $('body').children().toArray()) {
     const el = $(node)
     const tag = tagName(el)
     if (!tag) continue
