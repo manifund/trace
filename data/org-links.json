@@ -588,12 +588,6 @@
       "via": "manual",
       "note": "replaced manifund candidate https://www.securite-ia.fr/; org's own site, confirmed while checking its team page 2026-10-07"
     },
-    "cfar": {
-      "name": "CFAR",
-      "url": null,
-      "via": "wikidata",
-      "note": "rejected: wikidata hit is a UW research center; CFAR here is the rationality org"
-    },
     "charity-entrepreneurship": {
       "name": "Charity Entrepreneurship",
       "url": "https://www.charityentrepreneurship.com",
