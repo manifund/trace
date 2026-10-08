@@ -20,28 +20,9 @@ bun run find-org-links   # Propose websites for orgs without one -> data/org-lin
 bun run fetch-logos      # Site icons for every org with a website -> public/logos/
 ```
 
-## Tech Stack
-
-- Next.js 16 (App Router only), TypeScript strict, React 19
-- Supabase (Postgres), no ORM — direct supabase-js; types in `db/database.types.ts`
-- Tailwind CSS; Bun; Vercel
-- No auth in v1. Scripts use the service-role key from `.env.local`.
-
-## Project Structure
-
-```
-app/              # Pages: / (grants table), /orgs/[slug], /funders, /about, /grants.csv
-components/       # grants-table.tsx (client filters/sort/pagination)
-db/               # Supabase clients, query layer (grant.ts, org.ts), generated types
-scripts/          # Ingestion + curation, run with bun
-  lib/            # ingest core, org resolver, parsers (tested)
-data/             # Checked-in curation files — the git-audited crosswalk
-supabase/         # Migrations (RLS policies live HERE, unlike manifund)
-utils/            # format, parse, grant-filters (shared by table + CSV route)
-```
-
 ## Key Patterns
 
+- No auth in v1. Scripts use the service-role key from `.env.local`.
 - **Provenance backbone:** every source row is stored verbatim in `source_records`; canonical `grants` are derived and linked via `grant_sources` (one `is_primary` record per grant). Re-running any ingester is always safe: unchanged rows are skipped by content hash, vanished rows are tombstoned and their grants become `rejected`.
 - **Entity resolution:** exact match on normalized names (`scripts/lib/normalize.ts`) + `data/aliases.json`. Unknown names auto-create `needs_review` orgs. Curation loop: `report-unmatched` → edit `aliases.json` → `bun run seed` (merges provisional orgs into canonical ones).
 - **Renames** (Open Philanthropy → Coefficient Giving, LTFF → TAIF, ...) are date-ranged rows in `org_names`, seeded from `data/orgs-seed.json`.
@@ -51,10 +32,6 @@ utils/            # format, parse, grant-filters (shared by table + CSV route)
 - **Grant status:** public pages only see `approved`. `pending` is reserved for future community submissions.
 - Field fixes go in `data/overrides.json` (keyed `source:record_key`), never by editing the DB by hand.
 - **Websites and logos:** `orgs-seed.json` carries websites for curated orgs; `data/org-links.json` (filled by `find-org-links` from the vipul donee table, Manifund profiles and Wikidata, keyed by slug with provenance) covers the rest and is applied by `seed`. `fetch-logos` turns websites into `public/logos/<slug>.png` and lists them in `data/org-logos.json`, which `OrgLogo` reads; rerun it after seed changes websites.
-
-## Code Style
-
-Same as manifund: oxfmt (no semicolons, single quotes, 2-space), kebab-case files, PascalCase components, `@/` alias.
 
 ## Git
 
@@ -108,33 +85,3 @@ are not staff.
 ## Database Migrations
 
 Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no local Docker flow), then `bun run gen-types`. RLS policies are checked into the migrations — keep it that way. `db/database.types.ts` was hand-written to match the initial migration; regenerate once the project exists.
-
-## Hosting inside the Manifund project
-
-Trace's tables are moving into a `trace` schema in Manifund's Supabase
-project, so Manifund logins work with RLS natively (`auth.uid()` resolves).
-Manifund's `public` schema is never touched — it has its own `orgs` table, so
-a shared schema was never an option.
-
-- `supabase/trace-schema.sql` replays every migration into `trace`
-  (`SET search_path`, one connection). Apply with `apply-migration.ts`.
-- `scripts/copy-database.ts` copies table-by-table between projects in
-  dependency order; `--verify-only` compares row counts, `--wipe` clears the
-  target first. Within one project, `INSERT INTO trace.x SELECT * FROM
-  public.x` is faster.
-- `NEXT_PUBLIC_TRACE_DB_SCHEMA=trace` switches the app and scripts over; every
-  client reads it, so the cutover is configuration, not code.
-- The target project must expose `trace` under Settings -> API -> Exposed
-  schemas, or PostgREST answers "Invalid schema".
-
-## Environment
-
-`.env.local` (see `.env.example`): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (scripts only), optional `MANIFUND_SUPABASE_URL`/`MANIFUND_SUPABASE_ANON_KEY` for `ingest-manifund --direct`.
-
-## Ingester notes
-
-- **EA Funds**: one CSV GET; Airtable rec ids are stable keys. Rounds are "2026 Q2" (newer) or "Q1 2022" (older).
-- **SFF**: single index page has all rounds as a real `<table>`; amount cells may carry "+$X‡" speculation top-ups (both count). Bracketed `[Project]` suffixes are stripped from org names. Parse guard: fails if <400 rows.
-- **Vipul**: parses raw MySQL INSERT files from GitHub pinned to a SHA (`bun run ingest:vipul [sha]`); v1 keeps only the x-risk/EA cluster (KEEP regex in the script).
-- **Manifund**: public API paginates via `?before=` cursor (full history) but has no donor identities; `--direct` reads their Supabase for donor-level grants and is the only mode that tombstones.
-- **IRS 990** (`scripts/ingest-990.ts`, not in `ingest-all`): e-file XML from the Giving Tuesday data lake, pinned by IRS object id per filer. Handles 990-PF (Part XV grants paid) and public-charity 990 (Schedule I named grantees; Schedule I Part III / Schedule F individual and foreign-org grants are region-only on the form, so they land on Various Individuals / Various Recipients). A filer can carry a `recipientFilter` to track one grantee out of a large portfolio (Rockefeller → Vox Future Perfect). List only the amended return when a year has both.
