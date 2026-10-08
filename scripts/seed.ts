@@ -164,6 +164,12 @@ const SOURCES = [
     url: 'https://bluedot.org/grants',
     tier: 2,
   },
+  {
+    id: 'clr_fund',
+    name: 'CLR Fund',
+    url: 'https://longtermrisk.org/grantmaking/',
+    tier: 2,
+  },
 ]
 
 type SeedOrg = {

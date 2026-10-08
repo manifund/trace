@@ -16,6 +16,7 @@
     "ingest:manifund": "bun run scripts/ingest-manifund.ts",
     "ingest:coefficient": "bun run scripts/ingest-coefficient.ts",
     "ingest:bluedot": "bun run scripts/ingest-bluedot.ts",
+    "ingest:clr": "bun run scripts/ingest-clr.ts",
     "dedup": "bun run scripts/dedup.ts",
     "report-unmatched": "bun run scripts/report-unmatched.ts",
     "verify": "bun run scripts/verify-totals.ts",

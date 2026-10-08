@@ -61,6 +61,42 @@
       ]
     },
     {
+      "slug": "center-on-long-term-risk",
+      "name": "Center on Long-Term Risk",
+      "org_type": "organization",
+      "website": "https://longtermrisk.org/",
+      "aliases": [
+        {
+          "name": "CLR",
+          "kind": "abbreviation"
+        },
+        {
+          "name": "Center on Long-Term Risk (CLR)",
+          "kind": "alias"
+        },
+        {
+          "name": "CLR Fund",
+          "kind": "alias",
+          "note": "CLR's grantmaking vehicle, attributed to CLR like Foresight's and BlueDot's programs"
+        },
+        {
+          "name": "Center on Long-Term Risk Fund",
+          "kind": "alias"
+        },
+        {
+          "name": "EAF Fund",
+          "kind": "former_name",
+          "valid_to": "2020-03-01",
+          "note": "the fund's name until EAF's research arm became CLR, March 2020"
+        },
+        {
+          "name": "Effective Altruism Foundation Fund",
+          "kind": "former_name",
+          "valid_to": "2020-03-01"
+        }
+      ]
+    },
+    {
       "slug": "ea-infrastructure-fund",
       "name": "EA Infrastructure Fund",
       "org_type": "fund",

@@ -14,12 +14,14 @@
     "manifund": "keyword",
     "foresight": "ai-safety",
     "schmidt_sciences": "ai-safety",
-    "uk_aisi": "ai-safety"
+    "uk_aisi": "ai-safety",
+    "clr_fund": "keyword"
   },
   "fallbacks": {
     "sff": "x-risk-other",
     "Long-Term Future Fund": "x-risk-other",
-    "Global Catastrophic Risks Fund": "x-risk-other"
+    "Global Catastrophic Risks Fund": "x-risk-other",
+    "clr_fund": "s-risk"
   },
   "labels": {
     "Navigating Transformative AI": "ai-safety",

@@ -288,17 +288,16 @@
       "amountEstimated": true
     },
     {
-      "recipient": "Jonas Emanuel Müller (Convergence Analysis)",
+      "recipient": "Modeling Cooperation",
+      "via": "Convergence Analysis",
       "funder": "Foresight Institute",
-      "amount": 100000,
+      "amount": 77116,
       "currency": "USD",
-      "date": "2024-09",
-      "datePrecision": "month",
-      "description": "Exploring AI Scenarios via the Intelligence Rising Web Application. Focus area: Safe Multipolar/Multi-Agent AI. First listed on foresight.org/ai-safety by Sep 2024.",
+      "date": "2024-05-16",
+      "datePrecision": "day",
+      "description": "Exploring AI Scenarios via the Intelligence Rising Web Application. Focus area: Safe Multipolar/Multi-Agent AI. Foresight lists the grantee as Jonas Emanuel Müller (Convergence Analysis); Modeling Cooperation announced the $77,116 grant on 2024-05-16 for maintaining and developing the Intelligence Rising software with Technology Strategy Roleplay (modelingcooperation.com/news).",
       "program": "AI Safety Grants (Underexplored Approaches: Automation / Neurotech / Security / Multi-Agent)",
-      "sourceUrl": "https://web.archive.org/web/20240928050739/https://foresight.org/ai-safety/",
-      "estimateNote": "Foresight Institute planned to give $2.5-3.2m over 26 grants in 2023 and 2024; estimating each at roughly the average grant size.",
-      "amountEstimated": true
+      "sourceUrl": "https://web.archive.org/web/20240928050739/https://foresight.org/ai-safety/"
     },
     {
       "recipient": "Leonardo Christov-Moore (Institute for Advanced Consciousness Studies)",

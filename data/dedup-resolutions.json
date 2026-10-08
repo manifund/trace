@@ -1,6 +1,7 @@
 {
   "_comment": "Human dedup decisions, keyed by the two grants' provenance keys sorted alphabetically and joined with ' || ' (each key is 'source_id:source_record_key'). Value: 'merged' or 'distinct'. Populated while reviewing `bun run dedup` output; survives full DB rebuilds.",
   "resolutions": {
+    "clr_fund:2018:d5d6fcf3f0d3f912bd6cc90f || vipul_donations:e688c704d7d94bf6e293acda209c3c25fd5da0096e06960144857064b1d1d579": "merged",
     "ea_funds:rec7G2HllglvJc8Ra || vipul_donations:efa817871d09a068b5a578db19b54b0a8d569ff0d7b4c25abf6927ae8a3a5851": "merged",
     "ea_funds:reckvXmyiaIZaem5G || vipul_donations:7827e9267da8a2f79b8be3bd31ff13d7b9d9da69b39293b2b750e9a1edcc2fe0": "merged",
     "ea_funds:recrlOhdfkypxQFwd || vipul_donations:e1c94dabcf8e42b37b4d44e940e4494fdd05d4612dabaec9989c41f4537e522d": "merged",
