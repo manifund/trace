@@ -170,7 +170,9 @@ function extract($: CheerioAPI, base: string, post: Post): Review[] {
   const flush = () => {
     if (!cur) return
     const { head, id, blocks } = cur
-    if (/^anonymous/i.test(head.name)) {
+    // Anonymous grantees, and grants the report only lists (amount and
+    // purpose, no reasoning), are not reviews.
+    if (/^anonymous/i.test(head.name) || blocks.length === 0) {
       cur = null
       return
     }
