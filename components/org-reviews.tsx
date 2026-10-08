@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import type { OrgReview } from '@/db/review'
 import { Markdown } from '@/utils/markdown'
 
@@ -57,44 +58,45 @@ export function ReviewerLine(props: { review: OrgReview }) {
   )
 }
 
+// One review: the meta line, the verdict line, and the rest behind a click.
+export function ReviewEntry(props: { review: OrgReview; meta: ReactNode }) {
+  const [lead, rest] = splitLead(props.review.body)
+  const meta = <p className="mb-1 text-sm text-ink-muted">{props.meta}</p>
+  if (!rest) {
+    return (
+      <article className="mb-4">
+        {meta}
+        <Markdown text={lead} className="text-sm leading-relaxed" />
+      </article>
+    )
+  }
+  return (
+    <details className="group mb-4">
+      <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+        {meta}
+        <span className="text-sm leading-relaxed">
+          <Markdown text={lead} className="inline" />
+        </span>
+        <span className="ml-2 text-xs text-brand">
+          <span className="group-open:hidden">Read more ▾</span>
+          <span className="hidden group-open:inline">Show less ▴</span>
+        </span>
+      </summary>
+      <div className="mt-2">
+        <Markdown text={rest} className="mb-3 text-sm leading-relaxed" />
+      </div>
+    </details>
+  )
+}
+
 export function OrgReviews(props: { reviews: OrgReview[] }) {
   if (props.reviews.length === 0) return null
   return (
     <section className="mb-8 max-w-3xl">
       <h2 className="mb-2 font-display text-lg font-bold">Reviews</h2>
-      {props.reviews.map((review) => {
-        const [lead, rest] = splitLead(review.body)
-        const meta = (
-          <p className="mb-1 text-sm text-ink-muted">
-            <ReviewerLine review={review} />
-          </p>
-        )
-        if (!rest) {
-          return (
-            <article key={review.id} className="mb-4">
-              {meta}
-              <Markdown text={lead} className="text-sm leading-relaxed" />
-            </article>
-          )
-        }
-        return (
-          <details key={review.id} className="group mb-4">
-            <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-              {meta}
-              <span className="text-sm leading-relaxed">
-                <Markdown text={lead} className="inline" />
-              </span>
-              <span className="ml-2 text-xs text-brand">
-                <span className="group-open:hidden">Read more ▾</span>
-                <span className="hidden group-open:inline">Show less ▴</span>
-              </span>
-            </summary>
-            <div className="mt-2">
-              <Markdown text={rest} className="mb-3 text-sm leading-relaxed" />
-            </div>
-          </details>
-        )
-      })}
+      {props.reviews.map((review) => (
+        <ReviewEntry key={review.id} review={review} meta={<ReviewerLine review={review} />} />
+      ))}
     </section>
   )
 }

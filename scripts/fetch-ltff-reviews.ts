@@ -149,7 +149,7 @@ function isBoldParagraph($: CheerioAPI, el: Cheerio<AnyNode>): boolean {
 
 const BY_LINE = /^(?:writeups?|grant reports?|grants? evaluated|grants? recommended)\s+by\s+(.+)$/i
 const NOT_A_NAME =
-  /\b(grants?|fund|highlights?|highlighted|introduction|appendix|updates?|writings?|feedback|recipients?|reports?|overview|summary|other|future)\b/i
+  /\b(grants?|fund|highlights?|highlighted|introduction|appendix|updates?|writings?|feedback|recipients?|reports?|overview|summary|other|future|fellowship|programme?|project|institute|initiative|research|cent(er|re)|lab|organi[sz]ation)\b/i
 
 type Review = {
   org: string

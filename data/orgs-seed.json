@@ -549,6 +549,67 @@
       "org_type": "organization",
       "aliases": [],
       "description": null
+    },
+    {
+      "slug": "asya-bergal",
+      "name": "Asya Bergal",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "matt-wage",
+      "name": "Matt Wage",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "linch-zhang",
+      "name": "Linch Zhang",
+      "org_type": "individual",
+      "aliases": [
+        {
+          "name": "Linchuan Zhang",
+          "kind": "alias"
+        }
+      ],
+      "description": null
+    },
+    {
+      "slug": "helen-toner",
+      "name": "Helen Toner",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "caleb-parikh",
+      "name": "Caleb Parikh",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "daniel-eth",
+      "name": "Daniel Eth",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "matthew-gray",
+      "name": "Matthew Gray",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
+    },
+    {
+      "slug": "luisa-rodriguez",
+      "name": "Luisa Rodriguez",
+      "org_type": "individual",
+      "aliases": [],
+      "description": null
     }
   ]
 }
