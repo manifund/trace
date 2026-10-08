@@ -1,6 +1,5 @@
 import 'server-only'
 
-import { createHash } from 'node:crypto'
 import { SUPABASE_URL } from './env'
 import { createPublicSupabaseClient } from './supabase-server'
 
@@ -77,43 +76,16 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
   }
 }
 
-// Loads every approved grant with org + provenance joins, batching past the
-// PostgREST 1000-row cap. Callers filter in memory; use getGrants() for the
-// cached copy.
-async function listGrants(): Promise<GrantRow[]> {
-  if (!dbConfigured()) return []
+// Every approved grant, in one call: grants_export() (supabase/migrations/
+// 20261008100000_grants_export.sql) builds the rows server-side, in this
+// shape, with a content version. One request instead of thirteen paged
+// ones, which is what a cold function instance used to spend seconds on.
+async function listGrants(): Promise<Loaded> {
+  if (!dbConfigured()) return { rows: [], version: 'empty' }
   const supabase = createPublicSupabaseClient()
-  const rows: GrantRow[] = []
-  // Count first, then fetch every 1000-row page in parallel: sequential
-  // paging was the dominant latency on pages that need the full table.
-  const { count } = await supabase
-    .from('grants')
-    .select('id', { count: 'exact', head: true })
-    .eq('status', 'approved')
-    .throwOnError()
-  const pages = Math.ceil((count ?? 0) / 1000)
-  const fetchPage = (page: number) =>
-    supabase
-      .from('grants')
-      .select(`${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug))`)
-      .eq('status', 'approved')
-      .order('grant_date', { ascending: false, nullsFirst: false })
-      .order('id')
-      .range(page * 1000, page * 1000 + 999)
-      .throwOnError()
-  // Small chunks: full parallelism trips Postgres statement timeouts when
-  // several pages build at once.
-  for (let start = 0; start < pages; start += 3) {
-    const chunk = await Promise.all(
-      Array.from({ length: Math.min(3, pages - start) }, (_, i) => fetchPage(start + i))
-    )
-    for (const { data } of chunk) {
-      for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
-        rows.push(mapGrantRow(grant))
-      }
-    }
-  }
-  return rows
+  const { data } = await supabase.rpc('grants_export').throwOnError()
+  const snapshot = data as never as { version: string; rows: GrantRow[] }
+  return { rows: snapshot.rows, version: snapshot.version }
 }
 
 // The whole approved dataset, fetched once per process and reused by every
@@ -126,20 +98,15 @@ type Loaded = { rows: GrantRow[]; version: string }
 type Memo = { at: number; loaded: Promise<Loaded> }
 const store = globalThis as typeof globalThis & { __traceGrants?: Memo }
 
+// The version is a content hash: the browser caches /grants.json?v=<version>
+// forever, so a changed dataset must be a new URL.
 function loadGrants(): Promise<Loaded> {
   const memo = store.__traceGrants
   if (memo && Date.now() - memo.at < TTL_MS) return memo.loaded
-  const loaded = listGrants()
-    .then((rows) => ({
-      rows,
-      // Content hash: the browser caches /grants.json?v=<version> forever, so
-      // a changed dataset must be a new URL.
-      version: createHash('sha256').update(JSON.stringify(rows)).digest('hex').slice(0, 12),
-    }))
-    .catch((err) => {
-      store.__traceGrants = undefined
-      throw err
-    })
+  const loaded = listGrants().catch((err) => {
+    store.__traceGrants = undefined
+    throw err
+  })
   store.__traceGrants = { at: Date.now(), loaded }
   return loaded
 }
