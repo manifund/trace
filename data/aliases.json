@@ -408,7 +408,11 @@
   "byRole": {
     "recipient": {
       "(Anonymous)": "various-recipients",
-      "Undisclosed donations": "various-recipients"
+      "Undisclosed donations": "various-recipients",
+      "Biosecurity Research Team": "various-recipients",
+      "Independent Biosecurity Researcher": "various-recipients",
+      "Independent Biosecurity Contractors": "various-recipients",
+      "Independent public health researcher": "various-recipients"
     },
     "funder": {
       "(Anonymous)": "various-donors"
