@@ -1,0 +1,75 @@
+{
+  "slug": "forethought",
+  "website": "https://www.forethought.org/",
+  "sourceUrl": "https://www.forethought.org/about",
+  "checkedAt": "2026-10-09",
+  "headcount": 13,
+  "headcountNote": "13 people listed under 'Team' on the About page; excluded: Affiliates (7), Visiting Scholars (3) and Board (6, two of whom are also staff).",
+  "people": [
+    {
+      "name": "Max Dalton",
+      "title": "Director",
+      "leadership": true
+    },
+    {
+      "name": "Lexi Scholefield",
+      "title": "Chief of Staff",
+      "leadership": true
+    },
+    {
+      "name": "Stefan Torges",
+      "title": "Head of Strategic Initiatives",
+      "leadership": true
+    },
+    {
+      "name": "Amrit Sidhu-Brar",
+      "title": "Director of Operations",
+      "leadership": true
+    },
+    {
+      "name": "Tom Davidson",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "William MacAskill",
+      "title": "Senior Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Mia Taylor",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "James Tillman",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Hazel Browne",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Zach Stein-Perlman",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "Avi Parrack",
+      "title": "Research Fellow",
+      "leadership": false
+    },
+    {
+      "name": "John Bridge",
+      "title": "Researcher",
+      "leadership": false
+    },
+    {
+      "name": "Rose Hadshar",
+      "title": "Researcher",
+      "leadership": false
+    }
+  ]
+}
