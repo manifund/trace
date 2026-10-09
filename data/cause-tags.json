@@ -20244,6 +20244,18 @@
     ],
     "sff:a433436329f530506ccbf71eb8f517ad5f9316d5240bb00b4d427b4eebbdfa5d": [
       "gradual-disempowerment"
+    ],
+    "sentinel_bio:epoch-ai": [
+      "biosecurity",
+      "ai-bio"
+    ],
+    "sentinel_bio:epoch-ai-2": [
+      "biosecurity",
+      "ai-bio"
+    ],
+    "sentinel_bio:epoch-ai-3": [
+      "biosecurity",
+      "ai-bio"
     ]
   }
 }

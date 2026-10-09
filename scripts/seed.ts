@@ -170,6 +170,12 @@ const SOURCES = [
     url: 'https://longtermrisk.org/grantmaking/',
     tier: 2,
   },
+  {
+    id: 'sentinel_bio',
+    name: 'Sentinel Bio',
+    url: 'https://sentinelbio.org/research-and-projects/',
+    tier: 2,
+  },
 ]
 
 type SeedOrg = {

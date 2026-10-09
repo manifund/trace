@@ -18,6 +18,8 @@ const PRIORITY = [
   'longview',
   'schmidt_sciences',
   'foresight',
+  'clr_fund',
+  'sentinel_bio',
   'acx_grants',
   'jefftk',
   'uk_aisi',

@@ -1,0 +1,35 @@
+{
+  "slug": "sentinel-bio",
+  "website": "https://sentinelbio.org/",
+  "sourceUrl": "https://sentinelbio.org/people/",
+  "checkedAt": "2026-10-09",
+  "headcount": 5,
+  "headcountNote": "5 people listed under 'The Sentinel Team' on the People page; excluded: Advisory Council (3) and Board of Directors (3, one of whom is the CEO).",
+  "people": [
+    {
+      "name": "Claire Qureshi",
+      "title": "CEO",
+      "leadership": true
+    },
+    {
+      "name": "Joshua Monrad",
+      "title": "Managing Director",
+      "leadership": true
+    },
+    {
+      "name": "Janika Schmitt",
+      "title": "Senior Program Officer",
+      "leadership": false
+    },
+    {
+      "name": "Toby Webster",
+      "title": "Program Director",
+      "leadership": false
+    },
+    {
+      "name": "Gianluca Bangara",
+      "title": "Operations Lead",
+      "leadership": false
+    }
+  ]
+}

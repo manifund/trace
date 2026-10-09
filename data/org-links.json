@@ -2170,6 +2170,12 @@
       "via": "manual",
       "note": "replaced manifund candidate https://nunosempere.com"
     },
+    "sentinel-bio": {
+      "name": "Sentinel Bio",
+      "url": "https://sentinelbio.org/",
+      "via": "manual",
+      "note": "org's own site, confirmed while adding it as a source 2026-10-09"
+    },
     "separatrix": {
       "name": "Separatrix",
       "url": "https://separatrix.ai",
