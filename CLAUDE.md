@@ -17,6 +17,7 @@ bun run dedup            # Cross-source dup candidates; --apply executes resolut
 bun run verify           # Totals vs data/expected-totals.json
 bun run gen-types        # Regenerate db/database.types.ts from Supabase
 bun run find-org-links   # Propose websites for orgs without one -> data/org-links.json
+bun run find-person-links # Manifund profile links for individuals -> data/person-links.json
 bun run fetch-logos      # Site icons for every org with a website -> public/logos/
 ```
 
@@ -81,6 +82,20 @@ files are `data/teams/<slug>.json`; `bun run ingest-teams` replaces an org's
 rows and links people to their own Trace page when a normalized name matches
 an org of type individual (never auto-creates). Board members and advisors
 are not staff.
+
+## People
+
+Individuals are orgs with `org_type` individual. Ingesters only pick a type
+when they first create an org and most default to organization, so
+`data/org-types.json` lists the slugs they got wrong (`individual`, and a few
+`organization` the other way); `seed` applies it. A person's page shows their
+job as "title, org" from any `org_people` row linked to them, and their
+profile links from `orgs.links` (website, twitter, linkedin, manifund,
+lesswrong, eaforum), which `data/person-links.json` owns. `find-person-links`
+fills the Manifund link, and whatever that profile points at, for people with
+grants on Manifund; the other links are hand research and only go in once
+confirmed to be that person. A personal site lives in `links.website`, not
+`orgs.website`, so `fetch-logos` does not turn it into a logo.
 
 ## Database Migrations
 

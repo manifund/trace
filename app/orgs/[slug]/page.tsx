@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import { notFound } from 'next/navigation'
 import { OrgBarChart } from '@/components/org-bar-chart'
 import { OrgBreakdown } from '@/components/org-breakdown'
@@ -10,7 +11,7 @@ import { OrgTeamBlock } from '@/components/org-team'
 import { getGrantsForOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug, listBusiestOrgSlugs } from '@/db/org'
 import { getReviewsByOrg, getReviewsForOrg } from '@/db/review'
-import { getTeamForOrg } from '@/db/team'
+import { getRolesForPerson, getTeamForOrg } from '@/db/team'
 import {
   byCause,
   byOrg,
@@ -22,6 +23,7 @@ import {
   yearRange,
 } from '@/utils/org-summary'
 import { countsTowardCoverage, ESTIMATE_SYMBOLS, formatCoverage, formatMoney } from '@/utils/format'
+import { LINK_KINDS, LINK_LABELS } from '@/utils/links'
 
 export const revalidate = 600
 
@@ -109,12 +111,20 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const org = await getOrgBySlug(slug)
   if (!org) notFound()
 
-  const [{ made, received, sponsored, via }, reviews, written, team] = await Promise.all([
+  const [{ made, received, sponsored, via }, reviews, written, team, jobs] = await Promise.all([
     getGrantsForOrg(org.slug),
     getReviewsForOrg(org.id),
     getReviewsByOrg(org.id),
     getTeamForOrg(org.id),
+    getRolesForPerson(org.id),
   ])
+  // A person's own site sits where an org's homepage does; their other
+  // profiles follow the type, muted.
+  const website = org.website ?? org.links?.website ?? null
+  const profiles = LINK_KINDS.flatMap((kind) => {
+    const url = org.links?.[kind]
+    return url && kind !== 'website' ? [{ kind, url }] : []
+  })
   // Renames are worth a mention; plain aliases are matching plumbing.
   const formerNames = org.names.filter((name) => name.kind === 'former_name')
 
@@ -197,14 +207,33 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
         <OrgLogo slug={org.slug} className="rounded-sm" />
         <h1 className="font-display text-2xl font-bold">{org.name}</h1>
       </div>
+      {jobs.length > 0 && (
+        <p className="text-sm">
+          {jobs.map((role, i) => (
+            <Fragment key={role.orgSlug}>
+              {i > 0 && ' · '}
+              {role.title && `${role.title}, `}
+              <a href={`/orgs/${role.orgSlug}`}>{role.orgName}</a>
+            </Fragment>
+          ))}
+        </p>
+      )}
       <p className="mb-6 text-sm text-ink-muted">
-        {org.website && (
+        {website && (
           <>
-            <a href={org.website}>{org.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
+            <a href={website}>{website.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
             {' · '}
           </>
         )}
         {org.org_type}
+        {profiles.map(({ kind, url }) => (
+          <Fragment key={kind}>
+            {' · '}
+            <a href={url} className="text-inherit">
+              {LINK_LABELS[kind]}
+            </a>
+          </Fragment>
+        ))}
         {formerNames.length > 0 && (
           <>
             {' · '}

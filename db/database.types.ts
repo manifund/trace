@@ -453,6 +453,7 @@ export type Database = {
           created_at: string
           description: string | null
           id: string
+          links: Json | null
           name: string
           needs_review: boolean
           org_type: string
@@ -464,6 +465,7 @@ export type Database = {
           created_at?: string
           description?: string | null
           id?: string
+          links?: Json | null
           name: string
           needs_review?: boolean
           org_type?: string
@@ -475,6 +477,7 @@ export type Database = {
           created_at?: string
           description?: string | null
           id?: string
+          links?: Json | null
           name?: string
           needs_review?: boolean
           org_type?: string

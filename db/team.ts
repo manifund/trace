@@ -50,3 +50,21 @@ export async function getTeamForOrg(orgId: string): Promise<OrgTeam | null> {
     })),
   }
 }
+
+export type PersonRole = { title: string | null; orgName: string; orgSlug: string }
+
+// Where a person works, read off the team lists of the orgs that name them.
+export async function getRolesForPerson(orgId: string): Promise<PersonRole[]> {
+  if (!dbConfigured()) return []
+  const supabase = createPublicSupabaseClient()
+  const { data } = await supabase
+    .from('org_people')
+    .select('title, leadership, org:orgs!org_people_org_id_fkey(name, slug)')
+    .eq('person_org_id', orgId)
+    .order('leadership', { ascending: false })
+    .throwOnError()
+  return (data ?? []).map((row) => {
+    const org = row.org as never as { name: string; slug: string }
+    return { title: row.title, orgName: org.name, orgSlug: org.slug }
+  })
+}

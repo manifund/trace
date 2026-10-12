@@ -32,7 +32,7 @@ type Project = {
   stage: string
   type: string
   blurb: string | null
-  profiles: { username: string; full_name: string } | null
+  profiles: { username: string; full_name: string; type?: string } | null
   txns: Txn[]
   causes: { title: string; slug: string }[]
 }
@@ -65,7 +65,7 @@ async function fetchDirect(): Promise<Project[]> {
       .from('projects')
       .select(
         `id, title, created_at, slug, stage, type, blurb,
-         profiles!projects_creator_fkey(username, full_name),
+         profiles!projects_creator_fkey(username, full_name, type),
          txns(amount, token, type, created_at, donor:profiles!txns_from_id_fkey(username, full_name)),
          causes(title, slug)`
       )
@@ -133,6 +133,12 @@ async function main() {
       RECIPIENT_OVERRIDES[creatorName] ??
       mapped ??
       (titleIsOrg ? project.title.trim() : creatorName)
+    // A project left under its creator's name is a person's, unless the
+    // creator's profile is itself an org account.
+    const recipientType =
+      recipient === creatorName && project.profiles && project.profiles.type !== 'org'
+        ? ('individual' as const)
+        : undefined
     const causeSlugs = (project.causes ?? []).map((cause) => cause.slug)
     const causes = classifyCauses({
       labels: causeSlugs,
@@ -154,6 +160,7 @@ async function main() {
           funderType: 'fund',
           viaNames: ['Manifund'],
           recipientName: recipient,
+          recipientType,
           amount: funded,
           currency: 'USD',
           date: project.created_at.slice(0, 10),
@@ -193,6 +200,7 @@ async function main() {
           funderType: 'individual',
           viaNames: DONOR_OVERRIDES[username]?.vias ?? ['Manifund'],
           recipientName: recipient,
+          recipientType,
           amount: Math.round(donor.total * 100) / 100,
           currency: 'USD',
           date: donor.last.slice(0, 10),

@@ -1,0 +1,6298 @@
+{
+  "_comment": "Profile links for individuals, keyed by org slug: website (personal or faculty page), twitter, linkedin, manifund, lesswrong, eaforum. `bun run seed` writes them to orgs.links and clears the links of any org not listed, so this file owns that column. `bun run find-person-links` fills manifund (and whatever the Manifund profile links to) for people with grants on Manifund, without overwriting anything already here; the rest is hand research. Only list a profile confirmed to be this person; delete a key to take a link off the site, or set it to null to keep find-person-links from proposing it again.",
+  "people": {
+    "aaron-lehmann": {
+      "name": "Aaron Lehmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aaronl"
+    },
+    "aaron-silverbook": {
+      "name": "Aaron Silverbook",
+      "via": "research",
+      "manifund": "https://manifund.org/AaronSilverbook"
+    },
+    "aaron-webber": {
+      "name": "Aaron Webber",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AaronW"
+    },
+    "aashka-patel": {
+      "name": "Aashka Patel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aashkapatel",
+      "linkedin": "https://www.linkedin.com/in/aashkapatel1111"
+    },
+    "abbie-jacobs": {
+      "name": "Abbie Jacobs",
+      "via": "manifund",
+      "manifund": "https://manifund.org/abbiejacobs"
+    },
+    "abdiaziz-idiris-mohamud": {
+      "name": "Abdiaziz Idiris Mohamud",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Idiriis",
+      "twitter": "https://x.com/AzizIdiriis"
+    },
+    "abdikarim-ahmed-meyre": {
+      "name": "Abdikarim Ahmed meyre",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kariim"
+    },
+    "abi-olvera": {
+      "name": "Abi Olvera",
+      "via": "manifund",
+      "manifund": "https://manifund.org/abi"
+    },
+    "abram-demski": {
+      "name": "Abram Demski",
+      "via": "manifund",
+      "manifund": "https://manifund.org/abramdemski",
+      "lesswrong": "https://www.lesswrong.com/users/abramdemski"
+    },
+    "ace-malik": {
+      "name": "Ace Malik",
+      "via": "manifund",
+      "manifund": "https://manifund.org/acem"
+    },
+    "ad": {
+      "name": "Ad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dizzlesds"
+    },
+    "adam-alexander": {
+      "name": "Adam Alexander",
+      "via": "manifund",
+      "manifund": "https://manifund.org/atalexander"
+    },
+    "adam-gleave": {
+      "name": "Adam Gleave",
+      "via": "research",
+      "website": "https://www.gleave.me/",
+      "twitter": "https://x.com/ARGleave",
+      "linkedin": "https://www.linkedin.com/in/adamgleave/",
+      "manifund": "https://manifund.org/AdamGleave",
+      "lesswrong": "https://www.lesswrong.com/users/adamgleave",
+      "eaforum": "https://forum.effectivealtruism.org/users/adamgleave"
+    },
+    "adam-khoja": {
+      "name": "Adam Khoja",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adamkhoja1"
+    },
+    "adam-morris": {
+      "name": "Adam Morris",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AdamMorris",
+      "website": "https://thatadammorris.com/"
+    },
+    "adam-scholl": {
+      "name": "Adam Scholl",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adamscholl"
+    },
+    "adam-sherman": {
+      "name": "Adam Sherman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Squee"
+    },
+    "adam-yedidia": {
+      "name": "Adam Yedidia",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adamyedidia"
+    },
+    "adelina": {
+      "name": "Adelina",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Adelina"
+    },
+    "aditi-basu": {
+      "name": "Aditi Basu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/abasu",
+      "linkedin": "https://www.linkedin.com/in/aditi-basu"
+    },
+    "aditi-raghunathan": {
+      "name": "Aditi Raghunathan",
+      "via": "research",
+      "website": "https://www.cs.cmu.edu/~aditirag/"
+    },
+    "aditya-arpitha-prasad": {
+      "name": "Aditya Arpitha Prasad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adityaarpitha",
+      "twitter": "https://x.com/adityaarpitha"
+    },
+    "adly-templeton": {
+      "name": "Adly Templeton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adlytempleton"
+    },
+    "adrian-kelly": {
+      "name": "Adrian Kelly",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Adrian",
+      "linkedin": "https://www.linkedin.com/in/ahalekelly"
+    },
+    "adrian-regenfuss": {
+      "name": "Adrian Regenfuss",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Adrian-Regenfuss",
+      "linkedin": "https://www.linkedin.com/in/adrian-regenfu%C3%9F-2a0b1a236"
+    },
+    "adrian-self": {
+      "name": "Adrian Self",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AdnanSlef",
+      "linkedin": "https://www.linkedin.com/in/adrian-self"
+    },
+    "agustin-martinez-sune": {
+      "name": "Agustín Martinez Suñé",
+      "via": "manifund",
+      "manifund": "https://manifund.org/agusmartinez92",
+      "website": "https://agusmartinez.ar"
+    },
+    "aidan": {
+      "name": "Aidan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adnhw"
+    },
+    "aidan-alexander": {
+      "name": "Aidan Alexander",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FarmKind",
+      "website": "https://farmkind.giving"
+    },
+    "aidan-kankyoku": {
+      "name": "Aidan Kankyoku",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kankyoku",
+      "website": "https://proanimal.org"
+    },
+    "aidar-toktargazin": {
+      "name": "Aidar Toktargazin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mrBlueSky",
+      "linkedin": "https://www.linkedin.com/in/aidar-toktargazin-110955273"
+    },
+    "aj-weeks": {
+      "name": "AJ Weeks",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ajweeks",
+      "linkedin": "https://www.linkedin.com/in/aj-weeks"
+    },
+    "alain-le-noac-h": {
+      "name": "Alain Le Noac'h",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alenoach"
+    },
+    "alaina-sigler": {
+      "name": "Alaina Sigler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alainasigler"
+    },
+    "alan": {
+      "name": "Alan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/janviernes"
+    },
+    "alan-aspuru-guzik": {
+      "name": "Alán Aspuru-Guzik",
+      "via": "research",
+      "website": "https://www.matter.toronto.edu/basic-content-page/about-alan",
+      "linkedin": "https://www.linkedin.com/in/alanaspuru/"
+    },
+    "alan-darer": {
+      "name": "Alan Darer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alandarer"
+    },
+    "alan-robock": {
+      "name": "Alan Robock",
+      "via": "research",
+      "website": "https://people.envsci.rutgers.edu/robock/",
+      "twitter": "https://x.com/AlanRobock"
+    },
+    "aldan-creo": {
+      "name": "Aldan Creo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/acmc",
+      "website": "https://acmc.fyi"
+    },
+    "alejandro-acelas": {
+      "name": "Alejandro Acelas",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alejoacelas"
+    },
+    "aleksander-madry": {
+      "name": "Aleksander Madry",
+      "via": "research",
+      "website": "https://madry.mit.edu/",
+      "twitter": "https://x.com/aleks_madry"
+    },
+    "aleksandr-popov": {
+      "name": "Aleksandr Popov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alexander230"
+    },
+    "aleksandr-putilin": {
+      "name": "Aleksandr Putilin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/42irrationalist",
+      "website": "https://psychotechnology.substack.com/"
+    },
+    "aleksei-besogonov": {
+      "name": "Aleksei Besogonov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AlekseiBesogonov"
+    },
+    "aleksei-chebotarev": {
+      "name": "Aleksei Chebotarev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nikudaorg"
+    },
+    "alene-anello": {
+      "name": "Alene Anello",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alene"
+    },
+    "aleph-coin": {
+      "name": "Aleph Coin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AlephCoin"
+    },
+    "alex-alarga": {
+      "name": "Alex Alarga",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AlexAlarga"
+    },
+    "alex-cloud": {
+      "name": "Alex Cloud",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kacloud",
+      "linkedin": "https://www.linkedin.com/in/kacloud"
+    },
+    "alex-hunt": {
+      "name": "Alex Hunt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alex-Hunt"
+    },
+    "alex-lyzhov": {
+      "name": "Alex Lyzhov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alexlyzhov"
+    },
+    "alex-mennen": {
+      "name": "Alex Mennen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alexmennen"
+    },
+    "alex-palcuie": {
+      "name": "Alex Palcuie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/palcu",
+      "twitter": "https://x.com/AlexPalcuie"
+    },
+    "alex-schell": {
+      "name": "Alex Schell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alexs"
+    },
+    "alex-toussaint": {
+      "name": "Alex Toussaint",
+      "via": "research",
+      "website": "https://alextoussaint.com/",
+      "twitter": "https://x.com/alextoussss",
+      "linkedin": "https://www.linkedin.com/in/alex-toussaint-51a439189",
+      "manifund": "https://manifund.org/alextouss"
+    },
+    "alex-veshev": {
+      "name": "Alex Veshev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aveshev"
+    },
+    "alex-vogt": {
+      "name": "Alex Vogt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/HungryDino"
+    },
+    "alex-yun": {
+      "name": "Alex Yun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/codercorgi"
+    },
+    "alex-zhu": {
+      "name": "Alex Zhu",
+      "via": "research",
+      "website": "https://zhukeepa.substack.com/",
+      "twitter": "https://x.com/zhukeepa",
+      "manifund": "https://manifund.org/zhukeepa",
+      "lesswrong": "https://www.lesswrong.com/users/zhukeepa"
+    },
+    "alexa-pan": {
+      "name": "Alexa Pan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alexa-Pan",
+      "linkedin": "https://www.linkedin.com/in/alexa-pan-5678ab163"
+    },
+    "alexander-bistagne": {
+      "name": "Alexander Bistagne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alexhb61"
+    },
+    "alexander-mont": {
+      "name": "Alexander Mont",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alex319"
+    },
+    "alexander-olek-pisera": {
+      "name": "Alexander (Olek) Pisera",
+      "via": "manifund",
+      "manifund": "https://manifund.org/olekp",
+      "website": "https://olekp.com"
+    },
+    "alexander-pan": {
+      "name": "Alexander Pan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aypan",
+      "website": "https://aypan17.github.io"
+    },
+    "alexander-sandy-fraser": {
+      "name": "Alexander (Sandy) Fraser",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SandyFraser",
+      "linkedin": "https://www.linkedin.com/in/alex-fraser-dev"
+    },
+    "alexander-tarakhovsky": {
+      "name": "Alexander Tarakhovsky",
+      "via": "research",
+      "website": "https://www.rockefeller.edu/our-scientists/heads-of-laboratories/979-alexander-tarakhovsky/"
+    },
+    "alexandra-bates": {
+      "name": "Alexandra Bates",
+      "via": "manifund",
+      "manifund": "https://manifund.org/alexandraabates"
+    },
+    "alexandria-beck": {
+      "name": "Alexandria Beck",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alexandriabeck"
+    },
+    "alexis-frentz": {
+      "name": "ALexis Frentz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aftz"
+    },
+    "alin-galatan": {
+      "name": "Alin galatan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Agalatan",
+      "twitter": "https://x.com/galatanalin"
+    },
+    "alisha": {
+      "name": "Alisha",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Alisha"
+    },
+    "allan-basbaum": {
+      "name": "Allan Basbaum",
+      "via": "research",
+      "website": "https://basbaumlab.ucsf.edu/"
+    },
+    "allan-dafoe": {
+      "name": "Allan Dafoe",
+      "via": "research",
+      "website": "https://www.allandafoe.com/",
+      "eaforum": "https://forum.effectivealtruism.org/users/allandafoe"
+    },
+    "allison": {
+      "name": "Allison",
+      "via": "manifund",
+      "manifund": "https://manifund.org/allisona"
+    },
+    "almira-tanner": {
+      "name": "Almira Tanner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/almiratanner"
+    },
+    "alondra-nelson": {
+      "name": "Alondra Nelson",
+      "via": "research",
+      "website": "https://www.ias.edu/sss/faculty/nelson",
+      "twitter": "https://x.com/alondra"
+    },
+    "amaury-de-la-vaissiere-ars": {
+      "name": "Amaury de la Vaissière (ARS)",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Louis-Amaury"
+    },
+    "amber-ivey": {
+      "name": "Amber Ivey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/amber"
+    },
+    "ambreen-deol": {
+      "name": "Ambreen Deol",
+      "via": "manifund",
+      "manifund": "https://manifund.org/DrAmbreenDeol"
+    },
+    "ammon-lam": {
+      "name": "Ammon Lam",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ammonlam"
+    },
+    "ampdot": {
+      "name": "ampdot",
+      "via": "research",
+      "website": "https://ampdot.mesh.host/",
+      "twitter": "https://x.com/amplifiedamp",
+      "manifund": "https://manifund.org/ampdot",
+      "lesswrong": "https://www.lesswrong.com/users/ampdot"
+    },
+    "amy-pickering": {
+      "name": "Amy Pickering",
+      "via": "research",
+      "website": "https://pickering.berkeley.edu/"
+    },
+    "andrea-diaz": {
+      "name": "Andrea Diaz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ayvee_d"
+    },
+    "andreas-stuhlmuller": {
+      "name": "Andreas Stuhlmüller",
+      "via": "manifund",
+      "manifund": "https://manifund.org/stuhlmueller",
+      "website": "https://stuhlmueller.org/"
+    },
+    "andreas-z": {
+      "name": "Andreas Z.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/marktwse",
+      "website": "https://marketwise.substack.com/"
+    },
+    "andrew": {
+      "name": "andrew",
+      "via": "manifund",
+      "manifund": "https://manifund.org/andrew1"
+    },
+    "andrew-djuwidja": {
+      "name": "Andrew Djuwidja",
+      "via": "manifund",
+      "manifund": "https://manifund.org/djuwidjaandrew"
+    },
+    "andrew-g": {
+      "name": "Andrew G",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AndrewG",
+      "website": "https://andrew.gr"
+    },
+    "andrew-gaul": {
+      "name": "Andrew Gaul",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gaul",
+      "website": "http://gaul.org/"
+    },
+    "andrew-gimber": {
+      "name": "Andrew Gimber",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gimber"
+    },
+    "andrew-ilyas": {
+      "name": "Andrew Ilyas",
+      "via": "research",
+      "website": "https://andrewilyas.com",
+      "twitter": "https://x.com/andrew_ilyas"
+    },
+    "andrew-kemeklis": {
+      "name": "Andrew Kemeklis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/andrewkemeklis"
+    },
+    "andrew-luskin": {
+      "name": "Andrew Luskin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/andrewluskin",
+      "twitter": "https://x.com/aluskin"
+    },
+    "andrew-sutton": {
+      "name": "Andrew Sutton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/andrewsutton"
+    },
+    "andy-arditi": {
+      "name": "Andy Arditi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/andyrdt",
+      "website": "https://andyrdt.com"
+    },
+    "andy-c": {
+      "name": "Andy C",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AC57000"
+    },
+    "andy-martin": {
+      "name": "Andy Martin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AndyMartin"
+    },
+    "angel-lau": {
+      "name": "Angel Lau",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Angel-Lau"
+    },
+    "angus-gillott": {
+      "name": "Angus Gillott",
+      "via": "manifund",
+      "manifund": "https://manifund.org/angusgillott"
+    },
+    "anima-anandkumar": {
+      "name": "Anima Anandkumar",
+      "via": "research",
+      "website": "http://tensorlab.cms.caltech.edu/users/anima/",
+      "twitter": "https://x.com/AnimaAnandkumar",
+      "linkedin": "https://www.linkedin.com/in/anima-anandkumar-35171b1"
+    },
+    "ank555": {
+      "name": "aNK555",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aNK555"
+    },
+    "ankur-pandey": {
+      "name": "Ankur Pandey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ankurpandey",
+      "website": "https://ankurpandey.bio.link"
+    },
+    "ann-brown": {
+      "name": "Ann Brown",
+      "via": "manifund",
+      "manifund": "https://manifund.org/atomicprogramming"
+    },
+    "anna-libey": {
+      "name": "Anna Libey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Green42"
+    },
+    "anne-fulton": {
+      "name": "Anne Fulton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AnneFulton"
+    },
+    "anthony-duong": {
+      "name": "Anthony Duong",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Anthony",
+      "linkedin": "https://www.linkedin.com/in/anthonyduong1"
+    },
+    "anthony-giovannetti": {
+      "name": "Anthony Giovannetti",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Anthony-Giovannetti",
+      "twitter": "https://x.com/stimhacked"
+    },
+    "anthony-james-maxin": {
+      "name": "Anthony James Maxin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/maxin7",
+      "website": "https://apertur.ai"
+    },
+    "anton-borzov": {
+      "name": "Anton Borzov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tyggy",
+      "twitter": "https://x.com/tyggy"
+    },
+    "anton-makiievskyi": {
+      "name": "Anton Makiievskyi",
+      "via": "research",
+      "manifund": "https://manifund.org/AntonMakiievskyi"
+    },
+    "antonio-d": {
+      "name": "Antonio D",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Antonio"
+    },
+    "antra-tessera": {
+      "name": "Antra Tessera",
+      "via": "manifund",
+      "manifund": "https://manifund.org/antra_tessera"
+    },
+    "anurag-kashyap": {
+      "name": "Anurag Kashyap",
+      "via": "manifund",
+      "manifund": "https://manifund.org/anurag1457"
+    },
+    "appleyard111": {
+      "name": "appleyard111",
+      "via": "manifund",
+      "manifund": "https://manifund.org/appleyard111"
+    },
+    "arenal": {
+      "name": "arenal",
+      "via": "manifund",
+      "manifund": "https://manifund.org/arenal"
+    },
+    "ari-spiesberger": {
+      "name": "Ari Spiesberger",
+      "via": "manifund",
+      "manifund": "https://manifund.org/probabilities",
+      "linkedin": "https://www.linkedin.com/in/ari-spiesberger-b5652516b"
+    },
+    "aria-wong": {
+      "name": "Aria Wong",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ariahw",
+      "website": "https://ariahw.github.io/"
+    },
+    "arky": {
+      "name": "Arky",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Arky"
+    },
+    "arran-mccutcheon": {
+      "name": "Arran McCutcheon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ArranM"
+    },
+    "arvind-narayanan": {
+      "name": "Arvind Narayanan",
+      "via": "research",
+      "website": "https://www.cs.princeton.edu/~arvindn/",
+      "twitter": "https://x.com/random_walker",
+      "linkedin": "https://www.linkedin.com/in/randomwalker"
+    },
+    "arya-jakkli": {
+      "name": "Arya Jakkli",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ajobi"
+    },
+    "aryo-pradipta-gema": {
+      "name": "Aryo Pradipta Gema",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aryopg",
+      "website": "https://aryopg.com"
+    },
+    "ascended-npc-alex": {
+      "name": "Ascended NPC Alex",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lastnpcalex-",
+      "website": "https://lastnpcalex.com"
+    },
+    "atenahena": {
+      "name": "atenahena",
+      "via": "manifund",
+      "manifund": "https://manifund.org/athenahao2000"
+    },
+    "audrey-bell": {
+      "name": "Audrey Bell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/anonymousUser12345"
+    },
+    "august": {
+      "name": "August",
+      "via": "manifund",
+      "manifund": "https://manifund.org/teniser"
+    },
+    "auguste-baum": {
+      "name": "Auguste Baum",
+      "via": "manifund",
+      "manifund": "https://manifund.org/augustebaum"
+    },
+    "aurore-sallard": {
+      "name": "Aurore Sallard",
+      "via": "manifund",
+      "manifund": "https://manifund.org/auroreS704"
+    },
+    "austin-chen": {
+      "name": "Austin Chen",
+      "via": "research",
+      "website": "https://blog.austn.io/",
+      "twitter": "https://x.com/akrolsmir",
+      "linkedin": "https://www.linkedin.com/in/austinch",
+      "manifund": "https://manifund.org/Austin",
+      "lesswrong": "https://www.lesswrong.com/users/austin-chen",
+      "eaforum": "https://forum.effectivealtruism.org/users/akrolsmir"
+    },
+    "aysja": {
+      "name": "aysja",
+      "via": "manifund",
+      "manifund": "https://manifund.org/aysja"
+    },
+    "b-haney": {
+      "name": "B Haney",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bhaney64"
+    },
+    "bart-bussmann": {
+      "name": "Bart Bussmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Bart-Bussmann"
+    },
+    "bart-jaworski": {
+      "name": "Bart Jaworski",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Bart",
+      "linkedin": "https://www.linkedin.com/in/84rt"
+    },
+    "bayesian": {
+      "name": "bayesian",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Bayesian"
+    },
+    "bds-4nt-3c-n8p": {
+      "name": "bds_4nt_3c_n8p",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bds_4nt_3c_n8p"
+    },
+    "becca-rogers": {
+      "name": "Becca Rogers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/beccarogers14",
+      "linkedin": "https://www.linkedin.com/in/rebeccarogers12"
+    },
+    "ben-eisenpress": {
+      "name": "Ben Eisenpress",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ben55231"
+    },
+    "ben-engebreth": {
+      "name": "Ben Engebreth",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bengebre",
+      "website": "https://benengebreth.org"
+    },
+    "ben-gadsby": {
+      "name": "Ben Gadsby",
+      "via": "manifund",
+      "manifund": "https://manifund.org/brgadsby",
+      "twitter": "https://x.com/brgadsby"
+    },
+    "ben-goldhaber": {
+      "name": "Ben Goldhaber",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bengoldhaber"
+    },
+    "ben-weinstein-raun": {
+      "name": "Ben Weinstein-Raun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/benwr",
+      "website": "https://benwr.net"
+    },
+    "benjamin": {
+      "name": "Benjamin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Benjamin"
+    },
+    "benjamin-cosman": {
+      "name": "Benjamin Cosman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/BenjaminCosman"
+    },
+    "benjamin-hause": {
+      "name": "Benjamin Hause",
+      "via": "manifund",
+      "manifund": "https://manifund.org/benhause",
+      "website": "https://benjaminhause.com"
+    },
+    "benjamin-koenigsberg": {
+      "name": "Benjamin koenigsberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Basil-B-Vegan"
+    },
+    "benjamin-manns": {
+      "name": "Benjamin Manns",
+      "via": "manifund",
+      "manifund": "https://manifund.org/benmanns",
+      "website": "https://www.benmanns.com/"
+    },
+    "benjamin-sturgeon": {
+      "name": "Benjamin Sturgeon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/BenSturgeon",
+      "website": "https://www.benjaminsturgeon.com/"
+    },
+    "beno-marton": {
+      "name": "Benő Marton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/beno"
+    },
+    "bernhard-scholkopf": {
+      "name": "Bernhard Schölkopf",
+      "via": "research",
+      "website": "https://is.mpg.de/~bs",
+      "twitter": "https://x.com/bschoelkopf"
+    },
+    "bertrand-russet": {
+      "name": "bertrand russet",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bertrand"
+    },
+    "billy-hause": {
+      "name": "Billy Hause",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Billy"
+    },
+    "birju-pandya": {
+      "name": "birju pandya",
+      "via": "manifund",
+      "manifund": "https://manifund.org/hoozibopper"
+    },
+    "bjrn-fesche": {
+      "name": "Bjørn Fesche",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Fesche"
+    },
+    "blake-borgeson": {
+      "name": "Blake Borgeson",
+      "via": "research",
+      "website": "https://blakeb.org",
+      "twitter": "https://x.com/blakeweb",
+      "manifund": "https://manifund.org/blake_borgeson",
+      "lesswrong": "https://www.lesswrong.com/users/blake-borgeson"
+    },
+    "bob-fischer": {
+      "name": "Bob Fischer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bobfischer"
+    },
+    "bohaska": {
+      "name": "Bohaska",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Bohaska"
+    },
+    "boyang-xia": {
+      "name": "Boyang Xia",
+      "via": "manifund",
+      "manifund": "https://manifund.org/b0x1"
+    },
+    "brad-west": {
+      "name": "Brad West",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Brad-West",
+      "linkedin": "https://www.linkedin.com/in/brad-west-78209952"
+    },
+    "brayden-mclean": {
+      "name": "Brayden McLean",
+      "via": "manifund",
+      "manifund": "https://manifund.org/braydenm"
+    },
+    "brendan-long": {
+      "name": "Brendan Long",
+      "via": "manifund",
+      "manifund": "https://manifund.org/brendanlong",
+      "website": "https://www.brendanlong.com"
+    },
+    "brent-burdick": {
+      "name": "Brent Burdick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Brent",
+      "twitter": "https://x.com/BingBongBrent"
+    },
+    "brenton-milne": {
+      "name": "Brenton Milne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sudonhim",
+      "twitter": "https://x.com/sudonhim"
+    },
+    "brian-e": {
+      "name": "Brian E",
+      "via": "manifund",
+      "manifund": "https://manifund.org/machinebiology"
+    },
+    "brian-t-edwards": {
+      "name": "Brian T. Edwards",
+      "via": "manifund",
+      "manifund": "https://manifund.org/BTE",
+      "linkedin": "https://www.linkedin.com/in/briantedwards"
+    },
+    "brocc": {
+      "name": "brocc",
+      "via": "manifund",
+      "manifund": "https://manifund.org/broccoli"
+    },
+    "bryan-davis": {
+      "name": "Bryan Davis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/b-g-d",
+      "linkedin": "https://www.linkedin.com/in/bryangilbertdavis"
+    },
+    "bryce-meyer": {
+      "name": "Bryce Meyer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Bryce"
+    },
+    "bryce-woodworth": {
+      "name": "Bryce Woodworth",
+      "via": "manifund",
+      "manifund": "https://manifund.org/BryceW"
+    },
+    "c": {
+      "name": "c",
+      "via": "manifund",
+      "manifund": "https://manifund.org/counterfactual"
+    },
+    "cady-witt": {
+      "name": "Cady Witt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cady"
+    },
+    "caitlyn-winz": {
+      "name": "Caitlyn Winz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/caitlynwinz"
+    },
+    "caleb-biddulph": {
+      "name": "Caleb Biddulph",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CDBiddulph"
+    },
+    "caleb-ditchfield": {
+      "name": "Caleb Ditchfield",
+      "via": "manifund",
+      "manifund": "https://manifund.org/klob"
+    },
+    "callan-mcgill": {
+      "name": "Callan McGill",
+      "via": "manifund",
+      "manifund": "https://manifund.org/callanmcgill"
+    },
+    "callum-mcdougall": {
+      "name": "Callum McDougall",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CallumMcDougall",
+      "website": "https://www.perfectlynormal.co.uk/"
+    },
+    "calvin-legassick": {
+      "name": "Calvin LeGassick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/calvinlegassick"
+    },
+    "cameron-grant": {
+      "name": "Cameron Grant",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cameronnn3"
+    },
+    "cameron-holmes": {
+      "name": "Cameron Holmes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cameron"
+    },
+    "camila-blank": {
+      "name": "Camila Blank",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cb"
+    },
+    "campbell-hutcheson": {
+      "name": "Campbell Hutcheson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/campbell_hutcheson"
+    },
+    "can-rager": {
+      "name": "Can Rager",
+      "via": "manifund",
+      "manifund": "https://manifund.org/canrager",
+      "linkedin": "https://www.linkedin.com/in/canrager"
+    },
+    "candace-burton": {
+      "name": "Candace Burton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Candaceb77"
+    },
+    "carla-gomes": {
+      "name": "Carla Gomes",
+      "via": "research",
+      "website": "https://www.cs.cornell.edu/gomes/"
+    },
+    "carmen-csilla-medina": {
+      "name": "Carmen Csilla Medina",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CarmenCondor",
+      "linkedin": "https://www.linkedin.com/in/carmen-csilla-medina"
+    },
+    "carol-destro": {
+      "name": "Carol Destro",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Carol-Destro",
+      "linkedin": "https://www.linkedin.com/in/carol-destro-62516459"
+    },
+    "carolina-oliveira": {
+      "name": "Carolina Oliveira",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ollive"
+    },
+    "caroline-araujo-de-oliveira": {
+      "name": "Caroline Araujo de Oliveira",
+      "via": "research",
+      "manifund": "https://manifund.org/Caroline-Oliveira",
+      "eaforum": "https://forum.effectivealtruism.org/users/caroline-oliveira-1"
+    },
+    "caroline-cameron": {
+      "name": "Caroline Cameron",
+      "via": "research",
+      "website": "https://www.uvic.ca/science/molecular/faculty-staff/faculty/cameron-caroline.php"
+    },
+    "caroline-kraus": {
+      "name": "Caroline Kraus",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Caroline"
+    },
+    "carrie-moran": {
+      "name": "Carrie Moran",
+      "via": "manifund",
+      "manifund": "https://manifund.org/carrieemoran"
+    },
+    "case-sandberg": {
+      "name": "Case Sandberg",
+      "via": "research",
+      "website": "https://casesandberg.com/",
+      "manifund": "https://manifund.org/case"
+    },
+    "casey-robinson": {
+      "name": "casey Robinson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/itskaysee"
+    },
+    "cat": {
+      "name": "cat",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cat"
+    },
+    "catalina-lopez-salazar": {
+      "name": "Catalina Lopez Salazar",
+      "via": "manifund",
+      "manifund": "https://manifund.org/catalina42",
+      "linkedin": "https://www.linkedin.com/in/catalina-lopez-38a30238"
+    },
+    "cate-levey": {
+      "name": "Cate Levey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cate"
+    },
+    "catherine-marks": {
+      "name": "Catherine Marks",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Catherine"
+    },
+    "cedar-xida-ren": {
+      "name": "Cedar Xida Ren",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cedar"
+    },
+    "cedric-potvliege": {
+      "name": "Cedric Potvliege",
+      "via": "manifund",
+      "manifund": "https://manifund.org/1998cedric"
+    },
+    "changbai-li": {
+      "name": "Changbai Li",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Changbai",
+      "website": "https://changbai.li"
+    },
+    "charbel-raphael-segerie": {
+      "name": "Charbel-Raphael Segerie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/charbel-raphael",
+      "website": "https://crsegerie.github.io/"
+    },
+    "charitable-donor": {
+      "name": "Charitable Donor",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CharitableDonor"
+    },
+    "charles-anderson": {
+      "name": "Charles Anderson",
+      "via": "research",
+      "website": "https://sites.psu.edu/cellwalls/",
+      "linkedin": "https://www.linkedin.com/in/charlie-anderson-6846498"
+    },
+    "charles-gersbach": {
+      "name": "Charles Gersbach",
+      "via": "research",
+      "website": "https://www.gersbachlab.org/",
+      "linkedin": "https://www.linkedin.com/in/charles-gersbach-b63aa66"
+    },
+    "charles-harding": {
+      "name": "Charles Harding",
+      "via": "manifund",
+      "manifund": "https://manifund.org/charding"
+    },
+    "charles-karanja": {
+      "name": "Charles Karanja",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cmkaranja"
+    },
+    "charles-meyer": {
+      "name": "Charles Meyer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Hemispheric"
+    },
+    "charlie-guthmann": {
+      "name": "Charlie Guthmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cguth"
+    },
+    "charlie-molthrop": {
+      "name": "Charlie Molthrop",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Charlie"
+    },
+    "charlo-blis": {
+      "name": "charlo blis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/superdog38"
+    },
+    "chase-carter": {
+      "name": "Chase Carter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Chase-Carter"
+    },
+    "chastenier": {
+      "name": "Chastenier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jean-Luc"
+    },
+    "chelsea-naylor": {
+      "name": "Chelsea Naylor",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Crnaylor03"
+    },
+    "chetan-kharbanda": {
+      "name": "Chetan Kharbanda",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Chetan_k",
+      "linkedin": "https://www.linkedin.com/in/chetan-kharbanda-7044b1105"
+    },
+    "chi-nguyen": {
+      "name": "Chi Nguyen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/chi-nguyen"
+    },
+    "chih-hsien-chien": {
+      "name": "Chih-Hsien Chien",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joechien1021"
+    },
+    "chin-ze-shen": {
+      "name": "Chin Ze Shen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/zeshen",
+      "linkedin": "https://www.linkedin.com/in/chinzeshen"
+    },
+    "chris-aguila": {
+      "name": "Chris Aguila",
+      "via": "manifund",
+      "manifund": "https://manifund.org/coaguila"
+    },
+    "chris-canal": {
+      "name": "Chris Canal",
+      "via": "manifund",
+      "manifund": "https://manifund.org/chriscanal",
+      "linkedin": "https://www.linkedin.com/in/chriscanal"
+    },
+    "chris-lakin": {
+      "name": "Chris Lakin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Chris-Lakin",
+      "website": "https://chrislakin.com/"
+    },
+    "chris-leong": {
+      "name": "Chris Leong",
+      "via": "manifund",
+      "manifund": "https://manifund.org/casebash"
+    },
+    "chris-m": {
+      "name": "Chris M",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Chris"
+    },
+    "chris-maddison": {
+      "name": "Chris Maddison",
+      "via": "research",
+      "website": "https://www.cs.toronto.edu/~cmaddis/",
+      "twitter": "https://x.com/cjmaddison"
+    },
+    "chris-popa": {
+      "name": "Chris Popa",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Chris_Eats_Plants",
+      "linkedin": "https://www.linkedin.com/in/popachris"
+    },
+    "chris-prichard": {
+      "name": "Chris Prichard",
+      "via": "manifund",
+      "manifund": "https://manifund.org/prichardchris"
+    },
+    "chris-wendler": {
+      "name": "Chris Wendler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/chris",
+      "website": "https://wendlerc.github.io"
+    },
+    "christian-schroeder-de-witt": {
+      "name": "Christian Schroeder de Witt",
+      "via": "research",
+      "website": "https://wittlab.ai/",
+      "linkedin": "https://www.linkedin.com/in/christian-schroeder-de-witt-7a453159",
+      "lesswrong": "https://www.lesswrong.com/users/schroederdewitt"
+    },
+    "christian-shaw": {
+      "name": "Christian Shaw",
+      "via": "manifund",
+      "manifund": "https://manifund.org/chrisshaw"
+    },
+    "christinechitongo": {
+      "name": "christinechitongo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/christinechitongo"
+    },
+    "christopher-a-davis": {
+      "name": "Christopher A. Davis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davispan",
+      "linkedin": "https://www.linkedin.com/in/christopher-davis-204b8b4"
+    },
+    "christopher-leet": {
+      "name": "Christopher Leet",
+      "via": "manifund",
+      "manifund": "https://manifund.org/christopherleetcjcl"
+    },
+    "chrypnotoad": {
+      "name": "chrypnotoad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/chrypnotoad",
+      "website": "https://chrypnotoad.com"
+    },
+    "claudie-lercier": {
+      "name": "Claudie Lercier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CLercier"
+    },
+    "clement-dumas": {
+      "name": "Clément Dumas",
+      "via": "manifund",
+      "manifund": "https://manifund.org/butanium",
+      "website": "https://butanium.github.io"
+    },
+    "colin-rust": {
+      "name": "Colin Rust",
+      "via": "manifund",
+      "manifund": "https://manifund.org/crust10"
+    },
+    "connacher-murphy": {
+      "name": "Connacher Murphy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/connacher",
+      "website": "https://connachermurphy.com/"
+    },
+    "connor": {
+      "name": "Connor",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Cpd1"
+    },
+    "connor-axiotes": {
+      "name": "Connor Axiotes",
+      "via": "research",
+      "twitter": "https://x.com/connoraxiotes",
+      "linkedin": "https://www.linkedin.com/in/connor-axiotes-979718143",
+      "manifund": "https://manifund.org/Connoraxiotes"
+    },
+    "connor-mccormick": {
+      "name": "Connor McCormick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/connormcmk"
+    },
+    "conor-plunkett": {
+      "name": "Conor Plunkett",
+      "via": "manifund",
+      "manifund": "https://manifund.org/conorplunkett",
+      "linkedin": "https://www.linkedin.com/in/conor-plunkett"
+    },
+    "constance-li": {
+      "name": "Constance Li",
+      "via": "research",
+      "twitter": "https://x.com/conlicats",
+      "linkedin": "https://www.linkedin.com/in/constance-li-8147b177",
+      "manifund": "https://manifund.org/liconstan",
+      "eaforum": "https://forum.effectivealtruism.org/users/constance-li"
+    },
+    "cornelis-dirk-haupt": {
+      "name": "Cornelis Dirk Haupt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Corn"
+    },
+    "craig-falls": {
+      "name": "Craig Falls",
+      "via": "research",
+      "manifund": "https://manifund.org/cfalls"
+    },
+    "csenge-kertesi": {
+      "name": "Csenge Kertesi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/csekertes"
+    },
+    "d": {
+      "name": "D",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Record2355"
+    },
+    "daisuke-katsura": {
+      "name": "Daisuke Katsura",
+      "via": "manifund",
+      "manifund": "https://manifund.org/daisukekatsura"
+    },
+    "damian": {
+      "name": "Damian",
+      "via": "manifund",
+      "manifund": "https://manifund.org/damc4"
+    },
+    "dan-girshovich": {
+      "name": "Dan Girshovich",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dangirsh"
+    },
+    "dan-hendrycks": {
+      "name": "Dan Hendrycks",
+      "via": "research",
+      "website": "https://danhendrycks.com/",
+      "twitter": "https://x.com/hendrycks",
+      "manifund": "https://manifund.org/hendrycks",
+      "lesswrong": "https://www.lesswrong.com/users/dan-h",
+      "eaforum": "https://forum.effectivealtruism.org/users/dan-hendrycks"
+    },
+    "dan-wahl": {
+      "name": "Dan Wahl",
+      "via": "research",
+      "website": "https://danwahl.net/",
+      "twitter": "https://x.com/fakedrwahl",
+      "linkedin": "https://www.linkedin.com/in/drwahl",
+      "manifund": "https://manifund.org/danwahl",
+      "eaforum": "https://forum.effectivealtruism.org/users/dan-wahl"
+    },
+    "danica-kubick": {
+      "name": "Danica Kubick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Danica-NewRootsInstitute",
+      "website": "https://www.newrootsinstitute.org"
+    },
+    "daniel-elabi": {
+      "name": "Daniel Elabi",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/daniel-elabi",
+      "manifund": "https://manifund.org/Elabi"
+    },
+    "daniel-faggella": {
+      "name": "daniel faggella",
+      "via": "manifund",
+      "manifund": "https://manifund.org/danfaggella"
+    },
+    "daniel-filan": {
+      "name": "Daniel Filan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/daniel_filan"
+    },
+    "daniel-friedrich": {
+      "name": "Daniel Friedrich",
+      "via": "manifund",
+      "manifund": "https://manifund.org/df"
+    },
+    "daniel-hnyk": {
+      "name": "Daniel Hnyk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/hnykda",
+      "website": "https://danielhnyk.cz/"
+    },
+    "daniel-johnson": {
+      "name": "Daniel Johnson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ddjohnson"
+    },
+    "daniel-kang": {
+      "name": "Daniel Kang",
+      "via": "research",
+      "website": "https://ddkang.github.io/",
+      "twitter": "https://x.com/daniel_d_kang"
+    },
+    "daniel-murfet": {
+      "name": "Daniel Murfet",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dmurfet"
+    },
+    "daniel-n": {
+      "name": "Daniel N",
+      "via": "manifund",
+      "manifund": "https://manifund.org/CriticalReason"
+    },
+    "daniel-naber": {
+      "name": "Daniel Naber",
+      "via": "manifund",
+      "manifund": "https://manifund.org/danielnaber",
+      "website": "https://danielnaber.de/"
+    },
+    "daniela-rus": {
+      "name": "Daniela Rus",
+      "via": "research",
+      "website": "https://danielarus.csail.mit.edu/"
+    },
+    "daniela-shuman": {
+      "name": "Daniela Shuman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dshuman",
+      "website": "https://danielashuman.com"
+    },
+    "danielle-haldeman": {
+      "name": "danielle haldeman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sugarhiccup"
+    },
+    "danryanfl": {
+      "name": "danryanfl",
+      "via": "manifund",
+      "manifund": "https://manifund.org/danryanfl"
+    },
+    "dara-homer": {
+      "name": "Dara Homer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/darahomer"
+    },
+    "dark-shark": {
+      "name": "Dark shark",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dark-shark-420"
+    },
+    "dave-little": {
+      "name": "Dave Little",
+      "via": "research",
+      "website": "https://www.stir.ac.uk/people/255974"
+    },
+    "dave-patton": {
+      "name": "Dave Patton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davepatton"
+    },
+    "david-autor": {
+      "name": "David Autor",
+      "via": "research",
+      "website": "https://economics.mit.edu/people/faculty/david-h-autor",
+      "twitter": "https://x.com/davidautor"
+    },
+    "david-baker": {
+      "name": "David Baker",
+      "via": "research",
+      "website": "https://www.bakerlab.org/"
+    },
+    "david-bau": {
+      "name": "David Bau",
+      "via": "research",
+      "website": "https://baulab.info/",
+      "twitter": "https://x.com/davidbau",
+      "linkedin": "https://www.linkedin.com/in/david-bau-4b8130/"
+    },
+    "david-bern": {
+      "name": "David Bern",
+      "via": "manifund",
+      "manifund": "https://manifund.org/odie5533"
+    },
+    "david-carel": {
+      "name": "David Carel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dcarel8",
+      "linkedin": "https://www.linkedin.com/in/david-carel-b433251b3"
+    },
+    "david-danks": {
+      "name": "David Danks",
+      "via": "research",
+      "website": "https://www.daviddanks.org/"
+    },
+    "david-federico-rivadeneira": {
+      "name": "David Federico Rivadeneira",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davidfriva",
+      "linkedin": "https://www.linkedin.com/in/david-rivadeneira"
+    },
+    "david-fitzpatrick": {
+      "name": "David Fitzpatrick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davidefitz"
+    },
+    "david-glidden": {
+      "name": "David Glidden",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dglid",
+      "linkedin": "https://www.linkedin.com/in/davidglidden"
+    },
+    "david-gockede": {
+      "name": "David Göckede",
+      "via": "manifund",
+      "manifund": "https://manifund.org/DavGoeck"
+    },
+    "david-ibarra": {
+      "name": "David Ibarra",
+      "via": "manifund",
+      "manifund": "https://manifund.org/adiosdavid"
+    },
+    "david-kasten": {
+      "name": "David Kasten",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davekasten"
+    },
+    "david-manheim": {
+      "name": "David Manheim",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davidmanheim",
+      "twitter": "https://x.com/davidmanheim"
+    },
+    "david-moss": {
+      "name": "David Moss",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/david-moss-789a9616",
+      "manifund": "https://manifund.org/David_Moss",
+      "eaforum": "https://forum.effectivealtruism.org/users/david_moss"
+    },
+    "david-rein": {
+      "name": "David Rein",
+      "via": "manifund",
+      "manifund": "https://manifund.org/idavidrein",
+      "twitter": "https://x.com/idavidrein"
+    },
+    "david-rozado": {
+      "name": "David Rozado",
+      "via": "manifund",
+      "manifund": "https://manifund.org/drozado",
+      "website": "https://drozado.github.io/"
+    },
+    "david-sibley": {
+      "name": "David Sibley",
+      "via": "research",
+      "website": "https://sibleylab.wustl.edu/"
+    },
+    "david-spelbacken": {
+      "name": "David Spelbacken",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davidspelbacken"
+    },
+    "david-thorstad": {
+      "name": "David Thorstad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/DavidThorstad",
+      "website": "https://dthorstad.com"
+    },
+    "david-valdman": {
+      "name": "David Valdman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dmvaldman"
+    },
+    "david-williams-king": {
+      "name": "David Williams-King",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dwks",
+      "linkedin": "https://www.linkedin.com/in/david-williams-king"
+    },
+    "david-younghans": {
+      "name": "David Younghans",
+      "via": "manifund",
+      "manifund": "https://manifund.org/davidyounghans"
+    },
+    "dawn-song": {
+      "name": "Dawn Song",
+      "via": "research",
+      "website": "https://dawnsong.io/",
+      "twitter": "https://x.com/dawnsongtweets"
+    },
+    "dean-l": {
+      "name": "Dean L",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dmlar"
+    },
+    "deleted-user": {
+      "name": "[deleted user]",
+      "via": "manifund",
+      "manifund": "https://manifund.org/deleted-user"
+    },
+    "delta": {
+      "name": "delta",
+      "via": "manifund",
+      "manifund": "https://manifund.org/deltanym"
+    },
+    "derik-k": {
+      "name": "Derik K",
+      "via": "manifund",
+      "manifund": "https://manifund.org/derikk",
+      "website": "https://derikk.com"
+    },
+    "devansh-mehta": {
+      "name": "Devansh Mehta",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Devansh",
+      "twitter": "https://x.com/TheDevanshMehta"
+    },
+    "devina-jain": {
+      "name": "Devina Jain",
+      "via": "manifund",
+      "manifund": "https://manifund.org/djain95"
+    },
+    "dex-xavier-copeland": {
+      "name": "Dex-Xavier Copeland",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dexcopeland"
+    },
+    "dimitris-tsapakidis": {
+      "name": "Dimitris Tsapakidis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dimitris"
+    },
+    "dionisos": {
+      "name": "dionisos",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dionisos"
+    },
+    "diyi-yang": {
+      "name": "Diyi Yang",
+      "via": "research",
+      "website": "https://cs.stanford.edu/~diyiy/"
+    },
+    "dmitriy-khripkov": {
+      "name": "Dmitriy Khripkov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dmitriy"
+    },
+    "dolethebobdole11": {
+      "name": "dolethebobdole11",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dolethebobdole11"
+    },
+    "donald-j-trump": {
+      "name": "Donald J. Trump",
+      "via": "manifund",
+      "manifund": "https://manifund.org/realDonaldTrump",
+      "twitter": "https://x.com/realDonaldTrump"
+    },
+    "donna-clotworthy": {
+      "name": "donna clotworthy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rabbit"
+    },
+    "donna-dane": {
+      "name": "Donna Dane",
+      "via": "manifund",
+      "manifund": "https://manifund.org/madonnadane"
+    },
+    "dorota-kontny": {
+      "name": "Dorota Kontny",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Dorota",
+      "website": "https://www.dorotakontny.pl"
+    },
+    "douglas-brubaker": {
+      "name": "Douglas Brubaker",
+      "via": "research",
+      "website": "https://brubakerlab.org",
+      "linkedin": "https://www.linkedin.com/in/douglas-brubaker-11b167161"
+    },
+    "dr-kevin-jones": {
+      "name": "Dr. Kevin Jones",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joneskjiuedu"
+    },
+    "dr-lewis-wall": {
+      "name": "Dr. Lewis Wall",
+      "via": "manifund",
+      "manifund": "https://manifund.org/WallLwustledu",
+      "website": "https://www,fewsi.org"
+    },
+    "dr-richard-armitage": {
+      "name": "Dr Richard Armitage",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RichArmitage",
+      "website": "https://www.drricharmitage.com"
+    },
+    "dr-waku": {
+      "name": "Dr Waku",
+      "via": "manifund",
+      "manifund": "https://manifund.org/drwaku"
+    },
+    "drake-morrison": {
+      "name": "DRAKE MORRISON",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Leviad",
+      "twitter": "https://x.com/DrakeRMorrison"
+    },
+    "drew-spartz": {
+      "name": "Drew Spartz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/drewspartz"
+    },
+    "duke": {
+      "name": "duke",
+      "via": "manifund",
+      "manifund": "https://manifund.org/pattern"
+    },
+    "duncan-purvis": {
+      "name": "Duncan Purvis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/DuncanPurvis",
+      "linkedin": "https://www.linkedin.com/in/duncanpurvisau"
+    },
+    "dusan-d-nesic": {
+      "name": "Dusan D Nesic",
+      "via": "manifund",
+      "manifund": "https://manifund.org/DusanDNesic",
+      "linkedin": "https://www.linkedin.com/in/nesicdusan"
+    },
+    "dustin-moskovitz": {
+      "name": "Dustin Moskovitz",
+      "via": "research",
+      "twitter": "https://x.com/moskov",
+      "linkedin": "https://www.linkedin.com/in/dmoskov"
+    },
+    "dwight": {
+      "name": "dwight",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dwight"
+    },
+    "dylan-mavrides": {
+      "name": "Dylan Mavrides",
+      "via": "manifund",
+      "manifund": "https://manifund.org/18Dylan18"
+    },
+    "e-j": {
+      "name": "E. J.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ifk"
+    },
+    "eduarda-nedeff": {
+      "name": "Eduarda Nedeff",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dudanedeff"
+    },
+    "edward-pierzchalski": {
+      "name": "Edward Pierzchalski",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eapi"
+    },
+    "edwin-kite": {
+      "name": "Edwin Kite",
+      "via": "manifund",
+      "manifund": "https://manifund.org/edwinkite",
+      "website": "https://sseh.uchicago.edu"
+    },
+    "eitan-f": {
+      "name": "Eitan F",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Eitan"
+    },
+    "elaine-perlman": {
+      "name": "Elaine Perlman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Elaine",
+      "website": "https://elaineperlman.com"
+    },
+    "elena-brau": {
+      "name": "Elena Bräu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elenabraeu",
+      "linkedin": "https://www.linkedin.com/in/elena-br%C3%A4u"
+    },
+    "eli-elster": {
+      "name": "Eli Elster",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eselster",
+      "website": "https://www.eselster.org"
+    },
+    "eli-lifland": {
+      "name": "Eli Lifland",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elifland"
+    },
+    "elide-pantoli": {
+      "name": "Elide Pantoli",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Epantoli"
+    },
+    "elizabeth-barnes": {
+      "name": "Elizabeth Barnes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eb"
+    },
+    "elizabeth-crewe": {
+      "name": "Elizabeth Crewe",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elizabethcreweicloudcom"
+    },
+    "elizabeth-van-nostrand": {
+      "name": "Elizabeth Van Nostrand",
+      "via": "research",
+      "website": "https://acesounderglass.com/",
+      "twitter": "https://x.com/acesounderglass",
+      "manifund": "https://manifund.org/Elizabeth",
+      "lesswrong": "https://www.lesswrong.com/users/elizabeth-1",
+      "eaforum": "https://forum.effectivealtruism.org/users/elizabeth"
+    },
+    "elliot-arledge": {
+      "name": "Elliot Arledge",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elliot"
+    },
+    "elliot-li-bearden": {
+      "name": "Elliot (Li) Bearden",
+      "via": "manifund",
+      "manifund": "https://manifund.org/li",
+      "website": "https://libearden.dev/"
+    },
+    "elliot-teperman": {
+      "name": "Elliot Teperman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elliottep"
+    },
+    "elvis-sikora": {
+      "name": "Elvis Sikora",
+      "via": "manifund",
+      "manifund": "https://manifund.org/elvissikora"
+    },
+    "em-ponders": {
+      "name": "Em Ponders",
+      "via": "manifund",
+      "manifund": "https://manifund.org/EmPonders-",
+      "website": "Https://em.ponders.us"
+    },
+    "emil-wallner": {
+      "name": "Emil Wallner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/emilwallner"
+    },
+    "emile-thibault": {
+      "name": "Emile Thibault",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Emile",
+      "linkedin": "https://www.linkedin.com/in/emile-thibault-27a961222"
+    },
+    "emily-guzzardi": {
+      "name": "Emily Guzzardi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eguzzardi"
+    },
+    "emma-jane-humphrey": {
+      "name": "Emma Jane Humphrey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/AISANZ---New-Zealand-Community-Manager",
+      "linkedin": "https://www.linkedin.com/in/emma-humphrey17"
+    },
+    "emma-pierson": {
+      "name": "Emma Pierson",
+      "via": "research",
+      "website": "https://www2.eecs.berkeley.edu/Faculty/Homepages/emmapierson.html"
+    },
+    "emmie-hine": {
+      "name": "Emmie Hine",
+      "via": "manifund",
+      "manifund": "https://manifund.org/emmiehine"
+    },
+    "eni-aliko": {
+      "name": "Eni Aliko",
+      "via": "manifund",
+      "manifund": "https://manifund.org/enialiko",
+      "linkedin": "https://www.linkedin.com/in/eni-aliko"
+    },
+    "eoghan-flanagan": {
+      "name": "Eoghan Flanagan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Eoghanf"
+    },
+    "eran-aviram": {
+      "name": "Eran Aviram",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nnesk"
+    },
+    "eric-arellano": {
+      "name": "Eric Arellano",
+      "via": "manifund",
+      "manifund": "https://manifund.org/arellano"
+    },
+    "eric-davidson-sawyer": {
+      "name": "Eric Davidson-Sawyer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/edavidsonsawyer"
+    },
+    "eric-neyman": {
+      "name": "Eric Neyman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Eric-Neyman",
+      "website": "https://ericneyman.wordpress.com/"
+    },
+    "erik-brynjolfsson": {
+      "name": "Erik Brynjolfsson",
+      "via": "research",
+      "website": "https://www.brynjolfsson.com",
+      "twitter": "https://x.com/erikbryn",
+      "linkedin": "https://www.linkedin.com/in/erikbrynjolfsson"
+    },
+    "erik-leklem": {
+      "name": "Erik Leklem",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eleklem",
+      "linkedin": "https://www.linkedin.com/in/erikleklem"
+    },
+    "erin-robertson": {
+      "name": "Erin Robertson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/erin_f"
+    },
+    "esben-kran": {
+      "name": "Esben Kran",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Esben-Kran"
+    },
+    "ethan-josean-perez": {
+      "name": "Ethan Josean Perez",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ethanjperez",
+      "website": "https://ethanperez.net"
+    },
+    "ethan-sherrard": {
+      "name": "Ethan Sherrard",
+      "via": "manifund",
+      "manifund": "https://manifund.org/turnpikelad"
+    },
+    "evan-hubinger": {
+      "name": "Evan Hubinger",
+      "via": "research",
+      "website": "https://www.alignmentforum.org/users/evhub",
+      "twitter": "https://x.com/EvanHub",
+      "linkedin": "https://www.linkedin.com/in/ehubinger",
+      "manifund": "https://manifund.org/evhub",
+      "lesswrong": "https://www.lesswrong.com/users/evhub",
+      "eaforum": "https://forum.effectivealtruism.org/users/evhub"
+    },
+    "evan-miyazono": {
+      "name": "Evan Miyazono",
+      "via": "manifund",
+      "manifund": "https://manifund.org/emiyazono"
+    },
+    "evander-hammer": {
+      "name": "Evander Hammer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Evander",
+      "website": "https://bit.ly/evanderhammer-website"
+    },
+    "evelyn-ciara": {
+      "name": "Evelyn Ciara",
+      "via": "manifund",
+      "manifund": "https://manifund.org/evelynciara",
+      "eaforum": "https://forum.effectivealtruism.org/users/eevee"
+    },
+    "evzen-wybitul": {
+      "name": "Evžen Wybitul",
+      "via": "manifund",
+      "manifund": "https://manifund.org/evzen",
+      "twitter": "https://x.com/evzen_wy"
+    },
+    "fabio-mascarenhas": {
+      "name": "Fabio Mascarenhas",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mascarenhas"
+    },
+    "fabrice-lercier": {
+      "name": "Fabrice Lercier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FLercier"
+    },
+    "fawaz-joseph": {
+      "name": "Fawaz Joseph",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FJo"
+    },
+    "fazl-barez": {
+      "name": "Fazl Barez",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kiko7"
+    },
+    "federica-falagiarda": {
+      "name": "Federica Falagiarda",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fedefalag"
+    },
+    "fei-fei-li": {
+      "name": "Fei-Fei Li",
+      "via": "research",
+      "website": "https://profiles.stanford.edu/fei-fei-li",
+      "twitter": "https://x.com/drfeifei"
+    },
+    "felix-harder": {
+      "name": "Felix Harder",
+      "via": "manifund",
+      "manifund": "https://manifund.org/felix"
+    },
+    "felix-michalak": {
+      "name": "Felix Michalak",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lamal"
+    },
+    "felix-onyeka-nwose": {
+      "name": "Felix Onyeka Nwose",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Fon85",
+      "linkedin": "https://www.linkedin.com/in/felixnwose"
+    },
+    "felix-werdermann": {
+      "name": "Felix Werdermann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Felix_W",
+      "linkedin": "https://www.linkedin.com/in/felix-werdermann"
+    },
+    "ferventmeow": {
+      "name": "FerventMeow",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FerventMeow"
+    },
+    "finn-metz": {
+      "name": "Finn Metz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Finn-Metz",
+      "linkedin": "https://www.linkedin.com/in/finn-metz"
+    },
+    "flip-pidot": {
+      "name": "Flip Pidot",
+      "via": "manifund",
+      "manifund": "https://manifund.org/flip",
+      "twitter": "https://x.com/amcivtwit"
+    },
+    "florian-dietz": {
+      "name": "Florian Dietz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FlorianDietz",
+      "linkedin": "https://www.linkedin.com/in/floriandietz"
+    },
+    "florian-tramer": {
+      "name": "Florian Tramèr",
+      "via": "research",
+      "website": "https://floriantramer.com",
+      "twitter": "https://x.com/florian_tramer",
+      "linkedin": "https://www.linkedin.com/in/floriantramer"
+    },
+    "flsmith3": {
+      "name": "flsmith3",
+      "via": "manifund",
+      "manifund": "https://manifund.org/flsmith3"
+    },
+    "foobar": {
+      "name": "Foobar",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Foo"
+    },
+    "francesca-gomez": {
+      "name": "Francesca Gomez",
+      "via": "manifund",
+      "manifund": "https://manifund.org/wiserhuman",
+      "linkedin": "https://www.linkedin.com/in/francescagomez"
+    },
+    "francis-bach": {
+      "name": "Francis Bach",
+      "via": "research",
+      "website": "https://www.di.ens.fr/~fbach/",
+      "twitter": "https://x.com/BachFrancis"
+    },
+    "francis-rhys-ward": {
+      "name": "Francis Rhys Ward",
+      "via": "research",
+      "website": "https://francisrhysward.wordpress.com",
+      "twitter": "https://x.com/F_Rhys_Ward",
+      "lesswrong": "https://www.lesswrong.com/users/francis-rhys-ward"
+    },
+    "francisco-carvalho": {
+      "name": "Francisco Carvalho",
+      "via": "manifund",
+      "manifund": "https://manifund.org/francisco",
+      "linkedin": "https://www.linkedin.com/in/francisco-carvalho-587073152"
+    },
+    "francisco-ollervides": {
+      "name": "Francisco Ollervides",
+      "via": "manifund",
+      "manifund": "https://manifund.org/follervides",
+      "website": "https://www.thrivephilanthropy.org/"
+    },
+    "franciszek-zak": {
+      "name": "Franciszek Żak",
+      "via": "manifund",
+      "manifund": "https://manifund.org/maniexx",
+      "website": "https://fzak.pl"
+    },
+    "frank-hecker": {
+      "name": "Frank Hecker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FrankHecker",
+      "website": "https://frankhecker.com/"
+    },
+    "frank-yu": {
+      "name": "frank yu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ghostdog",
+      "linkedin": "https://www.linkedin.com/in/frankyu"
+    },
+    "franklin-baldo": {
+      "name": "Franklin Baldo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FranklinBaldo"
+    },
+    "fred-heiding": {
+      "name": "Fred Heiding",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fredheiding",
+      "website": "https://fredheiding.com/"
+    },
+    "frederic-l": {
+      "name": "Frederic L",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Frederic"
+    },
+    "frib": {
+      "name": "frib",
+      "via": "manifund",
+      "manifund": "https://manifund.org/frib"
+    },
+    "friedrich-zwanzger": {
+      "name": "Friedrich Zwanzger",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Freddy-from-Germany"
+    },
+    "fumi-kimura": {
+      "name": "Fumi Kimura",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fumikimkim"
+    },
+    "g": {
+      "name": "G",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gav"
+    },
+    "gabor-varkonyi": {
+      "name": "Gábor Várkonyi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/retard_human_ai",
+      "twitter": "https://x.com/retard_human_ai"
+    },
+    "gabriel-sherman": {
+      "name": "Gabriel Sherman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gabrielshermanb",
+      "website": "https://gabsherm.com"
+    },
+    "gabriela-j-oporto-patroni": {
+      "name": "Gabriela J. Oporto Patroni",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gabrielaop88"
+    },
+    "garrett-baker": {
+      "name": "Garrett Baker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/GarretteBaker"
+    },
+    "gary-zimmermann": {
+      "name": "Gary Zimmermann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mesagzimmerm"
+    },
+    "gaurav-yadav": {
+      "name": "Gaurav Yadav",
+      "via": "manifund",
+      "manifund": "https://manifund.org/GauravYadav",
+      "website": "https://bristolaisafety.org"
+    },
+    "gavin-leech": {
+      "name": "Gavin Leech",
+      "via": "research",
+      "website": "https://www.gleech.org",
+      "twitter": "https://x.com/gleech",
+      "manifund": "https://manifund.org/gleech",
+      "lesswrong": "https://www.lesswrong.com/users/technicalities",
+      "eaforum": "https://forum.effectivealtruism.org/users/technicalities"
+    },
+    "geetika-sripathi": {
+      "name": "Geetika Sripathi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vegeeter",
+      "linkedin": "https://www.linkedin.com/in/geetikabhandari"
+    },
+    "gene-smith": {
+      "name": "Gene Smith",
+      "via": "manifund",
+      "manifund": "https://manifund.org/GeneSmith"
+    },
+    "genevieve-shea": {
+      "name": "Genevieve Shea",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gen",
+      "linkedin": "https://www.linkedin.com/in/genevieve-shea"
+    },
+    "geoff-p": {
+      "name": "Geoff P",
+      "via": "manifund",
+      "manifund": "https://manifund.org/geneparmezan"
+    },
+    "gergo-gaspar": {
+      "name": "Gergő Gáspár",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gergo"
+    },
+    "gillian-hadfield": {
+      "name": "Gillian Hadfield",
+      "via": "research",
+      "website": "https://gillianhadfield.org/"
+    },
+    "girish-sastry": {
+      "name": "Girish Sastry",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gsastry"
+    },
+    "girl-lich": {
+      "name": "Girl Lich",
+      "via": "manifund",
+      "manifund": "https://manifund.org/girllich"
+    },
+    "glen-m-taggart": {
+      "name": "Glen M. Taggart",
+      "via": "manifund",
+      "manifund": "https://manifund.org/GlenTaggart"
+    },
+    "glenn-willen": {
+      "name": "Glenn Willen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gwillen"
+    },
+    "gnutella": {
+      "name": "gnutella",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gnutella"
+    },
+    "godog-ly-ness": {
+      "name": "Godog Ly Ness",
+      "via": "manifund",
+      "manifund": "https://manifund.org/godoglyness"
+    },
+    "grace-adams": {
+      "name": "Grace Adams",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gadams"
+    },
+    "grayden-reece-smith": {
+      "name": "Grayden Reece-Smith",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Grayden"
+    },
+    "greg-lanzaro": {
+      "name": "Greg Lanzaro",
+      "via": "research",
+      "website": "https://vectorgeneticslab.ucdavis.edu/people/gregory-lanzaro"
+    },
+    "gregor-baumann": {
+      "name": "Gregor Baumann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Pingu2k"
+    },
+    "gregory-durst": {
+      "name": "Gregory Durst",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gdurst"
+    },
+    "gregory-timp": {
+      "name": "Gregory Timp",
+      "via": "research",
+      "website": "https://engineering.nd.edu/faculty/gregory-timp/"
+    },
+    "guang-yang": {
+      "name": "Guang Yang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/guangyang19"
+    },
+    "guy": {
+      "name": "Guy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Guy"
+    },
+    "guy-w-richards": {
+      "name": "Guy W Richards",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Guyrus-",
+      "linkedin": "https://www.linkedin.com/in/guy-r-995b2a4b"
+    },
+    "gwyneth-van-meter": {
+      "name": "Gwyneth Van Meter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gwyntel",
+      "twitter": "https://x.com/threethousandtm"
+    },
+    "haakon-huynh": {
+      "name": "Haakon Huynh",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Haakon-Huynh",
+      "linkedin": "https://www.linkedin.com/in/haakon-huynh"
+    },
+    "hans-schonberg": {
+      "name": "Hans Schönberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Hans"
+    },
+    "haochen-tang": {
+      "name": "Haochen Tang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Lucas",
+      "linkedin": "https://www.linkedin.com/in/haochentang"
+    },
+    "hardeep-singh-gambhir": {
+      "name": "Hardeep Singh Gambhir",
+      "via": "manifund",
+      "manifund": "https://manifund.org/hardeep_gambhir",
+      "linkedin": "https://www.linkedin.com/in/hardeep-gambhir"
+    },
+    "harris-max": {
+      "name": "Harris Max",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vegavengers"
+    },
+    "harry-warne": {
+      "name": "Harry Warne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/harrywarne"
+    },
+    "harvey-powers": {
+      "name": "Harvey Powers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/HarveyPowers"
+    },
+    "heather-johnson": {
+      "name": "Heather Johnson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/hjohnson213"
+    },
+    "henri-thunberg": {
+      "name": "Henri Thunberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/HenriThunberg",
+      "linkedin": "https://www.linkedin.com/in/henrithunberg"
+    },
+    "henry-stanley": {
+      "name": "Henry Stanley",
+      "via": "manifund",
+      "manifund": "https://manifund.org/henryaj",
+      "website": "https://henrystanley.com"
+    },
+    "holly-elmore": {
+      "name": "Holly Elmore",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Holly_Elmore",
+      "website": "https://hollyelmore.substack.com/"
+    },
+    "holly-morgan": {
+      "name": "Holly Morgan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Holly-Morgan",
+      "linkedin": "https://www.linkedin.com/in/holly-morgan"
+    },
+    "huey-kwik": {
+      "name": "Huey Kwik",
+      "via": "manifund",
+      "manifund": "https://manifund.org/huey",
+      "twitter": "https://x.com/hueykwik"
+    },
+    "ian-philips": {
+      "name": "Ian Philips",
+      "via": "manifund",
+      "manifund": "https://manifund.org/IanPhilips"
+    },
+    "ibrahim-cagr-mutaf": {
+      "name": "İbrahim Çağrı Mutaf",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cagrimutaf",
+      "website": "https://www.kafessizturkiye.com"
+    },
+    "ibrahim-suleiman": {
+      "name": "Ibrahim Suleiman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ibs"
+    },
+    "ignacio-rf": {
+      "name": "Ignacio RF",
+      "via": "manifund",
+      "manifund": "https://manifund.org/igrofe",
+      "linkedin": "https://www.linkedin.com/in/ignacio-roldan-fdez"
+    },
+    "igor-ivanov": {
+      "name": "Igor Ivanov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Reese"
+    },
+    "indrek-kivirik": {
+      "name": "Indrek Kivirik",
+      "via": "manifund",
+      "manifund": "https://manifund.org/indrekkivirikee"
+    },
+    "isaac-dunn": {
+      "name": "Isaac Dunn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/isaacdunn"
+    },
+    "isaak-freeman": {
+      "name": "Isaak Freeman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/IsaakFreeman",
+      "website": "https://isaak.net"
+    },
+    "isabel-juniewicz": {
+      "name": "Isabel Juniewicz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/isabelj",
+      "linkedin": "https://www.linkedin.com/in/isabel-juniewicz-50867135"
+    },
+    "isostition": {
+      "name": "isostition",
+      "via": "manifund",
+      "manifund": "https://manifund.org/isostition"
+    },
+    "itsi-weinstock": {
+      "name": "Itsi Weinstock",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ItsiWeinstock",
+      "website": "https://itsiweinstock.com"
+    },
+    "ivan-arcuschin-moreno": {
+      "name": "Iván Arcuschin Moreno",
+      "via": "manifund",
+      "manifund": "https://manifund.org/iarcuschin",
+      "linkedin": "https://www.linkedin.com/in/iarcuschin"
+    },
+    "ivan-z": {
+      "name": "Ivan Z",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Aivean"
+    },
+    "ivanvendrov": {
+      "name": "IvanVendrov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ivan",
+      "website": "https://vendrov.ai"
+    },
+    "ja-mesa-dixon": {
+      "name": "Ja'Mesa Dixon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dixonjamesa1"
+    },
+    "jaan-tallinn": {
+      "name": "Jaan Tallinn",
+      "via": "research",
+      "website": "https://jaan.info/",
+      "lesswrong": "https://www.lesswrong.com/users/jaan"
+    },
+    "jack-maiorino": {
+      "name": "Jack Maiorino",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jackmaiorino"
+    },
+    "jack-robinson": {
+      "name": "Jack Robinson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/19jrob46"
+    },
+    "jack-such": {
+      "name": "Jack Such",
+      "via": "manifund",
+      "manifund": "https://manifund.org/such",
+      "linkedin": "https://www.linkedin.com/in/jack-such-067684134"
+    },
+    "jack-zhu": {
+      "name": "Jack Zhu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JackZ295"
+    },
+    "jackson-dean": {
+      "name": "Jackson Dean",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jackson"
+    },
+    "jacob-b-raser": {
+      "name": "Jacob B Raser",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Onethousandnos-"
+    },
+    "jacob-belenkii": {
+      "name": "Jacob Belenkii",
+      "via": "manifund",
+      "manifund": "https://manifund.org/anastasia"
+    },
+    "jacob-cohen": {
+      "name": "Jacob Cohen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Conflux"
+    },
+    "jacob-goldman-wetzler": {
+      "name": "Jacob Goldman-Wetzler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jacobgw",
+      "website": "https://jacobgw.com/"
+    },
+    "jacob-peacock": {
+      "name": "Jacob Peacock",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jacob-Peacock"
+    },
+    "jacob-pfau": {
+      "name": "Jacob Pfau",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jacobpfau"
+    },
+    "jacob-rogers": {
+      "name": "Jacob Rogers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jaker836"
+    },
+    "jacob-steinhardt": {
+      "name": "Jacob Steinhardt",
+      "via": "research",
+      "website": "https://jsteinhardt.stat.berkeley.edu/",
+      "linkedin": "https://www.linkedin.com/in/jacob-steinhardt-a30437bb",
+      "manifund": "https://manifund.org/jsteinhardt",
+      "lesswrong": "https://www.lesswrong.com/users/jsteinhardt",
+      "eaforum": "https://forum.effectivealtruism.org/users/jsteinhardt"
+    },
+    "jacob-swett": {
+      "name": "Jacob Swett",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jacob-Swett",
+      "website": "https://blueprintbiosecurity.org/"
+    },
+    "jacob-witten": {
+      "name": "Jacob Witten",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JacobWitten"
+    },
+    "jacqueline-payne": {
+      "name": "Jacqueline Payne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/packie603"
+    },
+    "jacy-reese-anthis": {
+      "name": "Jacy Reese Anthis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jacy"
+    },
+    "jade-master": {
+      "name": "Jade Master",
+      "via": "manifund",
+      "manifund": "https://manifund.org/edenstar",
+      "website": "https://jademaster.xyz/"
+    },
+    "jaeson-booker": {
+      "name": "Jaeson Booker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JaesonB",
+      "linkedin": "https://www.linkedin.com/in/jaeson-booker"
+    },
+    "jaime-sevilla": {
+      "name": "Jaime Sevilla",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jsevillamol"
+    },
+    "jake-prokopets": {
+      "name": "Jake Prokopets",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jprokopets"
+    },
+    "jake-spicer": {
+      "name": "Jake Spicer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JakeySpice"
+    },
+    "jakob-foerster": {
+      "name": "Jakob Foerster",
+      "via": "research",
+      "website": "https://www.jakobfoerster.com/",
+      "twitter": "https://x.com/j_foerst"
+    },
+    "jakob-wendelin": {
+      "name": "Jakob Wendelin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JakobW"
+    },
+    "jakub-fidler": {
+      "name": "Jakub Fidler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jakub-Fidler"
+    },
+    "jakub-halmes": {
+      "name": "Jakub Halmeš",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jac08h"
+    },
+    "jakub-supe": {
+      "name": "Jakub Supeł",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jsupim1-"
+    },
+    "jalex-stark": {
+      "name": "Jalex Stark",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jalex",
+      "website": "https://www.jalexstark.com"
+    },
+    "james-calder-knight": {
+      "name": "James Calder Knight",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jim",
+      "website": "https://jimfund.com"
+    },
+    "james-dahlman": {
+      "name": "James Dahlman",
+      "via": "research",
+      "website": "https://dahlmanlab.org/"
+    },
+    "james-dao": {
+      "name": "James Dao",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jmsdao",
+      "linkedin": "https://www.linkedin.com/in/jmsdao"
+    },
+    "james-faville": {
+      "name": "James Faville",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jamesfaville",
+      "website": "http://jamesfaville.com"
+    },
+    "jan-bauer": {
+      "name": "Jan Bauer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/japhba"
+    },
+    "jan-gorgens": {
+      "name": "Jan Görgens",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jan-Grgens"
+    },
+    "jan-terjung": {
+      "name": "Jan Terjung",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jan",
+      "linkedin": "https://www.linkedin.com/in/jan-terjung"
+    },
+    "janete-salcedo": {
+      "name": "Janete Salcedo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/janetesalcedo",
+      "linkedin": "https://www.linkedin.com/in/janete-salcedo-morales-10a20514a"
+    },
+    "jared-seehafer": {
+      "name": "Jared Seehafer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/seehafer"
+    },
+    "jash-vira": {
+      "name": "Jash Vira",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jashvira",
+      "website": "https://jashvira.github.io/"
+    },
+    "jason": {
+      "name": "Jason",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jason",
+      "eaforum": "https://forum.effectivealtruism.org/users/jason-1"
+    },
+    "jason-m-kingodn": {
+      "name": "Jason M. Kingodn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jasonkingdon",
+      "linkedin": "https://www.linkedin.com/in/jason-m-kingdon-11590a10b"
+    },
+    "jasper": {
+      "name": "Jasper",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jaspervoskuilen"
+    },
+    "jasper-cacioppi": {
+      "name": "Jasper Cacioppi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/J_C"
+    },
+    "jasper-stammes": {
+      "name": "Jasper Stammes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jasper",
+      "linkedin": "https://www.linkedin.com/in/jasper-stammes-21784b197"
+    },
+    "javier-prieto": {
+      "name": "Javier Prieto",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JavierPrieto",
+      "twitter": "https://x.com/2e10e122"
+    },
+    "jay-bailey": {
+      "name": "Jay Bailey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jay_Bailey"
+    },
+    "jay-schreiber": {
+      "name": "Jay Schreiber",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JJ"
+    },
+    "jazear-brooks": {
+      "name": "Jazear Brooks",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jazzy",
+      "twitter": "https://x.com/JazearBrooks"
+    },
+    "jbf": {
+      "name": "jbf",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jbf"
+    },
+    "jd-bauman": {
+      "name": "JD Bauman",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/jd-bauman-4ab940159/",
+      "manifund": "https://manifund.org/JDBauman",
+      "eaforum": "https://forum.effectivealtruism.org/users/jdbauman"
+    },
+    "jean-gabriel-young": {
+      "name": "Jean-Gabriel Young",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jgyou"
+    },
+    "jeannie-walter": {
+      "name": "Jeannie Walter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeanniewalter"
+    },
+    "jeannie-zhao": {
+      "name": "Jeannie Zhao",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jezhao-"
+    },
+    "jeba-sania": {
+      "name": "Jeba Sania",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeba"
+    },
+    "jeff-lynne": {
+      "name": "jeff lynne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/trainToLondon"
+    },
+    "jeff-sebo": {
+      "name": "Jeff Sebo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeffsebo",
+      "website": "https://jeffsebo.net"
+    },
+    "jeffrey-glenn": {
+      "name": "Jeffrey Glenn",
+      "via": "research",
+      "website": "https://med.stanford.edu/glennlab.html"
+    },
+    "jeffrey-hathaway": {
+      "name": "Jeffrey Hathaway",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeff3454"
+    },
+    "jenna-kyler": {
+      "name": "Jenna Kyler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LittleBird"
+    },
+    "jennifer-baik": {
+      "name": "Jennifer Baik",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jenba00",
+      "linkedin": "https://www.linkedin.com/in/jen-b-49a906114"
+    },
+    "jennifer-tourkin": {
+      "name": "Jennifer Tourkin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jtourkin"
+    },
+    "jenny-nicholson": {
+      "name": "Jenny Nicholson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/missjenny"
+    },
+    "jeremias-ferrao": {
+      "name": "Jeremias Ferrao",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JazHyc"
+    },
+    "jeremy-belloir": {
+      "name": "Jérémy Belloir",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Maeda"
+    },
+    "jeremy-campbell": {
+      "name": "Jeremy Campbell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeremy"
+    },
+    "jeremy-schlatter": {
+      "name": "Jeremy Schlatter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jeremyschlatter"
+    },
+    "jeroen-willems": {
+      "name": "Jeroen Willems",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JeroenWillems"
+    },
+    "jerry-sun": {
+      "name": "Jerry Sun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jerrysun"
+    },
+    "jess": {
+      "name": "Jess",
+      "via": "manifund",
+      "manifund": "https://manifund.org/creative_name"
+    },
+    "jess-griffin": {
+      "name": "jess griffin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jessgrif"
+    },
+    "jesse-richardson": {
+      "name": "Jesse Richardson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jesse-Richardson"
+    },
+    "jesse-tandler": {
+      "name": "Jesse Tandler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jesset"
+    },
+    "jessica-pu-wang": {
+      "name": "Jessica Pu Wang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jessicapwang",
+      "linkedin": "https://www.linkedin.com/in/jessica-pu-wang-62b581156"
+    },
+    "jessika-ava-ms-mpa": {
+      "name": "Jessika Ava, MS, MPA",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jessika-Ava",
+      "website": "https://www.jessikaava.com/"
+    },
+    "jibrin-jaafaru": {
+      "name": "Jibrin Jaafaru",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jibrinx-",
+      "website": "https://jibrinx.github.io"
+    },
+    "jim-maar": {
+      "name": "Jim Maar",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jimmm"
+    },
+    "jisoo-kim": {
+      "name": "Jisoo Kim",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JLK",
+      "linkedin": "https://www.linkedin.com/in/jisoolkim"
+    },
+    "jj-allaire": {
+      "name": "JJ Allaire",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jjallaire"
+    },
+    "jj-hepburn": {
+      "name": "JJ Hepburn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JJ-Hepburn",
+      "website": "https://ashgro.org"
+    },
+    "jneilblackman": {
+      "name": "jneilblackman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jneilblackman"
+    },
+    "joanna-wiaterek": {
+      "name": "Joanna Wiaterek",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Asia"
+    },
+    "joar-skalse": {
+      "name": "Joar Skalse",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JoarSkalse"
+    },
+    "jody-farnden": {
+      "name": "Jody Farnden",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jfarnden"
+    },
+    "joe-emerson": {
+      "name": "Joe Emerson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joeemerson",
+      "linkedin": "https://www.linkedin.com/in/joseph-emerson-1a0490287"
+    },
+    "joel": {
+      "name": "Joël",
+      "via": "manifund",
+      "manifund": "https://manifund.org/j"
+    },
+    "joel-becker": {
+      "name": "Joel Becker",
+      "via": "research",
+      "website": "https://joel-becker.com/",
+      "twitter": "https://x.com/joel_bkr",
+      "linkedin": "https://www.linkedin.com/in/joel-becker",
+      "manifund": "https://manifund.org/joel_bkr",
+      "lesswrong": "https://www.lesswrong.com/users/joel-becker",
+      "eaforum": "https://forum.effectivealtruism.org/users/joel-becker"
+    },
+    "joel-gustafson": {
+      "name": "Joel Gustafson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gustafjt"
+    },
+    "johannes-c-mayer": {
+      "name": "Johannes C. Mayer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/johannesCmayer",
+      "lesswrong": "https://www.lesswrong.com/users/johannes-c-mayer"
+    },
+    "johannes-pichler": {
+      "name": "Johannes Pichler",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/johannes---pichler/",
+      "manifund": "https://manifund.org/jp",
+      "eaforum": "https://forum.effectivealtruism.org/users/johannes-pichler"
+    },
+    "john-boyle": {
+      "name": "John Boyle",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JohnBoyle"
+    },
+    "john-lohier": {
+      "name": "John Lohier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JohnLohier",
+      "website": "https://leadbatteries.substack.com/"
+    },
+    "john-tasioulas": {
+      "name": "John Tasioulas",
+      "via": "research",
+      "website": "https://www.law.ox.ac.uk/people/john-tasioulas"
+    },
+    "john-wick": {
+      "name": "John Wick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jawick"
+    },
+    "johnny-ten-numbers": {
+      "name": "Johnny Ten-Numbers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/1941159478"
+    },
+    "joi-karra": {
+      "name": "Joi Karra",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joikarra"
+    },
+    "jon-lyons": {
+      "name": "Jon Lyons",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Frogisis",
+      "website": "https://frogisis.artstation.com"
+    },
+    "jonas-becker": {
+      "name": "Jonas Becker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jmb"
+    },
+    "jonas-hyllengren": {
+      "name": "Jonas Hyllengren",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jonas-Hyllengren"
+    },
+    "jonas-karch": {
+      "name": "Jonas Karch",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jonas82"
+    },
+    "jonathan-elsworth-eicher": {
+      "name": "Jonathan Elsworth Eicher",
+      "via": "manifund",
+      "manifund": "https://manifund.org/bluewin",
+      "website": "https://antimemeticai.com/"
+    },
+    "jonathan-samuel-claybrough": {
+      "name": "Jonathan Samuel Claybrough",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jonathan"
+    },
+    "joona-heino": {
+      "name": "Joona Heino",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Joona",
+      "website": "https://joonaheino.com"
+    },
+    "jord-nguyen": {
+      "name": "Jord Nguyen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jord",
+      "linkedin": "https://www.linkedin.com/in/jord-nguyen%F0%9F%94%B9-74880927a"
+    },
+    "jordan-braunstein": {
+      "name": "Jordan Braunstein",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JBraunstein",
+      "linkedin": "https://www.linkedin.com/in/jordanbraunstein1"
+    },
+    "jordan-pieters": {
+      "name": "Jordan Pieters",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JordanPieters",
+      "linkedin": "https://www.linkedin.com/in/jordan-pieters"
+    },
+    "joschka-braun": {
+      "name": "Joschka Braun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Joschka",
+      "website": "https://joschkacbraun.github.io/"
+    },
+    "joseph-bloom": {
+      "name": "Joseph Bloom",
+      "via": "manifund",
+      "manifund": "https://manifund.org/josephbloom",
+      "linkedin": "https://www.linkedin.com/in/joseph-bloom1"
+    },
+    "joseph-caissie": {
+      "name": "Joseph Caissie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jacaissie",
+      "website": "https://www.tomjohnson.org/"
+    },
+    "joseph-chan": {
+      "name": "Joseph Chan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jfucochan"
+    },
+    "joseph-hardie": {
+      "name": "Joseph Hardie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joehardie"
+    },
+    "josh-landes": {
+      "name": "Josh Landes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joshl",
+      "linkedin": "https://www.linkedin.com/in/josh-landes12"
+    },
+    "josh-pazmino": {
+      "name": "Josh Pazmino",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jmpaz"
+    },
+    "josh-sacks": {
+      "name": "Josh Sacks",
+      "via": "manifund",
+      "manifund": "https://manifund.org/quirkyllama"
+    },
+    "josh-tenenbaum": {
+      "name": "Josh Tenenbaum",
+      "via": "research",
+      "website": "https://cocosci.mit.edu/josh-tenenbaum/"
+    },
+    "josh-thorsteinson": {
+      "name": "Josh Thorsteinson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joshthor9",
+      "linkedin": "https://www.linkedin.com/in/josh-thorsteinson"
+    },
+    "josh-whiton": {
+      "name": "Josh Whiton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joshwhiton",
+      "twitter": "https://x.com/joshwhiton"
+    },
+    "josh-you": {
+      "name": "Josh You",
+      "via": "manifund",
+      "manifund": "https://manifund.org/joshyou12"
+    },
+    "joshua-david": {
+      "name": "Joshua David",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JoshuaDavid"
+    },
+    "joshua-fox": {
+      "name": "Joshua Fox",
+      "via": "research",
+      "website": "https://joshuafox.com/",
+      "twitter": "https://x.com/foxjoshua",
+      "linkedin": "https://www.linkedin.com/in/joshuafox",
+      "lesswrong": "https://www.lesswrong.com/users/joshuafox",
+      "eaforum": "https://forum.effectivealtruism.org/users/joshuafox"
+    },
+    "joshua-michael-sparks": {
+      "name": "Joshua Michael Sparks",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FarOut",
+      "website": "https://www.farout.bio"
+    },
+    "joshua-morgan": {
+      "name": "Joshua Morgan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/JoshMorgan"
+    },
+    "joshua-reiners": {
+      "name": "Joshua Reiners",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Gammagurke"
+    },
+    "joss-oliver": {
+      "name": "Joss Oliver",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Josstopher"
+    },
+    "jp": {
+      "name": "JP",
+      "via": "manifund",
+      "manifund": "https://manifund.org/inflammateomnia"
+    },
+    "js-denain": {
+      "name": "JS Denain",
+      "via": "manifund",
+      "manifund": "https://manifund.org/jsd",
+      "website": "https://jsdena.in"
+    },
+    "juan-b-garcia-martinez": {
+      "name": "Juan B. García Martínez",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Juan-Garca",
+      "linkedin": "https://www.linkedin.com/in/juan-garcia-martinez"
+    },
+    "judd-rosenblatt": {
+      "name": "Judd Rosenblatt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/judd",
+      "linkedin": "https://www.linkedin.com/in/juddsr"
+    },
+    "julia-persson": {
+      "name": "julia persson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/julia"
+    },
+    "julian-schulz": {
+      "name": "Julian Schulz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/wuschel"
+    },
+    "juliana-seawell": {
+      "name": "Juliana Seawell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Jseawell"
+    },
+    "justin-kuiper": {
+      "name": "Justin Kuiper",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kuiper",
+      "website": "https://justinkuiper.substack.com/"
+    },
+    "justin-shenk": {
+      "name": "Justin Shenk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/justinshenk",
+      "website": "https://justinshenk.com"
+    },
+    "ka-wang-pang": {
+      "name": "Ka Wang Pang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/UtilityHotbar",
+      "website": "https://utilityhotbar.github.io/"
+    },
+    "kaarel-hanni": {
+      "name": "Kaarel Hänni",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kaarel",
+      "website": "https://kaarelh.github.io/"
+    },
+    "kai-scott-bridge": {
+      "name": "Kai Scott-Bridge",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kaiscottbridge"
+    },
+    "kai-williams": {
+      "name": "Kai Williams",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ChiWilliams",
+      "website": "https://liquidbrain.net"
+    },
+    "kaiwen-wang": {
+      "name": "Kaiwen Wang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dlfjasdlfjsadlfj",
+      "website": "https://kaiwenwang.com"
+    },
+    "kanad-chakrabarti": {
+      "name": "Kanad Chakrabarti",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ukc10014"
+    },
+    "kari-snorek": {
+      "name": "Kari Snorek",
+      "via": "manifund",
+      "manifund": "https://manifund.org/KariSnorek"
+    },
+    "karolina-gruzel": {
+      "name": "Karolina Gruzel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kagruzel"
+    },
+    "karsten-brensing": {
+      "name": "Karsten Brensing",
+      "via": "manifund",
+      "manifund": "https://manifund.org/karstenbrensing",
+      "website": "https://agi-rights.com/; https://karsten-brensing.de/; https://www.linkedin.com/in/dr-karsten-brensing-6a1258320/;  https://de.wikipedia.org/wiki/Karsten_Brensing"
+    },
+    "karthik-narasimhan": {
+      "name": "Karthik Narasimhan",
+      "via": "research",
+      "website": "https://karthikncode.github.io/",
+      "twitter": "https://x.com/karthik_r_n"
+    },
+    "karthik-viswanathan": {
+      "name": "Karthik Viswanathan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vkarthik095",
+      "website": "https://karthikviswanathn.github.io/"
+    },
+    "kasey-markel": {
+      "name": "Kasey Markel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kasey",
+      "website": "https://orcid.org/0000-0002-8285-3888"
+    },
+    "katharina-hofmann": {
+      "name": "Katharina Hofmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Katharina-"
+    },
+    "kathleen-v": {
+      "name": "Kathleen v",
+      "via": "manifund",
+      "manifund": "https://manifund.org/copykate",
+      "website": "https://copybykate.blogspot.com/?view=magazine"
+    },
+    "kathryn-evans": {
+      "name": "Kathryn Evans",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kathryn",
+      "website": "https://legalimpactforchickens.org"
+    },
+    "katie-vann": {
+      "name": "Katie Vann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/katievann"
+    },
+    "katrina-loewy": {
+      "name": "Katrina Loewy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Katrina"
+    },
+    "katrina-sill": {
+      "name": "Katrina Sill",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ksill333"
+    },
+    "katsuhiko-hayashi": {
+      "name": "Katsuhiko Hayashi",
+      "via": "research",
+      "website": "https://www.med.osaka-u.ac.jp/pub/gcb/lab/en"
+    },
+    "keita-b": {
+      "name": "Keita B.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/keitabroadwater"
+    },
+    "kelly-chibale": {
+      "name": "Kelly Chibale",
+      "via": "research",
+      "website": "https://science.uct.ac.za/department-chemistry/contacts/kelly-chibale",
+      "linkedin": "https://www.linkedin.com/in/kelly-chibale-590066245"
+    },
+    "kevin-esvelt": {
+      "name": "Kevin Esvelt",
+      "via": "research",
+      "website": "https://www.sculptingevolution.org",
+      "twitter": "https://x.com/kesvelt"
+    },
+    "kevin-shea": {
+      "name": "Kevin Shea",
+      "via": "manifund",
+      "manifund": "https://manifund.org/KevinShea"
+    },
+    "kevin-xia": {
+      "name": "Kevin Xia",
+      "via": "manifund",
+      "manifund": "https://manifund.org/KevinXia"
+    },
+    "khaled-eltokhy": {
+      "name": "Khaled Eltokhy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/keltokhy1"
+    },
+    "kipply": {
+      "name": "kipply",
+      "via": "manifund",
+      "manifund": "https://manifund.org/carolyfisher"
+    },
+    "kishin": {
+      "name": "kishin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kishin"
+    },
+    "kotaro-sasaki": {
+      "name": "Kotaro Sasaki",
+      "via": "research",
+      "website": "https://www.vet.upenn.edu/directory/kotarosasaki/"
+    },
+    "krishna-patel": {
+      "name": "Krishna Patel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Krishna-Patel"
+    },
+    "krystal-ha": {
+      "name": "Krystal Ha",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kha"
+    },
+    "kuku-ridza": {
+      "name": "Kuku Ridza",
+      "via": "manifund",
+      "manifund": "https://manifund.org/predictor"
+    },
+    "kunvar-thaman": {
+      "name": "Kunvar Thaman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kunvar",
+      "website": "https://kunvarthaman.com"
+    },
+    "ky-cuong-huynh": {
+      "name": "Ky-Cuong Huynh",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kycuong",
+      "website": "https://kycuong.com/"
+    },
+    "kyle-lucchese": {
+      "name": "Kyle Lucchese",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MxLucchese",
+      "linkedin": "https://www.linkedin.com/in/mxlucchese"
+    },
+    "kyle-reynoso": {
+      "name": "Kyle Reynoso",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kej"
+    },
+    "kyle-smith": {
+      "name": "Kyle Smith",
+      "via": "manifund",
+      "manifund": "https://manifund.org/kasmith24",
+      "linkedin": "https://www.linkedin.com/in/kyle-smith-6025b642"
+    },
+    "l-t": {
+      "name": "L T",
+      "via": "manifund",
+      "manifund": "https://manifund.org/qwerty"
+    },
+    "laini": {
+      "name": "laini",
+      "via": "manifund",
+      "manifund": "https://manifund.org/laini"
+    },
+    "lars-englund": {
+      "name": "Lars Englund",
+      "via": "manifund",
+      "manifund": "https://manifund.org/larsenglund-"
+    },
+    "laura-angadreme": {
+      "name": "Laura Angadreme",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Angadreme-"
+    },
+    "laura-radoi": {
+      "name": "Laura Radoi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Laura"
+    },
+    "lauren-ferrucci": {
+      "name": "Lauren Ferrucci",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lferru01"
+    },
+    "lauren-kohler": {
+      "name": "Lauren Kohler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/laurenk",
+      "linkedin": "https://www.linkedin.com/in/lauren-kohler-547269110"
+    },
+    "lauren-mangla": {
+      "name": "Lauren Mangla",
+      "via": "manifund",
+      "manifund": "https://manifund.org/laurenm",
+      "linkedin": "https://www.linkedin.com/in/lauren-m-b91b2b1a3"
+    },
+    "lauren-uram": {
+      "name": "Lauren Uram",
+      "via": "manifund",
+      "manifund": "https://manifund.org/laurenuram",
+      "linkedin": "https://www.linkedin.com/in/laurenuram"
+    },
+    "laurence-aitchison": {
+      "name": "Laurence Aitchison",
+      "via": "manifund",
+      "manifund": "https://manifund.org/laurence_ai"
+    },
+    "lawrence-chan": {
+      "name": "Lawrence Chan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LawrenceC",
+      "website": "https://chanlawrence.me/"
+    },
+    "lawrence-wagner": {
+      "name": "Lawrence Wagner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ltwagner28",
+      "linkedin": "https://www.linkedin.com/in/lawrence-wagner"
+    },
+    "leanna-walker": {
+      "name": "Leanna Walker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/leanna_erin"
+    },
+    "leigh-watson": {
+      "name": "Leigh Watson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ldw_cardinal"
+    },
+    "len-saito": {
+      "name": "Len Saito",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sailean"
+    },
+    "leo-gao": {
+      "name": "Leo Gao",
+      "via": "research",
+      "manifund": "https://manifund.org/LeoGao",
+      "lesswrong": "https://www.lesswrong.com/users/leogao"
+    },
+    "leo-heikiti-maeda-arruda": {
+      "name": "Leo Heikiti Maeda Arruda",
+      "via": "manifund",
+      "manifund": "https://manifund.org/leohmarruda",
+      "linkedin": "https://www.linkedin.com/in/leohmarruda"
+    },
+    "leo-hyams": {
+      "name": "Leo Hyams",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Leo-Hyams",
+      "linkedin": "https://www.linkedin.com/in/leo-hyams-63960a163"
+    },
+    "leon-borgdorf": {
+      "name": "Leon Borgdorf",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Leon"
+    },
+    "leon-lang": {
+      "name": "Leon Lang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Leon-Lang",
+      "website": "https://langleon.github.io/"
+    },
+    "leonard-barrett": {
+      "name": "Leonard Barrett",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Leonard",
+      "twitter": "https://x.com/leonardbarrett"
+    },
+    "leopold-aschenbrenner": {
+      "name": "Leopold Aschenbrenner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LeopoldAschenbrenner",
+      "website": "https://forourposterity.com"
+    },
+    "lercier-celine": {
+      "name": "Lercier Celine",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Celine-Lercier"
+    },
+    "lermen": {
+      "name": "Lermen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Simon",
+      "website": "https://simonlermen.com"
+    },
+    "lily-chamberlain": {
+      "name": "Lily Chamberlain",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lchamberlain"
+    },
+    "liminalbardo": {
+      "name": "liminalbardo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/liminalbardo"
+    },
+    "lin-bowker-lonnecker": {
+      "name": "Lin Bowker-Lonnecker",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/linbowkerlonnecker/",
+      "manifund": "https://manifund.org/linbl",
+      "eaforum": "https://forum.effectivealtruism.org/users/lin-bl"
+    },
+    "lincoln-quirk": {
+      "name": "Lincoln Quirk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lincolnquirk",
+      "website": "https://www.lincolnquirk.com"
+    },
+    "lindley-lentati": {
+      "name": "Lindley Lentati",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Llentati"
+    },
+    "linh-le": {
+      "name": "Linh Le",
+      "via": "manifund",
+      "manifund": "https://manifund.org/linhle",
+      "linkedin": "https://www.linkedin.com/in/lizliz2626"
+    },
+    "lionel-levine": {
+      "name": "Lionel Levine",
+      "via": "research",
+      "website": "https://lionellevine.github.io/",
+      "twitter": "https://x.com/lionellevine",
+      "lesswrong": "https://www.lesswrong.com/users/lionel-levine"
+    },
+    "lipika-bose": {
+      "name": "Lipika Bose",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Lbose"
+    },
+    "liron-shapira": {
+      "name": "Liron Shapira",
+      "via": "research",
+      "website": "https://doomdebates.com/",
+      "twitter": "https://x.com/liron",
+      "linkedin": "https://www.linkedin.com/in/lironshapira",
+      "manifund": "https://manifund.org/liron",
+      "lesswrong": "https://www.lesswrong.com/users/liron",
+      "eaforum": "https://forum.effectivealtruism.org/users/liron"
+    },
+    "lisa-thiergart": {
+      "name": "Lisa Thiergart",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lisathiergart",
+      "twitter": "https://x.com/LisaThiergart"
+    },
+    "logan-graves": {
+      "name": "Logan Graves",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lgraves",
+      "website": "https://logangraves.com"
+    },
+    "loppukilpailija": {
+      "name": "Loppukilpailija",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Loppukilpailija"
+    },
+    "lorenzo-buonanno": {
+      "name": "Lorenzo Buonanno",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LorenzoBuonanno"
+    },
+    "lorenzo-fong-ponce": {
+      "name": "Lorenzo Fong Ponce",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lfp",
+      "linkedin": "https://www.linkedin.com/in/lorenzofongponce"
+    },
+    "lorenzo-giacani": {
+      "name": "Lorenzo Giacani",
+      "via": "research",
+      "website": "https://globalhealth.washington.edu/faculty-profile/lorenzo-giacani/"
+    },
+    "lorenzo-rubio": {
+      "name": "Lorenzo Rubio",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lorenzorubio",
+      "linkedin": "https://www.linkedin.com/in/rubiolorenzo"
+    },
+    "loss-gobbler": {
+      "name": "loss_gobbler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/loss_gobbler"
+    },
+    "lovis-heindrich": {
+      "name": "Lovis Heindrich",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lovish"
+    },
+    "luca-d": {
+      "name": "Luca D.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/acul"
+    },
+    "luca-righetti": {
+      "name": "Luca Righetti",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LucaRighetti"
+    },
+    "lucas-k": {
+      "name": "Lucas K",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LooneyLookey"
+    },
+    "lucas-kohorst": {
+      "name": "Lucas Kohorst",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lucas",
+      "website": "https://adj.news"
+    },
+    "lucius-bushnaq": {
+      "name": "Lucius Bushnaq",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Lucius",
+      "lesswrong": "https://www.lesswrong.com/users/lblack"
+    },
+    "lucy-farnik": {
+      "name": "Lucy Farnik",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LucyFarnik",
+      "linkedin": "https://www.linkedin.com/in/lucy-farnik"
+    },
+    "lucy-whitney": {
+      "name": "Lucy Whitney",
+      "via": "manifund",
+      "manifund": "https://manifund.org/whitnluc"
+    },
+    "luis-costigan": {
+      "name": "Luis Costigan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/luiscostigan"
+    },
+    "luke-stebbing": {
+      "name": "Luke Stebbing",
+      "via": "manifund",
+      "manifund": "https://manifund.org/LukeStebbing",
+      "website": "https://lukestebbing.com"
+    },
+    "luke-zettlemoyer": {
+      "name": "Luke Zettlemoyer",
+      "via": "research",
+      "website": "https://homes.cs.washington.edu/~lsz/"
+    },
+    "lun": {
+      "name": "Lun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Lun",
+      "website": "https://lun.horse/"
+    },
+    "luna": {
+      "name": "Luna",
+      "via": "manifund",
+      "manifund": "https://manifund.org/lun-4",
+      "website": "https://l4.pm"
+    },
+    "lynn-max": {
+      "name": "Lynn Max",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sagedopes"
+    },
+    "magdalena-zernicka-goetz": {
+      "name": "Magdalena Zernicka-Goetz",
+      "via": "research",
+      "website": "https://zernickagoetzlab.com/"
+    },
+    "maia-fraser": {
+      "name": "Maia Fraser",
+      "via": "research",
+      "website": "https://frasermaia.github.io/"
+    },
+    "mako-yass": {
+      "name": "mako yass",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mako",
+      "website": "https://aboutmako.makopool.com"
+    },
+    "mandar-gokhale": {
+      "name": "Mandar Gokhale",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mmg"
+    },
+    "manifund-bank": {
+      "name": "Manifund Bank",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Manifund-Bank"
+    },
+    "manuel-allgaier": {
+      "name": "Manuel Allgaier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/manuelallgaier",
+      "linkedin": "https://www.linkedin.com/in/manuelallgaier"
+    },
+    "marcel-van-diemen": {
+      "name": "Marcel van Diemen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vandemonian"
+    },
+    "marcela-rodrigues-machado-borges": {
+      "name": "Marcela Rodrigues Machado Borges",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Marcela-Borges",
+      "linkedin": "https://www.linkedin.com/in/marcela-rodrigues-machado-borges-292078217"
+    },
+    "marcus-abramovitch": {
+      "name": "Marcus Abramovitch",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/marcus-abramovitch-b01955120",
+      "manifund": "https://manifund.org/MarcusAbramovitch",
+      "eaforum": "https://forum.effectivealtruism.org/users/marcus-abramovitch"
+    },
+    "margaret-corvid": {
+      "name": "Margaret Corvid",
+      "via": "manifund",
+      "manifund": "https://manifund.org/margaretcorvid"
+    },
+    "maria-ignacia-saiz-lynch": {
+      "name": "MARIA IGNACIA SAIZ LYNCH",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ignaciasaiz"
+    },
+    "maria-matveev": {
+      "name": "Maria Matveev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Maria"
+    },
+    "mariano": {
+      "name": "Mariano",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nicholas"
+    },
+    "marine-lercier": {
+      "name": "Marine Lercier",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/marine-lercier",
+      "manifund": "https://manifund.org/Marine-Lercier",
+      "eaforum": "https://forum.effectivealtruism.org/users/marine-lercier-1"
+    },
+    "marisa-vogiatzi": {
+      "name": "Marisa Vogiatzi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/marisavogiatzi"
+    },
+    "marius-hobbhahn": {
+      "name": "Marius Hobbhahn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mariushobbhahn",
+      "linkedin": "https://www.linkedin.com/in/marius-hobbhahn-128927175"
+    },
+    "mark-brody": {
+      "name": "Mark Brody",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mcbrody"
+    },
+    "mark-webb": {
+      "name": "Mark Webb",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sclmlw",
+      "linkedin": "https://www.linkedin.com/in/mark-webb-phd-09489148"
+    },
+    "marko-kovac": {
+      "name": "Marko Kovač",
+      "via": "manifund",
+      "manifund": "https://manifund.org/markokova16"
+    },
+    "markus-englund": {
+      "name": "Markus Englund",
+      "via": "manifund",
+      "manifund": "https://manifund.org/markusenglund"
+    },
+    "marta-krzeminska": {
+      "name": "Marta Krzeminska",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mk_lao"
+    },
+    "martin-soto": {
+      "name": "Martín Soto",
+      "via": "manifund",
+      "manifund": "https://manifund.org/martinsq"
+    },
+    "martin-wattenberg": {
+      "name": "Martin Wattenberg",
+      "via": "research",
+      "website": "https://www.bewitched.com/",
+      "twitter": "https://x.com/wattenberg"
+    },
+    "marvin-a": {
+      "name": "Marvin A",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Marvin"
+    },
+    "masse-ophelie": {
+      "name": "Masse ophelie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Masse-ophelie"
+    },
+    "matei-alexandru-anghel": {
+      "name": "Matei-Alexandru Anghel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/matei",
+      "linkedin": "https://www.linkedin.com/in/anghelmatei"
+    },
+    "mateusz-baginski": {
+      "name": "Mateusz Bagiński",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Mateusz-Baginski"
+    },
+    "mateusz-dziemian": {
+      "name": "Mateusz Dziemian",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mattmdjaga",
+      "linkedin": "https://www.linkedin.com/in/mateusz-dziemian-28076874,%20https:"
+    },
+    "mathias": {
+      "name": "mathias",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mathiaskb"
+    },
+    "mati-roy": {
+      "name": "Mati Roy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/matiroy",
+      "twitter": "https://x.com/matiroy"
+    },
+    "matias-federico-ciruelos": {
+      "name": "Matías Federico Ciruelos",
+      "via": "manifund",
+      "manifund": "https://manifund.org/matiasciruelos",
+      "linkedin": "https://www.linkedin.com/in/mat%C3%ADas-federico-ciruelos"
+    },
+    "matiss-apinis": {
+      "name": "Matīss Apinis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/matissapinis"
+    },
+    "matiu": {
+      "name": "Matiu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mk"
+    },
+    "matt-hare": {
+      "name": "Matt Hare",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Matt-Hare"
+    },
+    "matthew-cameron-farrugia-roberts": {
+      "name": "Matthew Cameron Farrugia-Roberts",
+      "via": "research",
+      "website": "https://far.in.net",
+      "twitter": "https://x.com/MatthewFdashR",
+      "manifund": "https://manifund.org/mfar",
+      "lesswrong": "https://www.lesswrong.com/users/matthew-farrugia-roberts"
+    },
+    "matthew-farr": {
+      "name": "Matthew Farr",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mfatt",
+      "linkedin": "https://www.linkedin.com/in/matthew-farr-185944238"
+    },
+    "matthew-loftus": {
+      "name": "Matthew Loftus",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mloftus1",
+      "website": "https://www.matthewandmaggie.org"
+    },
+    "matthew-reardon": {
+      "name": "Matthew Reardon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Matt-Reardon",
+      "linkedin": "https://www.linkedin.com/in/mjreard"
+    },
+    "matthew-woolhouse": {
+      "name": "Matthew Woolhouse",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Matt-Woolhouse-"
+    },
+    "matthias-bachmann": {
+      "name": "Matthias Bachmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mattyb"
+    },
+    "max": {
+      "name": "max",
+      "via": "manifund",
+      "manifund": "https://manifund.org/superb-owl"
+    },
+    "max-broad": {
+      "name": "Max Broad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/minthin"
+    },
+    "max-chiswick": {
+      "name": "Max Chiswick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/maxchiswick",
+      "website": "https://maxchiswick.com"
+    },
+    "max-howald": {
+      "name": "Max Howald",
+      "via": "manifund",
+      "manifund": "https://manifund.org/max"
+    },
+    "max-kaufmann": {
+      "name": "Max Kaufmann",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MaxKaufmann"
+    },
+    "max-kesin": {
+      "name": "Max Kesin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/maxk"
+    },
+    "maximilian-kugler": {
+      "name": "Maximilian Kugler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mk_02",
+      "twitter": "https://x.com/KarateKugler"
+    },
+    "maxine-chan": {
+      "name": "Maxine Chan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Mxnchn"
+    },
+    "mb3": {
+      "name": "MB3",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mb3"
+    },
+    "megan-kellums": {
+      "name": "Megan Kellums",
+      "via": "manifund",
+      "manifund": "https://manifund.org/meganmk"
+    },
+    "melinda-rogers": {
+      "name": "Melinda Rogers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Melindamrogersgmailcom"
+    },
+    "melissa-king": {
+      "name": "Melissa King",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Meleking"
+    },
+    "melynna-garcia": {
+      "name": "Melynna Garcia",
+      "via": "manifund",
+      "manifund": "https://manifund.org/melgarcia"
+    },
+    "micaella-rogers": {
+      "name": "Micaella Rogers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/micaellarogers",
+      "linkedin": "https://www.linkedin.com/in/micaella-rogers-666504150"
+    },
+    "michael-andregg": {
+      "name": "Michael Andregg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/michaelandregg"
+    },
+    "michael-chen": {
+      "name": "Michael Chen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/michaelchen"
+    },
+    "michael-cohen": {
+      "name": "Michael Cohen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MichaelCohen"
+    },
+    "michael-dickens": {
+      "name": "Michael Dickens",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mdickens",
+      "website": "https://mdickens.me/"
+    },
+    "michael-keenan": {
+      "name": "Michael Keenan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/michaelkeenan"
+    },
+    "michael-lucy": {
+      "name": "Michael lucy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Mlucy"
+    },
+    "michael-mina": {
+      "name": "Michael Mina",
+      "via": "research",
+      "twitter": "https://x.com/michaelmina_lab"
+    },
+    "michael-morell": {
+      "name": "Michael Morell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mjmorell"
+    },
+    "michael-rubens-trazzi": {
+      "name": "Michaël Rubens Trazzi",
+      "via": "research",
+      "website": "https://michaeltrazzi.com/",
+      "twitter": "https://x.com/MichaelTrazzi",
+      "manifund": "https://manifund.org/michaeltrazzi",
+      "lesswrong": "https://www.lesswrong.com/users/mtrazzi",
+      "eaforum": "https://forum.effectivealtruism.org/users/mtrazzi"
+    },
+    "michael-shayne-tucker": {
+      "name": "Michael Shayne Tucker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tebycimtime"
+    },
+    "michael-st-jules": {
+      "name": "Michael St. Jules",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MichaelStJules",
+      "eaforum": "https://forum.effectivealtruism.org/users/michaelstjules"
+    },
+    "michael-wooldridge": {
+      "name": "Michael Wooldridge",
+      "via": "research",
+      "website": "https://www.cs.ox.ac.uk/people/michael.wooldridge/"
+    },
+    "michaelah-gertz-billingsley": {
+      "name": "Michaelah Gertz-Billingsley",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MgbEACH",
+      "linkedin": "https://www.linkedin.com/in/michaelah-gertz-billingsley"
+    },
+    "michail-patsakis": {
+      "name": "Michail Patsakis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/patsakismichail"
+    },
+    "michal-bravansky": {
+      "name": "Michal Bravansky",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Michal-Bravansky"
+    },
+    "mick": {
+      "name": "Mick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mickzijdel"
+    },
+    "mike-saint-antoine": {
+      "name": "Mike Saint-Antoine",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mikesaint-antoine"
+    },
+    "mike-toscano": {
+      "name": "Mike Toscano",
+      "via": "research",
+      "website": "https://www.tierschutz.vetsuisse.unibe.ch/about_us/personnel/dr_toscano_michael_j/index_eng.html"
+    },
+    "mikhail-belkin": {
+      "name": "Mikhail Belkin",
+      "via": "research",
+      "website": "https://misha.belkin-wang.org/",
+      "linkedin": "https://www.linkedin.com/in/mikhail-misha-belkin-b05398"
+    },
+    "mikhail-larionov": {
+      "name": "Mikhail Larionov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vernon99",
+      "twitter": "https://x.com/vernon99"
+    },
+    "mikhail-samin": {
+      "name": "Mikhail Samin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ms",
+      "website": "https://contact.ms"
+    },
+    "miles-rotaru": {
+      "name": "Miles Rotaru",
+      "via": "manifund",
+      "manifund": "https://manifund.org/milesrotaru-"
+    },
+    "min-kim": {
+      "name": "Min Kim",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mkim8829"
+    },
+    "mirco-giacobbe": {
+      "name": "Mirco Giacobbe",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mgiacobbe",
+      "website": "https://mircogiacobbe.github.io"
+    },
+    "misha-gurevich": {
+      "name": "Misha Gurevich",
+      "via": "research",
+      "manifund": "https://manifund.org/MishaGurevich"
+    },
+    "misha-yagudin": {
+      "name": "Misha Yagudin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/yagudin",
+      "website": "https://yagud.in"
+    },
+    "miti-saksena": {
+      "name": "Miti Saksena",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MSaksena",
+      "linkedin": "https://www.linkedin.com/in/miti-saksena-68b830106"
+    },
+    "mitinori-saitou": {
+      "name": "Mitinori Saitou",
+      "via": "research",
+      "website": "https://anat.cell.med.kyoto-u.ac.jp/index_en.html"
+    },
+    "mohammed-el-sayed": {
+      "name": "Mohammed El-Sayed",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mohammedhaggag10"
+    },
+    "molsonkiko": {
+      "name": "molsonkiko",
+      "via": "manifund",
+      "manifund": "https://manifund.org/molsonkiko"
+    },
+    "mona": {
+      "name": "Mona",
+      "via": "manifund",
+      "manifund": "https://manifund.org/dyot_meet_mat"
+    },
+    "mona-haibeh": {
+      "name": "Mona Haibeh",
+      "via": "manifund",
+      "manifund": "https://manifund.org/monahaibeh"
+    },
+    "monica-chen": {
+      "name": "Monica Chen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/monica",
+      "website": "https://www.newrootsinstitute.org/our-team/monica-chen"
+    },
+    "moritz-stumpe": {
+      "name": "Moritz Stumpe",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Moritz"
+    },
+    "mr-bucket": {
+      "name": "Mr Bucket",
+      "via": "manifund",
+      "manifund": "https://manifund.org/MrBucket"
+    },
+    "mubarak-adebayo": {
+      "name": "Mubarak Adebayo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Hayhem",
+      "linkedin": "https://www.linkedin.com/in/adebayo-mubarak-48879a1aa"
+    },
+    "mudit-arun-tulsianey": {
+      "name": "Mudit Arun Tulsianey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Mudit280"
+    },
+    "murray-buchanan": {
+      "name": "Murray Buchanan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mbuch",
+      "linkedin": "https://www.linkedin.com/in/murray-buchanan-09044a112"
+    },
+    "n-c-young": {
+      "name": "N.C. Young",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NcyRocks",
+      "website": "https://nathanyoung.nz"
+    },
+    "naci-cankaya": {
+      "name": "Naci Cankaya",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Naci"
+    },
+    "nada-amin": {
+      "name": "Nada Amin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/namin"
+    },
+    "nadia": {
+      "name": "Nadia",
+      "via": "manifund",
+      "manifund": "https://manifund.org/montauxcerises"
+    },
+    "naijha-wright-brown": {
+      "name": "Naijha Wright-Brown",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Naijha",
+      "linkedin": "https://www.linkedin.com/in/naijha-wright-brown-58633150"
+    },
+    "name": {
+      "name": "name",
+      "via": "manifund",
+      "manifund": "https://manifund.org/username"
+    },
+    "natalie-amezcua": {
+      "name": "Natalie Amezcua",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Natalie",
+      "linkedin": "https://www.linkedin.com/in/natalieamezcua"
+    },
+    "natalie-cronin": {
+      "name": "Natalie Cronin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/eyeball42"
+    },
+    "nate-soares": {
+      "name": "Nate Soares",
+      "via": "manifund",
+      "manifund": "https://manifund.org/so8res"
+    },
+    "nate-sternberg": {
+      "name": "Nate Sternberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/natesternberg"
+    },
+    "nathalie-gil": {
+      "name": "Nathalie Gil",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nathalie-Gil",
+      "website": "https://www.ss.org.br"
+    },
+    "nathan-barnard": {
+      "name": "Nathan Barnard",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nathan_Barnard",
+      "twitter": "https://x.com/NathanB60857242"
+    },
+    "nathan-labenz": {
+      "name": "Nathan Labenz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nathanlabenz",
+      "twitter": "https://x.com/labenz"
+    },
+    "nathan-metzger": {
+      "name": "Nathan Metzger",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Haiku",
+      "linkedin": "https://www.linkedin.com/in/nathanmetzger"
+    },
+    "nathan-young": {
+      "name": "Nathan Young",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NathanYoung",
+      "twitter": "https://x.com/NathanpmYoung"
+    },
+    "naveen-arunachalam": {
+      "name": "Naveen Arunachalam",
+      "via": "manifund",
+      "manifund": "https://manifund.org/narunach"
+    },
+    "neel-nanda": {
+      "name": "Neel Nanda",
+      "via": "research",
+      "website": "https://www.neelnanda.io/",
+      "twitter": "https://x.com/NeelNanda5",
+      "manifund": "https://manifund.org/NeelNanda",
+      "lesswrong": "https://www.lesswrong.com/users/neel-nanda-1",
+      "eaforum": "https://forum.effectivealtruism.org/users/neel-nanda"
+    },
+    "neil-king": {
+      "name": "Neil King",
+      "via": "research",
+      "website": "https://kinglab.ipd.uw.edu/"
+    },
+    "neil-thompson": {
+      "name": "Neil Thompson",
+      "via": "research",
+      "website": "https://www.neil-t.com/",
+      "twitter": "https://x.com/ProfNeilT"
+    },
+    "nell-watson": {
+      "name": "Nell Watson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NellWatson",
+      "website": "https://www.nellwatson.com"
+    },
+    "netiwit-chotiphatphaisal": {
+      "name": "Netiwit Chotiphatphaisal",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Netiwit",
+      "website": "https://www.netiwit.com"
+    },
+    "nevin-freeman": {
+      "name": "Nevin Freeman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nnevvinn",
+      "twitter": "https://x.com/nnevvinn"
+    },
+    "ngage": {
+      "name": "ngage",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nathan___gage",
+      "website": "https://nathangage.co"
+    },
+    "nicholas-doiron": {
+      "name": "Nicholas Doiron",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mapmeld"
+    },
+    "nicholas-reville": {
+      "name": "Nicholas Reville",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nontyn"
+    },
+    "nick": {
+      "name": "Nick",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nick"
+    },
+    "nick-ayrton": {
+      "name": "Nick Ayrton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ayrtonite"
+    },
+    "nick-bostrom": {
+      "name": "Nick Bostrom",
+      "via": "research",
+      "website": "https://nickbostrom.com/"
+    },
+    "nick-fitz": {
+      "name": "Nick Fitz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fitznich",
+      "linkedin": "https://www.linkedin.com/in/nick-fitz-nf123"
+    },
+    "nick-hay": {
+      "name": "Nick Hay",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NickHay"
+    },
+    "nick-mystic": {
+      "name": "Nick Mystic",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NickMystic",
+      "twitter": "https://x.com/nickmystic_"
+    },
+    "nick-saraev": {
+      "name": "Nick Saraev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nicksaraev",
+      "website": "https://nicksaraev.com"
+    },
+    "nick-tarleton": {
+      "name": "Nick Tarleton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/npt"
+    },
+    "nickola-horozov": {
+      "name": "Nickola Horozov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nihorozov",
+      "website": "https://nhorozov.xyz/"
+    },
+    "nickolai-leschov": {
+      "name": "Nickolai Leschov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nickolai",
+      "linkedin": "https://www.linkedin.com/in/nickolai-leschov"
+    },
+    "nico-miailhe": {
+      "name": "Nico Miailhe",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nico-Miailhe",
+      "linkedin": "https://www.linkedin.com/in/nmiailhe"
+    },
+    "nik-samoylov": {
+      "name": "Nik Samoylov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nsamoylov",
+      "linkedin": "https://www.linkedin.com/in/niksamoylov"
+    },
+    "nikhil-maturi": {
+      "name": "Nikhil Maturi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nikhilmaturidev"
+    },
+    "nikki": {
+      "name": "nikki",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nikki"
+    },
+    "niklas-anzinger": {
+      "name": "Niklas Anzinger",
+      "via": "manifund",
+      "manifund": "https://manifund.org/niklasanzinger",
+      "website": "https://vitalia.city"
+    },
+    "niklas-k": {
+      "name": "Niklas K.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/daxxy"
+    },
+    "niko-rutherford": {
+      "name": "Niko Rutherford",
+      "via": "manifund",
+      "manifund": "https://manifund.org/niko",
+      "website": "https://nikorutherford.com"
+    },
+    "nina-friedrich": {
+      "name": "Nina Friedrich",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nina",
+      "linkedin": "https://www.linkedin.com/in/nina-friedrich"
+    },
+    "nino-o-shea-nejad": {
+      "name": "Nino O’Shea-Nejad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NinoOSheaNejad"
+    },
+    "niplav": {
+      "name": "niplav",
+      "via": "research",
+      "website": "https://niplav.site",
+      "twitter": "https://x.com/niplav_site",
+      "manifund": "https://manifund.org/niplav",
+      "lesswrong": "https://www.lesswrong.com/users/niplav",
+      "eaforum": "https://forum.effectivealtruism.org/users/niplav"
+    },
+    "niraek-jain-sharma": {
+      "name": "Niraek Jain-Sharma",
+      "via": "manifund",
+      "manifund": "https://manifund.org/niraek",
+      "twitter": "https://x.com/niraek"
+    },
+    "nishank-bhalla": {
+      "name": "Nishank Bhalla",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nishank-Bhalla"
+    },
+    "nithin-ravi": {
+      "name": "Nithin Ravi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ncr0517"
+    },
+    "nlm": {
+      "name": "NLM",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NLM"
+    },
+    "nnaemeka-emmanuel-nnadi": {
+      "name": "Nnaemeka Emmanuel Nnadi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Emmannaemeka",
+      "linkedin": "https://www.linkedin.com/in/nnaemeka-emmanuel-nnadi-a39298b5"
+    },
+    "no-name": {
+      "name": "No Name",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nonamenoname"
+    },
+    "noa-nabeshima": {
+      "name": "Noa Nabeshima",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NoaNabeshima"
+    },
+    "noah": {
+      "name": "noah",
+      "via": "manifund",
+      "manifund": "https://manifund.org/noahr",
+      "website": "https://noah.jp.net"
+    },
+    "noah-lloyd-robson": {
+      "name": "Noah Lloyd Robson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/noahlloyd",
+      "website": "https://noahlr.com"
+    },
+    "noah-macaulay": {
+      "name": "Noah MacAulay",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nmacaulay"
+    },
+    "noam-kolt": {
+      "name": "Noam Kolt",
+      "via": "research",
+      "website": "https://www.noamkolt.com/"
+    },
+    "notjustanychang": {
+      "name": "notjustanychang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/notjustanychang"
+    },
+    "novak-stijepic": {
+      "name": "Novak Stijepic",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NovakTJ",
+      "website": "https://novaktj.github.io/"
+    },
+    "nuno-sempere": {
+      "name": "Nuño Sempere",
+      "via": "research",
+      "website": "https://nunosempere.com",
+      "twitter": "https://x.com/NunoSempere",
+      "manifund": "https://manifund.org/NunoSempere",
+      "lesswrong": "https://www.lesswrong.com/users/nunosempere",
+      "eaforum": "https://forum.effectivealtruism.org/users/nunosempere"
+    },
+    "nyasha-duri": {
+      "name": "Nyasha Duri",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nyasha",
+      "linkedin": "https://www.linkedin.com/in/nyashaduri"
+    },
+    "nymph-chaos": {
+      "name": "Nymph Chaos",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nymph",
+      "website": "https://www.rhizonymph.com"
+    },
+    "o-a": {
+      "name": "O A",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sadeyemo08"
+    },
+    "oliver-habryka": {
+      "name": "Oliver Habryka",
+      "via": "manifund",
+      "manifund": "https://manifund.org/habryka",
+      "website": "https://lightconeinfrastructure.com"
+    },
+    "oliver-tullio": {
+      "name": "Oliver Tullio",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Otullio"
+    },
+    "olivia-hammond": {
+      "name": "Olivia Hammond",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ohammond"
+    },
+    "olli-kontkanen": {
+      "name": "Olli Kontkanen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ollikontkanen"
+    },
+    "omotara-edu": {
+      "name": "Omotara Edu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/omotaraedu3"
+    },
+    "onuralp-soylemez": {
+      "name": "Onuralp Soylemez",
+      "via": "manifund",
+      "manifund": "https://manifund.org/onuralp"
+    },
+    "orpheus-lummis": {
+      "name": "Orpheus Lummis",
+      "via": "research",
+      "website": "https://orpheuslummis.info",
+      "manifund": "https://manifund.org/orpheus",
+      "lesswrong": "https://www.lesswrong.com/users/orpheus",
+      "eaforum": "https://forum.effectivealtruism.org/users/orpheus_lummis"
+    },
+    "oscar-balcells-obeso": {
+      "name": "Oscar Balcells Obeso",
+      "via": "manifund",
+      "manifund": "https://manifund.org/obalcells"
+    },
+    "oscar-sykes": {
+      "name": "Oscar Sykes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/osc245"
+    },
+    "osnat-katz": {
+      "name": "Osnat Katz",
+      "via": "research",
+      "website": "https://osnatkatz.com",
+      "twitter": "https://x.com/astrosnat",
+      "manifund": "https://manifund.org/astrosnat"
+    },
+    "osvaldo-mena": {
+      "name": "Osvaldo Mena",
+      "via": "manifund",
+      "manifund": "https://manifund.org/omenar"
+    },
+    "p": {
+      "name": "P",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Pa"
+    },
+    "pablo-villalobos": {
+      "name": "Pablo Villalobos",
+      "via": "manifund",
+      "manifund": "https://manifund.org/pablo_vs",
+      "twitter": "https://x.com/pvllss"
+    },
+    "parker-whitfill": {
+      "name": "Parker Whitfill",
+      "via": "manifund",
+      "manifund": "https://manifund.org/whitfillp",
+      "website": "https://www.parkerwhitfill.com/"
+    },
+    "pat-scott": {
+      "name": "Pat Scott 🩴",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Stralor"
+    },
+    "patrick-brinich-langlois": {
+      "name": "Patrick Brinich-Langlois",
+      "via": "research",
+      "eaforum": "https://forum.effectivealtruism.org/users/patrick"
+    },
+    "patrick-delaney": {
+      "name": "Patrick Delaney",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PatrickDelaney",
+      "website": "https://patdel.substack.com/"
+    },
+    "patrick-trazzi": {
+      "name": "Patrick Trazzi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/patrickpaivatrazzi"
+    },
+    "paul-wang": {
+      "name": "Paul Wang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Paul-Wang",
+      "website": "https://www.normalesup.org/~pwang/"
+    },
+    "pauliina-laine": {
+      "name": "Pauliina Laine",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Pauliina"
+    },
+    "peli-grietzer": {
+      "name": "Peli Grietzer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Peli-Grietzer",
+      "linkedin": "https://www.linkedin.com/in/peli-grietzer-98297450"
+    },
+    "percy-liang": {
+      "name": "Percy Liang",
+      "via": "research",
+      "website": "https://cs.stanford.edu/~pliang/",
+      "twitter": "https://x.com/percyliang",
+      "linkedin": "https://www.linkedin.com/in/percy-liang-717b8a"
+    },
+    "perry-carpenter": {
+      "name": "Perry Carpenter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PerryCarp",
+      "linkedin": "https://www.linkedin.com/in/perrycarpenter"
+    },
+    "petar-buyukliev": {
+      "name": "Petar Buyukliev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/istinetz",
+      "linkedin": "https://www.linkedin.com/in/pbuyukliev"
+    },
+    "pete-wolfendale": {
+      "name": "Pete Wolfendale",
+      "via": "manifund",
+      "manifund": "https://manifund.org/petewolfendale"
+    },
+    "peter-barnett": {
+      "name": "Peter Barnett",
+      "via": "manifund",
+      "manifund": "https://manifund.org/peterbarnett"
+    },
+    "peter-burns": {
+      "name": "Peter Burns",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rictic"
+    },
+    "peter-de-neef": {
+      "name": "Peter De Neef",
+      "via": "manifund",
+      "manifund": "https://manifund.org/pdn"
+    },
+    "peter-horniak": {
+      "name": "Peter Horniak⏸️🔸",
+      "via": "manifund",
+      "manifund": "https://manifund.org/peter"
+    },
+    "peter-martensen": {
+      "name": "Peter Martensen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/pmartensen"
+    },
+    "peter-miller": {
+      "name": "Peter Miller",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PeterMiller"
+    },
+    "peter-van-hardenberg": {
+      "name": "Peter van Hardenberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/pvh",
+      "website": "https://inkandswitch.com"
+    },
+    "peter-wildeford": {
+      "name": "Peter Wildeford",
+      "via": "manifund",
+      "manifund": "https://manifund.org/peterwildeford",
+      "twitter": "https://x.com/peterwildeford"
+    },
+    "petereade": {
+      "name": "petereade",
+      "via": "manifund",
+      "manifund": "https://manifund.org/petereade"
+    },
+    "petr-salaba": {
+      "name": "Petr Salaba",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Petr_Salaba",
+      "website": "https://petrsalaba.cz"
+    },
+    "phil-palmer": {
+      "name": "Phil Palmer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/phil"
+    },
+    "philip-gubbins": {
+      "name": "Philip Gubbins",
+      "via": "manifund",
+      "manifund": "https://manifund.org/phgubbins"
+    },
+    "philip-tetlock": {
+      "name": "Philip Tetlock",
+      "via": "research"
+    },
+    "philip-torr": {
+      "name": "Philip Torr",
+      "via": "research",
+      "website": "https://torrvision.com/",
+      "twitter": "https://x.com/philiptorr",
+      "linkedin": "https://www.linkedin.com/in/philip-torr-freng-frs-1085702"
+    },
+    "pierre-rossouw": {
+      "name": "Pierre Rossouw",
+      "via": "manifund",
+      "manifund": "https://manifund.org/zomgthisisawesomelol",
+      "twitter": "https://x.com/IsZomg"
+    },
+    "pieter-abbeel": {
+      "name": "Pieter Abbeel",
+      "via": "research",
+      "website": "https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html"
+    },
+    "piijey": {
+      "name": "piijey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/piijey",
+      "twitter": "https://x.com/xiPJ"
+    },
+    "piotr-zaborszczyk": {
+      "name": "Piotr Zaborszczyk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Piotr"
+    },
+    "pip-foweraker": {
+      "name": "Pip Foweraker",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PipFoweraker",
+      "website": "https://pipfoweraker.com"
+    },
+    "plasma-ballin": {
+      "name": "Plasma Ballin'",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PlasmaBallin"
+    },
+    "praveen-varanasi": {
+      "name": "Praveen Varanasi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/napvaranasi",
+      "linkedin": "https://www.linkedin.com/in/praveenvaranasi"
+    },
+    "predictive-democracy": {
+      "name": "Predictive Democracy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Predem"
+    },
+    "preeti-ravindra": {
+      "name": "Preeti Ravindra",
+      "via": "manifund",
+      "manifund": "https://manifund.org/cybersnacker",
+      "website": "https://preetiravindra.info"
+    },
+    "quinn-dougherty": {
+      "name": "Quinn Dougherty",
+      "via": "manifund",
+      "manifund": "https://manifund.org/quinn",
+      "website": "https://quinnd.net"
+    },
+    "raber3": {
+      "name": "raber3",
+      "via": "manifund",
+      "manifund": "https://manifund.org/raber3"
+    },
+    "rachel-atcheson": {
+      "name": "Rachel Atcheson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rachelatcheson",
+      "linkedin": "https://www.linkedin.com/in/rachel-atcheson"
+    },
+    "rachel-freedman": {
+      "name": "Rachel Freedman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rachelfreedman",
+      "website": "https://rachelfreedman.github.io/"
+    },
+    "rachel-mason": {
+      "name": "Rachel Mason",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rachel_e_mason",
+      "linkedin": "https://www.linkedin.com/in/rachelemason1"
+    },
+    "rachel-weinberg": {
+      "name": "Rachel Weinberg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Rachel",
+      "linkedin": "https://www.linkedin.com/in/rachel-weinberg-789b23228"
+    },
+    "rafe-kennedy": {
+      "name": "Rafe Kennedy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Rafe"
+    },
+    "raffaello-fornasiere": {
+      "name": "Raffaello Fornasiere",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fornasiereraffaello"
+    },
+    "rahul-samaranayake": {
+      "name": "Rahul Samaranayake",
+      "via": "manifund",
+      "manifund": "https://manifund.org/trsam1997"
+    },
+    "rahul-swaminathan": {
+      "name": "Rahul Swaminathan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rahulxyz"
+    },
+    "rai-sur": {
+      "name": "Rai Sur",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rai",
+      "twitter": "https://x.com/rai_sur11"
+    },
+    "raj-thimmiah": {
+      "name": "Raj Thimmiah",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Raj",
+      "website": "https://rajt.org"
+    },
+    "ram-potham": {
+      "name": "Ram Potham",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ram"
+    },
+    "ramanuja-rao-kotaprolu": {
+      "name": "Ramanuja Rao Kotaprolu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ramjeesaradigmailcom"
+    },
+    "ramdas-narayanan": {
+      "name": "Ramdas Narayanan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Ram2026"
+    },
+    "ramkimkim": {
+      "name": "ramkimkim",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ramkimkim"
+    },
+    "rana": {
+      "name": "Rana",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Rana-G"
+    },
+    "raquel-barbadillo": {
+      "name": "Raquel Barbadillo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rbarbadillo",
+      "website": "https://rbarbadillo.github.io"
+    },
+    "rasool-somji": {
+      "name": "Rasool Somji",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rsomji"
+    },
+    "raul-andino": {
+      "name": "Raul Andino",
+      "via": "research",
+      "website": "https://andino.ucsf.edu"
+    },
+    "raul-cavalcante-dinardi": {
+      "name": "Raul Cavalcante Dinardi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/raulcdinardi"
+    },
+    "ravi-parikh": {
+      "name": "Ravi Parikh",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ravi"
+    },
+    "raymund-bermejo": {
+      "name": "Raymund Bermejo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/redber2009"
+    },
+    "rebecca": {
+      "name": "Rebecca",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Kaeliora"
+    },
+    "rebecca-m": {
+      "name": "Rebecca M",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rebeccamy"
+    },
+    "reinhardt": {
+      "name": "Reinhardt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tt500"
+    },
+    "renan-araujo": {
+      "name": "Renan Araujo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RenanAraujo"
+    },
+    "richard-mohn": {
+      "name": "Richard Möhn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rmoehn"
+    },
+    "richard-ngo": {
+      "name": "Richard Ngo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Richard",
+      "twitter": "https://x.com/richardmcngo"
+    },
+    "rishonda": {
+      "name": "Rishonda",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rthomas2"
+    },
+    "rishub-jain": {
+      "name": "Rishub Jain",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rishubjain",
+      "website": "https://rishubjain.github.io/"
+    },
+    "rob-amanfu": {
+      "name": "Rob Amanfu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/retroam"
+    },
+    "rob-figueiredo": {
+      "name": "Rob Figueiredo",
+      "via": "manifund",
+      "manifund": "https://manifund.org/robfig",
+      "twitter": "https://x.com/robfig"
+    },
+    "robert-cousineau": {
+      "name": "Robert Cousineau",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RobertCousineau"
+    },
+    "robert-gambee": {
+      "name": "Robert Gambee",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rgambee"
+    },
+    "robert-gilchrist": {
+      "name": "Robert Gilchrist",
+      "via": "research",
+      "website": "https://research.unsw.edu.au/people/professor-robert-bruce-gilchrist",
+      "twitter": "https://x.com/RG_EggLab"
+    },
+    "robert-krzyzanowski": {
+      "name": "Robert Krzyzanowski",
+      "via": "manifund",
+      "manifund": "https://manifund.org/robertzk"
+    },
+    "robert-long": {
+      "name": "Robert Long",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rgblong",
+      "website": "https://experiencemachines.substack.com"
+    },
+    "robert-manduca": {
+      "name": "Robert Manduca",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rmanduca"
+    },
+    "robert-yaman": {
+      "name": "Robert Yaman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RobertYaman",
+      "linkedin": "https://www.linkedin.com/in/robert-yaman-496341a8"
+    },
+    "robi-rahman": {
+      "name": "Robi Rahman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/robirahman",
+      "linkedin": "https://www.linkedin.com/in/robirahman"
+    },
+    "robin-green": {
+      "name": "Robin Green",
+      "via": "manifund",
+      "manifund": "https://manifund.org/greenrd"
+    },
+    "robin-nabel": {
+      "name": "Robin Nabel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Nibo"
+    },
+    "robin-wren-prospect": {
+      "name": "Robin Wren Prospect",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RWP"
+    },
+    "rochelle-harris": {
+      "name": "Rochelle Harris",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rochelleh",
+      "twitter": "https://x.com/ifonlyalabama"
+    },
+    "roger-grosse": {
+      "name": "Roger Grosse",
+      "via": "research",
+      "website": "https://www.cs.toronto.edu/~rgrosse/"
+    },
+    "rohan-selva-radov": {
+      "name": "Rohan Selva-Radov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/selvaradov"
+    },
+    "rolf-andreassen": {
+      "name": "rolf.andreassen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/REA"
+    },
+    "romain-deleglise": {
+      "name": "Romain Deléglise",
+      "via": "research",
+      "website": "https://pauseia.fr",
+      "manifund": "https://manifund.org/Romain_D",
+      "lesswrong": "https://www.lesswrong.com/users/romain-deleglise",
+      "eaforum": "https://forum.effectivealtruism.org/users/romain-deleglise"
+    },
+    "roman-hauksson": {
+      "name": "Roman Hauksson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RomanHauksson",
+      "website": "https://roman.technology"
+    },
+    "ronny-wijaya": {
+      "name": "Ronny Wijaya",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rwijaya"
+    },
+    "rosie-campbell": {
+      "name": "Rosie Campbell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rosiekcampbell"
+    },
+    "ross-nordby": {
+      "name": "Ross Nordby",
+      "via": "manifund",
+      "manifund": "https://manifund.org/porby",
+      "twitter": "https://x.com/RossNordby"
+    },
+    "rowan-clements": {
+      "name": "Rowan Clements",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Rowan-Clements"
+    },
+    "rubi-hudson": {
+      "name": "Rubi Hudson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Rubi-Hudson",
+      "website": "https://www.alignmentforum.org/users/rubi-j-hudson"
+    },
+    "rudolf-ordoyne": {
+      "name": "rudolf ordoyne",
+      "via": "manifund",
+      "manifund": "https://manifund.org/casens"
+    },
+    "rufus-knuppel": {
+      "name": "Rufus Knuppel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/rufus"
+    },
+    "ryan-carey": {
+      "name": "Ryan Carey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/RyanCarey",
+      "website": "https://ryancarey.github.io/"
+    },
+    "ryan-kidd": {
+      "name": "Ryan Kidd",
+      "via": "research",
+      "website": "https://ryankidd.ai",
+      "twitter": "https://x.com/ryan_kidd44",
+      "linkedin": "https://www.linkedin.com/in/ryan-kidd-1b0574a3",
+      "manifund": "https://manifund.org/RyanKidd",
+      "lesswrong": "https://www.lesswrong.com/users/ryankidd44",
+      "eaforum": "https://forum.effectivealtruism.org/users/ryan-kidd"
+    },
+    "ryan-lowe": {
+      "name": "Ryan Lowe",
+      "via": "manifund",
+      "manifund": "https://manifund.org/loweryant"
+    },
+    "saba-imran": {
+      "name": "Saba Imran",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sabaimran48"
+    },
+    "sabine-panneau": {
+      "name": "Sabine Panneau",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sabinefep",
+      "linkedin": "https://www.linkedin.com/in/sabinepanneau"
+    },
+    "sadie-younger": {
+      "name": "Sadie Younger",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sadiekay"
+    },
+    "sage-max": {
+      "name": "Sage Max",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sagemax",
+      "linkedin": "https://www.linkedin.com/in/sagemax"
+    },
+    "sahil": {
+      "name": "Sahil",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sahil"
+    },
+    "sallard": {
+      "name": "Sallard",
+      "via": "manifund",
+      "manifund": "https://manifund.org/PSallard"
+    },
+    "sally-tsai": {
+      "name": "Sally Tsai",
+      "via": "manifund",
+      "manifund": "https://manifund.org/st2015"
+    },
+    "salvatore-barbera": {
+      "name": "Salvatore Barbera",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SalvatoreBarbera",
+      "linkedin": "https://www.linkedin.com/in/giona"
+    },
+    "sam-eisenstat": {
+      "name": "Sam Eisenstat",
+      "via": "research",
+      "lesswrong": "https://www.lesswrong.com/users/sameisenstat"
+    },
+    "sam-glover": {
+      "name": "Sam Glover",
+      "via": "manifund",
+      "manifund": "https://manifund.org/samglover97",
+      "twitter": "https://x.com/sam_atis"
+    },
+    "samantha-joan-ackary": {
+      "name": "Samantha Joan Ackary",
+      "via": "manifund",
+      "manifund": "https://manifund.org/samanthaackary",
+      "linkedin": "https://www.linkedin.com/in/samantha-ackary-88781721a"
+    },
+    "samuel-celarek": {
+      "name": "Samuel Celarek",
+      "via": "manifund",
+      "manifund": "https://manifund.org/scelarek"
+    },
+    "samuel-duncan": {
+      "name": "Samuel Duncan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sduncan"
+    },
+    "samuel-gelineau": {
+      "name": "Samuel Gélineau",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gelisam",
+      "website": "https://gelisam.com"
+    },
+    "samuel-knoche": {
+      "name": "Samuel Knoche",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SamuelKnoche"
+    },
+    "samuel-shadrach": {
+      "name": "Samuel Shadrach",
+      "via": "manifund",
+      "manifund": "https://manifund.org/samueldashadrach",
+      "website": "https://samuelshadrach.com"
+    },
+    "samuel-stowers": {
+      "name": "Samuel Stowers",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sams",
+      "twitter": "https://x.com/sammakesthings"
+    },
+    "sanmi-koyejo": {
+      "name": "Sanmi Koyejo",
+      "via": "research",
+      "website": "https://cs.stanford.edu/~sanmi/",
+      "twitter": "https://x.com/sanmikoyejo"
+    },
+    "santeri-t": {
+      "name": "Santeri T",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sanyero"
+    },
+    "sapphire-star": {
+      "name": "Sapphire Star",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sappire",
+      "twitter": "https://x.com/SapphStarlight"
+    },
+    "sara-molina": {
+      "name": "Sara Molina",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sara-MR"
+    },
+    "sarah-lup": {
+      "name": "Sarah Lup",
+      "via": "manifund",
+      "manifund": "https://manifund.org/thrivelovesvegans"
+    },
+    "sarah-weiler": {
+      "name": "Sarah Weiler",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sarahweiler"
+    },
+    "sarit-pery": {
+      "name": "Sarit pery",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sarit"
+    },
+    "sasha-cooper": {
+      "name": "Sasha Cooper",
+      "via": "research",
+      "website": "https://valence-utilitarianism.com/",
+      "linkedin": "https://www.linkedin.com/in/sasha-cooper-794006a1",
+      "manifund": "https://manifund.org/Arepo",
+      "lesswrong": "https://www.lesswrong.com/users/arepo",
+      "eaforum": "https://forum.effectivealtruism.org/users/arepo"
+    },
+    "saul-munn": {
+      "name": "Saul Munn",
+      "via": "manifund",
+      "manifund": "https://manifund.org/saulmunn",
+      "website": "https://saulmunn.com"
+    },
+    "saurav-panigrahi": {
+      "name": "Saurav Panigrahi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/expx",
+      "website": "https://www.sauravpanigrahi.com"
+    },
+    "sawyer-bernath": {
+      "name": "Sawyer Bernath",
+      "via": "manifund",
+      "manifund": "https://manifund.org/berisawyer",
+      "website": "https://existence.org"
+    },
+    "sayhan-y": {
+      "name": "Sayhan Y.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/nabereon"
+    },
+    "scott": {
+      "name": "Scott",
+      "via": "manifund",
+      "manifund": "https://manifund.org/duggasco"
+    },
+    "scott-aaronson": {
+      "name": "Scott Aaronson",
+      "via": "research",
+      "website": "https://www.scottaaronson.com/",
+      "lesswrong": "https://www.lesswrong.com/users/scottaaronson"
+    },
+    "scott-alexander": {
+      "name": "Scott Alexander",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ScottAlexander",
+      "website": "https://astralcodexten.substack.com"
+    },
+    "scott-macalister": {
+      "name": "Scott Macalister",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ScottMac"
+    },
+    "scott-viteri": {
+      "name": "Scott Viteri",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Scottviteri",
+      "website": "https://scottviteri.com"
+    },
+    "sean-peters": {
+      "name": "Sean Peters",
+      "via": "manifund",
+      "manifund": "https://manifund.org/seanpetersau",
+      "website": "https://sean-peters-au.github.io/"
+    },
+    "sean-richardson": {
+      "name": "Sean Richardson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/seanrson"
+    },
+    "sebastian-contin-trillo-figueroa": {
+      "name": "Sebastian Contin Trillo-Figueroa",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sebastiancontin",
+      "linkedin": "https://www.linkedin.com/in/sebastiancontin"
+    },
+    "sebastian-wenzel": {
+      "name": "Sebastian Wenzel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Benni"
+    },
+    "sebastien-krier": {
+      "name": "Sebastien Krier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sebkrier"
+    },
+    "seldon": {
+      "name": "Seldon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Seldon",
+      "website": "https://seldonlab.com"
+    },
+    "sendhil-mullainathan": {
+      "name": "Sendhil Mullainathan",
+      "via": "research",
+      "website": "https://sendhil.org/",
+      "twitter": "https://x.com/m_sendhil"
+    },
+    "serenity-poirier": {
+      "name": "Serenity Poirier",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Serenity"
+    },
+    "serge-var": {
+      "name": "Serge Var",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sergevar"
+    },
+    "sergey": {
+      "name": "Sergey",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sergeyshkolni"
+    },
+    "sergey-levine": {
+      "name": "Sergey Levine",
+      "via": "research",
+      "website": "http://people.eecs.berkeley.edu/~svlevine/",
+      "twitter": "https://x.com/svlevine"
+    },
+    "severin-field": {
+      "name": "Severin Field",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sevdeawesome",
+      "website": "https://severinfield.com"
+    },
+    "shahar-avin": {
+      "name": "Shahar Avin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/shaharavin"
+    },
+    "shannon-hunter": {
+      "name": "Shannon Hunter",
+      "via": "manifund",
+      "manifund": "https://manifund.org/shunter1111"
+    },
+    "sharon": {
+      "name": "Sharon",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sherry1978"
+    },
+    "sharon-li": {
+      "name": "Sharon Li",
+      "via": "research",
+      "website": "https://pages.cs.wisc.edu/~sharonli/",
+      "twitter": "https://x.com/SharonYixuanLi",
+      "linkedin": "https://www.linkedin.com/in/liyixuan"
+    },
+    "shaun-srirangam": {
+      "name": "Shaun Srirangam",
+      "via": "manifund",
+      "manifund": "https://manifund.org/shaun"
+    },
+    "shauna": {
+      "name": "Shauna",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Celestia",
+      "website": "https://celest.ai"
+    },
+    "shear": {
+      "name": "Shear",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Emmett",
+      "twitter": "https://x.com/eshear"
+    },
+    "sheikh-abdur-raheem-ali": {
+      "name": "Sheikh Abdur Raheem Ali",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sheikheddy",
+      "linkedin": "https://www.linkedin.com/in/abdur-raheem-ali"
+    },
+    "sheila-mcilraith": {
+      "name": "Sheila McIlraith",
+      "via": "research",
+      "website": "https://www.cs.toronto.edu/~sheila/"
+    },
+    "shenzhen": {
+      "name": "shenzhen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/shenzhen"
+    },
+    "shi-feng": {
+      "name": "Shi Feng",
+      "via": "research",
+      "website": "https://shifeng.me"
+    },
+    "shirley-ho": {
+      "name": "Shirley Ho",
+      "via": "research",
+      "website": "https://www.shirleyho.space/",
+      "twitter": "https://x.com/cosmo_shirley",
+      "linkedin": "https://www.linkedin.com/in/shirleyhocosmo"
+    },
+    "shreeda-segan": {
+      "name": "Shreeda Segan",
+      "via": "research",
+      "website": "https://shreedasegan.com/",
+      "linkedin": "https://www.linkedin.com/in/shreeda-segan",
+      "manifund": "https://manifund.org/shreeda"
+    },
+    "shri-samson": {
+      "name": "Shri Samson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Shri"
+    },
+    "sierra-hollowell": {
+      "name": "Sierra Hollowell",
+      "via": "manifund",
+      "manifund": "https://manifund.org/fuzzifro101",
+      "linkedin": "https://www.linkedin.com/in/sierra-hollowell-a28a551aa"
+    },
+    "simon-bedard-goulet": {
+      "name": "Simon Bédard Goulet",
+      "via": "manifund",
+      "manifund": "https://manifund.org/simonbgoulet"
+    },
+    "simon-chen": {
+      "name": "Simon Chen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SimonChen"
+    },
+    "simon-fischer": {
+      "name": "Simon Fischer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SimonFischer"
+    },
+    "simran-tinani": {
+      "name": "Simran Tinani",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Simrant",
+      "website": "https://Simrantinani.wordpress.com"
+    },
+    "siobhan-ballan": {
+      "name": "Siobhan Ballan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Siobhan-Ballan"
+    },
+    "skvzk": {
+      "name": "skvzk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/skvzk"
+    },
+    "skyler-hoffman": {
+      "name": "Skyler Hoffman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/skylerhoffmannyc"
+    },
+    "sne-ray": {
+      "name": "Sne Ray",
+      "via": "manifund",
+      "manifund": "https://manifund.org/snigloo"
+    },
+    "sofia-balderson": {
+      "name": "Sofia Balderson",
+      "via": "research",
+      "website": "https://joinhive.org",
+      "linkedin": "https://www.linkedin.com/in/sofia-balderson",
+      "manifund": "https://manifund.org/SofiaBalderson",
+      "eaforum": "https://forum.effectivealtruism.org/users/sofiabalderson"
+    },
+    "sofia-yablonskaya": {
+      "name": "Sofia Yablonskaya",
+      "via": "manifund",
+      "manifund": "https://manifund.org/syablonskaia"
+    },
+    "sofya-lebedeva": {
+      "name": "Sofya Lebedeva",
+      "via": "manifund",
+      "manifund": "https://manifund.org/topaztwinkle"
+    },
+    "sol-hando": {
+      "name": "Sol Hando",
+      "via": "manifund",
+      "manifund": "https://manifund.org/solhando"
+    },
+    "sophia-pung": {
+      "name": "Sophia Pung",
+      "via": "manifund",
+      "manifund": "https://manifund.org/spunge",
+      "linkedin": "https://www.linkedin.com/in/sophiapung"
+    },
+    "sophia-xu": {
+      "name": "Sophia Xu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/thesophiaxu"
+    },
+    "sophie": {
+      "name": "Sophie",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Vuichoud"
+    },
+    "sophie-wenzel": {
+      "name": "sophie wenzel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sophiequoi"
+    },
+    "soroush-pour": {
+      "name": "Soroush Pour",
+      "via": "manifund",
+      "manifund": "https://manifund.org/soroushjp"
+    },
+    "spencer-orenstein": {
+      "name": "Spencer Orenstein",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SOrenstein"
+    },
+    "spenser-huang": {
+      "name": "Spenser Huang",
+      "via": "manifund",
+      "manifund": "https://manifund.org/spenser"
+    },
+    "spode": {
+      "name": "Spode",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Spode"
+    },
+    "stacy": {
+      "name": "stacy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/voidshapes"
+    },
+    "steph-samson": {
+      "name": "Steph Samson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/steph"
+    },
+    "stephan-waldchen": {
+      "name": "Stephan Wäldchen",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Martian-Moonshine",
+      "website": "https://stephanw.net"
+    },
+    "stephanie-dinkins": {
+      "name": "Stephanie Dinkins",
+      "via": "research",
+      "website": "https://www.stephaniedinkins.com/",
+      "twitter": "https://x.com/dinkinsstudio"
+    },
+    "stephen-calenzani": {
+      "name": "Stephen Calenzani",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Scalenzanigmailcom"
+    },
+    "stephen-johnston": {
+      "name": "Stephen Johnston",
+      "via": "research",
+      "website": "https://search.asu.edu/profile/817912"
+    },
+    "stephen-mcaleese": {
+      "name": "Stephen McAleese",
+      "via": "manifund",
+      "manifund": "https://manifund.org/smcaleese",
+      "linkedin": "https://www.linkedin.com/in/stephen-mcaleese-ab8585176"
+    },
+    "steve-erlsten": {
+      "name": "Steve Erlsten",
+      "via": "manifund",
+      "manifund": "https://manifund.org/steveerlsten"
+    },
+    "steve-horvath": {
+      "name": "Steve Horvath",
+      "via": "research",
+      "linkedin": "https://www.linkedin.com/in/steve-horvath-28a9b1253"
+    },
+    "steven-byrnes": {
+      "name": "Steven Byrnes",
+      "via": "manifund",
+      "manifund": "https://manifund.org/SteveByrnes",
+      "website": "https://sjbyrnes.com/"
+    },
+    "steven-millblank": {
+      "name": "Steven Millblank",
+      "via": "manifund",
+      "manifund": "https://manifund.org/millblank47"
+    },
+    "steven-rouk": {
+      "name": "Steven Rouk",
+      "via": "research",
+      "website": "https://stevenrouk.com",
+      "linkedin": "https://www.linkedin.com/in/stevenrouk",
+      "manifund": "https://manifund.org/stevenrouk",
+      "eaforum": "https://forum.effectivealtruism.org/users/steven-rouk-1"
+    },
+    "stewart-todd": {
+      "name": "Stewart Todd",
+      "via": "manifund",
+      "manifund": "https://manifund.org/stewart_todd"
+    },
+    "stuart-russell": {
+      "name": "Stuart Russell",
+      "via": "research",
+      "website": "http://people.eecs.berkeley.edu/~russell/"
+    },
+    "sudarsh-kunnavakkam": {
+      "name": "Sudarsh Kunnavakkam",
+      "via": "manifund",
+      "manifund": "https://manifund.org/skunnavakkam",
+      "website": "https://sudarsh.com"
+    },
+    "suhas-hariharan": {
+      "name": "Suhas Hariharan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Suhas13",
+      "website": "https://suhas.net"
+    },
+    "surya-ganguli": {
+      "name": "Surya Ganguli",
+      "via": "research",
+      "website": "https://ganguli-gang.stanford.edu/surya.html",
+      "twitter": "https://x.com/SuryaGanguli",
+      "linkedin": "https://www.linkedin.com/in/surya-ganguli-03867537"
+    },
+    "suzy-shepherd": {
+      "name": "Suzy Shepherd",
+      "via": "manifund",
+      "manifund": "https://manifund.org/suzybshepherd"
+    },
+    "swante-scholz": {
+      "name": "Swante Scholz",
+      "via": "manifund",
+      "manifund": "https://manifund.org/swante"
+    },
+    "sydney-brenner": {
+      "name": "Sydney Brenner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/sydneybrenner-",
+      "linkedin": "https://www.linkedin.com/in/sydney-filler"
+    },
+    "syed-jafri": {
+      "name": "Syed Jafri",
+      "via": "manifund",
+      "manifund": "https://manifund.org/psilospore",
+      "website": "https://psilospore.org/"
+    },
+    "tamar-rott-shaham": {
+      "name": "tamar rott shaham",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tamar"
+    },
+    "tammy-martin": {
+      "name": "Tammy Martin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tammymartin88"
+    },
+    "tandena-wagner": {
+      "name": "Tandena Wagner",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tandenawagner",
+      "website": "https://ecoresilienceinitiative.substack.com/"
+    },
+    "tanja-ruegg": {
+      "name": "Tanja Rüegg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tanjaruegg",
+      "linkedin": "https://www.linkedin.com/in/tanjaruegg"
+    },
+    "tanmay-khattar": {
+      "name": "Tanmay Khattar",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mr_mino"
+    },
+    "tanwi-wangikar": {
+      "name": "Tanwi Wangikar",
+      "via": "manifund",
+      "manifund": "https://manifund.org/twangikar"
+    },
+    "tao-roa-lin": {
+      "name": "Tao Roa Lin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/graphminer"
+    },
+    "tara-agnerian": {
+      "name": "Tara Agnerian",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Misquel"
+    },
+    "tassilo-neubauer": {
+      "name": "Tassilo Neubauer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TassiloNeubauer",
+      "linkedin": "https://www.linkedin.com/in/tassilo-neubauer"
+    },
+    "tatsunori-hashimoto": {
+      "name": "Tatsunori Hashimoto",
+      "via": "research",
+      "website": "https://thashim.github.io/"
+    },
+    "ted-westervelt": {
+      "name": "Ted Westervelt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/WCT"
+    },
+    "telt": {
+      "name": "Telt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/telt"
+    },
+    "teo-ionita": {
+      "name": "Teo Ionita",
+      "via": "manifund",
+      "manifund": "https://manifund.org/teodorio"
+    },
+    "tessa": {
+      "name": "Tessa",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tessafyi",
+      "website": "https://tessa.fyi"
+    },
+    "tetra-jones": {
+      "name": "Tetra Jones",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tetraspace",
+      "website": "https://thetetra.space"
+    },
+    "teun-van-der-weij": {
+      "name": "Teun van der Weij",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TeunvanderWeij",
+      "website": "https://teunvanderweij.com"
+    },
+    "textural-being": {
+      "name": "Textural Being",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Textural-Being"
+    },
+    "thane-ruthenis": {
+      "name": "Thane Ruthenis",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Thane-Ruthenis",
+      "lesswrong": "https://www.lesswrong.com/users/thane-ruthenis"
+    },
+    "theia-vogel": {
+      "name": "Theia Vogel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vgel",
+      "website": "https://vgel.me"
+    },
+    "thibaud-veron": {
+      "name": "Thibaud Veron",
+      "via": "manifund",
+      "manifund": "https://manifund.org/T-bo",
+      "linkedin": "https://www.linkedin.com/in/thibaud-veron"
+    },
+    "thierry-m": {
+      "name": "Thierry M.",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TM"
+    },
+    "thomas-briggs": {
+      "name": "Thomas Briggs",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Center-for-Educational-Progress",
+      "website": "https://educationprogress.org"
+    },
+    "thomas-cederborg": {
+      "name": "Thomas Cederborg",
+      "via": "manifund",
+      "manifund": "https://manifund.org/thomascederborgsemail"
+    },
+    "thomas-fratantoni": {
+      "name": "Thomas Fratantoni",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tfrat"
+    },
+    "thomas-jiralerspong": {
+      "name": "Thomas Jiralerspong",
+      "via": "manifund",
+      "manifund": "https://manifund.org/thomasjiralerspong"
+    },
+    "thomas-manandhar-richardson": {
+      "name": "Thomas Manandhar-Richardson",
+      "via": "manifund",
+      "manifund": "https://manifund.org/EvolvingRichie",
+      "website": "https://evolvingimpact.wordpress.com/"
+    },
+    "thomas-moynihan": {
+      "name": "Thomas Moynihan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tmmyni",
+      "website": "https://thomasmoynihan.xyz"
+    },
+    "tim": {
+      "name": "Tim",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TimManifund"
+    },
+    "tim-duffy": {
+      "name": "Tim Duffy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TimDuffy"
+    },
+    "tim-polkowski": {
+      "name": "Tim Polkowski",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tpolkows"
+    },
+    "timofey-goshka": {
+      "name": "Timofey Goshka",
+      "via": "manifund",
+      "manifund": "https://manifund.org/goshkatimofey"
+    },
+    "timothy-telleen-lawton": {
+      "name": "Timothy Telleen-Lawton",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Timothy",
+      "linkedin": "https://www.linkedin.com/in/timothytl"
+    },
+    "tobias-haberli": {
+      "name": "Tobias Häberli",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tobias"
+    },
+    "toby-shorin": {
+      "name": "Toby Shorin",
+      "via": "manifund",
+      "manifund": "https://manifund.org/toby",
+      "website": "https://tobyshorin.com"
+    },
+    "tolga-bilge": {
+      "name": "Tolga Bilge",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tolga",
+      "website": "https://tolga.bilge.no"
+    },
+    "tom-bibby": {
+      "name": "Tom Bibby",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TomBibby"
+    },
+    "tom-burns": {
+      "name": "Tom Burns",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tfburns",
+      "twitter": "https://x.com/tfburns"
+    },
+    "tom-david": {
+      "name": "Tom David",
+      "via": "manifund",
+      "manifund": "https://manifund.org/T",
+      "linkedin": "https://www.linkedin.com/in/tom-david-a33444259"
+    },
+    "tom-knowles": {
+      "name": "Tom Knowles",
+      "via": "manifund",
+      "manifund": "https://manifund.org/knowlsie"
+    },
+    "tom-lieberum": {
+      "name": "Tom Lieberum",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tom-Lieberum"
+    },
+    "tom-mcgrath": {
+      "name": "Tom McGrath",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tmcgrath",
+      "website": "https://tommcgrath.github.io"
+    },
+    "tom-o-haire": {
+      "name": "Tom O’Haire",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tomohaire",
+      "website": "https://www.researchgate.net/profile/Tom-Ohaire"
+    },
+    "tomas-gavenciak": {
+      "name": "Tomáš Gavenčiak",
+      "via": "manifund",
+      "manifund": "https://manifund.org/gavento",
+      "website": "https://gavento.cz"
+    },
+    "tony": {
+      "name": "Tony",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TonyPepperoni"
+    },
+    "tony-gao": {
+      "name": "Tony Gao",
+      "via": "manifund",
+      "manifund": "https://manifund.org/TonyGao"
+    },
+    "tony-wu": {
+      "name": "Tony Wu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tony10101105"
+    },
+    "toven": {
+      "name": "Toven",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Toven",
+      "twitter": "https://x.com/pingToven"
+    },
+    "travis-cline": {
+      "name": "Travis Cline",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tmc"
+    },
+    "trevor-lohrbeer": {
+      "name": "Trevor Lohrbeer",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FastFedora",
+      "linkedin": "https://www.linkedin.com/in/trevorlohrbeer"
+    },
+    "tristan-hume": {
+      "name": "Tristan Hume",
+      "via": "manifund",
+      "manifund": "https://manifund.org/trishume",
+      "website": "https://thume.ca/"
+    },
+    "tristan-williams": {
+      "name": "Tristan Williams",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tristan-Williams"
+    },
+    "tugrul-irmak": {
+      "name": "Tugrul Irmak",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tugrul-Irmak"
+    },
+    "tyler-john": {
+      "name": "Tyler John",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tylermjohn"
+    },
+    "tyler-kolota": {
+      "name": "Tyler Kolota",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Takolota"
+    },
+    "tyler-ratajczyk": {
+      "name": "Tyler Ratajczyk",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tylerratajczyk"
+    },
+    "tyler-tracy": {
+      "name": "Tyler Tracy",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tylord",
+      "twitter": "https://x.com/tylertracy321"
+    },
+    "tym-s": {
+      "name": "Tym S",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Tym"
+    },
+    "tzu-kit-chan": {
+      "name": "Tzu Kit Chan",
+      "via": "manifund",
+      "manifund": "https://manifund.org/tzukitchan",
+      "website": "https://tzukitchan.com/"
+    },
+    "unny-nambudiripad": {
+      "name": "Unny Nambudiripad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/unnypn",
+      "website": "https://www.unnypn.org"
+    },
+    "vance-trendov": {
+      "name": "Vance Trendov",
+      "via": "manifund",
+      "manifund": "https://manifund.org/VanceTrendov"
+    },
+    "vanessa-barth": {
+      "name": "Vanessa Barth",
+      "via": "manifund",
+      "manifund": "https://manifund.org/NessNess"
+    },
+    "vanessa-g": {
+      "name": "Vanessa G",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vanessagurie"
+    },
+    "vasil-georgiev": {
+      "name": "Vasil Georgiev",
+      "via": "manifund",
+      "manifund": "https://manifund.org/VasilG"
+    },
+    "venkata-subhash-chandra-sadhu": {
+      "name": "Venkata Subhash Chandra Sadhu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/subhash-sadhu"
+    },
+    "vesa-hautala": {
+      "name": "Vesa Hautala",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Vesa"
+    },
+    "vg7987368": {
+      "name": "vg7987368",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vg7987368"
+    },
+    "victor-daudonnet": {
+      "name": "Victor Daudonnet",
+      "via": "manifund",
+      "manifund": "https://manifund.org/FrAg_LC"
+    },
+    "vikram-vik-gupta": {
+      "name": "Vikram (Vik) Gupta",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vik",
+      "linkedin": "https://www.linkedin.com/in/vik-"
+    },
+    "vincent-accardi": {
+      "name": "Vincent Accardi",
+      "via": "manifund",
+      "manifund": "https://manifund.org/mikeaccardi7gmailcom"
+    },
+    "vincent-weisser": {
+      "name": "Vincent Weisser",
+      "via": "research",
+      "website": "https://vincentweisser.com/",
+      "twitter": "https://x.com/vincentweisser",
+      "manifund": "https://manifund.org/vincentweisser"
+    },
+    "vinod-vaikuntanathan": {
+      "name": "Vinod Vaikuntanathan",
+      "via": "research",
+      "website": "https://people.csail.mit.edu/vinodv/"
+    },
+    "vinod-vairavaraj": {
+      "name": "Vinod Vairavaraj",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vinodvairavaraj"
+    },
+    "vishakha-agrawal": {
+      "name": "Vishakha Agrawal",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vishakha",
+      "linkedin": "https://www.linkedin.com/in/vishakhaa09"
+    },
+    "vishal-maini": {
+      "name": "Vishal Maini",
+      "via": "manifund",
+      "manifund": "https://manifund.org/vishal",
+      "twitter": "https://x.com/v_maini"
+    },
+    "vitalik-buterin": {
+      "name": "Vitalik Buterin",
+      "via": "research",
+      "website": "https://vitalik.eth.limo/",
+      "twitter": "https://x.com/VitalikButerin",
+      "manifund": "https://manifund.org/vbuterin"
+    },
+    "wasabipesto": {
+      "name": "wasabipesto",
+      "via": "research",
+      "website": "https://wasabipesto.com/",
+      "manifund": "https://manifund.org/wasabipesto"
+    },
+    "weiyan-shi": {
+      "name": "Weiyan Shi",
+      "via": "research",
+      "website": "https://wyshi.github.io/",
+      "twitter": "https://x.com/shi_weiyan"
+    },
+    "wesley-fenza": {
+      "name": "Wesley Fenza",
+      "via": "manifund",
+      "manifund": "https://manifund.org/wfenza",
+      "twitter": "https://x.com/wfenza"
+    },
+    "wilco-van-ginkel": {
+      "name": "Wilco van Ginkel",
+      "via": "manifund",
+      "manifund": "https://manifund.org/WVG"
+    },
+    "will-aldred": {
+      "name": "Will Aldred",
+      "via": "manifund",
+      "manifund": "https://manifund.org/will"
+    },
+    "will-peracchio": {
+      "name": "Will Peracchio",
+      "via": "manifund",
+      "manifund": "https://manifund.org/wap",
+      "linkedin": "https://www.linkedin.com/in/william-peracchio"
+    },
+    "william-ehlhardt": {
+      "name": "William Ehlhardt",
+      "via": "manifund",
+      "manifund": "https://manifund.org/WilliamEhlhardt"
+    },
+    "william-mf-baird": {
+      "name": "William MF Baird",
+      "via": "manifund",
+      "manifund": "https://manifund.org/William-"
+    },
+    "william-taysom": {
+      "name": "William Taysom",
+      "via": "manifund",
+      "manifund": "https://manifund.org/wtaysom"
+    },
+    "www": {
+      "name": "www",
+      "via": "manifund",
+      "manifund": "https://manifund.org/www"
+    },
+    "wyatt-hooper": {
+      "name": "Wyatt Hooper",
+      "via": "manifund",
+      "manifund": "https://manifund.org/linedr"
+    },
+    "y-snyder": {
+      "name": "Y Snyder",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ysnyder"
+    },
+    "yannick-muehlhaeuser": {
+      "name": "Yannick Muehlhaeuser",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Yannick-Muehlhaeuser"
+    },
+    "yejin-choi": {
+      "name": "Yejin Choi",
+      "via": "research",
+      "website": "https://yejinc.github.io/",
+      "twitter": "https://x.com/YejinChoinka",
+      "linkedin": "https://www.linkedin.com/in/yejin-choi-0b900b1"
+    },
+    "yevhen-haluschak": {
+      "name": "Yevhen Haluschak",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Yevhen-Haluschak",
+      "linkedin": "https://www.linkedin.com/in/yevhen-haluschak-b74a6a211"
+    },
+    "yizheng-chen": {
+      "name": "Yizheng Chen",
+      "via": "research",
+      "website": "https://surrealyz.github.io/",
+      "twitter": "https://x.com/surrealyz"
+    },
+    "yoav-tzfati": {
+      "name": "Yoav Tzfati",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Crazytieguy"
+    },
+    "yonatan-grad": {
+      "name": "Yonatan Grad",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ygrad",
+      "website": "https://hsph.harvard.edu/research/grad-lab/"
+    },
+    "yoyo-y": {
+      "name": "Yoyo Y",
+      "via": "manifund",
+      "manifund": "https://manifund.org/indiraschka"
+    },
+    "yuanyuan-sun": {
+      "name": "Yuanyuan Sun",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Sarah-Sun",
+      "linkedin": "https://www.linkedin.com/in/yuan-yuan-sun"
+    },
+    "yuchen-liu": {
+      "name": "Yuchen Liu",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Lyrica",
+      "website": "https://lyrica.φ.monster"
+    },
+    "yuting-qing": {
+      "name": "Yuting Qing",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Charity"
+    },
+    "zach-stein-perlman": {
+      "name": "Zach Stein-Perlman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ZachSteinPerlman",
+      "linkedin": "https://www.linkedin.com/in/zsp"
+    },
+    "zack-witten": {
+      "name": "Zack Witten",
+      "via": "manifund",
+      "manifund": "https://manifund.org/zswitten",
+      "website": "https://zswitten.github.io"
+    },
+    "zara-abdurahaman": {
+      "name": "Zara Abdurahaman",
+      "via": "manifund",
+      "manifund": "https://manifund.org/abdzara"
+    },
+    "zhijing-jin": {
+      "name": "Zhijing Jin",
+      "via": "research",
+      "website": "https://zhijing-jin.com",
+      "twitter": "https://x.com/ZhijingJin",
+      "linkedin": "https://www.linkedin.com/in/zhijing-jin",
+      "manifund": "https://manifund.org/jin",
+      "lesswrong": "https://www.lesswrong.com/users/zhijing-jin",
+      "eaforum": "https://forum.effectivealtruism.org/users/zhijing-jin"
+    },
+    "zhonghao-he": {
+      "name": "Zhonghao He",
+      "via": "manifund",
+      "manifund": "https://manifund.org/hzh",
+      "website": "https://hezhonghao.github.io"
+    },
+    "zmavli-caimle": {
+      "name": "Zmavli Caimle",
+      "via": "manifund",
+      "manifund": "https://manifund.org/zmavli",
+      "website": "https://zmavli.github.io/kibykarni/"
+    },
+    "zoe-sigle": {
+      "name": "Zoë Sigle",
+      "via": "manifund",
+      "manifund": "https://manifund.org/ZoeSigle"
+    },
+    "zz-rot": {
+      "name": "Zz’rot",
+      "via": "manifund",
+      "manifund": "https://manifund.org/Zzrott1"
+    },
+    "zzq": {
+      "name": "zzq",
+      "via": "manifund",
+      "manifund": "https://manifund.org/zzq",
+      "website": "https://foxbenjaminfox.com"
+    }
+  }
+}

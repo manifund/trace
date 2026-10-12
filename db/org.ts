@@ -1,6 +1,7 @@
 import 'server-only'
 
 import { dbConfigured, getGrants } from './grant'
+import type { OrgLinks } from '@/utils/links'
 import { createPublicSupabaseClient } from './supabase-server'
 
 export type OrgDetail = {
@@ -10,6 +11,7 @@ export type OrgDetail = {
   org_type: string
   website: string | null
   description: string | null
+  links: OrgLinks | null
   names: { name: string; kind: string; valid_from: string | null; valid_to: string | null }[]
 }
 
@@ -19,7 +21,7 @@ export async function getOrgBySlug(slug: string): Promise<OrgDetail | null> {
   const { data } = await supabase
     .from('orgs')
     .select(
-      'id, slug, name, org_type, website, description, org_names(name, kind, valid_from, valid_to)'
+      'id, slug, name, org_type, website, description, links, org_names(name, kind, valid_from, valid_to)'
     )
     .eq('slug', slug)
     .maybeSingle()

@@ -6,10 +6,13 @@
 import aliasesFile from '@/data/aliases.json'
 import descriptionsFile from '@/data/org-descriptions.json'
 import linksFile from '@/data/org-links.json'
+import orgTypesFile from '@/data/org-types.json'
 import orgsSeed from '@/data/orgs-seed.json'
+import personLinksFile from '@/data/person-links.json'
 import reviewedFile from '@/data/reviewed-orgs.json'
 import { createAdminClient } from '@/db/supabase-admin'
 import { CAUSE_TREE } from '@/utils/cause-tree'
+import { LINK_KINDS, type OrgLinks } from '@/utils/links'
 import { normalizeName } from './lib/normalize'
 
 const db = createAdminClient()
@@ -582,6 +585,86 @@ async function main() {
   }
   if (undescribed.length > 0)
     console.log(`Cleared ${undescribed.length} description(s) no longer in org-descriptions.json`)
+
+  // org-types.json: types for non-seeded orgs where the ingester guessed wrong
+  // (mostly people a source did not mark as individuals).
+  const typesBySlug = new Map<string, string>()
+  for (const [type, slugs] of Object.entries(orgTypesFile as never as Record<string, unknown>)) {
+    if (!Array.isArray(slugs)) continue
+    for (const slug of slugs as string[]) {
+      if (seededSlugs.has(slug)) console.warn(`org-types.json: "${slug}" is seeded; type it there`)
+      else typesBySlug.set(slug, type)
+    }
+  }
+  const retype = new Map<string, string[]>()
+  const typedSlugs = new Set<string>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('orgs')
+      .select('slug, org_type')
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) {
+      const want = typesBySlug.get(row.slug)
+      if (!want) continue
+      typedSlugs.add(row.slug)
+      if (want !== row.org_type) retype.set(want, [...(retype.get(want) ?? []), row.slug])
+    }
+    if (!data || data.length < 1000) break
+  }
+  for (const slug of typesBySlug.keys()) {
+    if (!typedSlugs.has(slug)) console.warn(`org-types.json: unknown slug "${slug}"`)
+  }
+  for (const [type, slugs] of retype) {
+    for (let from = 0; from < slugs.length; from += 200) {
+      await db
+        .from('orgs')
+        .update({ org_type: type })
+        .in('slug', slugs.slice(from, from + 200))
+        .throwOnError()
+    }
+    console.log(`Retyped ${slugs.length} org(s) as ${type}`)
+  }
+
+  // person-links.json owns orgs.links: profile links per person, and any org
+  // not in the file loses its links.
+  const people = (personLinksFile as never as { people: Record<string, OrgLinks> }).people
+  const currentLinks = new Map<string, string>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('orgs')
+      .select('slug, links')
+      .not('links', 'is', null)
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) currentLinks.set(row.slug, JSON.stringify(row.links))
+    if (!data || data.length < 1000) break
+  }
+  for (const [slug, entry] of Object.entries(people)) {
+    const links: OrgLinks = {}
+    for (const kind of LINK_KINDS) if (entry[kind]) links[kind] = entry[kind]
+    if (Object.keys(links).length === 0) continue
+    const had = currentLinks.get(slug)
+    currentLinks.delete(slug)
+    if (had === JSON.stringify(links)) continue
+    const { data } = await db
+      .from('orgs')
+      .update({ links })
+      .eq('slug', slug)
+      .select('id')
+      .throwOnError()
+    if (!data?.length) console.warn(`person-links.json: unknown slug "${slug}"`)
+  }
+  const unlinked = Array.from(currentLinks.keys())
+  for (let from = 0; from < unlinked.length; from += 200) {
+    await db
+      .from('orgs')
+      .update({ links: null })
+      .in('slug', unlinked.slice(from, from + 200))
+      .throwOnError()
+  }
+  if (unlinked.length > 0)
+    console.log(`Cleared links for ${unlinked.length} org(s) no longer in person-links.json`)
 
   // reviewed-orgs.json: auto-created orgs a human has confirmed as distinct
   // and correctly named; clears the needs_review flag without seeding them.
