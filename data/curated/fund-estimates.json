@@ -220,7 +220,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 14828157,
+      "amount": 15561000,
       "currency": "USD",
       "date": "2024",
       "description": null,
@@ -244,7 +244,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 4907286,
+      "amount": 4641286,
       "currency": "USD",
       "date": "2024",
       "description": null,
@@ -256,7 +256,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 60000000,
+      "amount": 59435000,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -268,7 +268,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 7500000,
+      "amount": 7403000,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -280,7 +280,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 2100000,
+      "amount": 1290000,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -796,26 +796,26 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 240335045,
+      "amount": 240278045,
       "currency": "USD",
       "date": "2019",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $240,335,045 in 2019 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $240,278,045 in 2019 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
     },
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 270035386,
+      "amount": 269625386,
       "currency": "USD",
       "date": "2020",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $270,035,386 in 2020 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $269,625,386 in 2020 per this database, including estimated giving. Good Ventures is assumed to have funded all of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -904,14 +904,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 846818287,
+      "amount": 860534619,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,046,818,287 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,060,534,619 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -923,7 +923,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,046,818,287 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,060,534,619 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Various Recipients",

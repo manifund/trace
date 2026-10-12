@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-10-05T19:21:38.437Z",
+ "exported_at": "2026-10-12T19:53:59.504Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -78,17 +78,28 @@
    "amount": 450000
   },
   {
-   "id": "grants-40931-0",
-   "org": "Upstream Policies",
-   "date": 1785974400,
-   "slug": "fish-welfare-policy-work",
+   "id": "grants-41245-0",
+   "org": "Virginia Tech",
+   "date": 1785888000,
+   "slug": "development-and-testing-of-improvised-respiratory-protection-devices",
    "year": 2026,
    "areas": [
-    "Farm Animal Welfare",
-    "Fish Welfare"
+    "Biosecurity & Pandemic Preparedness"
    ],
-   "title": "Freshwater Ecosystem Protection",
-   "amount": 300000
+   "title": "Development and Testing of Improvised Respiratory Protection Devices",
+   "amount": 248169
+  },
+  {
+   "id": "grants-41247-0",
+   "org": "Virginia Tech",
+   "date": 1785888000,
+   "slug": "optimizing-corsi-rosenthal-air-cleaners",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Optimizing Corsi-Rosenthal Air Cleaners",
+   "amount": 164537
   },
   {
    "id": "grants-41124-0",
@@ -103,6 +114,18 @@
    "amount": 160000
   },
   {
+   "id": "grants-41213-0",
+   "org": "Roots of Progress Institute",
+   "date": 1785801600,
+   "slug": "european-progress-conference",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth"
+   ],
+   "title": "European Progress Conference",
+   "amount": 125000
+  },
+  {
    "id": "grants-40875-0",
    "org": "Mercy For Animals",
    "date": 1785715200,
@@ -115,6 +138,46 @@
    ],
    "title": "Corporate Campaigns",
    "amount": 12650000
+  },
+  {
+   "id": "grants-41211-0",
+   "org": "Inclusive Abundance",
+   "date": 1785715200,
+   "slug": "general-support-94",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Housing Policy Reform",
+    "Innovation Policy"
+   ],
+   "title": "General Support",
+   "amount": 1000000
+  },
+  {
+   "id": "grants-41223-0",
+   "org": "University of Maryland",
+   "date": 1785715200,
+   "slug": "science-community-impacts-mapping-project-2",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "Science & Community Impacts Mapping Project",
+   "amount": 286824
+  },
+  {
+   "id": "grants-41225-0",
+   "org": "Robyn Dawes Institute",
+   "date": 1785715200,
+   "slug": "infrastructure-for-trustworthy-science",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "Infrastructure for Trustworthy Science",
+   "amount": 400000
   },
   {
    "id": "grants-38956-0",
@@ -216,6 +279,43 @@
    "amount": 77000
   },
   {
+   "id": "grants-41215-0",
+   "org": "Abdul Latif Jameel Poverty Action Lab",
+   "date": 1785196800,
+   "slug": "science-for-progress-initiative-exit-grant",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "Science for Progress Initiative (Exit Grant)",
+   "amount": 231398
+  },
+  {
+   "id": "grants-41231-0",
+   "org": "University of Toronto",
+   "date": 1785196800,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-6",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 1631000
+  },
+  {
+   "id": "grants-41233-0",
+   "org": "MIT Lincoln Laboratory",
+   "date": 1785196800,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-7",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 950000
+  },
+  {
    "id": "grants-40887-0",
    "org": "Animal Welfare Research Network",
    "date": 1785110400,
@@ -239,6 +339,19 @@
    ],
    "title": "Fish Welfare Advocacy in Norway",
    "amount": 500000
+  },
+  {
+   "id": "grants-41207-0",
+   "org": "Arq Foundation",
+   "date": 1785110400,
+   "slug": "innovation-policy-in-europe",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "Innovation Policy in Europe",
+   "amount": 1067000
   },
   {
    "id": "grants-40218-0",
@@ -303,6 +416,18 @@
    "amount": 350000
   },
   {
+   "id": "grants-41239-0",
+   "org": "Johns Hopkins University",
+   "date": 1784592000,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-10",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 160000
+  },
+  {
    "id": "grants-40896-0",
    "org": "Essere Animali",
    "date": 1784505600,
@@ -316,6 +441,30 @@
    ],
    "title": "Farm Animal Welfare in Italy",
    "amount": 850000
+  },
+  {
+   "id": "grants-41243-0",
+   "org": "Emory University Little Devices Lab",
+   "date": 1784505600,
+   "slug": "rd-for-diy-particle-sensors",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "R&D for DIY Particle Sensors",
+   "amount": 600000
+  },
+  {
+   "id": "grants-41241-0",
+   "org": "Open Air Foundation",
+   "date": 1784246400,
+   "slug": "development-and-field-testing-of-building-protections-against-airborne-hazards",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Development and Field Testing of Building Protections against Airborne Hazards",
+   "amount": 2010000
   },
   {
    "id": "grants-40879-0",
@@ -367,6 +516,19 @@
    "amount": 922085
   },
   {
+   "id": "grants-41219-0",
+   "org": "UsAgainstAlzheimer's Action",
+   "date": 1783987200,
+   "slug": "rd-advocacy-2",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "R&D Advocacy",
+   "amount": 700000
+  },
+  {
    "id": "grants-39794-0",
    "org": "Institute for Progress",
    "date": 1783900800,
@@ -415,6 +577,19 @@
    "amount": 80000
   },
   {
+   "id": "grants-41221-0",
+   "org": "American Association for the Advancement of Science",
+   "date": 1783641600,
+   "slug": "rd-advocacy-3",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "R&D Advocacy",
+   "amount": 100000
+  },
+  {
    "id": "grants-39767-0",
    "org": "ChinaTalk",
    "date": 1783555200,
@@ -437,6 +612,19 @@
    ],
    "title": "Biosecurity Capacity Building",
    "amount": 75000
+  },
+  {
+   "id": "grants-41217-0",
+   "org": "Renaissance Philanthropy",
+   "date": 1783555200,
+   "slug": "bbn-fund",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Innovation Policy"
+   ],
+   "title": "BBN Fund",
+   "amount": 700000
   },
   {
    "id": "grants-40133-0",
@@ -488,6 +676,18 @@
    "amount": 5205919
   },
   {
+   "id": "grants-41235-0",
+   "org": "NIST Engineering Laboratory",
+   "date": 1782777600,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-8",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 1033000
+  },
+  {
    "id": "grants-40885-0",
    "org": "Spring Innovation Fund",
    "date": 1782691200,
@@ -500,6 +700,18 @@
    "amount": 7500000
   },
   {
+   "id": "grants-41227-0",
+   "org": "Portland State University",
+   "date": 1782691200,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-4",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 1393570
+  },
+  {
    "id": "grants-39894-0",
    "org": "Rutgers University",
    "date": 1782345600,
@@ -510,6 +722,18 @@
    ],
    "title": "Field Testing of Building Protections from Airborne Hazards",
    "amount": 400000
+  },
+  {
+   "id": "grants-41229-0",
+   "org": "Purdue University",
+   "date": 1782345600,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-5",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 600000
   },
   {
    "id": "grants-40871-0",
@@ -560,6 +784,19 @@
    ],
    "title": "Cage-Free Campaigns in Egypt and South Africa",
    "amount": 350000
+  },
+  {
+   "id": "grants-41209-0",
+   "org": "Common Ground Aotearoa",
+   "date": 1782086400,
+   "slug": "land-value-tax-advocacy-in-new-zealand",
+   "year": 2026,
+   "areas": [
+    "Abundance & Growth",
+    "Housing Policy Reform"
+   ],
+   "title": "Land Value Tax Advocacy in New Zealand",
+   "amount": 120000
   },
   {
    "id": "grants-40112-0",
@@ -764,6 +1001,18 @@
    ],
    "title": "Health Technical Assistance in Malawi and Mozambique (Predates Fund)",
    "amount": 3026746
+  },
+  {
+   "id": "grants-41237-0",
+   "org": "Illinois Institute of Technology",
+   "date": 1781049600,
+   "slug": "field-testing-of-building-protections-from-airborne-hazards-9",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Field Testing of Building Protections from Airborne Hazards",
+   "amount": 495834
   },
   {
    "id": "grants-39848-0",
