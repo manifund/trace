@@ -13408,7 +13408,7 @@
       "biosecurity"
     ],
     "coefficient_giving:1381": [
-      "ai-ecosystem"
+      "ai-policy"
     ],
     "vipul_donations:a0f1bc75571accb18c16b06284c308db8b29edb9b064e21afd8d8cf17890ec5e": [
       "ea-infrastructure"
@@ -18042,7 +18042,7 @@
       "global-health-development"
     ],
     "coefficient_giving:37845": [
-      "x-risk-other"
+      "ai-advocacy"
     ],
     "coefficient_giving:36831": [
       "global-health-development"
@@ -18484,7 +18484,7 @@
       "global-health-development"
     ],
     "coefficient_giving:28740": [
-      "ai-ecosystem"
+      "ai-policy"
     ],
     "coefficient_giving:28738": [
       "x-risk-other"
@@ -18571,7 +18571,7 @@
       "animal-welfare"
     ],
     "coefficient_giving:28351": [
-      "ai-ecosystem"
+      "ai-advocacy"
     ],
     "coefficient_giving:25914": [
       "animal-welfare"
@@ -18593,7 +18593,7 @@
       "animal-welfare"
     ],
     "coefficient_giving:26020": [
-      "ai-ecosystem"
+      "ai-policy"
     ],
     "coefficient_giving:25642": [
       "ai-fieldbuilding"
@@ -18910,7 +18910,7 @@
       "animal-welfare"
     ],
     "coefficient_giving:39721": [
-      "ai-ecosystem"
+      "ai-policy"
     ],
     "coefficient_giving:39717": [
       "ai-policy"
@@ -19171,7 +19171,7 @@
       "biosecurity"
     ],
     "coefficient_giving:39725": [
-      "ai-ecosystem"
+      "ai-policy"
     ],
     "coefficient_giving:38065": [
       "biosecurity"
@@ -20265,6 +20265,15 @@
     ],
     "sff:415ccf562bb27c670ff58c19660f34098bd75c39a3c38bfbc31cf0ecce2ffaa5": [
       "evals"
+    ],
+    "coefficient_giving:40838": [
+      "ai-advocacy"
+    ],
+    "fli:f720454c946af3981e70e83c9fe9632218e4b7da9db4877edbfd50a3454f8d71": [
+      "ai-advocacy"
+    ],
+    "jefftk:563a1ee98ed30d84390afd487090408f858e7e6f026774d91ec66925024658c4": [
+      "ai-advocacy"
     ]
   }
 }
