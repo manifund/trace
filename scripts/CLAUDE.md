@@ -3,7 +3,7 @@
 ## Ingester notes
 
 - **EA Funds**: one CSV GET; Airtable rec ids are stable keys. Rounds are "2026 Q2" (newer) or "Q1 2022" (older).
-- **SFF**: single index page has all rounds as a real `<table>`; amount cells may carry "+$X‡" speculation top-ups (both count). Bracketed `[Project]` suffixes are stripped from org names. Parse guard: fails if <400 rows.
+- **SFF**: single index page has all rounds as a real `<table>`; amount cells may carry "+$X‡" speculation top-ups (both count). Bracketed `[Project]` suffixes are stripped from org names. Parse guard: fails if <400 rows. Keys are round + funder + organization (ordinal for repeats), not row content, because SFF edits amounts and purposes in place; a renamed organization still re-keys.
 - **Vipul**: parses raw MySQL INSERT files from GitHub pinned to a SHA (`bun run ingest:vipul [sha]`); v1 keeps only the x-risk/EA cluster (KEEP regex in the script).
 - **Manifund**: public API paginates via `?before=` cursor (full history) but has no donor identities; `--direct` reads their Supabase for donor-level grants and is the only mode that tombstones.
 - **CLR Fund** (`scripts/ingest-clr.ts`): the "Past Grants" accordion on longtermrisk.org/grantmaking, one `<details>` per grant under `<h3>` year headings; keyed by year + hash of the summary line. Amounts come as "$81,503" or "1,200 GBP"; the first payout date is the grant date. Grantees default to individuals (orgs recognised by name). Parse guard: fails if <40 rows. Funder is Center on Long-Term Risk itself; "CLR Fund" and the pre-2020 "EAF Fund" are its names in `orgs-seed.json`.

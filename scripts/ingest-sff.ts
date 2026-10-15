@@ -97,7 +97,22 @@ function parseRound(round: string): {
   return { date: `${year}-01-01`, precision: 'year' }
 }
 
-async function main() {
+// Keys are the row's identity, not its content: SFF edits amounts and
+// purposes in place ("$298,000" -> "$7,000 and $291,000", "General support"
+// -> "General support of ..."), and a content-hashed key turned every edit
+// into a new grant, orphaning cause tags, overrides and dedup decisions.
+// Round + funder + organization, with an ordinal for the rows that repeat
+// it (two FLI grants in SFF-2020-H1), in page order. A row listed twice
+// verbatim (Jacob Lagerros, Initiative Committee 2024) counts once.
+export function legacyKey(raw: Record<string, string>): Promise<string> {
+  return sha256(
+    [raw.round, raw.funder, raw.organization, raw.amount, raw.receivingCharity, raw.purpose].join(
+      '|'
+    )
+  )
+}
+
+export async function sffRecords(): Promise<SourceRecordInput[]> {
   const res = await fetch(URL)
   if (!res.ok) throw new Error(`SFF fetch failed: ${res.status}`)
   const $ = cheerio.load(await res.text())
@@ -107,6 +122,8 @@ async function main() {
   }
 
   const records: SourceRecordInput[] = []
+  const seen = new Map<string, number>()
+  const verbatim = new Set<string>()
   const rows = $('tr').toArray()
   for (const tr of rows) {
     const cells = $(tr)
@@ -160,10 +177,16 @@ async function main() {
       // seeded by Jaan Tallinn's earlier BERI-era grants (his own donation
       // log claims these disbursements). Attributed to him per Caroline.
       if (funder.name.trim() === 'SFF DAF') funder.name = 'Jaan Tallinn'
+      const row = [round, funder.name, organization, amountCell, receivingCharity, purpose].join(
+        '|'
+      )
+      if (verbatim.has(row)) continue
+      verbatim.add(row)
+      const identity = [round, funder.name, organization].join('|')
+      const n = (seen.get(identity) ?? 0) + 1
+      seen.set(identity, n)
       records.push({
-        key: await sha256(
-          [round, funder.name, organization, amountCell, receivingCharity, purpose].join('|')
-        ),
+        key: await sha256(n === 1 ? identity : `${identity}|${n}`),
         raw: {
           round,
           source,
@@ -197,7 +220,8 @@ async function main() {
   if (records.length < 400) {
     throw new Error(`SFF parse suspiciously small: ${records.length} rows — page layout changed?`)
   }
-  await runIngest('sff', records)
+  return records
 }
 
-await main()
+// Bun's import.meta.main; the Next typecheck doesn't load Bun's types.
+if ((import.meta as { main?: boolean }).main) await runIngest('sff', await sffRecords())

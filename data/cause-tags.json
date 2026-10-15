@@ -817,67 +817,67 @@
     "coefficient_giving:22608": [
       "ais-events"
     ],
-    "sff:88e1d1e24239fe8af190a6ef0824cb8bc8cc783ae012ac6d2089408ced39b0eb": [
+    "sff:ab5eac33808c166391b4c6f0449a39967b6cb5b11cddb70594642dd1c19fd2b4": [
       "ai-policy"
     ],
-    "sff:44a70daadeeef4052a129a46b7c2746b8b90c957a9335872b42e52d404cec4fc": [
+    "sff:4427a493db4f8648893f368917feeab20f42c207cf5b01864720d89b19c228c2": [
       "ai-policy"
     ],
-    "sff:eb7d95e98fc811598f4618cdc7f775488a5b9613cf9e355e076907a82611a5e7": [
+    "sff:01977dac9fd4bd8e7f0520c4934fe1b8ae402e050b606c297e02aa4a5aae12b2": [
       "ai-policy"
     ],
-    "sff:71dc13167ab251a13151595dcb880e8a20559c250dfb9b4b13ffb8b9b8668b51": [
+    "sff:533e32a9bad08a1c63e04cb8b38a7befc8ba67d1abf9f66b0bc662df181f1871": [
       "ai-policy"
     ],
-    "sff:397fe4d58c93423184f3f96d9b8d03cf12798cb7690aff1db84fbe3980c175be": [
+    "sff:375984089b89ee1594a760379f81abe0f67ea24d6e600ded5949170796fbcb1e": [
       "technical-ai-safety"
     ],
-    "sff:187b7fbba09eeb598effa608a83667bb9d679ddc9c7316c5b6d6597522f1c393": [
+    "sff:ce173dcb3abee426c0d241b8425506f5b937ff0a4466cc2ae80e09f596ca2041": [
       "technical-ai-safety"
     ],
-    "sff:e3ba27916f215466b028606044be1b918f54722596b2019bbb7205f807588961": [
+    "sff:6d6ca54891d0bca8c610bb2c84b23edf10857d9983c80d53386465fb21d53195": [
       "technical-ai-safety"
     ],
-    "sff:e2d27dc1c37cc302308b299ee59dfe9ad30d0c5bd3487fbbb15633d86879b468": [
+    "sff:aebde6449297d418787ba8634780e5e1779319f4ad7086e275374bff495ee66f": [
       "technical-ai-safety"
     ],
-    "sff:0f196eb026cb2da037b02cc9801bd5abc00b6054c4af17eaa495fdbad03593a2": [
+    "sff:f787d2aa1c318ac106b2c0bc3bdff7f72e19462623c74814b342065afe1a5fc2": [
       "technical-ai-safety"
     ],
     "sff:c296f0e1bebc2ba2334dfa1f4f340749b3ef0a30abe5cc45de2005d539fdaee3": [
       "technical-ai-safety"
     ],
-    "sff:1da92b122c5c62b8123b8d17105225eac41968a5a25c9fa88a075377f0c1a394": [
+    "sff:7bddad8c9429e95776dac943c1da7a11faaf7f9bf4a2f1d8ca8a1d5f0644085b": [
       "ai-safety"
     ],
-    "sff:5ac50e7030e78ea540fa8f34b5b8b678088fabd382be27500b0753eddc12850c": [
+    "sff:39e70994422e82099e8e9a57679160daa16092f82df62c4b96c62cee35eabce3": [
       "ai-safety"
     ],
-    "sff:4ea228ceebc053374c0b872d399656ce40ea7f1bb6a0c19eadfed04406c6a6e9": [
+    "sff:3fd19ce1266d89180da5415c5c2efa92b08f5d1903f4474242f330b9c58dfeb4": [
       "international-policy"
     ],
-    "sff:a06ec3fc11ae0dbbb91bdad522e8cf9fb54d3f608677b5267fe411ba2e90a84d": [
+    "sff:550273890e6fb8cd0fafff6d2135107ef8a341b09343b96cbc984bc555310506": [
       "gradual-disempowerment"
     ],
-    "sff:45911bb70838250d39327a61ddcff663f583ed91dbc831d2b4eff60cbfbe8f86": [
+    "sff:2a9699a6126022cd69d8d7edd8298b486a8685a7df06e3c3377dc03a195db84e": [
       "local-groups"
     ],
-    "sff:39fe139c10d05f8d441a518a1bd0fac3194154348249e8af7293dbc96f20ef3a": [
+    "sff:f6abb3e7740105b079716b89f676c54079fb1b33c762005cb5a68288ab65285e": [
       "ai-theory"
     ],
-    "sff:64c8c3997c54b5b7d1f20821befe144c31382abe22a838b9532a562f8523cc31": [
+    "sff:88bcdc8b9c1eb0f76835941054fb62fa3c18a5a5d19f4f269510fe09d08ed6df": [
       "ai-law"
     ],
-    "sff:375273f22f5e3b90e7819a0c616d0a2f4fda3877c1b579ba249c8f9a4c228a79": [
+    "sff:7ce76be53fce93e1700a912d8a8f4c58b07b8ad20a0f9513cd93b154386f0326": [
       "technical-ai-safety"
     ],
-    "sff:0735f696c577e76d800ee02fa29b15211e5c550ceae09c851fe25a99db4a99b2": [
+    "sff:3447e6a6ca1d10e0f55abd99abedd0c5da6c50d00c17fb55ab497137fc6cf845": [
       "ai-fieldbuilding"
     ],
-    "sff:b90e90273e22aec7cd140af90ab0cbf28683635e9c1a9426f60544790a289b20": [
+    "sff:b23ce3c41576daa068b5c08be5379128de705f04ae8479160d33c6d3c8082062": [
       "epistemic-infrastructure"
     ],
-    "sff:617dc1dc088feb1050b4cb911d57e568cb203a8920ad22f1b9c64e0f9157a56a": [
+    "sff:4675531aec594898b3c4682f7b6377e812571c5ecf573bda58641f54e48b1a68": [
       "ai-advocacy"
     ],
     "manifund:4b37a962-5734-bece-caf5-840ffc21c705:hendrycks": [
@@ -1830,7 +1830,7 @@
     "manifund:eb22baa5-4f51-e10b-4a49-a5b7e847c872": [
       "other"
     ],
-    "sff:2fe6c4400fb742558b04a60990ad41b8e8e8ba1b614c0453fdd8a9c5ac3875b2": [
+    "sff:f4947cb89bc282df3ee2929a2162627ff27a381103c7641433d0cce5f27e3201": [
       "ea-infrastructure"
     ],
     "ea_funds:recpRyeQVYxjS214Y": [
@@ -2124,7 +2124,7 @@
     "coefficient_giving:2678": [
       "global-health-development"
     ],
-    "sff:f7afbc7780b319afaab723b0bf3628fb6a21a363fab89f0a376a1654c4d7aaf8": [
+    "sff:35945c3f38b9738ca42ffcc3cea7bd38de1c56483294d828f317e49abb2b55fc": [
       "x-risk-other"
     ],
     "ea_funds:recipXhwyHh0st9Vs": [
@@ -2187,10 +2187,10 @@
     "ea_funds:rechKYaMcMnPT4alA": [
       "other"
     ],
-    "sff:49b9bf3a46effef8c12f5c78138295356d7926f116132a934acb4ae56d198890": [
+    "sff:2216cca1ff1bbc2a85ac1a9fa573621798fc2e1b7080d9ca5d4cabaeffd14996": [
       "domestic-policy"
     ],
-    "sff:81ba47345c13ad914f64216f561f162d2b98a5230f95cd0f662b4d08b3b4f6bb": [
+    "sff:71c84cbe58099a85d91f4490253b76c73ac618396e1557c85d6bef99b2703fe7": [
       "training-pipelines"
     ],
     "ea_funds:recJ9NaVtKSNRAgTZ": [
@@ -2247,7 +2247,7 @@
     "ea_funds:recsq8N6HnEX7Cdkb": [
       "animal-welfare"
     ],
-    "sff:0a50e3faaa0201998d6bb698a169e13a83391fca87b289f477e05b909ccb54c3": [
+    "sff:fbfe1f27f42bc9723707bf003bd2c1ec7cf9721545fcb3e09b3f4baec30ea589": [
       "other"
     ],
     "ea_funds:rec7CsLrxdeuh7lmh": [
@@ -2391,7 +2391,7 @@
     "ea_funds:recXX558l3jL14l5u": [
       "interp"
     ],
-    "sff:5361bf014f9f2e93dee37aa27b7cdac0d66e26a7c3f4a4612f5aad94a5f860f4": [
+    "sff:b6b42c173c5b03692b3ba42891c664d422a21378a5989eaf3d34c04b300f64c7": [
       "ai-theory"
     ],
     "vipul_donations:f480153664ce7f8b80c6fddd6181f599a1776691d0d29617c08874fe49d02744": [
@@ -2544,22 +2544,22 @@
     "ea_funds:recdjVJf0OHpXv1a9": [
       "other"
     ],
-    "sff:2bbda453a6c43b4782936b13d3fd5659943def41c0386813b8bec1e34e4f0a68": [
+    "sff:98c70084d7d1c626716e23f17e4363e50261fe1e1fcedb098bda97cc98af2ebe": [
       "other"
     ],
-    "sff:6f46fb555c011ebeb2b6a0513c8db8dea5bfbd8b0fa45208c0a1262998201e4c": [
+    "sff:63570e4e2d65618e831b4f6c0bc70454120a71b5e43e45dba47544670161ce3e": [
       "other"
     ],
-    "sff:f31a3b6e615a83b3db03e388cac2b8d59fd579e333640cf14f2d759ea82bba7e": [
+    "sff:9535e847fc9abf1fe1d6d3fd6ec1dc45eae7dd25ef7f7c6bd02b10e3c4bca4e9": [
       "other"
     ],
-    "sff:dc2e787aa1805f8c6bb7af5aad70032945e9cf8928f8d58ea7e31f4b00e42384": [
+    "sff:af8e223a641be698777bf84f147b02951fe8748e0863fecbf292dd5da8685d2b": [
       "ai-strategy"
     ],
-    "sff:13c05085fb77a5311b22925166474d3b058c7e052a29e9d6ad67a2d35e435094": [
+    "sff:4cd632db9f5fc6eaa7a0a759f61c785563c6bebe1b8740a050b8548818dc069f": [
       "other"
     ],
-    "sff:b07e3de8fae924b6bd3c242d444dc00ecb1b3b2940e7843f5fb00d89b0abc385": [
+    "sff:7423042465be8b72a6e8544ea393397074cda95672e4c644622e57e9543ee215": [
       "other"
     ],
     "ea_funds:rectwDPaX40KZ9h48": [
@@ -3595,7 +3595,7 @@
     "ea_funds:grantsAddonData[130]": [
       "global-health-development"
     ],
-    "sff:d238ac51ce606c5815db6a1d8bacda4aadaf5600c3a2c5f9123d88e1c48c8a80": [
+    "sff:24c42721f995779119fcf2292017477c55476f227c93975a68c7f014d5aef645": [
       "epistemic-infrastructure"
     ],
     "ea_funds:recuzkubM4xYP8sav": [
@@ -3622,7 +3622,7 @@
     "ea_funds:recv2lXxPSIdJdrov": [
       "ea-infrastructure"
     ],
-    "sff:ea5df3c726684da062f7796b7ef65c8ae75ab0789a505154940f1c06755295dc": [
+    "sff:b4dbc8067532db26eda63e5e1f4f770009857d6220ec2519be466ffa6cdd0893": [
       "digital-minds"
     ],
     "manifund:7f26a86b-043c-8087-eb90-b73982499d68": [
@@ -3664,7 +3664,7 @@
     "ea_funds:recb5QhO79NIIc4OS": [
       "local-groups"
     ],
-    "sff:bab1611b572d8e409b2f607b3226d43f47c608d136b611b30299d476bfaa599a": [
+    "sff:aeea7d6fc73792300e7027237b182b041eee755f41ba2fe4babb135b042955a1": [
       "other"
     ],
     "manifund:d5d2f624-fe87-6dbc-bb53-54819a4742ef": [
@@ -3832,7 +3832,7 @@
     "ea_funds:recqr7tn6QZ0WAvpu": [
       "research-infrastructure"
     ],
-    "sff:958d777c157d7a78fe70336612961f7fdba6754fa51fd1b144f878d32a93dd6c": [
+    "sff:8f9c971a710774f5be298a8120ec8e42423bd4ce27ca7bd77b7aa80e03bcfafc": [
       "ai-theory"
     ],
     "manifund:4522040d-919c-6184-5a1c-7df3fddffc3e": [
@@ -10164,127 +10164,127 @@
     "ea_funds:grantsAddonData[88]": [
       "technical-ai-safety"
     ],
-    "sff:102a9c5817a3983cde7513c5d7ef598bf717768ec095ce1a15af4ce0abff7744": [
+    "sff:79a6c013f459916c645be71c807f355e877b7c4ab110f94c843b9049424e80c5": [
       "other"
     ],
-    "sff:67d3a2683a003d86998416b097c7fdf5c226aaa0d1eb03d5664a07829178d440": [
+    "sff:584e7c35ac17e96e1ae9ad83c1ca44b9a004439667082826b57e058b04aeff12": [
       "other"
     ],
-    "sff:2ab606f0768f6fb02226861b67e736402f5f0f17df54864ffe59f9da2d082aba": [
+    "sff:0d5645a0dc609c132b730f58743f5b6f5c3cd39d08393d14da21dbdcea3ddcf5": [
       "other"
     ],
-    "sff:2cfc73742047a32e231517ca52cf98c155362d46dd7443d3dd08bf04dc657b58": [
+    "sff:3a74683e508d1330944596ce2fe6e599e34a8ab6d063746eb45b3af3423730ac": [
       "other"
     ],
-    "sff:348b887a43f7ffb1675165a6244eeebba0b465ea962bf831c0b1f738c114d326": [
+    "sff:201e48f432cfdb8631a2cf970321b2098ed11ff4fe91fc7ff5b9886429b169a3": [
       "ai-ecosystem"
     ],
-    "sff:1bf066d314b3888f078f86351b4124d3cad85caa54cdc6bac4fc8c9449feb00b": [
+    "sff:a1fd307d06dbabcdfd51e9fc3be410b7dec6e72f76bfaa758a0d798f91b64678": [
       "other"
     ],
-    "sff:d6accda736d2f7e5f35c0d7c3866ac9745f842e5c7e1ef705d7916cf9a3dfce6": [
+    "sff:e05d114d9987d94f6952ea7e6e43fe32d8fc421c8fdef2e45654a30d5ac44295": [
       "other"
     ],
-    "sff:7a0c2f59e655f17079ee913e7a29354ccb4de606914ca8ce5d3bf0a63d27916c": [
+    "sff:9fe539db9daecde228ec623b30114ca8ffd7ffc573fc9a9e8aab0e456bfa4e66": [
       "other"
     ],
-    "sff:02da3fe76af98115ecd65334ee8e77b2d40f03c000c222eaf17cf8c8f8e84579": [
+    "sff:0b5a6f79737b8f0ee11d161c0c3585805bc2e0148e097ffe3e7cbf0f14184168": [
       "technical-ai-safety"
     ],
-    "sff:ed4384f3ebe85be84fd5f5edaed757052a588a0ef937f9333bc5339daf77b78b": [
+    "sff:9af5cecda817c082d908b01e35dbe55e7f91608f91cab4bc2ac08a95638f1ed5": [
       "other"
     ],
-    "sff:04937bb3e086fab184a5761f298e2aaad5fc95fd45aa9dda49c0dcbf38bb0edf": [
+    "sff:1da50bf6664f562a9ec151c30126902620da7e34bd1a978d4a988e45ac347e27": [
       "other"
     ],
-    "sff:7a19490447673866f68baaff5194d2349eb9216b369237e93083f9a89d460cdb": [
+    "sff:dad80cf44360fd10f36ee35903efef393bb65bdd501236e8e2ed3ccf13c32915": [
       "technical-ai-safety"
     ],
-    "sff:fcda9af3bffbbe3b11c21610811ddc320e316466846bdb44691d2c569e28adca": [
+    "sff:72a36f02e4bcd7e337dee4a39b4756df1f8d479847d726cbf32c7495878f63d8": [
       "other"
     ],
-    "sff:ec422b22dd708bae6ba4267cbb8a8983353ff8be24ad190df158651f44963929": [
+    "sff:ebdd64caf57836c5ee6740ccf46f045646d16929b7ec6183dc84dd025c4e647b": [
       "domestic-policy"
     ],
-    "sff:50c041309eadde6bce04094971cbf2783228df3f993b02d7183e7189df36725f": [
+    "sff:e35b6bf35ba09d2ccf207f7b60c9770cfc4e7e16de4ca5dd3fad9ad6f45227b2": [
       "technical-ai-safety"
     ],
-    "sff:4615904af6cce365e46b51abb7db518d6faf46cc82c92e3db980a3fdb492af99": [
+    "sff:26f5f68391b44e1ab2501aca0f79624dfe0da58677ef189443a541740a3c73e0": [
       "ea-infrastructure"
     ],
-    "sff:eba666cdac3021e4395c8d440ccde570ccc86a84328f0da88c8d38081e2edcad": [
+    "sff:05de1f6e79047cb980dea31fe8795d41a1fac72f6342ada5d5132d11e7065853": [
       "evals"
     ],
-    "sff:9aa712460473f877d2a6e123b3391eca397295ebebf63e9fc43d9d87b9e404d0": [
+    "sff:4bd1d3011ca3a46ca8b491a4e9a2e75407afe87508b496df090daa0e8a17fda5": [
       "ai-advocacy"
     ],
-    "sff:eb0b2244415e65202293ac781a75a0bd9491045ad229a27bc12e904fd6edb4d2": [
+    "sff:41045aef3f88bdb4534d264afa0cf5f2a4ebe985e5fd2dbb1141868badbc1806": [
       "epistemic-infrastructure"
     ],
-    "sff:cd011ee695d54d3ad51643e37af7ed223cabbb7731b9fc91d51c083d4c8cc367": [
+    "sff:585c111864f91eb81411e6fd28b14b3f11421459d42b5dddbede103c104fbb06": [
       "other"
     ],
-    "sff:833d0d136c339796c3cef714e1fedec5325ce8b46903ac0bb30927c7d7ccdea7": [
+    "sff:64f6245d8e9c66aff5b614051d067dc1a8ff428e5affa30bd97dae70ad21a78a": [
       "technical-ai-safety"
     ],
-    "sff:7b9c0a95f5280131b895e9c0ddfcb7ce556d4206f147225d5abf14b41714db1d": [
+    "sff:3f482b90eab9b45e5b47eddcc81a4db951f0cd3cb0aeee9f1c28cac44bd5fce1": [
       "technical-ai-safety"
     ],
-    "sff:a509339edf0c6dca2dad0d2bf4009e9a8d1bfa794e6051dd3319a2d400841b81": [
+    "sff:3fb8c3942d997726b860896c6695eb8257e561492db88e66ad088b1f09e99cc7": [
       "ea-infrastructure"
     ],
-    "sff:4108ce83dc9d06b70811c5e999902329759dbbe93aa8dcdd30aaf1ac4df8db2a": [
+    "sff:15b378ac235d32617e725d542274788c53b88b2efc49702378bf520ddc5cf1fe": [
       "ai-policy"
     ],
-    "sff:8add719f47413abf167057ff6e721f9e3c6034656eeac140ec4c84c1b526f136": [
+    "sff:4b154538c5be8c5db42821ca590ec129ede974672a1634b9b836d1fe7770a142": [
       "evals"
     ],
-    "sff:56c7a18c0e2fd3db800ef105d8ae9adeb701ea5b2d46aa5cb869d7d1e4603bce": [
+    "sff:815eaac153f6d79047bb68e6a38b51d0f6c76d8fd996d499ac9a95df06a515c2": [
       "domestic-policy"
     ],
-    "sff:715056dc2194f21dce26013843e4741d50c0464063aa5b779e1a504b3be5b0d5": [
+    "sff:f619ad6f90a2e109734f645cfed388b7ed6582a6a435f3f2cb1615844d2e514e": [
       "training-pipelines"
     ],
-    "sff:8b0a57ee00f131a3715600629fa400782f4dc0ed846688f92cdadf18c3ee72df": [
+    "sff:f738869ba6a089d12fcf2dcf8a96837a708a3ed5a6148824398fb29c5c2dd764": [
       "ai-theory"
     ],
-    "sff:c239cdbea585222cd67b8b4a9d0bd84c0d44795f22bc8f2cd792b1527873b7b9": [
+    "sff:1caa4bc750f9c0689bcdcf1cbe3efd4cdcf277ef75596e58fcb79294be54931c": [
       "ai-theory"
     ],
-    "sff:97c058a9a98d88fd0e724d09fde6342d2f7b327f1a7b936ed35ba71887e103e9": [
+    "sff:ebd8ab90c30c21a110aa696f1f4a830d48b762561c3ba250dfa5e8b929064ee0": [
       "ai-law"
     ],
-    "sff:216a7cfe08a08d9af6a9f3e9ec860cca6ee779d47e7b5817691e9bdc5290742f": [
+    "sff:907f6f02b97179c364000fbf6f686a9af6ec257fb49e23101cd1c37850ea6007": [
       "epistemic-infrastructure"
     ],
-    "sff:61de9350806717e2b536437283f33a5cd05b19be1e9f1783bb022d79deacb577": [
+    "sff:b4267c8838f374234d79b6e622150a083769bb664957ac3bde2f4094252bcac8": [
       "ai-theory"
     ],
-    "sff:ea5e1d5e2df137ada09040a1b9038976ed159105187538b66ff66f0e23cf1485": [
+    "sff:140b36794470874286ac640afd29e53b19a1f729faa161deacc43ded64a8c5be": [
       "ai-theory"
     ],
-    "sff:af1174152c1469f32b388f38c0aa87902dd67b9eb7afadc57b18ce729c2d2ae1": [
+    "sff:c91dc836f0a2a27af8ac1f1183b3c3b582ca72ddb7e82029d7d75f6c94eb5efe": [
       "evals"
     ],
-    "sff:099aa931d199e91130ceac601777a9254343a817f3616c460830be666a4b6dca": [
+    "sff:0c4898e8e8e10d1d469db669717352efcf43b990839205cc1bfe93c19e3218f5": [
       "ai-theory"
     ],
-    "sff:6afa5a8e82adad981146ca84a6672a1810bb8947f3876743b7753954a86969a7": [
+    "sff:3477b620cdce8779d8b4a90a55deb4bb879d0c5a876280b9d1927200e68a5da1": [
       "alignment-methods"
     ],
-    "sff:733c48228eb84e399a8e903ca77f45081b28879e31c03c2a9305404b93252f76": [
+    "sff:656b00f72b50ce24c04c8ed2a5e4507343daca68f3e6e62d9106e5bf1dedb478": [
       "other"
     ],
     "vipul_donations:0be2ee67fbdf390f73f48eccbc2645b18326e54627b5e55f50d3eaf8c9a86002": [
       "ai-theory"
     ],
-    "sff:93acbb00ab0228d4b43dbc3f275c5b780cedbf891394d082829637a8184f6fab": [
+    "sff:15da3dbc7a103cf6be4b3d3a5b6fedb9f4045327fde5b3bf5698b2a0a8b4f1ff": [
       "ai-strategy"
     ],
-    "sff:b670a25d778bef362471ba615572681d2f18bd92b53a5ad4ec2181cd427cb446": [
+    "sff:c1191a67370cc45e22134446bf661a946f7b748b9022011cd85d17eef98982fd": [
       "technical-ai-safety"
     ],
-    "sff:91a350174b94a0bb0e2472d2c7e1f8bd5094d9e02abc51b147c2b71f555b7aa9": [
+    "sff:e3109a420db678ea7b291e7974351179a4dd8a9f738600dce7ec2056829e8b9c": [
       "evals"
     ],
     "coefficient_giving:13069": [
@@ -10323,25 +10323,25 @@
     "vipul_donations:79d1c6322c58f0839427a6e507e569182e04640abc8b35e8ee4013e176995863": [
       "ea-infrastructure"
     ],
-    "sff:22980dfdffaa02f82cddfb730f7d46ee96f6bedb200ad440d4f048cf8928d349": [
+    "sff:d8b915fa818f4817266831bb0358c7d566de126e75470939559d8d62bd6833cd": [
       "evals"
     ],
-    "sff:6660d613c46d64dc9c33329c9c669e3ceae3539580bb46d656f3077ab0df190f": [
+    "sff:e166c2fc44afd51a03e6ba1bd1744845c6ab7c0e493c2824e99cab2810c8eb1e": [
       "ai-theory"
     ],
-    "sff:ff01df992986e48167bbd2bcc232ee83fb58c217979e68cf6e6ae0aa553a07e5": [
+    "sff:8811d9f3acc26193da17d8f2dce41b2de1eaab6de23cae63adda78f01840308a": [
       "other"
     ],
-    "sff:b4d7a4892465d56eb8fe40b6b6f92b19555441b1ef9b28622acdc7ed25741cd2": [
+    "sff:f8a4308a321ee033bb528cec541539b42e8d8e75218191c8da29c6af9fd96f8b": [
       "x-risk-other"
     ],
-    "sff:0add5df535e75449568c724cc6f3dddb3cc3df6989637ebf4f5362d57d082dd9": [
+    "sff:0289cae24a18259ac4f3f057a17ac522180863ab7a37de191a71ea449358f976": [
       "ai-bio"
     ],
-    "sff:a2a4761abc96cc21f30dc21e4fc715cb51879f7e140711d7037381f5bc770547": [
+    "sff:d91d63982cf219f0ffe7fa93bce77d60399a148457e25eed00aae091e95d0f5d": [
       "international-policy"
     ],
-    "sff:2d46d0d45ae6d09e03648a93f6b18110a3fed8d40c5379f35af6280b5bb42ce6": [
+    "sff:4f007b2446d460a6090eecc769afdcaa1ba4ee9af6aa9d63f0b7f4d0e642737f": [
       "domestic-policy"
     ],
     "vipul_donations:f61ba8ded7c0b3a61ec3b87646d6578f68c29b58f02af63682f4ba15d26ba7cd": [
@@ -10386,7 +10386,7 @@
     "vipul_donations:fcff9c5311a6cc476423e3f167a96f6182ef5c0c9d110d0ebc8808d2d63f2c2b": [
       "ea-infrastructure"
     ],
-    "sff:53509ecdaa1a103c488ae0bc7db9fddb03d5e3202b52a2b91b79b71fcf2321cb": [
+    "sff:dc6c55ea0f85cc7103bcd95fbe7843514c224cc0a1f637205c9a8797a4052b38": [
       "evals"
     ],
     "vipul_donations:07a4ce314a0faf009b458fd0431b03feab6e28d8a8b189f5810111652d824d68": [
@@ -10410,7 +10410,7 @@
     "vipul_donations:f99152260db8a24983dfa110cb4ea7aac371b32396bd0cd0a1cab0b4678610c9": [
       "ai-strategy"
     ],
-    "sff:279ab4ad8e3dc9f4b1167d968a66ef4e2859cbd8cc315e136af24934557ea8aa": [
+    "sff:37b4774aeb2fdaa00a791c97b93650c84348760510ebc197052b43399a0e4a45": [
       "research-infrastructure"
     ],
     "vipul_donations:be8a0637ae851ac4e1a400637a4eb75a349a2e1356d89b7c56dc78fc5fd1c2d7": [
@@ -10437,7 +10437,7 @@
     "vipul_donations:80944089e8937fd9ec9dcb1271b5fe98ee0bd5a5c99702a43e9941079ecf744c": [
       "ai-policy"
     ],
-    "sff:518cdb0049191869adc882c7b66bdfa9ab24842839f398cdb9a8e7dc96b21a59": [
+    "sff:7d1b823643da877c990ea40077b488460d79a3f16280d000f5361831f9021b7f": [
       "domestic-policy"
     ],
     "vipul_donations:51edbce370f223825d515f7c821ec746dca8910250578b808f636bd1fd72a951": [
@@ -10509,7 +10509,7 @@
     "vipul_donations:048b75e6ddc960010222a297716afbe949c7ec4308406a33c63a0dc8f73422f5": [
       "x-risk-other"
     ],
-    "sff:7165ce117b149fe4263451474e78cf4258923740b228c6077b903fea695bc38a": [
+    "sff:793f99d5b04c875baac0d0ba1e0bceb65d4a855bc64c5d04a625afcf5d8056cc": [
       "domestic-policy"
     ],
     "vipul_donations:0481b647ed09810696b20b848024cbdda4100963c4156344f552201251495fa3": [
@@ -10542,64 +10542,64 @@
     "vipul_donations:a06dc3c99b05b0de9b0d624f723caf3205fa0b13ae5cdd58a140732fc9389d55": [
       "ea-infrastructure"
     ],
-    "sff:ae8a88536cb8857a2d98a0c27e2e3cc14a3cb9375e8ed35df129608a76e3a671": [
+    "sff:cf0c662e12a8f858639367b11d642ee626e88d14c82df33ac1fd13efb79eca5f": [
       "domestic-policy"
     ],
-    "sff:e0dd23a8769f9de41db851d7e91fa7dc8fcf416e25cccd6be8d7ad67b84822d1": [
+    "sff:a9998d143d98cdae82a0a9066dc47fe8fdf7ed2e7645565360bbf32ed8dcc24c": [
       "ai-strategy"
     ],
-    "sff:c61e905535acbbbe22ee43b89c10f79a841422ac1039ff578c00d404a7403096": [
+    "sff:35f44ca005d324970e70d5c65a9bf631dbfe1491fff3fc28116494298f94fb7c": [
       "ai-strategy"
     ],
-    "sff:8078c8364fb577232cad4c929e6905faaee55ff8b9387477040f07482ff07060": [
+    "sff:06a8770d19dd0f69e8569a82fb281f1424fbfb0231afc487e4904bcf2c75861f": [
       "technical-ai-safety"
     ],
-    "sff:6e701416152aaac3844bbdf8c8637d67469a49499a039cdfb7c85b36ed684aa8": [
+    "sff:f3a9cc147ea28e5143a51de142bc7b1ec1c73ace8893d14ca049c0655bda3d88": [
       "x-risk-other"
     ],
-    "sff:38c37e40dc33e1acfd71abcccf22d69a074e566044b1786d8712e2926cc8266e": [
+    "sff:bcac8671f9c4a73958a3cf70480649995d8d425da1d3345d24087a03e2b33855": [
       "technical-ai-safety"
     ],
-    "sff:c2728e37766592612fb160772ec251d5d79b3010470c90f769427a7b36cb8f71": [
+    "sff:b00043d1268f3a36d8715951593183c6c17df5a118aa4a5c024a73220d49e5d2": [
       "ai-bio"
     ],
-    "sff:25e7ec2718b8e9ad0ce521a4609a4aabc6dd87549e4dfb3704d67ceb9c548d49": [
+    "sff:3526ec2aae224e7987f6e8c792595ce52cde532c1a4c8d3d355f2203cc3994c9": [
       "ai-bio"
     ],
-    "sff:ed2d180834f0ebf33dc5292b5df142575c425a1951e3e5fabada5364751c1dff": [
+    "sff:043e8d437da779f19299746291a0e00b1df32106ca76f47a4e052ecde7084ffe": [
       "technical-ai-safety"
     ],
-    "sff:32be99c9f06cffc42d7e65c57d02be625db8ff0e801504c6d6501371d3e78ae1": [
+    "sff:4eeb51abbf66c4f38d5a28253797a0fbc295f9eab9461eb0225d77a0da33779a": [
       "domestic-policy"
     ],
-    "sff:b195687ed82c5849fd6fa98ece26d3f52663ee45102d517be4cea05ba9bfc8d4": [
+    "sff:9cde0764fd750f9c41e28575981afd7044cd7c748334b70495368762cfbeea67": [
       "ai-law"
     ],
-    "sff:90e3a788dcc3911dca85934375186045725d986792b3a8c991e1cc67dab6649d": [
+    "sff:10a27cd1c96abfbcd24823aea93a89896e077610fd6f64aa8043d73d02721f0f": [
       "ai-advocacy"
     ],
-    "sff:4e1769165f2867684f53db98b3c4ccd0d666c9c00d598f6cc672a6d57471f4d8": [
+    "sff:1b3ccf3d6797a087a34ebbf50c60ee5cf2f375a015e291414974c6d60024728b": [
       "ai-policy"
     ],
-    "sff:6a6fee8700d5fd9bf8673b1eacd5a682725fadb5eb0ce47af2cec9289e7ee385": [
+    "sff:175520f18713a650945512a50b2df38c3f346f64472623b5c5b04f5efa177e34": [
       "domestic-policy"
     ],
-    "sff:87aed15203d33123e7ddfe34736e7fe619603f3d581a966e574790f3303aa0bd": [
+    "sff:285751f3a1bb275f9c46ef98c7288eb56f53f15a057a4759b9f7dd4da7b24b9a": [
       "x-risk-other"
     ],
-    "sff:3ba3170d6918eeecc1d402b2c2ea09f9b5ce92f145aad60164f591f0b80c2dbe": [
+    "sff:32644fc3fdbe60f0a7b7727d56589f67fcf30b2d2e5fd80c14e5119d6b1a615e": [
       "x-risk-other"
     ],
-    "sff:15b458fb83b5fe39bfc1604655d19e7824ad4f3c50f53baf0322e3f951b82a23": [
+    "sff:76f78af20a226a776a026263372dfd7b0d80e70048acfa8897b9480a8b6ca551": [
       "ai-theory"
     ],
-    "sff:947403a707ee505e6552159c7681d4700b2dfe654aebfb733b35661655901691": [
+    "sff:30ddeb62f119c5211848246fd77016ae73ab413d3eae1b0a3ff1e54612717164": [
       "ai-theory"
     ],
-    "sff:9453594b3e77d97d7d6b1f57471bbf202335b4aad3acba649caad974e3a70906": [
+    "sff:72d9ee389e78e025f4a18dcb26060b4a74bdcf5033a7e9e1609714791c1378b5": [
       "other"
     ],
-    "sff:4eddae279461293ce15799f550b22a4fc8ca3790b4027edd0013859f308edb06": [
+    "sff:31fe371aa3df0f378609fb9c491ec2c9d19ee106e196a36c682c049995c5e41c": [
       "other"
     ],
     "sff:4d6ce34de4d6101a2532361dcbe80cb1b55aa76a44000b21f7cf38fece2cb87f": [
@@ -10638,1090 +10638,1090 @@
     "sff:bc8391abfd4ed6a7d22c272ae8d7f02a002fdecbb92a307dfc1d6ba5daa8d9f4": [
       "other"
     ],
-    "sff:351be5c168d2c78ddad9c54b508e0fa9e9cdc63095dc6f40997c222c28d004b7": [
+    "sff:b8b28e0944497b26a390cc9dd8fd5041265a708dd3212a6db12441cbb2f3f175": [
       "ai-strategy"
     ],
-    "sff:2322f5a5f2e80195321bda94d4ee9ee8500ec1d7afd738aec56f018ea59f7307": [
+    "sff:c43b4c286e3ea5fccbe8e3712228ee1e48f30949556569522af3d40cdb008f81": [
       "domestic-policy"
     ],
-    "sff:68a5a22e7444d79ad1bd9e3a6bf2713fa07e30b441975b154e52bcf726d512eb": [
+    "sff:f8b0f6c3312411d3cd70f5a24cf2af025edce241cdda51f8fe1b5062f9464545": [
       "evals"
     ],
-    "sff:2e53ce272b83de110bae6f753eac67bcb68ea47894cba8af59b6b894e9001781": [
+    "sff:3f35f16f52d85b92d09b8ae37bcde965f461e510232749e0f1c39ce4e4885cc8": [
       "domestic-policy"
     ],
-    "sff:73eff1b53ec3a748e15c0ab2ed42846ba96277d151bb6c6eaef079381c4380c0": [
+    "sff:e3657b7f52849f1062545de854f4d37c692cfbc9389a925fb50638a0a4277eb5": [
       "ai-theory"
     ],
-    "sff:a08afea39f72ca6bc034c559259af68c8694843abc478d049ead3aa2c4d21d9f": [
+    "sff:b077e7ba164537acf06e4592e3dad159899b36799515152eaea6c2fae1a5e1dd": [
       "evals"
     ],
-    "sff:ee4272cda16414c7a2ee92b5381b226bbd128f57491fbbc65d9531309156dea7": [
+    "sff:22a4e8fa6654e8ca859b18b96610e0a77fe4c498d26fdbeeb26def7c20faa6ad": [
       "x-risk-other"
     ],
-    "sff:fdb81386ebefc8220c6128a6f3f0bc3deae9d14e0b2b6786114e3ac7786602b6": [
+    "sff:52e6cba1325e4f46d229bb2f26533c4a1217e77e1e9859f830201e773cd2d26c": [
       "interp"
     ],
-    "sff:a55f199780d78d4c6e729b61c350f2e8eb0a7bda4897c1f0a062e2b0a6ea4b62": [
+    "sff:bb4e42d89abda5028b99cc66986f0cb9a444115e59b24bafd5783941508f4bcc": [
       "interp"
     ],
-    "sff:ab3e0784a8163c0f6274a4e8c00203626a9f681285ca3b62504b5f60f2dd4f9b": [
+    "sff:4d274a65d7c67cc32dd17a201c93b80e71be682654aa0fb8f6fff2b8d34df302": [
       "domestic-policy"
     ],
-    "sff:4ab4559f1a094893ca4f142ba316c9fd9883c9326c7ebc821932ff5da943d6fc": [
+    "sff:54a29e7ff820411a2b397d77081ecf572be7d902c4ad233f93679f2c41deccfb": [
       "ai-theory"
     ],
-    "sff:135876fdfddb1991fdeaeea580f717d035e38f15cac65458a01e1a2e0bb2c292": [
+    "sff:31c251b844967a3c99843e2001097cecb0f3676cc02dde5389b0d1a9f0c71b11": [
       "x-risk-other"
     ],
-    "sff:4e2352113e92e0cebb369a472d2cec85054d302fc1ba732b46cae65008fe8507": [
+    "sff:e698ba448e7d091346dc46b79c98874691cd7c8accdb2044cd870c17892a7c10": [
       "x-risk-other"
     ],
     "coefficient_giving:36478": [
       "biosecurity"
     ],
-    "sff:5796d9312fb6a265d6d57d849bbc7e975cfcea5cba8773f444d5c616218db175": [
+    "sff:1d5800c89a9dcf33a8aeeb26e1d353432705fabab3c6d17b7bbfbc682c4c569b": [
       "ai-bio"
     ],
-    "sff:480eeb3072647934df7b3d17aef77e92446b7ae00c496efb93068ac27c069708": [
+    "sff:3c88e6ea847749268b546d57da1c543b1249e3ccbaa7dc88519111ab664a1435": [
       "domestic-policy"
     ],
-    "sff:409d4d071f65b0eb633a80f4584f46e2e7f97f88f35fc3b6049a7dd9c5555a72": [
+    "sff:188b36577441505bc961fbe81c0ccc2c612fd892d0f773d946d9aff43775cbc8": [
       "domestic-policy"
     ],
-    "sff:0205d35f2ccb4b24ca2aea7ad578b8dc69c88b96c52f282b855422ddbe4b63c4": [
+    "sff:1340a7428f647129c0ac6d1a7c84559917e963fdc99918d90f2fb5959a673473": [
       "domestic-policy"
     ],
-    "sff:42bebd9541d9af506596d91ffa9b6f70f2f0fb81ad3596d5aa9fd25b54ce1dc6": [
+    "sff:1312bca322a1b9274bff82f243379f0a2c7a306531435c113474093c7dd8ec89": [
       "x-risk-other"
     ],
-    "sff:2e7dfefab5f1844e57d11213a1df963a10567b1fc80a028a2b1344813d3f5f7b": [
+    "sff:f80d4fa46a16c0c97bd867c4d18f295175ba3060c18fd1a91dd8bcedf761f8f3": [
       "ai-strategy"
     ],
-    "sff:e6fe9654f3c297fffc8469a73c06f8b76fbe62204b46d35e1b8f2291b47518b8": [
+    "sff:49c73d267eb4be2d722033744261ae5e7faca38c411f59ef64e2fff02e9df52e": [
       "evals"
     ],
-    "sff:1844e60795e9740edb95442c36bd80a4b76cadfd1a3eb0aa52fbd4580ba5ef11": [
+    "sff:234df8f5b3fa9a97322bd18f3db020fd5c404b98b1e105aedae90b19404b3f85": [
       "ea-infrastructure"
     ],
-    "sff:c76a55807850b00dddaf606d10a271468d3d723a23efb2605d147618d162a798": [
+    "sff:5259cd5008b2944c437ddc786cbeff6f03fa54bc95602e76bf8469235a8f1a7e": [
       "evals"
     ],
-    "sff:9de18a897190bbdccda2e655ce52e3a8a31d2d3ce3b8e9b9c3bea2969a011367": [
+    "sff:7c4fdce48350e55c73d7736d6e0588f6279b01ea7198b05942135997b16fd91c": [
       "ai-law"
     ],
-    "sff:a59e7f3f9757e1f443cbee1bfe8ecc67ddc0e88c81192e67151b5463eaf1cdb9": [
+    "sff:6fde493b2767d218a6d83b2ff5c908c12c08e68a875bd86fedb050fcc4103c5d": [
       "technical-ai-safety"
     ],
-    "sff:654bc99aff4f5fc08a58df5c395b54c36c5cd5a5ac2a82f9c642dcd5d5849bb3": [
+    "sff:9a946f573428609d162afafaa1efdbc4c688fcf18e4251bf82e9d022ce0bec6c": [
       "domestic-policy"
     ],
-    "sff:4e4bfc36c39fec634191598dc0a4ec6e4065bbad5405d6cd550f114c7704609c": [
+    "sff:0a67341e2533e961276dc27d1bf6412f8c20f9d15e4f3e87832aa49d594f9780": [
       "ai-advocacy"
     ],
-    "sff:64843d396370a21480c4375060ccbcfd31970b6a4c6d97aea79e892a3214f766": [
+    "sff:45ca48ecc04df9c4d88fcf61d44e41ee7bbfc3887ab8f65685e3e3577d9d84a0": [
       "x-risk-other"
     ],
-    "sff:c26bb69083c0e4fb76588b627a4fa56580921229b1c0c1801ddfa274fad0bb10": [
+    "sff:96643a3239d9a9304057b9df7070f2f86b65fd5df8625f32ee7cdc1b29dfd789": [
       "x-risk-other"
     ],
-    "sff:3cd6450e832a225464c5b65e8a9a38d30e977adf402d93097d3228ddd445be47": [
+    "sff:c937107284e368b9b7e492595620148a3ff6e1469909fd733bc5192dc13265f1": [
       "x-risk-other"
     ],
-    "sff:afb9c08e1d540b2958d91d0c29819a601910f3df7bf74b7e512b8bfd62a120a6": [
+    "sff:bbfb6043d06fd15b3137e451f740ed55048ddf4f7bb7322f31cf080b6049f1ea": [
       "other"
     ],
-    "sff:c139d6cdf6b9b0a53682060da9f8b7e06fc3404b96bb66ffb66e147de7a65396": [
+    "sff:0b6679aa9dee18c500db552150c30fa5df624c092f93cbbf129781708a906c4a": [
       "training-pipelines"
     ],
-    "sff:34d55cbc855bab7a1daefb58a82f3de8f74887b9888987d9bcac9a38abf30a6e": [
+    "sff:544bb1e7bb399d3938c06979819a71bf210667f97da26dd594fdae3028abcb1d": [
       "domestic-policy"
     ],
-    "sff:7362056a60e264c8c52ebaf446c83618e0ba148bffd6cbac47b78f87dc897187": [
+    "sff:584454cedba874b77e2ea909c1c83cb3f3768788ecdb5c05ed17d3e0a4755918": [
       "domestic-policy"
     ],
-    "sff:622c98993e54ae8753d340ee961eff8a3e9340d74c4467868972fcf5bd670d52": [
+    "sff:17a607621b7966e86cbcda3dba734536bf1715a28d9b62a9175862cc790a418e": [
       "domestic-policy"
     ],
-    "sff:ad1d3c1a6508fdb3b3f79f97f8c493484d2bdbcd4f136d00a17c40640996dbc9": [
+    "sff:599a889ecdec87f322e0dad35d7d14eb37aea789134be1177676571fb1c7d90c": [
       "ai-law"
     ],
-    "sff:4f514c4a973cffdefcf5c99af6cfbd550cb66e67d30b369105951c5254149a3e": [
+    "sff:3ad1996b2e941252c7a75d3937bfe3087c871b798ef9daf52026ed5d9d300590": [
       "ai-law"
     ],
     "coefficient_giving:28811": [
       "technical-ai-safety"
     ],
-    "sff:4c3e555824fb9b434f7db6530222b443dc9f13db8ceb34c7faf813e62108fac6": [
+    "sff:ac3b5b910cd2ec03642f0233bf05690236ed29e9bc42476675246827feb1d5a8": [
       "epistemic-infrastructure"
     ],
-    "sff:759a0a0d77fb5741ddfad2a60077fc859118b97fdaf0ea8b78e47f4505f45e72": [
+    "sff:59dc283186620e024b48f23de9dc83e8a34beeafe4169c758b1cca9306046ad9": [
       "ea-infrastructure"
     ],
-    "sff:22221ff55e75a50cf7503098814dd474fd40e9936d69b781af652bb834a8530c": [
+    "sff:63c4b7ff152ac7ad29c49903e384583d7f18931ac4c7d5281bc6c1b554f6da61": [
       "ai-theory"
     ],
-    "sff:b8bf56cdd884fcf51abc5abfa18e45b8dd260fd6df335f84b9d1adb114d7b8a2": [
+    "sff:07358bc0a9371a6802f462103aee4bcac9754a62d7adad8e59e77c17cada6b24": [
       "technical-ai-safety"
     ],
     "coefficient_giving:28361": [
       "ea-infrastructure"
     ],
-    "sff:7a17295e91360d575c132e33cbde8337be949e312aab10b272ef175b1ee14570": [
+    "sff:24154dec3862927a946dcedc1225348b4e1f90e2253a7a9d35d3498d71bbf842": [
       "evals"
     ],
-    "sff:0230a8c67f7a5bca75fff722ad390561c19aecb0ba26b5d40ae24acdb966a23f": [
+    "sff:30158c12b72e77009be4969df25e4f29db246214766d26b75896cf3a8a724796": [
       "funding-infrastructure"
     ],
-    "sff:089dce556f2222a993f975e18decf0bfb4bec93e2c49a2ee8000df2a3b0e1807": [
+    "sff:08f3ed0251cf0bd741776af53576472907b9811d397073fecec749c99e4b4085": [
       "ai-theory"
     ],
-    "sff:a64979652128ef7951edc158cfc9c18fc8e58e37445572362ff1e8c8f4f1b73f": [
+    "sff:b26779ced8aff262d18a1ddf35b45babfd4fd1834371014858c8758e36ba0f21": [
       "evals"
     ],
-    "sff:6137d1babb0be55330dd7a6728735008065c15b6493569329fdfea357b9f6a9d": [
+    "sff:62f9c79a14e1218ce96159277b0d247960ea6d3c0b62c4af2dcde63d9f8af743": [
       "alignment-methods"
     ],
-    "sff:92edb1f2ca4f11e99110567c52f9bcfd84a39a15bc082dad9c6bafe7b9a60cfc": [
+    "sff:7022ea4a4273cd9a0ce29e260988918ca6dcdecc9f5b3dc45042ab783aa9f39c": [
       "evals"
     ],
-    "sff:5df598d2590fce0fc7a0ae340801da51b6f2b1d35d1abc600d260106bddbf649": [
+    "sff:a50d52b92f591ee203ed28d29a7f7ca6fe415368e196820598bcd6ac2e0cd8c5": [
       "other"
     ],
-    "sff:ceece893d2b70943910a1ae8702be7e97c2145783c02f0016d18f0426ac46f4f": [
+    "sff:6c169c20804e6d6efc115e71b81f63346e24b62029d09e1932feeec4a86eae3e": [
       "international-policy"
     ],
-    "sff:6c1f1b703fa6532aca968d6e49c8b596b928a2735202b7c5f08dd4247ebd96a0": [
+    "sff:7dc033fa4b5d3f8adab8421b3c8d2e1183cc097d5cb3abe3c93a65345fbeb458": [
       "evals"
     ],
-    "sff:b115253c28162eae6eb0563674eeb284aa6b4f501aa1cffa088de42a24be7b8d": [
+    "sff:fba61278eab021783e56958876d9157346b8b6c4ac76e2baf5dfe81fd5455421": [
       "other"
     ],
-    "sff:fafeb7df03b69aba7247e5b2d5b3a5c2097678e9b1995cadcc6c59a42af28abe": [
+    "sff:5f20a5dfdd0ec9307a70630f94e93baa3e05fefb8fb2a1f488b07696e6974672": [
       "other"
     ],
-    "sff:da40546cfb46844a694ee50d3bd2282dc2c125519baacb06a9ce850cba35b32a": [
+    "sff:9277d6fda116ef3c515fff79e095a2d61d0fab33a2862f5e5c3d74e0c1b63dd7": [
       "other"
     ],
     "coefficient_giving:28182": [
       "global-health-development"
     ],
-    "sff:ac712d07379623f2e327637e101cc37b97f5e7406a2283715523535149f37275": [
+    "sff:13634ec1644b6f30faef3973c526700a1f8362854a48af20faca1f63513ce49a": [
       "other"
     ],
-    "sff:d7f94d9ef266ff2d7807260bf95ded0e7deec002d72e0fc2361365f38ae72e20": [
+    "sff:9dcfbe1ef5796a18e9ddf7c6bf17faa2bb909c040e2636c5820c3f5d0bbddf58": [
       "ai-strategy"
     ],
-    "sff:6bf5a8364a46c0bf4e0d8f5a12462964beb34166ec69598b09702cd2d2662367": [
+    "sff:3783eb5258c2999c08035a03f584dd9de162fe47cacc92edab81269a08c5f8ae": [
       "epistemic-infrastructure"
     ],
-    "sff:4b3815b5ed46a07bb025d52b616176b611a83506ef09c935d58503ce326a58a7": [
+    "sff:4f73975a93ac7a50b26e336031c899b504bd925a412a0cc3c0d7416534cb64e3": [
       "ai-bio"
     ],
-    "sff:a1d8db0ffb74579a033bc294da48df98788a1720c995a34bc801ef9a166cae7a": [
+    "sff:2efd6e3e93dcc9aff887d226104399584c4abb0b567ac45556909c10de3f8ac9": [
       "ai-bio"
     ],
-    "sff:f02ae362e67d6922735c9622ed7db2f8ab0bec7f80320eb9fb2c1e3c4aef63d6": [
+    "sff:c35cb7e1ea45d30cbf1c32bc2bfb608e559a49e6a6954c025613da03192a02a7": [
       "other"
     ],
-    "sff:18442b2613b9c3d2a8cd8e0d82e1fd8eb51fc50c4cbc870951b81baad6f4ff60": [
+    "sff:eaacc97e24355551122d7696af96d43ed548592e26a62e4824c317e265d22006": [
       "domestic-policy"
     ],
-    "sff:362a2053c9ecea2c4d5c8c4e69c82efe3ada7e9716902b0e2064a7c2d500b2b3": [
+    "sff:eef7d6a3b4387fc14ffb9c3b41428cdf1ccf145d681ba77abeb78af3558b6345": [
       "other"
     ],
-    "sff:64934f2ebbf9836ebb254af9cc7f34161e78cd2cfd6d613e8f87481001d4457b": [
+    "sff:6538efcdc65c6c9059ae78109c632c4661f5bf000a96f0488926aee2e45b8a5a": [
       "ai-policy"
     ],
-    "sff:17b813cbe331c7ec1bb42e2a6ddf1283814343c326fec04a1e1faeea5a3ee060": [
+    "sff:a8d621e08a5a3f0ebe8b39f6587a5ce3067df6d37b8eb4c048b697c4d5ddd638": [
       "training-pipelines"
     ],
-    "sff:36d565e6cd03f9c31f5c61c3da6ad48d156f9222f1e05a38c08073a915e70efc": [
+    "sff:61ecab6a4a10645c68bf39ef97e97ed02e8bd957fbc29204362fb18f244d73d1": [
       "ai-policy"
     ],
-    "sff:489130652efa7f059755f92887de39f74b92105d946b97b94ceeeed2ad636c75": [
+    "sff:8431da155e62f514bdfc432ec0ede7362a772e3a262be0682b53e4a18009fdf5": [
       "ai-policy"
     ],
-    "sff:02c20a18c1335c7bac481356ea418bfa7be2f2dd8e54a56905ee6cb200688fb4": [
+    "sff:42a3aa55384665b36ca69fd2ead508f9c5030c2a567dd57ba6c65b079532dbf2": [
       "x-risk-other"
     ],
-    "sff:d503ad6913604e21df0e7caf213d67f32fecb3a1b067afbe3733800691c8f5c0": [
+    "sff:ea7012e144c8413bdce182c2d8833d031e30e2facb935312306d5a21e65e9217": [
       "ai-policy"
     ],
-    "sff:3b9c3f75cc95c3c9e2e474f9da6c881eb16c914b0183c0b11fd9ae2ad7da32bd": [
+    "sff:e8226c76f98cc81499433d62cfeb3b09df76a14308c9dab74b3d2234bb59553c": [
       "ai-policy"
     ],
-    "sff:74c57ee988b8d47cd0e4e5764c28c8e483f3ba3f9022679c624b1a43b14e4170": [
+    "sff:e5137eab41f385ec088e9fa1d04a5db9b014c7ebc95442f138ece4ccc4be2574": [
       "other"
     ],
-    "sff:7bda1245c3b6a8be56f59b35ded25e409ad4cb2d1389342e70acf719699c1850": [
+    "sff:06f2af7a87e6d9d914a22784a2c32301d083f86c28c7b9d83440923d405b7ce0": [
       "evals"
     ],
-    "sff:94ed877413cc5859e775d936c6747b2abea372e748e7531bfa7f49888ce56d48": [
+    "sff:170f589e2aac3dff29b29d7e0121dc394d97335fea90b638c402d58799cc6c0a": [
       "other"
     ],
-    "sff:8cc26ce7a297b1ae39991330bdc8c4164955d29e8fd89be0e5b641023cfba5fc": [
+    "sff:e9ecc5406299cfefa937f0b83b633c14395981c4c3eda3ad0dddb00219ec4a41": [
       "ai-theory"
     ],
-    "sff:b9eab257658a6ad2844a84ca9dea3fcb9ef84dfcfc14a1e4b78ffe86387d1542": [
+    "sff:bc18c11248286572c68274efd48443c745721723382416cb689d7427c0024b0a": [
       "other"
     ],
-    "sff:dc7f8af2707ae508bf61c26a70f16c8508c8d2793ddb0f41247be121eb3312bb": [
+    "sff:53e670606dcb23d9d5252a5b248da2be6a0c42076c5fc2704d81cbdd93e9ebb9": [
       "other"
     ],
     "coefficient_giving:28963": [
       "ea-infrastructure"
     ],
-    "sff:826dd6116cd61c13be1c22582aac5741349e240ccec150d8baae452e695b265b": [
+    "sff:7f2b947116785525a35e6854d7f743496fd371d1afd9510ae646c9e31f51d6f6": [
       "ai-strategy"
     ],
     "coefficient_giving:24745": [
       "global-health-development"
     ],
-    "sff:59c326ef56ffe1daf8e32d0b33b53595d4889991f42729aaa3456c7ea3e2aa39": [
+    "sff:f302176a221af780276f9b8376047eea1cf3b2e296da91b5d7a1ab8df9d30ed1": [
       "other"
     ],
     "coefficient_giving:26025": [
       "other"
     ],
-    "sff:a4734fa3e6533eb5daae66603c6dfe19efe74cd1889a2a3421712753f51b6d97": [
+    "sff:e011a516266a72d1f827be1bfd998b5482f867f641cf1aa8a2534e96c273386a": [
       "ea-infrastructure"
     ],
-    "sff:1f9bd0f15ff8229acef708f14c7fa0b63899f226bcab0a44358f74c0e600777b": [
+    "sff:425a33ff7dcb2b35e9700e4d8780218a56128ba0f342d246e59f7282b565ec68": [
       "ai-strategy"
     ],
-    "sff:8004dcc7e6f888e9c710c2c124b8179c1d97c86ca2729290d09c3869fa20e947": [
+    "sff:cc8b55962b911231d8a4e2d77876d894d693c71d0b7d22467d52636e0fe143dc": [
       "technical-ai-safety"
     ],
-    "sff:45fd309d181fc1a82880c42e9238ee9d2c9169cbb8b12f0e25538774783d6927": [
+    "sff:b1103e5086be6db0f1f3f3700537c5cc00b7c8df94daa7c49bed44a64993bc97": [
       "ai-policy"
     ],
-    "sff:3afc585b5ad4e692cc94873ee6118c4459d846becd0dc99890ae4270ece3523c": [
+    "sff:b789979d803054fb74ae7f847d6f43540db7478e5502d4d1e532964d925c5fdc": [
       "other"
     ],
-    "sff:8d8cafdba2460316ff9cf99eb51ba4e786128b171fcaa87a0c01e05eff776b45": [
+    "sff:b3085d2d384625ec8c53114eb14d6148130f919cdef0618fa24a70eaba5ffda0": [
       "domestic-policy"
     ],
-    "sff:c6c17bbb91316d1dea17e391af1a6e64a1c33bf4e0c673b48379d7466b6b5be8": [
+    "sff:24abcfb511757d8453c382cb1b0c1c73a180fce1036ea563ea77a09be81b1c81": [
       "ai-strategy"
     ],
-    "sff:4b8ea7bc39ebc08f16afcbf8a276f2670bed3b20374a3224d2cd46a48fc45510": [
+    "sff:120a3e77ba186e4d864551d6ee925f79be7f42b29d99d759737338ed74b93794": [
       "other"
     ],
-    "sff:2f82048b350231ace4b01fc1453dd43e63aff600ea999d5f7b08487c7300cf9c": [
+    "sff:5b79a27709b9226e8519146603338695e2306ffc77b21f97f92c89bd821fc01e": [
       "domestic-policy"
     ],
-    "sff:723481294f5cc9d7215b30809e3cb0bdaf477883900c6c91c77ddf486034fbdd": [
+    "sff:4a716b5a0d8861ffd6543bc6ca4a4f6771d4eb62efb691dc4eaf3c42fc9b517e": [
       "ai-policy"
     ],
-    "sff:4c4eaa8c1abbb29ff6fa07e2a2647fce6b441771f3742dfdf36462cef72b3988": [
+    "sff:2623295cfdd7c579879655c9c80441add85cf36c3dec1446b03ae8edd61cea09": [
       "epistemic-infrastructure"
     ],
-    "sff:91ec5995e41e473ecae4d14acf6693ac484c8ea355bdd247b955092258102700": [
+    "sff:6c494eedcb46bc544a2308b90b9b2b4e049e9fb94f0419f11e1943e489accfc0": [
       "epistemic-infrastructure"
     ],
-    "sff:52e20f1687dd2e109cb6b568288784d27c51c08f6b8f985f0899a6f157362b4e": [
+    "sff:530534821c73d0ac111e627b45689f5d414a7d5ab8cb616ed2247037f881c14b": [
       "other"
     ],
     "coefficient_giving:39713": [
       "x-risk-other"
     ],
-    "sff:cd58ba505f5400c3c78b5e49714ee3bf3b425200ed4ee6cad492e1202851ad08": [
+    "sff:674609e4adf2c713b0328065eedf5524e10581bf8823e3e8cf2164071be58093": [
       "research-infrastructure"
     ],
-    "sff:a05897de3214f686b85ee627c9453fb1fc29e2045b7c8e41476d533b21d91fbe": [
+    "sff:9b815111842d9d8af50fed4e0b3d938b13b0640890a1196c89c6eac5864137d8": [
       "research-infrastructure"
     ],
-    "sff:85660b28432f19d4d3e92fff00af8ee4f05b706525a9119df7d32d35f5887948": [
+    "sff:a740880282402574f1a9602d746507baaa215fddb3529391eaac8a457e1a269e": [
       "domestic-policy"
     ],
-    "sff:8e5e08f2f035d39c160e63b4122422a55e0277f2fd72cf572b1ff283cd266f68": [
+    "sff:540fffca0448351736da8c31b72c9cc3dbbd7526026c5a9c52afbcad7996c2c0": [
       "other"
     ],
-    "sff:fa3f761499347aa577417d391412cbd5386a27d5e99b60f9f52e3ec08d748561": [
+    "sff:28c443af60f4fb98e0c8309a165ca023fd934f8150db938d81008d589e24ee94": [
       "other"
     ],
-    "sff:798e9567f236b03180fd6045613b4bbb19e83e984eea72a2fb8a4f35c9a4d1da": [
+    "sff:3691b9706e89f2daaf3c96b3fc0ab5c82f5b8a0e835207de8cd7b9ce65b6ba6e": [
       "ea-infrastructure"
     ],
-    "sff:1d5ecf2bf7a5c80b5b6a9c77d8f5bae0c01f7172fd780543ad7fad6e6d52d880": [
+    "sff:6e3950e48b86faf4cf7f922909d212e590512a482b0c6afb95ec4491aec21606": [
       "evals"
     ],
-    "sff:fbea96977aed516117bc5a0097a21b0ac4751f220e7073802ca28abdbdb35300": [
+    "sff:53463087147baace43f50ae85f6067f3a6668c54850b289b45dcdf924c803476": [
       "ea-infrastructure"
     ],
-    "sff:15faf981c831ae241026bdc6c27f120dcba280e37dde39c8abf0f34dcbfdce17": [
+    "sff:86aa71235b9e59f11c9f49038465f2e65eb257264a1a14aae36c4d460554df66": [
       "technical-ai-safety"
     ],
     "sff:7f7a7631e365dfabce5c6ee28e50fdedc954100c49165abcc9af6a851263d366": [
       "ai-strategy"
     ],
-    "sff:4c1d044715e42ad109a6f182225feb6005d0fb7bf0a03545f81817fd79d9e074": [
+    "sff:3374df0cba381adfd324f5c3d3a4e2a0a51fc371b7bf3bc485ec3ff5f3f65be2": [
       "ai-theory"
     ],
-    "sff:f503356b67926225bab3f035d5274e5ca261db62a2a3c8baf0810466f0f59915": [
+    "sff:eff07e1db9d6579d87caaaee36a944cfc402ff13f1044ba65335b76cdfeb6d3b": [
       "x-risk-other"
     ],
-    "sff:8fe579c872f0dd00ff35c2f35983c01bf193b3182fabb55c184361170846b3b4": [
+    "sff:5aba76d12c01d7a4a468667b3edb558967c4eaa875ffce17217db006ed5e8e01": [
       "other"
     ],
-    "sff:d0544ee418cf5b414978a00425313382f2a459b2a974643484b349f00cf0f323": [
+    "sff:10184bae75e9db73e31b8cbc5a71f7a5a9e58472e18c75499bac1fbd9f1ac04e": [
       "interp"
     ],
-    "sff:eab90add54be8f7b8c83a152534d0063f6b0dde9ca09b90ef9399f9da26c831c": [
+    "sff:977e2e84f90a16462228feaf6923026c328e9b9a43dd845c2704d3de640516ad": [
       "research-hubs"
     ],
-    "sff:b43e6b4474fedcffb96bf16469961e462f10f78beaa6e407ee09dcbf78f1dbe4": [
+    "sff:0668b09a06e2521e56d263c13309e2d23e798db89e46f6587c4637617b26e2f7": [
       "research-hubs"
     ],
-    "sff:169cccd14c770091a9d49238223e983d7026ba38b4c598adc045a9968acf8980": [
+    "sff:44fcd3e733104badca013304cc7eb6920005ba5c7ffe25a606791dcabdc4f7ae": [
       "other"
     ],
-    "sff:7e3fac5c13c1276ef6f3d8fb4c30d28499826e348ac8dce65cc62dbc49492afa": [
+    "sff:505ea10fb3d928b6d660683ce08231b170d07fbc2dfe7335d7d5f09293730c7e": [
       "ai-policy"
     ],
-    "sff:19f40a68a84889648a656ba7d46ef734d3c8d1cc24f65d64f2d31545b9eb7dd3": [
+    "sff:a87afad58bdce071540b5684872ef4068e66d9a224e66c6ebc29efd52319d547": [
       "ea-infrastructure"
     ],
-    "sff:83ae58be9b431e2221a86e3d26219c01db6ef9298c7cd6086f3158af4214349d": [
+    "sff:8394b4782314a8faf241653bde0629c6d11f1ed19c15c18646a7d8e0a574b3fa": [
       "other"
     ],
-    "sff:5cf32a17c583073f12637e84c1eda4b91731fd08eee262c1cd128f52e1a6eab8": [
+    "sff:8fdb9f9fc23ccc6e14ca26ce0477a6ad4f80d6dcffecbfc79a47aaa9797ffadc": [
       "other"
     ],
-    "sff:2860a7fb27be7dd24e7a9e3f8b59b9a42abf9eadade267aa16e76e2403050100": [
+    "sff:9073a65c34165c0660e7b3b6c4406d00fd7f1147324114ddddeb3ff67ffe6e32": [
       "ea-infrastructure"
     ],
-    "sff:a6e5d079d17b0faded47fdf29aa7ae419fc25d7ca4479486cfc1a17906cca6e5": [
+    "sff:34bad53d6cb300189bf176819e725bff60ae6c42cbb457f1e1b0878524d600b3": [
       "other"
     ],
-    "sff:b687e3b7ec88f04c08345a45892b7c2dbb59fe3882b229dce39562b8017a8bcb": [
+    "sff:89f7480f3f02e8d01ea389cdbca9b8e5d61ffdb0a4595d74d58e3b08c3588258": [
       "ai-control"
     ],
-    "sff:2520c34aaab7d48dd6dbb302ab965447f5ceb23796e09da0e3d33c6f2c2d4e6d": [
+    "sff:23680ad920e42303d99ebd6bb5a154d830216d01d9cfdb9fc9b9e3ca793adb51": [
       "other"
     ],
-    "sff:7bad33731d6a9fffc29b8e22d46f90aff6143a63277a6255960ba34779f0fa15": [
+    "sff:aa4ef798d6092b1d6e042c98db12bbdac103b382ab30a30eb70defe1ab1c8ab9": [
       "other"
     ],
-    "sff:7cead629b741d29900f0e69c49891b527bf845b41d73b5ddbdcbecc29dba4377": [
+    "sff:b8388923a6514f543d5dfc6c42151aee70eb4c8b3cc8030db1bad08df08921d1": [
       "ai-law"
     ],
-    "sff:507b20715c14a901654b2ebbe1e17faf30baa7b291b09d7d1ca4fa6efadc6808": [
+    "sff:edfcebc12957ebb972776af43d753f7cb2d35006c78db89dd8c858347e372c92": [
       "research-hubs"
     ],
-    "sff:e0b55b845214ea4b51cf60dfc231f7be40afdb080ee4b0d46e7db4b33f629ed4": [
+    "sff:09bffa2355ec3930ba76872a94503f364aad0001cdc046ccfd55f0a7923c39fc": [
       "x-risk-other"
     ],
-    "sff:e33d8e1da9e42980607625025911f671f4eacc4a648077200012df5d3d0eb512": [
+    "sff:fab19ade0e0bb109689b6f5be83eef8da480737e26309245f80c9234429d0c9d": [
       "ai-theory"
     ],
-    "sff:52d0e55e27f074be0a22ed96a7c813f03b89efc2483da8f5c44045cca6f07b9e": [
+    "sff:fee58cc341ffea5fb9517f0f59d2428c798eaf8ac95340def43ad4bf18ca9c28": [
       "training-pipelines"
     ],
-    "sff:cca33c0f355b75df7e6a1fe5a74aeef6148b2fd2431a07e1fff01bcfdea7a240": [
+    "sff:f1b864b6825554cd3c8bf5a29a641b5b29026251df4791ce419503de5d69a230": [
       "ea-infrastructure"
     ],
-    "sff:8c0c8b65e6a41f49e9b111cc606d0db223da7da99163a3e31f87cf5a3ede5d11": [
+    "sff:c7a2b10fd988370b77893e5e2c07c7f68622738e5746d2c15c4f9cd1fe67d795": [
       "ai-theory"
     ],
     "sff:00a218be0bd7b63199abd9900cc1277d200dd8d99bf54a5f2408fa9467d8d008": [
       "international-policy"
     ],
-    "sff:c697e4b7bc55cc60fd6a320e205d968c1648ecb8822cb84598ad80527cdd0418": [
+    "sff:b81181e4ea92e0239138d0b37da957fefc448bfc9fc5aff70eb57733133e5011": [
       "ai-theory"
     ],
-    "sff:69feed492c5fcce01207f34a3b1a34a72efba1ef5f0f25363bb4784b70f795df": [
+    "sff:e7deb177fedf7fea7a7466982761694204da0e3863cd928bd644f7eda0f0619b": [
       "biosecurity"
     ],
-    "sff:3595ba94e81b451a4738246e3759c2d7b473b259e37e65982f6e39a607ad91c8": [
+    "sff:4f845ae22c8f83656a0f3a9a9bb13730ae23d68ffd170f9b4b1070444655bd25": [
       "biosecurity"
     ],
-    "sff:5eaee52206b8e7e6a72b59a69e436badec0e252fd5337b2271d874869784f70e": [
+    "sff:79d2555db739558c505273117ab9fa538d2fb13a85ed708812672004199b16cd": [
       "training-pipelines"
     ],
-    "sff:6aee70906e774bae2fb317a531063617caf87a2c992126c88e67d43c7cb80533": [
+    "sff:8fa49919c4ccbb0b3171b3005939104b0fe9bec13927cd5cb9d5d72e399b85d8": [
       "ai-theory"
     ],
-    "sff:217afd10694b1d0e5db630a78d5c621f0fbf2cb6d9ba5d6ec46748477d242538": [
+    "sff:c062e000c26aa91a132e2bc78e95a53c55f18dc888f17d0147fca59bbf232c46": [
       "biosecurity"
     ],
-    "sff:e41f6d70be164fbf1d22e3aa3a734d865b97104600c89b45f6654f65ec8a53bb": [
+    "sff:543194ffee00b634e0f200dcc3b4da1b143e96a74aea8bfab1eabc6495323df5": [
       "ai-strategy"
     ],
-    "sff:5b47d50fbb41806b2fb7daf365581f014cc52a4402ed9e7b0cbfb401fa7c5af5": [
+    "sff:789daa53e61a00208fe80e9cefcbe7b9c844d705c5b3986281d19f88634f7014": [
       "ai-policy"
     ],
-    "sff:8104b6736224e43b519bdddd7253b1d1d95e4cf1d8525680cd8436133d1ce3e4": [
+    "sff:e128182e7ea819bae1c26fbf9b013facb808f0b8578b9e26d89598c6a420a639": [
       "other"
     ],
     "sff:48b1a711c27dae35bf8cd5e4700f918f50ff7053c4c58418a604c569513d87e2": [
       "x-risk-other"
     ],
-    "sff:656fa8dea356f4e98be85a26c34f14d4a51a096e3b0305f3db5aa5ee965e53e6": [
+    "sff:b07fe65d156cdfac4e3698e45fdf6fcec6260fbc67104d7fa551152be8bda2c1": [
       "ea-infrastructure"
     ],
     "sff:660a7aac502a4c424628d45ad9f9f89429a5bbabe1bed36c9dbc88e1e6c95379": [
       "ai-policy"
     ],
-    "sff:92ed4bb5ba6202ae389a99c3006d7ad02d536f8e23c016706023d1c81d4979c2": [
+    "sff:0f3bee4ca6b715d7ce3cec7f575c7dba94b32ba0d225bf281243cd974c56363f": [
       "ai-theory"
     ],
-    "sff:08ae438d9107c4b37caf570be15e1a4df775d4a8f4f7ef7535ae3ed5be73bd84": [
+    "sff:e8a0a01945ab0aca576b9420414c447ee326e779e8abed72f8232b001ff67469": [
       "technical-ai-safety"
     ],
-    "sff:2e4a5d51fd3be5ac2e6341dc93e8744881806aac2573cc96e1ab75f9633495b2": [
+    "sff:8c71cbf150b44be96ba91ac94342abb448174c61e88cc4aff9c802b103bff1e5": [
       "ai-theory"
     ],
-    "sff:5c35dd6c2ac53195d5814fa21cda9224e01bb2743b801aba10c08382db26e670": [
+    "sff:bd26d52b16330c7110afb60dcdefaccc6093ae122fedcaacffebe6896d502210": [
       "ai-theory"
     ],
-    "sff:30094bb4bb305f124717df8ded9096850f405ff74110c26537dd55062f56e26e": [
+    "sff:1f8f008409a5dd7848b154a2789242eed0c2878af2255c0dd73526fe001ce18d": [
       "research-hubs"
     ],
-    "sff:3e9748307976e6cb998f085c21145c6b4b21702e798eefaf79aa8d7c966d8089": [
+    "sff:0532242b90eaede7ec65c49c20b25fbc76468e9cae2174799ed45df1ba3c0f10": [
       "evals"
     ],
-    "sff:1af312b1d7cac541a62559954f1f53073d6e510471299cb035b267a446edd042": [
+    "sff:1c46e64c85df4155c3847f8db88ccfdce4d739357969b51cf912905cade266b6": [
       "evals"
     ],
-    "sff:2dd352240ec3560f24f4599e03978f6a529b315ce01c07e834f382d126d06672": [
+    "sff:bfd1e83a43791a3d281a5d149515bf085de978848527b04a31a4f39c16bcca23": [
       "x-risk-other"
     ],
-    "sff:e31294d86525271a5312877ece141a482e17ceea8089e9802b538be5859c2597": [
+    "sff:718116634624fd36fc23b9ded8a7db2b4f0c86f490b90a0fb78f35551e178ba2": [
       "ai-policy"
     ],
-    "sff:a87784dd8d234c2d852035e3b77cd42996d1686f57d0c42d24d36124e7b38a33": [
+    "sff:da7a6630dbe9a976a65f36745e784a70cc9adcfed04b1ef144a30a8196ce6b57": [
       "evals"
     ],
-    "sff:c9fedc218f992db6ff6bd6b43b5ff0c41fa7a069808e9304b7cfd868912ae6d3": [
+    "sff:00a80168502a9fcb47926296bd7085db934c5418b10844b724a7dba95ca97249": [
       "alignment-methods"
     ],
-    "sff:20b90016b28b0d50bf1a8fc6420317af2ce9c0895142fd81f5952268f2337a8c": [
+    "sff:3960ba43743efa1127c43708e361f9f707b0227555d1eb7b06a76b062f1b49bf": [
       "research-hubs"
     ],
-    "sff:ee5c0864bd2cef5eba12d82bc057ab748053e3b5633e1c2a1d4a1393e82b6ca1": [
+    "sff:90243204f500d6372b49142384b2fa8d045da71b86039205891f6064f5144895": [
       "domestic-policy"
     ],
-    "sff:002adec1cc9394e0cee4c4477ea20dfa13b861765f82a23a30936939e40c6a2f": [
+    "sff:b817aa4024d9fd7bb64d939e3ccad9bb785450f146d30504f8f8a081bd6ff3ec": [
       "s-risk"
     ],
-    "sff:65a30fe4666ae0360679fc6a9ca98f4934e87e3e38c229315c4cb128c100e54e": [
+    "sff:a1aa9853da17236fabd906c0e647ec7634813ed15104a9e02a78aade6cc8cbc9": [
       "ai-policy"
     ],
-    "sff:8177bda566cb7d0bbcb9e430a4d58ddd3db6590eb48a16fe73d8d3a1b51bc3e7": [
+    "sff:67ff074eb00eb364e808a2bf6466c41537e7983a8c192c66f95549d9614f338f": [
       "other"
     ],
-    "sff:04f262efe1be07a7a629360a039883aa39c7154389b7fbb184fa85b137818567": [
+    "sff:3fc2598f6d655ff964f98bf592a35ccf6e2fa9408c29bb63c0c3ecf8cb904c07": [
       "research-hubs"
     ],
-    "sff:38066be9e4356b181bab8b778e268ac0bab6a0711e88a429501d71084a08dcbe": [
+    "sff:ff71e7e7518b7d995d567ef83a8fdf4e2e9db035ce7a502d07d14748cc3c1937": [
       "ai-control"
     ],
-    "sff:333a1218b9ec25071f5ad4b96f6acf3437d9dfca8edebc5a4606dbca46b4af43": [
+    "sff:94dfb7ee2e30239c027ae631d07f4951e7343963c8d0dc6c3ad57e58519e91f9": [
       "ai-control"
     ],
-    "sff:068412d8f72c8e73d5f42b18a6940f1b522dd1774ed8c3dc387588989e1be404": [
+    "sff:18e96638c642cfe252a7d832807b50fb12467fb271ab69fb71be81f0e2b2b171": [
       "ai-theory"
     ],
-    "sff:f7e4cf17bea5f738b1a0b52b112c76e0c2ee29c6dff8f6c1435bddffebdecd62": [
+    "sff:18db9b59b30fb6dd57ec67afc1f492c6a9dd657e084fdad3770575f29714923e": [
       "ai-theory"
     ],
-    "sff:d592ec7a22921639697fbcae40f533a076f3368dc91eadac8129ee88d6e7c45e": [
+    "sff:77d398d2bbca3309bed74002a9965ed05b2cb26ab48b0be67700a01a31e9881f": [
       "ai-theory"
     ],
-    "sff:7fb18ae567a2bd147ead85e9b4f0b38fa62bacf165c4db45861b53f0b2a16e02": [
+    "sff:62db88687dcc38cee766af8c3dd2e3b939bfe68f27124b38dc9b403d1a2852d7": [
       "research-hubs"
     ],
-    "sff:4c1eefc4b818dde0b8c30831a9a26462a28ed3a129b80f1153c610e1c60b2b1f": [
+    "sff:4eeae2108fb4d2043341b84967ec383f85826815c80c08fe04e21f42e90a55da": [
       "epistemic-infrastructure"
     ],
-    "sff:09117533daaeedc91b16d0041cb091bb5e108331bde903c1d0e38d2f84a95e68": [
+    "sff:46427f922e392209763507427d2f953c8460d977cc1d1203d32743fab55867b5": [
       "alignment-methods"
     ],
-    "sff:895691702f518bc513eb1ffb12c62cacfc5027d6cfaf4b087a29d3affd0c9b2a": [
+    "sff:b3b0945b106b9baeee38099653378c68b4a7cc0bbc199ade14265f7f228dd1f8": [
       "other"
     ],
-    "sff:665001e2c28c987e8687eead29e035dbd67e3cbe74e4bb41c45b479eae8b5c7a": [
+    "sff:293cce80dd98e8d8add596e47c7abf2f86d25daec61214fbb6ff5f878ed4fc14": [
       "research-hubs"
     ],
-    "sff:a6d234b0b4139919ff8e0114cfa6d3a40f05504c23065273bdd02953f67c3939": [
+    "sff:4ec84a24e3e19603b1cfb67ae006e87434642e82f5daee19584682539c3ac150": [
       "x-risk-other"
     ],
-    "sff:84ac58931f43fd33b60e40bc51715d59d417c1e44f7abdeb233b341ac2ab0b1a": [
+    "sff:95a75c4a60f8dc63105cadd704fc54b7bf9f1b9cd21158ddd20df29fb65a1740": [
       "epistemic-infrastructure"
     ],
-    "sff:f0947a9196491444328954b4e57668facf03d40bc28651feef18253941e01e83": [
+    "sff:fa9ca445c50effa91ac0a52685d4250308ed1b6440cb1d19a74320dda722e66a": [
       "epistemic-infrastructure"
     ],
-    "sff:3bb1e35c9f32bd9cd9a79aca66cafaef4402d7ca0022088a56b35a4c1c2711bf": [
+    "sff:04b9c37cb27ba2ab34b6ed4e9aa578b3f34e7976525f226a3fe5cf4de25f4e1d": [
       "ai-theory"
     ],
-    "sff:c87c700a183b52a5c76ddb9de90b46a2144e0b90a0f9acb0b5e6fa44276d1c32": [
+    "sff:bec62ac4e7172c3b95c29ca1e1736027c643b92e05cb002f7a6865896aaf5c39": [
       "ai-theory"
     ],
-    "sff:ae995ce2cef242d56ce5382545291f3e4aebfd6e264602bfd53cc696a2da4f0f": [
+    "sff:6bba8331c6b36d4acdd1151ec4fef8274f0de259ffc31af447167563fffc402b": [
       "ai-control"
     ],
-    "sff:b8990e9c994e05a84bde52c4b2f6043a9a463cbfdb38f8f821fef066fabc7d3e": [
+    "sff:8ea0e90bd2f917266c956ef45b1c630e9653dc6c6289d3aa65ca6f8999544d52": [
       "ai-strategy"
     ],
-    "sff:dab915f026f96e512e4d06ba3498fe32f34fbfe2d3e2858da947b893b96c2014": [
+    "sff:b6c1f281d2b69a755c67646400ece48b2a74ff5986b3c4268aad0dd79682f3ad": [
       "x-risk-other"
     ],
-    "sff:31eb7d8d858cbd164a498503af363f8d2c6dc22ad199ea804badf8d865d88f23": [
+    "sff:f1d3225b73147413b297c5fb349001b42daf9633349a74e94003f8eaa32642c7": [
       "ai-theory"
     ],
-    "sff:a11f807606375786e625ea9d642847eba20c62f5ca4b5a2ef4884b3859670e07": [
+    "sff:beef06f7e2f45d243c4d481513bd816a5af89d634a4667605ff41abe68cbca43": [
       "evals"
     ],
-    "sff:77c6f66061d36f037503ab93b3a7403760db1f9614b3083c2b6ca34f3c0eded6": [
+    "sff:2b53bb82ebd50f2dd8c5028ea7578b274c6faafeba2f6a8650e4cff522c7386b": [
       "research-hubs"
     ],
-    "sff:a443bcf0fd5e30db5863b53217d68707e060ee5541b3efde3214ff95a3dcceca": [
+    "sff:3610f0d5a7d51ba93286fae6eae93260ae132a8bb9d4eafd0ba35222d1bf006e": [
       "alignment-methods"
     ],
-    "sff:ae0eb6d76f366e7f925e4a3b23004fffabe5a11d3b05ff7a7e9f3726a71b524e": [
+    "sff:aac13d13753bbd8a3014fd044fb7e003682239d66a226354e998e3c8ba93a968": [
       "other"
     ],
-    "sff:529f9d522b1c6f03ba94865e090185e36e01369d9b3dee901299b79471f05a9a": [
+    "sff:f1004382933da7e38a08033ef77babbb5cc6e1fab583a73bc1053b44f4f4596e": [
       "research-hubs"
     ],
-    "sff:db7f3d80709a91006d9ec852662c0600bed830cb435199932891a249ea244636": [
+    "sff:b1c1ee33070ae57bc0e3ad1b7a57c3404e63cc143ec2a922cb99ff96fffb0fde": [
       "ea-infrastructure"
     ],
-    "sff:a694a48d543e339e9580c705b0602a8a1572b362772cb8623e7860449cf69a4f": [
+    "sff:3affe016b24f052db583d720a674b0727e0e3c76d9d8a4d46f35e80d36ea6587": [
       "other"
     ],
-    "sff:6e9cbf67711879f930587a0df898059e5e787093bd62f185afc489bd55d1b97f": [
+    "sff:5145a1e8100fecab769495ffc159e6c8fdfd1224c362e254e02f488ab17c56e3": [
       "ai-control"
     ],
-    "sff:6fbd93e458296832d6122455d870acc5178dd09243c1db567daab831d1772443": [
+    "sff:7a66363d9dfe465249e0ca87fc4ff4bed78d3d93c1a2f98669c4820f5579635a": [
       "ai-policy"
     ],
-    "sff:e8c4518841c19302a3651ef1b420c316cc06474fbeacffc710ce3b7582e8cd67": [
+    "sff:bee423038306c3adcf46e732430139189c45078f8aeb7b48f44a02acbf39178a": [
       "ai-law"
     ],
-    "sff:04d54b3688cd3eff2e988340d0892291e61772dd6dd1e366c7c82595236fabf5": [
+    "sff:1df755700c545c4103bfeb4eab5f8093d98f4189e2b277a380bc9334a2289710": [
       "research-hubs"
     ],
-    "sff:270be2294be698426c5256921faed35f48b2ff86f2d12ef078038b8cc52b87dd": [
+    "sff:1539763a9de81651d34d73c41e9d987e0ca9ab0d8786a5c343c68893db3b27cd": [
       "ea-infrastructure"
     ],
-    "sff:5415d266c21321f3819a329df14350a58ac33a624aaf3acb302414306d1dcb70": [
+    "sff:8c1a9a1f546b18f58a356c8caceb389e1d1e926fa567061c5007c22d6090b6af": [
       "research-hubs"
     ],
-    "sff:8bc81402157c453847f99abd73547d85e2cccf5ed7ac380ba6551ea58036d57c": [
+    "sff:b53e69e76b8cfe973348840e6ccc7e698e8aaafb8d04be2ddb3cec32d2bfa48f": [
       "ea-infrastructure"
     ],
-    "sff:f51c0bf951370b8c5778ba2915f949de5f10592c8cd1eb165160e28b813f5aca": [
+    "sff:bb7f8a0fa1a5c0b7a858fd892786b861e0cebd9a5daa941e7193c633ab0dbed8": [
       "international-policy"
     ],
-    "sff:f7f6365a033b07ab49749268bbe06de8a36ef89eaba5135ba020ec7858e1d672": [
+    "sff:d9ca3198aeb511de9a120e68112743e6788461837d72de12b034e2ce37fd554f": [
       "other"
     ],
-    "sff:532b3a4666b1405569c74fef90f69093d8834578df791334e8072be2939172db": [
+    "sff:7f8dd29e4043ad3ab5b74332fe403ee04e6e02c187927bf874baa9be62e3f505": [
       "other"
     ],
-    "sff:387923b21cc984c78a1bc738b0dc651ce819f64418c092efcb56f55e7d005fc7": [
+    "sff:5a63ee2b53216731a462867ee1ec2d52a3ccddc03a48fb3522e178b0a55be578": [
       "ea-infrastructure"
     ],
-    "sff:b13abfe41c778e9ff210a9acad0a998e16f4c458c088e6eeebe4bc87a7ce05ab": [
+    "sff:04733c24e1801437880115d0fbedf87adcc009900ecc2f07f9a5b738394b8861": [
       "ai-control"
     ],
-    "sff:3ae73b77fd6a34bee22751c4b61638940bd0c4ef63d7d15e28e60e7c57c097ff": [
+    "sff:ba73585b92f53e31b3203da9a774d49d98cc733cc141846d78d375fd0e6acdaf": [
       "ea-infrastructure"
     ],
-    "sff:cdcef37cccfe9c4d914cc9cdf0f4e138b7624e7684ac37ce0a3c61fca8807209": [
+    "sff:3cbb955ba68602c360d7947e63c80d91fba2b35b13cb547003b682e12a511a0c": [
       "other"
     ],
-    "sff:deff99646b0b8c90eb52541e3316041345b648a1dd0fdb41ee2b9d2767fb95f4": [
+    "sff:401c389801c8afc174b1525c036d9edc8dea76a328d1e5a55c5973db694f0a8f": [
       "ai-theory"
     ],
-    "sff:67570afdd6f072e1817ea264ba7d74309ad35db78acfdc1316b43c3871054d86": [
+    "sff:9c5f9029abd724c65525e32fcd960159df2f1e3fc82d4d86cae2de1f3b650838": [
       "other"
     ],
-    "sff:0b890e7f8a1b1eb16b4e2be612e9406af7e1d44fa1ecf53ab276c3bca3614776": [
+    "sff:dff40bf764c00f5cceb80fd69a960a9e43d5a8079eb4483c0311a143c3da4939": [
       "other"
     ],
-    "sff:8b1de590e19108cbd668205ec20f02300c359a0ff4cc846aed75a6a87cee6623": [
+    "sff:08599cbaf09401d8ae3b0fa1c03dfe862765daba90a0709050ca0bd5a3f16f34": [
       "other"
     ],
-    "sff:6dad9c7be61bac2d3508fff3a0ecdd0870855b6ba44d9651426e0ab551e97c4f": [
+    "sff:0e4b0ec41d94efdc2190f1d7ae56bea9d5ba943a075ca5b33ad52516f29c403b": [
       "research-hubs"
     ],
-    "sff:3653f9f75821896ea385b6fa35c58dc736de21dd570f9103f2fc9032484c506e": [
+    "sff:d0633f39f91e6b10c9fdebdaf007635469934508f6f9b5ff9be16ec86816fb79": [
       "x-risk-other"
     ],
-    "sff:a7d4cc8d8b745944a048f26557f2c68a3e5840f25252e87da7799ab093085ba7": [
+    "sff:5f3f32b50c8a9ed03ebd5f6b05db422adc7287a6e52bd50e117ca46b97e75e45": [
       "ea-infrastructure"
     ],
-    "sff:12ba32008143b6ac543235b167f28450bc170d2d0f4c636dd2dafee6be81e610": [
+    "sff:6e18d4159ba2306f2a3ab696258d8b214583227e096038e136a161af74e8e6eb": [
       "biosecurity"
     ],
-    "sff:e19b16d796f6d82e129e8d9354f6f47bb00f294ea2df31e3e355725f61b6e85c": [
+    "sff:967644c7bf810d82feb6a48849946df290161ab69be66e15ab0276366871df0c": [
       "epistemic-infrastructure"
     ],
-    "sff:f732ee74d425048ec9ad2afcf5ac4da6ccd8cdb30b02f1739949fe1d8cb6b109": [
+    "sff:bb32e93f98047803b959c938a3a086c72c28c38f65b7d5552e38c69530ac6ae7": [
       "ai-theory"
     ],
-    "sff:1142ee522f28641cc0c823e4ea87254712ff09ecae3859d16663923cee4de835": [
+    "sff:71bba2fca9d3c80ae8a35aa8e89041a250deb9132f31cf5bb9b4552d4eb2540c": [
       "x-risk-other"
     ],
-    "sff:6deeeae05cb958c75c30c3fa3a3a725a7d3bae13dc53d6fac297253823c83bc1": [
+    "sff:2f7889153348786ad33469b1feb4723d1c3c40f74b43c63a747fe8e40e449109": [
       "ai-theory"
     ],
-    "sff:7dd8d053cb6bd59b4d85ec7d1ee6ad76163b9bcd117fb97b005fc8169db56353": [
+    "sff:2cd33aa45cea03a14de654ff2a765635b8e83169cf426734cd16952fc37a3d57": [
       "research-hubs"
     ],
-    "sff:8bdc7988bdf93c98d315e8e5ee0f7720df4eb7d9643afde5b2176a45b8748715": [
+    "sff:8610281e1b2608934a0af1d16d5728bfd310f7437e7cd03d899ad7edfe6d3a00": [
       "x-risk-other"
     ],
-    "sff:e55ada152f20d5ec804628fb8ab889fb73ca0cdff219921ce71ba68b2264a92d": [
+    "sff:f0006d8819707053cb4e0bcbbe5d33a68d0992593eeee3a9ae8b68c3095985f7": [
       "epistemic-infrastructure"
     ],
-    "sff:1688613c8981276c2988846b3d90684403aab08a290011310157a60d2114ac6a": [
+    "sff:98f667dcd205a6f87a6fe213207ea8bc5bc7d7cddd292b1b254c349aaf0cca45": [
       "epistemic-infrastructure"
     ],
-    "sff:91167c68b1ddad39977c2734d9b8b8ea9a3d3b0ff4da1919e3dbf8ac6c083877": [
+    "sff:38948687a3335bffaaee4db91d3cb742f64b49a4ad69802757b6d1d0aa1e97b3": [
       "other"
     ],
-    "sff:f7234795b6962b9993e2d94f59b6820f5d602c35c3dadad49525c18896dac59c": [
+    "sff:79f0c607058dfa6bffd0a7c44a00f4a2d7aa813a0affc0f5192efb6990937a86": [
       "other"
     ],
-    "sff:1819ba807557aec8e0a402b88a15533ee6f50a3559a263e290e086db93e9f6df": [
+    "sff:89998a16ba68bcd43662cc502624b962d871f59f5610483b149dcabe703e6b3d": [
       "ai-theory"
     ],
-    "sff:b8d2d661ae824902810a595542193f1bca311a8d91d5573709b9bce3315d83bb": [
+    "sff:898924b8c8304728247fa67bc32cc7c45f1642d4e71ef102ac79aca641dc5f81": [
       "other"
     ],
-    "sff:ef97ade984fddb54aa5043a4d46986adf72ef0d239be49731a2bc5da8ceb048f": [
+    "sff:bee30dc312121181b33f401221b5308d2a9f4dab690ac8385645af20f73f6c6e": [
       "technical-ai-safety"
     ],
-    "sff:3e15331acede6f125bd42e7b438e90de4cec6238af645fdc2d13e3bed6b86758": [
+    "sff:665093dac1ec4266921b5d33c359e183ed289832f447f72733308efbf4facba4": [
       "other"
     ],
-    "sff:30051ac16d28915636eef54081c0c7ea87639cdc552fbdfbd13c1b61fa72e177": [
+    "sff:3b01d7c6ae66f0f3def6b3a8b53c636e9a95288543ba00970b1e175ef35465c3": [
       "other"
     ],
-    "sff:fae3bf3cebaf2aa9becd3470af8e934f2319d49702e4145ced9dc2523e103678": [
+    "sff:2d153fef93d2ef78f4c598809b919d434d2fae36338b357560325d32f6c959cc": [
       "other"
     ],
-    "sff:4d17b5d8def016cd483bf5e84f4ce0623fcaf5abd94e1d0b09e637d5bbc07c1c": [
+    "sff:43336ad6558a51854b2823166ae32e94ef357ef9f4b2b126b6762cc0cd9ca175": [
       "other"
     ],
-    "sff:ce16f7fbb45b8bb23e28b44b3d9e91d061e9bd7378c73e94cfbeb831f680a005": [
+    "sff:f426d5336a9c2a2cae770dbfabe881565496eaa4a21c345533348af61aae7ed7": [
       "other"
     ],
-    "sff:6aa0efb8aa2616223dcf1f232527707c242b92b9d1240e4431ad9b043548dc00": [
+    "sff:a495d3793fe370bfae8901e4817a8046f85732e6e2ca4deb301116c296203cd9": [
       "x-risk-other"
     ],
-    "sff:717d3d8f2ceeeb7477eff87e369ff1632b8675b36dc482bedcf734c02b28a846": [
+    "sff:065f83f0d7aa2754e6c098ec2b2bdf3fd5013b9897beec84ff690233d84854aa": [
       "ai-fieldbuilding"
     ],
-    "sff:2f363f4f23c3de05536ad72a764e0b3c0c3a54777a7cb7e5b80658affe6be1d9": [
+    "sff:ace85584a64bc82152167527152c0be2b76f07d6e98e42632a7a637c61dac9ab": [
       "x-risk-other"
     ],
-    "sff:bf7aa35c7eec717f410990e819513bc59a70cf68a8d9e3aecbd3b794ecd95022": [
+    "sff:b52e4c135fccbb8fbd2cc291154bcb89d9cc36fe31fa67d51c2f4339273e246e": [
       "x-risk-other"
     ],
-    "sff:90b1519c1a6e5eb876a65e21f1cca8d42560835202014c4976e89d4d36d247d4": [
+    "sff:6246b10c98c8294aa187420551913af211053020c02c79cb250a8bb49f719762": [
       "biosecurity"
     ],
-    "sff:f990b82723a6e10a2eba03ef28819a6e0d85681675e9b72722a0e7a6702bb0b8": [
+    "sff:476525dded9bda0ef897666f4c0eff8925d42c15c5b8e4ffeadfbc4e400a193e": [
       "other"
     ],
-    "sff:c8f231655ad861d65a0c8e4f2c527dd5eaf98007f88f3d7b6c9780363e3636ec": [
+    "sff:ab0d4a5d94f5a69165fb65f92a59b89925675f2cae75b790019a783bfa36cb6c": [
       "other"
     ],
-    "sff:86658fd2671cf1813b6b0de03b59e406d8883118b019999145b8c0c26d2ac562": [
+    "sff:8529926d430334130d798d7dfd568aa81e603f2d13b51f8153468f72ddd9850f": [
       "other"
     ],
-    "sff:4c06ee3ab679509014245b96099c8a1d7277b65f42edd34a41130578d0c153c4": [
+    "sff:7d4b2461a0d3b48fe13cb6b89ca7fb03104a6eeba51febed80603d3d6184cfd5": [
       "other"
     ],
-    "sff:8e312c6867156ac15668e8b448997b367477d93b2d4e77d9ca2e0546fa70eb59": [
+    "sff:ec7063a719d497c50fdf39feb7f2045bace82f8a49e37214592268f5e11e7ee8": [
       "x-risk-other"
     ],
-    "sff:f76b7e78de83d186bbc45a9a763ff9d6691d3bc58c92fec28b9596f039ed4e61": [
+    "sff:ce2c6fc104fe7e06bbcf4a6f1add8b6760f2da74215379fed5ad5bb66e81703f": [
       "s-risk"
     ],
-    "sff:a9cec88a97273bc6dcf711fe72c35b2c5c1cee5e06f92b0adbaa83405e9be558": [
+    "sff:c5ed6ace32d05cd2f8aa661f988b546062b6da09048de93234bb25473347c431": [
       "x-risk-other"
     ],
-    "sff:8ae2548b5c5bb33dd2dfbc055f563418ed58666eaeb40d932c3c06a600c759ca": [
+    "sff:9fd2f973cd2dda69b2380e2db3de77f1c32a1db5effb56b60f59345e185a5f26": [
       "x-risk-other"
     ],
-    "sff:7f6fb27b22e0540d9f2e6436555e8a774fe4a7e4fdb05826c388c4a8dcfe3705": [
+    "sff:15e419d3b94f8d69fbc74ce178a116e282b4e59194ac16a0a3d865a218e47855": [
       "research-hubs"
     ],
-    "sff:ddafae22d11bd93e63ca49687223d7590098ad49b9fba8fd896c2a6660dbf7e2": [
+    "sff:d75a7cfb53374bb690ef317d6a73587c43005a69a61eafb53d121851aa10e40b": [
       "research-hubs"
     ],
-    "sff:3c1f2380a2256901db33802494d9cf0f347b379ca0b88d4814a20d5ffb703201": [
+    "sff:1dbd4c59e924584cb1e0db6df7916d628fa774c9d6220ac5f5d360535357533f": [
       "other"
     ],
-    "sff:9edc5b9702108831a7de969c6a5bfb91f01c472160aba895b17f2d84effb2d7c": [
+    "sff:6de0f6ff94f2696e289405d125fee7c32b12c8c5784d7a462e4282cfbdff28e2": [
       "ai-policy"
     ],
-    "sff:af982d68d54b2c6414653f12851747db791615b4fd65c19f3d0816ed740b5a61": [
+    "sff:cde45b9c215e091834d5ea000e223529fcfb07915f5b479ce0e6a6730610a3b2": [
       "alignment-methods"
     ],
-    "sff:9dc7d26693fd88be5c50d11bb2f6abed787d7dba48d47bf6e97d526fa0d81f3f": [
+    "sff:3ae2717c4b5e0e5fcb83ea8a42a3539e0b11cc71e790ae502d9f4d5c0df7446f": [
       "technical-ai-safety"
     ],
-    "sff:d2e4ac2360b1bfb814eb3d14f7c3341752ce74e45f954d0199a058fba3193675": [
+    "sff:baa43e882b217180c99d4c2010e2f2c1e3129b3521f5694010fb30d503a91b90": [
       "alignment-methods"
     ],
-    "sff:d12051a883af4767d9a9fb2ca2e5ab6b2df066c536b93d67e985d3ddb33847b2": [
+    "sff:d9aabb172d3d84863b56e62bc0cc20223d74e2db20cfff289a5b6f9c78248bf5": [
       "alignment-methods"
     ],
-    "sff:efa2b0c869acb8c1589f326c0b772de1328ab611c83b7ab4de9a70dabcc74a0b": [
+    "sff:aa8301d20cd16d65ea8aeeb9b12209e7de67c30242f41c0a02a2cedf67b18432": [
       "evals"
     ],
-    "sff:400e369df302a527efcdda165c96f685412e1c5217cf0cb45006608a88b1e690": [
+    "sff:969ce19e78d973d886a53443c905e14b1cab859227c17a0db06481bf45f8c2aa": [
       "ai-theory"
     ],
-    "sff:6ceb1d63a14371d55b10784c0754243c555e8261202b746fc88c3f52a6ec9db8": [
+    "sff:415999b453400001d446a1127baffd6dae5baf04149d302eb2c31f82e4ad6e45": [
       "training-pipelines"
     ],
-    "sff:492385e47dc431134f8c1d0f239b110b727a9f188a3e60d0219fce4d386a1a3d": [
+    "sff:a8b086423558b8cd9df1b805357ea136303eb3243d5b089cc07aa8d4256781e9": [
       "other"
     ],
-    "sff:08f9efe219fe26e6b1fac85a6493638bcd853d2859be18a11505a249e3071a9e": [
+    "sff:00e602b65981ff9b72ef399b759dc19ccc7e19cedf396085100591951485d1d1": [
       "other"
     ],
-    "sff:7d3082761b683e5ef0339c0f3e6f85ea334b08c1a657a341f067d77df964400d": [
+    "sff:24a718953beec9e2cdf88a5a3e536a2bf31b612fa4d718cf8fd724f9a0e90f17": [
       "ea-infrastructure"
     ],
-    "sff:025f3308d817719e7f731641da9922ea6e11c12c679a2bda9a79f17a1d8b3d10": [
+    "sff:09ed4b51e2c25b69238ac502864e001a2439471eb179256b375bb0fdbcead3a3": [
       "ai-strategy"
     ],
-    "sff:f961fe37dd5fd8604088f42980b44f1633334818546aced51221ec8ddad19e04": [
+    "sff:cea59f4ea4d3fc9fcdc1f8a8e2ac762211680809c0269be5d142f2c3268648da": [
       "ea-infrastructure"
     ],
-    "sff:498a1f6686d2a71cdd43cc6e6b5f93f4fbbb1c0ad9cc89a11c228a73d0fbf388": [
+    "sff:832e904ab5297909335c542939a8a335af7b3daac38496e39eef02fa7cf0658e": [
       "research-hubs"
     ],
-    "sff:9b344f05c6463292923408ebc8cea6aeeb99d8b4c8fc6991c420459b45cb0a30": [
+    "sff:4eefc991479a43bfb0474e98ae61d0a6289c7df1e29637f0a18a4de8d1479f92": [
       "x-risk-other"
     ],
-    "sff:bfbd13895847d751ef0c98d88cbe613584d8c130358bf359a0d3c3087db844f3": [
+    "sff:4c8aaa3fea0fb3ac40a41bbaf133a2b7eab05f80975c0d930b6dd8e2e6a12eaa": [
       "alignment-methods"
     ],
-    "sff:5643b4319b8f758e2912c925103e0c9556e0820b8ca46a22b64d283c61e159fc": [
+    "sff:1497f26eca50deea65abf80dbf57dc2acaca8cf77d1b97586ff4ccb4c5714ddc": [
       "alignment-methods"
     ],
-    "sff:83760c664b9ac59b431dca89067ae27c1130d0478785dd90ff6982729d566baa": [
+    "sff:9e607889b6247999f50b9d5c9d88e6344c9696c87d794c58cf9f9297a2a97b66": [
       "x-risk-other"
     ],
-    "sff:414b787a5e01e3171d814f13e2a36f77069cdd60a6368ebb3112113ec42983d1": [
+    "sff:c6b863b331cb8588509943c600827bd74b767450b446bebb4afcee680cbf47bc": [
       "research-hubs"
     ],
-    "sff:8f02ed3addfe7b61de26216fb4918672eb504841f03c30b38cbc00e5f3a83031": [
+    "sff:ce38110a51c3905f9fed5cfa96a026f953c0f00b0d2c315f64b5011ca32bb95d": [
       "other"
     ],
-    "sff:21aba4f1714157c0e515370e01acf23371a271a839b3624c511da347143670fc": [
+    "sff:3b5503ecfbb0f890f401def4020af606e582302f0be727df54df8595fe784a81": [
       "research-hubs"
     ],
-    "sff:42f1a073f62b7909f210a2ac984fedb6601ecd701ae2a558259a86a94dfec4b5": [
+    "sff:1519ad54a0eb3dcd0e0f64f83e8076dcea8d32b86a39dde8d9d0dd95412d186a": [
       "other"
     ],
-    "sff:bb01d3e548161690756af89bfd48b449f8d174f91df5307b067858f43ff4fb6e": [
+    "sff:1fd61867933576feffd18fb6fffbd26d274714f4eb5dd4a2100895dc6b7d5b92": [
       "ai-law"
     ],
-    "sff:5d264805620a929f51a2224a072df164ed248a496edc4943f2d777930b19cd76": [
+    "sff:128e132a8c2bb832f940dcbe32de40555694835dc6193d9f8e2f31ed2b70ab55": [
       "ai-policy"
     ],
-    "sff:01ca6a48567ab5d77c34c713ec94c8c3cdb12db65be1947914c6aaefac975031": [
+    "sff:c2f24d6c73663073b2381672f941fb16d63899795e4fbd035cd4c41d9108058e": [
       "ai-strategy"
     ],
-    "sff:8d3f719065c5dcaf541fbf6d13d716e04a2e5e13d9617eaa0913dd51120c988e": [
+    "sff:c03375d51bc0983cdf9ff1fd29829a6525b3299045989828a7554c2db7f4369c": [
       "x-risk-other"
     ],
-    "sff:c246ae2bcff7bbc57e77d17b8fcfef9f015213f276bbf0cf95f03f59c6f89efb": [
+    "sff:0c36f7cdde1451ed44ab7132325e007693417f46be54101d2859f724ca120cfc": [
       "x-risk-other"
     ],
-    "sff:1e9e2666a918062e20a9f5ba50123cb3d4d5bf1fffdfaca351449b3a76724821": [
+    "sff:1a0429d385374325fc47053844f40a9411e70e7e11b93bd8da694f23f3f42be3": [
       "technical-ai-safety"
     ],
-    "sff:be1ae50e9e1c43e402bc6191b15889f3756851b7d52b83c9379a2e49bc7ad950": [
+    "sff:15a75e5b36bd6531e49180168e6320a92d55e6595bf3bfe7844354ac6144cba7": [
       "ai-theory"
     ],
-    "sff:9dd4fd366ee469a9de0d1b91d458cc278e3a65db449321b3a22d16adf39a83e2": [
+    "sff:26252add4045caeeffe521012c0ae05baf6e3cfa7a096f373d8f26c7fc6497b1": [
       "other"
     ],
-    "sff:3c936956e23b06e184a2dd786fc85087d600f78d3547879fed5a50cdaed6a783": [
+    "sff:f84c941bcdb3570ccafbd2fc0988f151233708fd599669e44eeebbb41f423610": [
       "other"
     ],
-    "sff:3c3ce46382244b353614c7dfd1714a0b687a1d17965f10672e8be354e25f69e8": [
+    "sff:464ffac7710a506e3695ae82940d827229caee6fcd0972265e802061cf3e1cf8": [
       "other"
     ],
-    "sff:1e7a2aca72cda7daebec3762836ccc9ea5f025a11d400181a9dac0dd04a6a7b7": [
+    "sff:7c9240f582329f909467cf53f4a4bec1e5af355edea888dfe7b40ccc7f6f628d": [
       "other"
     ],
-    "sff:b44f5a545fd8ff132e465aa4b7b435ff5c583934df36cabd6fac5de7102816c0": [
+    "sff:a79ae29ec7e912aebcdc1fc7a5aeaa5b6cd269bf72743fa5e408948022b141a7": [
       "research-hubs"
     ],
-    "sff:f09b0968d55542f3505ecd8f36354e06a8b1508e3ab4f2a465c21f91d322989a": [
+    "sff:7fdd8a51662ed8d7ecc39434d492276f92171801c7b0886ab4a6540260ad1528": [
       "x-risk-other"
     ],
-    "sff:bdcc1cfc6e381964ee05c14ae94cd80d397d0024bd11dfd4f69c874d95eea24e": [
+    "sff:37fe524cc85d411b36e08548ab20b293703db4953283935b090471e785327dbf": [
       "research-hubs"
     ],
-    "sff:e1d46d30b0bd3348a4bce74db7e17966d80fb6306b487175ab9cdb77cdec2a62": [
+    "sff:c285da4a35f7797065476a4890e0dd6726ef5bd4ad347e6dcbaaaac0356827d5": [
       "other"
     ],
-    "sff:bee8a224fe41793efd45d4ea9243bf5883e2bb87da4c2de7b0f0cfcfc2e0eae1": [
+    "sff:53078ea51838babc223515d01f954bb54dfa202eb7b923e8cf443aa3d893752c": [
       "ai-theory"
     ],
-    "sff:6344e67e7388e0ed237c36c1b9484667eb8f328e6dd4352ac68f787b6d0c34f8": [
+    "sff:81217fbd6268b84e6b6e767ab0d39f044d324d9719794e68619fd33c0dfe80da": [
       "ai-strategy"
     ],
-    "sff:baf78cd009af4a105b3db395b649430cf35b4f09275d891863614187329d0fcf": [
+    "sff:b4bf217991690514ef6622d85e816108901aadf7a05552ff8c49d47f6dc6cdd7": [
       "technical-ai-safety"
     ],
-    "sff:64e7963c843ab6b26eadb5c6f5f40832ee6932ec88200d5c03c034b0ed500027": [
+    "sff:081a8bce9e24940dd066a3c39c9fcebb79242e71649dbb27ebf5bc1e4a658df1": [
       "other"
     ],
-    "sff:ae43e83a315be7acb671aeddd2e14d95a092fe12d48155d0a8c11e05947e9343": [
+    "sff:942b46081abdafb20cd7f5003d20944e694c8e6689ceb11b2f6e180d67621fdb": [
       "research-hubs"
     ],
-    "sff:52d851384883b0dd326ddf3888c65cf66fcc1619efb545be3ceee16ad79a81a3": [
+    "sff:4668eaea21619af07f266aec38847afbefd626410e1d3c8a921f5da82592bd54": [
       "research-hubs"
     ],
-    "sff:1ac47d6ce531400e3c0e824db6781d1eff075b9d70026e56f1dfc1412be5841f": [
+    "sff:df9cd39f92cd5330371f0b8a9438f4ea888cf272021846140ae961153568c61a": [
       "ai-policy"
     ],
-    "sff:0ed56240ec0e9d169dde5d57b325a9c7752e63981a759d2bdb1308a8aab9f643": [
+    "sff:2074c23a300c4cfd3d15f5def1ac186c7c5e0d5bfa2d882021ca6622309d363f": [
       "research-hubs"
     ],
-    "sff:a277c24e60979926c7e058e5fe0225f39e346104de4cc341f97b47effaef8146": [
+    "sff:d72da3a86cdb4514accc058efa38647558d55b1b56cef63dbf2323b43c1b749f": [
       "ai-fieldbuilding"
     ],
-    "sff:783803b5b8c3d5c161c7af4050c58de006352a31036240a3cb9520ff44b98151": [
+    "sff:4cbf80481c5d7e9dc0143530aac8458bca1c17fba6d5c7cea9e072360a46ad1c": [
       "ea-infrastructure"
     ],
-    "sff:bdcc630e41d161361aa4b58de86f4d6182d1460eae4ba48455cde220e6e4f5a0": [
+    "sff:94a215efc11b4e4824c331a680f13fc82ac2cb0e19be9a46d9f3155a88e43508": [
       "other"
     ],
-    "sff:e0ed531191e056719cbc91827def23f42d511ac05ec9b68cdf5a8ddd56e85bd1": [
+    "sff:27bea6661a2accc22b2ea63e2031d00d95764b19259d9b75c82ad36f0d4dfc81": [
       "other"
     ],
-    "sff:7613d7e78916bda4bd2065735537872145a69f7c1d7714acf93469f4a311d368": [
+    "sff:4460b0d8aac8c8fdb32aa92d2c59007875b677e529393a4d01a0668851ccdc03": [
       "other"
     ],
-    "sff:61f9207a349acca928e91b0821c33cd2195e5b87d17df1b4fd2682ba253a3adf": [
+    "sff:a4a5c62302315b580e7a27d0ebb3dcbfc16970c3e88fbf692babadc8bc1e9f98": [
       "ai-policy"
     ],
-    "sff:796b867785d1ee99d6254c157caef7a7bd4fc514948600766b00dd4066558947": [
+    "sff:08361f8e1eba6dbf7dedb66da3fa41c9f7fa2cfdacc6726551c06352d1e72da6": [
       "ea-infrastructure"
     ],
-    "sff:71e5fe33482c05e6faa77a77003da69b325dc20d680123d7fae01bca2fbdcab7": [
+    "sff:806b4bb981da40937e5ddedc7a352ad0fe23e2894b01bed42f042d254c6726b9": [
       "other"
     ],
-    "sff:2598ff9eb14ebcc50dcbcb43a548ba67626b431677d2963d37027fec3bf872b2": [
+    "sff:1cbb583c65943fd5168e51b11a6024e28f85c50612f67e2fb35cc94c95235ed3": [
       "ai-theory"
     ],
-    "sff:d4727f46936c7b34199238760bb6854a7076f37c8dccf1e155b912afc5f8a40f": [
+    "sff:2186423814070dae0007ffe1f405627252b224208fca233f822de9a99982e553": [
       "ea-infrastructure"
     ],
-    "sff:c3379b8da20b9939c8818930a9af85c3d406a58ac16ca90e615d998c3ac0af8b": [
+    "sff:01ee4e4fecc508336f519f7b67c363959ef4ee2cc6504febe18d0d4c17e0905f": [
       "other"
     ],
-    "sff:bcb42a6d6bc38a619c033f4cb4ecefbcee39a29951a624a0607c8cc4f8062d6b": [
+    "sff:ae5f75e0a7d6a95c0a7ce5c6711141bf0e5f8bf3c42c91b35dfb5ce58fe62324": [
       "other"
     ],
-    "sff:48152e6329ee7ea31874d32ff39012519165c2de7b9d9e380c4e118075b7d69e": [
+    "sff:cbdd7a005ef84e1f8c03f3ba43de80dac3905c300ba58ca4c518bb3583555da8": [
       "other"
     ],
-    "sff:784708965dd14c1a6976fd878a43ed702af03e9f1507e5a6fcf3a7d4af7eb9dc": [
+    "sff:ca136f55d175bb270f07a7945082b39d43d86713022dcccfff58411e7c37f3e4": [
       "other"
     ],
-    "sff:ef67c645feea320d685b7bff0b17113f34135acbe2f653382fb3f18479dd258b": [
+    "sff:a667795dd43d0c0ebb7bcc231b8dcfc4b03e3ba5e437d2a2d98e8c12f83090e9": [
       "ai-theory"
     ],
-    "sff:af59161fbd8b32bb71845f1aded75111e0b42604177f4c88593d76a19cbdefa7": [
+    "sff:f3ae24ce623749bcff3e41d09931395370d5d406bead1367461bb49010158eb5": [
       "ai-fieldbuilding"
     ],
-    "sff:4a801acd637965cf6279c416a82116ea314096004c764bba3a4e9abea5974d8c": [
+    "sff:aa0260ce1c9186d8db03d4555bd39ce23c6f2c8a10fa57a008ca01f3bbe41aab": [
       "ea-infrastructure"
     ],
-    "sff:2e7acac03b2cba0e6c51e6a1f935152c644fff443575574622094b63b74605eb": [
+    "sff:b1d9a0f1735dbbdc49645e023c0f9f61ee047d3c0682f814a6157c87cf530a67": [
       "other"
     ],
-    "sff:13cab0f16c72e7f7c51ed1fa98142b9e25922499debc72e6013f80bcc8fd7e5c": [
+    "sff:0b5cdd5d54c99946a87f6837a481e43833915aeef38e9ff1f1ec66e4fe7b5706": [
       "research-hubs"
     ],
-    "sff:fff6178935427957a1f096455a22c2e1f5ff59a91c0bcfe1c3562a9775df4cf5": [
+    "sff:646cccea03869c4932a7c7f0191fd23aa9c50fdfd82d16125cb3aa578952c556": [
       "x-risk-other"
     ],
-    "sff:0e02aae7ed2eb0d8f8f78da1851bd8d333ffeb889268d69afa755d3aa7b010d4": [
+    "sff:ddc8c299c94d9c926320054260441f7d41c5f36e62b217798fa2b7741f949e61": [
       "other"
     ],
-    "sff:90e16afb86abbe04e6a25bb06c1e53ccbd4aeea66a4585259b5f12f8c63a7564": [
+    "sff:3bd849185872b48f8b318a7451e875430b8ba8d1a7fccbc461ac509b9c081df9": [
       "other"
     ],
-    "sff:82b75f52697ff144d3cfd9a7a99ecc32c2a29b9d24667db30d3a15900009695f": [
+    "sff:2b11b28a8d5314b8025fdc4ec72b42aff279d3309799dadf5bc02a01e0ac8e32": [
       "ea-infrastructure"
     ],
-    "sff:da24f77be0154441029940ba04758c83692634e4dc7dbc6bf15756c299ffa094": [
+    "sff:1a98a3ce7fb0307c50355a2b87eab805729e4e164324e6b57e68ab0292e46b78": [
       "technical-ai-safety"
     ],
-    "sff:74b75179d0dc0597c2d6e01adc58d4c2ddb2dd916aeb2adc51cd8d1a083ef3a6": [
+    "sff:8f60aa2ebe67a630e2dd07768f3aa3af7a86d14012ad0bd5582fbd2485f18d32": [
       "other"
     ],
-    "sff:26cb71ddd8a6e4c02f899877b97937d8007b8115c70d1dc3261e8127f4facd07": [
+    "sff:4072f6339de8fabb540d2a3b5fb4b10575269695b203a0ad7bc9ba3a08e294fa": [
       "other"
     ],
-    "sff:3f5d7fbae76fdfdec214690af198bf841507650d3a85feb70d33890470e11da7": [
+    "sff:6e36e1561f6df44ba96904f3459e262053e0af637c28762c59912285b10d7914": [
       "other"
     ],
-    "sff:b3c5f463e1a1dd24fe43f3c469cca3a3d5afd6a35d9e593ef33fe0b033f3d875": [
+    "sff:66b5aed4b7f24ef1c2b384cb48878e9e49355df19473cc1e98de124da5c842f8": [
       "other"
     ],
-    "sff:f9e02c04c5a221cd0f59805a9724aa6d5ecb5b8f5b34f817e96427fecc9eb5b8": [
+    "sff:cbd131ceb796af228b09fe36d23db4f4ea6c751e1aac9941bb2ebb8b078b9db4": [
       "research-hubs"
     ],
-    "sff:8597bbdbe14ac8394658eda79b38783d3b664c5fbbea5243056e2a86643dd5ce": [
+    "sff:aa91811db896266db51f6c84aefb2cd96561570683783204b470327f04219e60": [
       "ai-theory"
     ],
-    "sff:e6f9919f73bdaf11e0bd603f63ac66a2508847ff15c465b5120a91754ad9e29f": [
+    "sff:d94743ddeed32b3994842602a4402e0d61db51081697fb4c35393827498229a4": [
       "epistemic-infrastructure"
     ],
-    "sff:c1e8bea27899ca2303e2641262c706153a22e21a334bdb4c741d98cc38166bc9": [
+    "sff:08094917dc301312aeff4f5f3435473b668371cebc8fa6e943f501f550e535b3": [
       "other"
     ],
-    "sff:7e06690cf0e9aee07efe9d56caceefd612a7f2ee81fbb8fb4e577d91a81a0947": [
+    "sff:1ce99f14da5de0911f2944cbfa272b9908140c7d13825d89acc3c1692cb53ac8": [
       "ai-fieldbuilding"
     ],
-    "sff:6d35884c7d6933a2f329cfb6875ac6703f5c300ada9cc0f5522f2f112ba9310e": [
+    "sff:6a3f1aef18e9d6ef2c16c87ec8d66b93bbd5bc550091ea5a8762172636cd895f": [
       "research-hubs"
     ],
-    "sff:b2de5cc2c1408cf66193707ffa1703cc76d3fbfd8881a5b64bacef36e3ac8605": [
+    "sff:6d83ea4445b1a23af8923c470d62010fb63479b18d242a91a5b5e8eb3ec0a05c": [
       "ai-theory"
     ],
-    "sff:179ca408139fc7319ee2354b2c6753455473b0140f9f64e96e5458f9a49788d5": [
+    "sff:c6ea084303badadbbab412fdbfb3bc8d99fae59e49b146111505803bcd0aa7bd": [
       "epistemic-infrastructure"
     ],
-    "sff:c74e39bd51c0dea2f58f8395d92af1547c0588bb9f9284cd7f0b07b62a14c59c": [
+    "sff:bd195b8c2d7ceca4103cacb38210247e300cfa1cc525fb7f573b49a2aa1c5163": [
       "other"
     ],
-    "sff:2fd569e3a631754144f8bc229c049f10a2c26b7b62871ca2744f00407eaf34b5": [
+    "sff:9ae6ab1c4d808b5063ddec6f2e6f09ce76b69a80ebfb569dd090f162623b402e": [
       "ai-policy"
     ],
-    "sff:36dc6a82ad8feb20dc64c867aadcdfce8eaedf4c170d5bdcc238c0ceaf35460f": [
+    "sff:0c548bfcb9ea3a536f0291b8c00fcf5fcd8fac8204261a7d888b43a0b84e55bc": [
       "ai-fieldbuilding"
     ],
-    "sff:1e99593132716fa2a129925cba9c8d8b03e50d1cf3503e510ecf69e23469a57b": [
+    "sff:944ba7ab267d8169faf16e40b0d183389d75c48533c58fbf89531caff66d30da": [
       "x-risk-other"
     ],
-    "sff:084166393fe3da58302bfba7d9ebb1f464202c817a1a7c93b38b592716199827": [
+    "sff:f17301bb81d3a11968b4b7b63ff7509e7eb0f92f95d389794fda5ae67bdb7e9e": [
       "other"
     ],
-    "sff:bfb1c878fb51fb9afebd1d7436a6af2aaa5ccaf11d0983228528fb3bd9684bc0": [
+    "sff:84048e05541e47e9dfb52e54fab354fc7e6d3f3d8fbb707169f377a0fc4a6e91": [
       "ai-strategy"
     ],
-    "sff:a84c93fd6ec2bc6f259609eff63b20d20e67c437bdd223ca735ec88192ee5274": [
+    "sff:0545d4607d33bb193360db9e24c5feb7d3381b823a3734ff8e080f83d37619f3": [
       "other"
     ],
-    "sff:e8613e5ec8050fd2b1802c937df31c4a63017490d92e29debe58bfe0f1f37117": [
+    "sff:03e1e54b0b25f1055a6237e1bfd1f3667e9ef684f59424f4c325c83bf2a22a63": [
       "research-hubs"
     ],
-    "sff:0c8673dddb514fba62866622c5d78bb95f20ed2dc39d5726fccaeedb41cdd97e": [
+    "sff:3b5d89b19d94372d16bc101d65e4185b80f5528efc1e9089a5acd130aba4796b": [
       "other"
     ],
-    "sff:fd53c0924ac3c52422022d0c76ff0c20fd2505f44b1cfae4996579e5e26ac698": [
+    "sff:7221b99a720d33a7b329a1f94b5ce2a3d345d2e059154bf8e9fb3aca8b6c734d": [
       "other"
     ],
-    "sff:d9354e690df0fc5bb2ac8c3e419ed79d5b7128577524fa0c9fe84d51c29b80f2": [
+    "sff:03ae6a0ef278a78d84fc0cf70dd318e3fd5a2d511f665600e7990e400d2dba91": [
       "research-hubs"
     ],
-    "sff:afe8b540b06ef1073d338bb766eef9659b628ae2453df991e1df9ffe1d3ef2e2": [
+    "sff:09fec57785604681f39ac2cd9222926b34aee4584d492b21f0183385eb33ee72": [
       "ai-theory"
     ],
-    "sff:d61563e0814ef418d86bae0a25bb68c07b63ee053dce31dfc756cd5bb55d25ad": [
+    "sff:a804361180a1cb0e6679be743418a5a549a509b0588b6878a627d2ddd882fe2a": [
       "epistemic-infrastructure"
     ],
-    "sff:f8ca3475585185a10acd10321a46f7ded6658e3101f271c2b2d2971ad768edc9": [
+    "sff:2253f195c7e2b453e43ff083529c6ab20276558de22d129cb28c790e316963fe": [
       "other"
     ],
-    "sff:3a2547ab0d40b9a401856da391b9cfe184a2c12eb9f820d2e18393b7249ce24b": [
+    "sff:154ece936ddf3e75a23e41d9d9590a1694479cff1ac92309f7e8dc4a3cb0df31": [
       "ai-policy"
     ],
-    "sff:b872bebe922b1cc759ee62a0b5faa7a941223de5665cdd0f4e84314d51788857": [
+    "sff:98c8a2d8ea999b79fd48f1510bc549d8e1d44204517fe8e6c865781fd0dd8dd2": [
       "ai-fieldbuilding"
     ],
-    "sff:c1d464c1729562961fe6f140675453af588b10b9870a68129d4957e0ca25c612": [
+    "sff:55caccecc62c17c8299efa682d7ab805a93158c3b2e0bfcf374bde5aae8bf4b6": [
       "x-risk-other"
     ],
-    "sff:6451988d3f19f4e9264266dfb2d7628c782dd5aba674c4b8aa3aa6d1d328d0e4": [
+    "sff:03f1f9ba4eb2171343ed4ced779e99182cefc0fe81b0030ec5fcfdc9a43fd9fd": [
       "ai-strategy"
     ],
-    "sff:25c1b60fbab24fd54c8a333b7ab7639a9dd4f282fe5960394dfff75316077b5d": [
+    "sff:ca617ab7122ee3f9545c2a09ca9623187e9b65360001814e741a9647c26ad936": [
       "other"
     ],
-    "sff:4c1e189895e4d94c747827f58abf4d9e2628145aa6bf0e269171ac2a38ed0890": [
+    "sff:eb09c083bfff4849a851005d6a8ac91a64eb125cfde888d0b627095b652b81b7": [
       "other"
     ],
-    "sff:75e795324c6b7a96d1401c942393cea83a1463795b0b69c338da03dc41aa7b20": [
+    "sff:e1e22d0886d03acb828b2189f688e3024cd6cda09b9afab534d93ace442d5a8b": [
       "other"
     ],
-    "sff:289405a2675ccd14c25118406587bcd53d9719ba05522b7c5f672460e7bb715a": [
+    "sff:1fc5d2382d0e23b41ad87f8d9f6801fca1c02e22c359f1075cdf81586290e79b": [
       "ai-strategy"
     ],
-    "sff:5f1ca80fcc1735ee1ad5985bc27247b2a385ef7c9a813fae5e494e3fdd13ecef": [
+    "sff:77a5786b1f491b02a33db96a479749a0ead6f52a9e1511c9627496b43b3d1a12": [
       "ai-fieldbuilding"
     ],
-    "sff:ad6cb2a3ab72d625eef6bea10faf41d04ed3c5d7667544bbb770ec2f44d0b90f": [
+    "sff:c91ac9744c5ea391fb3610950908523e04e9655601385603ba536e09793f6efc": [
       "x-risk-other"
     ],
-    "sff:b022db0d73fec69aecde48d614419a3fef273cf5a022b5638242dddc01b271fc": [
+    "sff:30c051b1dd6b0fe2df50606b6ba0b28ba82251109639e949e88e91acfaf7089f": [
       "ea-infrastructure"
     ],
-    "sff:fe014c368b07b1e5dc1cfb09964fe33d0ed0f7bebf53547f6687e7d377dfb345": [
+    "sff:b86a4d9e201e7c8b6991fe61d37a79b1b2e19379ababfefa6658caec17f352ae": [
       "other"
     ],
-    "sff:e8c3578d4cf2618da90f4d9462e6a32a71d1f13de9ab2fe4cf1c03e80555929e": [
+    "sff:a81c3df07c98eeae17cfe64e4d26db087a1a02210018edffe9e66e20b20d6e7f": [
       "ai-theory"
     ],
-    "sff:5da1bace6e3959ce12239db8df9ab56fe5765e0a4b376b762aca96eb56781597": [
+    "sff:1b2ba7d46dba6cfa74f7d7aaf10e4009ab5ef56933d645bfe803f921b1d91ec3": [
       "other"
     ],
-    "sff:81ab3b35bc2f0ce0eaaff30378e96aec74c5047c9db4ab4dc400f87ee5e16b26": [
+    "sff:d5dbfb8b07bc5b541d717164e3d61174f99a95558e9776349183bd014ee0e193": [
       "x-risk-other"
     ],
-    "sff:9a726a445a9a5fcbd96a00826f0f41cc309047ef2036123ecd5bbf3d468a46b3": [
+    "sff:209919a50a0790d30fba3798ab8d39e883c0f32b2d8d7b01f051ba0acd2602e3": [
       "other"
     ],
-    "sff:d80420b59b31f7a9a1e845a0a3e514785ab085bc69a9586351e6d5edac4275c2": [
+    "sff:d88c4a829b7bfd410e0a9f2f6fda0a787c941a3154239daa90e09471d6eb7bac": [
       "other"
     ],
-    "sff:06f435149eb4ca7514f9a1e80bd74d84eb2c9d3bb2fd340aa2d0f0f0a7aa4c42": [
+    "sff:8e2e33eaceb7c16199d090be730901aa97dce79c328266861b509c21ad0d3199": [
       "ea-infrastructure"
     ],
-    "sff:86410a98d66708e69ebd6d80c77b2c36f9811f6ae672a657a02a460cdd3fa461": [
+    "sff:1a357b1aa3e2d83815ea00da86bcd3364db7d53014e53a0694756af418b0c2a8": [
       "other"
     ],
-    "sff:b3de90a07052da97ee5f907b77c5a3927966d5673779905b49904021af93f13d": [
+    "sff:ebdcf84295da6a17c759af308dec1823c1c0f43e93717b3dc5d38f9d11f4e27f": [
       "alignment-methods"
     ],
-    "sff:b4d34695435e4523a8742ab87677c506decf40799144c035a6fa3c0fe2ec0b03": [
+    "sff:12abcfaf0897232ebce49401edfe99db32c69bc383516a2cbad1c06155e49a3e": [
       "ea-infrastructure"
     ],
-    "sff:376e54ddb9aa23631ce7e2c1aecd9858eabd56d3b903651aa4cc7f179f9e68ea": [
+    "sff:9c1a401c4704ef4376815530db13b52f5b6d8abba8e48243ba231aae5f0820d5": [
       "ea-infrastructure"
     ],
-    "sff:89f1bc5e48facc3b0dededd9a9f1335ecf6940f517977a22693a894c89f83d02": [
+    "sff:45b848a239923e8762c821b7b06fe27e4ac0dee785799f701b1f148dfe89e8c4": [
       "x-risk-other"
     ],
-    "sff:fa0ca6476fd8dc9a3e84c0b207f1ab1f1b82595273e89edf8520697574bf769c": [
+    "sff:59fffdc9f43cd01cfd1f08415afa3039d38d832cfac54b14df40d28c7316b2d6": [
       "x-risk-other"
     ],
-    "sff:bd81058531565176d35e8527261a913d4d3bc64b616a05688bd3cd56b823318c": [
+    "sff:b207c28e5dc281f2ff0f179baae64bff1e2fe8c3b3195d117430101ea4a4af42": [
       "x-risk-other"
     ],
-    "sff:fbd4172b6612582381b0a5099c59de01752ba316c768642fb8eddea0fcf3cf1a": [
+    "sff:a104f4dd1ba25264975030d95575d672f16c35d9b77e407900d8c4bc2091324f": [
       "ea-infrastructure"
     ],
     "coefficient_giving:14202": [
@@ -19663,301 +19663,301 @@
       "ai-policy",
       "ais-events"
     ],
-    "sff:9cd93e98a097560c1e3f5654a203b423700fd19c2ce738241a895cf7b3aa3a76": [
+    "sff:6998d7d048c81687a518ec5e917f018e7dbf2dd1aaf5094f592b902fb52f9a31": [
       "ai-theory"
     ],
-    "sff:d589f6dd81fd5a17f2cd0e7726dd1040d23d80ae235c6b9e7b350567e323c105": [
+    "sff:b9f9d12aa3189e6538a3b07017d44f6d10187de97a540d6f8b8066e4732e4bbd": [
       "ai-theory"
     ],
-    "sff:26839fff5afbc7c73fa110b9f8270e0239909ce89705be14ef8c9839905f8f8c": [
+    "sff:b367cd83fe599e7bad7d042a3597043398adc284c789f3c5e87d7a00076be62c": [
       "ai-theory"
     ],
-    "sff:ab10ecf60dfcba6689612a8cb4114937b10cb3f627194decd9d5cbe55b7000cd": [
+    "sff:c110a6f28a8d8b93687272d52c924b31703dcde75634bc6d69ae7713d615614e": [
       "ai-theory"
     ],
-    "sff:50d7e0713116733bf8512bd5342be708e6b98c2ec0557c466ac523dd47f9301e": [
+    "sff:063b832a603beffd02e1fc5c107c0085b2ffba1cba02d252c66db17052c49a55": [
       "ai-policy"
     ],
-    "sff:d40601922feeb5ffa1a561ee28497a56f26004620299e687d6cf07cba4589201": [
+    "sff:130f3ddef90d2aa10c3b4ad814d733b5ea081e33e4ed272ec0754e3af4c0f531": [
       "ai-strategy"
     ],
-    "sff:e28e8efda668a096b6e5ab388278428f85a0999e0643c5937471542b73f3a099": [
+    "sff:d2be8fd3f8a22f1de41a0b49aaef2c6829ba06152464922a6d4929ee0ec98cee": [
       "ai-strategy"
     ],
-    "sff:f4d10a25c65948b490dfcc1bd33d3700a1ba192048a8615e57c908d040a52eee": [
+    "sff:45846206c9f567e90eb57b7159fdd107da5c4b656d74d9a1dba1fab10014646b": [
       "ai-strategy"
     ],
-    "sff:43d3cf1b671f8a96473352062bea19efc104867ab3647fbcce353e5265e886a5": [
+    "sff:7d64181b75025724016a2fbbc5f3cc66094e6bccdf8cd25b11d28e35e846e37c": [
       "technical-ai-safety"
     ],
-    "sff:a963ba9990f6835289c2de4cf03ddd2f8c90359e708e0977f26e7d006b9356a0": [
+    "sff:d68a8654dcf6bdbe5f7047a034e913a8fe05e7b2e653b931d74d8be01a6cc144": [
       "training-pipelines"
     ],
-    "sff:1333cb865b9f784e93c66119414ae2a467148f3093d9baa42e5968fec5007c23": [
+    "sff:77fd5561e8d4bb9ddc0e26ccb4df2b1cac09aa4984f0a8f9084ad8dfcb399964": [
       "training-pipelines"
     ],
-    "sff:c2586d76c2bbb902bc67f04ab7e3aedf099ab6e36a55c26441bc891424a718c5": [
+    "sff:222a92225c31c3c94e1aeab32861473c4c89eb544c93212a66ce671649c9a130": [
       "technical-governance"
     ],
-    "sff:5c36529b2465c0cfb422bfb9b1d382863356c85e6ef0abf50fc4db9db5e0295b": [
+    "sff:e7c4736a0c1d422a7158895908cb0b74e50fc7a1d6bec121bd35e78d01df962e": [
       "technical-governance"
     ],
-    "sff:a035bf65677eb160ea2e7998452d796c605f00aa36a1ed5ced18fc0dc44c95d7": [
+    "sff:405f7057a1ec1edd27f10798bee197388f46069859f39d2360a4e6b8d8e61282": [
       "ai-fieldbuilding"
     ],
-    "sff:b47a2b16d50127df54b82d243ac4a2d63b056581cb5a3b521657725b779a5e44": [
+    "sff:74359c719c2e0188cb2424c9efa11e392dbb45fa2dcfa37bb3381f97ff7dcf0a": [
       "ai-fieldbuilding"
     ],
-    "sff:d045b4a1f45f2e782b72ed8b938a5eb9390ab2268e0e4ac2e1449220317b447c": [
+    "sff:46a9b87e3226edd2f19744a74d413b1fab7a66371bed0fdc282840e170280683": [
       "ai-fieldbuilding"
     ],
-    "sff:34addaf6b8daf6ff4b662906c1c3d3034dba3c7d5eb33136492d635092f91c62": [
+    "sff:1499a83d78023301e42bc4d02836b0692d14ef0bfe9de5eaeadc3955c264f66d": [
       "ai-fieldbuilding"
     ],
-    "sff:bace8a3a6639b67731dad8b0774642338e3aafdba579b99f75b253ba3ac8a763": [
+    "sff:8759e6a3ddce9a0d022ff7e758ae80db485c6d2157309b1d6799213afe1a028c": [
       "ai-fieldbuilding"
     ],
-    "sff:b9731db49f82a9844dfe3346f38ba8d9429be0af4306e2c04af614b466b90272": [
+    "sff:a68f9925f0775f5698cf1f82e442726a37969c647ee677c16a9341f3d8af530a": [
       "ai-fieldbuilding"
     ],
-    "sff:c189f0618aaa7bd5fdf2a7c25e1f41c3f5ec81a03406a5a2e092286f1854da85": [
+    "sff:237f0116b254ba9c446e83fdcf87ffa83a7bb8007080017a38d2421426f3234b": [
       "ai-theory"
     ],
-    "sff:603a741b868c5b2eb8ad284ea04473a1a879eeb0850ac1ec86382604a791877f": [
+    "sff:bee0bd26a67cc147e4b7e6318c0b3eda0b01d0302b1f3029b1b84a2a90c2977f": [
       "ai-theory"
     ],
-    "sff:2e9178691bc59efb8c7a03bd125026687bebebe7a65573507c35c2eacc2f7c74": [
+    "sff:9c3965fa3c5b1e31ce4b2b6f8ba1a20d506b5c84b647d398e3fc3d73ea05ab3f": [
       "x-risk-other"
     ],
-    "sff:b2b642517f87640376484145d5142dda3325e7b40d27512cb3e74360a7bfe757": [
+    "sff:358dda46175106c7035d700ea6682b99a74290c5fd00b5ecb981348216bb9a43": [
       "x-risk-other"
     ],
-    "sff:de58535a01b36bc8587bef932843de2e9b9c412cc2f813908896f4b0add5864f": [
+    "sff:a2f90b4dbd0f3d213706f45a2646a694d85e6ee0fe5c47f8174062666d30d9fe": [
       "evals"
     ],
-    "sff:9f2fd6904351e63fe5b0974731d4b0a2e64be1e768ebbb3e870fb7c7a8d92889": [
+    "sff:fd0bccd6a9fd0f403f48878b75dcbbeab0c172b5d5687533096c7bacf4cf4dde": [
       "evals"
     ],
-    "sff:766d10fe1d321aadb50804bd7d6403c567ef74e14f44dce4c922033fea1a6daa": [
+    "sff:f3b593a0e9b788ccc70367d408a52ee35eea9f93a8dfb8599b4b15b193332771": [
       "technical-ai-safety"
     ],
-    "sff:0da7f63b52990195932d1daf90785a4a7ff20955bebd27ac5299ae941a22dd2c": [
+    "sff:ff5553756a76b5b1e58868cda11de429cf82f96727a92db7f434ea3b79ef0c79": [
       "technical-ai-safety"
     ],
     "sff:82e8981108149566a1c83892160b9750e848c305f2b4c4acc03f869de87fc309": [
       "epistemic-infrastructure"
     ],
-    "sff:4d1d7a312920a19c090a822a9b3a83d0ae314ee3d4f16208f678e67d0b18413a": [
+    "sff:199ac3f78833e796da09fb9c96a61760fb0fcc3327b3b4f1f3873ef31544ddea": [
       "robustness-security"
     ],
-    "sff:d01ef6dded762c32314b87571589e3f6cbf1e67e5992322a110de14f64462952": [
+    "sff:03b7718979a87affd28348aa18b8b2e593769ec3585af81e95fdd297941bf378": [
       "robustness-security"
     ],
-    "sff:0030bf59e78ecd7078f80d51eae1293af2af1db5585c3385c781900a382963ee": [
+    "sff:5532eb79de528e89d055f47e3e1fdcb4e98454305b7de4b1ca1ab0886d6891fa": [
       "other"
     ],
-    "sff:ac9f7371dedaa3dafba0260263ff920b0dfbe2acd28aec3769c7fa3d2354f11c": [
+    "sff:e09e8806e37ff0db99c0259fd04cbd985301a26298141df3056a88564da9f022": [
       "other"
     ],
-    "sff:3697ce39a541f3bf0dce267b9841239a89b26d99dfc0f2325cf32db88dc41fd1": [
+    "sff:229e80151505b4e5f679177149db4fd5cda22a0c8edc1752f8b6fbef6368dce7": [
       "research-hubs"
     ],
-    "sff:f86f56e4208e8742566de079586adb046c23e93fe784bca3872ec4ab25cce417": [
+    "sff:d206049fe970c42efa52831c03f5a190c02b7ad3fa3821c1fa574c12a9e7df0e": [
       "org-incubation"
     ],
-    "sff:51ae7b02cc88e4c615c10683297edbbb596ed3b2506e034765cf937c622bc2b4": [
+    "sff:e38007520129fd7d166c7e48e0e37bee09c8be822d759ba929f2bccb1d683fb4": [
       "org-incubation"
     ],
-    "sff:0c49244e2de4c894d9bc537700bd1d1e3a9fdae9b2548933927e6cf18cfbf281": [
+    "sff:a6f0175867b80461f98d016a5493d6a090ecf1bfd208e1c638c10a8e27b2c1d0": [
       "training-pipelines"
     ],
-    "sff:61fad018ad23ff5e69f5d8a28e51407adc81c271ed5c1b18067d35abef53bd3b": [
+    "sff:8197b9d3c56f4f81e3af69b69bf002690aabf87c31403a47bd3564e961a1f3f9": [
       "training-pipelines"
     ],
-    "sff:00bb730118e2c68d6405b8d4659251c7265affa09de1d8f428902899e9e43811": [
+    "sff:e63048caefffca9ab9be3d1bbf486f81c6ca6cd402624ce1f47b49e8040c9207": [
       "technical-ai-safety"
     ],
-    "sff:a3aed2b7b8a8aed7bc1d2839137d72787ad902275e0b02a0ee4696f5537be556": [
+    "sff:63ef4c9a021c674e0f5d1a3c8da7f448afa5614316a234047295a9058458297b": [
       "x-risk-other"
     ],
-    "sff:117811f97316c525e0540150312e4ca7870e89a79caf537679d30b87a30d7a17": [
+    "sff:a320bbb5935d2470af0e4d9248c95cf6285af629b7d43dec8b67e1a960be8ae3": [
       "other"
     ],
-    "sff:29478a7350a915812014f09cebf943a3e1b280a8df37fd8e3c0bbb04dd9bd94b": [
+    "sff:0fe54a922951eb4019607fe8517a00a9ce162d3903662b43c85d9ccde9909ee9": [
       "other"
     ],
-    "sff:a6012930779613ef5bb98aefbcf7a3a1b6b2f009e21853ac34bd34f34f47f061": [
+    "sff:d132189d795506ad5d491b443b5f1e9b1089a7b9429d45c2f1048157fa5636ca": [
       "s-risk"
     ],
-    "sff:f17f096d41bbaa7a8dfc62336f90d51aea5ad95b68a9d15da17a3fb7077b1204": [
+    "sff:e9843e32836d2cd39496882fdb23dd02851ed675025a0996c8b3079f0514bd30": [
       "s-risk"
     ],
-    "sff:a788258b5ac66ca45e1ea0764a4ae5b102fd89c32915a895f79b9084d3c63406": [
+    "sff:49f35660ad46dd3b36d4fa1c16bbcd98e01882342549471a2363011dab6edd2f": [
       "robustness-security"
     ],
-    "sff:0c3979d177957e6329fd624571dd1e67c0475a234ff259c6ef3f262f3067fe9b": [
+    "sff:8e0b857c0c27189b42719217dad92cc1a210ff2b231fe18c12a34b8462f572b5": [
       "ais-events"
     ],
-    "sff:72b7224404b19a50186b60a79e44052e34630282109648d7d6628051115adaa8": [
+    "sff:288520b5c4fa80681f75ecb12014a5604059d6767ee3ee1cfbb9105543f4e80b": [
       "research-hubs"
     ],
-    "sff:366fc21e24344cd8aaad554998e2c722fe367bade185cceb59cb3288f5fb754a": [
+    "sff:02377de6274f92af9faa39651719bc45517328e9cb0fe371f9cdc1a6d0a3d85c": [
       "ai-policy"
     ],
-    "sff:9932f4e7eca7b10f4b1a640ce6f5b0906256b0b52ef1d526667c1135597da64e": [
+    "sff:cd9ecaec3492b0a4be03b04c820ebba4a35430aa71acfeb99aac3745ebe04b59": [
       "ai-policy"
     ],
-    "sff:47f6b7de71239775f06bcd506b75ec6e9802287860cc696df162d256c398983f": [
+    "sff:0f067d53fa2015b314217058096e110993bd5a1cb05806612b09a25329293136": [
       "ai-policy"
     ],
-    "sff:64feb7090f98cea79f62e1a3ef869377cf4162e0a8edc70636a638ba70c906e5": [
+    "sff:9df3dd3d2d3efa4b0a43cb7822b827dc553a94d46bac0aa88378ba5982e0bf9d": [
       "ai-advocacy"
     ],
     "sff:0d726d328ac6cb90350fd3b6c2d70d980265fbca63d2af58ea969e0ea5fef226": [
       "ai-advocacy"
     ],
-    "sff:aebd9262cf06cbbc300bee994b7e8cd07e9604df5b68addf3e267e7783da4cf7": [
+    "sff:c057abb3e2aff0eb732e31ea99ad51eec42ae81d83f887af0d03e322e5b0a88e": [
       "other"
     ],
-    "sff:923b9b276bf97cffe1b6c64c49b3f83f3c99582af2c8238c22d9594d2a9b8648": [
+    "sff:aa4c9708ff86afa7dba255c62cbe81c6b821eaa59ecab4bacdbd99f61fe02e1e": [
       "other"
     ],
-    "sff:11135ec01bda8758c43fc350b8071ca4a7e47b912309251a2808a1e08a78d9b7": [
+    "sff:10bca1af51b5fcdc4eb5afc4356dcf4bc95614aa977e51b0284a90596c9846ad": [
       "digital-minds"
     ],
-    "sff:b6da6904d99ab1fa5480c8f2fa22db1316d8bda4f5fa36cddd05c93022f53b84": [
+    "sff:e508fafe13f0ce26a1317e0931fcf9ce6cf2dc4c3db76684f5159c6b593ff391": [
       "digital-minds"
     ],
-    "sff:8cc068649e05a264424d0dc86e3243fff6a2a0024037017dcaebb259be993bd5": [
+    "sff:7b16362f382a7871a9dd866bbd08e9bf37e3e067f58b577b9aa4b03ed032e72d": [
       "ai-safety"
     ],
-    "sff:51cac0666bd6adf6e70724f9e3695d72296828a9ce1548e799e60219cfd59928": [
+    "sff:6fef9fcabfcccf82cbe7bda6e6951576fb67a6f52b7e3488112d2786d4dc5290": [
       "ai-strategy"
     ],
-    "sff:823a31b5b5c8ab587ed636eb7f60dd2c3dbf7b58d9df8a2d225fd03fae2f7b16": [
+    "sff:32fe13721a026d96940ffdc787a9bef8a29aeb11cebc1ea08df640122fb9fbb0": [
       "technical-ai-safety"
     ],
-    "sff:ca84a2b541b9bccad42ec9224ee184c683b2ac6f8eaf615efe5f30c112b17e0c": [
+    "sff:52aab585564f8ea7a9328a4e03da9f3b882d40c93c3c2a197185b1b3bc483467": [
       "technical-ai-safety"
     ],
-    "sff:bf413d65dbb479c6d0835d65fac376a7d440e81010363efe506e0898d1e1383d": [
+    "sff:401dcfe4a9715c9ecb43705b1b4c7d276f4b2366a75aca094b63c59621ee3f98": [
       "ai-theory"
     ],
-    "sff:f692f48c3576a452401c3c1db2afb8e91f10835f83a767c50046762741b48e33": [
+    "sff:54b0e2fc133de9674baede5f39ac6caa5d9ef4fed076f924c8a074362a6f271c": [
       "ai-theory"
     ],
-    "sff:71531fbd32d98ac1f58a669af88ba13fcdc27464fbbdfaccf243ffaff97844e7": [
+    "sff:755bb3672f870002825233d8b5b1fc7dedca7328e92dd32e1439b401499c6f2c": [
       "other"
     ],
-    "sff:5e56e63b50520e531f524ace4ed28f9f723244dbf49ae1309bced77579de736a": [
+    "sff:846028420b4cdfd79572132ba8c2b6f7bb39c46d91e02543f255a7721787c3d4": [
       "other"
     ],
-    "sff:a0eb7a635abb2cec7ed8080d2e11c61320b7afd6e815eb5e749d3354e8ad8420": [
+    "sff:271fc4d215c9eb88e272677c1ffc79bcfe51d38374dcdfaf18d7a70176dba7aa": [
       "other"
     ],
-    "sff:1827d5ff30f0785f600bdc6a925543df00c2c7db1d312ad9c6c21d8d13e5dc6f": [
+    "sff:3c6057c309ba9be502e3c42009e3c1810440f3d50e5882fbee2e80800fa3099a": [
       "ai-policy"
     ],
-    "sff:c1f1e98d253af79692ecd4b7f9f15abc22cedc6df9b60d2f95d5365fc70babe5": [
+    "sff:56c38f1bdaa26f0e7edac6ff147ba3d9d807a1ea0195eaacb929ecbafe8780f5": [
       "ai-policy"
     ],
-    "sff:1156bcf13b4ba6e5e2b4306dbfc583cb58f940a75b01af744e77e601daa81125": [
+    "sff:9bc6315d50f39c0c12a4119b4aea9163066bbc891949fa78c9d438b799e34d9b": [
       "evals"
     ],
-    "sff:8f1a2a42e4a901d26206a33338b7151e8a72d15e7131d72bd4ff37b86e61be14": [
+    "sff:30fca9f92d009be7bf798feec6fb87f5e418a68d3286ae0ef6058f5baf4b2e33": [
       "evals"
     ],
-    "sff:476330ed21b1afb62ff2e5c12e9f3bada7b915e14019ec8da326970a2ef2aeb6": [
+    "sff:f99a0db136ecdbc3b8dc201e099105589d3ad786152a6a7546a970a52924c1d7": [
       "ai-strategy"
     ],
-    "sff:52e83045cdeed9ab0b5b2049e89cf0b7a2655923ac83ee26aafcbbcb1a03d95c": [
+    "sff:7cb5d5279d9b93f23540aef6814cc8c479ed40e52986b5d9db5c3cd91e1c5a96": [
       "ai-strategy"
     ],
-    "sff:6d728fa27817fec62c5914c068798e876ef2e4068987ffbeef6d820768524237": [
+    "sff:1f2944dd9359940ae12f3bc41469f69603c2f8687edaf66d1d19ea5e33a19bbf": [
       "ai-policy"
     ],
-    "sff:66234f88712658b96c1cee58da2c84894178a4af29f99f5d734e74c371f1e3b3": [
+    "sff:9c4c4b2da06015ec08acf29f901264717d352ca55b7fbd834810761bc9bf0236": [
       "evals"
     ],
-    "sff:1301344b081faaebecce418ca358da902e53c35c03d68f640b29e1ef3e0c5f00": [
+    "sff:d8436204b528a47778dfe5dfafeb4f92f43c059b9cd16209caad6d97bfc3c358": [
       "evals"
     ],
-    "sff:59dc3138d82a05b9800c6a0b5efd7dc5a3625254ec823a7b76ef025ba124171f": [
+    "sff:29b2f419bbb04910cdaf600c4f73e3b3058768cd0cbf84be9c0a491e82b69d98": [
       "technical-ai-safety"
     ],
-    "sff:9f44e7f0df00fa97e04adfed7a899a8b3c1f474924b18ec9b1617ffb015a3570": [
+    "sff:b8d3b425555f65ae0c403336e9a006d0833e8cc5f200ee8a480502e5dbc91677": [
       "technical-ai-safety"
     ],
-    "sff:c137be1c95cb0887d6315b7271f5301b8b20534593b053f3edc00115ac7c0450": [
+    "sff:4c042f884a40a4cbd4a58366a1ba7a6500df1d855051d4409d8ee6a325cd54c2": [
       "evals"
     ],
-    "sff:44df6ecb8b97a76bb1f29112bd34a6caa2caa1a2fe5f6645318d1b2eb1392701": [
+    "sff:e5c7f40f901f9f9c79159f45db386b2641ed6bd1d8353e49bac61abeb500fd8b": [
       "x-risk-other"
     ],
-    "sff:413dfdf1ccb9e54dc1d9a4248f20e765c565894a7a60ca647be6a80be3a1b738": [
+    "sff:22628e1b8cf29ebc9c9f9bca9d1373e691fd2a58da730c2790f53c2f56732b94": [
       "x-risk-other"
     ],
-    "sff:d814f1578643adb650dea73bc994645ba989022e896f30f76333ac43b3ddaeb7": [
+    "sff:d25756403da88382c669b09ca04ca2f38625a77778862ff154168bdcc3ba720e": [
       "domestic-policy"
     ],
-    "sff:b9a43de4c9f02ca9edad6b6ef4657eca1079129a1e15f33f64edca75b04b3d8e": [
+    "sff:ab5be2013291d70e1e159e8aedc969c752262af8a29aef60e2ce9f45fe2037c5": [
       "domestic-policy"
     ],
-    "sff:d6a4f7760853ce7b32090459a45dcae96e1aa821e69bf0d9ef6c0a4a51ce2259": [
+    "sff:60e431cafd2f3e4b0ce73de0afb0722125d8b13ec7cb2bdf9575972c3a8c54b5": [
       "ai-policy"
     ],
-    "sff:ae132d178564a13d7ce6c97d480475d1504a92d60b16eaf6331f072b3264259e": [
+    "sff:68e27149879b08ae3b40c42e4e25840b70f188033fd608521669f647d89140ac": [
       "x-risk-other"
     ],
-    "sff:4e9254af756df37636f2808512e20547a0e7792a2964faf28b5521c862628fe5": [
+    "sff:333ce69d6a938db31fe53c917d62101497188d277b729b190493786d36b522a0": [
       "x-risk-other"
     ],
-    "sff:001b57490786737267053aa55812944c0a883a82181d365f760f0aa89406cd2d": [
+    "sff:9c93947b67f2782d36222b65c0f64613accaad433b4062663b2e39d97075eaf8": [
       "other"
     ],
-    "sff:69b40bfb46a6005d404aea243edb2fec4fb4b93173b247b05121bb3af61ea9fd": [
+    "sff:0dea18db5cdf830fd8606190a4b3bfd513eba943e66b3ae9f09b932d9a248072": [
       "other"
     ],
-    "sff:32c06acdee52918ef54c54921f30c2f1d8fa2b49f6f8cdf33336896d83486cbc": [
+    "sff:86099ffb1a475b2698911b8dc02128d6ae99d9265cdff17266030a7e36834b9d": [
       "other"
     ],
-    "sff:1bf8c6b876df7b39dcddfc83834222444025ddcce8582a5a0a07babee8995059": [
+    "sff:fc8e677e2460ae43e79c0fdc7b1b49660f801ca6ffcf0a84306f24572d9a8412": [
       "domestic-policy"
     ],
-    "sff:fedff68e7dd3d5e32f4e723a5deaac5d574bd35039e9c903bcd81d0d63683702": [
+    "sff:563170e535371da5d9b79ecf72c79a39505824ec20753b5e0e9003552dc317c4": [
       "domestic-policy"
     ],
-    "sff:c95f3e1ce628c165138da1502351c8739e65da789ae96fc68352c75895579ce7": [
+    "sff:7fffcf0bd69ce903a1a6b2aac0b95a81f1b8ced47d7f6d35155450697b030d7c": [
       "epistemic-infrastructure"
     ],
-    "sff:0cffb35c37610b118f1032f4e291e5d492cf47ec8feeed6d3bf31b7efa634ed0": [
+    "sff:b4f30f75579742ead8b1ea7a7fea3824d8a31ad330afee6cee614eb47a858827": [
       "other"
     ],
-    "sff:9b8eaebd2c0b4873e46708699fd34f3afd8979266743f0e4779a720e0a8e0e33": [
+    "sff:df74828083e66da059e2d54e8bb2fb2174c8dd2f750538df1c33e2e42b78b3e1": [
       "other"
     ],
-    "sff:095b63a58b52c20c9d311716c04226846ae595c9694476ba1f6fe36cce163d85": [
+    "sff:8683615a007c5f1244fae2fe3f5bb6a94eee9f21aeae17ac57085f58a4420f1a": [
       "ai-theory"
     ],
-    "sff:a6c113a190b3a75464981bf694994b7cdd3d9d6ea3005eb012c785f3dfdf67e9": [
+    "sff:3474f21f5c46ee457401a7777e38afd9adfdfacac789de53dce962bafdb8102e": [
       "ai-advocacy"
     ],
-    "sff:c53dbd350f5b43e497913cdf754c54f2fa8e89227b4f350f38e72d85635a5014": [
+    "sff:1caea5e67e20d424c5415e1234f5ceaed6c141f8ddac5ff712012f8a314aaf68": [
       "ai-theory"
     ],
-    "sff:4fa5253b83e67d9ce2684498eeb32ae0466fc321e43f44077480844edd617661": [
+    "sff:c3bc0b3765db33dd42470331c6cb1a76da46f01d54b411ff6faa30d3c1b8c5a9": [
       "training-pipelines"
     ],
-    "sff:707ee72b9d56e4af638f96454102dc88175704c6076862ad006844ea2bbb5fe9": [
+    "sff:eddd7c6f508a6780050bddd164593658b03f176e6600d87eb309c603f3ecdea2": [
       "ai-policy"
     ],
-    "sff:01c1f48285abb420a8829906c8056c9c7a66102e97df07cdc0bbbc600efb4cc0": [
+    "sff:b66ea32a7163ad756831a67da709b757cd0f2178f2a424a85aa8b7ad91e9c55c": [
       "ai-policy"
     ],
-    "sff:f2ab79e640836a6b307e2d9cd4dd2c6b60c4680c3bcc43896c029cb687ee7adb": [
+    "sff:40d5d2b9622353ca841496e5c6aac4951c4c5fb20e9082d189b2bfb6400ad2ab": [
       "ai-theory"
     ],
-    "sff:5490c0c44fdf712d5709aba4ce07a17053190f028fa97017340e2d647f2be270": [
+    "sff:7d8ecc68ecd8d94b1dae1d799df4a8afdd263ed5492fd866f4905a524ecefcab": [
       "ai-theory"
     ],
     "sff:6b3f74088c375969b94719bf3008f011343aafee88a70452fe6844475065a9ce": [
@@ -19966,79 +19966,79 @@
     "sff:5bc0e9d80be437be29369e3f2542677d42b8c2aa28a991820e1997ac41581abf": [
       "ai-theory"
     ],
-    "sff:146ce54fac9167081dda4a29606d506462d595cfe2a51ebd072ecfba08291f65": [
+    "sff:c802627834515cb583479e20a1e80b4145acd3fae86669482fcf7eb992ff9a5b": [
       "ai-law"
     ],
-    "sff:9cf1966d5a506cc25ef66f27f20fbb0f236973dab2432536838c17b6daf7c3a3": [
+    "sff:84f4b8e2141e8ccc65d2cd7389f3f2c60c3006b9e5c4cb3bded0ce656d52957c": [
       "ai-law"
     ],
-    "sff:673fdb9d86c73bd57aadb1008e36cb2f215a1bd4f25925ab41dd97a207276fef": [
+    "sff:c39b4a39cc773f51fc1c41460d6e3a2713d02d141c5b4aa2b13a776a40f3c1e8": [
       "ai-law"
     ],
-    "sff:f555373cbf9f91104cad3db6f42942f10588bed01191bc02a0d5f1870c31c631": [
+    "sff:c01b0a99d5e06360ec558c44b754e2aee744e5e69d8ca41c7d6d3df8e132396f": [
       "training-pipelines"
     ],
-    "sff:3c8ecbd788b5ff9b9e6de7bd96e40c81171321cfb1fdc6f7ae75f85833c918d0": [
+    "sff:d366d7f98df37b27ec9c8cd9e774c86162241900fb9005a77271bc04c4d7643f": [
       "training-pipelines"
     ],
-    "sff:a046c099f1e035998405394f880d0cd368216280e63955eaf9115a81f8a45792": [
+    "sff:8199bd393a346e9a9f3c4af1758db02dbac44e336b334047a629b76b3525c638": [
       "other"
     ],
-    "sff:c9992fa4709cd774ad753bed77997e7b3d938fc095848f41b88a283d8a365da1": [
+    "sff:8e55e6522cacc6448a7377b3938ed643262a31018732acf4dcd232ab54d8d32f": [
       "other"
     ],
-    "sff:816d0dc605f138eaa17aad92e03714d4b2e9af09e43787ba314d0a86e7a772ff": [
+    "sff:56874e9bb51f4303fbf6c66819ad8c1e545649f0594ca560ea7902208dcc3d9f": [
       "epistemic-infrastructure"
     ],
-    "sff:bac2dc342b1a421c9062a810ec45fb18bf47e1c5da0612c6f30bfe19fb611019": [
+    "sff:808425a91dff2bc8100ef3c5841a1a712c11a1805da54f5fb7720ac46a73d809": [
       "epistemic-infrastructure"
     ],
-    "sff:6a2cfa3a97fd8e16582b7b8f6989ee14ee046315b02467edaa980b2552530111": [
+    "sff:7d661d0233be02fb74f8c0c31c069f8794ff870dcbcaaaa57245a61a30c534af": [
       "other"
     ],
-    "sff:abc267b6b13581892587a8aa9a97ca0a828ab1cc1c8bad27e06e963b24255373": [
+    "sff:903d01298989f67f2346d8f15347d0d895b567edcfa1bd34b481f59de686814d": [
       "other"
     ],
-    "sff:e3f20abe19925d36549b9703bf7540430361d206a992c5387f86b54915ff2dee": [
+    "sff:e4ea84e34a99b725962dc3e39de36525244d9391bda597b8f1ffc55697150f55": [
       "ai-theory"
     ],
-    "sff:61e7683fb44f721cd99f57c556191f4ff3c863c46e6f463ad3ed7e6707c582a2": [
+    "sff:7919c4b7a99645b67b3f6a5b4862c5fabd6d7838a3e32096482e799ef6e8cc3b": [
       "ai-theory"
     ],
-    "sff:ed785b314d999d898b3c1d21b66f3bd6d01efddcdcb0e7e066fc53302e4a1b59": [
+    "sff:e2064ed87e3ba47437baf764f7cc7b5ecbd9918e5ea0da1830f540368c24d7eb": [
       "alignment-methods"
     ],
-    "sff:ed2f87ee490cbd3bc86cf395e6a7d722d73605eabf55880af7d50bb9efdb3a4b": [
+    "sff:4300793502d3a9bd24ca2689a1d738cd90df622e4a9439e18d7312e20f7659ca": [
       "evals"
     ],
-    "sff:92c988c9dd723c3a82e1a61a2fbacb815a16e4cd145d1f32e01255fc3f998463": [
+    "sff:1f3527a6d52525d96d67c38bf2e5edc6ed2fdb2d62b0ba921abd2e3c9783d0e6": [
       "evals"
     ],
-    "sff:bb61ad97018803faeb146cc89a9060158e0a497db46f2b154dc080ef7c6362ed": [
+    "sff:43ab68f797e9c687477925346d996a7fea661404a4edb2e149b2ae3b902ac86f": [
       "evals"
     ],
-    "sff:01e0e4f772be3967b6298adf2cfac1040ebcc6f54fcdbf2df40ea9981ad1ef10": [
+    "sff:e33c8ac35a7f79d62285c9b876871a01012883f2468067c3e73e1a0f5ba67d87": [
       "ai-theory"
     ],
-    "sff:86eacc27debd56ee1e4feae808b233988beb40cada403d50f590c0c4bf472fdb": [
+    "sff:79c53902797629bdf23b675d9595568dbd72eb328e055314f2ba42e06aef0aee": [
       "ai-theory"
     ],
-    "sff:6d054bcfc8a00b2701ed3f2c729da0db28024f614b9b6339f89b8cdf8dc0a457": [
+    "sff:6340d6bc4141bdab98d247b24e0945932cfe66166511c2bba17ed489378ee3de": [
       "evals"
     ],
     "sff:7a40d7acd6394d80df895fc1ec0df7ceb2b2dd9aa17ddea157877b075a1aad31": [
       "evals"
     ],
-    "sff:4ba47dd6270e2e615442f00200506d1b325ba9c8868bd8f7927e5cbc3d9f8730": [
+    "sff:5d2eccec8942d4eeb4460e2013f7ff0769e118df7df494c8792ed2f3f842a9c2": [
       "x-risk-other"
     ],
-    "sff:8f19004bb575a3e9d815ba2996fe2bab55575cda6e308f8bef90f5ff2c01d063": [
+    "sff:4bf4dba2ee044b2238368f98c79f98dde8c030f4f511294174b181d12c2b9099": [
       "x-risk-other"
     ],
-    "sff:cd8fb886ada351edafcbdc5c401fadfa149f63b81dfcb7b3c256abc466fdd2a5": [
+    "sff:5e6e781770918083652b3b8d9c1630df36c9f435c6e2d6e08de878ae898b9dbd": [
       "ai-control"
     ],
-    "sff:15371622e5fc062baba4e9ed74a159832b6c7a1a816996a4391e1e0b13d6ff85": [
+    "sff:5547ca4387f8288b9ed369e7c6ff644a2d7cdf5f3655694e24103cb01ed6df52": [
       "ai-control"
     ],
     "sff:893eee6ef1769ef4a330bb3faa6583728bc99d52286027421b72ea63903806c7": [
@@ -20047,127 +20047,127 @@
     "sff:ce2e314a2760aa92d59982dad69290790a36bb475e44eaca49c6efb63711b600": [
       "other"
     ],
-    "sff:bbe5aa3077a57cfb5dee69958cb8586b39ed938633dd5921d1413191175ed154": [
+    "sff:6a7fa84b3eb6a22e0dcbd58a9b60372e1f1e7384899468721fb425ad4d4dac1f": [
       "international-policy"
     ],
-    "sff:b349eb70e3ff02bfd3460885185abbc1930ebc3e95fdd9e8310ecce0f0b7175b": [
+    "sff:d379894e6a3b833f88c60555611c6e1a78f608a266de590f6d3ff3009c071bbe": [
       "international-policy"
     ],
-    "sff:413f7d59a348a768fcaefed194e8a6bd7049aa6b1f1da2ac744dd257b5688828": [
+    "sff:ea342d5fdf1c345c753bec2664c83def7e58cc58c30f1ac76680971ac2e369cd": [
       "evals"
     ],
-    "sff:3c1332bd7cf735040b3bae29bc91f40d1215f0466898861eca84d55b66043d02": [
+    "sff:b09ed12eb8d722b8a395bbfbb9f2645b4115cac2677896c5517858735e72798a": [
       "evals"
     ],
-    "sff:c30c2b180e7aff74780574a5aaf429cff854e85dbcfc0a22bd26d6cd1f2ddd6b": [
+    "sff:4e48f0c26960df307945e40f78009b1ad5d5c7aba221dc3de22444ba7aa0db6d": [
       "ai-advocacy"
     ],
-    "sff:201e808688679ee5fb2be6e80acd570e932b67fec8de9fdd1e918c739f43a4a7": [
+    "sff:0fc00007e85162947f7d91f170efd55e2e9c4478f4fdd020748fea1c418b193a": [
       "ai-advocacy"
     ],
-    "sff:a28bc9784096801ff6076a15dec5f09b3a6d89576b960920fa85cd7dd25e58d9": [
+    "sff:b782910ff883814645bf5de2df585f812dc98e641e1b2556cbff96c3c32ecf07": [
       "ai-advocacy"
     ],
-    "sff:30390e0f40e9226043a00138689f2418a5ae2ec22197e02f8aa00f072e8b8a20": [
+    "sff:58aee4e8649b425e75a0327dfa723b725a0242767651d396754e40168d6fa4d9": [
       "ai-advocacy"
     ],
-    "sff:3c2a4687c3622b3d35ca84d3a47a222ec4403df1199562198d7ea78e5a36985e": [
+    "sff:24a9d6eed596a58feb0312c1247d73eb29045bbbbb7d0517cb2c846be5b16d3d": [
       "ai-control"
     ],
-    "sff:f5a92b797fb968cbebe8478d852bbbf8e79a7905f009b4733892f390b954f36e": [
+    "sff:8700f73165224c0c1e81155d2c7ad47ca2575ab48d0101a9969c700c643592cd": [
       "ai-control"
     ],
-    "sff:a06e0bc8edf3a4bc2b387415653893a104a8502e81e28016624d0ef868875ecc": [
+    "sff:3e3f607314b39b4281008ca13b27e22c93366f6f36dbb0db97ab9dee73ab5eba": [
       "training-pipelines"
     ],
-    "sff:077c8e5bf6e7d5c79cbb0622e89e593d08f71c85bf38928b492298ae2622b6a2": [
+    "sff:da5cf9d5bb2bf1de8b7636695330eec7290060d7d9c85e5715f8fa11786c19e6": [
       "other"
     ],
-    "sff:7ae6c1c74d56b0861052ffb67cd91371ba0e6a67e019ebdff6cf65c33409643c": [
+    "sff:887856320546ec7a1f3f0197fdc6753b09976087e483072165c3252fc8f3a8bc": [
       "corporate-governance"
     ],
-    "sff:648aa2b1016ea7065de3b12752104090ab3b4172f5c98077a917d143e4845d5b": [
+    "sff:fc47f3822799f8c2fe8237c31d80973d4460dde7233e77de75f689dc2539bf07": [
       "corporate-governance"
     ],
-    "sff:eefed1243ce07dea4151e640bb83577d054e90f613724ec12d4ad0f6c8105100": [
+    "sff:156800332fb832524c7e4002b58cd2afb85687db4a2b8ab75d71cdb03d20d14f": [
       "digital-minds"
     ],
-    "sff:0808276f834324ffb05c2d59b9fe08bdec0a4702a24352197dd945a03f05945c": [
+    "sff:751f625e7a4974c9c5f224edeb009ebeb906b1b919ac015b77601b47900ddb69": [
       "digital-minds"
     ],
-    "sff:fcfe0aaa5f667333e6065c1220a9d3a2916cc9d3d95aec00bd9db7cc80aaa8dd": [
-      "ai-strategy"
+    "sff:a6b013a6354c75341bb6fa65158661dca53e9bb6e0b2cc4987cc3f6880dbcec8": [
+      "evals"
     ],
-    "sff:15c3570d6ea2611aabc37c454b036c143a2035043a077fbb7f9f0bb64f5afeb8": [
-      "ai-strategy"
+    "sff:57529f757467061c63bb5be67e00b65aff57901a4e077bcb01ea5f1a06ec8620": [
+      "evals"
     ],
-    "sff:001f6478efb86a389239f07fc7877e51fd8e1e7988c7155792f07ab6cf714383": [
+    "sff:d52b744a879e262c74c88fb777ecbef0e326ada9a79b34ed04abaf419b96e1b0": [
       "biosecurity"
     ],
-    "sff:86955f1c96862f6d0f7d697e43effbffc660dd67c97fd19a9872bec91992d6be": [
+    "sff:f91f0ae66d38141b15ae483bb95c716454c785c65eebe86dc7982f2dd8cccc94": [
       "biosecurity"
     ],
-    "sff:cf08842462c21aa7afade56bfd4dc7828cd7059f1242219af19af66395c4fe3b": [
+    "sff:7f1cc426e669abab4b079086d0f45a64c347c7f0d79dccfbd618ed2d0ede3106": [
       "biosecurity"
     ],
-    "sff:879056aacb2f35d62d9bcb8962d47eab0a173afbe9ec7205cd4666711fae88dc": [
+    "sff:da786c82ccdbcc97b27ab88ac398f4f7603f3074503fda96dee61db8a1dc0c20": [
       "biosecurity"
     ],
-    "sff:3f1fad78e9255e377800e1ffb772c0807d9b6b5103203afa4f82ece40c718804": [
+    "sff:9546b3e1ae975e0bf6244eef6890d7d1a3d31b10f7f349afc0cc506f61e4f522": [
       "robustness-security"
     ],
-    "sff:6d4818126e7a2b2422d578910bb76860b894bd45586771679c2c5f34c6bbddc6": [
+    "sff:006837f30362a3c59899d32465c062000624b77d24451d5439bb49253f36b55a": [
       "robustness-security"
     ],
-    "sff:508726a65fd2bb5c3fe803d2b84f2eb640699fbc94a9de8418b1d5aa5bbf362c": [
+    "sff:d41487a0dbafc7d0bea1ae28d090fae8aca29f47e25f4b62fd8ff7f248ba3e6c": [
       "ai-advocacy"
     ],
-    "sff:3af805e3904602ec19411f5d788693e27302ce56ebd372d25f283a572451aacf": [
+    "sff:d8fd727fa2ee5de4a816a26c8e0102fa64331be0d1c219afaba74e63023b6a13": [
       "international-policy"
     ],
-    "sff:3f12ad723d06a054a6707c0c4e3bd2312281c8cf21e25c275beda59b310ffc7f": [
+    "sff:f338312872d8ffe7eebd4719f91f57b1967442cc89509e1897dca1b6a764fe5d": [
       "interp"
     ],
-    "sff:d751b046f8577a307e1b85b7219823714fe2441f6b545aca83dc8dbe2d62e78a": [
+    "sff:1176456627a1606e70bd7fd045627c9d53e05480185ad4c13cb48ab8a9228d04": [
       "interp"
     ],
-    "sff:5036fb438f911a6788bba53504975daf93825a7ef1f19100990cbfff4f744369": [
+    "sff:144f567fd9b209dd74639b259bd75695b638472fe7f4b919e2527a3818a7b4c1": [
       "research-hubs"
     ],
     "sff:347a810180c844355503abda6f4759c351073f20f93040f6e80107595321324c": [
       "research-hubs"
     ],
-    "sff:15da14250bb5cd9c77ed5f533ce2df03324e17b3522d4a912850a383483cb098": [
+    "sff:c57ab7fbf21dde5d8c37c9f2bda4051e85cf61fd98e89c5a692bd0be2e920ec1": [
       "alignment-methods"
     ],
-    "sff:54e8618443ad7b376a09e580cdd81f33d9bf9aec0075f8d6dc1739b4bfa2a979": [
+    "sff:4b04ed37c1085b0bcba0c77f726635aa49c796bd1b756c74a1ce80c95b05ac91": [
       "alignment-methods"
     ],
-    "sff:1a6b8024728383e357673fe4ace5ee4bc904899599287fd28723fa69618788ca": [
+    "sff:2f7cc5717fa72d36f45c3ce682d7ee31d018da1de33a9cfe1e9a3b5ee59a658c": [
       "ai-theory"
     ],
     "sff:7694d6fd421be55a48471d340a4c78441a84bb63d470b4d06f8fd6c430fa2a06": [
       "ai-theory"
     ],
-    "sff:0f00c76650b5da73ac125eea308313c9bc4043295ac5273e8f5dba5b94607639": [
+    "sff:67ef0a1230f556c72cc44febbc7931b35a8d93ff08ed3e0e9f860e6f2cba1433": [
       "technical-governance"
     ],
-    "sff:ccfd8ab2e2f17197a72988087a522095ff852c5a1678973ae6224da56a35d520": [
+    "sff:93e89dbe5001b44ecb3bde0bc6de9075eeccc9e3329a40cb9d0b23a67710e61e": [
       "technical-governance"
     ],
-    "sff:efc8e50af8300e4b20deb2ffa70e1079bc96ab9df6c3053d4fe5187b6943339e": [
+    "sff:f11f6941e9ec7a41e2301017f8493f7dc787ba2e3ecfec5bbbbc3258f48a03a8": [
       "evals"
     ],
-    "sff:96a4349f99a6b778817d4652c3cd61d5ecaa7ff7916467a69d952283844b044e": [
+    "sff:a3af05321cd89e0d154af4b8450239ba05be7e9586affd9f166e211219107b8b": [
       "evals"
     ],
-    "sff:6cf269c42b8b3256851b8c0ff7f08d597e89a31a0c3f21139c209f7af9108971": [
+    "sff:fe76dee7131b1ca8c4965f6b1e9880a33d2ed8f608e04e68891580b9c08e6a01": [
       "training-pipelines"
     ],
-    "sff:6de5880c0c29d8c4e2422add30768dcba0b320d05e30a2fad09b4a438c3e9866": [
+    "sff:d8ec332524c91422c8b0d620ae128014e231e59100047b66ebff89cced3a9408": [
       "ai-policy"
     ],
-    "sff:749f761f10f82f7b6e9d1e5fdb6bf741d6d028df9ca0bffed4b295d40e271295": [
+    "sff:9ce0794e6440e6f78b3955efad6e3b4bb791e55dad6eb35f045c7d435e05beec": [
       "ai-strategy"
     ],
     "sff:c9629936b4339ca96584e3214faf0b29a6977753ab51eeeb408b9a52c05c93b8": [
@@ -20176,73 +20176,73 @@
     "sff:d8e5f5d37e6889c1ca7adf51f2e85aec6b23dd13a5062ee96f229a64d5a58609": [
       "domestic-policy"
     ],
-    "sff:6df30c89bf945a94168e2dabd24b7cc783aaede4e39a44b3221bb731863671ed": [
+    "sff:68cd5996d9163729f83326a7e7f542bb81f0db90fca3a6b64bd62066278588a2": [
       "research-infrastructure"
     ],
-    "sff:9566120193306bbca948b36973ee6c5736be209c74c259baabdda4ec5424601b": [
+    "sff:3b27099797477fc316049e7a5508b3f02b93676aafeecd66bf6df8fe06ff1804": [
       "research-infrastructure"
     ],
-    "sff:456da4d1fc216498a8d3b5d87bb4615e55373b44e01ce050106a2c980184feb5": [
+    "sff:d84da9ae3ad5fe082c4b7dc5cd72bf718a9ea8673038c47d95ca504fca531d40": [
       "training-pipelines"
     ],
-    "sff:18a2a241c054e9d9bc1f3d5090d4b95cf70afa9c813f7961f72e6f7e76bedd46": [
+    "sff:0c1e6c6cb77826a51c52c2d092ae2a54346a34a0fc9ed07c4a695df44541a603": [
       "international-policy"
     ],
-    "sff:a1fc210f437c0a5acdc191e3c18134dec4b9d78afe5a7aaf1f3e02cb80d3527c": [
+    "sff:e6f934d81d6512ca3f3f726c5626dbe162a6c2d607c14f6b9eeaaaaf5dcc9f7e": [
       "international-policy"
     ],
-    "sff:39250daeaf41defbb31183348b7b6e4aa55992244e7caaa2aa2ef5f635537d54": [
+    "sff:a02e01883d3f12eed0aad599a9c218155ab3373e2235e09d9eb90b08b5e21280": [
       "other"
     ],
-    "sff:108e86f13e6fb040f7991bd7705daba8a8b93d385cf4f35d8862319e3150f9a7": [
+    "sff:47d93652a3526e3441fc583671c9725259d731a7be09454b62046dcbf57c1ef0": [
       "other"
     ],
-    "sff:517ca812818b97b42ee1c36808dbe140cd7484390d937f2d109bda5a5180a612": [
+    "sff:ba6ceee402a7d08a0cafea27ee1fef04c52e639b61481dc83d0ee5b9f2d4d500": [
       "other"
     ],
-    "sff:f637d8648d0d10ee94e3a9d776560461d4023cca8827454fa77abeaf36308749": [
+    "sff:f806f3b3e5cf8b5d1ddeecdec68923c4e4ba16ce60a57bb6e1447a56a886036c": [
       "interp"
     ],
-    "sff:d5e70287dcb753a5f0a568b2e2ff43915b13d618814caf00a2c99b36b2ca4d15": [
+    "sff:9d6fafebcb547361d17559ea8552ec93953bfc9d21164c58a9dc4e2b2f35529b": [
       "interp"
     ],
-    "sff:49a5f8a13532f1ff2a8ad063b55ab5658baaa97af0d5bd7d0b5006a0db8c6eee": [
+    "sff:b12498cf4415f9f1173cee6e580b1f44be570eaef157b58fb1d7c7a7248f6c14": [
       "ai-theory"
     ],
-    "sff:2111e858aa69d7ae62535d7e2b8cc521001ae44ac9ce376040e3dcbda2c49322": [
+    "sff:67e2eac4f49bac0dc026a8d2a0af56f013020566e145a1231c3b60d1405489ed": [
       "ai-theory"
     ],
-    "sff:afd0418e05704d51b8c3f3247a7a235117a3ef3dc43b9fa1a687d95f92d24f92": [
+    "sff:15a531837ccaf3935d917d6ec1c62b8f4cc8096a691d005b6c7d582786ed3d4b": [
       "technical-governance"
     ],
-    "sff:6dd6ed9a777fb4b409b2258c654b59d1c0c5ecb1ab58f5a0e45aa1a0babaaed9": [
+    "sff:71c84bf9bb64fc1c13570f30d8808c2fc1b1bf99c66709ceaca78be594a97b2a": [
       "technical-governance"
     ],
-    "sff:b4bca7b5ccb9d0e8f86339d021950ad8f58a9ccf4f6ba4292297d1cb11987932": [
+    "sff:92cf00ec3bf08a44669c7b6b639f525879203f7c417151fe0bd78b46ed063a29": [
       "ai-policy"
     ],
-    "sff:6f748d2305f8b155676d871a1a2532c8b240079197999d121a5e3fe5da9bc8c4": [
+    "sff:b9c078219f433927f73630066b5211c92e2e49bee6bdede653debdad95578ce1": [
       "other"
     ],
-    "sff:bd0e41f7b5bc7dd9c039d6e2741d9ebef0cf5dd429298b048a1fb4d7fd8051a2": [
+    "sff:cce8efa82abad2b9c6c5fe30c79b722888ac093c2d680b5a9f3c2343fa6e7bfe": [
       "robustness-security"
     ],
-    "sff:cd082704d4aa7ea5821012d7b6a3fd3350fe3acd4aa31b2f6e7f20651f935d27": [
+    "sff:bda4b7b5f96cf6248edfa88f8b0f1d78ea03e2ba0f1483aae87cad785f1f69fd": [
       "robustness-security"
     ],
-    "sff:ea78d146a306ecd5b1f0a275f62f4bf3e843a1a0da834a3046b9286aab9cb04b": [
+    "sff:c5850658c9a4e2b037c183e9020f14b7408158eff902bfcbed6ba0f77034bfee": [
       "x-risk-other"
     ],
-    "sff:6f3474e4feba47f982dbe4eda2846f68955a873d886f5d4253328238c2d00de7": [
+    "sff:83b986e85dad734b08c2346769fd7b51d2958bef42502adbe013142009d2609f": [
       "x-risk-other"
     ],
-    "sff:0096bb3dfe418ffb97c8c16a7f9914794e775a8004da365521e039c87313c1ab": [
+    "sff:89444e647a65a60262bf91bc981eee9d9b1a2614086527bfda213253549585fb": [
       "ai-theory"
     ],
-    "sff:2a0af618a0c236d902ac0a7fb92cc83ee1358ee5d0094e4aa1eb04f96fc64943": [
+    "sff:abc5db3cc8a1672dae2970857ed0ae4c663f7f56b7755f98f452501806bede85": [
       "other"
     ],
-    "sff:a433436329f530506ccbf71eb8f517ad5f9316d5240bb00b4d427b4eebbdfa5d": [
+    "sff:b6805342ade3c9e99c5c03f494af5131c321dfb5ab25b0644772d3fe15907fa2": [
       "gradual-disempowerment"
     ],
     "sentinel_bio:epoch-ai": [
@@ -20258,12 +20258,6 @@
       "ai-bio"
     ],
     "coefficient_giving:40204": [
-      "evals"
-    ],
-    "sff:9622b81ec056cfe7498e07feb813964d49f074f106858568d83dcd74310778bb": [
-      "evals"
-    ],
-    "sff:415ccf562bb27c670ff58c19660f34098bd75c39a3c38bfbc31cf0ecce2ffaa5": [
       "evals"
     ],
     "coefficient_giving:40838": [
