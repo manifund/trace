@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-10-12T19:53:59.504Z",
+ "exported_at": "2026-10-19T17:03:18.542Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -17,6 +17,18 @@
    "amount": 55000
   },
   {
+   "id": "grants-41339-0",
+   "org": "Raft Bioworks",
+   "date": 1790035200,
+   "slug": "red-teaming-and-safeguarding-bio-foundation-ai-models",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Red-Teaming and Safeguarding Bio-Foundation AI Models",
+   "amount": 292500
+  },
+  {
    "id": "grants-40827-0",
    "org": "Epoch",
    "date": 1787184000,
@@ -27,6 +39,18 @@
    ],
    "title": "General Support",
    "amount": 68796286
+  },
+  {
+   "id": "grants-41337-0",
+   "org": "Brown University",
+   "date": 1787184000,
+   "slug": "biosecurity-research-and-convenings",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Biosecurity Research and Convenings",
+   "amount": 75000
   },
   {
    "id": "grants-40904-0",
@@ -76,6 +100,31 @@
    ],
    "title": "Biosecurity Advocacy",
    "amount": 450000
+  },
+  {
+   "id": "grants-40883-0",
+   "org": "Universitat Autònoma de Barcelona",
+   "date": 1786320000,
+   "slug": "fish-welfare-research-nerea-roher",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Research (Nerea Roher)",
+   "amount": 195000
+  },
+  {
+   "id": "grants-41341-0",
+   "org": "SecureBio",
+   "date": 1786320000,
+   "slug": "general-support-96",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "General Support",
+   "amount": 5000000
   },
   {
    "id": "grants-41245-0",
@@ -243,6 +292,33 @@
    "amount": 336726
   },
   {
+   "id": "grants-41332-0",
+   "org": "Fórum Nacional de Proteção e Defesa Animal",
+   "date": 1785456000,
+   "slug": "corporate-campaigns-in-brazil",
+   "year": 2026,
+   "areas": [
+    "Broiler Chicken Welfare",
+    "Cage-Free Reforms",
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Corporate Campaigns in Brazil",
+   "amount": 1436274
+  },
+  {
+   "id": "grants-40892-0",
+   "org": "REBL",
+   "date": 1785369600,
+   "slug": "animal-welfare-movement-building-in-latin-america",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Animal Welfare Movement Building in Latin America",
+   "amount": 1440000
+  },
+  {
    "id": "grants-41118-0",
    "org": "SecureBio",
    "date": 1785369600,
@@ -352,6 +428,18 @@
    ],
    "title": "Innovation Policy in Europe",
    "amount": 1067000
+  },
+  {
+   "id": "grants-41335-0",
+   "org": "Successif",
+   "date": 1785110400,
+   "slug": "biosecurity-career-advising",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "Biosecurity Career Advising",
+   "amount": 670065
   },
   {
    "id": "grants-40218-0",
@@ -516,6 +604,18 @@
    "amount": 922085
   },
   {
+   "id": "grants-40926-0",
+   "org": "Arthropoda Foundation",
+   "date": 1783987200,
+   "slug": "research-on-farmed-aquatic-invertebrate-welfare",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Research on Farmed Aquatic Invertebrate Welfare",
+   "amount": 1775000
+  },
+  {
    "id": "grants-41219-0",
    "org": "UsAgainstAlzheimer's Action",
    "date": 1783987200,
@@ -614,6 +714,31 @@
    "amount": 75000
   },
   {
+   "id": "grants-40877-0",
+   "org": "Innovate Animal Ag",
+   "date": 1783555200,
+   "slug": "general-support-95",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "General Support",
+   "amount": 2100000
+  },
+  {
+   "id": "grants-40898-0",
+   "org": "Dyrevernalliansen (The Norwegian Animal Protection Alliance)",
+   "date": 1783555200,
+   "slug": "fish-welfare-policy-work-in-norway",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Fish Welfare Policy Work in Norway",
+   "amount": 1430000
+  },
+  {
    "id": "grants-41217-0",
    "org": "Renaissance Philanthropy",
    "date": 1783555200,
@@ -625,6 +750,18 @@
    ],
    "title": "BBN Fund",
    "amount": 700000
+  },
+  {
+   "id": "grants-40915-0",
+   "org": "Jenny Stojkovic",
+   "date": 1783468800,
+   "slug": "thought-leadership-public-education-on-farm-animal-welfare",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Thought Leadership, Public Education on Farm Animal Welfare",
+   "amount": 200000
   },
   {
    "id": "grants-40133-0",
@@ -722,6 +859,18 @@
    ],
    "title": "Field Testing of Building Protections from Airborne Hazards",
    "amount": 400000
+  },
+  {
+   "id": "grants-40913-0",
+   "org": "Rethink Priorities",
+   "date": 1782345600,
+   "slug": "animal-welfare-research",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Animal Welfare Research",
+   "amount": 1470000
   },
   {
    "id": "grants-41229-0",
@@ -11580,7 +11729,7 @@
     "Biosecurity & Pandemic Preparedness"
    ],
    "title": "General Support",
-   "amount": 2005867
+   "amount": 4600000
   },
   {
    "id": "grants-25677-0",
