@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-10-19T17:03:18.542Z",
+ "exported_at": "2026-10-26T16:50:53.443Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -17,6 +17,18 @@
    "amount": 55000
   },
   {
+   "id": "grants-38944-0",
+   "org": "Rethink Priorities",
+   "date": 1792627200,
+   "slug": "farm-animal-welfare-research-2",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Farm Animal Welfare Research",
+   "amount": 593333
+  },
+  {
    "id": "grants-41339-0",
    "org": "Raft Bioworks",
    "date": 1790035200,
@@ -27,6 +39,30 @@
    ],
    "title": "Red-Teaming and Safeguarding Bio-Foundation AI Models",
    "amount": 292500
+  },
+  {
+   "id": "grants-41387-0",
+   "org": "Stanford University",
+   "date": 1788393600,
+   "slug": "scale-up-of-brick-kiln-emissions-reduction-study",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Scale-Up of Brick Kiln Emissions-Reduction Study",
+   "amount": 3830000
+  },
+  {
+   "id": "grants-41385-0",
+   "org": "Columbia University",
+   "date": 1787529600,
+   "slug": "grasp-gridded-africa-surface-pollution-dataset-expansion",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "GRASP (Gridded Africa Surface Pollution) Dataset Expansion",
+   "amount": 333333
   },
   {
    "id": "grants-40827-0",
@@ -149,6 +185,30 @@
    ],
    "title": "Optimizing Corsi-Rosenthal Air Cleaners",
    "amount": 164537
+  },
+  {
+   "id": "grants-41381-0",
+   "org": "International Council for Clean Transportation",
+   "date": 1785888000,
+   "slug": "survey-of-vehicle-emissions-in-indian-cities",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Survey of Vehicle Emissions in Indian Cities",
+   "amount": 2000000
+  },
+  {
+   "id": "grants-41383-0",
+   "org": "World Resources Institute",
+   "date": 1785888000,
+   "slug": "accelerator-for-clean-air-action",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Accelerator for Clean Air Action",
+   "amount": 2633000
   },
   {
    "id": "grants-41124-0",
@@ -440,6 +500,30 @@
    ],
    "title": "Biosecurity Career Advising",
    "amount": 670065
+  },
+  {
+   "id": "grants-41377-0",
+   "org": "Washington University in St. Louis",
+   "date": 1785110400,
+   "slug": "support-for-satellite-based-air-quality-dataset",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Support for Satellite-Based Air Quality Dataset",
+   "amount": 2150000
+  },
+  {
+   "id": "grants-41379-0",
+   "org": "Janaagraha",
+   "date": 1785110400,
+   "slug": "scoping-study-for-air-quality-reforms-in-india",
+   "year": 2026,
+   "areas": [
+    "Air Quality"
+   ],
+   "title": "Scoping Study for Air Quality Reforms in India",
+   "amount": 250936
   },
   {
    "id": "grants-40218-0",
@@ -898,6 +982,18 @@
    "amount": 520155
   },
   {
+   "id": "grants-41374-0",
+   "org": "Smart Buys Alliance",
+   "date": 1782259200,
+   "slug": "secretariat-and-evidence-generation",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Secretariat and Evidence Generation",
+   "amount": 2634000
+  },
+  {
    "id": "grants-40116-0",
    "org": "Global Development Incubator",
    "date": 1782172800,
@@ -1101,7 +1197,7 @@
     "Biosecurity & Pandemic Preparedness"
    ],
    "title": "Pandemic and Epidemic Threat Analytics Lab (PETAL) Collaboration",
-   "amount": 900000
+   "amount": 2608000
   },
   {
    "id": "grants-39882-0",
@@ -1226,6 +1322,18 @@
    "amount": 750000
   },
   {
+   "id": "grants-41372-0",
+   "org": "Friends of the Global Fight",
+   "date": 1780444800,
+   "slug": "general-support-97",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "General Support",
+   "amount": 4000000
+  },
+  {
    "id": "grants-39912-0",
    "org": "Various Individuals",
    "date": 1780272000,
@@ -1260,6 +1368,18 @@
    ],
    "title": "International Dialogues on AIxBiosecurity",
    "amount": 335000
+  },
+  {
+   "id": "grants-41364-0",
+   "org": "Langsikt",
+   "date": 1780012800,
+   "slug": "norwegian-aid-policy-work",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Norwegian Aid Policy Work",
+   "amount": 850000
   },
   {
    "id": "grants-39462-0",
@@ -1654,6 +1774,42 @@
    ],
    "title": "Nipah Virus Antiviral Drug Development",
    "amount": 4800000
+  },
+  {
+   "id": "grants-41366-0",
+   "org": "Center for Global Health Diplomacy",
+   "date": 1778457600,
+   "slug": "expanding-debt-for-health-swap-mechanisms",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Expanding Debt-for-Health Swap Mechanisms",
+   "amount": 400000
+  },
+  {
+   "id": "grants-41368-0",
+   "org": "Global Health Advocates",
+   "date": 1778457600,
+   "slug": "global-health-education-and-engagement",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health Education and Engagement",
+   "amount": 73168
+  },
+  {
+   "id": "grants-41370-0",
+   "org": "Korean Advocates for Global Health",
+   "date": 1778457600,
+   "slug": "health-aid-policy-work",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Health Aid Policy Work",
+   "amount": 500000
   },
   {
    "id": "grants-39466-0",
@@ -2341,7 +2497,7 @@
     "Global Aid Policy"
    ],
    "title": "General Support",
-   "amount": 1500000
+   "amount": 2700000
   },
   {
    "id": "grants-39864-0",
@@ -3623,7 +3779,7 @@
     "Global Aid Policy"
    ],
    "title": "Global Aid Policy Research and Education",
-   "amount": 475000
+   "amount": 725000
   },
   {
    "id": "grants-39403-0",
@@ -11089,7 +11245,7 @@
     "Global Aid Policy"
    ],
    "title": "Aid Policy Strategy (Contract)",
-   "amount": 930000
+   "amount": 1379000
   },
   {
    "id": "grants-26271-0",
