@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-10-26T16:50:53.443Z",
+ "exported_at": "2026-11-02T20:26:09.631Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -17,6 +17,19 @@
    "amount": 55000
   },
   {
+   "id": "grants-38949-0",
+   "org": "FishEthoGroup",
+   "date": 1793404800,
+   "slug": "wild-fish-welfare-research-2",
+   "year": 2026,
+   "areas": [
+    "Farm Animal Welfare",
+    "Fish Welfare"
+   ],
+   "title": "Wild Fish Welfare Research",
+   "amount": 2040000
+  },
+  {
    "id": "grants-38944-0",
    "org": "Rethink Priorities",
    "date": 1792627200,
@@ -29,6 +42,174 @@
    "amount": 593333
   },
   {
+   "id": "grants-41686-0",
+   "org": "Consumer Power Initiative",
+   "date": 1791763200,
+   "slug": "general-support-for-project-coa",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support for Project COA",
+   "amount": 236000
+  },
+  {
+   "id": "grants-41636-0",
+   "org": "Renaissance Philanthropy",
+   "date": 1791504000,
+   "slug": "general-support-101",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 1500000
+  },
+  {
+   "id": "grants-41634-0",
+   "org": "High Impact Athletes",
+   "date": 1791417600,
+   "slug": "general-support-100",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 1000000
+  },
+  {
+   "id": "grants-41684-0",
+   "org": "Regeneration Group",
+   "date": 1791417600,
+   "slug": "general-support-104",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 2000000
+  },
+  {
+   "id": "grants-41682-0",
+   "org": "Loperena Partners",
+   "date": 1791244800,
+   "slug": "effective-giving-advisory-services-in-latin-america",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Effective Giving Advisory Services in Latin America",
+   "amount": 150000
+  },
+  {
+   "id": "grants-41628-0",
+   "org": "University of Chicago",
+   "date": 1790899200,
+   "slug": "research-and-community-of-practice-on-combating-organized-crime-in-latin-america",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Research and Community of Practice on Combating Organized Crime in Latin America",
+   "amount": 750000
+  },
+  {
+   "id": "grants-41638-0",
+   "org": "University of California, Berkeley",
+   "date": 1790899200,
+   "slug": "fellowship-program-for-scholars-from-developing-countries",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Fellowship Program for Scholars from Developing Countries",
+   "amount": 759465
+  },
+  {
+   "id": "grants-41678-0",
+   "org": "Impactful Giving",
+   "date": 1790812800,
+   "slug": "field-building-for-effective-giving-in-india",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Field-Building for Effective Giving in India",
+   "amount": 100000
+  },
+  {
+   "id": "grants-41676-0",
+   "org": "Ihsana",
+   "date": 1790726400,
+   "slug": "free-advisory-services-for-effective-giving",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Free Advisory Services for Effective Giving",
+   "amount": 294000
+  },
+  {
+   "id": "grants-41680-0",
+   "org": "Pivot to Good",
+   "date": 1790726400,
+   "slug": "podcast-and-platform-for-mid-career-transitions",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Podcast and Platform for Mid-Career Transitions",
+   "amount": 479894
+  },
+  {
+   "id": "grants-41630-0",
+   "org": "Effective Altruism Australia",
+   "date": 1790640000,
+   "slug": "general-support-99",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 286000
+  },
+  {
+   "id": "grants-41632-0",
+   "org": "Effectief Geven",
+   "date": 1790640000,
+   "slug": "effective-giving-outreach-in-belgium",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Effective Giving Outreach in Belgium",
+   "amount": 295000
+  },
+  {
+   "id": "grants-41674-0",
+   "org": "The Life You Can Save",
+   "date": 1790553600,
+   "slug": "general-support-103",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 500000
+  },
+  {
+   "id": "grants-41463-0",
+   "org": "Evidence for Good",
+   "date": 1790208000,
+   "slug": "ppe-research-testing-and-advocacy-in-nigeria",
+   "year": 2026,
+   "areas": [
+    "Biosecurity & Pandemic Preparedness"
+   ],
+   "title": "PPE Research, Testing, and Advocacy in Nigeria",
+   "amount": 211000
+  },
+  {
    "id": "grants-41339-0",
    "org": "Raft Bioworks",
    "date": 1790035200,
@@ -39,6 +220,54 @@
    ],
    "title": "Red-Teaming and Safeguarding Bio-Foundation AI Models",
    "amount": 292500
+  },
+  {
+   "id": "grants-41626-0",
+   "org": "Probably Good",
+   "date": 1789689600,
+   "slug": "general-support-98",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 6000000
+  },
+  {
+   "id": "grants-41624-0",
+   "org": "Animal Advocacy Careers",
+   "date": 1789603200,
+   "slug": "impactful-policy-careers-accelerator-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Impactful Policy Careers Accelerator Program",
+   "amount": 1197725
+  },
+  {
+   "id": "grants-41620-0",
+   "org": "Network for Effective Evidence-based Development",
+   "date": 1789084800,
+   "slug": "internship-placements-at-global-health-organizations",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Internship Placements at Global Health Organizations",
+   "amount": 150000
+  },
+  {
+   "id": "grants-41672-0",
+   "org": "Health Progress Hub",
+   "date": 1789084800,
+   "slug": "talent-pipeline-for-global-health-roles",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Talent Pipeline for Global Health Roles",
+   "amount": 265285
   },
   {
    "id": "grants-41387-0",
@@ -65,6 +294,30 @@
    "amount": 333333
   },
   {
+   "id": "grants-41618-0",
+   "org": "Mieux Donner",
+   "date": 1787529600,
+   "slug": "support-for-the-world-climate-relay",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Support for the World Climate Relay",
+   "amount": 26797
+  },
+  {
+   "id": "grants-41670-0",
+   "org": "South Asian Effective Careers",
+   "date": 1787270400,
+   "slug": "career-advising-platform-in-india",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Career Advising Platform in India",
+   "amount": 546250
+  },
+  {
    "id": "grants-40827-0",
    "org": "Epoch",
    "date": 1787184000,
@@ -87,6 +340,30 @@
    ],
    "title": "Biosecurity Research and Convenings",
    "amount": 75000
+  },
+  {
+   "id": "grants-41664-0",
+   "org": "Tech Safari",
+   "date": 1787184000,
+   "slug": "building-back-home-project-for-african-diaspora-professionals",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Building Back Home Project for African Diaspora Professionals",
+   "amount": 150000
+  },
+  {
+   "id": "grants-41666-0",
+   "org": "Jewish Social Impact Network",
+   "date": 1787184000,
+   "slug": "careers-focused-impact-accelerator",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Careers-Focused Impact Accelerator",
+   "amount": 50000
   },
   {
    "id": "grants-40904-0",
@@ -138,6 +415,18 @@
    "amount": 450000
   },
   {
+   "id": "grants-41612-0",
+   "org": "Giving What We Can",
+   "date": 1786406400,
+   "slug": "two-effective-giving-events",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Two Effective Giving Events",
+   "amount": 88071
+  },
+  {
    "id": "grants-40883-0",
    "org": "Universitat Autònoma de Barcelona",
    "date": 1786320000,
@@ -161,6 +450,18 @@
    ],
    "title": "General Support",
    "amount": 5000000
+  },
+  {
+   "id": "grants-41662-0",
+   "org": "Effective Altruism Estonia",
+   "date": 1785974400,
+   "slug": "support-for-careers-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Support for Careers Program",
+   "amount": 23130
   },
   {
    "id": "grants-41245-0",
@@ -211,6 +512,18 @@
    "amount": 2633000
   },
   {
+   "id": "grants-41658-0",
+   "org": "Hack the Fork",
+   "date": 1785888000,
+   "slug": "university-hackathons-for-alternative-proteins",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "University Hackathons for Alternative Proteins",
+   "amount": 200000
+  },
+  {
    "id": "grants-41124-0",
    "org": "Centre for British Progress",
    "date": 1785801600,
@@ -233,6 +546,18 @@
    ],
    "title": "European Progress Conference",
    "amount": 125000
+  },
+  {
+   "id": "grants-41654-0",
+   "org": "Effective Altruism Poland",
+   "date": 1785801600,
+   "slug": "research-on-high-impact-roles-in-polish-civil-service",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Research on High-Impact Roles in Polish Civil Service",
+   "amount": 16350
   },
   {
    "id": "grants-40875-0",
@@ -367,6 +692,42 @@
    "amount": 1436274
   },
   {
+   "id": "grants-41650-0",
+   "org": "Escape the City",
+   "date": 1785456000,
+   "slug": "career-accelerator-platform-for-purposeful-work",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Career Accelerator Platform for Purposeful Work",
+   "amount": 250000
+  },
+  {
+   "id": "grants-41652-0",
+   "org": "Effective Altruism France",
+   "date": 1785456000,
+   "slug": "job-engage-impact-careers-platform",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "\"Job Engagé\" Impact Careers Platform",
+   "amount": 129000
+  },
+  {
+   "id": "grants-41668-0",
+   "org": "Effective Altruism Sweden",
+   "date": 1785456000,
+   "slug": "career-coaching",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Career Coaching",
+   "amount": 220000
+  },
+  {
    "id": "grants-40892-0",
    "org": "REBL",
    "date": 1785369600,
@@ -452,6 +813,30 @@
    "amount": 950000
   },
   {
+   "id": "grants-41614-0",
+   "org": "Laboratory of Social Entrepreneurship",
+   "date": 1785196800,
+   "slug": "theory-of-change-makers-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Theory of Change Makers Program",
+   "amount": 690680
+  },
+  {
+   "id": "grants-41660-0",
+   "org": "Worldshapers",
+   "date": 1785196800,
+   "slug": "impact-focused-book-publishing-and-thought-leadership",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Impact-Focused Book Publishing and Thought Leadership",
+   "amount": 650000
+  },
+  {
    "id": "grants-40887-0",
    "org": "Animal Welfare Research Network",
    "date": 1785110400,
@@ -526,6 +911,78 @@
    "amount": 250936
   },
   {
+   "id": "grants-41616-0",
+   "org": "Effective Altruism Israel",
+   "date": 1785110400,
+   "slug": "career-advising-and-fellowship-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Career Advising and Fellowship Program",
+   "amount": 400000
+  },
+  {
+   "id": "grants-41622-0",
+   "org": "Overseas Development Institute",
+   "date": 1785110400,
+   "slug": "monitoring-and-evaluation-for-the-odi-fellowship",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Monitoring and Evaluation for the ODI Fellowship",
+   "amount": 401212
+  },
+  {
+   "id": "grants-41640-0",
+   "org": "Effective Altruism Norway",
+   "date": 1785110400,
+   "slug": "general-support-102",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "General Support",
+   "amount": 1731125
+  },
+  {
+   "id": "grants-41644-0",
+   "org": "Netherlands Effective Environmentalism Initiative",
+   "date": 1785110400,
+   "slug": "career-advising-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Career Advising Program",
+   "amount": 30000
+  },
+  {
+   "id": "grants-41646-0",
+   "org": "Class Action",
+   "date": 1785110400,
+   "slug": "student-organizing-on-career-choice-at-us-universities",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Student Organizing on Career Choice at US Universities",
+   "amount": 525000
+  },
+  {
+   "id": "grants-41648-0",
+   "org": "Brian Patrick Wanlass",
+   "date": 1785110400,
+   "slug": "newsletter-on-state-capacity-and-systems-change-career-opportunities",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Newsletter on State-Capacity and Systems-Change Career Opportunities",
+   "amount": 60000
+  },
+  {
    "id": "grants-40218-0",
    "org": "Against Malaria Foundation",
    "date": 1785024000,
@@ -551,6 +1008,18 @@
    "amount": 170000
   },
   {
+   "id": "grants-41656-0",
+   "org": "Effective Altruism Norway",
+   "date": 1784851200,
+   "slug": "support-for-the-meningsfylt-career-advising-program",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Support for the Meningsfylt Career Advising Program",
+   "amount": 252000
+  },
+  {
    "id": "grants-40105-0",
    "org": "Scale Wise",
    "date": 1784764800,
@@ -561,6 +1030,18 @@
    ],
    "title": "Support Program for Global Health Orgs Working in LMICs",
    "amount": 500000
+  },
+  {
+   "id": "grants-41642-0",
+   "org": "The Agency Fund",
+   "date": 1784764800,
+   "slug": "talent-accelerator-for-global-south-nonprofits",
+   "year": 2026,
+   "areas": [
+    "Effective Giving & Careers"
+   ],
+   "title": "Talent Accelerator for Global South Nonprofits",
+   "amount": 1000000
   },
   {
    "id": "grants-40900-0",
@@ -798,18 +1279,6 @@
    "amount": 75000
   },
   {
-   "id": "grants-40877-0",
-   "org": "Innovate Animal Ag",
-   "date": 1783555200,
-   "slug": "general-support-95",
-   "year": 2026,
-   "areas": [
-    "Farm Animal Welfare"
-   ],
-   "title": "General Support",
-   "amount": 2100000
-  },
-  {
    "id": "grants-40898-0",
    "org": "Dyrevernalliansen (The Norwegian Animal Protection Alliance)",
    "date": 1783555200,
@@ -991,7 +1460,7 @@
     "Global Aid Policy"
    ],
    "title": "Secretariat and Evidence Generation",
-   "amount": 2634000
+   "amount": 2884000
   },
   {
    "id": "grants-40116-0",
@@ -1004,6 +1473,18 @@
    ],
    "title": "Partnership for Battery Action",
    "amount": 4857396
+  },
+  {
+   "id": "grants-41418-0",
+   "org": "Dalberg Media",
+   "date": 1782172800,
+   "slug": "danish-alliance-for-global-health-contract-2",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Danish Alliance for Global Health (Contract)",
+   "amount": 710164
   },
   {
    "id": "grants-39854-0",
@@ -2497,7 +2978,7 @@
     "Global Aid Policy"
    ],
    "title": "General Support",
-   "amount": 2700000
+   "amount": 2500000
   },
   {
    "id": "grants-39864-0",
@@ -5111,6 +5592,30 @@
    "amount": 724000
   },
   {
+   "id": "grants-41422-0",
+   "org": "Center for Global Development",
+   "date": 1764892800,
+   "slug": "aid-policy-research",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Aid Policy Research",
+   "amount": 169750
+  },
+  {
+   "id": "grants-41440-0",
+   "org": "From Fauna",
+   "date": 1764892800,
+   "slug": "farm-animal-welfare-advocacy-4",
+   "year": 2025,
+   "areas": [
+    "Farm Animal Welfare"
+   ],
+   "title": "Farm Animal Welfare Advocacy",
+   "amount": 130000
+  },
+  {
    "id": "grants-36374-0",
    "org": "Cellular Agriculture Australia",
    "date": 1764806400,
@@ -5146,6 +5651,18 @@
    ],
    "title": "Research on LLM Steering Vectors (Philip Torr)",
    "amount": 224780
+  },
+  {
+   "id": "grants-41428-0",
+   "org": "InterAction",
+   "date": 1764806400,
+   "slug": "documenting-aid-policy-impacts",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Documenting Aid Policy Impacts",
+   "amount": 50000
   },
   {
    "id": "grants-35839-0",
@@ -5819,7 +6336,7 @@
     "Global Health & Wellbeing Opportunities"
    ],
    "title": "Future of Development Cooperation Coalition",
-   "amount": 500000
+   "amount": 560300
   },
   {
    "id": "grants-37175-0",
@@ -6363,6 +6880,18 @@
    ],
    "title": "Cage-Free Reforms in the Philippines",
    "amount": 825000
+  },
+  {
+   "id": "grants-41426-0",
+   "org": "KPC Strategies",
+   "date": 1760400000,
+   "slug": "policy-roadmap-for-future-aid-programs-2",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Policy Roadmap for Future Aid Programs",
+   "amount": 150000
   },
   {
    "id": "grants-35973-0",
@@ -9384,7 +9913,7 @@
   },
   {
    "id": "grants-36071-0",
-   "org": "Dalberg Advisors",
+   "org": "Dalberg Media",
    "date": 1747958400,
    "slug": "danish-alliance-for-global-health-contract",
    "year": 2025,
@@ -9430,6 +9959,18 @@
    ],
    "title": "AI Safety Fellowships",
    "amount": 26924000
+  },
+  {
+   "id": "grants-41424-0",
+   "org": "Center for Global Development",
+   "date": 1747872000,
+   "slug": "policy-roadmap-for-future-aid-programs",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Policy Roadmap for Future Aid Programs",
+   "amount": 150000
   },
   {
    "id": "grants-26216-0",
@@ -15369,6 +15910,18 @@
    "amount": 2178700
   },
   {
+   "id": "grants-41420-0",
+   "org": "Dalberg Media",
+   "date": 1714608000,
+   "slug": "danish-alliance-for-global-health-contract-3",
+   "year": 2024,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Danish Alliance for Global Health (Contract)",
+   "amount": 472000
+  },
+  {
    "id": "grants-19962-0",
    "org": "Peterson Institute for International Economics",
    "date": 1714089600,
@@ -19141,6 +19694,18 @@
    ],
    "title": "Responsible Life Sciences Research",
    "amount": 900000
+  },
+  {
+   "id": "grants-41416-0",
+   "org": "Langsikt",
+   "date": 1688515200,
+   "slug": "support-for-general-policy-work",
+   "year": 2023,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Support for General Policy Work",
+   "amount": 90560
   },
   {
    "id": "grants-16933-0",
