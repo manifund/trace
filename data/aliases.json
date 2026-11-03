@@ -1,6 +1,8 @@
 {
   "_comment": "Curation crosswalk: raw name (as it appears in source data, pre-normalization) -> canonical org slug. Grows over time via `bun run report-unmatched`. Names here are matched after normalization, so case/punctuation variants are already covered.",
   "aliases": {
+    "RAND": "rand-corporation",
+    "Wageningen University (Dr. Hans van de Vis)": "wageningen-university-research",
     "Survival and Flourishing Fund (SFF)": "sff",
     "Survival & Flourishing Fund": "sff",
     "The Survival and Flourishing Fund": "sff",
