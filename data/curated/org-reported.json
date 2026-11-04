@@ -2214,6 +2214,19 @@
       ]
     },
     {
+      "recipient": "Mathematical AI Safety Institute",
+      "funder": "Coefficient Giving",
+      "amount": 10000000,
+      "currency": "USD",
+      "date": "2026-09-16",
+      "datePrecision": "day",
+      "description": "MAISI's first substantial funding installment, announced on its site.",
+      "sourceUrl": "https://maisi.org/#funding",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
       "recipient": "LawZero",
       "funder": "Future of Life Institute",
       "amount": 5000000,
