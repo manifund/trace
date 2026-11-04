@@ -402,7 +402,11 @@
     "Sentinel rapid emergency response team": "sentinel",
     "AI Policy Network": "the-ai-policy-network",
     "Americans for Responsible Innovation (ARI)": "americans-for-responsible-innovation",
-    "Center for Human-Compatible AI": "center-for-human-compatible-ai"
+    "Center for Human-Compatible AI": "center-for-human-compatible-ai",
+    "Pacific Forum International": "pacific-forum",
+    "Horizon Institute for Public Services": "horizon-institute-for-public-service",
+    "Center for Strategic & International Studies Inc": "center-for-strategic-and-international-studies",
+    "The Trustees of Princeton University": "princeton-university"
   },
   "_byRoleComment": "Same crosswalk, but only for one side of a grant. Needed where a source uses one label for both: EA Funds writes \"(Anonymous)\" for a grantee who asked not to be named, while Manifund and Vipul write it for a donor who did. A plain alias would send both to the same org and mislabel one of them.",
   "byRole": {

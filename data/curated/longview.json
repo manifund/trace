@@ -1,5 +1,5 @@
 {
-  "_comment": "Longview Philanthropy public grants (ECF/Longtermism Fund reports, featured grants, US 990 Schedule I), 2026-08-19. Most Longview-advised giving is private; this is the itemizable slice.",
+  "_comment": "Longview Philanthropy public grants (ECF/Longtermism Fund reports, featured grants), 2026-08-19. Most Longview-advised giving is private; this is the itemizable slice. Longview USA 990s are ingested by ingest-990.",
   "grants": [
     {
       "recipient": "Center for Human-Compatible Artificial Intelligence (UC Berkeley)",
@@ -280,16 +280,6 @@
       "description": "Evaluating AI-enabled biorisks. ECF 2025 Annual Report.",
       "program": "Emerging Challenges Fund",
       "sourceUrl": "https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view"
-    },
-    {
-      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 1 of 3)",
-      "amount": 504714,
-      "currency": "USD",
-      "date": "2024",
-      "datePrecision": "year",
-      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'. Recipient names are not required to be disclosed on Schedule F. Total FY2024 foreign grants: $892,714.",
-      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
-      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
     },
     {
       "recipient": "Massachusetts Institute of Technology (MIT)",

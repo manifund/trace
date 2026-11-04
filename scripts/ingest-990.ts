@@ -116,6 +116,32 @@ const FILERS: Filer[] = [
     recipientFilter: /^vox media/i,
     causes: () => ['ea-infrastructure'],
   },
+  {
+    // Longview's US entity (ruling 2024). Schedule I names US grantees, often
+    // a fiscal sponsor rather than the project (Rethink Priorities for Apollo
+    // Research); Schedule F foreign grants are region-only.
+    ein: '932664730',
+    funderName: 'Longview Philanthropy USA Inc.',
+    funderType: 'organization',
+    form: '990',
+    objectIds: [
+      '202503179349304265', // 2024
+      '202632619349300938', // 2025
+    ],
+    // Most rows say only "general support"; tag the recipients whose focus is
+    // unambiguous and let the rest fall through to keywords.
+    causes: (recipient, purpose) => {
+      if (
+        /horizon institute|foundation for secure ai|center for responsible innovation/i.test(
+          recipient
+        )
+      )
+        return ['ai-safety', 'ai-policy']
+      if (/\bai systems\b/i.test(purpose)) return ['ai-safety']
+      if (/physicists coalition|peace and security/i.test(purpose)) return ['x-risk-other']
+      return null
+    },
+  },
 ]
 
 function unescapeXml(text: string): string {
@@ -145,8 +171,10 @@ function displayName(name: string): string {
     .replace(/(^|[\s\-/(])([a-z])/g, (_, sep: string, ch: string) => sep + ch.toUpperCase())
 }
 
+// Some filers append a truncated country list ("EUROPE (...) - ALBANIA,
+// ANDORRA, ..."); keep only the region.
 function regionName(region: string): string {
-  return displayName(region)
+  return displayName(region.replace(/\s+-\s+.*$/, ''))
     .replace(/\bAnd\b/g, 'and')
     .replace(/\bThe\b/g, 'the')
 }

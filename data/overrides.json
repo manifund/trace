@@ -3273,6 +3273,32 @@
       "note": "Jaan's list names the fiscal sponsor (Sangro); the money is for Sam Eisenstat's research",
       "recipient_name": "Sam Eisenstat",
       "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "irs_990:932664730:202503179349304265:i:0": {
+      "note": "Longview USA FY2024 990 names the fiscal sponsor; ECF 2024 annual report lists the same $51k EU AI Act grant to Observatorio de Riesgos Catastróficos Globales.",
+      "recipient_name": "Observatorio de Riesgos Catastróficos Globales",
+      "fiscal_sponsor_name": "Players Philanthropy Fund, Inc."
+    },
+    "irs_990:932664730:202503179349304265:i:1": {
+      "note": "Longview USA FY2024 990 names the fiscal sponsor; ECF 2024 annual report lists the same $219k EU AI Act grant to Apollo Research.",
+      "recipient_name": "Apollo Research",
+      "fiscal_sponsor_name": "Rethink Priorities"
+    },
+    "irs_990:932664730:202503179349304265:f:1": {
+      "note": "Schedule F gives only the region; the $262k Europe grant matches ECF 2024 annual report's EU AI Act grant to SaferAI.",
+      "recipient_name": "SaferAI"
+    },
+    "irs_990:932664730:202503179349304265:f:2": {
+      "note": "Schedule F gives only the region; the $126k Europe grant matches ECF 2024 annual report's EU AI Act grant to Pour Demain.",
+      "recipient_name": "Pour Demain"
+    },
+    "irs_990:932664730:202632619349300938:f:3": {
+      "note": "Schedule F gives only the region; the grant purpose names the Centre for Long-Term Resilience.",
+      "recipient_name": "Centre for Long-Term Resilience"
+    },
+    "irs_990:932664730:202632619349300938:f:4": {
+      "note": "Schedule F gives only the region; the $346k Europe grant matches Longview's 2025 grant to Forethought Research.",
+      "recipient_name": "Forethought Research"
     }
   }
 }
