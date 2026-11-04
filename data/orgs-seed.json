@@ -174,6 +174,67 @@
       "aliases": []
     },
     {
+      "slug": "foundation-for-secure-ai",
+      "name": "Foundation for Secure AI",
+      "org_type": "organization",
+      "aliases": [
+        {
+          "name": "Foundation for Secure AI Inc",
+          "kind": "alias",
+          "note": "501(c)(3) sister of Secure AI Project (501(c)(4)); same Somerville address (secureaiproject.org/solicitation-disclosures)"
+        },
+        {
+          "name": "FSAI",
+          "kind": "abbreviation"
+        }
+      ]
+    },
+    {
+      "slug": "the-alliance-for-secure-ai",
+      "name": "The Alliance for Secure AI",
+      "org_type": "organization",
+      "website": "https://secureainow.org/",
+      "aliases": [
+        {
+          "name": "Future Tech Insights Inc",
+          "kind": "alias",
+          "note": "Legal name, EIN 99-4575862 (GuideStar); the 501(c)(3), not The Alliance for Secure AI Action"
+        },
+        {
+          "name": "Alliance for Secure AI",
+          "kind": "alias"
+        }
+      ]
+    },
+    {
+      "slug": "herbert-scoville-jr-peace-fellowship",
+      "name": "Herbert Scoville Jr. Peace Fellowship",
+      "org_type": "organization",
+      "website": "https://scoville.org/",
+      "aliases": [
+        {
+          "name": "Scoville Peace Fellowship",
+          "kind": "alias"
+        }
+      ]
+    },
+    {
+      "slug": "neuromatch",
+      "name": "Neuromatch",
+      "org_type": "organization",
+      "website": "https://neuromatch.io/",
+      "aliases": [
+        {
+          "name": "Neuromatch Inc",
+          "kind": "alias"
+        },
+        {
+          "name": "Neuromatch Academy",
+          "kind": "alias"
+        }
+      ]
+    },
+    {
       "slug": "mathematical-ai-safety-institute",
       "name": "Mathematical AI Safety Institute",
       "org_type": "organization",
