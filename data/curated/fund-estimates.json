@@ -220,7 +220,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 15561000,
+      "amount": 14967000,
       "currency": "USD",
       "date": "2024",
       "description": null,
@@ -244,7 +244,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 4641286,
+      "amount": 5235286,
       "currency": "USD",
       "date": "2024",
       "description": null,
@@ -256,7 +256,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Longview Philanthropy",
-      "amount": 59435000,
+      "amount": 54375629,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -273,18 +273,6 @@
       "date": "2025",
       "description": null,
       "program": "Aggregate estimate — biosecurity",
-      "sourceUrl": null,
-      "amountEstimated": true,
-      "estimateNote": "Estimated total given out by Longview Philanthropy in 2025; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
-    },
-    {
-      "recipient": "Various Recipients",
-      "funder": "Longview Philanthropy",
-      "amount": 1290000,
-      "currency": "USD",
-      "date": "2025",
-      "description": null,
-      "program": "Aggregate estimate — other existential risk",
       "sourceUrl": null,
       "amountEstimated": true,
       "estimateNote": "Estimated total given out by Longview Philanthropy in 2025; grants recorded individually in this database are subtracted from the total. Non-AI giving is split evenly between biosecurity and other existential risk."
@@ -664,7 +652,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 52721764,
+      "amount": 51133834,
       "currency": "USD",
       "date": "2025",
       "description": null,
@@ -676,7 +664,7 @@
     {
       "recipient": "Various Recipients",
       "funder": "Coefficient Giving",
-      "amount": 41131290,
+      "amount": 24321290,
       "currency": "USD",
       "date": "2026",
       "description": null,
@@ -880,14 +868,14 @@
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 699717204,
+      "amount": 698129274,
       "currency": "USD",
       "date": "2025",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $899,717,204 in 2025 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $898,129,274 in 2025 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -899,19 +887,19 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $899,717,204 in 2025 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $898,129,274 in 2025 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Coefficient Giving",
       "funder": "Good Ventures Foundation",
-      "amount": 924338376,
+      "amount": 907528376,
       "currency": "USD",
       "date": "2026",
       "description": null,
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,124,338,376 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,107,528,376 in 2026 per this database, including estimated giving. Good Ventures is assumed to have funded all but $200m of it."
     },
     {
       "recipient": "Coefficient Giving",
@@ -923,7 +911,7 @@
       "program": "Aggregate estimate — Coefficient Giving grantmaking",
       "sourceUrl": null,
       "amountEstimated": true,
-      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,124,338,376 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
+      "estimateNote": "Coefficient Giving (then Open Philanthropy) granted $1,107,528,376 in 2026 per this database, including estimated giving. Funding beyond Good Ventures' assumed share is attributed to various donors."
     },
     {
       "recipient": "Various Recipients",

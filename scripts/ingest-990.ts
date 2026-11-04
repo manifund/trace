@@ -131,11 +131,7 @@ const FILERS: Filer[] = [
     // Most rows say only "general support"; tag the recipients whose focus is
     // unambiguous and let the rest fall through to keywords.
     causes: (recipient, purpose) => {
-      if (
-        /horizon institute|foundation for secure ai|center for responsible innovation/i.test(
-          recipient
-        )
-      )
+      if (/foundation for secure ai|center for responsible innovation/i.test(recipient))
         return ['ai-safety', 'ai-policy']
       if (/\bai systems\b/i.test(purpose)) return ['ai-safety']
       if (/physicists coalition|peace and security/i.test(purpose)) return ['x-risk-other']

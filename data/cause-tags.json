@@ -2248,7 +2248,7 @@
       "animal-welfare"
     ],
     "sff:fbfe1f27f42bc9723707bf003bd2c1ec7cf9721545fcb3e09b3f4baec30ea589": [
-      "other"
+      "technical-governance"
     ],
     "ea_funds:rec7CsLrxdeuh7lmh": [
       "research-hubs"
@@ -10798,7 +10798,7 @@
       "other"
     ],
     "sff:5f20a5dfdd0ec9307a70630f94e93baa3e05fefb8fb2a1f488b07696e6974672": [
-      "other"
+      "ai-policy"
     ],
     "sff:9277d6fda116ef3c515fff79e095a2d61d0fab33a2862f5e5c3d74e0c1b63dd7": [
       "other"
@@ -20268,6 +20268,12 @@
     ],
     "jefftk:563a1ee98ed30d84390afd487090408f858e7e6f026774d91ec66925024658c4": [
       "ai-advocacy"
+    ],
+    "longview:e33e576f3751b11e38f29009b8c8beef53b9ce3719476abdb948e798c4189649": [
+      "ai-strategy"
+    ],
+    "manifund:c7c4cc74-779e-42b8-3788-4fb4ffabdfab": [
+      "ai-strategy"
     ]
   }
 }

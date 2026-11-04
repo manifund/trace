@@ -3299,6 +3299,22 @@
     "irs_990:932664730:202632619349300938:f:4": {
       "note": "Schedule F gives only the region; the $346k Europe grant matches Longview's 2025 grant to Forethought Research.",
       "recipient_name": "Forethought Research"
+    },
+    "manifund:3d08b1f9-996b-1b3c-9a32-c2fea37157dc": {
+      "note": "Creator keltokhy1 now shows as \"Khaled E\" on Manifund; keep the existing person page.",
+      "recipient_name": "Khaled Eltokhy"
+    },
+    "manifund:f5e7ac6d-24ff-4275-5fb4-2d6939d16be4": {
+      "note": "Creator ajskateboarder now shows as \"aj\" on Manifund; keep the existing person page.",
+      "recipient_name": "Aditya Joshi"
+    },
+    "manifund:40792b1f-74c0-2705-2667-a2dce8c83148": {
+      "note": "Creator matthew_david now shows as \"M. David\" on Manifund; keep the existing person page.",
+      "recipient_name": "loops"
+    },
+    "manifund:ebbcd92e-e49f-c4ea-b69f-cb38fc9313fd:maya": {
+      "note": "Donor maya now shows as \"Maya R\" on Manifund; keep the existing person page.",
+      "funder_name": "Maya Ravichandran"
     }
   }
 }
