@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-11-02T20:26:09.631Z",
+ "exported_at": "2026-11-09T20:53:19.323Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -282,6 +282,30 @@
    "amount": 3830000
   },
   {
+   "id": "grants-41739-0",
+   "org": "Center for Global Development",
+   "date": 1787616000,
+   "slug": "documenting-impacts-of-u-s-foreign-aid-policy",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Documenting Impacts of U.S. Foreign Aid Policy",
+   "amount": 999269
+  },
+  {
+   "id": "grants-41741-0",
+   "org": "Focus 2030",
+   "date": 1787616000,
+   "slug": "support-for-coalition-2030-in-france",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Support for Coalition 2030 in France",
+   "amount": 534721
+  },
+  {
    "id": "grants-41385-0",
    "org": "Columbia University",
    "date": 1787529600,
@@ -364,6 +388,18 @@
    ],
    "title": "Careers-Focused Impact Accelerator",
    "amount": 50000
+  },
+  {
+   "id": "grants-41737-0",
+   "org": "Global Dialogue",
+   "date": 1787097600,
+   "slug": "support-for-the-launch-of-uk-global-health-alliance",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Support for the Launch of UK Global Health Alliance",
+   "amount": 1200000
   },
   {
    "id": "grants-40904-0",
@@ -837,6 +873,18 @@
    "amount": 650000
   },
   {
+   "id": "grants-41735-0",
+   "org": "Malaria No More",
+   "date": 1785196800,
+   "slug": "u-s-aid-policy-support",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "U.S. Aid Policy Support",
+   "amount": 225000
+  },
+  {
    "id": "grants-40887-0",
    "org": "Animal Welfare Research Network",
    "date": 1785110400,
@@ -1255,6 +1303,18 @@
    "amount": 100000
   },
   {
+   "id": "grants-41733-0",
+   "org": "Center for Global Health Diplomacy",
+   "date": 1783641600,
+   "slug": "multilateral-global-health-aid-advocacy",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Multilateral Global Health Aid Advocacy",
+   "amount": 2000000
+  },
+  {
    "id": "grants-39767-0",
    "org": "ChinaTalk",
    "date": 1783555200,
@@ -1402,6 +1462,30 @@
    "amount": 1393570
   },
   {
+   "id": "grants-41729-0",
+   "org": "Karolinska Institutet",
+   "date": 1782432000,
+   "slug": "global-health-research-and-advocacy-hub",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health Research and Advocacy Hub",
+   "amount": 482215
+  },
+  {
+   "id": "grants-41731-0",
+   "org": "Save the Children Japan",
+   "date": 1782432000,
+   "slug": "global-health-aid-learning-trips",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health Aid Learning Trips",
+   "amount": 290000
+  },
+  {
    "id": "grants-39894-0",
    "org": "Rutgers University",
    "date": 1782345600,
@@ -1460,7 +1544,7 @@
     "Global Aid Policy"
    ],
    "title": "Secretariat and Evidence Generation",
-   "amount": 2884000
+   "amount": 1425000
   },
   {
    "id": "grants-40116-0",
@@ -2077,12 +2161,12 @@
    "id": "grants-39711-0",
    "org": "University of Oxford",
    "date": 1779235200,
-   "slug": "oxford-ai-governance-initiative",
+   "slug": "ai-policy-work",
    "year": 2026,
    "areas": [
     "Navigating Transformative AI"
    ],
-   "title": "Oxford AI Governance Initiative",
+   "title": "AI Policy Work",
    "amount": 8705000
   },
   {
@@ -2360,7 +2444,6 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
-    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Travel Scholarships to World Conference on Lung Health",
@@ -2607,8 +2690,7 @@
    "year": 2026,
    "areas": [
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Mapping Anti-Inflammatory Effects of the APOE3 Ch Gene (David Aguillon and Rafael Posada)",
    "amount": 905520
@@ -2621,8 +2703,7 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Antimalarial Gene Drive Support",
    "amount": 2100000
@@ -3248,8 +3329,7 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Development of Aerosolized Tuberculosis Vaccine",
    "amount": 2607186
@@ -3310,6 +3390,7 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Infrastructure for Tuberculosis Vaccine Trials",
@@ -3487,6 +3568,7 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Tuberculosis Vaccine Trial Infrastructure",
@@ -4073,6 +4155,8 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
+    "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Pediatric Sepsis Research",
@@ -4547,6 +4631,7 @@
    "year": 2026,
    "areas": [
     "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Pre-eclampsia Research",
@@ -4706,7 +4791,6 @@
    "year": 2026,
    "areas": [
     "Infectious Diseases",
-    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Malaria Vaccine Modeling",
@@ -4940,7 +5024,6 @@
    "slug": "sepsis-treatment",
    "year": 2026,
    "areas": [
-    "Noninfectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -5169,19 +5252,7 @@
     "Navigating Transformative AI"
    ],
    "title": "Study on Model Organisms of Reward-Hacking (Shi Feng and Kianté Brantley)",
-   "amount": 748000
-  },
-  {
-   "id": "grants-39509-0",
-   "org": "Harvard College",
-   "date": 1766016000,
-   "slug": "model-organisms-of-reward-hacking-kiante-brantley-and-shi-feng",
-   "year": 2025,
-   "areas": [
-    "Navigating Transformative AI"
-   ],
-   "title": "Model Organisms of Reward Hacking (Kianté Brantley and Shi Feng)",
-   "amount": 748000
+   "amount": 2995000
   },
   {
    "id": "grants-38265-0",
@@ -5263,6 +5334,7 @@
    "year": 2025,
    "areas": [
     "Maternal and Newborn Health",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Essential Newborn Care Training Trial",
@@ -5324,6 +5396,7 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Evaluating Single Dose Efficacy of the HPV Vaccine, Cervavac",
@@ -5412,8 +5485,7 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Syphillis Vaccine Research",
    "amount": 885222
@@ -5732,7 +5804,9 @@
    "slug": "diagnostic-for-sepsis-in-infants",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
     "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Diagnostic for Sepsis in Infants",
@@ -6370,7 +6444,9 @@
    "slug": "rheumatic-heart-disease-screening-and-treatment-trial-in-uganda",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
     "Noninfectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Rheumatic Heart Disease Screening and Treatment Trial in Uganda",
@@ -6652,8 +6728,7 @@
    "year": 2025,
    "areas": [
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Dosing Study for Alzheimer's Treatment",
    "amount": 300000
@@ -6713,6 +6788,7 @@
    "slug": "veupath-database",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -7145,6 +7221,7 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Seasonal Malaria Chemoprevention in School-aged Children Trial Preparation",
@@ -8241,8 +8318,7 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "RCT for Treatment of Cryptosporidiosis in Infants",
    "amount": 2200000
@@ -8327,8 +8403,7 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Novel Vaccine Candidates (Investment)",
    "amount": 7500000
@@ -9140,6 +9215,21 @@
    ],
    "title": "Structure-Preserving Maps Between LLMs (Tom Coates)",
    "amount": 429649
+  },
+  {
+   "id": "grants-36958-0",
+   "org": "Center for Global Development Europe",
+   "date": 1750809600,
+   "slug": "neonatal-sepsis-diagnostic-advance-market-commitment",
+   "year": 2025,
+   "areas": [
+    "Infectious Diseases",
+    "Maternal and Newborn Health",
+    "Noninfectious Diseases",
+    "Science and Global Health R&D"
+   ],
+   "title": "Neonatal Sepsis Diagnostic Advance Market Commitment",
+   "amount": 680000
   },
   {
    "id": "grants-38199-0",
@@ -10079,7 +10169,6 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Syphilis Immunology Analysis",
@@ -10389,7 +10478,8 @@
    "year": 2025,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Immunization Research",
    "amount": 1980000
@@ -10733,6 +10823,7 @@
    "slug": "general-support-6",
    "year": 2025,
    "areas": [
+    "Noninfectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -10798,6 +10889,7 @@
    "slug": "stanford-university-in-vitro-immunology",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -11083,6 +11175,7 @@
    "year": 2025,
    "areas": [
     "Human Health and Wellbeing",
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -11293,6 +11386,7 @@
    "slug": "childrens-national-research-institute-diagnostic-ai-for-rheumatic-heart-disease",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
     "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
@@ -11534,12 +11628,12 @@
    "id": "grants-25980-0",
    "org": "University of Oxford",
    "date": 1740960000,
-   "slug": "university-of-oxford-oxford-ai-governance-initiative",
+   "slug": "ai-policy-work-2",
    "year": 2025,
    "areas": [
     "Navigating Transformative AI"
    ],
-   "title": "Oxford AI Governance Initiative",
+   "title": "AI Policy Work",
    "amount": 5423018
   },
   {
@@ -11659,6 +11753,8 @@
    "slug": "1day-sooner-general-support-2025",
    "year": 2025,
    "areas": [
+    "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "General Support",
@@ -12830,8 +12926,7 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Antimalarial Drug (Investment)",
    "amount": 900000
@@ -12977,6 +13072,7 @@
    "slug": "drugs-diagnostics-for-tropical-diseases-rapid-diagnostic-tests",
    "year": 2024,
    "areas": [
+    "Infectious Diseases",
     "Policy and Practice",
     "Science and Global Health R&D"
    ],
@@ -13226,6 +13322,8 @@
    "slug": "cures-within-reach-generic-drug-trials-2024",
    "year": 2024,
    "areas": [
+    "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Generic Drug Trials",
@@ -13324,6 +13422,8 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
+    "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Novel Sepsis Diagnosis Method",
@@ -13385,7 +13485,9 @@
    "slug": "the-university-of-manitoba-colostrum-research",
    "year": 2024,
    "areas": [
+    "Infectious Diseases",
     "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Colostrum Research",
@@ -13484,6 +13586,7 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Next-Generation Malaria Vaccines",
@@ -13744,6 +13847,7 @@
    "slug": "clinton-health-access-initiative-sickle-cell-disease-market-shaping",
    "year": 2024,
    "areas": [
+    "Noninfectious Diseases",
     "Policy and Practice",
     "Science and Global Health R&D"
    ],
@@ -13793,7 +13897,9 @@
    "slug": "dalhousie-university-colostrum-and-neonatal-sepsis-research",
    "year": 2024,
    "areas": [
+    "Infectious Diseases",
     "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Colostrum Research",
@@ -14328,6 +14434,7 @@
    "year": 2024,
    "areas": [
     "Noninfectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Snakebite Therapies",
@@ -14900,6 +15007,8 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
+    "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Pediatric Sepsis Treatment",
@@ -14989,7 +15098,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Syphilis Vaccine Development (Lorenzo Giacani)",
@@ -15485,6 +15593,7 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Strep A Vaccine Research",
@@ -15780,6 +15889,7 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Loiasis (African Eye Worm) Impact Study",
@@ -15867,7 +15977,6 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
-    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Malaria Vaccine Research",
@@ -16352,7 +16461,6 @@
    "year": 2024,
    "areas": [
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Syphilis Medication Trials",
@@ -17578,6 +17686,7 @@
    "slug": "harvard-university-fluorescent-imaging-for-in-vivo-monitoring",
    "year": 2024,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Scientific Innovation: Tools and Techniques",
     "Transformative Science"
@@ -17880,6 +17989,7 @@
    "year": 2023,
    "areas": [
     "Human Health and Wellbeing",
+    "Noninfectious Diseases",
     "Policy and Practice",
     "Science and Global Health R&D"
    ],
@@ -17992,6 +18102,8 @@
    "slug": "the-university-of-queensland-strepa-vaccine-research",
    "year": 2023,
    "areas": [
+    "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Strep A Vaccine Research",
@@ -18152,6 +18264,8 @@
    "slug": "clinton-health-access-initiative-tuberculosis-drug-price-reduction",
    "year": 2023,
    "areas": [
+    "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Tuberculosis Drug Price Reduction",
@@ -18546,7 +18660,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Linezolid Trial for Syphilis",
@@ -18619,6 +18732,7 @@
    "slug": "clinton-health-access-initiative-scoping-grant-for-sickle-cell-disease-market-shaping",
    "year": 2023,
    "areas": [
+    "Noninfectious Diseases",
     "Policy and Practice",
     "Science and Global Health R&D"
    ],
@@ -18942,7 +19056,8 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Immunization Research",
    "amount": 500000
@@ -19617,7 +19732,8 @@
    "year": 2023,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Influenza Antiviral Drug (Investment)",
    "amount": 1000000
@@ -20078,7 +20194,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -20339,6 +20454,8 @@
    "slug": "cures-within-reach-generic-drug-trials",
    "year": 2023,
    "areas": [
+    "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Generic Drug Trials",
@@ -21333,6 +21450,7 @@
    "slug": "gordon-research-conferences-genetic-biocontrol-conference",
    "year": 2023,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -21968,6 +22086,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Maternal and Newborn Health",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Omega-3 Trial for Pregnant Women",
@@ -22635,6 +22754,7 @@
    "year": 2022,
    "areas": [
     "Human Health and Wellbeing",
+    "Infectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Tuberculosis Diagnostic via Raman Spectroscopy",
@@ -22743,9 +22863,7 @@
    "slug": "data-for-decisions-syphilis-vaccine-economic-research",
    "year": 2022,
    "areas": [
-    "Global Health & Wellbeing Opportunities",
-    "Infectious Diseases",
-    "Maternal and Newborn Health"
+    "Global Health & Wellbeing Opportunities"
    ],
    "title": "Syphilis Vaccine Economic Research (Contract)",
    "amount": 414804
@@ -22784,7 +22902,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -22940,7 +23057,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -24268,8 +24384,7 @@
    "areas": [
     "GiveWell-Recommended Charities",
     "Global Health & Development",
-    "Global Health & Wellbeing Opportunities",
-    "Maternal and Newborn Health"
+    "Global Health & Wellbeing Opportunities"
    ],
    "title": "Syphilis Screening and Treatment",
    "amount": 13818773
@@ -24840,7 +24955,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -26265,9 +26379,7 @@
    "year": 2022,
    "areas": [
     "Infectious Diseases",
-    "Maternal and Newborn Health",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Syphilis Diagnostic (Caroline Cameron)",
    "amount": 2000000
@@ -26411,9 +26523,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Syphilis Vaccine Development",
    "amount": 4563250
@@ -26524,6 +26634,7 @@
    "year": 2022,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "COVID-19 Fractional Dosing Trial",
@@ -26842,7 +26953,8 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Immunization Research",
    "amount": 350000
@@ -26917,7 +27029,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Syphilis Vaccine Development (David Baker and Neil King)",
@@ -27079,6 +27190,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Research on Chronic Viral Infections ",
@@ -27914,7 +28026,6 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Maternal and Newborn Health",
     "Science and Global Health R&D"
    ],
    "title": "Syphilis Vaccine Development (Lorenzo Giacani)",
@@ -28158,8 +28269,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Tuberculosis Diagnosis (Adithya Cattamanchi and Sarah Stanley)",
    "amount": 60000
@@ -28732,6 +28842,7 @@
    "slug": "stanford-university-research-on-lipid-nanoparticles-jeffrey-glenn",
    "year": 2021,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Science Supporting Biosecurity and Pandemic Preparedness",
     "Transformative Science"
@@ -29797,8 +29908,8 @@
    "slug": "university-of-new-south-wales-in-vitro-fertilization-research-robert-gilchrist",
    "year": 2020,
    "areas": [
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Noninfectious Diseases",
+    "Science and Global Health R&D"
    ],
    "title": "In Vitro Fertilization Research (Robert Gilchrist)",
    "amount": 2500000
@@ -29862,8 +29973,7 @@
    "year": 2020,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Malaria Prevention Research (Jeremy Herren)",
    "amount": 2199645
@@ -30488,8 +30598,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Award in Pain Scholars",
    "amount": 330000
@@ -30652,8 +30761,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Antimalarial Drug (Investment)",
    "amount": 1999999
@@ -30751,6 +30859,7 @@
    "year": 2020,
    "areas": [
     "Other Scientific Research Areas",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Research on Emergency Food Resilience (Charles Anderson)",
@@ -31073,6 +31182,7 @@
    "year": 2020,
    "areas": [
     "Human Health and Wellbeing",
+    "Infectious Diseases",
     "Policy and Practice",
     "Science and Global Health R&D"
    ],
@@ -31216,9 +31326,8 @@
    "slug": "californians-for-stem-cell-research-treatments-and-cures-california-institute-for-regenerative-medicine",
    "year": 2020,
    "areas": [
-    "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Policy and Practice",
+    "Science and Global Health R&D"
    ],
    "title": "California Institute for Regenerative Medicine",
    "amount": 580000
@@ -31230,7 +31339,6 @@
    "slug": "rockefeller-university-viral-histone-mimics-alexander-tarakhovsky-2020",
    "year": 2020,
    "areas": [
-    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -31321,8 +31429,7 @@
    "year": 2020,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Pandemic Preemption System (Pardis Sabeti and Christian Happi)",
    "amount": 1000000
@@ -31549,8 +31656,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Malaria Gene Drive Feasibility Analysis (Greg Lanzaro)",
    "amount": 1500000
@@ -32774,6 +32880,7 @@
    "year": 2019,
    "areas": [
     "Other Scientific Research Areas",
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "Emergency Food Research (Charles Anderson)",
@@ -32887,6 +32994,7 @@
    "slug": "engineers-without-borders-usa-off-grid-refrigeration-challenge",
    "year": 2019,
    "areas": [
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Off-Grid Refrigeration Challenge",
@@ -32925,8 +33033,7 @@
    "year": 2019,
    "areas": [
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Epigenetic Clock Research (Steve Horvath)",
    "amount": 2368300
@@ -33185,8 +33292,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Vascular Therapy Research",
    "amount": 180000
@@ -33515,6 +33621,7 @@
    "year": 2019,
    "areas": [
     "Infectious Diseases",
+    "Policy and Practice",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -34068,8 +34175,7 @@
    "year": 2018,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Malaria Control Research Project",
    "amount": 1044501
@@ -34221,8 +34327,7 @@
    "year": 2018,
    "areas": [
     "Noninfectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Chronic Pain Research (Allan Basbaum)",
    "amount": 1021318
@@ -35723,6 +35828,7 @@
    "slug": "duke-university-co-crystallization-of-hsp70i-and-inhibitor-hs-72-timothy-haystead",
    "year": 2017,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -36031,7 +36137,6 @@
    "year": 2017,
    "areas": [
     "Infectious Diseases",
-    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "General Support",
@@ -36676,7 +36781,8 @@
    "slug": "uc-berkeley-plant-pathology-workshop-brian-staskawicz",
    "year": 2016,
    "areas": [
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Plant Pathology Workshop (Brian Staskawicz)",
    "amount": 63000
@@ -36925,6 +37031,7 @@
    "slug": "cdc-foundation-malaria-control-research-2016",
    "year": 2016,
    "areas": [
+    "Infectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Malaria Control Research",
@@ -37098,8 +37205,7 @@
    "year": 2016,
    "areas": [
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Working Group on Malaria Gene Drive Testing Path",
    "amount": 1228845
@@ -37257,6 +37363,7 @@
    "slug": "future-of-research-general-support",
    "year": 2016,
    "areas": [
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "General Support",
@@ -37447,6 +37554,7 @@
    "slug": "princeton-university-rescuing-biomedical-research-2016",
    "year": 2016,
    "areas": [
+    "Policy and Practice",
     "Science and Global Health R&D"
    ],
    "title": "General Support",
