@@ -408,7 +408,8 @@
     "Pacific Forum International": "pacific-forum",
     "Horizon Institute for Public Services": "horizon-institute-for-public-service",
     "Center for Strategic & International Studies Inc": "center-for-strategic-and-international-studies",
-    "The Trustees of Princeton University": "princeton-university"
+    "The Trustees of Princeton University": "princeton-university",
+    "Ben Hoffman": "benjamin-hoffman"
   },
   "_byRoleComment": "Same crosswalk, but only for one side of a grant. Needed where a source uses one label for both: EA Funds writes \"(Anonymous)\" for a grantee who asked not to be named, while Manifund and Vipul write it for a donor who did. A plain alias would send both to the same org and mislabel one of them.",
   "byRole": {

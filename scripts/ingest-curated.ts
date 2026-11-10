@@ -129,6 +129,16 @@ const SOURCES: CuratedSource[] = [
     programCauses: () => ['ai-safety'],
   },
   {
+    // Rows carry explicit causes (unknowns fall to the keyword classifier) and
+    // keys from Lightcone's recipient ids, since amounts are lower bounds that
+    // can move when another evaluator's order is made public.
+    sourceId: 'lightcone_commons',
+    file: 'lightcone-commons.json',
+    // A funding platform, not the funder: rows name Lightcone Commons as via.
+    defaultFunder: 'Unknown Donors',
+    funderType: 'organization',
+  },
+  {
     sourceId: 'lightcone_990',
     file: 'lightcone-990.json',
     defaultFunder: 'Lightcone Foundation',

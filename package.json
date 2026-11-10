@@ -27,6 +27,7 @@
     "find-org-links": "bun run scripts/find-org-links.ts",
     "find-person-links": "bun run scripts/find-person-links.ts",
     "fetch-logos": "bun run scripts/fetch-logos.ts",
+    "fetch-lightcone-commons": "bun run scripts/fetch-lightcone-commons.ts",
     "fetch-zvi-reviews": "bun run scripts/fetch-zvi-reviews.ts",
     "fetch-mdickens-reviews": "bun run scripts/fetch-mdickens-reviews.ts",
     "fetch-ltff-reviews": "bun run scripts/fetch-ltff-reviews.ts",

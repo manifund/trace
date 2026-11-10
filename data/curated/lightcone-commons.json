@@ -1,0 +1,1967 @@
+{
+  "_comment": "Lightcone Commons rounds, written by scripts/fetch-lightcone-commons.ts from the public evaluator profiles at lightconecommons.com/profiles (the `funded` map embedded in each page) and the round summary on the homepage. Per-recipient totals are not published: each amount is the largest funded figure across the public profiles, and an Unknown Recipients row per round takes the rest of the round total. The funders are unnamed, so each grant is from Unknown Donors via Lightcone Commons. Hand mappings (recipient names, causes) live in the script.",
+  "grants": [
+    {
+      "recipient": "Palisade Research",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 4644214,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Elizabeth Van Nostrand, Eliezer Yudkowsky, Oliver Habryka, Lowe Lundin, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EVN2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:a6d6aef0-cb19-4b62-80c4-d7db4917d175",
+      "causes": [
+        "evals"
+      ]
+    },
+    {
+      "recipient": "Anima Labs",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 2142857,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz, Scott Siskind, Richard Ngo, Nathan Young, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:43a17e6c-ca2e-46b5-a160-936be75d7212",
+      "causes": [
+        "digital-minds"
+      ]
+    },
+    {
+      "recipient": "AI Futures Project",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 2000000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin, Oliver Habryka, Nate Soares.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:ebcf2560-52d9-48e6-ab3a-e2c54b35421b",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "Encode AI",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 2000000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Scott Siskind, Nate Soares, Oliver Habryka, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:127450f6-78e7-4f00-b169-6e77baea0a41",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Nightingale",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 1963400,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nate Soares, Scott Siskind, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:762ee2b1-9303-41f4-89a0-8051b2065df8",
+      "causes": [
+        "ai-safety"
+      ]
+    },
+    {
+      "recipient": "Sparrow Infrastructure",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 1237040,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nathan Young, Zvi Mowshowitz, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:18a047de-fb44-48e4-88d7-faf3df3429d6",
+      "causes": [
+        "ai-safety"
+      ]
+    },
+    {
+      "recipient": "80,000 Hours",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 1177786,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nathan Young, Robert Mushkatblat, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4473b17a-ce99-45c1-b09b-da13ff1df61d",
+      "causes": [
+        "career-transition"
+      ]
+    },
+    {
+      "recipient": "AI Impacts",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 963685,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Nathan Young, Lowe Lundin, Zvi Mowshowitz, Nate Soares, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:63cbc238-0e2e-402b-80f2-2c354dccda4c",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "Secure AI Project",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 858064,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:e61f07c5-962e-454b-93c8-fb7068d11ab0",
+      "causes": [
+        "ai-policy"
+      ]
+    },
+    {
+      "recipient": "Mox",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 813000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:a2411070-8fea-4670-acf4-099280cc9ce2",
+      "causes": [
+        "research-hubs"
+      ]
+    },
+    {
+      "recipient": "Bicameral Labs",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 800000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d760b26f-a38f-4943-a927-40ec93e8b81b"
+    },
+    {
+      "recipient": "CeSIA",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 765000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:855afc7f-902a-405b-814e-7dbe7eac473b",
+      "causes": [
+        "ai-policy"
+      ]
+    },
+    {
+      "recipient": "Rationality Meetups",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 700000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nathan Young, Zvi Mowshowitz, Oliver Habryka, Elizabeth Van Nostrand, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:21406996-c7f1-40b2-9f5d-a36f67c79589",
+      "causes": [
+        "epistemic-infrastructure"
+      ]
+    },
+    {
+      "recipient": "Lauren Daugherty (American Shield)",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 629965,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "American Shield. Public evaluators: Nate Soares.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:dc54dcf2-638c-47ae-af51-4c8e7f5c70ab",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Alignment of Complex Systems Research Group",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 600000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "ACS Research. Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:c71b9661-969a-4781-ac01-3272215af391",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "Institute for Responsible Superintelligence",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 571429,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:aeb219c2-9977-42e0-b11b-284901fb21e7",
+      "causes": [
+        "ai-safety"
+      ]
+    },
+    {
+      "recipient": "Humanitarian OpenStreetMap Team",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 533130,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Elizabeth Van Nostrand.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EVN2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:1c146764-3524-4aab-854c-a405cfd9ac6f",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Berkeley Genomics Project",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 500000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Zvi Mowshowitz, Eliezer Yudkowsky, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:80c6ffce-80af-4542-b356-4ad454e67ce0",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Ovelle Bio",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 500000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Ovelle Bio Corp. (Nonprofit Operations). Public evaluators: Zvi Mowshowitz, Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:75689872-c88e-4ec4-8742-9ed45eff3c0f",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "SciencePetr",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 487100,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Robert Mushkatblat, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:fcd584ac-8649-4ee8-9fac-29adc3cf5900"
+    },
+    {
+      "recipient": "Who Decides",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 439866,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d70c1e58-b8c2-4444-8106-bfe88fa3b240",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Multi-agent Rationality Research",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 400000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Eliezer Yudkowsky.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:437e294d-10eb-411f-9f51-1ddbc24b7b64"
+    },
+    {
+      "recipient": "Stop The AI Race",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 400000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:6da17a88-77dd-47e0-b9da-176daf6dd1ce",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Rob Miles AI Safety",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 350000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Oliver Habryka, Zvi Mowshowitz, Nate Soares, Robert Mushkatblat, Lowe Lundin, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4ba38696-195b-474a-88aa-a5ec0de08229",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "AI Strategy Team",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 325000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:84ea162a-fa82-4dc0-8d16-b86cf72f17f2",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "Technology Strategy Roleplay",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 311565,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Nathan Young, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:7b2335f9-caec-42ca-8c5d-66656ee7b61e",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "Principles of Intelligence",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 300000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:3f2409f0-00e5-44bd-9898-40911a2df649",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "Vibecamp",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 300000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:31c70a0f-8fdb-4767-a600-6faeafe7129f",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Cognitive Amplification Research Institute",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 280000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Oliver Habryka, Robert Mushkatblat, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:8eaf1a60-5548-4d0b-b5eb-15d1de0398a5",
+      "causes": [
+        "x-risk-other"
+      ]
+    },
+    {
+      "recipient": "Manifold Markets",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 275000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Robert Mushkatblat, Nathan Young.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:1c3c7872-fbb8-45e2-959b-01404eff9970",
+      "causes": [
+        "epistemic-infrastructure"
+      ]
+    },
+    {
+      "recipient": "Sentinel Research",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 250000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nathan Young.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:c125ce35-8f3e-42d7-9bb5-ed9224469aa5",
+      "causes": [
+        "x-risk-other"
+      ]
+    },
+    {
+      "recipient": "The Metascience Observatory",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 250000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:b018a2f0-1a13-4834-b567-abd3c99595b6",
+      "causes": [
+        "epistemic-infrastructure"
+      ]
+    },
+    {
+      "recipient": "ERA",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 238500,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "ERA – Frontier AI Security & Verification Testbed. Public evaluators: Eliezer Yudkowsky, Scott Siskind, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4a7b8c75-ac33-4e18-835f-ddd72640aa32",
+      "causes": [
+        "technical-governance"
+      ]
+    },
+    {
+      "recipient": "Gretta Duleba",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 225785,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Gretta Duleba – Independent Research. Public evaluators: Elizabeth Van Nostrand, Oliver Habryka, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EVN2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:0c06ca31-7132-425f-8c88-ffcd174a4f67",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "ClusterFree",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 214000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4e5683ab-7c38-4c3d-b007-e5387c485908",
+      "causes": [
+        "global-health-development"
+      ]
+    },
+    {
+      "recipient": "Antimemetic AI Institute",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 200000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:703a2fea-1629-4fd2-92b0-69cd78b40218"
+    },
+    {
+      "recipient": "Lens Academy",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 200000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4e5766e1-73c9-4c04-b60d-d5371d6e10c6",
+      "causes": [
+        "training-pipelines"
+      ]
+    },
+    {
+      "recipient": "MachineGod Productions, LLC",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 200000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:1470ad88-6aa5-468a-a2dc-02253547951d"
+    },
+    {
+      "recipient": "Common Mechanics",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 189830,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:253bb42b-df52-440d-be4b-b295f36db772"
+    },
+    {
+      "recipient": "Beacon Institute for Global Catastrophic Risk",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 185000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:a85a77bf-27bf-4ae2-934b-9410782ea63f",
+      "causes": [
+        "x-risk-other"
+      ]
+    },
+    {
+      "recipient": "Making unlearning robust",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 180000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:89681ca0-e94d-4d35-9d3f-4a0ba2a900e1",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "ERA",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 163715,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "ERA – AIxComms. Public evaluators: Robert Mushkatblat, Elizabeth Van Nostrand, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:65429c98-ab6b-41e9-a1d1-16720993e664",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Helping Rob Miles (and others in the AI Safety space)",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 156250,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz, Lowe Lundin, Oliver Habryka, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:faf4394d-7ee4-48ed-af38-9c351f402d75",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Cascade: AI Safety Influencer Comms Agency",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 156000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nate Soares, Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:60df44e2-23a3-44b2-80a4-456206d61483",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Ben Hoffman",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4532ba90-4672-4d43-81d5-f2007ae5aa4b"
+    },
+    {
+      "recipient": "Berkeley House Rental",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d49ce9c9-8c55-4935-8d10-4a7571dcb2fe",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Effective Theories of Agency",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:a40c9a22-80d3-4243-b5e7-38cd29917528",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "Groundless Alignment",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:82538f62-a58c-4576-b24c-40620365e84a"
+    },
+    {
+      "recipient": "Gwern Branwen",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Gwern.net (and other websites and projects). Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:f2955186-9ac9-4414-a70a-b83e6b0e1825",
+      "causes": [
+        "epistemic-infrastructure"
+      ]
+    },
+    {
+      "recipient": "Elaine Perlman",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "More End Kidney Deaths campaigning. Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:cd9b6f7c-a1ef-4c85-8b7d-809b827ff89a",
+      "causes": [
+        "global-health-development"
+      ]
+    },
+    {
+      "recipient": "Swift Centre for Applied Forecasting",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Swift Centre Research. Public evaluators: Nathan Young.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:6a1dedab-e300-4f57-9903-5e504252fe25",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "Working Load",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo, Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:38ae7efb-a568-4df7-bfcf-4279317e29ae"
+    },
+    {
+      "recipient": "YouTube channel explaining AI capabilities and risks",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka, Elizabeth Van Nostrand, Zvi Mowshowitz, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:f9873847-2c61-402b-8f81-cf16a83f569e",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "the mathematical structure of world models",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 136000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Oliver Habryka, Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d2fbc7f8-23a9-4399-bcfd-7456b5fb7125",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "The Unjournal",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 130000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:79fb1caa-8ef4-4f3a-ad99-b33fc668c6d4",
+      "causes": [
+        "epistemic-infrastructure"
+      ]
+    },
+    {
+      "recipient": "Cooperative Training",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4901eda0-677a-425c-bb5e-ffc2af3d5558"
+    },
+    {
+      "recipient": "Education Progress",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck, Elizabeth Van Nostrand.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:8496c316-f3a6-48c3-ac5a-2a2d9869d606",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Hazard Spence",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:8ab926ba-ce21-4dc5-ab1e-b8abe46b1a42"
+    },
+    {
+      "recipient": "Market Shaping Accelerator",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:93e790a6-f9ef-4f45-971f-d440d882fece",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "MIT",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "MIT: AI Research RCT. Public evaluators: Nathan Young, Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:9f7099f6-4d3b-4327-a6a6-bf9b130e7b2c",
+      "causes": [
+        "ai-adjacent"
+      ]
+    },
+    {
+      "recipient": "Natural Abstraction + More Generally AGI-Not-Kill-Us-Research",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:3e0533cb-bb01-48cf-84ea-128a4dd223e4",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "Ozy Brennan",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:6f85d7a7-ee1e-4967-abf4-376b0772871c"
+    },
+    {
+      "recipient": "SARI",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:b5bc6def-0a44-43d1-bea7-a9bd3699ca63"
+    },
+    {
+      "recipient": "The Consciousness Foundation",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Stuart Buck.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SB",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d38c60fa-3cb0-45f3-970e-bb04e3024cb6"
+    },
+    {
+      "recipient": "The Conversation",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:d1af03a5-1e01-499a-a4c9-9f506551690c",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Education Through Absurdism",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 80000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz, Nate Soares, Oliver Habryka, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:6a9bf610-a292-4ccf-b0cc-d0a8c9412f99"
+    },
+    {
+      "recipient": "Blacklight",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 71601,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Elizabeth Van Nostrand.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EVN2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:5b866f26-308b-4ab4-9227-3fcf1e75f66c"
+    },
+    {
+      "recipient": "Pause IA",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 65530,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Pause IA: Community Organiser. Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:1e657b81-6530-4f99-824f-2c2d344bdbe8",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Research on Generalized Instrumental Convergence",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 64906,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:c6c52c30-fb9e-46ed-8640-886093f43973",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "From economic theories of agency to physics",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 60000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:0975b704-f7dc-46c3-b62b-71b3873ba507",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "John Wentworth",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 60000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "John Wentworth's Research. Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:9657d638-2e89-40f5-bd41-24f6a804a205",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "Mathematical Foundations for Collective Intelligence",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 60000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:e0024934-3728-4229-b9e2-d2e092958be5",
+      "causes": [
+        "ai-theory"
+      ]
+    },
+    {
+      "recipient": "Anatole Chouard",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 60000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "YouTube channel: Chez Anatole. Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:903e4d40-52bc-4381-940e-e1fbbe3b215c",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Finnish Center for Safe AI",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50500,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:dd8ae429-36a5-4005-b13a-122cb740688e",
+      "causes": [
+        "ai-fieldbuilding"
+      ]
+    },
+    {
+      "recipient": "AI Wow",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nathan Young, Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NY2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:1a27f31b-49cc-4970-8358-50b686b6cab8"
+    },
+    {
+      "recipient": "Alterman: Satirical AI Campaign",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin, Nate Soares.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:fa674b0f-f775-49a1-954e-3cd3b311fbd9",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Francisco Carvalho",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Building Tooling to Map how Ideas Spread. Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:c5af93ad-99b8-4cee-8cfe-dce37125ecc0"
+    },
+    {
+      "recipient": "Cambridge AI Foresight: Quarterly Forecasts",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:14a0ca90-8efc-4697-ac68-1392dc7dc2c7",
+      "causes": [
+        "ai-strategy"
+      ]
+    },
+    {
+      "recipient": "PauseAI UK",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Core funding for PauseAI UK. Public evaluators: Robert Mushkatblat, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:5f46c8ab-e871-4efe-a78f-2d370f1a4851",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "MAPLE Documentation, Accountability, and Recovery Effort",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:2039b8ac-5745-4f40-a87a-d246f47e3a9c"
+    },
+    {
+      "recipient": "Missing Measures",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:81cd2806-1324-41b7-8f75-8e7dc6d55326"
+    },
+    {
+      "recipient": "Handcrafting Neural Networks",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 45000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:3f105e61-94db-46a6-841a-5021cc3b54f8",
+      "causes": [
+        "interp"
+      ]
+    },
+    {
+      "recipient": "Haru Kim",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 45000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:317e4372-cfe3-4fc1-8100-9029cb718d0b"
+    },
+    {
+      "recipient": "Abbasi: AI Incident Reporting",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 42000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:17ce5056-3c06-4349-9b2a-3a45322a9481",
+      "causes": [
+        "ai-policy"
+      ]
+    },
+    {
+      "recipient": "artificial.isabel",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 40000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Lowe Lundin, Nate Soares, Oliver Habryka, Robert Mushkatblat, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:3648442d-6756-4062-b878-c6a5b0bcf4b0",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Chris Lakin",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 40000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:f54cfb05-0d36-490b-b564-58eb58188c4d"
+    },
+    {
+      "recipient": "Testing Corrigibility as a Singular Target",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 40000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:54b83e74-3687-4472-bdb5-37916c0b44a1",
+      "causes": [
+        "alignment-methods"
+      ]
+    },
+    {
+      "recipient": "Whylome",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 40000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:a1be2294-1daf-4afc-923e-768701355844"
+    },
+    {
+      "recipient": "Hale: Mechanistic Interpretability Research",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 36000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:00c66ef6-1bdf-42d1-b157-7926fe387d7d",
+      "causes": [
+        "interp"
+      ]
+    },
+    {
+      "recipient": "Robi Rahman",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 30000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind, Lowe Lundin, Zvi Mowshowitz, Eliezer Yudkowsky, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:fd187479-8593-4c28-8beb-0aec8a6e3710"
+    },
+    {
+      "recipient": "Victor Warlop",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 30000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo, Eliezer Yudkowsky.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:eddd8ea6-0337-445f-8464-2653a478dc05"
+    },
+    {
+      "recipient": "Ram Potham",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 25000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:42f81823-7e91-4527-a917-5c00293875f5",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "IBBIS",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 25000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Scaling adoption of synthesis screening outside the US and EU. Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:8f27e743-9fe4-49a6-86cc-d22ba5c2b9a8",
+      "causes": [
+        "biosecurity"
+      ]
+    },
+    {
+      "recipient": "University of Wisconsin-Eau Claire",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 25000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz, Eliezer Yudkowsky.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:7e3aeb22-7987-4267-931e-fb0814a1a4de"
+    },
+    {
+      "recipient": "safely.bio",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 24000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:639fba26-b311-4b53-9880-4ea56ae2f8a8",
+      "causes": [
+        "biosecurity"
+      ]
+    },
+    {
+      "recipient": "Sofia Yablonskaya",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 22000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Reading China's AI Registry: A Public Monitor. Public evaluators: Lowe Lundin, Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:7d338ea1-c13a-4335-a463-fc283e0ab444",
+      "causes": [
+        "international-policy"
+      ]
+    },
+    {
+      "recipient": "AI safety & X-risk communications",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 20000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Zvi Mowshowitz, Nate Soares, Oliver Habryka, Robert Mushkatblat, Scott Siskind, Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/ZM",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:336337c1-e8bc-4d56-8acd-1a54eeebc137",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "DC Mini-Conference",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 20000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:305696ba-3bd2-4f7e-9efd-629dd06ae1d5",
+      "causes": [
+        "ais-events"
+      ]
+    },
+    {
+      "recipient": "Offline Research Retreat",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 20000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:54b2067a-55cd-48d1-b3e8-bb482af4a26e"
+    },
+    {
+      "recipient": "Rachel Farley starts an ambitious comms / special projects operation",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 20000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nate Soares, Oliver Habryka, Robert Mushkatblat.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:186f0628-047e-4b98-815c-973995410cd2",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Sar: AI Welfare Seminar",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 19500,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:561adfb8-c358-4915-80a9-c444e3c2ea56",
+      "causes": [
+        "digital-minds"
+      ]
+    },
+    {
+      "recipient": "The Server Room (working title)",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 15000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:953a8829-40c7-4e23-aad8-8df5bd5a090b"
+    },
+    {
+      "recipient": "Redarc Labs",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 14000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Grant to establish an AI safety lab and fellowship from India. Public evaluators: Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:4427833e-f7e9-4dbd-a0d2-68d208cec58e",
+      "causes": [
+        "ai-fieldbuilding"
+      ]
+    },
+    {
+      "recipient": "PauseAI Germany",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 12000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:20443302-26ac-429f-8dcb-0ee9117c9ee2",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "The Treacherous Team",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 12000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Eliezer Yudkowsky, Zvi Mowshowitz.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EY",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:75980a5e-5bcd-4990-99fc-5212bd7b3e08",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "A Superhuman Language Model for the game of Go",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:9e0af4a2-ee18-4ba9-b36a-b468c7a28245",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "Logan Graves",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Belief state geometry of language model personas. Public evaluators: Richard Ngo.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/RN",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:f8ded55c-f707-4992-8a66-794874c0fe00",
+      "causes": [
+        "interp"
+      ]
+    },
+    {
+      "recipient": "Caitlin Yardley",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Nate Soares.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/NS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:ebbf902e-a4b9-46ef-b501-0e70e3519fa4"
+    },
+    {
+      "recipient": "Mateusz Bagiński",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:59af6432-599d-4d47-9692-b42d2d342f4d",
+      "causes": [
+        "technical-ai-safety"
+      ]
+    },
+    {
+      "recipient": "Signal Technology Foundation",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Elizabeth Van Nostrand.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/EVN2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:7eaa1e80-f525-450c-9ee0-b517a5d3fe14",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "recipient": "Tom Barber",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10000,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Scott Siskind.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/SS",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:5d72de11-4181-43ca-a929-15990a20eb67"
+    },
+    {
+      "recipient": "Pause IA",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 9126,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Pause IA: Advocacy Officer. Public evaluators: Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/OH2",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:233966d4-0345-47bd-b212-b94296418c0e",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Sixsmith: Short-Form AI Risk Videos",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 7425,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Public evaluators: Lowe Lundin, Oliver Habryka.",
+      "sourceUrl": "https://www.lightconecommons.com/profiles/LL",
+      "amountEstimated": true,
+      "estimateNote": "Lower bound: the largest funded amount on the 11 public evaluator profiles; an evaluator with a private order may have taken the grant higher.",
+      "key": "r1:c9754a86-b451-401c-9d37-382d504aa770",
+      "causes": [
+        "ai-advocacy"
+      ]
+    },
+    {
+      "recipient": "Unknown Recipients",
+      "funder": "Unknown Donors",
+      "via": "Lightcone Commons",
+      "amount": 10712965,
+      "currency": "USD",
+      "date": "2026-11-02",
+      "datePrecision": "day",
+      "program": "Lightcone Commons Round 1",
+      "description": "Round 1 granted $45,066,734 to 147 recipients; 34 appear only in the 6 private evaluator orders. This is the total minus the lower bounds recorded for the 113 named recipients.",
+      "sourceUrl": "https://www.lightconecommons.com/#round-one",
+      "amountEstimated": true,
+      "estimateNote": "Upper bound for the unnamed recipients: any shortfall in the named recipients' lower bounds is counted here.",
+      "key": "r1:unknown-recipients",
+      "causes": [
+        "ai-safety"
+      ]
+    }
+  ]
+}

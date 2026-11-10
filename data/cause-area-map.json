@@ -21,7 +21,8 @@
     "sff": "x-risk-other",
     "Long-Term Future Fund": "x-risk-other",
     "Global Catastrophic Risks Fund": "x-risk-other",
-    "clr_fund": "s-risk"
+    "clr_fund": "s-risk",
+    "lightcone_commons": "x-risk-other"
   },
   "labels": {
     "Navigating Transformative AI": "ai-safety",

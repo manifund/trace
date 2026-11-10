@@ -23,6 +23,14 @@
       "source_id": "sff",
       "expected_usd": 213985706,
       "tolerance": 0.01
+    },
+    {
+      "id": "lightcone-commons-r1-total",
+      "description": "Lightcone Commons round 1: 'granted' on the lightconecommons.com homepage round summary ($45.1M, finalized 2026-11-02; parsed 2026-11-10). Named recipients carry lower bounds and the Unknown Recipients row takes the remainder, so this matches by construction; it catches a dropped or duplicated row.",
+      "source_id": "lightcone_commons",
+      "round_contains": "Round 1",
+      "expected_usd": 45066734,
+      "tolerance": 0.001
     }
   ]
 }
