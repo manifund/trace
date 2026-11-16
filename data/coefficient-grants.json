@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-11-09T20:53:19.323Z",
+ "exported_at": "2026-11-16T20:35:17.899Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -280,6 +280,30 @@
    ],
    "title": "Scale-Up of Brick Kiln Emissions-Reduction Study",
    "amount": 3830000
+  },
+  {
+   "id": "grants-41747-0",
+   "org": "Dalberg Media",
+   "date": 1788220800,
+   "slug": "global-health-advocacy-in-europe-contract",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health Advocacy in Europe (Contract)",
+   "amount": 1678500
+  },
+  {
+   "id": "grants-41749-0",
+   "org": "FTI Consulting",
+   "date": 1787702400,
+   "slug": "global-health-rd-public-communications-on-behalf-of-the-health-dividend-campaign",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health R&D Public Communications on Behalf of the Health Dividend Campaign",
+   "amount": 500000
   },
   {
    "id": "grants-41739-0",
@@ -1031,6 +1055,18 @@
    "amount": 60000
   },
   {
+   "id": "grants-41743-0",
+   "org": "Farm Journal Foundation",
+   "date": 1785110400,
+   "slug": "u-s-co-investment-in-food-security",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "U.S. Co-Investment in Food Security",
+   "amount": 200000
+  },
+  {
    "id": "grants-40218-0",
    "org": "Against Malaria Foundation",
    "date": 1785024000,
@@ -1203,6 +1239,18 @@
    ],
    "title": "Monitoring, Evaluation and Learning Support for Animal Welfare Orgs",
    "amount": 990000
+  },
+  {
+   "id": "grants-41925-0",
+   "org": "Kyle House Group",
+   "date": 1784073600,
+   "slug": "aid-policy-strategy-contract",
+   "year": 2026,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Aid Policy Strategy (Contract)",
+   "amount": 1300000
   },
   {
    "id": "grants-40120-0",
@@ -1459,7 +1507,7 @@
     "Biosecurity & Pandemic Preparedness"
    ],
    "title": "Field Testing of Building Protections from Airborne Hazards",
-   "amount": 1393570
+   "amount": 2010000
   },
   {
    "id": "grants-41729-0",
@@ -2241,7 +2289,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Stakeholder Engagement on Plant-Based Food Policies",
-   "amount": 857517
+   "amount": 1257723
   },
   {
    "id": "grants-39946-0",
@@ -3890,7 +3938,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Implementation of Corporate Pledges",
-   "amount": 1430000
+   "amount": 2026241
   },
   {
    "id": "grants-37594-0",
@@ -4210,7 +4258,7 @@
     "Lead Exposure Action Fund"
    ],
    "title": "Device for Lead Measurement in Aqueous Samples",
-   "amount": 298410
+   "amount": 598410
   },
   {
    "id": "grants-37988-0",
@@ -4609,7 +4657,7 @@
     "Navigating Transformative AI"
    ],
    "title": "Study on The Universality of Embedding Spaces (Meenakshi Khosla)",
-   "amount": 231000
+   "amount": 490567
   },
   {
    "id": "grants-37604-0",
@@ -4806,7 +4854,7 @@
     "Lead Exposure Action Fund"
    ],
    "title": "Technical Assistance for Battery Recycling Regulation",
-   "amount": 217298
+   "amount": 227298
   },
   {
    "id": "grants-39594-0",
@@ -5141,7 +5189,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Plant Protein Advocacy",
-   "amount": 702462
+   "amount": 985851
   },
   {
    "id": "grants-36407-0",
@@ -5362,7 +5410,7 @@
     "Biosecurity & Pandemic Preparedness"
    ],
    "title": "General Support",
-   "amount": 4200000
+   "amount": 7200000
   },
   {
    "id": "grants-36875-0",
@@ -5737,6 +5785,18 @@
    "amount": 50000
   },
   {
+   "id": "grants-41983-0",
+   "org": "Value for Good",
+   "date": 1764806400,
+   "slug": "scoping-an-eu-innovation-fund-advocacy-strategy-contract",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Scoping an EU Innovation Fund Advocacy Strategy (Contract)",
+   "amount": 130921
+  },
+  {
    "id": "grants-35839-0",
    "org": "ELLIS Institute Tübingen",
    "date": 1764720000,
@@ -5872,7 +5932,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Broiler and Cage-Free Campaigns in France",
-   "amount": 6806137
+   "amount": 10797853
   },
   {
    "id": "grants-36478-0",
@@ -6033,7 +6093,7 @@
     "Navigating Transformative AI"
    ],
    "title": "General Support",
-   "amount": 36566000
+   "amount": 72894603
   },
   {
    "id": "grants-38040-0",
@@ -6573,7 +6633,7 @@
     "Lead Exposure Action Fund"
    ],
    "title": "Trade Controls on Lead Chromates",
-   "amount": 500000
+   "amount": 620000
   },
   {
    "id": "grants-37815-0",
@@ -6796,6 +6856,18 @@
    "amount": 750000
   },
   {
+   "id": "grants-41977-0",
+   "org": "Eleanor Crook Foundation",
+   "date": 1760918400,
+   "slug": "policymaker-educational-trips-for-studying-global-development",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Policymaker Educational Trips for Studying Global Development",
+   "amount": 2400000
+  },
+  {
    "id": "grants-35843-0",
    "org": "University of Southern California",
    "date": 1760659200,
@@ -6955,7 +7027,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Cage-Free Reforms in the Philippines",
-   "amount": 825000
+   "amount": 1131231
   },
   {
    "id": "grants-41426-0",
@@ -9807,6 +9879,18 @@
    "amount": 71500
   },
   {
+   "id": "grants-41979-0",
+   "org": "ONE Campaign",
+   "date": 1749600000,
+   "slug": "global-health-policy-advocacy",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Health Policy Advocacy",
+   "amount": 543000
+  },
+  {
    "id": "grants-38290-0",
    "org": "Sneha’s Care",
    "date": 1749340800,
@@ -10584,6 +10668,18 @@
    "amount": 58000
   },
   {
+   "id": "grants-41975-0",
+   "org": "William & Mary",
+   "date": 1746489600,
+   "slug": "research-on-domestic-economic-effects-of-us-foreign-aid-contract",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Research on Domestic Economic Effects of US Foreign Aid (Contract)",
+   "amount": 99544
+  },
+  {
    "id": "grants-25920-0",
    "org": "University of Texas at Austin",
    "date": 1746403200,
@@ -10605,7 +10701,7 @@
     "Farm Animal Welfare"
    ],
    "title": "General Support",
-   "amount": 1726120
+   "amount": 2509218
   },
   {
    "id": "grants-36981-0",
@@ -11368,6 +11464,18 @@
    "amount": 96000
   },
   {
+   "id": "grants-41981-0",
+   "org": "Kaiser Family Foundation",
+   "date": 1742342400,
+   "slug": "research-on-global-aid-priorities",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Research on Global Aid Priorities",
+   "amount": 156400
+  },
+  {
    "id": "grants-25112-0",
    "org": "Civita",
    "date": 1742256000,
@@ -11882,7 +11990,19 @@
     "Global Aid Policy"
    ],
    "title": "Aid Policy Strategy (Contract)",
-   "amount": 1379000
+   "amount": 1405000
+  },
+  {
+   "id": "grants-41973-0",
+   "org": "U.S. Global Leadership Coalition",
+   "date": 1739836800,
+   "slug": "global-aid-advocacy",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Global Aid Advocacy",
+   "amount": 350000
   },
   {
    "id": "grants-26271-0",
@@ -12901,10 +13021,11 @@
    "slug": "university-of-ottawa-institute-for-replication-2024",
    "year": 2024,
    "areas": [
-    "Global Health & Wellbeing Opportunities"
+    "Abundance & Growth",
+    "Innovation Policy"
    ],
    "title": "Institute for Replication",
-   "amount": 1005774
+   "amount": 1112548
   },
   {
    "id": "grants-25308-0",
@@ -14602,7 +14723,7 @@
     "Farm Animal Welfare in Europe"
    ],
    "title": "Ethical Investment Criteria",
-   "amount": 95000
+   "amount": 115540
   },
   {
    "id": "grants-22307-0",
@@ -15063,7 +15184,7 @@
     "Navigating Transformative AI"
    ],
    "title": "LLM Research Benchmark (Najoung Kim, Sebastian Schuster)",
-   "amount": 756396
+   "amount": 906396
   },
   {
    "id": "grants-22236-0",
@@ -17728,7 +17849,7 @@
     "Global Aid Policy"
    ],
    "title": "Aid Policy Strategy (Contract)",
-   "amount": 982500
+   "amount": 967500
   },
   {
    "id": "grants-22021-0",
@@ -25299,7 +25420,7 @@
     "Global Catastrophic Risks Opportunities"
    ],
    "title": "Support for Career Development and Transitions",
-   "amount": 11334546
+   "amount": 11680798
   },
   {
    "id": "grants-10622-0",
@@ -27619,8 +27740,8 @@
    "year": 2021,
    "areas": [
     "Human Health and Wellbeing",
-    "Infectious Diseases",
-    "Science and Global Health R&D"
+    "Science and Global Health R&D",
+    "Transformative Science"
    ],
    "title": "Solar Refrigerator Testing",
    "amount": 100000
@@ -27787,8 +27908,7 @@
    "areas": [
     "Infectious Diseases",
     "Other Scientific Research Areas",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Universal Influenza Vaccines (Neil King)",
    "amount": 3230394
@@ -28229,7 +28349,7 @@
    "slug": "schepens-eye-research-institute-at-mass-eye-and-ear-pulmonary-fibrosis-drug-leo-kim",
    "year": 2021,
    "areas": [
-    "Infectious Diseases",
+    "Noninfectious Diseases",
     "Science and Global Health R&D"
    ],
    "title": "Pulmonary Fibrosis Drug (Leo Kim)",
@@ -31705,8 +31825,7 @@
    "slug": "cdc-foundation-reproductive-health-data-analysis-dmitry-kissin",
    "year": 2020,
    "areas": [
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Reproductive Health Data Analysis (Dmitry Kissin)",
    "amount": 662072
@@ -32362,8 +32481,7 @@
    "areas": [
     "Human Health and Wellbeing",
     "Infectious Diseases",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Infant Immunome and Influenza Studies (Mary Staat)",
    "amount": 10605777
@@ -33822,8 +33940,7 @@
    "slug": "georgia-institute-of-technology-biology-research-saad-bhamla",
    "year": 2018,
    "areas": [
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Biology Research (Saad Bhamla)",
    "amount": 50000
@@ -33957,8 +34074,7 @@
    "slug": "university-of-minnesota-twin-cities-nanomaterials-research-claudia-schmidt-dannert",
    "year": 2018,
    "areas": [
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Nanomaterials Research (Claudia Schmidt-Dannert)",
    "amount": 150000
@@ -35689,7 +35805,6 @@
    "slug": "uc-berkeley-aging-research-irina-conboy-2017",
    "year": 2017,
    "areas": [
-    "Noninfectious Diseases",
     "Science and Global Health R&D",
     "Transformative Science"
    ],
@@ -35870,8 +35985,8 @@
    "year": 2017,
    "areas": [
     "Human Health and Wellbeing",
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Noninfectious Diseases",
+    "Science and Global Health R&D"
    ],
    "title": "Organ Regenerative Surgery Research (Tammy Chang)",
    "amount": 825000
@@ -37164,8 +37279,7 @@
    "slug": "research-institute-of-industrial-economics-genomic-research-methods",
    "year": 2016,
    "areas": [
-    "Science and Global Health R&D",
-    "Transformative Science"
+    "Science and Global Health R&D"
    ],
    "title": "Genomic Research Methods",
    "amount": 500000
