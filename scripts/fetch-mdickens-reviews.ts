@@ -2,8 +2,8 @@
 // data/reviews/mdickens-<year>.json, one review per org section. Each body
 // opens with his classification of the org, then his write-up from the
 // Organizations section, then (2024) his "Prioritization within my top five"
-// note where there is one, or (2025) his "Where I'm donating" reasoning for
-// the org he picked. Links are made absolute so they survive leaving the post.
+// note where there is one, or (2025 on) his "Where I'm donating" reasoning
+// for the org he picked. Links are made absolute so they survive leaving the post.
 // Usage: bun run scripts/fetch-mdickens-reviews.ts
 import { writeFileSync } from 'node:fs'
 import * as cheerio from 'cheerio'
@@ -23,6 +23,8 @@ type Post = {
   rename?: Record<string, string>
   // Section title -> classification line, for posts without a formal list.
   classify?: Record<string, string>
+  // Org whose review also gets the "Where I’m donating" section.
+  donatingTo?: string
 }
 
 const POSTS: Post[] = [
@@ -58,6 +60,26 @@ const POSTS: Post[] = [
       ControlAI: 'Non-tax-deductible; tentatively my favorite non-tax-deductible org',
       Encode: 'Non-tax-deductible; open questions, no position yet',
     },
+    donatingTo: 'PauseAI US',
+  },
+  {
+    id: 'mdickens-2026',
+    url: 'https://mdickens.me/2026/11/16/where_I_am_donating_in_2026/',
+    reviewedAt: '2026-11-16',
+    // The non-tax-deductible section is prose with no per-org headings.
+    orgSections: ['Organizations (tax-deductible)'],
+    skip: [],
+    classify: {
+      Evitable: 'Favorite donation target; donating $55,000',
+      'Lightcone Infrastructure': 'Tax-deductible; on my short list, but I prefer public advocacy',
+      'Machine Intelligence Research Institute (MIRI)':
+        'Tax-deductible; on my short list, but less funding-constrained than the others',
+      'Palisade Research': 'Tax-deductible; the org I was second most likely to donate to',
+      'PauseAI Global': 'Tax-deductible; I support their work, but prefer US-based orgs',
+      'PauseAI US': 'Tax-deductible; this year I’d rather donate to Evitable or Stop the AI Race',
+      'Stop the AI Race': 'Tax-deductible; a strong candidate, but I trust Evitable more',
+    },
+    donatingTo: 'Evitable',
   },
 ]
 
@@ -170,7 +192,7 @@ for (const post of POSTS) {
   const classes = post.id === 'mdickens-2024' ? classification2024($, post.url) : null
   const priority = post.id === 'mdickens-2024' ? prioritization2024($, post.url) : null
   let donating: string | null = null
-  if (post.id === 'mdickens-2025') {
+  if (post.donatingTo) {
     const h1 = $('h1')
       .toArray()
       .find((h) => textOf($(h)) === 'Where I’m donating')!
@@ -194,7 +216,7 @@ for (const post of POSTS) {
         const key = matchName(section.title, priority.keys())
         if (key) parts.push(priority.get(key)!)
       }
-      if (donating && org === 'PauseAI US') parts.push(donating)
+      if (donating && org === post.donatingTo) parts.push(donating)
       reviews.push({
         org,
         classification,
