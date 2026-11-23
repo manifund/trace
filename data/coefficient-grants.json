@@ -1,6 +1,6 @@
 {
  "_comment": "Coefficient Giving grants, fetched from their public Algolia index by scripts/fetch-coefficient.ts. Regenerate with `bun run scripts/fetch-coefficient.ts`, then re-ingest with --force.",
- "exported_at": "2026-11-16T20:35:17.899Z",
+ "exported_at": "2026-11-23T22:07:21.228Z",
  "grants": [
   {
    "id": "grants-36950-0",
@@ -39,7 +39,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare Research",
-   "amount": 593333
+   "amount": 1275113
   },
   {
    "id": "grants-41686-0",
@@ -749,7 +749,7 @@
     "Fish Welfare"
    ],
    "title": "Corporate Campaigns in Brazil",
-   "amount": 1436274
+   "amount": 2298201
   },
   {
    "id": "grants-41650-0",
@@ -931,7 +931,7 @@
     "Fish Welfare"
    ],
    "title": "Fish Welfare Advocacy in Norway",
-   "amount": 500000
+   "amount": 748469
   },
   {
    "id": "grants-41207-0",
@@ -1214,7 +1214,7 @@
     "Fish Welfare"
    ],
    "title": "Fish Welfare Research (Dr. Sonia Rey Planellas)",
-   "amount": 390000
+   "amount": 450000
   },
   {
    "id": "grants-40137-0",
@@ -1628,7 +1628,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Spira (Humane Tech Fellowship)",
-   "amount": 450000
+   "amount": 1730747
   },
   {
    "id": "grants-39860-0",
@@ -2043,7 +2043,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare Litigation",
-   "amount": 427333
+   "amount": 1030120
   },
   {
    "id": "grants-39994-0",
@@ -3107,7 +3107,7 @@
     "Global Aid Policy"
    ],
    "title": "General Support",
-   "amount": 2500000
+   "amount": 5500000
   },
   {
    "id": "grants-39864-0",
@@ -4282,7 +4282,7 @@
     "Farm Animal Welfare"
    ],
    "title": "General Support",
-   "amount": 583333
+   "amount": 1883333
   },
   {
    "id": "grants-40125-0",
@@ -4405,7 +4405,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare Advocacy",
-   "amount": 786286
+   "amount": 1089613
   },
   {
    "id": "grants-40838-0",
@@ -5014,7 +5014,7 @@
     "Farm Animal Welfare"
    ],
    "title": "General Support",
-   "amount": 1750000
+   "amount": 3264505
   },
   {
    "id": "grants-37097-0",
@@ -5843,7 +5843,7 @@
     "Fish Welfare"
    ],
    "title": "Wild Fish Welfare Standards and Equipment Pilot",
-   "amount": 387188
+   "amount": 831862
   },
   {
    "id": "grants-38133-0",
@@ -7224,6 +7224,18 @@
    ],
    "title": "Conference Support",
    "amount": 1639500
+  },
+  {
+   "id": "grants-42109-0",
+   "org": "Malnutrition Advocacy Fund",
+   "date": 1759363200,
+   "slug": "future-of-aid-campaign",
+   "year": 2025,
+   "areas": [
+    "Global Aid Policy"
+   ],
+   "title": "Future of Aid Campaign",
+   "amount": 1832500
   },
   {
    "id": "grants-37060-0",
@@ -10120,7 +10132,7 @@
     "Fish Welfare"
    ],
    "title": "Farmed Fish Welfare Standards Implementation",
-   "amount": 522095
+   "amount": 622095
   },
   {
    "id": "grants-38729-0",
@@ -10231,7 +10243,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare in Asia and Latin America",
-   "amount": 663499
+   "amount": 1273743
   },
   {
    "id": "grants-28728-0",
@@ -12678,7 +12690,7 @@
     "Farm Animal Welfare"
    ],
    "title": "General Support",
-   "amount": 1903824
+   "amount": 3522309
   },
   {
    "id": "grants-25404-0",
@@ -16359,7 +16371,7 @@
     "Fish Welfare"
    ],
    "title": "Wild-Caught Fish Welfare",
-   "amount": 831750
+   "amount": 895022
   },
   {
    "id": "grants-20114-0",
@@ -17143,7 +17155,7 @@
     "Farm Animal Welfare"
    ],
    "title": "Farm Animal Welfare Science in Developing Countries",
-   "amount": 396515
+   "amount": 526638
   },
   {
    "id": "grants-19898-0",
