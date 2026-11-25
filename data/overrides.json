@@ -1,6 +1,10 @@
 {
   "_comment": "Manual field overrides applied after every ingest run, keyed by 'source_id:source_record_key'. Values are partial grant fields, e.g. {\"amount\": 100000, \"description\": \"...\"}. Keep a note explaining each override.",
   "overrides": {
+    "manifund:967948b3-2201-1d6f-c32b-a8f0f351de9a:RyanKidd": {
+      "note": "Project was deleted on Manifund, which retitles it 'Project deleted'; original title from the Wayback Machine snapshot of manifund.org/projects/ai-policy-breakthroughs--empowering-insiders",
+      "description": "AI Policy Breakthroughs — Empowering Insiders"
+    },
     "acx_grants:5b48d9a612fd767f13004609724b66cfcc2a2eaa94a0d0a1683709ebb709191a": {
       "note": "ACX 2024 grant listed under Cillian Crosson funds the Tarbell Fellowship program",
       "recipient_name": "Tarbell Center for AI Journalism"

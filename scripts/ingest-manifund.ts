@@ -103,10 +103,11 @@ async function fetchKnownOrgNames(): Promise<Set<string>> {
 
 // Every manifund record Trace has ever stored, tombstoned ones included (so a
 // donation dropped while its project was hidden comes back), with the names
-// its grant was recorded under. A Manifund profile rename must not move an
-// existing grant to a new org, so those names win over the profile's current
-// one whenever the grant is re-derived.
-type Recorded = { recipient: string | null; funder: string | null }
+// and title its grant was recorded under. A Manifund profile rename must not
+// move an existing grant to a new org, and a retitled or deleted project
+// ("Project deleted") must not overwrite its description, so these win over
+// Manifund's current values whenever the grant is re-derived.
+type Recorded = { recipient: string | null; funder: string | null; description: string | null }
 async function fetchRecorded(): Promise<Map<string, Recorded>> {
   const db = createAdminClient()
   const recorded = new Map<string, Recorded>()
@@ -116,6 +117,7 @@ async function fetchRecorded(): Promise<Map<string, Recorded>> {
       .select(
         `source_record_key,
          grant_sources(is_primary, grants(
+           description,
            recipient:orgs!grants_recipient_org_id_fkey(name),
            funder:orgs!grants_funder_org_id_fkey(name)))`
       )
@@ -126,7 +128,11 @@ async function fetchRecorded(): Promise<Map<string, Recorded>> {
       source_record_key: string
       grant_sources: {
         is_primary: boolean
-        grants: { recipient: { name: string } | null; funder: { name: string } | null } | null
+        grants: {
+          description: string | null
+          recipient: { name: string } | null
+          funder: { name: string } | null
+        } | null
       }[]
     }[]
     for (const row of rows) {
@@ -134,6 +140,7 @@ async function fetchRecorded(): Promise<Map<string, Recorded>> {
       recorded.set(row.source_record_key, {
         recipient: grant?.recipient?.name ?? null,
         funder: grant?.funder?.name ?? null,
+        description: grant?.description ?? null,
       })
     }
     if (!data || data.length < 1000) break
@@ -245,7 +252,7 @@ async function main() {
           currency: 'USD',
           date: donor.last.slice(0, 10),
           datePrecision: 'day',
-          description: project.title,
+          description: prior?.description ?? project.title,
           url,
           causeSlugs: causes,
         },
