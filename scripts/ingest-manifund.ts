@@ -2,7 +2,12 @@
 // * --direct (the real one): read Manifund's own Supabase (set
 //   MANIFUND_SUPABASE_URL + MANIFUND_SUPABASE_ANON_KEY in .env.local) and
 //   create one grant per (project, donor) from 'project donation' txns —
-//   funder is the actual donor, via = Manifund.
+//   funder is the actual donor, via = Manifund. Hiding a project later does
+//   not take its donations off Trace: hidden projects are fetched too, but
+//   only donations Trace already recorded while the project was public are
+//   kept (a project hidden before Trace saw it stays out). Likewise a renamed
+//   Manifund profile keeps its existing grants under the name they were
+//   recorded with; only new donations pick up the new name.
 // * default API mode: https://manifund.org/api/v0/projects (paginated via the
 //   ?before= cursor) covers full history but exposes no donor identities or
 //   txn types, so it can only record a coarse aggregate grant per project
@@ -69,7 +74,6 @@ async function fetchDirect(): Promise<Project[]> {
          txns(amount, token, type, created_at, donor:profiles!txns_from_id_fkey(username, full_name)),
          causes(title, slug)`
       )
-      .neq('stage', 'hidden')
       .neq('stage', 'draft')
       .range(from, from + 999)
     if (error) throw error
@@ -103,11 +107,52 @@ async function fetchKnownOrgNames(): Promise<Set<string>> {
   return known
 }
 
+// Every manifund record Trace has ever stored, tombstoned ones included (so a
+// donation dropped while its project was hidden comes back), with the names
+// its grant was recorded under. A Manifund profile rename must not move an
+// existing grant to a new org, so those names win over the profile's current
+// one whenever the grant is re-derived.
+type Recorded = { recipient: string | null; funder: string | null }
+async function fetchRecorded(): Promise<Map<string, Recorded>> {
+  const db = createAdminClient()
+  const recorded = new Map<string, Recorded>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('source_records')
+      .select(
+        `source_record_key,
+         grant_sources(is_primary, grants(
+           recipient:orgs!grants_recipient_org_id_fkey(name),
+           funder:orgs!grants_funder_org_id_fkey(name)))`
+      )
+      .eq('source_id', 'manifund')
+      .range(from, from + 999)
+      .throwOnError()
+    const rows = (data ?? []) as never as {
+      source_record_key: string
+      grant_sources: {
+        is_primary: boolean
+        grants: { recipient: { name: string } | null; funder: { name: string } | null } | null
+      }[]
+    }[]
+    for (const row of rows) {
+      const grant = row.grant_sources.find((link) => link.is_primary)?.grants
+      recorded.set(row.source_record_key, {
+        recipient: grant?.recipient?.name ?? null,
+        funder: grant?.funder?.name ?? null,
+      })
+    }
+    if (!data || data.length < 1000) break
+  }
+  return recorded
+}
+
 async function main() {
   const direct = process.argv.includes('--direct')
   const projects = await (direct ? fetchDirect() : fetchViaApi())
   console.log(`${projects.length} projects fetched${direct ? ' (direct)' : ' (api, recent only)'}`)
   const knownOrgs = await fetchKnownOrgNames()
+  const recorded = direct ? await fetchRecorded() : new Map<string, Recorded>()
 
   // Creators whose projects belong to their organization, not to them.
   // (Most org-run pages are caught by the title-matches-org rule below.)
@@ -129,10 +174,8 @@ async function main() {
     // Hand-reviewed project-to-org map for founder-posted projects whose
     // title doesn't name the org (ChinaTalk, Timaeus, ...).
     const mapped = PROJECT_ORGS[project.id]
-    const recipient =
-      RECIPIENT_OVERRIDES[creatorName] ??
-      mapped ??
-      (titleIsOrg ? project.title.trim() : creatorName)
+    const handRecipient = RECIPIENT_OVERRIDES[creatorName] ?? mapped
+    const recipient = handRecipient ?? (titleIsOrg ? project.title.trim() : creatorName)
     // A project left under its creator's name is a person's, unless the
     // creator's profile is itself an org account.
     const recipientType =
@@ -186,8 +229,11 @@ async function main() {
       byDonor.set(username, entry)
     }
     for (const [username, donor] of byDonor) {
+      const key = `${project.id}:${username}`
+      const prior = recorded.get(key)
+      if (project.stage === 'hidden' && !prior) continue
       records.push({
-        key: `${project.id}:${username}`,
+        key,
         raw: {
           ...shared,
           project_id: project.id,
@@ -196,10 +242,10 @@ async function main() {
           causes: causeSlugs,
         },
         parsed: {
-          funderName: DONOR_OVERRIDES[username]?.name ?? donor.name,
+          funderName: DONOR_OVERRIDES[username]?.name ?? prior?.funder ?? donor.name,
           funderType: 'individual',
           viaNames: DONOR_OVERRIDES[username]?.vias ?? ['Manifund'],
-          recipientName: recipient,
+          recipientName: handRecipient ?? prior?.recipient ?? recipient,
           recipientType,
           amount: Math.round(donor.total * 100) / 100,
           currency: 'USD',
