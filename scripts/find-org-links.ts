@@ -11,7 +11,7 @@ import linksFile from '@/data/org-links.json'
 import projectOrgsFile from '@/data/manifund-project-orgs.json'
 import orgsSeed from '@/data/orgs-seed.json'
 import { writeFileSync } from 'node:fs'
-import { createClient } from '@supabase/supabase-js'
+import { createManifundClient } from './lib/manifund'
 import { createAdminClient } from '@/db/supabase-admin'
 import { countsTowardCoverage } from '@/utils/format'
 import { parseInserts } from './lib/mysqldump-parse'
@@ -136,13 +136,7 @@ async function fromVipul(wanted: Map<string, Org>, byName: Map<string, string>) 
 // Org-run Manifund projects: the creator's profile website is the org's.
 // Person-run projects are skipped; a personal site is not an org homepage.
 async function fromManifund(wanted: Map<string, Org>, byName: Map<string, string>) {
-  const url = process.env.MANIFUND_SUPABASE_URL
-  const key = process.env.MANIFUND_SUPABASE_ANON_KEY
-  if (!url || !key) {
-    console.warn('manifund: skipped (set MANIFUND_SUPABASE_URL and MANIFUND_SUPABASE_ANON_KEY)')
-    return
-  }
-  const manifund = createClient(url, key)
+  const manifund = createManifundClient()
   const projectOrgs = (projectOrgsFile as never as { projects: Record<string, { org: string }> })
     .projects
   const aliasNames = new Set(

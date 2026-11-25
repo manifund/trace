@@ -4,10 +4,10 @@
 // first, each headed by the project and date. Projects map to orgs through the
 // Manifund grants Trace already holds (grant url -> recipient), so a comment on
 // a project with no recorded grant is left out. Reads Manifund's Supabase with
-// the anon key (MANIFUND_SUPABASE_URL / MANIFUND_SUPABASE_ANON_KEY).
+// the anon key.
 // Usage: bun run scripts/fetch-manifund-comments.ts [username ...]
 import { readdirSync, unlinkSync, writeFileSync } from 'node:fs'
-import { createClient } from '@supabase/supabase-js'
+import { createManifundClient } from './lib/manifund'
 import { createAdminClient } from '@/db/supabase-admin'
 
 const MANIFUND = 'https://manifund.org'
@@ -15,10 +15,7 @@ const MANIFUND = 'https://manifund.org'
 // operations (approvals, grant agreements), not assessments of the grantee.
 const STAFF = new Set(['Austin', 'Rachel'])
 
-const manifund = createClient(
-  process.env.MANIFUND_SUPABASE_URL!,
-  process.env.MANIFUND_SUPABASE_ANON_KEY!
-)
+const manifund = createManifundClient()
 const trace = createAdminClient()
 
 // ---- TipTap JSON -> markdown ----

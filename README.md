@@ -13,8 +13,8 @@ bun run dev
 Fill `.env.local` with the two public values (safe to share — they are in every page load of the live site):
 
 ```
-NEXT_PUBLIC_SUPABASE_URL=https://ylckglpbctcxdohxwsnv.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_YWdgab7tIAysyLNPYGxmhQ_Zffh5duQ
+NEXT_PUBLIC_SUPABASE_URL=https://fkousziwzbnkdkldjper.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_78BXUfMCNmv9fkC22jxXxg_e_hgeM1T
 ```
 
 The database is read-only for anonymous users; no other keys are needed.
@@ -28,9 +28,9 @@ The database is read-only for anonymous users; no other keys are needed.
 3. `bun run seed`, then `bun run ingest`. Every ingester is idempotent; the
    checked-in files under `data/` (aliases, overrides, dedup resolutions,
    curated snapshots) reproduce all curation decisions.
-4. `ingest-manifund --direct` additionally wants `MANIFUND_SUPABASE_URL` /
-   `MANIFUND_SUPABASE_ANON_KEY` (Manifund's public anon credentials); without
-   them the Manifund API fallback is used.
+4. `ingest-manifund --direct` reads Manifund's own tables from the same
+   Supabase project (Trace lives in its `trace` schema), so it only works
+   there; elsewhere run it without `--direct` for the coarser API version.
 
 If you just want the data, the live site serves it without any setup:
 `/api/v0` (JSON, CC0), `/api/mcp` (MCP), and `/grants.csv`.

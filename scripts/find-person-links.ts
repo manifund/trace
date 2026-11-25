@@ -9,7 +9,7 @@
 //   bun run find-person-links
 import linksFile from '@/data/person-links.json'
 import { writeFileSync } from 'node:fs'
-import { createClient } from '@supabase/supabase-js'
+import { createManifundClient } from './lib/manifund'
 import { createAdminClient } from '@/db/supabase-admin'
 import type { LinkKind, OrgLinks } from '@/utils/links'
 import { normalizeName, normalizeUrl } from './lib/normalize'
@@ -17,10 +17,7 @@ import { normalizeName, normalizeUrl } from './lib/normalize'
 type Entry = { name: string; via?: string } & { [kind in LinkKind]?: string | null }
 type LinksFile = { _comment: string; people: Record<string, Entry> }
 
-const url = process.env.MANIFUND_SUPABASE_URL
-const key = process.env.MANIFUND_SUPABASE_ANON_KEY
-if (!url || !key) throw new Error('Set MANIFUND_SUPABASE_URL and MANIFUND_SUPABASE_ANON_KEY')
-const manifund = createClient(url, key)
+const manifund = createManifundClient()
 const db = createAdminClient()
 
 // Which kind of link a profile's website field is. Hosts that are neither a

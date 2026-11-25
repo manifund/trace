@@ -1,6 +1,5 @@
 // Manifund funded projects. Two modes:
-// * --direct (the real one): read Manifund's own Supabase (set
-//   MANIFUND_SUPABASE_URL + MANIFUND_SUPABASE_ANON_KEY in .env.local) and
+// * --direct (the real one): read Manifund's own Supabase tables and
 //   create one grant per (project, donor) from 'project donation' txns —
 //   funder is the actual donor, via = Manifund. Hiding a project later does
 //   not take its donations off Trace: hidden projects are fetched too, but
@@ -13,12 +12,12 @@
 //   txn types, so it can only record a coarse aggregate grant per project
 //   (funder = Manifund). Use --direct for real runs; a later --direct run
 //   tombstones the coarse records automatically.
-import { createClient } from '@supabase/supabase-js'
 import projectOrgsFile from '@/data/manifund-project-orgs.json'
 import aliasesFile from '@/data/aliases.json'
 import { createAdminClient } from '@/db/supabase-admin'
 import { classifyCauses } from './lib/causes'
 import { runIngest, type SourceRecordInput } from './lib/ingest'
+import { createManifundClient } from './lib/manifund'
 import { normalizeName } from './lib/normalize'
 
 type Txn = {
@@ -58,12 +57,7 @@ async function fetchViaApi(): Promise<Project[]> {
 }
 
 async function fetchDirect(): Promise<Project[]> {
-  const url = process.env.MANIFUND_SUPABASE_URL
-  const key = process.env.MANIFUND_SUPABASE_ANON_KEY
-  if (!url || !key) {
-    throw new Error('Set MANIFUND_SUPABASE_URL and MANIFUND_SUPABASE_ANON_KEY for --direct')
-  }
-  const db = createClient(url, key)
+  const db = createManifundClient()
   const all: Project[] = []
   for (let from = 0; ; from += 1000) {
     const { data, error } = await db
